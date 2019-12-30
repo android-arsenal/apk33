@@ -1,0 +1,192 @@
+2019-12-30 12:18:04,839 INFO  DownloadService - Downloading "https://github.com/robinkrsingh/EasyLocation/archive/master.zip", attempt 3
+2019-12-30 12:18:07,019 INFO  DownloadService - Downloaded https://github.com/robinkrsingh/EasyLocation/archive/master.zip, attempt 3
+2019-12-30 12:18:07,019 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/master.zip": 148 KB
+2019-12-30 12:18:07,020 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-30 12:18:07,034 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/master.zip: true
+2019-12-30 12:18:07,035 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src'.
+2019-12-30 12:18:07,074 INFO  FullProcessService - Size of directory with sources: 167 KB
+2019-12-30 12:18:07,079 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src]
+2019-12-30 12:18:07,135 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/.git/
+
+2019-12-30 12:18:07,159 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/gradlew
+2019-12-30 12:18:07,174 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/locationgetter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/build.gradle
+2019-12-30 12:18:07,183 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/locationgetter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/settings.gradle
+2019-12-30 12:18:07,185 INFO  ProjectBuildService - Remote scripts: none
+2019-12-30 12:18:07,186 INFO  ProjectFixService - Fixing project...
+2019-12-30 12:18:07,246 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-12-30 12:18:07,246 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-12-30 12:18:07,250 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2019-12-30 12:18:07,253 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
+2019-12-30 12:18:07,257 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-12-30 12:18:07,258 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2019-12-30 12:18:07,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/local.properties
+2019-12-30 12:18:07,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-30 12:18:07,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/locationgetter/local.properties
+2019-12-30 12:18:07,270 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/locationgetter/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-30 12:18:07,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/local.properties
+2019-12-30 12:18:07,277 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-30 12:18:07,278 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-30 12:18:07,280 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-30 12:18:07,281 INFO  ProjectFixService - Project was maybe fixed
+2019-12-30 12:18:07,283 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-30 12:18:07,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-30 12:18:15,308 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-30 12:18:15,309 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-30 12:18:15,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-30 12:18:54,131 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :locationgetter:preBuild UP-TO-DATE
+> Task :locationgetter:preDebugBuild UP-TO-DATE
+> Task :locationgetter:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :locationgetter:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :locationgetter:generateDebugResValues
+> Task :locationgetter:compileDebugRenderscript NO-SOURCE
+> Task :locationgetter:generateDebugResources
+> Task :locationgetter:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :locationgetter:checkDebugManifest
+> Task :app:mergeDebugResources
+> Task :locationgetter:processDebugManifest
+> Task :app:processDebugManifest
+> Task :locationgetter:parseDebugLibraryResources
+> Task :locationgetter:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :locationgetter:mergeDebugShaders
+> Task :locationgetter:compileDebugShaders
+> Task :locationgetter:generateDebugAssets
+> Task :locationgetter:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :locationgetter:processDebugJavaRes NO-SOURCE
+> Task :app:validateSigningDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:signingConfigWriterDebug
+> Task :locationgetter:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :locationgetter:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/locationgetter/src/main/java/com/robin/locationgetter/PermissionHelper.kt: (110, 15): 'onAttach(Activity): Unit' is deprecated. Deprecated in Java
+
+> Task :locationgetter:javaPreCompileDebug
+> Task :locationgetter:compileDebugJavaWithJavac
+> Task :app:mergeExtDexDebug
+> Task :locationgetter:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/src/main/java/com/robin/locationfetchlib/MainActivity.kt: (36, 63): Unnecessary safe call on a non-null receiver of type Location
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/src/main/java/com/robin/locationfetchlib/MainActivity.kt: (36, 95): Unnecessary safe call on a non-null receiver of type Location
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/src/main/java/com/robin/locationfetchlib/MainActivity.kt: (38, 56): Unnecessary safe call on a non-null receiver of type Location
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/src/main/java/com/robin/locationfetchlib/MainActivity.kt: (38, 89): Unnecessary safe call on a non-null receiver of type Location
+
+> Task :locationgetter:bundleLibResDebug
+> Task :locationgetter:bundleLibRuntimeDebug
+> Task :locationgetter:createFullJarDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :locationgetter:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :locationgetter:preReleaseBuild UP-TO-DATE
+> Task :locationgetter:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :locationgetter:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :locationgetter:compileReleaseRenderscript NO-SOURCE
+> Task :locationgetter:generateReleaseResValues
+> Task :locationgetter:generateReleaseResources
+> Task :locationgetter:packageReleaseResources
+> Task :app:mergeDebugJavaResource
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :locationgetter:checkReleaseManifest
+> Task :locationgetter:generateReleaseBuildConfig
+> Task :locationgetter:parseReleaseLibraryResources
+> Task :app:prepareLintJar
+> Task :locationgetter:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :locationgetter:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeReleaseResources
+> Task :locationgetter:mergeDebugNativeLibs
+> Task :locationgetter:stripDebugDebugSymbols
+> Task :locationgetter:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :locationgetter:prepareLintJarForPublish
+> Task :locationgetter:generateReleaseRFile
+> Task :app:processReleaseResources
+
+> Task :locationgetter:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/locationgetter/src/main/java/com/robin/locationgetter/PermissionHelper.kt: (110, 15): 'onAttach(Activity): Unit' is deprecated. Deprecated in Java
+
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :locationgetter:javaPreCompileRelease
+> Task :locationgetter:compileReleaseJavaWithJavac
+> Task :locationgetter:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/src/main/java/com/robin/locationfetchlib/MainActivity.kt: (36, 63): Unnecessary safe call on a non-null receiver of type Location
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/src/main/java/com/robin/locationfetchlib/MainActivity.kt: (36, 95): Unnecessary safe call on a non-null receiver of type Location
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/src/main/java/com/robin/locationfetchlib/MainActivity.kt: (38, 56): Unnecessary safe call on a non-null receiver of type Location
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/src/main/java/com/robin/locationfetchlib/MainActivity.kt: (38, 89): Unnecessary safe call on a non-null receiver of type Location
+
+> Task :locationgetter:bundleLibResRelease
+> Task :locationgetter:bundleLibRuntimeRelease
+> Task :locationgetter:createFullJarRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :locationgetter:mergeReleaseShaders
+> Task :locationgetter:compileReleaseShaders
+> Task :locationgetter:generateReleaseAssets
+> Task :locationgetter:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :locationgetter:mergeReleaseJniLibFolders
+> Task :locationgetter:mergeReleaseNativeLibs
+> Task :locationgetter:stripReleaseDebugSymbols
+> Task :locationgetter:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 38s
+95 actionable tasks: 95 executed
+
+2019-12-30 12:18:54,207 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683084743-0/src/EasyLocation-master/app/build/outputs/apk/debug/app-debug.apk
