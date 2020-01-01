@@ -1,0 +1,226 @@
+2020-01-01 20:02:46,890 INFO  DownloadService - Downloading "https://github.com/tizisdeepan/VideoEditor/archive/master.zip", attempt 3
+2020-01-01 20:02:50,447 INFO  DownloadService - Downloaded https://github.com/tizisdeepan/VideoEditor/archive/master.zip, attempt 3
+2020-01-01 20:02:50,448 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/master.zip": 5 MB
+2020-01-01 20:02:50,449 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-01 20:02:50,470 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/master.zip: true
+2020-01-01 20:02:50,471 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src'.
+2020-01-01 20:02:50,575 INFO  FullProcessService - Size of directory with sources: 7 MB
+2020-01-01 20:02:50,579 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src]
+2020-01-01 20:02:50,614 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/.git/
+
+2020-01-01 20:02:50,633 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/gradlew
+2020-01-01 20:02:50,646 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/build.gradle
+2020-01-01 20:02:50,653 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/build.gradle
+2020-01-01 20:02:50,655 INFO  ProjectBuildService - Remote scripts: none
+2020-01-01 20:02:50,656 INFO  ProjectFixService - Fixing project...
+2020-01-01 20:02:50,671 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2020-01-01 20:02:50,671 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2020-01-01 20:02:50,673 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2020-01-01 20:02:50,676 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
+2020-01-01 20:02:50,679 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2020-01-01 20:02:50,680 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2020-01-01 20:02:50,710 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/local.properties
+2020-01-01 20:02:50,718 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-01 20:02:50,721 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-01 20:02:50,723 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/local.properties
+2020-01-01 20:02:50,725 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-01 20:02:50,725 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-01 20:02:50,727 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/local.properties
+2020-01-01 20:02:50,738 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-01 20:02:50,739 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-01 20:02:50,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-01 20:02:50,741 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-01 20:02:50,742 INFO  ProjectFixService - Project was maybe fixed
+2020-01-01 20:02:50,743 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 20:02:50,744 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 20:02:57,923 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-01 20:02:57,926 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-01 20:02:57,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-01 20:04:27,715 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample-app:preBuild UP-TO-DATE
+> Task :sample-app:preDebugBuild UP-TO-DATE
+> Task :video-editor:preBuild UP-TO-DATE
+> Task :video-editor:preDebugBuild UP-TO-DATE
+> Task :video-editor:compileDebugAidl NO-SOURCE
+> Task :sample-app:compileDebugAidl NO-SOURCE
+> Task :video-editor:packageDebugRenderscript NO-SOURCE
+> Task :sample-app:checkDebugManifest
+> Task :sample-app:compileDebugRenderscript NO-SOURCE
+> Task :sample-app:generateDebugBuildConfig
+> Task :sample-app:mainApkListPersistenceDebug
+> Task :sample-app:generateDebugResValues
+> Task :sample-app:generateDebugResources
+> Task :video-editor:compileDebugRenderscript NO-SOURCE
+> Task :video-editor:generateDebugResValues
+> Task :video-editor:generateDebugResources
+> Task :video-editor:packageDebugResources
+> Task :sample-app:createDebugCompatibleScreenManifests
+> Task :video-editor:checkDebugManifest
+> Task :video-editor:generateDebugBuildConfig
+> Task :video-editor:processDebugManifest
+> Task :sample-app:processDebugManifest
+> Task :sample-app:mergeDebugResources
+> Task :video-editor:parseDebugLibraryResources
+> Task :sample-app:mergeDebugShaders
+> Task :sample-app:compileDebugShaders
+> Task :sample-app:generateDebugAssets
+> Task :video-editor:mergeDebugShaders
+> Task :video-editor:compileDebugShaders
+> Task :video-editor:generateDebugAssets
+> Task :video-editor:packageDebugAssets
+> Task :sample-app:mergeDebugAssets
+> Task :video-editor:generateDebugRFile
+> Task :sample-app:processDebugResources
+
+> Task :video-editor:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/utils/FileUtils.kt: (20, 83): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/utils/RealPathUtil.kt: (20, 83): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/TimeLineView.kt: (74, 21): Unsafe use of a nullable receiver of type Thread.UncaughtExceptionHandler?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/VideoCropper.kt: (36, 42): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/VideoCropper.kt: (125, 21): Unsafe use of a nullable receiver of type String?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/VideoCropper.kt: (186, 21): Unsafe use of a nullable receiver of type Thread.UncaughtExceptionHandler?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/VideoTrimmer.kt: (56, 42): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/VideoTrimmer.kt: (202, 21): Unsafe use of a nullable receiver of type String?
+
+> Task :video-editor:javaPreCompileDebug
+> Task :video-editor:compileDebugJavaWithJavac
+> Task :sample-app:processDebugJavaRes NO-SOURCE
+> Task :video-editor:processDebugJavaRes NO-SOURCE
+> Task :video-editor:bundleLibResDebug
+> Task :video-editor:bundleLibCompileDebug
+
+> Task :sample-app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/CropperActivity.kt: (34, 45): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/CropperActivity.kt: (38, 53): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/CropperActivity.kt: (69, 47): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/CropperActivity.kt: (73, 42): Type mismatch: inferred type is Uri? but Uri was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/TrimmerActivity.kt: (33, 45): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/TrimmerActivity.kt: (41, 53): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/TrimmerActivity.kt: (70, 47): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/TrimmerActivity.kt: (74, 42): Type mismatch: inferred type is Uri? but Uri was expected
+
+> Task :sample-app:javaPreCompileDebug
+> Task :sample-app:compileDebugJavaWithJavac
+> Task :sample-app:compileDebugSources
+> Task :sample-app:checkDebugDuplicateClasses
+> Task :sample-app:transformClassesWithDexBuilderForDebug
+> Task :sample-app:mergeDebugJavaResource
+> Task :sample-app:validateSigningDebug
+> Task :sample-app:signingConfigWriterDebug
+> Task :video-editor:bundleLibRuntimeDebug
+> Task :video-editor:createFullJarDebug
+> Task :sample-app:mergeDebugJniLibFolders
+> Task :video-editor:mergeDebugJniLibFolders
+> Task :sample-app:preReleaseBuild UP-TO-DATE
+> Task :video-editor:preReleaseBuild UP-TO-DATE
+> Task :video-editor:compileReleaseAidl NO-SOURCE
+> Task :sample-app:compileReleaseAidl NO-SOURCE
+> Task :video-editor:packageReleaseRenderscript NO-SOURCE
+> Task :sample-app:compileReleaseRenderscript NO-SOURCE
+> Task :sample-app:checkReleaseManifest
+> Task :sample-app:generateReleaseBuildConfig
+> Task :sample-app:mainApkListPersistenceRelease
+> Task :sample-app:generateReleaseResValues
+> Task :sample-app:generateReleaseResources
+> Task :video-editor:compileReleaseRenderscript NO-SOURCE
+> Task :video-editor:generateReleaseResValues
+> Task :video-editor:generateReleaseResources
+> Task :video-editor:packageReleaseResources
+> Task :sample-app:mergeLibDexDebug
+> Task :sample-app:createReleaseCompatibleScreenManifests
+> Task :video-editor:checkReleaseManifest
+> Task :video-editor:processReleaseManifest
+> Task :sample-app:processReleaseManifest
+> Task :video-editor:mergeDebugNativeLibs
+> Task :video-editor:stripDebugDebugSymbols
+> Task :video-editor:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample-app:mergeProjectDexDebug
+> Task :video-editor:generateReleaseBuildConfig
+> Task :sample-app:prepareLintJar
+> Task :video-editor:processReleaseJavaRes NO-SOURCE
+> Task :sample-app:checkReleaseDuplicateClasses
+> Task :sample-app:mergeReleaseResources
+> Task :video-editor:prepareLintJarForPublish
+> Task :sample-app:mergeDebugNativeLibs
+
+> Task :sample-app:stripDebugDebugSymbols
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libARM_ARCH.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
+> Task :video-editor:parseReleaseLibraryResources
+> Task :video-editor:generateReleaseRFile
+> Task :sample-app:processReleaseResources
+
+> Task :video-editor:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/utils/FileUtils.kt: (20, 83): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/utils/RealPathUtil.kt: (20, 83): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/TimeLineView.kt: (74, 21): Unsafe use of a nullable receiver of type Thread.UncaughtExceptionHandler?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/VideoCropper.kt: (36, 42): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/VideoCropper.kt: (125, 21): Unsafe use of a nullable receiver of type String?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/VideoCropper.kt: (186, 21): Unsafe use of a nullable receiver of type Thread.UncaughtExceptionHandler?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/VideoTrimmer.kt: (56, 42): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/video-editor/src/main/java/com/video/trimmer/view/VideoTrimmer.kt: (202, 21): Unsafe use of a nullable receiver of type String?
+
+> Task :video-editor:javaPreCompileRelease
+> Task :video-editor:compileReleaseJavaWithJavac
+> Task :video-editor:bundleLibResRelease
+> Task :video-editor:bundleLibCompileRelease
+
+> Task :sample-app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/CropperActivity.kt: (34, 45): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/CropperActivity.kt: (38, 53): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/CropperActivity.kt: (69, 47): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/CropperActivity.kt: (73, 42): Type mismatch: inferred type is Uri? but Uri was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/TrimmerActivity.kt: (33, 45): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/TrimmerActivity.kt: (41, 53): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/TrimmerActivity.kt: (70, 47): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/src/main/java/com/video/sample/TrimmerActivity.kt: (74, 42): Type mismatch: inferred type is Uri? but Uri was expected
+
+> Task :video-editor:bundleLibRuntimeRelease
+> Task :video-editor:createFullJarRelease
+> Task :sample-app:javaPreCompileRelease
+> Task :sample-app:compileReleaseJavaWithJavac
+> Task :sample-app:compileReleaseSources
+
+> Task :sample-app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c17879961bd5d238268b956c4a490e94/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :sample-app:mergeExtDexDebug
+> Task :sample-app:packageDebug
+> Task :sample-app:assembleDebug
+> Task :sample-app:transformClassesWithDexBuilderForRelease
+> Task :sample-app:mergeReleaseShaders
+> Task :sample-app:compileReleaseShaders
+> Task :sample-app:generateReleaseAssets
+> Task :video-editor:mergeReleaseShaders
+> Task :video-editor:compileReleaseShaders
+> Task :video-editor:generateReleaseAssets
+> Task :video-editor:packageReleaseAssets
+> Task :sample-app:mergeReleaseAssets
+> Task :sample-app:processReleaseJavaRes NO-SOURCE
+> Task :sample-app:signingConfigWriterRelease
+> Task :sample-app:mergeReleaseJniLibFolders
+> Task :video-editor:mergeReleaseJniLibFolders
+> Task :video-editor:mergeReleaseNativeLibs
+> Task :video-editor:stripReleaseDebugSymbols
+> Task :video-editor:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample-app:mergeReleaseNativeLibs
+
+> Task :sample-app:stripReleaseDebugSymbols
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/build/intermediates/merged_native_libs/release/out/lib/armeabi/libARM_ARCH.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
+> Task :sample-app:mergeReleaseJavaResource
+> Task :sample-app:mergeExtDexRelease
+> Task :sample-app:mergeDexRelease
+> Task :sample-app:packageRelease
+> Task :sample-app:assembleRelease
+> Task :sample-app:assemble
+> Task :sample-app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 29s
+95 actionable tasks: 95 executed
+
+2020-01-01 20:04:27,837 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577883766827-0/src/VideoEditor-master/sample-app/build/outputs/apk/release/sample-app-release-unsigned.apk
