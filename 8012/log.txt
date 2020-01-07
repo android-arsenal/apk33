@@ -1,0 +1,271 @@
+2020-01-07 17:42:55,630 INFO  DownloadService - Downloading "https://github.com/Armen101/AudioRecordView/archive/master.zip", attempt 3
+2020-01-07 17:42:56,364 INFO  DownloadService - Downloaded https://github.com/Armen101/AudioRecordView/archive/master.zip, attempt 3
+2020-01-07 17:42:56,365 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/master.zip": 213 KB
+2020-01-07 17:42:56,365 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-07 17:42:56,365 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/master.zip: true
+2020-01-07 17:42:56,366 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src'.
+2020-01-07 17:42:56,396 INFO  FullProcessService - Size of directory with sources: 236 KB
+2020-01-07 17:42:56,396 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src]
+2020-01-07 17:42:56,413 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/.git/
+
+2020-01-07 17:42:56,417 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/gradlew
+2020-01-07 17:42:56,421 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/visualizer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/audio/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/build.gradle
+2020-01-07 17:42:56,424 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/audio/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/visualizer/build.gradle
+2020-01-07 17:42:56,425 INFO  ProjectBuildService - Remote scripts: none
+2020-01-07 17:42:56,425 INFO  ProjectFixService - Fixing project...
+2020-01-07 17:42:56,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/visualizer/local.properties
+2020-01-07 17:42:56,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/visualizer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-07 17:42:56,438 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/visualizer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-07 17:42:56,440 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/app/local.properties
+2020-01-07 17:42:56,441 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-07 17:42:56,442 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-07 17:42:56,443 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/audio/local.properties
+2020-01-07 17:42:56,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/audio/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-07 17:42:56,445 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/audio/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-07 17:42:56,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/local.properties
+2020-01-07 17:42:56,446 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-01-07 17:42:56,446 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-01-07 17:42:56,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-07 17:42:56,448 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-07 17:42:56,449 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/local.properties
+2020-01-07 17:42:56,450 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-07 17:42:56,450 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-07 17:42:56,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-07 17:42:56,456 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-07 17:42:56,456 INFO  ProjectFixService - Project was maybe fixed
+2020-01-07 17:42:56,457 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-07 17:42:56,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/visualizer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-07 17:43:06,379 INFO  ProjectTaskService - Detected possible tasks: 64
+2020-01-07 17:43:06,379 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-07 17:43:06,380 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/Views/visualizer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-07 17:43:11,294 INFO  VirusProcessorServiceImpl - Queued project 8016 to scan viruses
+2020-01-07 17:43:24,922 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :visualizer
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Task :visualizer:preBuild UP-TO-DATE
+> Task :visualizer:preDebugBuild UP-TO-DATE
+> Task :visualizer:checkDebugManifest
+> Task :visualizer:generateDebugBuildConfig
+> Task :visualizer:generateDebugResValues
+> Task :visualizer:processDebugManifest
+> Task :visualizer:prepareLintJar
+> Task :visualizer:mergeDebugConsumerProguardFiles
+> Task :visualizer:mergeDebugShaders
+> Task :visualizer:compileDebugShaders
+> Task :visualizer:generateDebugAssets
+> Task :visualizer:packageDebugAssets
+> Task :visualizer:packageDebugRenderscript NO-SOURCE
+> Task :visualizer:prepareLintJarForPublish
+> Task :visualizer:processDebugJavaRes NO-SOURCE
+> Task :visualizer:mergeDebugJniLibFolders
+> Task :visualizer:transformNativeLibsWithMergeJniLibsForDebug
+> Task :visualizer:compileDebugAidl NO-SOURCE
+> Task :visualizer:compileDebugRenderscript NO-SOURCE
+> Task :visualizer:generateDebugResources
+> Task :visualizer:packageDebugResources
+> Task :visualizer:generateDebugRFile
+> Task :visualizer:compileDebugKotlin
+> Task :visualizer:generateDebugSources
+> Task :visualizer:javaPreCompileDebug
+> Task :visualizer:compileDebugJavaWithJavac
+> Task :visualizer:extractDebugAnnotations
+> Task :visualizer:transformResourcesWithMergeJavaResForDebug
+> Task :visualizer:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :visualizer:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :visualizer:transformNativeLibsWithSyncJniLibsForDebug
+> Task :visualizer:bundleDebugAar
+> Task :visualizer:compileDebugSources
+> Task :visualizer:assembleDebug
+> Task :visualizer:preReleaseBuild UP-TO-DATE
+> Task :visualizer:compileReleaseAidl NO-SOURCE
+> Task :visualizer:compileReleaseRenderscript NO-SOURCE
+> Task :visualizer:checkReleaseManifest
+> Task :visualizer:generateReleaseBuildConfig
+> Task :visualizer:generateReleaseResValues
+> Task :visualizer:generateReleaseResources
+> Task :visualizer:packageReleaseResources
+> Task :visualizer:processReleaseManifest
+> Task :visualizer:generateReleaseRFile
+> Task :visualizer:compileReleaseKotlin
+> Task :visualizer:generateReleaseSources
+> Task :visualizer:javaPreCompileRelease
+> Task :visualizer:compileReleaseJavaWithJavac
+> Task :visualizer:extractReleaseAnnotations
+> Task :visualizer:mergeReleaseConsumerProguardFiles
+> Task :visualizer:mergeReleaseShaders
+> Task :visualizer:compileReleaseShaders
+> Task :visualizer:generateReleaseAssets
+> Task :visualizer:packageReleaseAssets
+> Task :visualizer:packageReleaseRenderscript NO-SOURCE
+> Task :visualizer:processReleaseJavaRes NO-SOURCE
+> Task :visualizer:transformResourcesWithMergeJavaResForRelease
+> Task :visualizer:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :visualizer:mergeReleaseJniLibFolders
+> Task :visualizer:transformNativeLibsWithMergeJniLibsForRelease
+> Task :visualizer:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :visualizer:transformNativeLibsWithSyncJniLibsForRelease
+> Task :visualizer:bundleReleaseAar
+> Task :visualizer:compileReleaseSources
+> Task :visualizer:mergeReleaseResources
+> Task :visualizer:verifyReleaseResources
+> Task :visualizer:assembleRelease
+> Task :visualizer:assemble
+> Task :visualizer:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 17s
+46 actionable tasks: 46 executed
+
+2020-01-07 17:43:24,958 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-07 17:43:24,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-07 17:43:31,127 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-07 17:43:31,127 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-07 17:43:31,128 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-07 17:44:19,276 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :audio
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :audio:preBuild UP-TO-DATE
+> Task :audio:preDebugBuild UP-TO-DATE
+> Task :audio:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :audio:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :audio:generateDebugResValues
+> Task :audio:compileDebugRenderscript NO-SOURCE
+> Task :audio:generateDebugResources
+> Task :audio:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :audio:checkDebugManifest
+> Task :audio:processDebugManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :audio:parseDebugLibraryResources
+> Task :audio:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :audio:mergeDebugShaders
+> Task :audio:compileDebugShaders
+> Task :audio:generateDebugAssets
+> Task :audio:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :audio:processDebugJavaRes NO-SOURCE
+> Task :audio:generateDebugRFile
+> Task :app:processDebugResources
+> Task :audio:compileDebugKotlin
+> Task :app:checkDebugDuplicateClasses
+> Task :audio:javaPreCompileDebug
+> Task :audio:compileDebugJavaWithJavac
+> Task :audio:bundleLibResDebug
+> Task :audio:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :audio:bundleLibRuntimeDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :audio:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :audio:preReleaseBuild UP-TO-DATE
+> Task :audio:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :audio:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :audio:compileReleaseRenderscript NO-SOURCE
+> Task :audio:generateReleaseResValues
+> Task :audio:generateReleaseResources
+> Task :audio:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :audio:checkReleaseManifest
+> Task :audio:mergeDebugNativeLibs
+> Task :audio:stripDebugDebugSymbols
+> Task :audio:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :audio:generateReleaseBuildConfig
+> Task :audio:parseReleaseLibraryResources
+> Task :audio:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :audio:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :audio:compileReleaseKotlin
+> Task :audio:javaPreCompileRelease
+> Task :audio:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :audio:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :audio:prepareLintJarForPublish
+> Task :audio:bundleLibRuntimeRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/42d4d32602f6e162c7e41339147f7b6b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :audio:mergeReleaseShaders
+> Task :audio:compileReleaseShaders
+> Task :audio:generateReleaseAssets
+> Task :audio:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :audio:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :audio:mergeReleaseJniLibFolders
+> Task :audio:bundleLibResRelease
+> Task :audio:mergeReleaseNativeLibs
+> Task :audio:stripReleaseDebugSymbols
+> Task :audio:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 47s
+92 actionable tasks: 92 executed
+
+2020-01-07 17:44:19,365 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393775625-0/src/AudioRecordView-master/app/build/outputs/apk/debug/app-debug.apk
