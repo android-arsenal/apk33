@@ -1,55 +1,49 @@
-2020-01-01 21:29:59,424 INFO  DownloadService - Downloading "https://github.com/ImaginativeShohag/Oops-No-Internet/archive/master.zip", attempt 3
-2020-01-01 21:30:02,813 INFO  DownloadService - Downloaded https://github.com/ImaginativeShohag/Oops-No-Internet/archive/master.zip, attempt 3
-2020-01-01 21:30:02,813 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/master.zip": 2 MB
-2020-01-01 21:30:02,814 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-01 21:30:02,825 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/master.zip: true
-2020-01-01 21:30:02,825 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src'.
-2020-01-01 21:30:02,874 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-01-01 21:30:02,878 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src]
-2020-01-01 21:30:02,909 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/.git/
+2020-01-24 14:36:01,094 INFO  DownloadService - Downloading "https://github.com/ImaginativeShohag/Oops-No-Internet/archive/master.zip", attempt 3
+2020-01-24 14:36:02,179 INFO  DownloadService - Downloaded https://github.com/ImaginativeShohag/Oops-No-Internet/archive/master.zip, attempt 3
+2020-01-24 14:36:02,180 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/master.zip": 2 MB
+2020-01-24 14:36:02,180 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-24 14:36:02,180 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/master.zip: true
+2020-01-24 14:36:02,181 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src'.
+2020-01-24 14:36:02,212 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-01-24 14:36:02,212 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src]
+2020-01-24 14:36:02,232 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/.git/
 
-2020-01-01 21:30:02,923 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/gradlew
-2020-01-01 21:30:02,931 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/build.gradle
-2020-01-01 21:30:02,940 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/settings.gradle
-2020-01-01 21:30:02,943 INFO  ProjectBuildService - Remote scripts: none
-2020-01-01 21:30:02,945 INFO  ProjectFixService - Fixing project...
-2020-01-01 21:30:02,986 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2020-01-01 21:30:02,986 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2020-01-01 21:30:02,988 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2020-01-01 21:30:02,991 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
-2020-01-01 21:30:02,993 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2020-01-01 21:30:02,994 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2020-01-01 21:30:02,995 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/local.properties
-2020-01-01 21:30:03,000 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-01 21:30:03,002 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/local.properties
-2020-01-01 21:30:03,007 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-01 21:30:03,008 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-01 21:30:03,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-01 21:30:03,011 INFO  ProjectFixService - Project was maybe fixed
-2020-01-01 21:30:03,013 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-01 21:30:03,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-01 21:30:11,217 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-01-01 21:30:11,217 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-01 21:30:11,218 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-01 21:30:37,991 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-24 14:36:02,235 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/gradlew
+2020-01-24 14:36:02,237 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/build.gradle
+2020-01-24 14:36:02,240 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/settings.gradle
+2020-01-24 14:36:02,240 INFO  ProjectBuildService - Remote scripts: none
+2020-01-24 14:36:02,240 INFO  ProjectFixService - Fixing project...
+2020-01-24 14:36:02,245 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/local.properties
+2020-01-24 14:36:02,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-24 14:36:02,246 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/local.properties
+2020-01-24 14:36:02,247 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-24 14:36:02,247 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-24 14:36:02,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-24 14:36:02,248 INFO  ProjectFixService - Project was maybe fixed
+2020-01-24 14:36:02,248 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-24 14:36:02,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-24 14:36:08,139 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-01-24 14:36:08,139 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-24 14:36:08,139 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-24 14:36:08,712 INFO  VirusProcessorServiceImpl - Queued project 8028 to scan viruses
+2020-01-24 14:36:40,182 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:generateDebugResValues
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugResources
 > Task :app:packageDebugResources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
+> Task :app:processDebugManifest
 > Task :app:generateDebugAssets
 > Task :app:packageDebugAssets
 > Task :app:packageDebugRenderscript NO-SOURCE
-> Task :app:processDebugManifest
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:mergeDebugJniLibFolders
-> Task :app:prepareLintJarForPublish
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
@@ -61,7 +55,7 @@
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
 > Task :app:transformNativeLibsWithSyncJniLibsForDebug
-> Task :app:parseReleaseLibraryResources
+> Task :app:prepareLintJarForPublish
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -69,39 +63,41 @@
 > Task :app:packageReleaseRenderscript NO-SOURCE
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:mergeReleaseJniLibFolders
+> Task :app:parseReleaseLibraryResources
 > Task :app:processReleaseManifest
+> Task :app:parseDebugLibraryResources
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:transformNativeLibsWithSyncJniLibsForRelease
-> Task :app:parseDebugLibraryResources
 > Task :app:mergeReleaseResources
 > Task :app:generateReleaseRFile
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (10, 20): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 28): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (78, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (7, 20): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 28): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (117, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (16, 49): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (18, 31): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (10, 20): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 28): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (78, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (7, 20): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 28): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (117, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (17, 49): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (19, 31): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
 
+> Task :app:verifyReleaseResources
 > Task :app:generateDebugRFile
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (10, 20): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 28): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (78, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (7, 20): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 28): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (117, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (16, 49): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (18, 31): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (10, 20): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 28): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (78, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (7, 20): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 28): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (117, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (17, 49): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (19, 31): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
 
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
@@ -109,17 +105,16 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/
 > Task :app:mergeReleaseGeneratedProguardFiles
 > Task :app:mergeReleaseConsumerProguardFiles
 > Task :app:compileReleaseSources
-> Task :app:verifyReleaseResources
-> Task :app:mergeReleaseJavaResource
-> Task :app:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :app:bundleReleaseAar
-> Task :app:assembleRelease
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:extractDebugAnnotations
 > Task :app:mergeDebugGeneratedProguardFiles
 > Task :app:mergeDebugConsumerProguardFiles
+> Task :app:mergeReleaseJavaResource
 > Task :app:compileDebugSources
+> Task :app:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :app:bundleReleaseAar
+> Task :app:assembleRelease
 > Task :app:mergeDebugJavaResource
 > Task :app:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :app:bundleDebugAar
@@ -127,23 +122,24 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 26s
+BUILD SUCCESSFUL in 31s
 49 actionable tasks: 49 executed
 
-2020-01-01 21:30:38,056 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-01 21:30:38,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-01 21:30:44,963 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-01-01 21:30:44,964 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-01 21:30:44,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577888999363-0/src/Oops-No-Internet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-01 21:30:54,956 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-24 14:36:40,245 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-24 14:36:40,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-24 14:36:56,034 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-01-24 14:36:56,035 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-24 14:36:56,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-24 14:37:11,550 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:checkDebugManifest UP-TO-DATE
 > Task :app:generateDebugBuildConfig UP-TO-DATE
 > Task :app:generateDebugResValues UP-TO-DATE
 > Task :app:processDebugManifest UP-TO-DATE
-> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:mergeDebugShaders UP-TO-DATE
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:generateDebugResources UP-TO-DATE
 > Task :app:packageDebugResources UP-TO-DATE
 > Task :app:parseDebugLibraryResources UP-TO-DATE
@@ -154,7 +150,6 @@ BUILD SUCCESSFUL in 26s
 > Task :app:extractDebugAnnotations UP-TO-DATE
 > Task :app:mergeDebugGeneratedProguardFiles UP-TO-DATE
 > Task :app:mergeDebugConsumerProguardFiles UP-TO-DATE
-> Task :app:mergeDebugShaders UP-TO-DATE
 > Task :app:compileDebugShaders UP-TO-DATE
 > Task :app:generateDebugAssets UP-TO-DATE
 > Task :app:packageDebugAssets UP-TO-DATE
@@ -207,8 +202,8 @@ BUILD SUCCESSFUL in 26s
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 15s
 49 actionable tasks: 1 executed, 48 up-to-date
 
-2020-01-01 21:30:55,015 ERROR FullProcessService - Project build has not produced APK file
-2020-01-01 21:30:55,065 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-24 14:37:11,617 ERROR FullProcessService - Project build has not produced APK file
+2020-01-24 14:37:11,661 ERROR FullProcessService - Could not find generated or existed APK file

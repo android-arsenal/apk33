@@ -1,0 +1,185 @@
+2020-01-24 14:35:07,584 INFO  DownloadService - Downloading "https://github.com/salehyarahmadi/RoomDatabaseBackupAndRestore/archive/master.zip", attempt 3
+2020-01-24 14:35:08,163 INFO  DownloadService - Downloaded https://github.com/salehyarahmadi/RoomDatabaseBackupAndRestore/archive/master.zip, attempt 3
+2020-01-24 14:35:08,163 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/master.zip": 162 KB
+2020-01-24 14:35:08,163 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-24 14:35:08,164 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/master.zip: true
+2020-01-24 14:35:08,164 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src'.
+2020-01-24 14:35:08,190 INFO  FullProcessService - Size of directory with sources: 183 KB
+2020-01-24 14:35:08,190 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src]
+2020-01-24 14:35:08,208 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/.git/
+
+2020-01-24 14:35:08,211 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/gradlew
+2020-01-24 14:35:08,214 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/roomdatabasebackupandrestore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/build.gradle
+2020-01-24 14:35:08,217 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/roomdatabasebackupandrestore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/settings.gradle
+2020-01-24 14:35:08,218 INFO  ProjectBuildService - Remote scripts: none
+2020-01-24 14:35:08,218 INFO  ProjectFixService - Fixing project...
+2020-01-24 14:35:08,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/local.properties
+2020-01-24 14:35:08,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-01-24 14:35:08,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/roomdatabasebackupandrestore/local.properties
+2020-01-24 14:35:08,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/roomdatabasebackupandrestore/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-01-24 14:35:08,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/local.properties
+2020-01-24 14:35:08,228 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-24 14:35:08,229 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-24 14:35:08,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-01-24 14:35:08,230 INFO  ProjectFixService - Project was maybe fixed
+2020-01-24 14:35:08,230 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-24 14:35:08,230 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-24 14:35:14,201 INFO  VirusProcessorServiceImpl - Queued project 8029 to scan viruses
+2020-01-24 14:35:15,831 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-01-24 14:35:15,831 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-24 14:35:15,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-24 14:36:00,360 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed soon. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :roomdatabasebackupandrestore:preBuild UP-TO-DATE
+> Task :roomdatabasebackupandrestore:preDebugBuild UP-TO-DATE
+> Task :roomdatabasebackupandrestore:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :roomdatabasebackupandrestore:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :roomdatabasebackupandrestore:checkDebugManifest
+> Task :roomdatabasebackupandrestore:compileDebugRenderscript NO-SOURCE
+> Task :roomdatabasebackupandrestore:generateDebugBuildConfig
+> Task :roomdatabasebackupandrestore:generateDebugResValues
+> Task :roomdatabasebackupandrestore:generateDebugResources
+> Task :roomdatabasebackupandrestore:packageDebugResources
+> Task :app:mainApkListPersistenceDebug
+> Task :roomdatabasebackupandrestore:parseDebugLibraryResources
+> Task :roomdatabasebackupandrestore:processDebugManifest
+> Task :roomdatabasebackupandrestore:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :roomdatabasebackupandrestore:generateDebugRFile
+> Task :roomdatabasebackupandrestore:compileDebugJavaWithJavac
+> Task :app:mergeDebugResources
+> Task :roomdatabasebackupandrestore:bundleLibCompileDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/src/main/java/ir/androidexception/sqlitebackupandrestoreexample/database/MyDatabase.java:18: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class MyDatabase extends RoomDatabase {
+                ^
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/src/main/java/ir/androidexception/sqlitebackupandrestoreexample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :roomdatabasebackupandrestore:mergeDebugShaders
+> Task :roomdatabasebackupandrestore:compileDebugShaders
+> Task :roomdatabasebackupandrestore:generateDebugAssets
+> Task :roomdatabasebackupandrestore:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :roomdatabasebackupandrestore:processDebugJavaRes NO-SOURCE
+> Task :roomdatabasebackupandrestore:bundleLibResDebug
+> Task :roomdatabasebackupandrestore:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :roomdatabasebackupandrestore:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :roomdatabasebackupandrestore:preReleaseBuild UP-TO-DATE
+> Task :roomdatabasebackupandrestore:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :roomdatabasebackupandrestore:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :roomdatabasebackupandrestore:compileReleaseRenderscript NO-SOURCE
+> Task :roomdatabasebackupandrestore:checkReleaseManifest
+> Task :roomdatabasebackupandrestore:generateReleaseBuildConfig
+> Task :roomdatabasebackupandrestore:generateReleaseResValues
+> Task :roomdatabasebackupandrestore:generateReleaseResources
+> Task :roomdatabasebackupandrestore:packageReleaseResources
+> Task :roomdatabasebackupandrestore:mergeDebugNativeLibs
+> Task :roomdatabasebackupandrestore:stripDebugDebugSymbols
+> Task :roomdatabasebackupandrestore:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :roomdatabasebackupandrestore:parseReleaseLibraryResources
+> Task :roomdatabasebackupandrestore:processReleaseManifest
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :roomdatabasebackupandrestore:generateReleaseRFile
+> Task :roomdatabasebackupandrestore:javaPreCompileRelease
+> Task :roomdatabasebackupandrestore:compileReleaseJavaWithJavac
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :roomdatabasebackupandrestore:bundleLibCompileRelease
+> Task :app:prepareLintJar
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/src/main/java/ir/androidexception/sqlitebackupandrestoreexample/database/MyDatabase.java:18: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class MyDatabase extends RoomDatabase {
+                ^
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/src/main/java/ir/androidexception/sqlitebackupandrestoreexample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+> Task :roomdatabasebackupandrestore:bundleLibRuntimeRelease
+> Task :app:compileReleaseSources
+> Task :app:checkReleaseDuplicateClasses
+> Task :roomdatabasebackupandrestore:prepareLintJarForPublish
+> Task :app:lintVitalRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:desugarReleaseFileDependencies
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :roomdatabasebackupandrestore:mergeReleaseShaders
+> Task :roomdatabasebackupandrestore:compileReleaseShaders
+> Task :roomdatabasebackupandrestore:generateReleaseAssets
+> Task :roomdatabasebackupandrestore:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :roomdatabasebackupandrestore:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :roomdatabasebackupandrestore:mergeReleaseJniLibFolders
+> Task :roomdatabasebackupandrestore:bundleLibResRelease
+> Task :roomdatabasebackupandrestore:mergeReleaseNativeLibs
+> Task :roomdatabasebackupandrestore:stripReleaseDebugSymbols
+> Task :roomdatabasebackupandrestore:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 43s
+90 actionable tasks: 90 executed
+
+2020-01-24 14:36:00,428 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851307572-0/src/RoomDatabaseBackupAndRestore-master/app/build/outputs/apk/debug/app-debug.apk
