@@ -1,34 +1,39 @@
-2020-01-05 23:23:35,541 INFO  DownloadService - Downloading "https://github.com/crypticminds/ColdStorage/archive/master.zip", attempt 3
-2020-01-05 23:23:38,165 INFO  DownloadService - Downloaded https://github.com/crypticminds/ColdStorage/archive/master.zip, attempt 3
-2020-01-05 23:23:38,165 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/master.zip": 152 KB
-2020-01-05 23:23:38,165 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-05 23:23:38,168 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/master.zip: true
-2020-01-05 23:23:38,168 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src'.
-2020-01-05 23:23:38,190 INFO  FullProcessService - Size of directory with sources: 173 KB
-2020-01-05 23:23:38,190 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src]
-2020-01-05 23:23:38,220 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/.git/
+2020-02-04 00:38:33,834 INFO  DownloadService - Downloading "https://github.com/crypticminds/ColdStorage/archive/master.zip", attempt 3
+2020-02-04 00:38:36,358 INFO  DownloadService - Downloaded https://github.com/crypticminds/ColdStorage/archive/master.zip, attempt 3
+2020-02-04 00:38:36,358 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/master.zip": 179 KB
+2020-02-04 00:38:36,358 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-04 00:38:36,359 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/master.zip: true
+2020-02-04 00:38:36,359 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src'.
+2020-02-04 00:38:36,409 INFO  FullProcessService - Size of directory with sources: 241 KB
+2020-02-04 00:38:36,410 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src]
+2020-02-04 00:38:36,454 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/.git/
 
-2020-01-05 23:23:38,224 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/gradlew
-2020-01-05 23:23:38,228 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/coldstoragecache/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/build.gradle
-2020-01-05 23:23:38,231 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/coldstoragecache/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/settings.gradle
-2020-01-05 23:23:38,231 INFO  ProjectBuildService - Remote scripts: none
-2020-01-05 23:23:38,231 INFO  ProjectFixService - Fixing project...
-2020-01-05 23:23:38,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/app/local.properties
-2020-01-05 23:23:38,239 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-05 23:23:38,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/coldstoragecache/local.properties
-2020-01-05 23:23:38,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/coldstoragecache/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-05 23:23:38,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/local.properties
-2020-01-05 23:23:38,242 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-05 23:23:38,242 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-05 23:23:38,243 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-05 23:23:38,244 INFO  ProjectFixService - Project was maybe fixed
-2020-01-05 23:23:38,244 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-05 23:23:38,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-05 23:23:40,337 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-05 23:23:40,337 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-05 23:23:40,337 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-05 23:23:40,338 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-05 23:23:42,264 ERROR SysUtils - Could not process external command
+2020-02-04 00:38:36,461 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew
+2020-02-04 00:38:36,469 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecache/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstorageannotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecompiler/build.gradle
+2020-02-04 00:38:36,476 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecompiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstorageannotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecache/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/settings.gradle
+2020-02-04 00:38:36,478 INFO  ProjectBuildService - Remote scripts: none
+2020-02-04 00:38:36,478 INFO  ProjectFixService - Fixing project...
+2020-02-04 00:38:36,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/app/local.properties
+2020-02-04 00:38:36,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-02-04 00:38:36,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecache/local.properties
+2020-02-04 00:38:36,499 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecache/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-02-04 00:38:36,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/local.properties
+2020-02-04 00:38:36,501 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-02-04 00:38:36,502 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-02-04 00:38:36,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-02-04 00:38:36,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstorageannotation/local.properties
+2020-02-04 00:38:36,507 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstorageannotation/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-02-04 00:38:36,508 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecompiler/local.properties
+2020-02-04 00:38:36,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecompiler/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-02-04 00:38:36,511 INFO  ProjectFixService - Project was maybe fixed
+2020-02-04 00:38:36,511 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-04 00:38:36,511 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-04 00:38:41,516 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-02-04 00:38:41,516 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-02-04 00:38:41,516 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-02-04 00:38:41,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-02-04 00:38:42,388 INFO  VirusProcessorServiceImpl - Queued project 8036 to scan viruses
+2020-02-04 00:38:45,205 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,17 +61,17 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-05 23:23:42,264 INFO  SysUtils - 
+2020-02-04 00:38:45,205 INFO  SysUtils - 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/app/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/app/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/app/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/app/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 	at org.gradle.initialization.AbstractProjectSpec.selectProject(AbstractProjectSpec.java:40)
 	at org.gradle.initialization.DefaultSettingsLoader.setDefaultProject(DefaultSettingsLoader.java:88)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:52)
@@ -151,31 +156,32 @@ org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtz
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1s
+BUILD FAILED in 3s
 
-2020-01-05 23:23:42,269 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-05 23:23:42,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/coldstoragecache/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-05 23:23:48,724 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-01-05 23:23:48,724 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-05 23:23:48,724 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/coldstoragecache/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-05 23:23:55,516 INFO  VirusProcessorServiceImpl - Queued project 8014 to scan viruses
-2020-01-05 23:24:11,224 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-04 00:38:45,210 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-04 00:38:45,211 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecache/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-04 00:38:55,714 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-02-04 00:38:55,715 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-02-04 00:38:55,715 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecache/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-02-04 00:39:34,693 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :coldstoragecache:preBuild UP-TO-DATE
 > Task :coldstoragecache:preDebugBuild UP-TO-DATE
-> Task :coldstoragecache:compileDebugAidl NO-SOURCE
 > Task :coldstoragecache:checkDebugManifest
-> Task :coldstoragecache:compileDebugRenderscript NO-SOURCE
 > Task :coldstoragecache:generateDebugBuildConfig
 > Task :coldstoragecache:generateDebugResValues
-> Task :coldstoragecache:generateDebugResources
-> Task :coldstoragecache:packageDebugResources
+> Task :coldstoragecache:processDebugManifest
 > Task :coldstoragecache:mergeDebugShaders
 > Task :coldstoragecache:compileDebugShaders
 > Task :coldstoragecache:generateDebugAssets
+> Task :coldstoragecache:compileDebugRenderscript NO-SOURCE
+> Task :coldstoragecache:generateDebugResources
+> Task :coldstoragecache:packageDebugResources
+> Task :coldstoragecache:compileDebugAidl NO-SOURCE
 > Task :coldstoragecache:packageDebugAssets
 > Task :coldstoragecache:packageDebugRenderscript NO-SOURCE
 > Task :coldstoragecache:processDebugJavaRes NO-SOURCE
 > Task :coldstoragecache:mergeDebugJniLibFolders
+> Task :coldstoragecache:prepareLintJarForPublish
 > Task :coldstoragecache:preReleaseBuild UP-TO-DATE
 > Task :coldstoragecache:compileReleaseAidl NO-SOURCE
 > Task :coldstoragecache:compileReleaseRenderscript NO-SOURCE
@@ -184,7 +190,8 @@ BUILD FAILED in 1s
 > Task :coldstoragecache:generateReleaseResValues
 > Task :coldstoragecache:generateReleaseResources
 > Task :coldstoragecache:packageReleaseResources
-> Task :coldstoragecache:prepareLintJarForPublish
+> Task :coldstoragecache:parseDebugLibraryResources
+> Task :coldstoragecache:parseReleaseLibraryResources
 > Task :coldstoragecache:mergeReleaseShaders
 > Task :coldstoragecache:compileReleaseShaders
 > Task :coldstoragecache:generateReleaseAssets
@@ -198,22 +205,19 @@ BUILD FAILED in 1s
 > Task :coldstoragecache:mergeReleaseNativeLibs
 > Task :coldstoragecache:stripReleaseDebugSymbols
 > Task :coldstoragecache:transformNativeLibsWithSyncJniLibsForRelease
-> Task :coldstoragecache:parseDebugLibraryResources
 > Task :coldstoragecache:processReleaseManifest
-> Task :coldstoragecache:parseReleaseLibraryResources
-> Task :coldstoragecache:processDebugManifest
 > Task :coldstoragecache:mergeReleaseResources
-> Task :coldstoragecache:generateDebugRFile
 > Task :coldstoragecache:generateReleaseRFile
+> Task :coldstoragecache:generateDebugRFile
 > Task :coldstoragecache:compileDebugKotlin
 > Task :coldstoragecache:compileReleaseKotlin
+> Task :coldstoragecache:verifyReleaseResources
 > Task :coldstoragecache:javaPreCompileDebug
 > Task :coldstoragecache:compileDebugJavaWithJavac
 > Task :coldstoragecache:extractDebugAnnotations
 > Task :coldstoragecache:mergeDebugGeneratedProguardFiles
 > Task :coldstoragecache:mergeDebugConsumerProguardFiles
 > Task :coldstoragecache:compileDebugSources
-> Task :coldstoragecache:verifyReleaseResources
 > Task :coldstoragecache:javaPreCompileRelease
 > Task :coldstoragecache:compileReleaseJavaWithJavac
 > Task :coldstoragecache:extractReleaseAnnotations
@@ -231,21 +235,50 @@ BUILD FAILED in 1s
 > Task :coldstoragecache:assemble
 > Task :coldstoragecache:build
 
-BUILD SUCCESSFUL in 21s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 38s
 49 actionable tasks: 49 executed
 
-2020-01-05 23:24:11,259 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-05 23:24:11,259 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-05 23:24:17,459 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-01-05 23:24:17,459 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-05 23:24:17,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241415538-0/src/ColdStorage-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-05 23:24:24,663 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-04 00:39:34,765 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-04 00:39:34,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-04 00:39:48,766 INFO  ProjectTaskService - Detected possible tasks: 70
+2020-02-04 00:39:48,766 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-02-04 00:39:48,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-02-04 00:40:20,631 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :coldstoragecompiler
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+
+> Task :coldstorageannotation:compileKotlin
+> Task :coldstorageannotation:compileJava NO-SOURCE
+> Task :coldstorageannotation:processResources NO-SOURCE
+> Task :coldstorageannotation:classes UP-TO-DATE
+> Task :coldstorageannotation:inspectClassesForKotlinIC
+> Task :coldstorageannotation:jar
+> Task :coldstorageannotation:assemble
+> Task :coldstorageannotation:build
 > Task :coldstoragecache:preBuild UP-TO-DATE
 > Task :coldstoragecache:preDebugBuild UP-TO-DATE
 > Task :coldstoragecache:checkDebugManifest UP-TO-DATE
 > Task :coldstoragecache:generateDebugBuildConfig UP-TO-DATE
 > Task :coldstoragecache:generateDebugResValues UP-TO-DATE
 > Task :coldstoragecache:processDebugManifest UP-TO-DATE
+> Task :coldstoragecache:mergeDebugShaders UP-TO-DATE
+> Task :coldstoragecache:compileDebugShaders UP-TO-DATE
+> Task :coldstoragecache:generateDebugAssets UP-TO-DATE
+> Task :coldstoragecache:packageDebugAssets UP-TO-DATE
+> Task :coldstoragecache:packageDebugRenderscript NO-SOURCE
+> Task :coldstoragecache:prepareLintJarForPublish UP-TO-DATE
+> Task :coldstoragecache:processDebugJavaRes NO-SOURCE
+> Task :coldstoragecache:mergeDebugJniLibFolders UP-TO-DATE
+> Task :coldstoragecache:mergeDebugNativeLibs UP-TO-DATE
+> Task :coldstoragecache:stripDebugDebugSymbols UP-TO-DATE
 > Task :coldstoragecache:compileDebugAidl NO-SOURCE
 > Task :coldstoragecache:compileDebugRenderscript NO-SOURCE
 > Task :coldstoragecache:generateDebugResources UP-TO-DATE
@@ -258,18 +291,8 @@ BUILD SUCCESSFUL in 21s
 > Task :coldstoragecache:extractDebugAnnotations UP-TO-DATE
 > Task :coldstoragecache:mergeDebugGeneratedProguardFiles UP-TO-DATE
 > Task :coldstoragecache:mergeDebugConsumerProguardFiles UP-TO-DATE
-> Task :coldstoragecache:mergeDebugShaders UP-TO-DATE
-> Task :coldstoragecache:compileDebugShaders UP-TO-DATE
-> Task :coldstoragecache:generateDebugAssets UP-TO-DATE
-> Task :coldstoragecache:packageDebugAssets UP-TO-DATE
-> Task :coldstoragecache:packageDebugRenderscript NO-SOURCE
-> Task :coldstoragecache:prepareLintJarForPublish UP-TO-DATE
-> Task :coldstoragecache:processDebugJavaRes NO-SOURCE
 > Task :coldstoragecache:mergeDebugJavaResource UP-TO-DATE
 > Task :coldstoragecache:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-> Task :coldstoragecache:mergeDebugJniLibFolders UP-TO-DATE
-> Task :coldstoragecache:mergeDebugNativeLibs UP-TO-DATE
-> Task :coldstoragecache:stripDebugDebugSymbols UP-TO-DATE
 > Task :coldstoragecache:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
 > Task :coldstoragecache:bundleDebugAar UP-TO-DATE
 > Task :coldstoragecache:compileDebugSources UP-TO-DATE
@@ -305,14 +328,75 @@ BUILD SUCCESSFUL in 21s
 > Task :coldstoragecache:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
 > Task :coldstoragecache:bundleReleaseAar UP-TO-DATE
 > Task :coldstoragecache:compileReleaseSources UP-TO-DATE
+> Task :coldstoragecompiler:kaptGenerateStubsKotlin
 > Task :coldstoragecache:mergeReleaseResources UP-TO-DATE
 > Task :coldstoragecache:verifyReleaseResources UP-TO-DATE
 > Task :coldstoragecache:assembleRelease UP-TO-DATE
 > Task :coldstoragecache:assemble UP-TO-DATE
 > Task :coldstoragecache:build
+> Task :coldstoragecompiler:kaptKotlin
+> Task :coldstoragecompiler:compileKotlin
+> Task :coldstoragecompiler:compileJava NO-SOURCE
+> Task :coldstoragecompiler:processResources NO-SOURCE
+> Task :coldstoragecompiler:classes UP-TO-DATE
+> Task :coldstoragecompiler:inspectClassesForKotlinIC
+> Task :coldstoragecompiler:jar
+> Task :coldstoragecompiler:assemble
+> Task :coldstoragecompiler:build
 
-BUILD SUCCESSFUL in 6s
-49 actionable tasks: 49 up-to-date
+BUILD SUCCESSFUL in 31s
+57 actionable tasks: 8 executed, 49 up-to-date
 
-2020-01-05 23:24:24,700 ERROR FullProcessService - Project build has not produced APK file
-2020-01-05 23:24:24,733 ERROR FullProcessService - Could not find generated or existed APK file
+2020-02-04 00:40:20,680 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-04 00:40:20,680 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstorageannotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-04 00:40:25,422 INFO  ProjectTaskService - Detected possible tasks: 39
+2020-02-04 00:40:25,422 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2020-02-04 00:40:25,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstorageannotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2020-02-04 00:40:30,884 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :coldstorageannotation:compileKotlin UP-TO-DATE
+> Task :coldstorageannotation:compileJava NO-SOURCE
+> Task :coldstorageannotation:processResources NO-SOURCE
+> Task :coldstorageannotation:classes UP-TO-DATE
+> Task :coldstorageannotation:inspectClassesForKotlinIC UP-TO-DATE
+> Task :coldstorageannotation:jar UP-TO-DATE
+> Task :coldstorageannotation:assemble UP-TO-DATE
+> Task :coldstorageannotation:build
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 3 up-to-date
+
+2020-02-04 00:40:30,930 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-04 00:40:30,930 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecompiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-04 00:40:35,460 INFO  ProjectTaskService - Detected possible tasks: 40
+2020-02-04 00:40:35,460 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-02-04 00:40:35,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751513829-0/src/ColdStorage-master/coldstoragecompiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-02-04 00:40:40,161 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :coldstoragecompiler
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+
+> Task :coldstorageannotation:compileKotlin UP-TO-DATE
+> Task :coldstorageannotation:compileJava NO-SOURCE
+> Task :coldstorageannotation:processResources NO-SOURCE
+> Task :coldstorageannotation:classes UP-TO-DATE
+> Task :coldstorageannotation:inspectClassesForKotlinIC UP-TO-DATE
+> Task :coldstorageannotation:jar UP-TO-DATE
+> Task :coldstoragecompiler:kaptGenerateStubsKotlin UP-TO-DATE
+> Task :coldstoragecompiler:kaptKotlin UP-TO-DATE
+> Task :coldstoragecompiler:compileKotlin UP-TO-DATE
+> Task :coldstoragecompiler:compileJava NO-SOURCE
+> Task :coldstoragecompiler:processResources NO-SOURCE
+> Task :coldstoragecompiler:classes UP-TO-DATE
+> Task :coldstoragecompiler:inspectClassesForKotlinIC UP-TO-DATE
+> Task :coldstoragecompiler:jar UP-TO-DATE
+> Task :coldstoragecompiler:assemble UP-TO-DATE
+> Task :coldstoragecompiler:build
+
+BUILD SUCCESSFUL in 4s
+8 actionable tasks: 8 up-to-date
+
+2020-02-04 00:40:40,212 ERROR FullProcessService - Project build has not produced APK file
+2020-02-04 00:40:40,251 ERROR FullProcessService - Could not find generated or existed APK file
