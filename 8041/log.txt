@@ -1,0 +1,10 @@
+2020-02-11 13:57:50,223 INFO  DownloadService - Downloading "https://github.com/anoop44/AwesomeTextInputLayout/archive/master.zip", attempt 3
+2020-02-11 13:57:53,215 INFO  DownloadService - Downloaded https://github.com/anoop44/AwesomeTextInputLayout/archive/master.zip, attempt 3
+2020-02-11 13:57:53,215 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404270138-0/master.zip": 905 KB
+2020-02-11 13:57:53,216 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-11 13:57:53,228 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404270138-0/master.zip: false
+2020-02-11 13:57:53,228 INFO  FullProcessService - Archive with sources does not contain any build script
+2020-02-11 13:57:53,229 ERROR FullProcessService - Could not find directory with sources
+2020-02-11 13:57:53,229 ERROR FullProcessService - Project will not be processed
+2020-02-11 13:57:53,229 ERROR FullProcessService - Project build has not produced APK file
+2020-02-11 13:57:53,236 ERROR FullProcessService - Could not find generated or existed APK file

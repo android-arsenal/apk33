@@ -41,8 +41,8 @@
   "dexClasses" : 5877,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"prieto.fernando.darkmodepicker\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"26\" android:targetSdkVersion=\"29\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"DarkThemePicker\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"prieto.fernando.darkmodepicker.DarkModePickerApp\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"prieto.fernando.darkmodepicker.ui.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"androidx.lifecycle.ProcessLifecycleOwnerInitializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"prieto.fernando.darkmodepicker.lifecycle-process\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 4717237,
-  "crc32" : 948667228,
-  "sha256" : "ee2aa1371c7dc0779235da417b91b48ea8eb9bd2c8bbf00979067a9cdbd359ee",
-  "buildTime" : 1578393680000
+  "fileSize" : 4717419,
+  "crc32" : 2416534204,
+  "sha256" : "e949f1c9798f355aa7133b33d5e73bb0ea5de5f37ae952a4af13bb7f4eefffbb",
+  "buildTime" : 1581404408000
 }

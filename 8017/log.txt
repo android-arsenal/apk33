@@ -1,37 +1,32 @@
-2020-01-07 17:39:36,850 INFO  DownloadService - Downloading "https://github.com/ferPrieto/DarkThemePicker/archive/master.zip", attempt 3
-2020-01-07 17:39:42,798 INFO  DownloadService - Downloaded https://github.com/ferPrieto/DarkThemePicker/archive/master.zip, attempt 3
-2020-01-07 17:39:42,799 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/master.zip": 6 MB
-2020-01-07 17:39:42,800 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-07 17:39:42,820 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/master.zip: true
-2020-01-07 17:39:42,821 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src'.
-2020-01-07 17:39:42,891 INFO  FullProcessService - Size of directory with sources: 7 MB
-2020-01-07 17:39:42,894 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src]
-2020-01-07 17:39:42,929 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/.git/
+2020-02-11 13:59:01,961 INFO  DownloadService - Downloading "https://github.com/ferPrieto/DarkThemePicker/archive/master.zip", attempt 3
+2020-02-11 13:59:06,293 INFO  DownloadService - Downloaded https://github.com/ferPrieto/DarkThemePicker/archive/master.zip, attempt 3
+2020-02-11 13:59:06,293 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/master.zip": 6 MB
+2020-02-11 13:59:06,293 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-11 13:59:06,295 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/master.zip: true
+2020-02-11 13:59:06,295 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src'.
+2020-02-11 13:59:06,348 INFO  FullProcessService - Size of directory with sources: 7 MB
+2020-02-11 13:59:06,348 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src]
+2020-02-11 13:59:06,365 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/.git/
 
-2020-01-07 17:39:42,946 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/gradlew
-2020-01-07 17:39:42,958 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/build.gradle
-2020-01-07 17:39:42,965 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/settings.gradle
-2020-01-07 17:39:42,967 INFO  ProjectBuildService - Remote scripts: none
-2020-01-07 17:39:42,968 INFO  ProjectFixService - Fixing project...
-2020-01-07 17:39:43,020 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2020-01-07 17:39:43,020 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2020-01-07 17:39:43,023 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2020-01-07 17:39:43,028 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
-2020-01-07 17:39:43,031 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2020-01-07 17:39:43,032 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2020-01-07 17:39:43,033 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/local.properties
-2020-01-07 17:39:43,038 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=26,targetSdkVersion=29]
-2020-01-07 17:39:43,041 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/local.properties
-2020-01-07 17:39:43,045 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-07 17:39:43,046 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-07 17:39:43,049 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=26,targetSdkVersion=29]
-2020-01-07 17:39:43,049 INFO  ProjectFixService - Project was maybe fixed
-2020-01-07 17:39:43,051 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-07 17:39:43,051 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-07 17:40:15,238 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-07 17:40:15,238 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-07 17:40:15,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-07 17:42:14,921 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-11 13:59:06,367 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/gradlew
+2020-02-11 13:59:06,370 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/build.gradle
+2020-02-11 13:59:06,372 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/settings.gradle
+2020-02-11 13:59:06,372 INFO  ProjectBuildService - Remote scripts: none
+2020-02-11 13:59:06,372 INFO  ProjectFixService - Fixing project...
+2020-02-11 13:59:06,379 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/local.properties
+2020-02-11 13:59:06,379 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=26,targetSdkVersion=29]
+2020-02-11 13:59:06,380 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/local.properties
+2020-02-11 13:59:06,381 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-02-11 13:59:06,381 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-02-11 13:59:06,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=26,targetSdkVersion=29]
+2020-02-11 13:59:06,382 INFO  ProjectFixService - Project was maybe fixed
+2020-02-11 13:59:06,382 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-11 13:59:06,382 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-11 13:59:10,683 INFO  VirusProcessorServiceImpl - Queued project 8039 to scan viruses
+2020-02-11 13:59:12,368 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-02-11 13:59:12,369 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-11 13:59:12,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-11 14:00:37,201 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -49,14 +44,14 @@
 > Task :app:kaptDebugKotlin
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/src/main/java/prieto/fernando/darkmodepicker/util/RangeEvaluator.kt: (3, 8): This class shouldn't be used in Kotlin. Use kotlin.Long instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/src/main/java/prieto/fernando/darkmodepicker/util/RangeEvaluator.kt: (3, 8): This class shouldn't be used in Kotlin. Use kotlin.Long instead.
 
 > Task :app:javaPreCompileDebug
 
 > Task :app:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/build/generated/source/kapt/debug/prieto/fernando/darkmodepicker/di/DaggerAppComponent.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/build/generated/source/kapt/debug/prieto/fernando/darkmodepicker/di/DaggerAppComponent.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileDebugSources
@@ -80,11 +75,11 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:mergeProjectDexDebug
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:mergeProjectDexDebug
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:mergeReleaseResources
@@ -93,7 +88,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:kaptReleaseKotlin
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/src/main/java/prieto/fernando/darkmodepicker/util/RangeEvaluator.kt: (3, 8): This class shouldn't be used in Kotlin. Use kotlin.Long instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/src/main/java/prieto/fernando/darkmodepicker/util/RangeEvaluator.kt: (3, 8): This class shouldn't be used in Kotlin. Use kotlin.Long instead.
 
 > Task :app:mergeExtDexDebug
 > Task :app:packageDebug
@@ -103,7 +98,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/
 > Task :app:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/build/generated/source/kapt/release/prieto/fernando/darkmodepicker/di/DaggerAppComponent.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/build/generated/source/kapt/release/prieto/fernando/darkmodepicker/di/DaggerAppComponent.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileReleaseSources
@@ -133,7 +128,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 58s
+BUILD SUCCESSFUL in 1m 24s
 56 actionable tasks: 56 executed
 
-2020-01-07 17:42:15,028 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578393576769-0/src/DarkThemePicker-master/app/build/outputs/apk/debug/app-debug.apk
+2020-02-11 14:00:37,297 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581404341958-0/src/DarkThemePicker-master/app/build/outputs/apk/debug/app-debug.apk
