@@ -1,39 +1,39 @@
-2020-01-07 18:34:55,004 INFO  DownloadService - Downloading "https://github.com/minageorge5080/Funny-Crash/archive/master.zip", attempt 3
-2020-01-07 18:34:58,905 INFO  DownloadService - Downloaded https://github.com/minageorge5080/Funny-Crash/archive/master.zip, attempt 3
-2020-01-07 18:34:58,906 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/master.zip": 6 MB
-2020-01-07 18:34:58,907 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-07 18:34:58,915 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/master.zip: true
-2020-01-07 18:34:58,915 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src'.
-2020-01-07 18:34:58,980 INFO  FullProcessService - Size of directory with sources: 7 MB
-2020-01-07 18:34:58,982 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src]
-2020-01-07 18:34:59,018 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/.git/
+2020-02-16 19:21:16,929 INFO  DownloadService - Downloading "https://github.com/minageorge5080/Funny-Crash/archive/master.zip", attempt 3
+2020-02-16 19:21:20,866 INFO  DownloadService - Downloaded https://github.com/minageorge5080/Funny-Crash/archive/master.zip, attempt 3
+2020-02-16 19:21:20,866 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/master.zip": 6 MB
+2020-02-16 19:21:20,867 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-16 19:21:20,882 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/master.zip: true
+2020-02-16 19:21:20,883 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src'.
+2020-02-16 19:21:20,985 INFO  FullProcessService - Size of directory with sources: 7 MB
+2020-02-16 19:21:20,991 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src]
+2020-02-16 19:21:21,032 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/.git/
 
-2020-01-07 18:34:59,032 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/gradlew
-2020-01-07 18:34:59,042 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/funnycrash/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/build.gradle
-2020-01-07 18:34:59,048 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/funnycrash/build.gradle
-2020-01-07 18:34:59,050 INFO  ProjectBuildService - Remote scripts: none
-2020-01-07 18:34:59,051 INFO  ProjectFixService - Fixing project...
-2020-01-07 18:34:59,093 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2020-01-07 18:34:59,093 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2020-01-07 18:34:59,098 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2020-01-07 18:34:59,100 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
-2020-01-07 18:34:59,104 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2020-01-07 18:34:59,105 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2020-01-07 18:34:59,106 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/app/local.properties
-2020-01-07 18:34:59,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-07 18:34:59,112 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/funnycrash/local.properties
-2020-01-07 18:34:59,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/funnycrash/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-07 18:34:59,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/local.properties
-2020-01-07 18:34:59,117 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-07 18:34:59,118 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-07 18:34:59,120 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-07 18:34:59,120 INFO  ProjectFixService - Project was maybe fixed
-2020-01-07 18:34:59,122 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-07 18:34:59,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-07 18:35:07,203 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-07 18:35:07,204 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-07 18:35:07,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-07 18:35:57,467 ERROR SysUtils - Could not process external command
+2020-02-16 19:21:21,054 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/gradlew
+2020-02-16 19:21:21,070 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/funnycrash/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/build.gradle
+2020-02-16 19:21:21,078 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/funnycrash/build.gradle
+2020-02-16 19:21:21,080 INFO  ProjectBuildService - Remote scripts: none
+2020-02-16 19:21:21,081 INFO  ProjectFixService - Fixing project...
+2020-02-16 19:21:21,131 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2020-02-16 19:21:21,131 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2020-02-16 19:21:21,153 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2020-02-16 19:21:21,156 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
+2020-02-16 19:21:21,179 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2020-02-16 19:21:21,180 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2020-02-16 19:21:21,181 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/app/local.properties
+2020-02-16 19:21:21,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-02-16 19:21:21,188 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/funnycrash/local.properties
+2020-02-16 19:21:21,189 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/funnycrash/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-02-16 19:21:21,190 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/local.properties
+2020-02-16 19:21:21,195 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-02-16 19:21:21,196 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-02-16 19:21:21,198 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-02-16 19:21:21,198 INFO  ProjectFixService - Project was maybe fixed
+2020-02-16 19:21:21,200 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:21:21,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:21:38,103 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-02-16 19:21:38,104 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-16 19:21:38,105 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-16 19:22:55,373 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -61,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-07 18:35:57,467 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:22:55,374 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :funnycrash:preBuild UP-TO-DATE
@@ -84,6 +84,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:mergeDebugResources
 > Task :funnycrash:processDebugManifest
 > Task :app:processDebugManifest
+> Task :funnycrash:parseDebugLibraryResources
 > Task :funnycrash:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -93,7 +94,6 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :funnycrash:generateDebugAssets
 > Task :funnycrash:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :funnycrash:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :funnycrash:processDebugJavaRes NO-SOURCE
 > Task :funnycrash:generateDebugRFile
@@ -111,11 +111,11 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:desugarDebugFileDependencies
 > Task :funnycrash:bundleLibRuntimeDebug
 > Task :funnycrash:createFullJarDebug
-> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeLibDexDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Task :app:mergeLibDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :funnycrash:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
@@ -137,39 +137,39 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :funnycrash:checkReleaseManifest
 > Task :funnycrash:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :funnycrash:generateReleaseBuildConfig
+> Task :funnycrash:parseReleaseLibraryResources
 > Task :funnycrash:mergeDebugNativeLibs
 > Task :funnycrash:stripDebugDebugSymbols
 > Task :funnycrash:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :funnycrash:parseReleaseLibraryResources
 > Task :app:mergeProjectDexDebug
+> Task :funnycrash:generateReleaseBuildConfig
+> Task :app:prepareLintJar
+> Task :funnycrash:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:mergeReleaseResources
 > Task :funnycrash:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :funnycrash:compileReleaseKotlin
+> Task :funnycrash:prepareLintJarForPublish
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
 > Task :funnycrash:javaPreCompileRelease
 > Task :funnycrash:compileReleaseJavaWithJavac
-> Task :app:prepareLintJar
+> Task :funnycrash:bundleLibResRelease
 > Task :funnycrash:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :funnycrash:processReleaseJavaRes NO-SOURCE
 > Task :app:mergeExtDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:checkReleaseDuplicateClasses
-> Task :funnycrash:bundleLibResRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :funnycrash:bundleLibRuntimeRelease
-> Task :funnycrash:createFullJarRelease
-> Task :funnycrash:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/cb23a5fcec52208b32795117bc9732b8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
+> Task :funnycrash:bundleLibRuntimeRelease
+> Task :funnycrash:createFullJarRelease
 > Task :app:desugarReleaseFileDependencies
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
@@ -402,7 +402,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 49s
+BUILD FAILED in 1m 16s
 96 actionable tasks: 96 executed
 
-2020-01-07 18:35:57,554 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578396894935-0/src/Funny-Crash-master/app/build/outputs/apk/debug/app-debug.apk
+2020-02-16 19:22:55,469 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855676831-0/src/Funny-Crash-master/app/build/outputs/apk/debug/app-debug.apk
