@@ -1,43 +1,37 @@
-2020-01-22 16:00:01,030 INFO  DownloadService - Downloading "https://github.com/andrewjapar/rangedatepicker/archive/master.zip", attempt 3
-2020-01-22 16:00:06,329 INFO  DownloadService - Downloaded https://github.com/andrewjapar/rangedatepicker/archive/master.zip, attempt 3
-2020-01-22 16:00:06,330 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/master.zip": 12 MB
-2020-01-22 16:00:06,331 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-22 16:00:06,346 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/master.zip: true
-2020-01-22 16:00:06,347 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src'.
-2020-01-22 16:00:06,445 INFO  FullProcessService - Size of directory with sources: 12 MB
-2020-01-22 16:00:06,450 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src]
-2020-01-22 16:00:06,503 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/.git/
+2020-03-06 13:55:51,308 INFO  DownloadService - Downloading "https://github.com/andrewjapar/rangedatepicker/archive/master.zip", attempt 3
+2020-03-06 13:55:54,312 INFO  DownloadService - Downloaded https://github.com/andrewjapar/rangedatepicker/archive/master.zip, attempt 3
+2020-03-06 13:55:54,312 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/master.zip": 12 MB
+2020-03-06 13:55:54,312 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-06 13:55:54,313 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/master.zip: true
+2020-03-06 13:55:54,314 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src'.
+2020-03-06 13:55:54,409 INFO  FullProcessService - Size of directory with sources: 12 MB
+2020-03-06 13:55:54,410 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src]
+2020-03-06 13:55:54,434 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/.git/
 
-2020-01-22 16:00:06,520 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/gradlew
-2020-01-22 16:00:06,537 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/rangedatepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/build.gradle
-2020-01-22 16:00:06,544 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/rangedatepicker/build.gradle
-2020-01-22 16:00:06,556 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2020-01-22 16:00:06,868 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2020-01-22 16:00:06,868 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2020-01-22 16:00:07,093 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2020-01-22 16:00:07,093 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2020-01-22 16:00:07,094 INFO  ProjectFixService - Fixing project...
-2020-01-22 16:00:07,168 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2020-01-22 16:00:07,169 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2020-01-22 16:00:07,185 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2020-01-22 16:00:07,187 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
-2020-01-22 16:00:07,211 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2020-01-22 16:00:07,212 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2020-01-22 16:00:07,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/local.properties
-2020-01-22 16:00:07,218 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-01-22 16:00:07,221 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/rangedatepicker/local.properties
-2020-01-22 16:00:07,221 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/rangedatepicker/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-01-22 16:00:07,222 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/local.properties
-2020-01-22 16:00:07,227 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-22 16:00:07,227 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-22 16:00:07,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-01-22 16:00:07,229 INFO  ProjectFixService - Project was maybe fixed
-2020-01-22 16:00:07,232 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-22 16:00:07,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-22 16:00:19,629 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-01-22 16:00:19,630 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-22 16:00:19,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-22 16:00:24,449 ERROR SysUtils - Could not process external command
+2020-03-06 13:55:54,440 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/gradlew
+2020-03-06 13:55:54,445 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/rangedatepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/build.gradle
+2020-03-06 13:55:54,449 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/rangedatepicker/build.gradle
+2020-03-06 13:55:54,456 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2020-03-06 13:55:55,241 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2020-03-06 13:55:55,242 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2020-03-06 13:55:55,432 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2020-03-06 13:55:55,432 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2020-03-06 13:55:55,432 INFO  ProjectFixService - Fixing project...
+2020-03-06 13:55:55,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/local.properties
+2020-03-06 13:55:55,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-06 13:55:55,470 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/rangedatepicker/local.properties
+2020-03-06 13:55:55,472 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/rangedatepicker/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-06 13:55:55,473 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/local.properties
+2020-03-06 13:55:55,474 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-06 13:55:55,474 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-06 13:55:55,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-06 13:55:55,476 INFO  ProjectFixService - Project was maybe fixed
+2020-03-06 13:55:55,476 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-06 13:55:55,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-06 13:56:07,128 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-03-06 13:56:07,128 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-06 13:56:07,128 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-06 13:56:14,432 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -65,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-22 16:00:24,449 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-06 13:56:14,432 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -164,11 +158,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 6s
 
-2020-01-22 16:00:24,450 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2020-01-22 16:00:24,450 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-22 16:01:20,973 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-06 13:56:14,432 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2020-03-06 13:56:14,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-03-06 13:57:36,065 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :rangedatepicker:preBuild UP-TO-DATE
@@ -176,8 +170,8 @@ BUILD FAILED in 4s
 > Task :rangedatepicker:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :rangedatepicker:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -210,13 +204,13 @@ BUILD FAILED in 4s
 > Task :rangedatepicker:javaPreCompileDebug
 > Task :rangedatepicker:compileDebugJavaWithJavac
 > Task :rangedatepicker:bundleLibResDebug
-> Task :rangedatepicker:bundleLibRuntimeDebug
 > Task :rangedatepicker:bundleLibCompileDebug
+> Task :rangedatepicker:bundleLibRuntimeDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (25, 52): Parameter 'startDate' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (25, 63): Parameter 'endDate' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (30, 52): Parameter 'startDate' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (30, 52): Parameter 'startDate' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (30, 63): Parameter 'endDate' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (35, 52): Parameter 'startDate' is never used, could be renamed to _
 
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
@@ -241,40 +235,39 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/
 > Task :rangedatepicker:generateReleaseResValues
 > Task :rangedatepicker:generateReleaseResources
 > Task :rangedatepicker:packageReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :rangedatepicker:checkReleaseManifest
-> Task :rangedatepicker:generateReleaseBuildConfig
-> Task :app:mergeDebugJavaResource
-> Task :rangedatepicker:parseReleaseLibraryResources
-> Task :rangedatepicker:processReleaseManifest
-> Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
 > Task :rangedatepicker:mergeDebugNativeLibs
 > Task :rangedatepicker:stripDebugDebugSymbols
 > Task :rangedatepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :rangedatepicker:checkReleaseManifest
+> Task :rangedatepicker:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeDebugJavaResource
+> Task :rangedatepicker:generateReleaseBuildConfig
+> Task :rangedatepicker:parseReleaseLibraryResources
+> Task :app:mergeReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :rangedatepicker:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :rangedatepicker:compileReleaseKotlin
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :rangedatepicker:javaPreCompileRelease
 > Task :rangedatepicker:compileReleaseJavaWithJavac
 > Task :app:prepareLintJar
-> Task :rangedatepicker:bundleLibCompileRelease
-
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (25, 52): Parameter 'startDate' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (25, 63): Parameter 'endDate' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (30, 52): Parameter 'startDate' is never used, could be renamed to _
-
 > Task :app:checkReleaseDuplicateClasses
 > Task :rangedatepicker:prepareLintJarForPublish
 > Task :rangedatepicker:bundleLibRuntimeRelease
+> Task :rangedatepicker:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (30, 52): Parameter 'startDate' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (30, 63): Parameter 'endDate' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/src/main/java/com/andrewjapar/sample/MainActivity.kt: (35, 52): Parameter 'startDate' is never used, could be renamed to _
+
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease SKIPPED
-> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -289,50 +282,51 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :rangedatepicker:mergeReleaseJniLibFolders
-> Task :rangedatepicker:bundleLibResRelease
-
-> Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ce54b6d952e7fe412b1d9fdbf7717cdb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-Ran lint on variant release: 11 issues found
-Ran lint on variant debug: 11 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/build/reports/lint-results.xml
-
-> Task :app:mergeReleaseJavaResource
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:mergeExtDexDebug
 > Task :rangedatepicker:mergeReleaseNativeLibs
 > Task :rangedatepicker:stripReleaseDebugSymbols
 > Task :rangedatepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+
+> Task :app:lint
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ce54b6d952e7fe412b1d9fdbf7717cdb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Ran lint on variant debug: 12 issues found
+Ran lint on variant release: 12 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/build/reports/lint-results.xml
+
 > Task :app:preDebugUnitTestBuild UP-TO-DATE
 > Task :app:processDebugUnitTestJavaRes NO-SOURCE
 > Task :app:preReleaseUnitTestBuild UP-TO-DATE
-> Task :app:compileDebugUnitTestKotlin
-> Task :app:mergeExtDexRelease
-> Task :app:compileReleaseUnitTestKotlin
 > Task :app:processReleaseUnitTestJavaRes NO-SOURCE
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :rangedatepicker:bundleLibResRelease
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:compileReleaseUnitTestKotlin
+> Task :app:mergeReleaseJavaResource
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:testDebugUnitTest
 > Task :app:javaPreCompileReleaseUnitTest
 > Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
 > Task :app:testReleaseUnitTest
+> Task :app:test
+> Task :app:check
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
-> Task :app:javaPreCompileDebugUnitTest
-> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
-> Task :app:testDebugUnitTest
-> Task :app:test
-> Task :app:check
 > Task :app:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 1m 20s
 98 actionable tasks: 98 executed
 
-2020-01-22 16:01:21,065 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579683600949-0/src/rangedatepicker-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-06 13:57:36,173 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477751302-0/src/rangedatepicker-master/app/build/outputs/apk/debug/app-debug.apk

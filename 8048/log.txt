@@ -1,0 +1,566 @@
+2020-03-06 13:52:52,395 INFO  DownloadService - Downloading "https://github.com/razerdp/BasePopup/archive/master.zip", attempt 3
+2020-03-06 13:52:54,995 INFO  DownloadService - Downloaded https://github.com/razerdp/BasePopup/archive/master.zip, attempt 3
+2020-03-06 13:52:54,996 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/master.zip": 1 MB
+2020-03-06 13:52:54,996 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-06 13:52:55,000 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/master.zip: true
+2020-03-06 13:52:55,000 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src'.
+2020-03-06 13:52:55,192 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-03-06 13:52:55,193 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src]
+2020-03-06 13:52:55,294 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/.git/
+
+2020-03-06 13:52:55,310 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/gradlew
+2020-03-06 13:52:55,328 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/build.gradle
+2020-03-06 13:52:55,357 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/scripts/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/settings.gradle
+2020-03-06 13:52:55,359 INFO  ProjectBuildService - Remote scripts: none
+2020-03-06 13:52:55,359 INFO  ProjectFixService - Fixing project...
+2020-03-06 13:52:55,399 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/app/local.properties
+2020-03-06 13:52:55,409 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-06 13:52:55,410 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-06 13:52:55,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/local.properties
+2020-03-06 13:52:55,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-06 13:52:55,419 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-06 13:52:55,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/local.properties
+2020-03-06 13:52:55,423 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-06 13:52:55,424 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-06 13:52:55,426 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-06 13:52:55,427 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-06 13:52:55,427 INFO  ProjectFixService - Project was maybe fixed
+2020-03-06 13:52:55,427 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-06 13:52:55,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-06 13:53:07,685 INFO  VirusProcessorServiceImpl - Queued project 8049 to scan viruses
+2020-03-06 13:53:47,918 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-06 13:53:47,919 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-06 13:53:47,919 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-06 13:54:43,326 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-06 13:54:43,327 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :lib:generateDebugBuildConfig
+> Task :lib:compileDebugRenderscript NO-SOURCE
+> Task :lib:generateDebugResValues
+> Task :lib:generateDebugResources
+> Task :lib:packageDebugResources
+> Task :lib:parseDebugLocalResources
+> Task :lib:javaPreCompileDebug
+> Task :lib:processDebugManifest
+> Task :lib:generateDebugRFile
+
+> Task :lib:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :lib:bundleLibCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :lib:extractDeepLinksDebug
+> Task :app:processDebugManifest FAILED
+> Task :app:mergeDebugResources
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugManifest'.
+> java.lang.NullPointerException (no error message)
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processDebugManifest'.
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:38)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+Caused by: java.lang.NullPointerException
+	at org.gradle.api.internal.provider.ValidatingMapEntryCollector.add(ValidatingMapEntryCollector.java:46)
+	at org.gradle.api.internal.provider.ValidatingMapEntryCollector.addAll(ValidatingMapEntryCollector.java:55)
+	at org.gradle.api.internal.provider.MapCollectors$EntriesFromMapProvider.maybeCollectInto(MapCollectors.java:237)
+	at org.gradle.api.internal.provider.DefaultMapProperty.doGetOrNull(DefaultMapProperty.java:109)
+	at org.gradle.api.internal.provider.DefaultMapProperty.makeFinal(DefaultMapProperty.java:298)
+	at org.gradle.api.internal.provider.AbstractProperty.beforeRead(AbstractProperty.java:81)
+	at org.gradle.api.internal.provider.DefaultMapProperty.isPresent(DefaultMapProperty.java:87)
+	at org.gradle.api.internal.tasks.properties.bean.AbstractNestedRuntimeBeanNode$BeanPropertyValue.call(AbstractNestedRuntimeBeanNode.java:152)
+	at org.gradle.api.internal.tasks.properties.AbstractValidatingProperty.validate(AbstractValidatingProperty.java:37)
+	at org.gradle.api.internal.tasks.properties.DefaultTaskProperties.validate(DefaultTaskProperties.java:193)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	... 24 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 55s
+18 actionable tasks: 18 executed
+
+2020-03-06 13:54:43,363 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-06 13:54:43,363 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-06 13:54:52,182 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-06 13:54:52,182 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-06 13:54:52,183 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-06 13:55:14,436 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:mergeDebugJniLibFolders
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :lib:generateDebugBuildConfig UP-TO-DATE
+> Task :lib:compileDebugRenderscript NO-SOURCE
+> Task :lib:generateDebugResValues UP-TO-DATE
+> Task :lib:generateDebugResources UP-TO-DATE
+> Task :lib:packageDebugResources UP-TO-DATE
+> Task :lib:parseDebugLocalResources UP-TO-DATE
+> Task :lib:processDebugManifest UP-TO-DATE
+> Task :lib:generateDebugRFile UP-TO-DATE
+> Task :lib:javaPreCompileDebug UP-TO-DATE
+> Task :lib:compileDebugJavaWithJavac UP-TO-DATE
+> Task :lib:extractDebugAnnotations
+> Task :lib:mergeDebugGeneratedProguardFiles
+> Task :lib:mergeDebugConsumerProguardFiles
+> Task :lib:mergeDebugShaders
+> Task :lib:compileDebugShaders
+> Task :lib:generateDebugAssets
+> Task :lib:packageDebugAssets
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:compileDebugSources UP-TO-DATE
+> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:compileReleaseAidl NO-SOURCE
+> Task :lib:mergeReleaseJniLibFolders
+> Task :lib:prepareLintJarForPublish
+> Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:generateReleaseBuildConfig
+> Task :lib:generateReleaseResValues
+> Task :lib:generateReleaseResources
+> Task :lib:packageReleaseResources
+> Task :lib:mergeReleaseNativeLibs
+> Task :lib:stripReleaseDebugSymbols
+> Task :lib:copyReleaseJniLibsProjectAndLocalJars
+> Task :lib:mergeDebugJavaResource
+> Task :lib:syncDebugLibJars
+> Task :lib:parseReleaseLocalResources
+> Task :lib:mergeReleaseShaders
+> Task :lib:compileReleaseShaders
+> Task :lib:generateReleaseAssets
+> Task :lib:packageReleaseAssets
+> Task :lib:packageReleaseRenderscript NO-SOURCE
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:javaPreCompileRelease
+> Task :lib:mergeReleaseResources
+
+> Task :lib:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupHelper.java:31: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupHelper.java:32: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.DialogFragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupHelper.java:33: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.Fragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupHelper.java:35: error: package razerdp.library does not exist
+import razerdp.library.R;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:230: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:231: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:232: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.Fragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:233: error: package androidx.lifecycle does not exist
+import androidx.lifecycle.Lifecycle;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:234: error: package androidx.lifecycle does not exist
+import androidx.lifecycle.LifecycleObserver;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:235: error: package androidx.lifecycle does not exist
+import androidx.lifecycle.LifecycleOwner;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:236: error: package androidx.lifecycle does not exist
+import androidx.lifecycle.OnLifecycleEvent;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:330: error: cannot find symbol
+public abstract class BasePopupWindow implements BasePopup, PopupWindow.OnDismissListener, LifecycleObserver {
+                                                                                           ^
+  symbol: class LifecycleObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:374: error: cannot find symbol
+    public BasePopupWindow(Fragment fragment) {
+                           ^
+  symbol:   class Fragment
+  location: class BasePopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:378: error: cannot find symbol
+    public BasePopupWindow(Fragment fragment, int width, int height) {
+                           ^
+  symbol:   class Fragment
+  location: class BasePopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/WindowManagerProxy.java:14: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/PopupMaskLayout.java:15: error: package razerdp.library does not exist
+import razerdp.library.R;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/QuickPopupBuilder.java:11: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.Fragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/QuickPopupBuilder.java:12: error: package androidx.lifecycle does not exist
+import androidx.lifecycle.Lifecycle;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/QuickPopupBuilder.java:13: error: package androidx.lifecycle does not exist
+import androidx.lifecycle.LifecycleObserver;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/QuickPopupBuilder.java:14: error: package androidx.lifecycle does not exist
+import androidx.lifecycle.LifecycleOwner;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/QuickPopupBuilder.java:15: error: package androidx.lifecycle does not exist
+import androidx.lifecycle.OnLifecycleEvent;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/QuickPopupBuilder.java:23: error: cannot find symbol
+public class QuickPopupBuilder implements LifecycleObserver {
+                                          ^
+  symbol: class LifecycleObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/QuickPopupBuilder.java:64: error: cannot find symbol
+    public static QuickPopupBuilder with(Fragment fragment) {
+                                         ^
+  symbol:   class Fragment
+  location: class QuickPopupBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/widget/QuickPopup.java:13: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.Fragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BaseLazyPopupWindow.java:8: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.Fragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/widget/QuickPopup.java:27: error: cannot find symbol
+    public QuickPopup(Fragment fragment, int width, int height, QuickPopupConfig config) {
+                      ^
+  symbol:   class Fragment
+  location: class QuickPopup
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BaseLazyPopupWindow.java:26: error: cannot find symbol
+    public BaseLazyPopupWindow(Fragment fragment) {
+                               ^
+  symbol:   class Fragment
+  location: class BaseLazyPopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BaseLazyPopupWindow.java:30: error: cannot find symbol
+    public BaseLazyPopupWindow(Fragment fragment, int width, int height) {
+                               ^
+  symbol:   class Fragment
+  location: class BaseLazyPopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/PopupBackgroundView.java:10: error: package razerdp.library does not exist
+import razerdp.library.R;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupHelper.java:1041: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BasePopupHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupHelper.java:1046: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BasePopupHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupHelper.java:1062: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BasePopupHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:801: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BasePopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:828: error: cannot find symbol
+    private void pendingPopupWindow(@NonNull View decorView, @Nullable final View anchorView, final boolean positionMode) {
+                                     ^
+  symbol:   class NonNull
+  location: class BasePopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:828: error: cannot find symbol
+    private void pendingPopupWindow(@NonNull View decorView, @Nullable final View anchorView, final boolean positionMode) {
+                                                              ^
+  symbol:   class Nullable
+  location: class BasePopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:1687: error: cannot find symbol
+    @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
+     ^
+  symbol:   class OnLifecycleEvent
+  location: class BasePopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/WindowManagerProxy.java:183: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class WindowManagerProxy
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/WindowManagerProxy.java:252: error: cannot find symbol
+        @Nullable
+         ^
+  symbol:   class Nullable
+  location: class PopupWindowQueueManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/QuickPopupBuilder.java:31: error: cannot find symbol
+    @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
+     ^
+  symbol:   class OnLifecycleEvent
+  location: class QuickPopupBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:1208: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:1295: warning - Tag @see:illegal character: "65292" in "#onCreateContentView()，该布局在这里初始化。"
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:1295: warning - Tag @see:illegal character: "12290" in "#onCreateContentView()，该布局在这里初始化。"
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:1295: warning - Tag @see: can't find onCreateContentView()，该布局在这里初始化。 in razerdp.basepopup.BasePopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:1315: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:1436: warning - Tag @see: can't find preMeasurePopupView(int, int) in razerdp.basepopup.BasePopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:1451: warning - Tag @see: can't find preMeasurePopupView(int, int) in razerdp.basepopup.BasePopupWindow
+javadoc: warning - Class OnLifecycleEvent not found.
+javadoc: warning - Class OnLifecycleEvent not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:1421: warning - Tag @link: can't find setClipToScreen(boolean) in razerdp.basepopup.BasePopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:1645: warning - Tag @link: can't find setClipToScreen(boolean) in razerdp.basepopup.BasePopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:569: warning - @style is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:569: warning - @style is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:569: warning - @style is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:569: warning - @style is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:569: warning - @style is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:569: warning - @style is an unknown tag.
+javadoc: warning - Class OnLifecycleEvent not found.
+javadoc: warning - Class OnLifecycleEvent not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/util/PopupUtils.java:32: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/util/RomUtils.java:26: warning - @Thanks is an unknown tag.
+javadoc: warning - Class OnLifecycleEvent not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:569: warning - @style is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/lib/src/main/java/razerdp/basepopup/BasePopupWindow.java:569: warning - @style is an unknown tag.
+javadoc: warning - Class OnLifecycleEvent not found.
+64 warnings
+
+> Task :lib:javadocJar
+> Task :lib:sourcesJar
+> Task :lib:mergeDebugNativeLibs
+> Task :lib:stripDebugDebugSymbols
+> Task :lib:copyDebugJniLibsProjectAndLocalJars
+> Task :lib:bundleDebugAar
+> Task :lib:assembleDebug
+> Task :lib:processReleaseManifest
+> Task :lib:mergeReleaseJavaResource
+> Task :lib:generateReleaseRFile
+
+> Task :lib:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :lib:extractReleaseAnnotations
+> Task :lib:mergeReleaseGeneratedProguardFiles
+> Task :lib:mergeReleaseConsumerProguardFiles
+> Task :lib:syncReleaseLibJars
+> Task :lib:bundleReleaseAar
+> Task :lib:compileReleaseSources
+> Task :lib:verifyReleaseResources
+> Task :lib:assembleRelease
+> Task :lib:assemble
+> Task :lib:build
+
+BUILD SUCCESSFUL in 22s
+48 actionable tasks: 40 executed, 8 up-to-date
+
+2020-03-06 13:55:14,485 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-06 13:55:14,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-06 13:55:23,068 INFO  ProjectTaskService - Detected possible tasks: 72
+2020-03-06 13:55:23,069 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-06 13:55:23,069 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477572385-0/src/BasePopup-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-06 13:55:33,137 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-06 13:55:33,138 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :lib:generateDebugBuildConfig UP-TO-DATE
+> Task :lib:compileDebugRenderscript NO-SOURCE
+> Task :lib:generateDebugResValues UP-TO-DATE
+> Task :lib:generateDebugResources UP-TO-DATE
+> Task :lib:packageDebugResources UP-TO-DATE
+> Task :lib:parseDebugLocalResources UP-TO-DATE
+> Task :lib:processDebugManifest UP-TO-DATE
+> Task :lib:generateDebugRFile UP-TO-DATE
+> Task :lib:javaPreCompileDebug UP-TO-DATE
+> Task :lib:compileDebugJavaWithJavac UP-TO-DATE
+> Task :lib:bundleLibCompileDebug UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :lib:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugManifest FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugManifest'.
+> java.lang.NullPointerException (no error message)
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processDebugManifest'.
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:38)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+Caused by: java.lang.NullPointerException
+	at org.gradle.api.internal.provider.ValidatingMapEntryCollector.add(ValidatingMapEntryCollector.java:46)
+	at org.gradle.api.internal.provider.ValidatingMapEntryCollector.addAll(ValidatingMapEntryCollector.java:55)
+	at org.gradle.api.internal.provider.MapCollectors$EntriesFromMapProvider.maybeCollectInto(MapCollectors.java:237)
+	at org.gradle.api.internal.provider.DefaultMapProperty.doGetOrNull(DefaultMapProperty.java:109)
+	at org.gradle.api.internal.provider.DefaultMapProperty.makeFinal(DefaultMapProperty.java:298)
+	at org.gradle.api.internal.provider.AbstractProperty.beforeRead(AbstractProperty.java:81)
+	at org.gradle.api.internal.provider.DefaultMapProperty.isPresent(DefaultMapProperty.java:87)
+	at org.gradle.api.internal.tasks.properties.bean.AbstractNestedRuntimeBeanNode$BeanPropertyValue.call(AbstractNestedRuntimeBeanNode.java:152)
+	at org.gradle.api.internal.tasks.properties.AbstractValidatingProperty.validate(AbstractValidatingProperty.java:37)
+	at org.gradle.api.internal.tasks.properties.DefaultTaskProperties.validate(DefaultTaskProperties.java:193)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	... 24 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s
+18 actionable tasks: 1 executed, 17 up-to-date
+
+2020-03-06 13:55:33,183 ERROR FullProcessService - Project build has not produced APK file
+2020-03-06 13:55:33,221 ERROR FullProcessService - Could not find generated or existed APK file

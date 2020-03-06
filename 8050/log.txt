@@ -1,0 +1,10 @@
+2020-03-06 13:50:00,262 INFO  DownloadService - Downloading "https://github.com/anoop44/3dview/archive/master.zip", attempt 3
+2020-03-06 13:50:02,792 INFO  DownloadService - Downloaded https://github.com/anoop44/3dview/archive/master.zip, attempt 3
+2020-03-06 13:50:02,793 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477400166-0/master.zip": 178 KB
+2020-03-06 13:50:02,794 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-06 13:50:02,809 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477400166-0/master.zip: false
+2020-03-06 13:50:02,809 INFO  FullProcessService - Archive with sources does not contain any build script
+2020-03-06 13:50:02,809 ERROR FullProcessService - Could not find directory with sources
+2020-03-06 13:50:02,809 ERROR FullProcessService - Project will not be processed
+2020-03-06 13:50:02,809 ERROR FullProcessService - Project build has not produced APK file
+2020-03-06 13:50:02,817 ERROR FullProcessService - Could not find generated or existed APK file
