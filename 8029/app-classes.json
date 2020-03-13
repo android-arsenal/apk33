@@ -108,7 +108,7 @@
   "androidx.work.impl.utils.taskexecutor" : [ "TaskExecutor", "WorkManagerTaskExecutor", "WorkManagerTaskExecutor$1", "package-info" ],
   "androidx.work.impl.workers" : [ "CombineContinuationsWorker", "ConstraintTrackingWorker", "ConstraintTrackingWorker$1", "ConstraintTrackingWorker$2" ],
   "com.google.common.util.concurrent" : [ "ListenableFuture" ],
-  "devmike.leviapps.co.sample" : [ "App", "BuildConfig", "MainActivity", "MainActivity$1", "MainActivity$2", "R", "R$anim", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$layout", "R$mipmap", "R$string", "R$style", "R$styleable" ],
+  "devmike.leviapps.co.sample" : [ "App", "BuildConfig", "MainActivity", "MainActivity$1", "R", "R$anim", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$layout", "R$mipmap", "R$string", "R$style", "R$styleable" ],
   "devmike.leviapps.co.timeddogx" : [ "BuildConfig", "Foreground", "Foreground$1", "Foreground$Listener", "R", "R$anim", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$layout", "R$string", "R$style", "R$styleable", "TimedDog", "TimedDogXWorker", "TimedDogXWorker$Builder", "TimedDogXWorker$OnTimeOutListener" ],
   "devmike.leviapps.co.timeddogx.activities" : [ "TimeoutActivity" ]
 }

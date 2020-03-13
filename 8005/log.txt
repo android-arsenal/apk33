@@ -1,209 +1,615 @@
-2020-01-24 14:36:01,094 INFO  DownloadService - Downloading "https://github.com/ImaginativeShohag/Oops-No-Internet/archive/master.zip", attempt 3
-2020-01-24 14:36:02,179 INFO  DownloadService - Downloaded https://github.com/ImaginativeShohag/Oops-No-Internet/archive/master.zip, attempt 3
-2020-01-24 14:36:02,180 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/master.zip": 2 MB
-2020-01-24 14:36:02,180 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-24 14:36:02,180 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/master.zip: true
-2020-01-24 14:36:02,181 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src'.
-2020-01-24 14:36:02,212 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-01-24 14:36:02,212 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src]
-2020-01-24 14:36:02,232 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/.git/
+2020-03-13 14:13:37,903 INFO  DownloadService - Downloading "https://github.com/ImaginativeShohag/Oops-No-Internet/archive/master.zip", attempt 3
+2020-03-13 14:13:39,543 INFO  DownloadService - Downloaded https://github.com/ImaginativeShohag/Oops-No-Internet/archive/master.zip, attempt 3
+2020-03-13 14:13:39,544 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/master.zip": 2 MB
+2020-03-13 14:13:39,544 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-13 14:13:39,545 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/master.zip: true
+2020-03-13 14:13:39,545 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src'.
+2020-03-13 14:13:39,587 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-03-13 14:13:39,588 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src]
+2020-03-13 14:13:39,608 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/.git/
 
-2020-01-24 14:36:02,235 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/gradlew
-2020-01-24 14:36:02,237 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/build.gradle
-2020-01-24 14:36:02,240 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/settings.gradle
-2020-01-24 14:36:02,240 INFO  ProjectBuildService - Remote scripts: none
-2020-01-24 14:36:02,240 INFO  ProjectFixService - Fixing project...
-2020-01-24 14:36:02,245 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/local.properties
-2020-01-24 14:36:02,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-24 14:36:02,246 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/local.properties
-2020-01-24 14:36:02,247 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-24 14:36:02,247 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-24 14:36:02,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-24 14:36:02,248 INFO  ProjectFixService - Project was maybe fixed
-2020-01-24 14:36:02,248 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-24 14:36:02,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-24 14:36:08,139 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-01-24 14:36:08,139 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-24 14:36:08,139 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-24 14:36:08,712 INFO  VirusProcessorServiceImpl - Queued project 8028 to scan viruses
-2020-01-24 14:36:40,182 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :app:preBuild UP-TO-DATE
-> Task :app:preDebugBuild UP-TO-DATE
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
-> Task :app:generateDebugResValues
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugResources
-> Task :app:packageDebugResources
-> Task :app:processDebugManifest
-> Task :app:generateDebugAssets
-> Task :app:packageDebugAssets
-> Task :app:packageDebugRenderscript NO-SOURCE
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:mergeDebugJniLibFolders
-> Task :app:preReleaseBuild UP-TO-DATE
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
-> Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :app:packageReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:transformNativeLibsWithSyncJniLibsForDebug
-> Task :app:prepareLintJarForPublish
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :app:packageReleaseAssets
-> Task :app:packageReleaseRenderscript NO-SOURCE
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:mergeReleaseJniLibFolders
-> Task :app:parseReleaseLibraryResources
-> Task :app:processReleaseManifest
-> Task :app:parseDebugLibraryResources
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
-> Task :app:transformNativeLibsWithSyncJniLibsForRelease
-> Task :app:mergeReleaseResources
-> Task :app:generateReleaseRFile
+2020-03-13 14:13:39,612 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/gradlew
+2020-03-13 14:13:39,617 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/build.gradle
+2020-03-13 14:13:39,621 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/build.gradle
+2020-03-13 14:13:39,622 INFO  ProjectBuildService - Remote scripts: none
+2020-03-13 14:13:39,622 INFO  ProjectFixService - Fixing project...
+2020-03-13 14:13:39,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/local.properties
+2020-03-13 14:13:39,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-13 14:13:39,633 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-13 14:13:39,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/sample/local.properties
+2020-03-13 14:13:39,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/sample/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-13 14:13:39,635 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-13 14:13:39,637 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/local.properties
+2020-03-13 14:13:39,637 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-13 14:13:39,638 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-13 14:13:39,640 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-13 14:13:39,640 INFO  ProjectFixService - Project was maybe fixed
+2020-03-13 14:13:39,640 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-13 14:13:39,640 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-13 14:13:44,629 INFO  VirusProcessorServiceImpl - Queued project 8029 to scan viruses
+2020-03-13 14:13:46,874 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-03-13 14:13:46,875 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-13 14:13:46,875 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-13 14:14:08,578 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.6.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :oopsnointernet:preBuild UP-TO-DATE
+> Task :oopsnointernet:preDebugBuild UP-TO-DATE
+> Task :oopsnointernet:mergeDebugJniLibFolders
+> Task :oopsnointernet:mergeDebugNativeLibs
+> Task :oopsnointernet:stripDebugDebugSymbols
+> Task :oopsnointernet:copyDebugJniLibsProjectAndLocalJars
+> Task :oopsnointernet:generateDebugBuildConfig
+> Task :oopsnointernet:generateDebugResValues
+> Task :oopsnointernet:mergeDebugShaders
+> Task :oopsnointernet:compileDebugShaders
+> Task :oopsnointernet:generateDebugAssets
+> Task :oopsnointernet:packageDebugAssets
+> Task :oopsnointernet:packageDebugRenderscript NO-SOURCE
+> Task :oopsnointernet:processDebugJavaRes NO-SOURCE
+> Task :oopsnointernet:compileDebugAidl NO-SOURCE
+> Task :oopsnointernet:compileDebugRenderscript NO-SOURCE
+> Task :oopsnointernet:generateDebugResources
+> Task :oopsnointernet:packageDebugResources
+> Task :oopsnointernet:preReleaseBuild UP-TO-DATE
+> Task :oopsnointernet:compileReleaseAidl NO-SOURCE
+> Task :oopsnointernet:mergeReleaseJniLibFolders
+> Task :oopsnointernet:processDebugManifest
+> Task :oopsnointernet:compileReleaseRenderscript NO-SOURCE
+> Task :oopsnointernet:generateReleaseBuildConfig
+> Task :oopsnointernet:generateReleaseResValues
+> Task :oopsnointernet:generateReleaseResources
+> Task :oopsnointernet:packageReleaseResources
+> Task :oopsnointernet:parseDebugLocalResources
+> Task :oopsnointernet:parseReleaseLocalResources
+> Task :oopsnointernet:mergeReleaseShaders
+> Task :oopsnointernet:compileReleaseShaders
+> Task :oopsnointernet:generateReleaseAssets
+> Task :oopsnointernet:packageReleaseAssets
+> Task :oopsnointernet:packageReleaseRenderscript NO-SOURCE
+> Task :oopsnointernet:processReleaseJavaRes NO-SOURCE
+> Task :oopsnointernet:prepareLintJarForPublish
+> Task :oopsnointernet:processReleaseManifest
+> Task :oopsnointernet:mergeReleaseNativeLibs
+> Task :oopsnointernet:stripReleaseDebugSymbols
+> Task :oopsnointernet:copyReleaseJniLibsProjectAndLocalJars
+> Task :oopsnointernet:generateDebugRFile
 
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (10, 20): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 28): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (78, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (7, 20): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 28): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (117, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (17, 49): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (19, 31): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+> Task :oopsnointernet:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (10, 20): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (81, 28): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (81, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (82, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (7, 20): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 28): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (117, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (22, 49): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (24, 31): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
 
-> Task :app:verifyReleaseResources
-> Task :app:generateDebugRFile
+> Task :oopsnointernet:generateReleaseRFile
 
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (10, 20): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 28): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (77, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (78, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (7, 20): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 28): 'NetworkInfo' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (117, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (17, 49): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/app/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (19, 31): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+> Task :oopsnointernet:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (10, 20): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (81, 28): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (81, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetDialog.kt: (82, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (7, 20): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 28): 'NetworkInfo' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (116, 63): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetSnackbar.kt: (117, 28): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (22, 49): 'getter for activeNetworkInfo: NetworkInfo!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/oopsnointernet/src/main/java/org/imaginativeworld/oopsnointernet/NoInternetUtils.kt: (24, 31): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
 
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:extractReleaseAnnotations
-> Task :app:mergeReleaseGeneratedProguardFiles
-> Task :app:mergeReleaseConsumerProguardFiles
-> Task :app:compileReleaseSources
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:extractDebugAnnotations
-> Task :app:mergeDebugGeneratedProguardFiles
-> Task :app:mergeDebugConsumerProguardFiles
-> Task :app:mergeReleaseJavaResource
-> Task :app:compileDebugSources
-> Task :app:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :app:bundleReleaseAar
-> Task :app:assembleRelease
-> Task :app:mergeDebugJavaResource
-> Task :app:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :app:bundleDebugAar
-> Task :app:assembleDebug
-> Task :app:assemble
-> Task :app:build
+> Task :oopsnointernet:mergeDebugJavaResource
+> Task :oopsnointernet:javaPreCompileDebug
+> Task :oopsnointernet:compileDebugJavaWithJavac
+> Task :oopsnointernet:extractDebugAnnotations
+> Task :oopsnointernet:mergeDebugGeneratedProguardFiles
+> Task :oopsnointernet:mergeDebugConsumerProguardFiles
+> Task :oopsnointernet:syncDebugLibJars
+> Task :oopsnointernet:bundleDebugAar
+> Task :oopsnointernet:compileDebugSources
+> Task :oopsnointernet:assembleDebug
+> Task :oopsnointernet:javaPreCompileRelease
+> Task :oopsnointernet:compileReleaseJavaWithJavac
+> Task :oopsnointernet:extractReleaseAnnotations
+> Task :oopsnointernet:mergeReleaseGeneratedProguardFiles
+> Task :oopsnointernet:mergeReleaseConsumerProguardFiles
+> Task :oopsnointernet:compileReleaseSources
+> Task :oopsnointernet:mergeReleaseJavaResource
+> Task :oopsnointernet:syncReleaseLibJars
+> Task :oopsnointernet:bundleReleaseAar
+> Task :oopsnointernet:mergeReleaseResources
+> Task :oopsnointernet:verifyReleaseResources
+> Task :oopsnointernet:assembleRelease
+> Task :oopsnointernet:assemble
+> Task :oopsnointernet:build
 
-BUILD SUCCESSFUL in 31s
-49 actionable tasks: 49 executed
+BUILD SUCCESSFUL in 21s
+47 actionable tasks: 47 executed
 
-2020-01-24 14:36:40,245 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-24 14:36:40,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-24 14:36:56,034 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-01-24 14:36:56,035 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-24 14:36:56,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851361091-0/src/Oops-No-Internet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-24 14:37:11,550 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :app:preBuild UP-TO-DATE
-> Task :app:preDebugBuild UP-TO-DATE
-> Task :app:checkDebugManifest UP-TO-DATE
-> Task :app:generateDebugBuildConfig UP-TO-DATE
-> Task :app:generateDebugResValues UP-TO-DATE
-> Task :app:processDebugManifest UP-TO-DATE
-> Task :app:mergeDebugShaders UP-TO-DATE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:generateDebugResources UP-TO-DATE
-> Task :app:packageDebugResources UP-TO-DATE
-> Task :app:parseDebugLibraryResources UP-TO-DATE
-> Task :app:generateDebugRFile UP-TO-DATE
-> Task :app:compileDebugKotlin UP-TO-DATE
-> Task :app:javaPreCompileDebug UP-TO-DATE
-> Task :app:compileDebugJavaWithJavac UP-TO-DATE
-> Task :app:extractDebugAnnotations UP-TO-DATE
-> Task :app:mergeDebugGeneratedProguardFiles UP-TO-DATE
-> Task :app:mergeDebugConsumerProguardFiles UP-TO-DATE
-> Task :app:compileDebugShaders UP-TO-DATE
-> Task :app:generateDebugAssets UP-TO-DATE
-> Task :app:packageDebugAssets UP-TO-DATE
-> Task :app:packageDebugRenderscript NO-SOURCE
-> Task :app:prepareLintJarForPublish UP-TO-DATE
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:mergeDebugJavaResource UP-TO-DATE
-> Task :app:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-> Task :app:mergeDebugJniLibFolders UP-TO-DATE
-> Task :app:mergeDebugNativeLibs UP-TO-DATE
-> Task :app:stripDebugDebugSymbols UP-TO-DATE
-> Task :app:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-> Task :app:bundleDebugAar UP-TO-DATE
-> Task :app:compileDebugSources UP-TO-DATE
-> Task :app:assembleDebug UP-TO-DATE
-> Task :app:preReleaseBuild UP-TO-DATE
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest UP-TO-DATE
-> Task :app:generateReleaseBuildConfig UP-TO-DATE
-> Task :app:generateReleaseResValues UP-TO-DATE
-> Task :app:generateReleaseResources UP-TO-DATE
-> Task :app:packageReleaseResources UP-TO-DATE
-> Task :app:parseReleaseLibraryResources UP-TO-DATE
-> Task :app:processReleaseManifest UP-TO-DATE
-> Task :app:generateReleaseRFile UP-TO-DATE
-> Task :app:compileReleaseKotlin UP-TO-DATE
-> Task :app:javaPreCompileRelease UP-TO-DATE
-> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :app:extractReleaseAnnotations UP-TO-DATE
-> Task :app:mergeReleaseGeneratedProguardFiles UP-TO-DATE
-> Task :app:mergeReleaseConsumerProguardFiles UP-TO-DATE
-> Task :app:mergeReleaseShaders UP-TO-DATE
-> Task :app:compileReleaseShaders UP-TO-DATE
-> Task :app:generateReleaseAssets UP-TO-DATE
-> Task :app:packageReleaseAssets UP-TO-DATE
-> Task :app:packageReleaseRenderscript NO-SOURCE
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:mergeReleaseJavaResource UP-TO-DATE
-> Task :app:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :app:mergeReleaseNativeLibs UP-TO-DATE
-> Task :app:stripReleaseDebugSymbols UP-TO-DATE
-> Task :app:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-> Task :app:bundleReleaseAar UP-TO-DATE
-> Task :app:compileReleaseSources UP-TO-DATE
-> Task :app:mergeReleaseResources UP-TO-DATE
-> Task :app:verifyReleaseResources
-> Task :app:assembleRelease
-> Task :app:assemble
-> Task :app:build
+2020-03-13 14:14:08,645 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-13 14:14:08,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-13 14:14:15,376 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-03-13 14:14:15,376 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-13 14:14:15,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-13 14:14:41,719 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-13 14:14:41,719 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.6.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.6.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :oopsnointernet:preBuild UP-TO-DATE
+> Task :oopsnointernet:preDebugBuild UP-TO-DATE
+> Task :oopsnointernet:compileDebugAidl NO-SOURCE
+> Task :oopsnointernet:generateDebugBuildConfig UP-TO-DATE
+> Task :oopsnointernet:compileDebugRenderscript NO-SOURCE
+> Task :oopsnointernet:generateDebugResValues UP-TO-DATE
+> Task :oopsnointernet:generateDebugResources UP-TO-DATE
+> Task :oopsnointernet:packageDebugResources UP-TO-DATE
+> Task :oopsnointernet:parseDebugLocalResources UP-TO-DATE
+> Task :oopsnointernet:processDebugManifest UP-TO-DATE
+> Task :oopsnointernet:generateDebugRFile UP-TO-DATE
+> Task :oopsnointernet:compileDebugKotlin UP-TO-DATE
+> Task :oopsnointernet:javaPreCompileDebug UP-TO-DATE
+> Task :oopsnointernet:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :oopsnointernet:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :oopsnointernet:bundleLibCompileDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :oopsnointernet:compileDebugLibraryResources
+> Task :oopsnointernet:extractDeepLinksDebug
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
+> Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :oopsnointernet:mergeDebugShaders UP-TO-DATE
+> Task :oopsnointernet:compileDebugShaders UP-TO-DATE
+> Task :oopsnointernet:generateDebugAssets UP-TO-DATE
+> Task :oopsnointernet:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :oopsnointernet:processDebugJavaRes NO-SOURCE
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :oopsnointernet:bundleLibResDebug
+> Task :sample:mergeDebugJavaResource
+> Task :sample:checkDebugDuplicateClasses
+> Task :oopsnointernet:bundleLibRuntimeDebug
+> Task :sample:dexBuilderDebug
+> Task :sample:mergeLibDexDebug
+> Task :oopsnointernet:mergeDebugJniLibFolders UP-TO-DATE
+> Task :oopsnointernet:mergeDebugNativeLibs UP-TO-DATE
+> Task :oopsnointernet:stripDebugDebugSymbols UP-TO-DATE
+> Task :oopsnointernet:copyDebugJniLibsProjectOnly
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug FAILED
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:mergeProjectDexDebug
 
-BUILD SUCCESSFUL in 15s
-49 actionable tasks: 1 executed, 48 up-to-date
+FAILURE: Build failed with an exception.
 
-2020-01-24 14:37:11,617 ERROR FullProcessService - Project build has not produced APK file
-2020-01-24 14:37:11,661 ERROR FullProcessService - Could not find generated or existed APK file
+* What went wrong:
+Execution failed for task ':sample:validateSigningDebug'.
+> Keystore file '/home/shohag/.android/debug.keystore' not found for signing config 'debug'.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:validateSigningDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:166)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:163)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:156)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/home/shohag/.android/debug.keystore' not found for signing config 'debug'.
+	at com.android.build.gradle.internal.tasks.ValidateSigningTask.doTaskAction(ValidateSigningTask.kt:77)
+	at com.android.build.gradle.internal.tasks.NonIncrementalTask$taskAction$$inlined$recordTaskAction$1.invoke(AndroidVariantTask.kt:73)
+	at com.android.build.gradle.internal.tasks.NonIncrementalTask$taskAction$$inlined$recordTaskAction$1.invoke(AndroidVariantTask.kt:34)
+	at com.android.build.gradle.internal.tasks.Blocks.recordSpan(Blocks.java:91)
+	at com.android.build.gradle.internal.tasks.NonIncrementalTask.taskAction(NonIncrementalTask.kt:34)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:49)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:42)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:717)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:684)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:476)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:461)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:444)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:93)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:237)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:208)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:76)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:47)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:140)
+	... 34 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 25s
+43 actionable tasks: 28 executed, 15 up-to-date
+
+2020-03-13 14:14:41,802 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-13 14:14:41,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-13 14:14:47,897 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-03-13 14:14:47,897 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-13 14:14:47,898 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083617900-0/src/Oops-No-Internet-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-13 14:14:58,181 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-13 14:14:58,182 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.6.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.6.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :oopsnointernet:preBuild UP-TO-DATE
+> Task :oopsnointernet:preDebugBuild UP-TO-DATE
+> Task :oopsnointernet:mergeDebugJniLibFolders UP-TO-DATE
+> Task :oopsnointernet:compileDebugAidl NO-SOURCE
+> Task :oopsnointernet:mergeDebugNativeLibs UP-TO-DATE
+> Task :oopsnointernet:stripDebugDebugSymbols UP-TO-DATE
+> Task :oopsnointernet:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :oopsnointernet:generateDebugBuildConfig UP-TO-DATE
+> Task :oopsnointernet:compileDebugRenderscript NO-SOURCE
+> Task :oopsnointernet:generateDebugResValues UP-TO-DATE
+> Task :oopsnointernet:generateDebugResources UP-TO-DATE
+> Task :oopsnointernet:packageDebugResources UP-TO-DATE
+> Task :oopsnointernet:parseDebugLocalResources UP-TO-DATE
+> Task :oopsnointernet:processDebugManifest UP-TO-DATE
+> Task :oopsnointernet:generateDebugRFile UP-TO-DATE
+> Task :oopsnointernet:compileDebugKotlin UP-TO-DATE
+> Task :oopsnointernet:javaPreCompileDebug UP-TO-DATE
+> Task :oopsnointernet:compileDebugJavaWithJavac UP-TO-DATE
+> Task :oopsnointernet:extractDebugAnnotations UP-TO-DATE
+> Task :oopsnointernet:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :oopsnointernet:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :oopsnointernet:mergeDebugShaders UP-TO-DATE
+> Task :oopsnointernet:compileDebugShaders UP-TO-DATE
+> Task :oopsnointernet:generateDebugAssets UP-TO-DATE
+> Task :oopsnointernet:packageDebugAssets UP-TO-DATE
+> Task :oopsnointernet:packageDebugRenderscript NO-SOURCE
+> Task :oopsnointernet:prepareLintJarForPublish UP-TO-DATE
+> Task :oopsnointernet:processDebugJavaRes NO-SOURCE
+> Task :oopsnointernet:mergeDebugJavaResource UP-TO-DATE
+> Task :oopsnointernet:syncDebugLibJars UP-TO-DATE
+> Task :oopsnointernet:bundleDebugAar UP-TO-DATE
+> Task :oopsnointernet:compileDebugSources UP-TO-DATE
+> Task :oopsnointernet:assembleDebug UP-TO-DATE
+> Task :oopsnointernet:preReleaseBuild UP-TO-DATE
+> Task :oopsnointernet:compileReleaseAidl NO-SOURCE
+> Task :oopsnointernet:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :oopsnointernet:mergeReleaseNativeLibs UP-TO-DATE
+> Task :oopsnointernet:stripReleaseDebugSymbols UP-TO-DATE
+> Task :oopsnointernet:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :oopsnointernet:compileReleaseRenderscript NO-SOURCE
+> Task :oopsnointernet:generateReleaseBuildConfig UP-TO-DATE
+> Task :oopsnointernet:generateReleaseResValues UP-TO-DATE
+> Task :oopsnointernet:generateReleaseResources UP-TO-DATE
+> Task :oopsnointernet:packageReleaseResources UP-TO-DATE
+> Task :oopsnointernet:parseReleaseLocalResources UP-TO-DATE
+> Task :oopsnointernet:processReleaseManifest UP-TO-DATE
+> Task :oopsnointernet:generateReleaseRFile UP-TO-DATE
+> Task :oopsnointernet:compileReleaseKotlin UP-TO-DATE
+> Task :oopsnointernet:javaPreCompileRelease UP-TO-DATE
+> Task :oopsnointernet:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :oopsnointernet:extractReleaseAnnotations UP-TO-DATE
+> Task :oopsnointernet:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :oopsnointernet:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :oopsnointernet:mergeReleaseShaders UP-TO-DATE
+> Task :oopsnointernet:compileReleaseShaders UP-TO-DATE
+> Task :oopsnointernet:generateReleaseAssets UP-TO-DATE
+> Task :oopsnointernet:packageReleaseAssets UP-TO-DATE
+> Task :oopsnointernet:packageReleaseRenderscript NO-SOURCE
+> Task :oopsnointernet:processReleaseJavaRes NO-SOURCE
+> Task :oopsnointernet:mergeReleaseJavaResource UP-TO-DATE
+> Task :oopsnointernet:syncReleaseLibJars UP-TO-DATE
+> Task :oopsnointernet:bundleReleaseAar UP-TO-DATE
+> Task :oopsnointernet:compileReleaseSources UP-TO-DATE
+> Task :oopsnointernet:bundleLibCompileDebug UP-TO-DATE
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:generateDebugBuildConfig UP-TO-DATE
+> Task :oopsnointernet:mergeReleaseResources UP-TO-DATE
+> Task :oopsnointernet:verifyReleaseResources UP-TO-DATE
+> Task :oopsnointernet:assembleRelease UP-TO-DATE
+> Task :oopsnointernet:assemble UP-TO-DATE
+> Task :oopsnointernet:build
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :oopsnointernet:compileDebugLibraryResources UP-TO-DATE
+> Task :sample:mainApkListPersistenceDebug UP-TO-DATE
+> Task :sample:generateDebugResValues UP-TO-DATE
+> Task :sample:generateDebugResources UP-TO-DATE
+> Task :sample:mergeDebugResources UP-TO-DATE
+> Task :oopsnointernet:extractDeepLinksDebug UP-TO-DATE
+> Task :sample:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :sample:extractDeepLinksDebug UP-TO-DATE
+> Task :sample:processDebugManifest UP-TO-DATE
+> Task :sample:processDebugResources UP-TO-DATE
+> Task :sample:compileDebugKotlin UP-TO-DATE
+> Task :sample:javaPreCompileDebug UP-TO-DATE
+> Task :sample:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample:compileDebugSources UP-TO-DATE
+> Task :sample:mergeDebugShaders UP-TO-DATE
+> Task :sample:compileDebugShaders UP-TO-DATE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugAssets UP-TO-DATE
+> Task :oopsnointernet:bundleLibResDebug UP-TO-DATE
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:mergeDebugJavaResource UP-TO-DATE
+> Task :oopsnointernet:bundleLibRuntimeDebug UP-TO-DATE
+> Task :sample:dexBuilderDebug UP-TO-DATE
+> Task :sample:checkDebugDuplicateClasses UP-TO-DATE
+> Task :sample:mergeLibDexDebug UP-TO-DATE
+> Task :sample:mergeProjectDexDebug UP-TO-DATE
+> Task :oopsnointernet:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :sample:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sample:mergeDebugNativeLibs UP-TO-DATE
+> Task :sample:stripDebugDebugSymbols
+> Task :sample:validateSigningDebug FAILED
+> Task :sample:mergeExtDexDebug
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sample:validateSigningDebug'.
+> Keystore file '/home/shohag/.android/debug.keystore' not found for signing config 'debug'.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:validateSigningDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:166)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:163)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:156)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/home/shohag/.android/debug.keystore' not found for signing config 'debug'.
+	at com.android.build.gradle.internal.tasks.ValidateSigningTask.doTaskAction(ValidateSigningTask.kt:77)
+	at com.android.build.gradle.internal.tasks.NonIncrementalTask$taskAction$$inlined$recordTaskAction$1.invoke(AndroidVariantTask.kt:73)
+	at com.android.build.gradle.internal.tasks.NonIncrementalTask$taskAction$$inlined$recordTaskAction$1.invoke(AndroidVariantTask.kt:34)
+	at com.android.build.gradle.internal.tasks.Blocks.recordSpan(Blocks.java:91)
+	at com.android.build.gradle.internal.tasks.NonIncrementalTask.taskAction(NonIncrementalTask.kt:34)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:49)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:42)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:717)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:684)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:476)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:461)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:444)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:93)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:237)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:208)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:76)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:47)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:140)
+	... 34 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s
+77 actionable tasks: 3 executed, 74 up-to-date
+
+2020-03-13 14:14:58,259 ERROR FullProcessService - Project build has not produced APK file
+2020-03-13 14:14:58,338 ERROR FullProcessService - Could not find generated or existed APK file

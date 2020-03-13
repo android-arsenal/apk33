@@ -1,37 +1,37 @@
-2020-01-31 11:08:50,290 INFO  DownloadService - Downloading "https://github.com/ferPrieto/SoundLine/archive/master.zip", attempt 3
-2020-01-31 11:08:52,045 INFO  VirusProcessorServiceImpl - Queued project 8034 to scan viruses
-2020-01-31 11:09:07,245 INFO  DownloadService - Downloaded https://github.com/ferPrieto/SoundLine/archive/master.zip, attempt 3
-2020-01-31 11:09:07,246 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/master.zip": 8 MB
-2020-01-31 11:09:07,246 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-31 11:09:07,247 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/master.zip: true
-2020-01-31 11:09:07,247 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src'.
-2020-01-31 11:09:07,365 INFO  FullProcessService - Size of directory with sources: 9 MB
-2020-01-31 11:09:07,365 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src]
-2020-01-31 11:09:07,386 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/.git/
+2020-03-13 14:09:35,590 INFO  DownloadService - Downloading "https://github.com/ferPrieto/SoundLine/archive/master.zip", attempt 3
+2020-03-13 14:09:42,422 INFO  DownloadService - Downloaded https://github.com/ferPrieto/SoundLine/archive/master.zip, attempt 3
+2020-03-13 14:09:42,422 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/master.zip": 8 MB
+2020-03-13 14:09:42,422 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-13 14:09:42,428 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/master.zip: true
+2020-03-13 14:09:42,429 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src'.
+2020-03-13 14:09:42,539 INFO  FullProcessService - Size of directory with sources: 9 MB
+2020-03-13 14:09:42,539 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src]
+2020-03-13 14:09:42,557 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/.git/
 
-2020-01-31 11:09:07,390 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/gradlew
-2020-01-31 11:09:07,395 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/build.gradle
-2020-01-31 11:09:07,399 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/settings.gradle
-2020-01-31 11:09:07,400 INFO  ProjectBuildService - Remote scripts: none
-2020-01-31 11:09:07,400 INFO  ProjectFixService - Fixing project...
-2020-01-31 11:09:07,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/app/local.properties
-2020-01-31 11:09:07,413 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-01-31 11:09:07,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-01-31 11:09:07,416 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/local.properties
-2020-01-31 11:09:07,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-01-31 11:09:07,418 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-01-31 11:09:07,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/local.properties
-2020-01-31 11:09:07,420 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-31 11:09:07,420 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-31 11:09:07,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-01-31 11:09:07,422 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-01-31 11:09:07,422 INFO  ProjectFixService - Project was maybe fixed
-2020-01-31 11:09:07,423 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-31 11:09:07,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-31 11:09:21,863 INFO  ProjectTaskService - Detected possible tasks: 70
-2020-01-31 11:09:21,863 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-31 11:09:21,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-31 11:10:21,246 ERROR SysUtils - Could not process external command
+2020-03-13 14:09:42,563 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/gradlew
+2020-03-13 14:09:42,568 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/build.gradle
+2020-03-13 14:09:42,574 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/settings.gradle
+2020-03-13 14:09:42,574 INFO  ProjectBuildService - Remote scripts: none
+2020-03-13 14:09:42,574 INFO  ProjectFixService - Fixing project...
+2020-03-13 14:09:42,588 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/app/local.properties
+2020-03-13 14:09:42,590 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-03-13 14:09:42,590 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-03-13 14:09:42,591 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/local.properties
+2020-03-13 14:09:42,592 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-03-13 14:09:42,592 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-03-13 14:09:42,593 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/local.properties
+2020-03-13 14:09:42,593 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-13 14:09:42,594 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-13 14:09:42,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-03-13 14:09:42,595 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-03-13 14:09:42,596 INFO  ProjectFixService - Project was maybe fixed
+2020-03-13 14:09:42,596 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-13 14:09:42,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-13 14:09:50,144 INFO  VirusProcessorServiceImpl - Queued project 8051 to scan viruses
+2020-03-13 14:09:55,010 INFO  ProjectTaskService - Detected possible tasks: 70
+2020-03-13 14:09:55,010 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-13 14:09:55,010 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-13 14:11:30,335 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-31 11:10:21,247 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-13 14:11:30,336 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :soundline:preBuild UP-TO-DATE
@@ -80,6 +80,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:createDebugCompatibleScreenManifests
 > Task :soundline:checkDebugManifest
 > Task :app:mergeDebugResources
+> Task :soundline:parseDebugLibraryResources
 > Task :soundline:processDebugManifest
 > Task :app:processDebugManifest
 > Task :soundline:generateDebugBuildConfig
@@ -91,17 +92,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :soundline:generateDebugAssets
 > Task :soundline:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :soundline:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :soundline:processDebugJavaRes NO-SOURCE
 > Task :soundline:generateDebugRFile
 > Task :app:processDebugResources
 
 > Task :soundline:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (30, 35): Unnecessary safe call on a non-null receiver of type ScrollViewListener
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (30, 43): Parameter 'scrollViewListener' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (42, 13): Condition 'internalScrollViewListener != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/SoundLineView.kt: (41, 58): The corresponding parameter in the supertype 'ScrollViewListener' is named 'isFling'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (30, 35): Unnecessary safe call on a non-null receiver of type ScrollViewListener
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (30, 43): Parameter 'scrollViewListener' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (42, 13): Condition 'internalScrollViewListener != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/SoundLineView.kt: (41, 58): The corresponding parameter in the supertype 'ScrollViewListener' is named 'isFling'. This may cause problems when calling this function with named arguments.
 
 > Task :soundline:javaPreCompileDebug
 > Task :soundline:compileDebugJavaWithJavac
@@ -118,9 +118,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/
 > Task :soundline:createFullJarDebug
 > Task :app:mergeLibDexDebug
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeDebugJavaResource
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :soundline:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
@@ -141,9 +141,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/
 > Task :soundline:mergeDebugNativeLibs
 > Task :soundline:stripDebugDebugSymbols
 > Task :soundline:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:createReleaseCompatibleScreenManifests
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :app:createReleaseCompatibleScreenManifests
 > Task :soundline:checkReleaseManifest
 > Task :soundline:processReleaseManifest
 > Task :app:processReleaseManifest
@@ -152,10 +152,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/
 > Task :soundline:generateReleaseBuildConfig
 
 > Task :soundline:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (30, 35): Unnecessary safe call on a non-null receiver of type ScrollViewListener
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (30, 43): Parameter 'scrollViewListener' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (42, 13): Condition 'internalScrollViewListener != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/SoundLineView.kt: (41, 58): The corresponding parameter in the supertype 'ScrollViewListener' is named 'isFling'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (30, 35): Unnecessary safe call on a non-null receiver of type ScrollViewListener
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (30, 43): Parameter 'scrollViewListener' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/ObservableScrollView.kt: (42, 13): Condition 'internalScrollViewListener != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/soundline/src/main/java/prieto/fernando/soundline/SoundLineView.kt: (41, 58): The corresponding parameter in the supertype 'ScrollViewListener' is named 'isFling'. This may cause problems when calling this function with named arguments.
 
 > Task :app:mergeProjectDexDebug
 > Task :soundline:javaPreCompileRelease
@@ -165,14 +165,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/
 > Task :soundline:processReleaseJavaRes NO-SOURCE
 > Task :soundline:prepareLintJarForPublish
 > Task :app:checkReleaseDuplicateClasses
-> Task :soundline:bundleLibResRelease
-> Task :soundline:bundleLibRuntimeRelease
-> Task :soundline:createFullJarRelease
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :app:kaptGenerateStubsReleaseKotlin
 > Task :app:kaptReleaseKotlin
 > Task :app:compileReleaseKotlin
+> Task :soundline:bundleLibResRelease
+> Task :soundline:bundleLibRuntimeRelease
+> Task :soundline:createFullJarRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -414,7 +414,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 58s
+BUILD FAILED in 1m 34s
 98 actionable tasks: 98 executed
 
-2020-01-31 11:10:21,336 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580443730282-0/src/SoundLine-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-13 14:11:30,459 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083375581-0/src/SoundLine-master/app/build/outputs/apk/debug/app-debug.apk
