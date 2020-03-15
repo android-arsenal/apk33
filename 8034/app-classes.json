@@ -9,10 +9,10 @@
   "com.google.gson.stream" : [ "JsonReader", "JsonReader$1", "JsonScope", "JsonToken", "JsonWriter", "MalformedJsonException" ],
   "com.kokteyl.android.bumerang" : [ "BuildConfig", "R", "R$drawable", "R$string" ],
   "com.kokteyl.android.bumerang.annotations" : [ "BaseUrl", "Body", "CustomCacheKey", "DELETE", "FormURLEncoded", "GET", "Header", "Headers", "NoCache", "POST", "PUT", "Path", "Timeout" ],
-  "com.kokteyl.android.bumerang.core" : [ "Bumerang", "Bumerang$1", "Bumerang$2", "Bumerang$Builder", "Bumerang$InitListener", "BumerangError", "BumerangLifecycleObserver", "BumerangLifecycleObserver$Listener", "BumerangLog", "BumerangLog$LogLevel", "BumerangPrefs", "BumerangTask", "BumerangUtil" ],
+  "com.kokteyl.android.bumerang.core" : [ "Bumerang", "Bumerang$1", "Bumerang$2", "Bumerang$Builder", "Bumerang$InitListener", "BumerangError", "BumerangLifecycleObserver", "BumerangLifecycleObserver$Listener", "BumerangLog", "BumerangLog$LogLevel", "BumerangPrefs", "BumerangTask", "BumerangUtil", "ResponseListener" ],
   "com.kokteyl.android.bumerang.image" : [ "BitmapImage", "BumerangImage", "BumerangImageLoader", "BumerangImageLoader$1", "BumerangImageLoader$Core", "BumerangImageLoader$Core$1", "BumerangImageLoader$Core$1$1", "BumerangImageLoader$Core$BitmapDisplayer", "BumerangImageLoader$Core$PhotoToLoad", "BumerangImageLoader$Core$PhotosLoader", "BumerangImageLoader$FileCache", "BumerangImageLoader$ImageAnimation", "BumerangImageLoader$ImageListener", "BumerangImageLoader$MemoryCache", "BumerangImageTask", "BumerangImageTask$OnCompleteHandler", "BumerangImageTask$OnCompleteListener", "BumerangImageView", "BumerangImageView$1", "BumerangWebImage", "BumerangWebImageCache", "BumerangWebImageCache$1" ],
   "com.kokteyl.android.bumerang.request" : [ "DeleteRequest", "GetRequest", "PostRequest", "PutRequest", "Request", "RequestParser" ],
-  "com.kokteyl.android.bumerang.response" : [ "Cacheable", "HTTPCache", "Response", "Response$ResponseItem", "ResponseListener" ],
+  "com.kokteyl.android.bumerang.response" : [ "Cacheable", "HTTPCache", "Response", "Response$ResponseItem" ],
   "com.kokteyl.bumerang" : [ "BuildConfig", "R", "R$color", "R$drawable", "R$id", "R$layout", "R$mipmap", "R$string", "R$style", "R$xml" ],
   "com.kokteyl.bumerang.sample" : [ "MyApp", "TestActivity", "TestActivity$1", "TestActivity$2", "TestActivity$3", "TestActivity$4", "TestActivity$5", "TestActivity$6" ],
   "com.kokteyl.bumerang.sample.network" : [ "MyAPI", "PostResponseModel", "RequestModel", "RequestModel$SubItem", "ResponseModel" ]
