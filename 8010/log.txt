@@ -1,13 +1,12 @@
-2020-02-04 00:42:15,989 INFO  DownloadService - Downloading "https://github.com/wlanjie/trinity/archive/master.zip", attempt 3
-2020-02-04 00:42:24,707 INFO  VirusProcessorServiceImpl - Queued project 8012 to scan viruses
-2020-02-04 00:42:25,867 INFO  DownloadService - Downloaded https://github.com/wlanjie/trinity/archive/master.zip, attempt 3
-2020-02-04 00:42:25,867 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751735984-0/master.zip": 79 MB
-2020-02-04 00:42:25,867 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-02-04 00:42:25,876 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751735984-0/master.zip: true
-2020-02-04 00:42:25,876 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751735984-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751735984-0/src'.
-2020-02-04 00:42:26,695 INFO  FullProcessService - Size of directory with sources: 88 MB
-2020-02-04 00:42:26,696 ERROR FullProcessService - Source directory should be less than 50 MB
-2020-02-04 00:42:26,696 ERROR FullProcessService - Project will not be processed
-2020-02-04 00:42:26,696 ERROR FullProcessService - Project build has not produced APK file
-2020-02-04 00:42:26,717 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751735984-0/src/trinity-master/trinity.apk
-2020-02-04 00:42:26,717 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580751735984-0/src/trinity-master/trinity.apk
+2020-03-21 23:50:57,516 INFO  DownloadService - Downloading "https://github.com/wlanjie/trinity/archive/master.zip", attempt 3
+2020-03-21 23:53:33,326 INFO  DownloadService - Downloaded https://github.com/wlanjie/trinity/archive/master.zip, attempt 3
+2020-03-21 23:53:33,326 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809457512-0/master.zip": 107 MB
+2020-03-21 23:53:33,326 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-21 23:53:33,338 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809457512-0/master.zip: true
+2020-03-21 23:53:33,339 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809457512-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809457512-0/src'.
+2020-03-21 23:53:34,546 INFO  FullProcessService - Size of directory with sources: 127 MB
+2020-03-21 23:53:34,546 ERROR FullProcessService - Source directory should be less than 50 MB
+2020-03-21 23:53:34,546 ERROR FullProcessService - Project will not be processed
+2020-03-21 23:53:34,546 ERROR FullProcessService - Project build has not produced APK file
+2020-03-21 23:53:34,594 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809457512-0/src/trinity-master/trinity.apk
+2020-03-21 23:53:34,594 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809457512-0/src/trinity-master/trinity.apk
