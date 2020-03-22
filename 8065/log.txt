@@ -1,0 +1,255 @@
+2020-03-22 20:10:06,255 INFO  DownloadService - Downloading "https://github.com/Cutta/LoadingImagesAnimation/archive/master.zip", attempt 3
+2020-03-22 20:10:09,692 INFO  DownloadService - Downloaded https://github.com/Cutta/LoadingImagesAnimation/archive/master.zip, attempt 3
+2020-03-22 20:10:09,693 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/master.zip": 1 MB
+2020-03-22 20:10:09,693 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-22 20:10:09,693 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/master.zip: true
+2020-03-22 20:10:09,694 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src'.
+2020-03-22 20:10:09,738 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-03-22 20:10:09,738 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src]
+2020-03-22 20:10:09,780 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/.git/
+
+2020-03-22 20:10:09,786 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/gradlew
+2020-03-22 20:10:09,790 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/loadingimages/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/build.gradle
+2020-03-22 20:10:09,795 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/loadingimages/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/settings.gradle
+2020-03-22 20:10:09,796 INFO  ProjectBuildService - Remote scripts: none
+2020-03-22 20:10:09,797 INFO  ProjectFixService - Fixing project...
+2020-03-22 20:10:09,808 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/app/local.properties
+2020-03-22 20:10:09,810 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 20:10:09,811 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 20:10:09,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/loadingimages/local.properties
+2020-03-22 20:10:09,814 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/loadingimages/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 20:10:09,814 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/loadingimages/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 20:10:09,816 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/local.properties
+2020-03-22 20:10:09,816 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-03-22 20:10:09,817 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-03-22 20:10:09,818 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 20:10:09,818 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 20:10:09,819 INFO  ProjectFixService - Project was maybe fixed
+2020-03-22 20:10:09,819 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 20:10:09,819 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 20:10:29,685 INFO  VirusProcessorServiceImpl - Queued project 8067 to scan viruses
+2020-03-22 20:10:49,945 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-03-22 20:10:49,946 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-22 20:10:49,946 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-22 20:11:42,725 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:loadingimages:preBuild UP-TO-DATE
+:loadingimages:preDebugBuild UP-TO-DATE
+:loadingimages:checkDebugManifest
+:loadingimages:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-alpha3/appcompat-v7-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.2/constraint-layout-1.1.2.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.30/kotlin-stdlib-jre7-1.2.30.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-alpha3/collections-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-alpha3/support-core-utils-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-alpha3/animated-vector-drawable-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-alpha3/support-annotations-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-alpha3/support-compat-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-alpha3/support-fragment-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-alpha3/cursoradapter-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-alpha3/support-vector-drawable-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.2/constraint-layout-solver-1.1.2.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.1/runtime-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0-alpha3/versionedparcelable-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-alpha3/documentfile-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-alpha3/loader-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-alpha3/print-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-alpha3/localbroadcastmanager-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-alpha3/support-core-ui-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.1/viewmodel-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.1/common-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.1/common-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.1/livedata-core-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-alpha3/coordinatorlayout-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-alpha3/customview-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-alpha3/asynclayoutinflater-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-alpha3/viewpager-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-alpha3/drawerlayout-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-alpha3/interpolator-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-alpha3/slidingpanelayout-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-alpha3/swiperefreshlayout-28.0.0-alpha3.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.1/runtime-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-alpha3/support-core-ui-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-alpha3/animated-vector-drawable-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-alpha3/support-core-utils-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-alpha3/appcompat-v7-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-alpha3/support-fragment-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.2/constraint-layout-1.1.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-alpha3/loader-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-alpha3/support-vector-drawable-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-alpha3/viewpager-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-alpha3/slidingpanelayout-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-alpha3/coordinatorlayout-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-alpha3/drawerlayout-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-alpha3/customview-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-alpha3/swiperefreshlayout-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-alpha3/asynclayoutinflater-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-alpha3/support-compat-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-alpha3/print-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-alpha3/cursoradapter-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0-alpha3/versionedparcelable-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-alpha3/documentfile-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-alpha3/localbroadcastmanager-28.0.0-alpha3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-alpha3/interpolator-28.0.0-alpha3.aar
+:loadingimages:compileDebugAidl
+:app:compileDebugAidl
+:loadingimages:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:loadingimages:compileDebugRenderscript
+:loadingimages:generateDebugResValues
+:loadingimages:generateDebugResources
+:loadingimages:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:loadingimages:platformAttrExtractor
+:loadingimages:generateDebugBuildConfig
+:loadingimages:prepareLintJar
+:loadingimages:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-alpha3/collections-28.0.0-alpha3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-alpha3/support-annotations-28.0.0-alpha3.jar
+:loadingimages:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:loadingimages:mergeDebugShaders
+:loadingimages:compileDebugShaders
+:loadingimages:generateDebugAssets
+:loadingimages:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:loadingimages:compileDebugNdk NO-SOURCE
+:loadingimages:mergeDebugJniLibFolders
+:loadingimages:transformNativeLibsWithMergeJniLibsForDebug
+:loadingimages:transformNativeLibsWithStripDebugSymbolForDebug
+:loadingimages:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:loadingimages:preReleaseBuild UP-TO-DATE
+:loadingimages:checkReleaseManifest
+:loadingimages:processReleaseManifest
+:app:preReleaseBuild
+:loadingimages:compileReleaseAidl
+:app:compileReleaseAidl
+:loadingimages:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:loadingimages:compileReleaseRenderscript
+:loadingimages:generateReleaseResValues
+:loadingimages:generateReleaseResources
+:loadingimages:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:loadingimages:generateReleaseBuildConfig
+:loadingimages:javaPreCompileRelease
+:loadingimages:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:loadingimages:mergeReleaseShaders
+:loadingimages:compileReleaseShaders
+:loadingimages:generateReleaseAssets
+:loadingimages:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:loadingimages:compileReleaseNdk NO-SOURCE
+:loadingimages:mergeReleaseJniLibFolders
+:loadingimages:transformNativeLibsWithMergeJniLibsForRelease
+:loadingimages:transformNativeLibsWithStripDebugSymbolForRelease
+:loadingimages:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:loadingimages:generateDebugRFile
+:app:processDebugResources
+:loadingimages:generateDebugSources
+:loadingimages:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/loadingimages/src/main/java/com/example/loadingimages/LoadingImagesView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:loadingimages:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.2/constraint-layout-solver-1.1.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.30/kotlin-stdlib-jre7-1.2.30.jar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:loadingimages:generateReleaseRFile
+:app:processReleaseResources
+:loadingimages:generateReleaseSources
+:loadingimages:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/loadingimages/src/main/java/com/example/loadingimages/LoadingImagesView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:loadingimages:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.3/lint-gradle-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.3/intellij-core-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.3/uast-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.3/lint-26.1.3.pom
+Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.2.0/kotlin-reflect-1.2.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.3/lint-checks-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.3/kotlin-compiler-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.3/lint-kotlin-26.1.3.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.0/kotlin-stdlib-1.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.3/lint-api-26.1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.3/lint-kotlin-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.3/lint-api-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.3/lint-gradle-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.3/uast-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.3/intellij-core-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.3/lint-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.3/lint-checks-26.1.3.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.3/kotlin-compiler-26.1.3.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.0/kotlin-stdlib-1.2.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/runner/1.0.2/runner-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/3.0.2/espresso-core-3.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/monitor/1.0.2/monitor-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.1/support-annotations-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-idling-resource/3.0.2/espresso-idling-resource-3.0.2.pom
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.1.1/javawriter-2.1.1.pom
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 51s
+93 actionable tasks: 93 executed
+
+2020-03-22 20:11:42,837 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882606251-0/src/LoadingImagesAnimation-master/app/build/outputs/apk/debug/app-debug.apk
