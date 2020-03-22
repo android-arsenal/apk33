@@ -1,10 +1,10 @@
-2020-03-06 13:55:50,690 INFO  DownloadService - Downloading "https://github.com/anoop44/AwesomeEditText/archive/master.zip", attempt 3
-2020-03-06 13:55:51,286 INFO  DownloadService - Downloaded https://github.com/anoop44/AwesomeEditText/archive/master.zip, attempt 3
-2020-03-06 13:55:51,286 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477750684-0/master.zip": 454 KB
-2020-03-06 13:55:51,286 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-06 13:55:51,287 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583477750684-0/master.zip: false
-2020-03-06 13:55:51,287 INFO  FullProcessService - Archive with sources does not contain any build script
-2020-03-06 13:55:51,287 ERROR FullProcessService - Could not find directory with sources
-2020-03-06 13:55:51,287 ERROR FullProcessService - Project will not be processed
-2020-03-06 13:55:51,287 ERROR FullProcessService - Project build has not produced APK file
-2020-03-06 13:55:51,287 ERROR FullProcessService - Could not find generated or existed APK file
+2020-03-23 01:51:02,884 INFO  DownloadService - Downloading "https://github.com/anoop44/AwesomeEditText/archive/master.zip", attempt 3
+2020-03-23 01:51:03,649 INFO  DownloadService - Downloaded https://github.com/anoop44/AwesomeEditText/archive/master.zip, attempt 3
+2020-03-23 01:51:03,650 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903062880-0/master.zip": 454 KB
+2020-03-23 01:51:03,650 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-23 01:51:03,655 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903062880-0/master.zip: false
+2020-03-23 01:51:03,655 INFO  FullProcessService - Archive with sources does not contain any build script
+2020-03-23 01:51:03,655 ERROR FullProcessService - Could not find directory with sources
+2020-03-23 01:51:03,655 ERROR FullProcessService - Project will not be processed
+2020-03-23 01:51:03,656 ERROR FullProcessService - Project build has not produced APK file
+2020-03-23 01:51:03,656 ERROR FullProcessService - Could not find generated or existed APK file
