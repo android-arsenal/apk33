@@ -1,34 +1,33 @@
-2020-03-13 14:07:03,534 INFO  DownloadService - Downloading "https://github.com/annchar/ScalingAnimationDroid/archive/master.zip", attempt 3
-2020-03-13 14:07:11,610 INFO  VirusProcessorServiceImpl - Queued project 8053 to scan viruses
-2020-03-13 14:07:18,250 INFO  DownloadService - Downloaded https://github.com/annchar/ScalingAnimationDroid/archive/master.zip, attempt 3
-2020-03-13 14:07:18,250 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/master.zip": 46 MB
-2020-03-13 14:07:18,250 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-13 14:07:18,251 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/master.zip: true
-2020-03-13 14:07:18,252 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src'.
-2020-03-13 14:07:18,469 INFO  FullProcessService - Size of directory with sources: 47 MB
-2020-03-13 14:07:18,469 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src]
-2020-03-13 14:07:18,490 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/.git/
+2020-03-23 23:08:42,798 INFO  DownloadService - Downloading "https://github.com/annchar/ScalingAnimationDroid/archive/master.zip", attempt 3
+2020-03-23 23:12:31,475 INFO  DownloadService - Downloaded https://github.com/annchar/ScalingAnimationDroid/archive/master.zip, attempt 3
+2020-03-23 23:12:31,475 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/master.zip": 46 MB
+2020-03-23 23:12:31,475 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-23 23:12:31,478 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/master.zip: true
+2020-03-23 23:12:31,478 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src'.
+2020-03-23 23:12:31,744 INFO  FullProcessService - Size of directory with sources: 47 MB
+2020-03-23 23:12:31,744 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src]
+2020-03-23 23:12:31,767 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/.git/
 
-2020-03-13 14:07:18,495 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/gradlew
-2020-03-13 14:07:18,500 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/build.gradle
-2020-03-13 14:07:18,504 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/settings.gradle
-2020-03-13 14:07:18,505 INFO  ProjectBuildService - Remote scripts: none
-2020-03-13 14:07:18,505 INFO  ProjectFixService - Fixing project...
-2020-03-13 14:07:18,516 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/demo/local.properties
-2020-03-13 14:07:18,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/demo/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-03-13 14:07:18,517 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/library/local.properties
-2020-03-13 14:07:18,518 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-03-13 14:07:18,518 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/local.properties
-2020-03-13 14:07:18,518 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-13 14:07:18,519 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-13 14:07:18,520 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-03-13 14:07:18,520 INFO  ProjectFixService - Project was maybe fixed
-2020-03-13 14:07:18,521 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-13 14:07:18,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-13 14:07:27,208 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-13 14:07:27,209 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-13 14:07:27,209 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-13 14:08:30,345 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-23 23:12:31,773 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/gradlew
+2020-03-23 23:12:31,779 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/build.gradle
+2020-03-23 23:12:31,784 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/settings.gradle
+2020-03-23 23:12:31,784 INFO  ProjectBuildService - Remote scripts: none
+2020-03-23 23:12:31,785 INFO  ProjectFixService - Fixing project...
+2020-03-23 23:12:31,798 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/demo/local.properties
+2020-03-23 23:12:31,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/demo/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-23 23:12:31,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/library/local.properties
+2020-03-23 23:12:31,800 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-23 23:12:31,801 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/local.properties
+2020-03-23 23:12:31,801 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-23 23:12:31,802 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-23 23:12:31,805 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-23 23:12:31,805 INFO  ProjectFixService - Project was maybe fixed
+2020-03-23 23:12:31,805 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-23 23:12:31,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-23 23:12:40,357 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-23 23:12:40,357 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-23 23:12:40,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-23 23:13:45,007 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :demo:preBuild UP-TO-DATE
 > Task :demo:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
@@ -48,10 +47,10 @@
 > Task :library:packageDebugResources
 > Task :demo:createDebugCompatibleScreenManifests
 > Task :library:checkDebugManifest
-> Task :demo:mergeDebugResources
+> Task :library:generateDebugBuildConfig
 > Task :library:processDebugManifest
 > Task :demo:processDebugManifest
-> Task :library:generateDebugBuildConfig
+> Task :demo:mergeDebugResources
 > Task :library:parseDebugLibraryResources
 > Task :demo:mergeDebugShaders
 > Task :demo:compileDebugShaders
@@ -66,20 +65,20 @@
 > Task :library:generateDebugRFile
 > Task :demo:processDebugResources
 > Task :library:compileDebugKotlin
+> Task :demo:checkDebugDuplicateClasses
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
-> Task :demo:checkDebugDuplicateClasses
+> Task :library:bundleLibResDebug
 > Task :library:bundleLibCompileDebug
 > Task :demo:compileDebugKotlin
-> Task :library:bundleLibResDebug
+> Task :library:bundleLibRuntimeDebug
 > Task :demo:javaPreCompileDebug
 > Task :demo:compileDebugJavaWithJavac
 > Task :demo:compileDebugSources
-> Task :library:bundleLibRuntimeDebug
-> Task :demo:mergeDebugJavaResource
 > Task :demo:transformClassesWithDexBuilderForDebug
 > Task :demo:validateSigningDebug
 > Task :demo:signingConfigWriterDebug
+> Task :demo:mergeDebugJavaResource
 > Task :demo:mergeDebugJniLibFolders
 > Task :library:mergeDebugJniLibFolders
 > Task :demo:preReleaseBuild UP-TO-DATE
@@ -89,6 +88,9 @@
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :demo:compileReleaseRenderscript NO-SOURCE
 > Task :demo:checkReleaseManifest
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :demo:generateReleaseBuildConfig
 > Task :demo:mainApkListPersistenceRelease
 > Task :demo:generateReleaseResValues
@@ -97,9 +99,6 @@
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :library:mergeDebugNativeLibs
-> Task :library:stripDebugDebugSymbols
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :demo:createReleaseCompatibleScreenManifests
 > Task :library:checkReleaseManifest
 > Task :library:processReleaseManifest
@@ -108,25 +107,23 @@
 > Task :library:parseReleaseLibraryResources
 > Task :demo:mergeDebugNativeLibs
 > Task :demo:stripDebugDebugSymbols
+> Task :demo:prepareLintJar
+> Task :demo:checkReleaseDuplicateClasses
 > Task :library:generateReleaseRFile
 > Task :library:compileReleaseKotlin
 > Task :demo:mergeReleaseResources
 > Task :demo:processReleaseResources
-> Task :demo:prepareLintJar
-> Task :demo:checkReleaseDuplicateClasses
+> Task :library:prepareLintJarForPublish
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
-> Task :library:prepareLintJarForPublish
 > Task :library:bundleLibCompileRelease
 > Task :demo:compileReleaseKotlin
 > Task :library:bundleLibRuntimeRelease
 > Task :demo:javaPreCompileRelease
 > Task :demo:compileReleaseJavaWithJavac
 > Task :demo:compileReleaseSources
-
 > Task :demo:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8ae6803450cbe630cbcd4016c61881c9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
+> Task :demo:mergeExtDexDebug
 > Task :demo:transformClassesWithDexBuilderForRelease
 > Task :demo:mergeReleaseShaders
 > Task :demo:compileReleaseShaders
@@ -141,17 +138,16 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :demo:signingConfigWriterRelease
 > Task :demo:mergeReleaseJniLibFolders
 > Task :library:mergeReleaseJniLibFolders
+> Task :demo:mergeDexDebug
+> Task :demo:packageDebug
+> Task :demo:assembleDebug
 > Task :library:mergeReleaseNativeLibs
 > Task :library:stripReleaseDebugSymbols
 > Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :library:bundleLibResRelease
-> Task :demo:mergeExtDexDebug
 > Task :demo:mergeReleaseNativeLibs
 > Task :demo:stripReleaseDebugSymbols
 > Task :demo:mergeReleaseJavaResource
-> Task :demo:mergeDexDebug
-> Task :demo:packageDebug
-> Task :demo:assembleDebug
 > Task :demo:mergeExtDexRelease
 > Task :demo:mergeDexRelease
 > Task :demo:packageRelease
@@ -163,7 +159,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 2s
+BUILD SUCCESSFUL in 1m 3s
 92 actionable tasks: 92 executed
 
-2020-03-13 14:08:30,495 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083223530-0/src/ScalingAnimationDroid-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2020-03-23 23:13:45,124 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979722794-0/src/ScalingAnimationDroid-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

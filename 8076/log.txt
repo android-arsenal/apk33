@@ -1,0 +1,167 @@
+2020-03-23 23:02:14,173 INFO  DownloadService - Downloading "https://github.com/hajiyevelnur92/example-instagram-login/archive/master.zip", attempt 3
+2020-03-23 23:02:16,969 INFO  DownloadService - Downloaded https://github.com/hajiyevelnur92/example-instagram-login/archive/master.zip, attempt 3
+2020-03-23 23:02:16,970 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/master.zip": 445 KB
+2020-03-23 23:02:16,970 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-23 23:02:16,970 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/master.zip: true
+2020-03-23 23:02:16,971 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src'.
+2020-03-23 23:02:16,998 INFO  FullProcessService - Size of directory with sources: 640 KB
+2020-03-23 23:02:16,998 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src]
+2020-03-23 23:02:17,026 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/.git/
+
+2020-03-23 23:02:17,030 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/gradlew
+2020-03-23 23:02:17,034 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/build.gradle
+2020-03-23 23:02:17,038 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/settings.gradle
+2020-03-23 23:02:17,038 INFO  ProjectBuildService - Remote scripts: none
+2020-03-23 23:02:17,038 INFO  ProjectFixService - Fixing project...
+2020-03-23 23:02:17,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/app/local.properties
+2020-03-23 23:02:17,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2020-03-23 23:02:17,050 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2020-03-23 23:02:17,051 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/local.properties
+2020-03-23 23:02:17,052 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-03-23 23:02:17,053 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-03-23 23:02:17,054 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2020-03-23 23:02:17,054 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2020-03-23 23:02:17,055 INFO  ProjectFixService - Project was maybe fixed
+2020-03-23 23:02:17,055 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-23 23:02:17,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-23 23:02:25,694 INFO  VirusProcessorServiceImpl - Queued project 8077 to scan viruses
+2020-03-23 23:02:35,133 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-03-23 23:02:35,133 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-23 23:02:35,133 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-23 23:03:26,744 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.0/constraint-layout-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.1/appcompat-v7-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.1.1/design-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.1/support-fragment-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.1/animated-vector-drawable-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.1/support-vector-drawable-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.0/constraint-layout-solver-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.1.1/transition-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/27.1.1/recyclerview-v7-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/27.1.1/support-v4-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.1/support-compat-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.0/viewmodel-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.1/support-core-ui-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.0/livedata-core-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/27.1.1/support-media-compat-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.0/runtime-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.0/common-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.0/runtime-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.0/common-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.1/animated-vector-drawable-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.1/support-fragment-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.0/constraint-layout-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.1/appcompat-v7-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.1.1/design-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.1/support-core-ui-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/27.1.1/recyclerview-v7-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.1/support-vector-drawable-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.1.1/transition-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/27.1.1/support-media-compat-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.0/viewmodel-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.0/runtime-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.0/livedata-core-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.0/runtime-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/27.1.1/support-v4-27.1.1.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:compileDebugKotlin
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.0/constraint-layout-solver-1.1.0.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.0/common-1.1.0.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.0/common-1.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.1/support-annotations-27.1.1.jar
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 50s
+55 actionable tasks: 55 executed
+
+2020-03-23 23:03:26,832 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584979334168-0/src/example-instagram-login-master/app/build/outputs/apk/debug/app-debug.apk
