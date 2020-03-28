@@ -29,8 +29,8 @@
     "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_PHONE_STATE", "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.ACCESS_WIFI_STATE", "android.permission.READ_LOGS", "android.permission.CAMERA", "android.permission.RECORD_AUDIO" ],
     "usesFeatures" : [ ],
     "permissions" : [ ],
-    "featureSplit" : false,
-    "splitRequired" : false
+    "splitRequired" : false,
+    "featureSplit" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -44,5 +44,5 @@
   "fileSize" : 44975414,
   "crc32" : 1174208533,
   "sha256" : "056871156ad81183fc4e7785307f10cdd0d751f730019e3a8d0c62e57c54882b",
-  "buildTime" : 1584809614000
+  "buildTime" : 1585408173000
 }

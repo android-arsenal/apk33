@@ -29,8 +29,8 @@
     "usesPermissions" : [ ],
     "usesFeatures" : [ ],
     "permissions" : [ ],
-    "featureSplit" : false,
-    "splitRequired" : false
+    "splitRequired" : false,
+    "featureSplit" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -38,11 +38,11 @@
     "data" : "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",
     "file" : true
   },
-  "dexClasses" : 4826,
+  "dexClasses" : 4833,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "fr_FR", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "nl_NL", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "it_IT", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"nl.joery.demo.animatedbottombar\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"29\" />\n\t<application android:theme=\"resourceId:0x7f100007\" android:label=\"AnimatedBottomBar\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:versionCode=\"1\" android:versionName=\"1.0.0\" android:allowBackup=\"false\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f100008\" android:label=\"AnimatedBottomBar\" android:name=\"nl.joery.demo.animatedbottombar.playground.PlaygroundActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f100008\" android:label=\"ExampleActivity\" android:name=\"nl.joery.demo.animatedbottombar.ExampleActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f100008\" android:label=\"ViewPagerActivity\" android:name=\"nl.joery.demo.animatedbottombar.viewpager.ViewPagerActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3390593,
-  "crc32" : 1397159361,
-  "sha256" : "1e2ad95d318a1af361b68c48f13841202c5e54d8d909fb0ce8ad2c316c65f70a",
-  "buildTime" : 1584809076000
+  "fileSize" : 3382649,
+  "crc32" : 3677734742,
+  "sha256" : "1fcb4278a533f2f21d831048ee0754faf78b1eb44275748370403a3b84c46ff2",
+  "buildTime" : 1585407679000
 }
