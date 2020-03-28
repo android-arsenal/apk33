@@ -1,68 +1,34 @@
-2020-03-21 23:45:10,540 INFO  DownloadService - Downloading "https://github.com/swapnil1104/CurveGraphView/archive/master.zip", attempt 3
-2020-03-21 23:45:11,501 ERROR VirusProcessorServiceImpl - Could not scan /Users/vbauer/Documents/workspace/apk/apk33/8058/app.apk
-java.lang.RuntimeException: java.net.UnknownHostException: www.virustotal.com: nodename nor servname provided, or not known
-	at com.android.arsenal.provider.VirusTotalApiProvider$VirusTotalApiImpl.fileScan(VirusTotalApiProvider.java:82)
-	at com.android.arsenal.service.processor.impl.VirusProcessorServiceImpl.scanFile(VirusProcessorServiceImpl.java:204)
-	at com.android.arsenal.service.processor.impl.VirusProcessorServiceImpl.queueToScanViruses(VirusProcessorServiceImpl.java:125)
-	at com.android.arsenal.service.processor.impl.VirusProcessorServiceImpl.lambda$queueToScan$0(VirusProcessorServiceImpl.java:75)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.net.UnknownHostException: www.virustotal.com: nodename nor servname provided, or not known
-	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
-	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
-	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
-	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
-	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
-	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
-	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-	at com.android.arsenal.provider.VirusTotalApiProvider$VirusTotalApiImpl.executeRequest(VirusTotalApiProvider.java:88)
-	at com.android.arsenal.provider.VirusTotalApiProvider$VirusTotalApiImpl.fileScan(VirusTotalApiProvider.java:79)
-	... 10 common frames omitted
-2020-03-21 23:45:11,508 INFO  VirusProcessorServiceImpl - Queued project 8058 to scan viruses
-2020-03-21 23:45:15,241 INFO  DownloadService - Downloaded https://github.com/swapnil1104/CurveGraphView/archive/master.zip, attempt 3
-2020-03-21 23:45:15,241 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/master.zip": 628 KB
-2020-03-21 23:45:15,241 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-21 23:45:15,242 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/master.zip: true
-2020-03-21 23:45:15,242 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src'.
-2020-03-21 23:45:15,281 INFO  FullProcessService - Size of directory with sources: 777 KB
-2020-03-21 23:45:15,281 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src]
-2020-03-21 23:45:15,304 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/.git/
+2020-03-29 01:54:50,308 INFO  DownloadService - Downloading "https://github.com/swapnil1104/CurveGraphView/archive/master.zip", attempt 3
+2020-03-29 01:54:53,021 INFO  DownloadService - Downloaded https://github.com/swapnil1104/CurveGraphView/archive/master.zip, attempt 3
+2020-03-29 01:54:53,021 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/master.zip": 628 KB
+2020-03-29 01:54:53,021 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 01:54:53,021 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/master.zip: true
+2020-03-29 01:54:53,022 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src'.
+2020-03-29 01:54:53,055 INFO  FullProcessService - Size of directory with sources: 778 KB
+2020-03-29 01:54:53,055 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src]
+2020-03-29 01:54:53,077 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/.git/
 
-2020-03-21 23:45:15,311 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/gradlew
-2020-03-21 23:45:15,317 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/build.gradle
-2020-03-21 23:45:15,322 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/settings.gradle
-2020-03-21 23:45:15,323 INFO  ProjectBuildService - Remote scripts: none
-2020-03-21 23:45:15,323 INFO  ProjectFixService - Fixing project...
-2020-03-21 23:45:15,337 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/app/local.properties
-2020-03-21 23:45:15,338 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-21 23:45:15,339 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/graphview/local.properties
-2020-03-21 23:45:15,341 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/graphview/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-21 23:45:15,342 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/local.properties
-2020-03-21 23:45:15,344 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-21 23:45:15,345 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-21 23:45:15,347 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-21 23:45:15,348 INFO  ProjectFixService - Project was maybe fixed
-2020-03-21 23:45:15,348 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-21 23:45:15,348 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-21 23:45:21,583 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-03-21 23:45:21,584 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-21 23:45:21,584 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-21 23:45:48,139 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 01:54:53,081 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/gradlew
+2020-03-29 01:54:53,086 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/build.gradle
+2020-03-29 01:54:53,090 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/settings.gradle
+2020-03-29 01:54:53,091 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 01:54:53,091 INFO  ProjectFixService - Fixing project...
+2020-03-29 01:54:53,101 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/app/local.properties
+2020-03-29 01:54:53,102 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-29 01:54:53,103 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/graphview/local.properties
+2020-03-29 01:54:53,104 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/graphview/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-29 01:54:53,104 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/local.properties
+2020-03-29 01:54:53,105 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-29 01:54:53,105 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-29 01:54:53,106 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-29 01:54:53,106 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 01:54:53,106 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 01:54:53,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 01:54:59,280 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-03-29 01:54:59,280 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 01:54:59,280 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 01:55:04,952 INFO  VirusProcessorServiceImpl - Queued project 8059 to scan viruses
+2020-03-29 01:55:24,693 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -91,9 +57,9 @@ It will be removed soon. For more information see: http://d.android.com/r/tools/
 > Task :graphview:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :graphview:checkDebugManifest
+> Task :app:mergeDebugResources
 > Task :graphview:processDebugManifest
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
 > Task :graphview:parseDebugLibraryResources
 > Task :graphview:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
@@ -116,6 +82,8 @@ It will be removed soon. For more information see: http://d.android.com/r/tools/
 > Task :graphview:javaPreCompileDebug
 > Task :graphview:compileDebugJavaWithJavac
 > Task :graphview:bundleLibResDebug
+> Task :graphview:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
 > Task :app:mergeDebugJniLibFolders
 > Task :graphview:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
@@ -133,30 +101,44 @@ It will be removed soon. For more information see: http://d.android.com/r/tools/
 > Task :graphview:generateReleaseResValues
 > Task :graphview:generateReleaseResources
 > Task :graphview:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :graphview:checkReleaseManifest
+> Task :graphview:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :graphview:bundleLibRuntimeDebug
 > Task :graphview:mergeDebugNativeLibs
 > Task :graphview:stripDebugDebugSymbols
 > Task :graphview:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :graphview:checkReleaseManifest
-> Task :graphview:bundleLibRuntimeDebug
-> Task :graphview:bundleLibCompileDebug
-> Task :app:compileDebugKotlin
+> Task :graphview:parseReleaseLibraryResources
+> Task :app:mergeReleaseResources
 > Task :graphview:generateReleaseBuildConfig
+> Task :graphview:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :graphview:compileReleaseKotlin
+> Task :app:mergeLibDexDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
-> Task :app:mergeDebugNativeLibs
 > Task :app:compileDebugSources
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:stripDebugDebugSymbols
-> Task :app:mergeLibDexDebug
-> Task :graphview:processReleaseManifest
-> Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
-> Task :graphview:parseReleaseLibraryResources
+> Task :graphview:javaPreCompileRelease
+> Task :graphview:compileReleaseJavaWithJavac
 > Task :app:mergeProjectDexDebug
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
+> Task :graphview:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :graphview:bundleLibRuntimeRelease
 > Task :graphview:prepareLintJarForPublish
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:mergeDebugJavaResource
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -170,30 +152,14 @@ It will be removed soon. For more information see: http://d.android.com/r/tools/
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :graphview:mergeReleaseJniLibFolders
-> Task :app:mergeDebugJavaResource
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :graphview:bundleLibResRelease
 > Task :graphview:mergeReleaseNativeLibs
 > Task :graphview:stripReleaseDebugSymbols
 > Task :graphview:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :graphview:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :graphview:compileReleaseKotlin
-> Task :app:mergeExtDexRelease
-> Task :graphview:javaPreCompileRelease
-> Task :graphview:compileReleaseJavaWithJavac
-> Task :graphview:bundleLibCompileRelease
-> Task :app:compileReleaseKotlin
-> Task :graphview:bundleLibResRelease
-> Task :graphview:bundleLibRuntimeRelease
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
@@ -204,7 +170,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 26s
+BUILD SUCCESSFUL in 25s
 93 actionable tasks: 93 executed
 
-2020-03-21 23:45:48,227 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809110535-0/src/CurveGraphView-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-29 01:55:24,775 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421690299-0/src/CurveGraphView-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,271 @@
+2020-03-29 01:51:00,991 INFO  DownloadService - Downloading "https://github.com/Cleveroad/BlurTutorial/archive/master.zip", attempt 3
+2020-03-29 01:51:03,588 INFO  DownloadService - Downloaded https://github.com/Cleveroad/BlurTutorial/archive/master.zip, attempt 3
+2020-03-29 01:51:03,589 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/master.zip": 6 MB
+2020-03-29 01:51:03,589 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 01:51:03,590 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/master.zip: true
+2020-03-29 01:51:03,590 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src'.
+2020-03-29 01:51:03,719 INFO  FullProcessService - Size of directory with sources: 6 MB
+2020-03-29 01:51:03,720 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src]
+2020-03-29 01:51:03,740 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/.git/
+
+2020-03-29 01:51:03,750 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/gradlew
+2020-03-29 01:51:03,757 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/blur_tutorial/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/build.gradle
+2020-03-29 01:51:03,765 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/blur_tutorial/lib_jcenter.settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/blur_tutorial/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/main_jcenter.settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/settings.gradle
+2020-03-29 01:51:03,769 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 01:51:03,770 INFO  ProjectFixService - Fixing project...
+2020-03-29 01:51:03,786 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/blur_tutorial/local.properties
+2020-03-29 01:51:03,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/blur_tutorial/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-29 01:51:03,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/sample/local.properties
+2020-03-29 01:51:03,791 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-29 01:51:03,792 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/local.properties
+2020-03-29 01:51:03,792 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-03-29 01:51:03,793 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-03-29 01:51:03,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-29 01:51:03,795 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 01:51:03,795 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 01:51:03,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/blur_tutorial/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 01:51:18,891 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 01:51:18,891 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-29 01:51:18,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/blur_tutorial/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-29 01:51:38,132 INFO  VirusProcessorServiceImpl - Queued project 8085 to scan viruses
+2020-03-29 01:51:50,661 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :blur_tutorial:preBuild UP-TO-DATE
+> Task :blur_tutorial:preDebugBuild UP-TO-DATE
+> Task :blur_tutorial:compileDebugAidl NO-SOURCE
+> Task :blur_tutorial:checkDebugManifest
+> Task :blur_tutorial:compileDebugRenderscript NO-SOURCE
+> Task :blur_tutorial:generateDebugBuildConfig
+> Task :blur_tutorial:generateDebugResValues
+> Task :blur_tutorial:generateDebugResources
+> Task :blur_tutorial:processDebugManifest
+> Task :blur_tutorial:packageDebugResources
+> Task :blur_tutorial:generateDebugRFile
+> Task :blur_tutorial:kaptGenerateStubsDebugKotlin
+> Task :blur_tutorial:kaptDebugKotlin
+> Task :blur_tutorial:compileDebugKotlin
+> Task :blur_tutorial:prepareLintJar
+> Task :blur_tutorial:generateDebugSources
+> Task :blur_tutorial:javaPreCompileDebug
+> Task :blur_tutorial:compileDebugJavaWithJavac
+> Task :blur_tutorial:extractDebugAnnotations
+> Task :blur_tutorial:mergeDebugConsumerProguardFiles
+> Task :blur_tutorial:mergeDebugShaders
+> Task :blur_tutorial:compileDebugShaders
+> Task :blur_tutorial:generateDebugAssets
+> Task :blur_tutorial:packageDebugAssets
+> Task :blur_tutorial:packageDebugRenderscript NO-SOURCE
+> Task :blur_tutorial:prepareLintJarForPublish
+> Task :blur_tutorial:processDebugJavaRes NO-SOURCE
+> Task :blur_tutorial:transformResourcesWithMergeJavaResForDebug
+> Task :blur_tutorial:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :blur_tutorial:mergeDebugJniLibFolders
+> Task :blur_tutorial:transformNativeLibsWithMergeJniLibsForDebug
+> Task :blur_tutorial:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :blur_tutorial:transformNativeLibsWithSyncJniLibsForDebug
+> Task :blur_tutorial:bundleDebugAar
+> Task :blur_tutorial:compileDebugSources
+> Task :blur_tutorial:assembleDebug
+> Task :blur_tutorial:preReleaseBuild UP-TO-DATE
+> Task :blur_tutorial:compileReleaseAidl NO-SOURCE
+> Task :blur_tutorial:compileReleaseRenderscript NO-SOURCE
+> Task :blur_tutorial:checkReleaseManifest
+> Task :blur_tutorial:generateReleaseBuildConfig
+> Task :blur_tutorial:generateReleaseResValues
+> Task :blur_tutorial:generateReleaseResources
+> Task :blur_tutorial:packageReleaseResources
+> Task :blur_tutorial:processReleaseManifest
+> Task :blur_tutorial:generateReleaseRFile
+> Task :blur_tutorial:kaptGenerateStubsReleaseKotlin
+> Task :blur_tutorial:kaptReleaseKotlin
+> Task :blur_tutorial:compileReleaseKotlin
+> Task :blur_tutorial:generateReleaseSources
+> Task :blur_tutorial:javaPreCompileRelease
+> Task :blur_tutorial:compileReleaseJavaWithJavac
+> Task :blur_tutorial:extractReleaseAnnotations
+> Task :blur_tutorial:mergeReleaseConsumerProguardFiles
+> Task :blur_tutorial:mergeReleaseShaders
+> Task :blur_tutorial:compileReleaseShaders
+> Task :blur_tutorial:generateReleaseAssets
+> Task :blur_tutorial:packageReleaseAssets
+> Task :blur_tutorial:packageReleaseRenderscript NO-SOURCE
+> Task :blur_tutorial:processReleaseJavaRes NO-SOURCE
+> Task :blur_tutorial:transformResourcesWithMergeJavaResForRelease
+> Task :blur_tutorial:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :blur_tutorial:mergeReleaseJniLibFolders
+> Task :blur_tutorial:transformNativeLibsWithMergeJniLibsForRelease
+> Task :blur_tutorial:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :blur_tutorial:transformNativeLibsWithSyncJniLibsForRelease
+> Task :blur_tutorial:bundleReleaseAar
+> Task :blur_tutorial:compileReleaseSources
+> Task :blur_tutorial:sourcesJar
+> Task :blur_tutorial:mergeReleaseResources
+> Task :blur_tutorial:verifyReleaseResources
+> Task :blur_tutorial:assembleRelease
+> Task :blur_tutorial:assemble
+> Task :blur_tutorial:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 31s
+51 actionable tasks: 51 executed
+
+2020-03-29 01:51:50,734 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 01:51:50,734 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 01:51:58,384 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-29 01:51:58,384 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 01:51:58,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 01:53:11,852 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :blur_tutorial:preBuild UP-TO-DATE
+> Task :blur_tutorial:preDebugBuild UP-TO-DATE
+> Task :blur_tutorial:compileDebugAidl NO-SOURCE
+> Task :blur_tutorial:checkDebugManifest UP-TO-DATE
+> Task :blur_tutorial:compileDebugRenderscript NO-SOURCE
+> Task :blur_tutorial:generateDebugBuildConfig UP-TO-DATE
+> Task :blur_tutorial:generateDebugResValues UP-TO-DATE
+> Task :blur_tutorial:generateDebugResources UP-TO-DATE
+> Task :blur_tutorial:packageDebugResources UP-TO-DATE
+> Task :blur_tutorial:processDebugManifest UP-TO-DATE
+> Task :blur_tutorial:generateDebugRFile UP-TO-DATE
+> Task :blur_tutorial:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :blur_tutorial:kaptDebugKotlin UP-TO-DATE
+> Task :blur_tutorial:compileDebugKotlin UP-TO-DATE
+> Task :blur_tutorial:prepareLintJar UP-TO-DATE
+> Task :blur_tutorial:generateDebugSources UP-TO-DATE
+> Task :blur_tutorial:javaPreCompileDebug UP-TO-DATE
+> Task :blur_tutorial:compileDebugJavaWithJavac UP-TO-DATE
+> Task :blur_tutorial:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :blur_tutorial:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :sample:kaptDebugKotlin
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :blur_tutorial:mergeDebugShaders UP-TO-DATE
+> Task :blur_tutorial:compileDebugShaders UP-TO-DATE
+> Task :blur_tutorial:generateDebugAssets UP-TO-DATE
+> Task :blur_tutorial:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :blur_tutorial:processDebugJavaRes NO-SOURCE
+> Task :sample:checkDebugDuplicateClasses
+> Task :blur_tutorial:bundleLibResDebug
+> Task :blur_tutorial:bundleLibRuntimeDebug
+> Task :blur_tutorial:createFullJarDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeProjectDexDebug
+> Task :sample:mergeLibDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :blur_tutorial:mergeDebugJniLibFolders UP-TO-DATE
+> Task :blur_tutorial:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :blur_tutorial:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :blur_tutorial:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :blur_tutorial:preReleaseBuild UP-TO-DATE
+> Task :blur_tutorial:compileReleaseAidl NO-SOURCE
+> Task :blur_tutorial:compileReleaseRenderscript NO-SOURCE
+> Task :blur_tutorial:checkReleaseManifest UP-TO-DATE
+> Task :blur_tutorial:generateReleaseBuildConfig UP-TO-DATE
+> Task :blur_tutorial:generateReleaseResValues UP-TO-DATE
+> Task :blur_tutorial:generateReleaseResources UP-TO-DATE
+> Task :blur_tutorial:packageReleaseResources UP-TO-DATE
+> Task :blur_tutorial:processReleaseManifest UP-TO-DATE
+> Task :blur_tutorial:generateReleaseRFile UP-TO-DATE
+> Task :blur_tutorial:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+> Task :blur_tutorial:kaptReleaseKotlin UP-TO-DATE
+> Task :blur_tutorial:compileReleaseKotlin UP-TO-DATE
+> Task :blur_tutorial:generateReleaseSources UP-TO-DATE
+> Task :blur_tutorial:javaPreCompileRelease UP-TO-DATE
+> Task :blur_tutorial:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :blur_tutorial:bundleLibCompileRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :blur_tutorial:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:mergeExtDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:kaptReleaseKotlin
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :blur_tutorial:prepareLintJarForPublish UP-TO-DATE
+> Task :blur_tutorial:processReleaseJavaRes NO-SOURCE
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/56f0b28e721e9bc9dbfb5c8928479896/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :blur_tutorial:bundleLibResRelease
+> Task :blur_tutorial:bundleLibRuntimeRelease
+> Task :blur_tutorial:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :blur_tutorial:mergeReleaseShaders UP-TO-DATE
+> Task :blur_tutorial:compileReleaseShaders UP-TO-DATE
+> Task :blur_tutorial:generateReleaseAssets UP-TO-DATE
+> Task :blur_tutorial:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :blur_tutorial:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :blur_tutorial:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :blur_tutorial:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :blur_tutorial:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 12s
+104 actionable tasks: 68 executed, 36 up-to-date
+
+2020-03-29 01:53:12,103 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421460987-0/src/BlurTutorial-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
