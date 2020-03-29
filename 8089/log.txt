@@ -1,0 +1,266 @@
+2020-03-30 01:18:03,908 INFO  DownloadService - Downloading "https://github.com/tuanhav95/DragView/archive/master.zip", attempt 3
+2020-03-30 01:18:11,105 INFO  DownloadService - Downloaded https://github.com/tuanhav95/DragView/archive/master.zip, attempt 3
+2020-03-30 01:18:11,106 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/master.zip": 15 MB
+2020-03-30 01:18:11,106 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 01:18:11,114 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/master.zip: true
+2020-03-30 01:18:11,115 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src'.
+2020-03-30 01:18:11,280 INFO  FullProcessService - Size of directory with sources: 16 MB
+2020-03-30 01:18:11,284 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src]
+2020-03-30 01:18:11,312 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/.git/
+
+2020-03-30 01:18:11,329 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/gradlew
+2020-03-30 01:18:11,342 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/drag/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/build.gradle
+2020-03-30 01:18:11,349 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/drag/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/settings.gradle
+2020-03-30 01:18:11,351 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 01:18:11,352 INFO  ProjectFixService - Fixing project...
+2020-03-30 01:18:11,395 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2020-03-30 01:18:11,395 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2020-03-30 01:18:11,397 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2020-03-30 01:18:11,401 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 28.0.0-rc1 28.0.0-rc2
+2020-03-30 01:18:11,403 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2020-03-30 01:18:11,405 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2020-03-30 01:18:11,406 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/drag/local.properties
+2020-03-30 01:18:11,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/drag/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-30 01:18:11,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/example/local.properties
+2020-03-30 01:18:11,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/example/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-30 01:18:11,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/local.properties
+2020-03-30 01:18:11,419 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-30 01:18:11,420 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-30 01:18:11,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-30 01:18:11,423 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 01:18:11,425 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 01:18:11,426 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/drag/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 01:18:20,589 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-03-30 01:18:20,589 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-30 01:18:20,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/drag/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-30 01:18:48,642 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :drag:preBuild UP-TO-DATE
+> Task :drag:preDebugBuild UP-TO-DATE
+> Task :drag:checkDebugManifest
+> Task :drag:generateDebugBuildConfig
+> Task :drag:generateDebugResValues
+> Task :drag:mergeDebugShaders
+> Task :drag:compileDebugShaders
+> Task :drag:generateDebugAssets
+> Task :drag:packageDebugAssets
+> Task :drag:packageDebugRenderscript NO-SOURCE
+> Task :drag:processDebugJavaRes NO-SOURCE
+> Task :drag:mergeDebugJniLibFolders
+> Task :drag:processDebugManifest
+> Task :drag:prepareLintJarForPublish
+> Task :drag:preReleaseBuild UP-TO-DATE
+> Task :drag:checkReleaseManifest
+> Task :drag:generateReleaseBuildConfig
+> Task :drag:generateReleaseResValues
+> Task :drag:mergeReleaseShaders
+> Task :drag:compileReleaseShaders
+> Task :drag:generateReleaseAssets
+> Task :drag:packageReleaseAssets
+> Task :drag:packageReleaseRenderscript NO-SOURCE
+> Task :drag:processReleaseJavaRes NO-SOURCE
+> Task :drag:mergeReleaseJniLibFolders
+> Task :drag:mergeDebugNativeLibs
+> Task :drag:stripDebugDebugSymbols
+> Task :drag:transformNativeLibsWithSyncJniLibsForDebug
+> Task :drag:mergeReleaseNativeLibs
+> Task :drag:stripReleaseDebugSymbols
+> Task :drag:transformNativeLibsWithSyncJniLibsForRelease
+> Task :drag:processReleaseManifest
+> Task :drag:compileDebugAidl NO-SOURCE
+> Task :drag:compileDebugRenderscript NO-SOURCE
+> Task :drag:generateDebugResources
+> Task :drag:packageDebugResources
+> Task :drag:compileReleaseAidl NO-SOURCE
+> Task :drag:compileReleaseRenderscript NO-SOURCE
+> Task :drag:generateReleaseResources
+> Task :drag:packageReleaseResources
+> Task :drag:mergeReleaseResources
+> Task :drag:parseDebugLibraryResources
+> Task :drag:parseReleaseLibraryResources
+> Task :drag:generateDebugRFile
+
+> Task :drag:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/drag/src/main/java/com/tuanhav95/drag/utils/ViewExtensions.kt: (49, 46): Parameter 'valueAnimator' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/drag/src/main/java/com/tuanhav95/drag/utils/ViewExtensions.kt: (63, 46): Parameter 'valueAnimator' is never used, could be renamed to _
+
+> Task :drag:verifyReleaseResources
+> Task :drag:generateReleaseRFile
+
+> Task :drag:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/drag/src/main/java/com/tuanhav95/drag/utils/ViewExtensions.kt: (49, 46): Parameter 'valueAnimator' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/drag/src/main/java/com/tuanhav95/drag/utils/ViewExtensions.kt: (63, 46): Parameter 'valueAnimator' is never used, could be renamed to _
+
+> Task :drag:javaPreCompileDebug
+> Task :drag:compileDebugJavaWithJavac
+> Task :drag:extractDebugAnnotations
+> Task :drag:mergeDebugGeneratedProguardFiles
+> Task :drag:mergeDebugConsumerProguardFiles
+> Task :drag:compileDebugSources
+> Task :drag:javaPreCompileRelease
+> Task :drag:compileReleaseJavaWithJavac
+> Task :drag:extractReleaseAnnotations
+> Task :drag:mergeReleaseGeneratedProguardFiles
+> Task :drag:mergeReleaseConsumerProguardFiles
+> Task :drag:compileReleaseSources
+> Task :drag:mergeDebugJavaResource
+> Task :drag:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :drag:bundleDebugAar
+> Task :drag:assembleDebug
+> Task :drag:mergeReleaseJavaResource
+> Task :drag:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :drag:bundleReleaseAar
+> Task :drag:assembleRelease
+> Task :drag:assemble
+> Task :drag:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 27s
+49 actionable tasks: 49 executed
+
+2020-03-30 01:18:48,725 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 01:18:48,726 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 01:18:55,294 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-30 01:18:55,294 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 01:18:55,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 01:20:01,256 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :drag:preBuild UP-TO-DATE
+> Task :drag:preDebugBuild UP-TO-DATE
+> Task :drag:compileDebugAidl NO-SOURCE
+> Task :drag:checkDebugManifest UP-TO-DATE
+> Task :drag:compileDebugRenderscript NO-SOURCE
+> Task :drag:generateDebugBuildConfig UP-TO-DATE
+> Task :drag:generateDebugResValues UP-TO-DATE
+> Task :drag:generateDebugResources UP-TO-DATE
+> Task :drag:packageDebugResources UP-TO-DATE
+> Task :drag:parseDebugLibraryResources UP-TO-DATE
+> Task :drag:processDebugManifest UP-TO-DATE
+> Task :drag:generateDebugRFile UP-TO-DATE
+> Task :drag:compileDebugKotlin UP-TO-DATE
+> Task :drag:javaPreCompileDebug UP-TO-DATE
+> Task :drag:compileDebugJavaWithJavac UP-TO-DATE
+> Task :example:preBuild UP-TO-DATE
+> Task :example:preDebugBuild UP-TO-DATE
+> Task :drag:packageDebugRenderscript NO-SOURCE
+> Task :example:compileDebugRenderscript NO-SOURCE
+> Task :example:compileDebugAidl NO-SOURCE
+> Task :example:checkDebugManifest
+> Task :example:generateDebugBuildConfig
+> Task :drag:bundleLibCompileDebug
+> Task :example:mainApkListPersistenceDebug
+> Task :example:generateDebugResValues
+> Task :example:generateDebugResources
+> Task :example:createDebugCompatibleScreenManifests
+> Task :example:processDebugManifest
+> Task :example:mergeDebugResources
+> Task :example:processDebugResources
+> Task :example:compileDebugKotlin
+> Task :example:javaPreCompileDebug
+> Task :example:compileDebugJavaWithJavac
+> Task :example:compileDebugSources
+> Task :drag:mergeDebugShaders UP-TO-DATE
+> Task :drag:compileDebugShaders UP-TO-DATE
+> Task :drag:generateDebugAssets UP-TO-DATE
+> Task :drag:packageDebugAssets UP-TO-DATE
+> Task :example:mergeDebugShaders
+> Task :example:compileDebugShaders
+> Task :example:generateDebugAssets
+> Task :example:mergeDebugAssets
+> Task :drag:processDebugJavaRes NO-SOURCE
+> Task :example:processDebugJavaRes NO-SOURCE
+> Task :drag:bundleLibResDebug
+> Task :drag:bundleLibRuntimeDebug
+> Task :example:checkDebugDuplicateClasses
+> Task :example:mergeDebugJavaResource
+> Task :example:transformClassesWithDexBuilderForDebug
+> Task :example:validateSigningDebug
+> Task :example:signingConfigWriterDebug
+> Task :drag:mergeDebugJniLibFolders UP-TO-DATE
+> Task :drag:mergeDebugNativeLibs UP-TO-DATE
+> Task :drag:stripDebugDebugSymbols UP-TO-DATE
+> Task :drag:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :example:mergeDebugJniLibFolders
+> Task :drag:preReleaseBuild UP-TO-DATE
+> Task :drag:compileReleaseAidl NO-SOURCE
+> Task :drag:compileReleaseRenderscript NO-SOURCE
+> Task :drag:checkReleaseManifest UP-TO-DATE
+> Task :drag:generateReleaseBuildConfig UP-TO-DATE
+> Task :drag:generateReleaseResValues UP-TO-DATE
+> Task :drag:generateReleaseResources UP-TO-DATE
+> Task :drag:packageReleaseResources UP-TO-DATE
+> Task :drag:parseReleaseLibraryResources UP-TO-DATE
+> Task :drag:processReleaseManifest UP-TO-DATE
+> Task :drag:generateReleaseRFile UP-TO-DATE
+> Task :drag:compileReleaseKotlin UP-TO-DATE
+> Task :drag:javaPreCompileRelease UP-TO-DATE
+> Task :drag:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :drag:bundleLibCompileRelease
+> Task :example:preReleaseBuild UP-TO-DATE
+> Task :example:compileReleaseAidl NO-SOURCE
+> Task :drag:packageReleaseRenderscript NO-SOURCE
+> Task :example:compileReleaseRenderscript NO-SOURCE
+> Task :example:checkReleaseManifest
+> Task :example:generateReleaseBuildConfig
+> Task :example:mainApkListPersistenceRelease
+> Task :example:generateReleaseResValues
+> Task :example:generateReleaseResources
+> Task :example:createReleaseCompatibleScreenManifests
+> Task :example:processReleaseManifest
+> Task :example:mergeDebugNativeLibs
+> Task :example:stripDebugDebugSymbols
+> Task :drag:prepareLintJarForPublish UP-TO-DATE
+> Task :example:prepareLintJar
+> Task :example:checkReleaseDuplicateClasses
+> Task :drag:bundleLibRuntimeRelease
+> Task :example:mergeReleaseResources
+> Task :example:processReleaseResources
+> Task :example:compileReleaseKotlin
+> Task :example:javaPreCompileRelease
+> Task :example:compileReleaseJavaWithJavac
+> Task :example:compileReleaseSources
+
+> Task :example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/fccbb8aa80f562b0ad1773f5518cb843/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :example:mergeExtDexDebug
+> Task :example:transformClassesWithDexBuilderForRelease
+> Task :drag:mergeReleaseShaders UP-TO-DATE
+> Task :drag:compileReleaseShaders UP-TO-DATE
+> Task :drag:generateReleaseAssets UP-TO-DATE
+> Task :drag:packageReleaseAssets UP-TO-DATE
+> Task :example:mergeReleaseShaders
+> Task :example:compileReleaseShaders
+> Task :example:generateReleaseAssets
+> Task :example:mergeReleaseAssets
+> Task :drag:processReleaseJavaRes NO-SOURCE
+> Task :example:mergeDexDebug
+> Task :example:packageDebug
+> Task :example:assembleDebug
+> Task :example:processReleaseJavaRes NO-SOURCE
+> Task :example:signingConfigWriterRelease
+> Task :drag:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :drag:mergeReleaseNativeLibs UP-TO-DATE
+> Task :drag:stripReleaseDebugSymbols UP-TO-DATE
+> Task :drag:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :example:mergeReleaseJniLibFolders
+> Task :drag:bundleLibResRelease
+> Task :example:mergeReleaseNativeLibs
+> Task :example:stripReleaseDebugSymbols
+> Task :example:mergeReleaseJavaResource
+> Task :example:mergeExtDexRelease
+> Task :example:mergeDexRelease
+> Task :example:packageRelease
+> Task :example:assembleRelease
+> Task :example:assemble
+> Task :example:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 5s
+92 actionable tasks: 59 executed, 33 up-to-date
+
+2020-03-30 01:20:01,458 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505883844-0/src/DragView-master/example/build/outputs/apk/release/example-release-unsigned.apk
