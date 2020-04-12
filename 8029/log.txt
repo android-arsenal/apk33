@@ -1,34 +1,34 @@
-2020-03-13 14:12:56,166 INFO  DownloadService - Downloading "https://github.com/devmike01/TimedDog/archive/master.zip", attempt 3
-2020-03-13 14:12:58,149 INFO  DownloadService - Downloaded https://github.com/devmike01/TimedDog/archive/master.zip, attempt 3
-2020-03-13 14:12:58,150 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/master.zip": 151 KB
-2020-03-13 14:12:58,150 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-13 14:12:58,150 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/master.zip: true
-2020-03-13 14:12:58,150 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src'.
-2020-03-13 14:12:58,175 INFO  FullProcessService - Size of directory with sources: 164 KB
-2020-03-13 14:12:58,175 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src]
-2020-03-13 14:12:58,218 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/.git/
+2020-04-12 22:11:11,256 INFO  DownloadService - Downloading "https://github.com/devmike01/TimedDog/archive/master.zip", attempt 3
+2020-04-12 22:11:13,659 INFO  DownloadService - Downloaded https://github.com/devmike01/TimedDog/archive/master.zip, attempt 3
+2020-04-12 22:11:13,660 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/master.zip": 155 KB
+2020-04-12 22:11:13,660 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-12 22:11:13,660 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/master.zip: true
+2020-04-12 22:11:13,661 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src'.
+2020-04-12 22:11:13,690 INFO  FullProcessService - Size of directory with sources: 171 KB
+2020-04-12 22:11:13,691 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src]
+2020-04-12 22:11:13,727 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/.git/
 
-2020-03-13 14:12:58,223 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/gradlew
-2020-03-13 14:12:58,228 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/timeddogx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/build.gradle
-2020-03-13 14:12:58,232 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/timeddogx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/settings.gradle
-2020-03-13 14:12:58,232 INFO  ProjectBuildService - Remote scripts: none
-2020-03-13 14:12:58,232 INFO  ProjectFixService - Fixing project...
-2020-03-13 14:12:58,242 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/sample/local.properties
-2020-03-13 14:12:58,243 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-03-13 14:12:58,244 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/timeddogx/local.properties
-2020-03-13 14:12:58,244 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/timeddogx/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-03-13 14:12:58,245 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/local.properties
-2020-03-13 14:12:58,245 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-13 14:12:58,245 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-13 14:12:58,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-03-13 14:12:58,246 INFO  ProjectFixService - Project was maybe fixed
-2020-03-13 14:12:58,246 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-13 14:12:58,247 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-13 14:13:03,732 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-13 14:13:03,732 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-13 14:13:03,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-13 14:13:07,996 INFO  VirusProcessorServiceImpl - Queued project 8030 to scan viruses
-2020-03-13 14:13:37,344 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-12 22:11:13,732 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/gradlew
+2020-04-12 22:11:13,739 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/timeddogx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/build.gradle
+2020-04-12 22:11:13,745 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/timeddogx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/settings.gradle
+2020-04-12 22:11:13,746 INFO  ProjectBuildService - Remote scripts: none
+2020-04-12 22:11:13,746 INFO  ProjectFixService - Fixing project...
+2020-04-12 22:11:13,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/sample/local.properties
+2020-04-12 22:11:13,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-04-12 22:11:13,765 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/timeddogx/local.properties
+2020-04-12 22:11:13,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/timeddogx/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-04-12 22:11:13,767 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/local.properties
+2020-04-12 22:11:13,767 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-04-12 22:11:13,768 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-04-12 22:11:13,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-04-12 22:11:13,769 INFO  ProjectFixService - Project was maybe fixed
+2020-04-12 22:11:13,770 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-12 22:11:13,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-12 22:11:20,558 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-04-12 22:11:20,559 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-12 22:11:20,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-12 22:11:22,910 INFO  VirusProcessorServiceImpl - Queued project 8077 to scan viruses
+2020-04-12 22:12:17,318 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
@@ -64,17 +64,17 @@
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
-> Task :sample:mergeReleaseResources
-> Task :sample:processReleaseResources
 > Task :sample:javaPreCompileRelease
-> Task :sample:compileReleaseJavaWithJavac
-> Task :sample:compileReleaseSources
 > Task :sample:prepareLintJar
 > Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :sample:mergeReleaseResources
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
 
 > Task :sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/4e4ab906f4f0285fe6678b83da2f0f25/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
@@ -85,12 +85,12 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:mergeExtDexDebug
 > Task :sample:signingConfigWriterRelease
 > Task :sample:mergeReleaseJniLibFolders
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
 > Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeExtDexDebug
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
@@ -105,7 +105,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 32s
+BUILD SUCCESSFUL in 56s
 49 actionable tasks: 49 executed
 
-2020-03-13 14:13:37,428 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083576163-0/src/TimedDog-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-04-12 22:12:17,407 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586704271252-0/src/TimedDog-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

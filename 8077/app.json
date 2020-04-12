@@ -41,8 +41,8 @@
   "dexClasses" : 2606,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.1\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.androidvalidatorcrawler.aliazaz\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"29\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"ValidatorCrawler\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.validator.aliazaz.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2534638,
-  "crc32" : 723162372,
-  "sha256" : "9dfac30c64221c324712164a26b363651648eab80a9b235b83855cd28dca6c06",
-  "buildTime" : 1584979303000
+  "fileSize" : 2534586,
+  "crc32" : 868367347,
+  "sha256" : "8b28af23b91419c2275a19c044eb16e73605017f3733f14e915a150ca828c9d3",
+  "buildTime" : 1586704246000
 }
