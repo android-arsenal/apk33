@@ -1,51 +1,46 @@
-2020-03-28 21:56:26,072 INFO  DownloadService - Downloading "https://github.com/adrielcafe/kaptain/archive/master.zip", attempt 3
-2020-03-28 21:56:29,107 INFO  DownloadService - Downloaded https://github.com/adrielcafe/kaptain/archive/master.zip, attempt 3
-2020-03-28 21:56:29,108 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/master.zip": 158 KB
-2020-03-28 21:56:29,108 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-28 21:56:29,121 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/master.zip: true
-2020-03-28 21:56:29,122 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src'.
-2020-03-28 21:56:29,160 INFO  FullProcessService - Size of directory with sources: 161 KB
-2020-03-28 21:56:29,164 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src]
-2020-03-28 21:56:29,207 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/.git/
+2020-04-23 18:48:45,101 INFO  DownloadService - Downloading "https://github.com/adrielcafe/kaptain/archive/master.zip", attempt 3
+2020-04-23 18:48:47,119 INFO  DownloadService - Downloaded https://github.com/adrielcafe/kaptain/archive/master.zip, attempt 3
+2020-04-23 18:48:47,120 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/master.zip": 158 KB
+2020-04-23 18:48:47,120 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-23 18:48:47,120 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/master.zip: true
+2020-04-23 18:48:47,120 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src'.
+2020-04-23 18:48:47,148 INFO  FullProcessService - Size of directory with sources: 161 KB
+2020-04-23 18:48:47,148 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src]
+2020-04-23 18:48:47,180 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/.git/
 
-2020-03-28 21:56:29,225 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/gradlew
-2020-03-28 21:56:29,242 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-a/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-b/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/kaptain/build.gradle
-2020-03-28 21:56:29,250 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-a/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/android-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/kaptain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-b/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-shared/build.gradle
-2020-03-28 21:56:29,255 INFO  ProjectBuildService - Remote scripts: none
-2020-03-28 21:56:29,256 INFO  ProjectFixService - Fixing project...
-2020-03-28 21:56:29,317 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2020-03-28 21:56:29,317 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2020-03-28 21:56:29,338 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2020-03-28 21:56:29,340 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
-2020-03-28 21:56:29,359 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2020-03-28 21:56:29,360 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2020-03-28 21:56:29,360 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/sample/local.properties
-2020-03-28 21:56:29,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,371 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,373 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/local.properties
-2020-03-28 21:56:29,378 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.2.2-all.zip
-2020-03-28 21:56:29,379 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.2.2-bin.zip)
-2020-03-28 21:56:29,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,382 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-a/local.properties
-2020-03-28 21:56:29,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-a/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,386 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-a/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-b/local.properties
-2020-03-28 21:56:29,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-b/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,390 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-b/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,391 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-shared/local.properties
-2020-03-28 21:56:29,393 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-shared/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,393 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/feature-shared/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,394 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/kaptain/local.properties
-2020-03-28 21:56:29,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/kaptain/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,396 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/kaptain/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-03-28 21:56:29,397 INFO  ProjectFixService - Project was maybe fixed
-2020-03-28 21:56:29,399 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-28 21:56:29,399 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-28 21:57:58,009 INFO  ProjectTaskService - Detected possible tasks: 85
-2020-03-28 21:57:58,009 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-28 21:57:58,010 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-28 21:58:54,774 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2020-04-23 18:48:47,184 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/gradlew
+2020-04-23 18:48:47,189 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-a/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-b/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-shared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/kaptain/build.gradle
+2020-04-23 18:48:47,194 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-a/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/android-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/kaptain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-b/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-shared/build.gradle
+2020-04-23 18:48:47,195 INFO  ProjectBuildService - Remote scripts: none
+2020-04-23 18:48:47,195 INFO  ProjectFixService - Fixing project...
+2020-04-23 18:48:47,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/sample/local.properties
+2020-04-23 18:48:47,209 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,209 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,210 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/local.properties
+2020-04-23 18:48:47,210 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.2.2-all.zip
+2020-04-23 18:48:47,211 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.2.2-bin.zip)
+2020-04-23 18:48:47,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,213 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,214 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-a/local.properties
+2020-04-23 18:48:47,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-a/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,216 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-a/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,217 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-b/local.properties
+2020-04-23 18:48:47,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-b/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,220 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-b/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,221 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-shared/local.properties
+2020-04-23 18:48:47,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-shared/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,223 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/feature-shared/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/kaptain/local.properties
+2020-04-23 18:48:47,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/kaptain/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/kaptain/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-04-23 18:48:47,226 INFO  ProjectFixService - Project was maybe fixed
+2020-04-23 18:48:47,227 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-23 18:48:47,227 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-23 18:49:03,814 INFO  VirusProcessorServiceImpl - Queued project 8104 to scan viruses
+2020-04-23 18:50:18,281 INFO  ProjectTaskService - Detected possible tasks: 88
+2020-04-23 18:50:18,281 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-23 18:50:18,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-23 18:51:25,613 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -100,20 +95,19 @@ Configuration on demand is an incubating feature.
 > Task :feature-b:generateDebugBuildConfig
 > Task :feature-b:compileDebugRenderscript NO-SOURCE
 > Task :feature-a:processDebugManifest
-> Task :kaptain:processDebugManifest
 > Task :feature-shared:processDebugManifest
+> Task :kaptain:processDebugManifest
 > Task :feature-b:generateDebugResValues
 > Task :feature-b:generateDebugResources
 > Task :feature-b:packageDebugResources
 > Task :kaptain:generateDebugRFile
-> Task :feature-b:parseDebugLocalResources
 > Task :kaptain:compileDebugKotlin
 > Task :feature-shared:generateDebugRFile
 > Task :feature-b:processDebugManifest
 > Task :kaptain:javaPreCompileDebug
 > Task :kaptain:compileDebugJavaWithJavac
-> Task :feature-b:generateDebugRFile
 > Task :feature-a:generateDebugRFile
+> Task :feature-b:parseDebugLocalResources
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
@@ -123,13 +117,9 @@ Configuration on demand is an incubating feature.
 > Task :sample:generateDebugBuildConfig
 > Task :kaptain:bundleLibCompileDebug
 > Task :feature-shared:compileDebugKotlin
+> Task :feature-b:generateDebugRFile
 > Task :feature-shared:javaPreCompileDebug
 > Task :feature-shared:compileDebugJavaWithJavac
-> Task :feature-b:compileDebugLibraryResources
-> Task :feature-a:compileDebugLibraryResources
-> Task :sample:mainApkListPersistenceDebug
-> Task :kaptain:compileDebugLibraryResources
-> Task :feature-shared:compileDebugLibraryResources
 > Task :feature-shared:bundleLibCompileDebug
 > Task :feature-a:compileDebugKotlin
 > Task :feature-b:compileDebugKotlin
@@ -138,7 +128,12 @@ Configuration on demand is an incubating feature.
 > Task :feature-b:javaPreCompileDebug
 > Task :feature-b:compileDebugJavaWithJavac
 > Task :feature-a:bundleLibCompileDebug
+> Task :feature-b:compileDebugLibraryResources
+> Task :sample:mainApkListPersistenceDebug
+> Task :kaptain:compileDebugLibraryResources
+> Task :feature-shared:compileDebugLibraryResources
 > Task :feature-b:bundleLibCompileDebug
+> Task :feature-a:compileDebugLibraryResources
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
 > Task :feature-a:extractDeepLinksDebug
@@ -179,20 +174,23 @@ Configuration on demand is an incubating feature.
 > Task :feature-shared:processDebugJavaRes NO-SOURCE
 > Task :kaptain:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
-> Task :kaptain:bundleLibResDebug
-> Task :feature-a:bundleLibResDebug
 > Task :feature-shared:bundleLibResDebug
-> Task :feature-b:bundleLibResDebug
+> Task :feature-a:bundleLibResDebug
+> Task :kaptain:bundleLibResDebug
+> Task :feature-a:bundleLibRuntimeDebug
 > Task :feature-shared:bundleLibRuntimeDebug
 > Task :kaptain:bundleLibRuntimeDebug
 > Task :feature-b:bundleLibRuntimeDebug
-> Task :feature-a:bundleLibRuntimeDebug
+> Task :feature-b:bundleLibResDebug
 > Task :sample:checkDebugDuplicateClasses
 > Task :sample:dexBuilderDebug
 > Task :sample:mergeDebugJavaResource
 > Task :sample:desugarDebugFileDependencies
 > Task :feature-a:mergeDebugJniLibFolders
 > Task :feature-b:mergeDebugJniLibFolders
+> Task :feature-a:mergeDebugNativeLibs
+> Task :feature-a:stripDebugDebugSymbols
+> Task :feature-a:copyDebugJniLibsProjectOnly
 > Task :feature-shared:mergeDebugJniLibFolders
 > Task :feature-b:mergeDebugNativeLibs
 > Task :feature-b:stripDebugDebugSymbols
@@ -216,23 +214,20 @@ Configuration on demand is an incubating feature.
 > Task :feature-a:generateReleaseResValues
 > Task :feature-a:generateReleaseResources
 > Task :feature-a:packageReleaseResources
-> Task :kaptain:mergeDebugNativeLibs
-> Task :kaptain:stripDebugDebugSymbols
-> Task :kaptain:copyDebugJniLibsProjectOnly
-> Task :feature-a:parseReleaseLocalResources
 > Task :feature-shared:compileReleaseRenderscript NO-SOURCE
 > Task :feature-shared:generateReleaseResValues
 > Task :feature-shared:generateReleaseResources
 > Task :feature-shared:packageReleaseResources
 > Task :feature-a:processReleaseManifest
+> Task :feature-a:parseReleaseLocalResources
 > Task :kaptain:compileReleaseRenderscript NO-SOURCE
 > Task :kaptain:generateReleaseResValues
 > Task :kaptain:generateReleaseResources
 > Task :kaptain:packageReleaseResources
 > Task :feature-shared:processReleaseManifest
-> Task :feature-a:mergeDebugNativeLibs
-> Task :feature-a:stripDebugDebugSymbols
-> Task :feature-a:copyDebugJniLibsProjectOnly
+> Task :kaptain:mergeDebugNativeLibs
+> Task :kaptain:stripDebugDebugSymbols
+> Task :kaptain:copyDebugJniLibsProjectOnly
 > Task :kaptain:processReleaseManifest
 > Task :feature-shared:generateReleaseBuildConfig
 > Task :kaptain:generateReleaseBuildConfig
@@ -243,30 +238,28 @@ Configuration on demand is an incubating feature.
 > Task :feature-b:generateReleaseResValues
 > Task :feature-b:generateReleaseResources
 > Task :feature-b:packageReleaseResources
-> Task :kaptain:parseReleaseLocalResources
 > Task :feature-shared:parseReleaseLocalResources
-> Task :feature-b:parseReleaseLocalResources
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :feature-a:packageReleaseRenderscript NO-SOURCE
 > Task :feature-b:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:generateReleaseBuildConfig
-> Task :kaptain:generateReleaseRFile
-> Task :kaptain:compileReleaseKotlin
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
+> Task :feature-b:parseReleaseLocalResources
+> Task :kaptain:parseReleaseLocalResources
 > Task :feature-b:processReleaseManifest
-> Task :kaptain:javaPreCompileRelease
-> Task :kaptain:compileReleaseJavaWithJavac
-> Task :feature-b:compileReleaseLibraryResources
-> Task :feature-shared:generateReleaseRFile
-> Task :kaptain:compileReleaseLibraryResources
 > Task :feature-a:compileReleaseLibraryResources
+> Task :kaptain:generateReleaseRFile
+> Task :kaptain:compileReleaseLibraryResources
+> Task :kaptain:compileReleaseKotlin
+> Task :feature-shared:compileReleaseLibraryResources
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :feature-b:generateReleaseRFile
+> Task :feature-shared:generateReleaseRFile
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :feature-a:generateReleaseRFile
 > Task :feature-a:extractDeepLinksRelease
 > Task :feature-b:extractDeepLinksRelease
 > Task :feature-shared:extractDeepLinksRelease
@@ -274,34 +267,36 @@ Configuration on demand is an incubating feature.
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
+> Task :feature-b:generateReleaseRFile
 > Task :sample:mergeReleaseResources
-> Task :feature-shared:compileReleaseLibraryResources
-> Task :feature-a:generateReleaseRFile
+> Task :kaptain:javaPreCompileRelease
+> Task :kaptain:compileReleaseJavaWithJavac
+> Task :feature-b:compileReleaseLibraryResources
 > Task :sample:processReleaseResources
 > Task :kaptain:bundleLibCompileRelease
 > Task :feature-shared:compileReleaseKotlin
 > Task :feature-shared:javaPreCompileRelease
 > Task :feature-shared:compileReleaseJavaWithJavac
-> Task :sample:prepareLintJar
 > Task :feature-a:prepareLintJarForPublish
+> Task :sample:prepareLintJar
 > Task :kaptain:prepareLintJarForPublish
-> Task :sample:checkReleaseDuplicateClasses
-> Task :feature-shared:bundleLibRuntimeRelease
-> Task :kaptain:bundleLibRuntimeRelease
-> Task :feature-shared:prepareLintJarForPublish
 > Task :feature-b:prepareLintJarForPublish
+> Task :sample:checkReleaseDuplicateClasses
+> Task :feature-shared:prepareLintJarForPublish
 > Task :feature-shared:bundleLibCompileRelease
 > Task :feature-a:compileReleaseKotlin
 > Task :feature-b:compileReleaseKotlin
 > Task :feature-a:javaPreCompileRelease
 > Task :feature-a:compileReleaseJavaWithJavac
 > Task :feature-b:javaPreCompileRelease
-> Task :feature-a:bundleLibCompileRelease
 > Task :feature-b:compileReleaseJavaWithJavac
-> Task :feature-a:bundleLibRuntimeRelease
-> Task :feature-b:bundleLibRuntimeRelease
+> Task :kaptain:bundleLibRuntimeRelease
 > Task :feature-b:bundleLibCompileRelease
+> Task :feature-a:bundleLibRuntimeRelease
+> Task :feature-shared:bundleLibRuntimeRelease
+> Task :feature-a:bundleLibCompileRelease
 > Task :sample:compileReleaseKotlin
+> Task :feature-b:bundleLibRuntimeRelease
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
@@ -341,26 +336,26 @@ Configuration on demand is an incubating feature.
 > Task :feature-a:stripReleaseDebugSymbols
 > Task :feature-a:copyReleaseJniLibsProjectOnly
 > Task :feature-shared:mergeReleaseJniLibFolders
+> Task :kaptain:bundleLibResRelease
+> Task :kaptain:mergeReleaseJniLibFolders
+> Task :feature-b:bundleLibResRelease
+> Task :sample:mergeReleaseJniLibFolders
 > Task :feature-b:mergeReleaseNativeLibs
 > Task :feature-b:stripReleaseDebugSymbols
 > Task :feature-b:copyReleaseJniLibsProjectOnly
-> Task :kaptain:mergeReleaseJniLibFolders
-> Task :feature-shared:mergeReleaseNativeLibs
-> Task :feature-shared:stripReleaseDebugSymbols
-> Task :feature-shared:copyReleaseJniLibsProjectOnly
-> Task :sample:mergeReleaseJniLibFolders
-> Task :kaptain:bundleLibResRelease
 > Task :kaptain:mergeReleaseNativeLibs
 > Task :kaptain:stripReleaseDebugSymbols
 > Task :kaptain:copyReleaseJniLibsProjectOnly
 > Task :feature-shared:bundleLibResRelease
-> Task :feature-b:bundleLibResRelease
+> Task :feature-shared:mergeReleaseNativeLibs
+> Task :feature-shared:stripReleaseDebugSymbols
+> Task :feature-shared:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
+> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -372,7 +367,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/6.2.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 56s
+BUILD SUCCESSFUL in 1m 6s
 223 actionable tasks: 223 executed
 
-2020-03-28 21:58:54,886 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407385993-0/src/Kaptain-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-04-23 18:51:25,717 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642525097-0/src/Kaptain-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

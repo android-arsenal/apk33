@@ -1,0 +1,185 @@
+2020-04-23 18:41:35,941 INFO  DownloadService - Downloading "https://github.com/akexorcist/Android-SnapTimePicker/archive/master.zip", attempt 3
+2020-04-23 18:41:38,682 INFO  DownloadService - Downloaded https://github.com/akexorcist/Android-SnapTimePicker/archive/master.zip, attempt 3
+2020-04-23 18:41:38,683 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/master.zip": 675 KB
+2020-04-23 18:41:38,683 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-23 18:41:38,684 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/master.zip: true
+2020-04-23 18:41:38,684 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src'.
+2020-04-23 18:41:38,716 INFO  FullProcessService - Size of directory with sources: 930 KB
+2020-04-23 18:41:38,716 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src]
+2020-04-23 18:41:38,749 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/.git/
+
+2020-04-23 18:41:38,754 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/gradlew
+2020-04-23 18:41:38,759 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/build.gradle
+2020-04-23 18:41:38,765 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/publish/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/publish/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/build.gradle
+2020-04-23 18:41:38,770 INFO  ProjectBuildService - Remote scripts: none
+2020-04-23 18:41:38,770 INFO  ProjectFixService - Fixing project...
+2020-04-23 18:41:38,788 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/app/local.properties
+2020-04-23 18:41:38,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-04-23 18:41:38,792 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-04-23 18:41:38,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/local.properties
+2020-04-23 18:41:38,796 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-04-23 18:41:38,809 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-04-23 18:41:38,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/local.properties
+2020-04-23 18:41:38,814 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-04-23 18:41:38,814 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-04-23 18:41:38,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-04-23 18:41:38,818 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-04-23 18:41:38,818 INFO  ProjectFixService - Project was maybe fixed
+2020-04-23 18:41:38,818 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-23 18:41:38,819 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-23 18:41:43,317 INFO  VirusProcessorServiceImpl - Queued project 8108 to scan viruses
+2020-04-23 18:42:24,347 INFO  ProjectTaskService - Detected possible tasks: 73
+2020-04-23 18:42:24,347 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-23 18:42:24,347 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-23 18:43:43,877 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :snap-time-picker:preBuild UP-TO-DATE
+> Task :snap-time-picker:preDebugBuild UP-TO-DATE
+> Task :snap-time-picker:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :snap-time-picker:packageDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :snap-time-picker:generateDebugResValues
+> Task :snap-time-picker:compileDebugRenderscript NO-SOURCE
+> Task :snap-time-picker:generateDebugResources
+> Task :snap-time-picker:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :snap-time-picker:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :snap-time-picker:compileDebugLibraryResources
+> Task :snap-time-picker:processDebugManifest
+> Task :app:processDebugManifest
+> Task :snap-time-picker:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :snap-time-picker:mergeDebugShaders
+> Task :snap-time-picker:compileDebugShaders
+> Task :snap-time-picker:generateDebugAssets
+> Task :snap-time-picker:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :snap-time-picker:parseDebugLocalResources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :snap-time-picker:processDebugJavaRes NO-SOURCE
+> Task :snap-time-picker:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :snap-time-picker:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/SnapTimePickerDialog.kt: (12, 27): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/SnapTimePickerDialog.kt: (477, 17): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/SnapTimePickerDialog.kt: (477, 36): 'of(FragmentActivity): ViewModelProvider' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/extension/SnapTimePickerUtil.kt: (6, 27): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/extension/SnapTimePickerUtil.kt: (10, 9): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/extension/SnapTimePickerUtil.kt: (10, 28): 'of(FragmentActivity): ViewModelProvider' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/extension/SnapTimePickerUtil.kt: (19, 9): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/extension/SnapTimePickerUtil.kt: (19, 28): 'of(Fragment): ViewModelProvider' is deprecated. Deprecated in Java
+
+> Task :app:checkDebugDuplicateClasses
+> Task :snap-time-picker:bundleLibResDebug
+> Task :snap-time-picker:javaPreCompileDebug
+> Task :snap-time-picker:compileDebugJavaWithJavac
+> Task :snap-time-picker:bundleLibRuntimeDebug
+> Task :snap-time-picker:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugJniLibFolders
+> Task :snap-time-picker:mergeDebugJniLibFolders
+> Task :snap-time-picker:mergeDebugNativeLibs
+> Task :snap-time-picker:stripDebugDebugSymbols
+> Task :snap-time-picker:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :snap-time-picker:preReleaseBuild UP-TO-DATE
+> Task :snap-time-picker:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :snap-time-picker:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :snap-time-picker:compileReleaseRenderscript NO-SOURCE
+> Task :snap-time-picker:generateReleaseResValues
+> Task :snap-time-picker:generateReleaseResources
+> Task :snap-time-picker:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :snap-time-picker:extractDeepLinksRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :snap-time-picker:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :snap-time-picker:generateReleaseBuildConfig
+> Task :snap-time-picker:parseReleaseLocalResources
+> Task :app:mergeReleaseResources
+> Task :snap-time-picker:generateReleaseRFile
+
+> Task :snap-time-picker:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/SnapTimePickerDialog.kt: (12, 27): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/SnapTimePickerDialog.kt: (477, 17): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/SnapTimePickerDialog.kt: (477, 36): 'of(FragmentActivity): ViewModelProvider' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/extension/SnapTimePickerUtil.kt: (6, 27): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/extension/SnapTimePickerUtil.kt: (10, 9): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/extension/SnapTimePickerUtil.kt: (10, 28): 'of(FragmentActivity): ViewModelProvider' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/extension/SnapTimePickerUtil.kt: (19, 9): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/snap-time-picker/src/main/java/com/akexorcist/snaptimepicker/extension/SnapTimePickerUtil.kt: (19, 28): 'of(Fragment): ViewModelProvider' is deprecated. Deprecated in Java
+
+> Task :snap-time-picker:compileReleaseLibraryResources
+> Task :app:processReleaseResources
+> Task :snap-time-picker:javaPreCompileRelease
+> Task :snap-time-picker:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :snap-time-picker:prepareLintJarForPublish
+> Task :snap-time-picker:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :snap-time-picker:bundleLibRuntimeRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :snap-time-picker:mergeReleaseShaders
+> Task :snap-time-picker:compileReleaseShaders
+> Task :snap-time-picker:generateReleaseAssets
+> Task :snap-time-picker:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :snap-time-picker:processReleaseJavaRes NO-SOURCE
+> Task :snap-time-picker:bundleLibResRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :snap-time-picker:mergeReleaseJniLibFolders
+> Task :snap-time-picker:mergeReleaseNativeLibs
+> Task :snap-time-picker:stripReleaseDebugSymbols
+> Task :snap-time-picker:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 18s
+92 actionable tasks: 92 executed
+
+2020-04-23 18:43:43,993 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642095934-0/src/Android-SnapTimePicker-master/app/build/outputs/apk/debug/app-debug.apk
