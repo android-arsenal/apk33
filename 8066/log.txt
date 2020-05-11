@@ -1,34 +1,34 @@
-2020-03-30 01:20:02,985 INFO  DownloadService - Downloading "https://github.com/ditacristianionut/AppInfoBadge/archive/master.zip", attempt 3
-2020-03-30 01:20:07,101 INFO  DownloadService - Downloaded https://github.com/ditacristianionut/AppInfoBadge/archive/master.zip, attempt 3
-2020-03-30 01:20:07,102 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/master.zip": 5 MB
-2020-03-30 01:20:07,102 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-30 01:20:07,103 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/master.zip: true
-2020-03-30 01:20:07,104 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src'.
-2020-03-30 01:20:07,175 INFO  FullProcessService - Size of directory with sources: 5 MB
-2020-03-30 01:20:07,175 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src]
-2020-03-30 01:20:07,198 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/.git/
+2020-05-11 21:07:25,078 INFO  DownloadService - Downloading "https://github.com/ditacristianionut/AppInfoBadge/archive/master.zip", attempt 3
+2020-05-11 21:07:30,116 INFO  DownloadService - Downloaded https://github.com/ditacristianionut/AppInfoBadge/archive/master.zip, attempt 3
+2020-05-11 21:07:30,116 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/master.zip": 5 MB
+2020-05-11 21:07:30,117 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-11 21:07:30,118 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/master.zip: true
+2020-05-11 21:07:30,119 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src'.
+2020-05-11 21:07:30,181 INFO  FullProcessService - Size of directory with sources: 5 MB
+2020-05-11 21:07:30,181 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src]
+2020-05-11 21:07:30,200 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/.git/
 
-2020-03-30 01:20:07,205 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/gradlew
-2020-03-30 01:20:07,210 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/appinfobadge/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/build.gradle
-2020-03-30 01:20:07,215 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/appinfobadge/build.gradle
-2020-03-30 01:20:07,215 INFO  ProjectBuildService - Remote scripts: none
-2020-03-30 01:20:07,215 INFO  ProjectFixService - Fixing project...
-2020-03-30 01:20:07,229 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/app/local.properties
-2020-03-30 01:20:07,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-30 01:20:07,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/appinfobadge/local.properties
-2020-03-30 01:20:07,231 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/appinfobadge/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-30 01:20:07,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/local.properties
-2020-03-30 01:20:07,233 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-03-30 01:20:07,234 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-03-30 01:20:07,236 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-30 01:20:07,236 INFO  ProjectFixService - Project was maybe fixed
-2020-03-30 01:20:07,236 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-30 01:20:07,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-30 01:20:14,054 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-30 01:20:14,054 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-30 01:20:14,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-30 01:20:17,164 INFO  VirusProcessorServiceImpl - Queued project 8089 to scan viruses
-2020-03-30 01:21:17,739 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-05-11 21:07:30,205 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/gradlew
+2020-05-11 21:07:30,210 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/build.gradle
+2020-05-11 21:07:30,215 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/build.gradle
+2020-05-11 21:07:30,216 INFO  ProjectBuildService - Remote scripts: none
+2020-05-11 21:07:30,216 INFO  ProjectFixService - Fixing project...
+2020-05-11 21:07:30,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/app/local.properties
+2020-05-11 21:07:30,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-05-11 21:07:30,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/local.properties
+2020-05-11 21:07:30,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-05-11 21:07:30,229 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/local.properties
+2020-05-11 21:07:30,229 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-05-11 21:07:30,229 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-05-11 21:07:30,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-05-11 21:07:30,230 INFO  ProjectFixService - Project was maybe fixed
+2020-05-11 21:07:30,230 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-11 21:07:30,231 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-11 21:07:33,687 INFO  VirusProcessorServiceImpl - Queued project 8086 to scan viruses
+2020-05-11 21:07:38,509 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-05-11 21:07:38,509 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-11 21:07:38,509 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-11 21:08:54,338 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :appinfobadge:preBuild UP-TO-DATE
@@ -36,8 +36,8 @@
 > Task :appinfobadge:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :appinfobadge:packageDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -51,8 +51,8 @@
 > Task :appinfobadge:processDebugManifest
 > Task :app:processDebugManifest
 > Task :appinfobadge:compileDebugLibraryResources
-> Task :appinfobadge:parseDebugLocalResources
 > Task :app:mergeDebugResources
+> Task :appinfobadge:parseDebugLocalResources
 > Task :appinfobadge:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -70,9 +70,13 @@
 > Task :appinfobadge:kaptDebugKotlin
 
 > Task :appinfobadge:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (179, 66): Parameter 'index' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (199, 43): Parameter 'index' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (202, 47): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (164, 58): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (188, 35): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (191, 39): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (350, 52): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (357, 31): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (366, 52): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (373, 31): Parameter 'index' is never used, could be renamed to _
 
 > Task :appinfobadge:javaPreCompileDebug
 > Task :appinfobadge:compileDebugJavaWithJavac
@@ -80,16 +84,17 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/
 > Task :appinfobadge:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/app/src/main/java/com/dci/dev/aib/demo/MainActivity.kt: (37, 29): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/app/src/main/java/com/dci/dev/aib/demo/MainActivity.kt: (71, 29): 'getColor(Int): Int' is deprecated. Deprecated in Java
 
-> Task :app:checkDebugDuplicateClasses
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
 > Task :app:desugarDebugFileDependencies
 > Task :appinfobadge:bundleLibRuntimeDebug
 > Task :app:dexBuilderDebug
-> Task :app:mergeDebugJavaResource
+> Task :app:mergeLibDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :appinfobadge:mergeDebugJniLibFolders
 > Task :app:validateSigningDebug
@@ -107,15 +112,11 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/
 > Task :appinfobadge:generateReleaseResValues
 > Task :appinfobadge:generateReleaseResources
 > Task :appinfobadge:packageReleaseResources
+> Task :app:mergeProjectDexDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :appinfobadge:extractDeepLinksRelease
-> Task :app:mergeProjectDexDebug
-> Task :app:mergeLibDexDebug
-> Task :app:mergeExtDexDebug
 > Task :appinfobadge:generateReleaseBuildConfig
-> Task :appinfobadge:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :appinfobadge:mergeDebugNativeLibs
 > Task :appinfobadge:stripDebugDebugSymbols
 > Task :appinfobadge:copyDebugJniLibsProjectOnly
@@ -123,18 +124,25 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 > Task :appinfobadge:prepareLintJarForPublish
+> Task :appinfobadge:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :app:mergeReleaseResources
 > Task :appinfobadge:generateReleaseRFile
 > Task :appinfobadge:kaptGenerateStubsReleaseKotlin
 > Task :appinfobadge:kaptReleaseKotlin
 
 > Task :appinfobadge:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (179, 66): Parameter 'index' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (199, 43): Parameter 'index' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (202, 47): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (164, 58): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (188, 35): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (191, 39): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (350, 52): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (357, 31): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (366, 52): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/appinfobadge/src/main/java/com/dci/dev/appinfobadge/AppInfoBadgeFragment.kt: (373, 31): Parameter 'index' is never used, could be renamed to _
 
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :app:mergeExtDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
 > Task :appinfobadge:compileReleaseLibraryResources
@@ -144,7 +152,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/
 > Task :appinfobadge:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/app/src/main/java/com/dci/dev/aib/demo/MainActivity.kt: (37, 29): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/app/src/main/java/com/dci/dev/aib/demo/MainActivity.kt: (71, 29): 'getColor(Int): Int' is deprecated. Deprecated in Java
 
 > Task :appinfobadge:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
@@ -163,9 +171,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :appinfobadge:processReleaseJavaRes NO-SOURCE
+> Task :appinfobadge:bundleLibResRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :appinfobadge:mergeReleaseJniLibFolders
-> Task :appinfobadge:bundleLibResRelease
 > Task :appinfobadge:mergeReleaseNativeLibs
 > Task :appinfobadge:stripReleaseDebugSymbols
 > Task :appinfobadge:copyReleaseJniLibsProjectOnly
@@ -179,7 +187,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 2s
+BUILD SUCCESSFUL in 1m 15s
 99 actionable tasks: 99 executed
 
-2020-03-30 01:21:17,851 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506002982-0/src/AppInfoBadge-master/app/build/outputs/apk/debug/app-debug.apk
+2020-05-11 21:08:54,415 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206045073-0/src/AppInfoBadge-master/app/build/outputs/apk/debug/app-debug.apk

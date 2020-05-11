@@ -1,0 +1,753 @@
+2020-05-11 21:00:51,275 INFO  DownloadService - Downloading "https://github.com/innfinity-am/PermissionsFlow/archive/master.zip", attempt 3
+2020-05-11 21:00:53,534 INFO  DownloadService - Downloaded https://github.com/innfinity-am/PermissionsFlow/archive/master.zip, attempt 3
+2020-05-11 21:00:53,535 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/master.zip": 103 KB
+2020-05-11 21:00:53,535 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-11 21:00:53,536 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/master.zip: true
+2020-05-11 21:00:53,536 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src'.
+2020-05-11 21:00:53,555 INFO  FullProcessService - Size of directory with sources: 109 KB
+2020-05-11 21:00:53,555 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src]
+2020-05-11 21:00:53,577 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/.git/
+
+2020-05-11 21:00:53,581 INFO  ProjectBuildService - Gradle wrapper(s): none
+2020-05-11 21:00:53,581 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2020-05-11 21:00:53,585 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/build.gradle
+2020-05-11 21:00:53,589 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/lib/build.gradle
+2020-05-11 21:00:53,589 INFO  ProjectBuildService - Remote scripts: none
+2020-05-11 21:00:53,589 INFO  ProjectFixService - Fixing project...
+2020-05-11 21:00:53,597 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/demo/local.properties
+2020-05-11 21:00:53,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-05-11 21:00:53,600 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-05-11 21:00:53,601 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/lib/local.properties
+2020-05-11 21:00:53,602 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-05-11 21:00:53,603 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-05-11 21:00:53,604 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/local.properties
+2020-05-11 21:00:53,605 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-05-11 21:00:53,605 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-05-11 21:00:53,606 INFO  ProjectFixService - Project was maybe fixed
+2020-05-11 21:00:53,606 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-11 21:00:53,606 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-11 21:00:58,864 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-05-11 21:00:58,864 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-05-11 21:00:58,864 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-05-11 21:00:58,864 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-05-11 21:01:02,338 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-05-11 21:01:02,339 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.4/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/demo/build.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating root project 'demo'.
+> Plugin with id 'com.android.application' not found.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'demo'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.lambda$apply$0(DefaultScriptPluginFactory.java:133)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:136)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:49)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:45)
+	at org.gradle.internal.Factories$1.create(Factories.java:26)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:245)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:42)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:35)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject$1.run(LifecycleProjectEvaluator.java:102)
+	at org.gradle.internal.Factories$1.create(Factories.java:26)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:271)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:265)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:63)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:708)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:144)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:36)
+	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:59)
+	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer$ConfigureBuild.run(BuildOperatingFiringProjectsPreparer.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer.prepareProjects(BuildOperatingFiringProjectsPreparer.java:40)
+	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:120)
+	at org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:74)
+	at org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:67)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:67)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:56)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:87)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:68)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:39)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:29)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:35)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.create(ForwardClientInput.java:78)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.create(ForwardClientInput.java:75)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:75)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:50)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:63)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:82)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:52)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.android.application' not found.
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:134)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:160)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:42)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:97)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:183)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:49)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:37)
+	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
+	at build_5fknud5gcwf2g4751xnnqvnex.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/demo/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
+	... 126 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2020-05-11 21:01:02,345 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-11 21:01:02,345 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-11 21:01:06,110 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-05-11 21:01:06,110 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-05-11 21:01:06,110 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-05-11 21:01:06,110 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-05-11 21:01:07,021 INFO  VirusProcessorServiceImpl - Queued project 8115 to scan viruses
+2020-05-11 21:01:09,579 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-05-11 21:01:09,580 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.4/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/lib/build.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating root project 'lib'.
+> Plugin with id 'com.android.library' not found.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'lib'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.lambda$apply$0(DefaultScriptPluginFactory.java:133)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:136)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:49)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:45)
+	at org.gradle.internal.Factories$1.create(Factories.java:26)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:245)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:42)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:35)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject$1.run(LifecycleProjectEvaluator.java:102)
+	at org.gradle.internal.Factories$1.create(Factories.java:26)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:271)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:265)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:91)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:63)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:708)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:144)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:36)
+	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:59)
+	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer$ConfigureBuild.run(BuildOperatingFiringProjectsPreparer.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer.prepareProjects(BuildOperatingFiringProjectsPreparer.java:40)
+	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:120)
+	at org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:74)
+	at org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:67)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:67)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:56)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:87)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:68)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:39)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:29)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:35)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.create(ForwardClientInput.java:78)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.create(ForwardClientInput.java:75)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:75)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:50)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:63)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:82)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:52)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.android.library' not found.
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:134)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:160)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:42)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:97)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:183)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:49)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:37)
+	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
+	at build_cdyzw7qhdi02am2fesa313pkh.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/lib/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
+	... 126 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2020-05-11 21:01:09,588 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-11 21:01:09,589 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-11 21:01:33,594 INFO  ProjectTaskService - Detected possible tasks: 25
+2020-05-11 21:01:33,595 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-05-11 21:01:33,595 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205651272-0/src/PermissionsFlow-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-05-11 21:01:38,439 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.4/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+
+> Task :buildEnvironment
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+classpath
++--- com.android.tools.build:gradle:3.6.3
+|    +--- com.android.tools.build:builder:3.6.3
+|    |    +--- com.android.tools.build:builder-model:3.6.3
+|    |    |    \--- com.android.tools:annotations:26.6.3
+|    |    +--- com.android.tools.build:builder-test-api:3.6.3
+|    |    |    \--- com.android.tools.ddms:ddmlib:26.6.3
+|    |    |         +--- com.android.tools:common:26.6.3
+|    |    |         |    +--- com.android.tools:annotations:26.6.3
+|    |    |         |    +--- com.google.guava:guava:27.1-jre
+|    |    |         |    |    +--- com.google.guava:failureaccess:1.0.1
+|    |    |         |    |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+|    |    |         |    |    +--- com.google.code.findbugs:jsr305:3.0.2
+|    |    |         |    |    +--- org.checkerframework:checker-qual:2.5.2
+|    |    |         |    |    +--- com.google.errorprone:error_prone_annotations:2.2.0 -> 2.3.1
+|    |    |         |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+|    |    |         |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.17
+|    |    |         |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71
+|    |    |         |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.71 -> 1.3.72
+|    |    |         |         |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+|    |    |         |         |    \--- org.jetbrains:annotations:13.0
+|    |    |         |         \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.71
+|    |    |         |              \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.71 -> 1.3.72 (*)
+|    |    |         \--- net.sf.kxml:kxml2:2.3.0
+|    |    +--- com.android.tools:sdklib:26.6.3
+|    |    |    +--- com.android.tools.layoutlib:layoutlib-api:26.6.3
+|    |    |    |    +--- com.android.tools:common:26.6.3 (*)
+|    |    |    |    +--- net.sf.kxml:kxml2:2.3.0
+|    |    |    |    +--- com.android.tools:annotations:26.6.3
+|    |    |    |    \--- org.jetbrains:annotations:13.0
+|    |    |    +--- com.android.tools:dvlib:26.6.3
+|    |    |    |    \--- com.android.tools:common:26.6.3 (*)
+|    |    |    +--- com.android.tools:repository:26.6.3
+|    |    |    |    +--- com.android.tools:common:26.6.3 (*)
+|    |    |    |    +--- com.sun.activation:javax.activation:1.2.0
+|    |    |    |    +--- org.apache.commons:commons-compress:1.12
+|    |    |    |    +--- org.glassfish.jaxb:jaxb-runtime:2.3.1
+|    |    |    |    |    +--- javax.xml.bind:jaxb-api:2.3.1
+|    |    |    |    |    |    \--- javax.activation:javax.activation-api:1.2.0
+|    |    |    |    |    +--- org.glassfish.jaxb:txw2:2.3.1
+|    |    |    |    |    +--- com.sun.istack:istack-commons-runtime:3.0.7
+|    |    |    |    |    +--- org.jvnet.staxex:stax-ex:1.8
+|    |    |    |    |    +--- com.sun.xml.fastinfoset:FastInfoset:1.2.15
+|    |    |    |    |    \--- javax.activation:javax.activation-api:1.2.0
+|    |    |    |    +--- com.google.jimfs:jimfs:1.1
+|    |    |    |    |    \--- com.google.guava:guava:18.0 -> 27.1-jre (*)
+|    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71 (*)
+|    |    |    +--- com.google.code.gson:gson:2.8.5
+|    |    |    +--- org.apache.commons:commons-compress:1.12
+|    |    |    +--- org.apache.httpcomponents:httpmime:4.5.6
+|    |    |    |    \--- org.apache.httpcomponents:httpclient:4.5.6
+|    |    |    |         +--- org.apache.httpcomponents:httpcore:4.4.10
+|    |    |    |         +--- commons-logging:commons-logging:1.2
+|    |    |    |         \--- commons-codec:commons-codec:1.10
+|    |    |    \--- org.apache.httpcomponents:httpcore:4.4.10
+|    |    +--- com.android.tools:sdk-common:26.6.3
+|    |    |    +--- com.android.tools:sdklib:26.6.3 (*)
+|    |    |    +--- com.android.tools.build:builder-test-api:3.6.3 (*)
+|    |    |    +--- com.android.tools.build:builder-model:3.6.3 (*)
+|    |    |    +--- com.android.tools.ddms:ddmlib:26.6.3 (*)
+|    |    |    +--- com.android.tools.analytics-library:shared:26.6.3
+|    |    |    |    +--- com.android.tools.analytics-library:protos:26.6.3
+|    |    |    |    |    \--- com.google.protobuf:protobuf-java:3.4.0
+|    |    |    |    +--- com.android.tools:annotations:26.6.3
+|    |    |    |    +--- com.android.tools:common:26.6.3 (*)
+|    |    |    |    +--- com.google.guava:guava:27.1-jre (*)
+|    |    |    |    +--- com.google.code.gson:gson:2.8.5
+|    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71 (*)
+|    |    |    +--- org.bouncycastle:bcpkix-jdk15on:1.56
+|    |    |    |    \--- org.bouncycastle:bcprov-jdk15on:1.56
+|    |    |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71 (*)
+|    |    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.3.71 -> 1.3.72
+|    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    |    |    +--- com.google.protobuf:protobuf-java:3.4.0
+|    |    |    +--- javax.inject:javax.inject:1
+|    |    |    +--- org.jetbrains.trove4j:trove4j:20160824
+|    |    |    \--- com.android.tools.build:aapt2-proto:0.4.0
+|    |    |         \--- com.google.protobuf:protobuf-java:3.4.0
+|    |    +--- com.android.tools:common:26.6.3 (*)
+|    |    +--- com.android.tools.build:manifest-merger:26.6.3
+|    |    |    +--- com.android.tools:common:26.6.3 (*)
+|    |    |    +--- com.android.tools:sdklib:26.6.3 (*)
+|    |    |    +--- com.android.tools:sdk-common:26.6.3 (*)
+|    |    |    +--- com.google.code.gson:gson:2.8.5
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71 (*)
+|    |    |    \--- net.sf.kxml:kxml2:2.3.0
+|    |    +--- com.android.tools.ddms:ddmlib:26.6.3 (*)
+|    |    +--- com.android:zipflinger:3.6.3
+|    |    |    +--- com.google.guava:guava:27.0.1-jre -> 27.1-jre (*)
+|    |    |    \--- com.android.tools:common:26.6.3 (*)
+|    |    +--- com.android:signflinger:3.6.3
+|    |    |    +--- com.android.tools.build:apksig:3.6.3
+|    |    |    \--- com.android:zipflinger:3.6.3 (*)
+|    |    +--- com.android.tools.analytics-library:protos:26.6.3 (*)
+|    |    +--- com.android.tools.analytics-library:tracker:26.6.3
+|    |    |    +--- com.android.tools:annotations:26.6.3
+|    |    |    +--- com.android.tools:common:26.6.3 (*)
+|    |    |    +--- com.android.tools.analytics-library:protos:26.6.3 (*)
+|    |    |    +--- com.android.tools.analytics-library:shared:26.6.3 (*)
+|    |    |    +--- com.google.protobuf:protobuf-java:3.4.0
+|    |    |    +--- com.google.guava:guava:27.1-jre (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71 (*)
+|    |    +--- com.android.tools.build:apksig:3.6.3
+|    |    +--- com.android.tools.build:apkzlib:3.6.3
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.2
+|    |    |    +--- com.google.guava:guava:23.0 -> 27.1-jre (*)
+|    |    |    +--- org.bouncycastle:bcpkix-jdk15on:1.56 (*)
+|    |    |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+|    |    |    \--- com.android.tools.build:apksig:3.6.3
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71 (*)
+|    |    +--- com.squareup:javawriter:2.5.0
+|    |    +--- org.bouncycastle:bcpkix-jdk15on:1.56 (*)
+|    |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+|    |    +--- org.ow2.asm:asm:7.0
+|    |    +--- org.ow2.asm:asm-tree:7.0
+|    |    |    \--- org.ow2.asm:asm:7.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- org.ow2.asm:asm-commons:7.0
+|    |    |    +--- org.ow2.asm:asm:7.0
+|    |    |    +--- org.ow2.asm:asm-tree:7.0 (*)
+|    |    |    \--- org.ow2.asm:asm-analysis:7.0
+|    |    |         \--- org.ow2.asm:asm-tree:7.0 (*)
+|    |    +--- org.ow2.asm:asm-util:7.0
+|    |    |    +--- org.ow2.asm:asm:7.0
+|    |    |    +--- org.ow2.asm:asm-tree:7.0 (*)
+|    |    |    \--- org.ow2.asm:asm-analysis:7.0 (*)
+|    |    +--- it.unimi.dsi:fastutil:7.2.0
+|    |    +--- net.sf.jopt-simple:jopt-simple:4.9
+|    |    \--- com.googlecode.json-simple:json-simple:1.1
+|    +--- com.android.tools.analytics-library:crash:26.6.3
+|    |    +--- com.android.tools:annotations:26.6.3
+|    |    +--- com.google.guava:guava:27.1-jre (*)
+|    |    +--- org.apache.httpcomponents:httpmime:4.5.6 (*)
+|    |    +--- org.apache.httpcomponents:httpcore:4.4.10
+|    |    \--- org.apache.httpcomponents:httpclient:4.5.6 (*)
+|    +--- com.android.tools.lint:lint-gradle-api:26.6.3
+|    |    +--- com.android.tools:sdklib:26.6.3 (*)
+|    |    +--- com.android.tools.build:builder-model:3.6.3 (*)
+|    |    +--- com.android.tools.build:gradle-api:3.6.3
+|    |    |    +--- com.android.tools.build:builder-test-api:3.6.3 (*)
+|    |    |    +--- com.google.guava:guava:27.1-jre (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71 (*)
+|    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.3.71 -> 1.3.72 (*)
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71 (*)
+|    |    \--- com.google.guava:guava:27.1-jre (*)
+|    +--- com.android.tools.build:gradle-api:3.6.3 (*)
+|    +--- androidx.databinding:databinding-compiler-common:3.6.3
+|    |    +--- androidx.databinding:databinding-common:3.6.3
+|    |    +--- com.android.databinding:baseLibrary:3.6.3
+|    |    +--- org.antlr:antlr4:4.5.3
+|    |    +--- commons-io:commons-io:2.4
+|    |    +--- com.googlecode.juniversalchardet:juniversalchardet:1.0.3
+|    |    +--- com.google.guava:guava:27.1-jre (*)
+|    |    +--- com.squareup:javapoet:1.10.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71 (*)
+|    |    +--- com.google.code.gson:gson:2.8.5
+|    |    +--- com.android.tools:annotations:26.6.3
+|    |    \--- com.android.tools.build.jetifier:jetifier-core:1.0.0-beta08
+|    |         +--- com.google.code.gson:gson:2.8.0 -> 2.8.5
+|    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.41 -> 1.3.72 (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71 (*)
+|    +--- com.android.tools.build:transform-api:2.0.0-deprecated-use-gradle-api
+|    +--- org.ow2.asm:asm:7.0
+|    +--- org.ow2.asm:asm-analysis:7.0 (*)
+|    +--- org.ow2.asm:asm-commons:7.0 (*)
+|    +--- org.ow2.asm:asm-util:7.0 (*)
+|    +--- net.sf.jopt-simple:jopt-simple:4.9
+|    +--- net.sf.proguard:proguard-gradle:6.0.3
+|    |    \--- net.sf.proguard:proguard-base:6.0.3
+|    +--- com.android.tools.build:bundletool:0.10.3
+|    |    +--- com.android.tools.build:aapt2-proto:0.4.0 (*)
+|    |    +--- com.google.auto.value:auto-value-annotations:1.6.2
+|    |    +--- com.google.errorprone:error_prone_annotations:2.3.1
+|    |    +--- com.google.guava:guava:27.0.1-jre -> 27.1-jre (*)
+|    |    +--- com.google.protobuf:protobuf-java:3.4.0
+|    |    \--- com.google.protobuf:protobuf-java-util:3.4.0
+|    |         +--- com.google.protobuf:protobuf-java:3.4.0
+|    |         +--- com.google.guava:guava:19.0 -> 27.1-jre (*)
+|    |         \--- com.google.code.gson:gson:2.7 -> 2.8.5
+|    +--- com.android.tools.build.jetifier:jetifier-core:1.0.0-beta08 (*)
+|    +--- com.android.tools.build.jetifier:jetifier-processor:1.0.0-beta08
+|    |    +--- com.android.tools.build.jetifier:jetifier-core:1.0.0-beta08 (*)
+|    |    +--- org.ow2.asm:asm:6.0 -> 7.0
+|    |    +--- org.ow2.asm:asm-util:6.0 -> 7.0 (*)
+|    |    +--- org.ow2.asm:asm-commons:6.0 -> 7.0 (*)
+|    |    +--- org.jdom:jdom2:2.0.6
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.41 -> 1.3.72 (*)
+|    +--- com.google.protobuf:protobuf-java:3.4.0
+|    \--- com.google.protobuf:protobuf-java-util:3.4.0 (*)
++--- org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    |    +--- org.jetbrains.kotlin:kotlin-script-runtime:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.3.72 (*)
+|    |    +--- org.jetbrains.kotlin:kotlin-daemon-embeddable:1.3.72
+|    |    \--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
+|    +--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.72 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    +--- org.jetbrains.kotlin:kotlin-android-extensions:1.3.72
+|    |    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.72 (*)
+|    +--- org.jetbrains.kotlin:kotlin-compiler-runner:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-build-common:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-daemon-client:1.3.72
+|    |    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.3.72 (*)
+|    |    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1
+|    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1
+|    +--- org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.3.72
+|    |    |    +--- org.jetbrains.kotlin:kotlin-scripting-common:1.3.72
+|    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    |    |    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1
+|    |    |    +--- org.jetbrains.kotlin:kotlin-scripting-jvm:1.3.72
+|    |    |    |    +--- org.jetbrains.kotlin:kotlin-script-runtime:1.3.72
+|    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    |    |    |    \--- org.jetbrains.kotlin:kotlin-scripting-common:1.3.72 (*)
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    |    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    +--- org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.3.72 (*)
+|    +--- org.jetbrains.kotlin:kotlin-reflect:1.3.72 (*)
+|    +--- org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-native-utils:1.3.72
+|    |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    |         \--- org.jetbrains.kotlin:kotlin-util-io:1.3.72
+|    |              \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    +--- org.jetbrains.kotlin:kotlin-gradle-plugin-model:1.3.72
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    +--- org.jetbrains.kotlin:kotlin-native-utils:1.3.72 (*)
+|    +--- org.jetbrains.kotlin:kotlin-util-klib:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-util-io:1.3.72 (*)
+|    +--- com.google.code.gson:gson:2.8.5
+|    \--- de.undercouch:gradle-download-task:4.0.2
+\--- com.novoda:bintray-release:0.9.1
+     \--- com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4
+          +--- org.codehaus.groovy.modules.http-builder:http-builder:0.7.2
+          |    +--- org.apache.httpcomponents:httpclient:4.2.1 -> 4.5.6 (*)
+          |    +--- net.sf.json-lib:json-lib:2.3
+          |    |    +--- commons-beanutils:commons-beanutils:1.8.0
+          |    |    |    \--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    +--- commons-collections:commons-collections:3.2.1
+          |    |    +--- commons-lang:commons-lang:2.4
+          |    |    +--- commons-logging:commons-logging:1.1.1 -> 1.2
+          |    |    \--- net.sf.ezmorph:ezmorph:1.0.6
+          |    |         \--- commons-lang:commons-lang:2.3 -> 2.4
+          |    +--- net.sourceforge.nekohtml:nekohtml:1.9.16
+          |    |    \--- xerces:xercesImpl:2.9.1
+          |    \--- xml-resolver:xml-resolver:1.2
+          \--- org.apache.maven:maven-ant-tasks:2.1.3
+               +--- org.apache.ant:ant:1.8.0
+               |    \--- org.apache.ant:ant-launcher:1.8.0
+               +--- classworlds:classworlds:1.1-alpha-2
+               +--- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1
+               |    +--- junit:junit:3.8.1
+               |    +--- org.codehaus.plexus:plexus-utils:1.0.4 -> 1.5.15
+               |    \--- classworlds:classworlds:1.1-alpha-2
+               +--- org.codehaus.plexus:plexus-utils:1.5.15
+               +--- org.codehaus.plexus:plexus-interpolation:1.11
+               +--- org.apache.maven:maven-artifact:2.2.1
+               |    \--- org.codehaus.plexus:plexus-utils:1.5.15
+               +--- org.apache.maven:maven-artifact-manager:2.2.1
+               |    +--- org.apache.maven:maven-repository-metadata:2.2.1
+               |    |    \--- org.codehaus.plexus:plexus-utils:1.5.15
+               |    +--- org.codehaus.plexus:plexus-utils:1.5.15
+               |    +--- org.apache.maven:maven-artifact:2.2.1 (*)
+               |    +--- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1 (*)
+               |    +--- org.apache.maven.wagon:wagon-provider-api:1.0-beta-6
+               |    |    \--- org.codehaus.plexus:plexus-utils:1.4.2 -> 1.5.15
+               |    \--- backport-util-concurrent:backport-util-concurrent:3.1
+               +--- org.apache.maven:maven-model:2.2.1
+               |    \--- org.codehaus.plexus:plexus-utils:1.5.15
+               +--- org.apache.maven:maven-project:2.2.1
+               |    +--- org.apache.maven:maven-settings:2.2.1
+               |    |    +--- org.apache.maven:maven-model:2.2.1 (*)
+               |    |    +--- org.codehaus.plexus:plexus-interpolation:1.11
+               |    |    +--- org.codehaus.plexus:plexus-utils:1.5.15
+               |    |    \--- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1 (*)
+               |    +--- org.apache.maven:maven-profile:2.2.1
+               |    |    +--- org.apache.maven:maven-model:2.2.1 (*)
+               |    |    +--- org.codehaus.plexus:plexus-utils:1.5.15
+               |    |    +--- org.codehaus.plexus:plexus-interpolation:1.11
+               |    |    \--- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1 (*)
+               |    +--- org.apache.maven:maven-model:2.2.1 (*)
+               |    +--- org.apache.maven:maven-artifact-manager:2.2.1 (*)
+               |    +--- org.apache.maven:maven-plugin-registry:2.2.1
+               |    |    +--- org.codehaus.plexus:plexus-utils:1.5.15
+               |    |    \--- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1 (*)
+               |    +--- org.codehaus.plexus:plexus-interpolation:1.11
+               |    +--- org.codehaus.plexus:plexus-utils:1.5.15
+               |    +--- org.apache.maven:maven-artifact:2.2.1 (*)
+               |    \--- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1 (*)
+               +--- org.apache.maven:maven-error-diagnostics:2.2.1
+               |    \--- org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1 (*)
+               +--- org.apache.maven:maven-settings:2.2.1 (*)
+               +--- org.apache.maven.wagon:wagon-file:1.0-beta-6
+               |    \--- org.apache.maven.wagon:wagon-provider-api:1.0-beta-6 (*)
+               +--- org.apache.maven.wagon:wagon-http-lightweight:1.0-beta-6
+               |    +--- org.apache.maven.wagon:wagon-http-shared:1.0-beta-6
+               |    |    +--- nekohtml:xercesMinimal:1.9.6.2
+               |    |    +--- nekohtml:nekohtml:1.9.6.2
+               |    |    \--- org.apache.maven.wagon:wagon-provider-api:1.0-beta-6 (*)
+               |    \--- org.apache.maven.wagon:wagon-provider-api:1.0-beta-6 (*)
+               \--- org.apache.maven.wagon:wagon-provider-api:1.0-beta-6 (*)
+
+(*) - dependencies omitted (listed previously)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 4s
+1 actionable task: 1 executed
+
+2020-05-11 21:01:38,450 ERROR FullProcessService - Project build has not produced APK file
+2020-05-11 21:01:38,457 ERROR FullProcessService - Could not find generated or existed APK file
