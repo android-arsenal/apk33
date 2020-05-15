@@ -1,49 +1,49 @@
-2020-04-06 12:29:31,605 INFO  DownloadService - Downloading "https://github.com/underwindfall/PowerPermission/archive/master.zip", attempt 3
-2020-04-06 12:29:33,704 INFO  DownloadService - Downloaded https://github.com/underwindfall/PowerPermission/archive/master.zip, attempt 3
-2020-04-06 12:29:33,704 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/master.zip": 218 KB
-2020-04-06 12:29:33,704 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-06 12:29:33,705 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/master.zip: true
-2020-04-06 12:29:33,705 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src'.
-2020-04-06 12:29:33,746 INFO  FullProcessService - Size of directory with sources: 297 KB
-2020-04-06 12:29:33,746 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src]
-2020-04-06 12:29:33,778 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/.git/
+2020-05-15 14:16:29,871 INFO  DownloadService - Downloading "https://github.com/underwindfall/PowerPermission/archive/master.zip", attempt 3
+2020-05-15 14:16:34,792 INFO  DownloadService - Downloaded https://github.com/underwindfall/PowerPermission/archive/master.zip, attempt 3
+2020-05-15 14:16:34,792 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/master.zip": 218 KB
+2020-05-15 14:16:34,792 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-15 14:16:34,793 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/master.zip: true
+2020-05-15 14:16:34,793 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src'.
+2020-05-15 14:16:34,834 INFO  FullProcessService - Size of directory with sources: 297 KB
+2020-05-15 14:16:34,834 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src]
+2020-05-15 14:16:34,865 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/.git/
 
-2020-04-06 12:29:33,785 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/gradlew
-2020-04-06 12:29:33,792 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-rxjava3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/build.gradle
-2020-04-06 12:29:33,799 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-rxjava3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/spotless.gradle
-2020-04-06 12:29:33,803 INFO  ProjectBuildService - Remote scripts: none
-2020-04-06 12:29:33,803 INFO  ProjectFixService - Fixing project...
-2020-04-06 12:29:33,821 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/app/local.properties
-2020-04-06 12:29:33,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-06 12:29:33,828 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-06 12:29:33,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-coroutines/local.properties
-2020-04-06 12:29:33,835 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-06 12:29:33,835 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-06 12:29:33,837 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-livedata/local.properties
-2020-04-06 12:29:33,844 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-livedata/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-06 12:29:33,845 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-livedata/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-06 12:29:33,846 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-rxjava2/local.properties
-2020-04-06 12:29:33,852 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-rxjava2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-06 12:29:33,853 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-rxjava2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-06 12:29:33,854 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-rxjava3/local.properties
-2020-04-06 12:29:33,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-rxjava3/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-06 12:29:33,860 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission-rxjava3/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-06 12:29:33,862 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission/local.properties
-2020-04-06 12:29:33,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-06 12:29:33,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/powerpermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-06 12:29:33,871 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/local.properties
-2020-04-06 12:29:33,871 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-04-06 12:29:33,872 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-04-06 12:29:33,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-06 12:29:33,878 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-06 12:29:33,878 INFO  ProjectFixService - Project was maybe fixed
-2020-04-06 12:29:33,878 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-06 12:29:33,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-06 12:29:46,039 INFO  VirusProcessorServiceImpl - Queued project 8094 to scan viruses
-2020-04-06 12:29:46,271 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-04-06 12:29:46,271 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-04-06 12:29:46,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-04-06 12:31:40,247 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-05-15 14:16:34,872 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/gradlew
+2020-05-15 14:16:34,879 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-rxjava3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/build.gradle
+2020-05-15 14:16:34,886 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-rxjava3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/spotless.gradle
+2020-05-15 14:16:34,888 INFO  ProjectBuildService - Remote scripts: none
+2020-05-15 14:16:34,888 INFO  ProjectFixService - Fixing project...
+2020-05-15 14:16:34,905 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/app/local.properties
+2020-05-15 14:16:34,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-05-15 14:16:34,911 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-05-15 14:16:34,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-coroutines/local.properties
+2020-05-15 14:16:34,919 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-05-15 14:16:34,919 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-05-15 14:16:34,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-livedata/local.properties
+2020-05-15 14:16:34,932 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-livedata/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-05-15 14:16:34,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-livedata/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-05-15 14:16:34,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-rxjava2/local.properties
+2020-05-15 14:16:34,940 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-rxjava2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-05-15 14:16:34,940 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-rxjava2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-05-15 14:16:34,941 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-rxjava3/local.properties
+2020-05-15 14:16:34,947 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-rxjava3/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-05-15 14:16:34,947 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission-rxjava3/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-05-15 14:16:34,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission/local.properties
+2020-05-15 14:16:34,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-05-15 14:16:34,955 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/powerpermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-05-15 14:16:34,956 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/local.properties
+2020-05-15 14:16:34,957 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-05-15 14:16:34,957 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-05-15 14:16:34,963 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-05-15 14:16:34,963 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-05-15 14:16:34,964 INFO  ProjectFixService - Project was maybe fixed
+2020-05-15 14:16:34,964 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-15 14:16:34,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-15 14:16:43,289 INFO  VirusProcessorServiceImpl - Queued project 8116 to scan viruses
+2020-05-15 14:16:45,898 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-05-15 14:16:45,898 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-15 14:16:45,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-15 14:18:40,220 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :powerpermission
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -91,8 +91,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :powerpermission-coroutines:compileDebugRenderscript NO-SOURCE
 > Task :powerpermission-coroutines:generateDebugResources
 > Task :powerpermission-coroutines:packageDebugResources
-> Task :powerpermission-livedata:compileDebugRenderscript NO-SOURCE
 > Task :powerpermission-livedata:generateDebugResValues
+> Task :powerpermission-livedata:compileDebugRenderscript NO-SOURCE
 > Task :powerpermission-livedata:generateDebugResources
 > Task :powerpermission-livedata:packageDebugResources
 > Task :powerpermission-rxjava2:generateDebugResValues
@@ -116,11 +116,11 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :powerpermission-rxjava3:extractDeepLinksDebug
 > Task :powerpermission:compileDebugLibraryResources
 > Task :powerpermission:processDebugManifest
-> Task :powerpermission-coroutines:processDebugManifest
-> Task :powerpermission-rxjava2:processDebugManifest
 > Task :powerpermission-livedata:processDebugManifest
-> Task :powerpermission-coroutines:compileDebugLibraryResources
+> Task :powerpermission-rxjava2:processDebugManifest
 > Task :powerpermission-rxjava3:processDebugManifest
+> Task :powerpermission-coroutines:compileDebugLibraryResources
+> Task :powerpermission-coroutines:processDebugManifest
 > Task :app:processDebugManifest
 > Task :powerpermission:parseDebugLocalResources
 > Task :powerpermission-livedata:compileDebugLibraryResources
@@ -135,6 +135,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :powerpermission-livedata:generateDebugBuildConfig
 > Task :powerpermission-rxjava2:generateDebugBuildConfig
 > Task :powerpermission-rxjava3:generateDebugBuildConfig
+> Task :powerpermission:generateDebugRFile
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -159,11 +160,10 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :powerpermission-rxjava3:generateDebugAssets
 > Task :powerpermission-rxjava3:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :powerpermission:generateDebugRFile
 > Task :powerpermission-coroutines:generateDebugRFile
+> Task :powerpermission-rxjava3:generateDebugRFile
 > Task :powerpermission-livedata:generateDebugRFile
 > Task :powerpermission-rxjava2:generateDebugRFile
-> Task :powerpermission-rxjava3:generateDebugRFile
 > Task :app:processDebugResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :powerpermission:processDebugJavaRes NO-SOURCE
@@ -179,32 +179,32 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :powerpermission-coroutines:compileDebugKotlin
 > Task :powerpermission-livedata:compileDebugKotlin
 > Task :powerpermission-rxjava2:compileDebugKotlin
-> Task :powerpermission-livedata:javaPreCompileDebug
-> Task :powerpermission-livedata:compileDebugJavaWithJavac
 > Task :powerpermission-rxjava3:compileDebugKotlin
-> Task :powerpermission-rxjava2:javaPreCompileDebug
-> Task :powerpermission-rxjava2:compileDebugJavaWithJavac
-> Task :powerpermission-livedata:bundleLibCompileDebug
 > Task :powerpermission-livedata:bundleLibResDebug
-> Task :powerpermission-rxjava2:bundleLibResDebug
-> Task :powerpermission-coroutines:javaPreCompileDebug
-> Task :powerpermission-coroutines:compileDebugJavaWithJavac
 > Task :powerpermission-rxjava3:javaPreCompileDebug
 > Task :powerpermission-rxjava3:compileDebugJavaWithJavac
 > Task :powerpermission-coroutines:bundleLibResDebug
-> Task :powerpermission-coroutines:bundleLibCompileDebug
+> Task :powerpermission-coroutines:javaPreCompileDebug
+> Task :powerpermission-coroutines:compileDebugJavaWithJavac
+> Task :powerpermission-rxjava2:javaPreCompileDebug
+> Task :powerpermission-rxjava2:compileDebugJavaWithJavac
+> Task :powerpermission-livedata:javaPreCompileDebug
+> Task :powerpermission-livedata:compileDebugJavaWithJavac
 > Task :powerpermission-rxjava3:bundleLibResDebug
+> Task :powerpermission-coroutines:bundleLibCompileDebug
+> Task :powerpermission-rxjava2:bundleLibResDebug
 > Task :powerpermission-rxjava2:bundleLibCompileDebug
 > Task :powerpermission-rxjava3:bundleLibCompileDebug
+> Task :powerpermission-livedata:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:checkDebugDuplicateClasses
 > Task :app:desugarDebugFileDependencies
+> Task :powerpermission:bundleLibRuntimeDebug
 > Task :powerpermission-livedata:bundleLibRuntimeDebug
 > Task :powerpermission-coroutines:bundleLibRuntimeDebug
-> Task :powerpermission:bundleLibRuntimeDebug
 > Task :powerpermission-rxjava3:bundleLibRuntimeDebug
 > Task :powerpermission-rxjava2:bundleLibRuntimeDebug
 > Task :app:dexBuilderDebug
@@ -213,18 +213,15 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:mergeDebugJniLibFolders
 > Task :powerpermission:mergeDebugJniLibFolders
 > Task :powerpermission-coroutines:mergeDebugJniLibFolders
-> Task :powerpermission:mergeDebugNativeLibs
-> Task :powerpermission:stripDebugDebugSymbols
-> Task :powerpermission:copyDebugJniLibsProjectOnly
 > Task :powerpermission-livedata:mergeDebugJniLibFolders
 > Task :powerpermission-coroutines:mergeDebugNativeLibs
 > Task :powerpermission-coroutines:stripDebugDebugSymbols
 > Task :powerpermission-coroutines:copyDebugJniLibsProjectOnly
 > Task :powerpermission-rxjava2:mergeDebugJniLibFolders
-> Task :powerpermission-livedata:mergeDebugNativeLibs
-> Task :powerpermission-livedata:stripDebugDebugSymbols
-> Task :powerpermission-livedata:copyDebugJniLibsProjectOnly
 > Task :powerpermission-rxjava3:mergeDebugJniLibFolders
+> Task :powerpermission-rxjava2:mergeDebugNativeLibs
+> Task :powerpermission-rxjava2:stripDebugDebugSymbols
+> Task :powerpermission-rxjava2:copyDebugJniLibsProjectOnly
 > Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :powerpermission:preReleaseBuild UP-TO-DATE
@@ -244,7 +241,9 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :powerpermission-rxjava2:packageReleaseRenderscript NO-SOURCE
 > Task :powerpermission-rxjava3:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :powerpermission-rxjava3:mergeDebugNativeLibs
+> Task :powerpermission-rxjava3:stripDebugDebugSymbols
+> Task :powerpermission-rxjava3:copyDebugJniLibsProjectOnly
 > Task :app:dataBindingMergeGenClassesRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
@@ -268,55 +267,56 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :powerpermission-rxjava3:generateReleaseResValues
 > Task :powerpermission-rxjava3:generateReleaseResources
 > Task :powerpermission-rxjava3:packageReleaseResources
-> Task :powerpermission-rxjava3:mergeDebugNativeLibs
-> Task :powerpermission-rxjava3:stripDebugDebugSymbols
-> Task :powerpermission-rxjava3:copyDebugJniLibsProjectOnly
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :powerpermission:extractDeepLinksRelease
-> Task :app:mergeProjectDexDebug
+> Task :app:dataBindingMergeDependencyArtifactsRelease
 > Task :powerpermission-coroutines:extractDeepLinksRelease
-> Task :powerpermission-rxjava2:mergeDebugNativeLibs
-> Task :powerpermission-rxjava2:stripDebugDebugSymbols
-> Task :powerpermission-rxjava2:copyDebugJniLibsProjectOnly
+> Task :app:mergeProjectDexDebug
 > Task :powerpermission-livedata:extractDeepLinksRelease
-> Task :powerpermission-rxjava2:extractDeepLinksRelease
-> Task :powerpermission-coroutines:processReleaseManifest
-> Task :powerpermission-rxjava3:extractDeepLinksRelease
 > Task :powerpermission:processReleaseManifest
-> Task :powerpermission-rxjava2:processReleaseManifest
+> Task :powerpermission-rxjava2:extractDeepLinksRelease
+> Task :powerpermission:mergeDebugNativeLibs
+> Task :powerpermission:stripDebugDebugSymbols
+> Task :powerpermission:copyDebugJniLibsProjectOnly
+> Task :powerpermission-rxjava3:extractDeepLinksRelease
+> Task :powerpermission-coroutines:processReleaseManifest
+> Task :powerpermission-livedata:mergeDebugNativeLibs
+> Task :powerpermission-livedata:stripDebugDebugSymbols
+> Task :powerpermission-livedata:copyDebugJniLibsProjectOnly
 > Task :powerpermission-livedata:processReleaseManifest
 > Task :powerpermission:parseReleaseLocalResources
-> Task :powerpermission-coroutines:compileReleaseLibraryResources
-> Task :powerpermission:compileReleaseLibraryResources
-> Task :app:mergeReleaseResources
-> Task :app:dataBindingGenBaseClassesRelease
-> Task :powerpermission-coroutines:parseReleaseLocalResources
-> Task :powerpermission-livedata:compileReleaseLibraryResources
+> Task :powerpermission-rxjava2:processReleaseManifest
 > Task :powerpermission-rxjava3:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :powerpermission-rxjava2:parseReleaseLocalResources
+> Task :powerpermission:generateReleaseRFile
+> Task :powerpermission-coroutines:compileReleaseLibraryResources
+> Task :powerpermission-coroutines:parseReleaseLocalResources
 > Task :powerpermission-rxjava2:compileReleaseLibraryResources
+> Task :powerpermission-livedata:compileReleaseLibraryResources
+> Task :powerpermission:compileReleaseLibraryResources
+> Task :powerpermission-rxjava2:parseReleaseLocalResources
+> Task :app:mergeReleaseResources
+> Task :app:dataBindingGenBaseClassesRelease
 > Task :powerpermission:generateReleaseBuildConfig
+> Task :powerpermission:compileReleaseKotlin
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :powerpermission-livedata:parseReleaseLocalResources
+> Task :powerpermission-rxjava3:parseReleaseLocalResources
+> Task :powerpermission-coroutines:generateReleaseRFile
 > Task :powerpermission-coroutines:generateReleaseBuildConfig
 > Task :powerpermission-livedata:generateReleaseBuildConfig
 > Task :powerpermission-rxjava2:generateReleaseBuildConfig
 > Task :powerpermission-rxjava3:generateReleaseBuildConfig
-> Task :powerpermission-rxjava3:compileReleaseLibraryResources
-> Task :powerpermission-livedata:parseReleaseLocalResources
-> Task :powerpermission:generateReleaseRFile
-> Task :powerpermission-rxjava3:parseReleaseLocalResources
-> Task :powerpermission:compileReleaseKotlin
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :powerpermission-rxjava2:generateReleaseRFile
 > Task :powerpermission:javaPreCompileRelease
 > Task :powerpermission:compileReleaseJavaWithJavac
-> Task :powerpermission-coroutines:generateReleaseRFile
-> Task :powerpermission-livedata:generateReleaseRFile
+> Task :powerpermission-rxjava3:compileReleaseLibraryResources
 > Task :powerpermission-rxjava3:generateReleaseRFile
+> Task :powerpermission-livedata:generateReleaseRFile
+> Task :powerpermission-rxjava2:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :powerpermission:bundleLibCompileRelease
 > Task :powerpermission-coroutines:compileReleaseKotlin
@@ -326,35 +326,35 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:mergeExtDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
+> Task :powerpermission-rxjava2:javaPreCompileRelease
+> Task :powerpermission-rxjava2:compileReleaseJavaWithJavac
 > Task :powerpermission-rxjava3:javaPreCompileRelease
 > Task :powerpermission-rxjava3:compileReleaseJavaWithJavac
 > Task :powerpermission-livedata:javaPreCompileRelease
 > Task :powerpermission-livedata:compileReleaseJavaWithJavac
-> Task :powerpermission-rxjava2:javaPreCompileRelease
-> Task :powerpermission-rxjava2:compileReleaseJavaWithJavac
-> Task :powerpermission-rxjava3:bundleLibCompileRelease
-> Task :app:prepareLintJar
-> Task :powerpermission-livedata:bundleLibCompileRelease
-> Task :powerpermission-livedata:prepareLintJarForPublish
-> Task :powerpermission-rxjava2:bundleLibCompileRelease
 > Task :powerpermission-coroutines:javaPreCompileRelease
 > Task :powerpermission-coroutines:compileReleaseJavaWithJavac
-> Task :powerpermission-rxjava2:prepareLintJarForPublish
-> Task :powerpermission-rxjava3:prepareLintJarForPublish
-> Task :powerpermission:bundleLibRuntimeRelease
-> Task :powerpermission-coroutines:bundleLibRuntimeRelease
-> Task :powerpermission-livedata:bundleLibRuntimeRelease
+> Task :powerpermission-rxjava3:bundleLibCompileRelease
+> Task :powerpermission-rxjava2:bundleLibCompileRelease
+> Task :powerpermission-livedata:bundleLibCompileRelease
+> Task :app:prepareLintJar
 > Task :powerpermission:prepareLintJarForPublish
-> Task :powerpermission-coroutines:prepareLintJarForPublish
-> Task :app:checkReleaseDuplicateClasses
+> Task :powerpermission-livedata:prepareLintJarForPublish
 > Task :powerpermission-coroutines:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :powerpermission-rxjava2:bundleLibRuntimeRelease
-> Task :powerpermission-rxjava3:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+> Task :powerpermission-coroutines:prepareLintJarForPublish
+> Task :powerpermission-rxjava2:prepareLintJarForPublish
+> Task :app:checkReleaseDuplicateClasses
+> Task :powerpermission:bundleLibRuntimeRelease
+> Task :powerpermission-rxjava2:bundleLibRuntimeRelease
+> Task :powerpermission-coroutines:bundleLibRuntimeRelease
+> Task :powerpermission-livedata:bundleLibRuntimeRelease
+> Task :powerpermission-rxjava3:prepareLintJarForPublish
 > Task :app:lintVitalRelease
+> Task :powerpermission-rxjava3:bundleLibRuntimeRelease
 > Task :app:dexBuilderRelease
 > Task :app:desugarReleaseFileDependencies
 > Task :app:mergeReleaseShaders
@@ -383,17 +383,17 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :powerpermission:processReleaseJavaRes NO-SOURCE
-> Task :powerpermission-coroutines:processReleaseJavaRes NO-SOURCE
 > Task :powerpermission:bundleLibResRelease
-> Task :powerpermission-livedata:processReleaseJavaRes NO-SOURCE
+> Task :powerpermission-coroutines:processReleaseJavaRes NO-SOURCE
 > Task :powerpermission-coroutines:bundleLibResRelease
-> Task :powerpermission-rxjava2:processReleaseJavaRes NO-SOURCE
+> Task :powerpermission-livedata:processReleaseJavaRes NO-SOURCE
 > Task :powerpermission-livedata:bundleLibResRelease
-> Task :powerpermission-rxjava3:processReleaseJavaRes NO-SOURCE
+> Task :powerpermission-rxjava2:processReleaseJavaRes NO-SOURCE
 > Task :powerpermission-rxjava2:bundleLibResRelease
+> Task :powerpermission-rxjava3:processReleaseJavaRes NO-SOURCE
+> Task :powerpermission-rxjava3:bundleLibResRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :powerpermission:mergeReleaseJniLibFolders
-> Task :powerpermission-rxjava3:bundleLibResRelease
 > Task :powerpermission:mergeReleaseNativeLibs
 > Task :powerpermission:stripReleaseDebugSymbols
 > Task :powerpermission:copyReleaseJniLibsProjectOnly
@@ -426,4 +426,4 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 BUILD SUCCESSFUL in 1m 53s
 273 actionable tasks: 273 executed
 
-2020-04-06 12:31:40,373 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586150971602-0/src/PowerPermission-master/app/build/outputs/apk/debug/app-debug.apk
+2020-05-15 14:18:40,357 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589526989867-0/src/PowerPermission-master/app/build/outputs/apk/debug/app-debug.apk
