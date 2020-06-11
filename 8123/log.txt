@@ -1,0 +1,393 @@
+2020-06-11 19:36:58,052 INFO  DownloadService - Downloading "https://github.com/lopspower/CleanRxArchitecture/archive/master.zip", attempt 3
+2020-06-11 19:37:10,326 INFO  DownloadService - Downloaded https://github.com/lopspower/CleanRxArchitecture/archive/master.zip, attempt 3
+2020-06-11 19:37:10,327 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/master.zip": 12 MB
+2020-06-11 19:37:10,327 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-06-11 19:37:10,328 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/master.zip: true
+2020-06-11 19:37:10,328 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src'.
+2020-06-11 19:37:10,494 INFO  FullProcessService - Size of directory with sources: 13 MB
+2020-06-11 19:37:10,495 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src]
+2020-06-11 19:37:10,530 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/.git/
+
+2020-06-11 19:37:10,541 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/gradlew
+2020-06-11 19:37:10,551 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/domain/build.gradle
+2020-06-11 19:37:10,563 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/domain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/build.gradle
+2020-06-11 19:37:10,567 INFO  ProjectBuildService - Remote scripts: none
+2020-06-11 19:37:10,567 INFO  ProjectFixService - Fixing project...
+2020-06-11 19:37:10,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/data/local.properties
+2020-06-11 19:37:10,604 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/data/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-11 19:37:10,605 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/data/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-11 19:37:10,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/local.properties
+2020-06-11 19:37:10,613 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-11 19:37:10,614 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-11 19:37:10,615 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/local.properties
+2020-06-11 19:37:10,616 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-06-11 19:37:10,617 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-06-11 19:37:10,623 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-11 19:37:10,623 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-11 19:37:10,625 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/domain/local.properties
+2020-06-11 19:37:10,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/domain/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-11 19:37:10,634 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/domain/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-11 19:37:10,635 INFO  ProjectFixService - Project was maybe fixed
+2020-06-11 19:37:10,635 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-11 19:37:10,635 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/data/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-11 19:37:25,509 INFO  ProjectTaskService - Detected possible tasks: 70
+2020-06-11 19:37:25,509 INFO  ProjectTaskService - Excluded tasks (12): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest connectedCheck uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-06-11 19:37:25,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/data/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-06-11 19:38:25,249 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :data:preBuild UP-TO-DATE
+> Task :data:extractProguardFiles
+> Task :data:preDebugBuild
+> Task :data:mergeDebugJniLibFolders
+> Task :data:mergeDebugNativeLibs
+> Task :data:stripDebugDebugSymbols NO-SOURCE
+> Task :data:copyDebugJniLibsProjectAndLocalJars
+> Task :data:compileDebugAidl NO-SOURCE
+> Task :domain:compileKotlin
+> Task :domain:compileJava NO-SOURCE
+> Task :domain:processResources NO-SOURCE
+> Task :domain:classes UP-TO-DATE
+> Task :domain:inspectClassesForKotlinIC
+> Task :domain:jar
+> Task :data:generateDebugBuildConfig
+> Task :data:compileDebugRenderscript NO-SOURCE
+> Task :data:generateDebugResValues
+> Task :data:generateDebugResources
+> Task :data:packageDebugResources
+> Task :data:parseDebugLocalResources
+> Task :data:processDebugManifest
+> Task :data:generateDebugRFile
+> Task :data:mergeDebugShaders
+> Task :data:compileDebugShaders NO-SOURCE
+> Task :data:generateDebugAssets UP-TO-DATE
+> Task :data:packageDebugAssets
+> Task :data:packageDebugRenderscript NO-SOURCE
+> Task :data:javaPreCompileDebug
+> Task :data:prepareLintJarForPublish
+> Task :data:processDebugJavaRes NO-SOURCE
+> Task :data:preDebugTestBuild UP-TO-DATE
+> Task :data:mergeDebugTestJniLibFolders
+> Task :data:generateDebugLibraryProguardRules
+> Task :data:generateDebugTestBuildConfig
+> Task :data:generateDebugTestResValues
+> Task :data:mergeDebugTestNativeLibs
+> Task :data:stripDebugTestDebugSymbols NO-SOURCE
+> Task :data:copyDebugTestJniLibsProjectAndLocalJars
+> Task :data:mergeDebugTestShaders
+> Task :data:compileDebugTestShaders NO-SOURCE
+> Task :data:generateDebugTestAssets UP-TO-DATE
+> Task :data:packageDebugTestAssets
+> Task :data:packageDebugTestRenderscript NO-SOURCE
+> Task :data:processDebugTestManifest
+> Task :data:processDebugTestJavaRes NO-SOURCE
+> Task :data:preReleaseBuild
+> Task :data:mergeReleaseJniLibFolders
+> Task :data:javaPreCompileDebugTest
+> Task :data:compileDebugTestAidl NO-SOURCE
+> Task :data:compileDebugTestRenderscript NO-SOURCE
+> Task :data:generateDebugTestResources
+> Task :data:packageDebugTestResources
+> Task :data:mergeReleaseNativeLibs
+> Task :data:compileReleaseAidl NO-SOURCE
+> Task :data:stripReleaseDebugSymbols NO-SOURCE
+> Task :data:copyReleaseJniLibsProjectAndLocalJars
+> Task :data:compileReleaseRenderscript NO-SOURCE
+> Task :data:generateReleaseBuildConfig
+> Task :data:generateReleaseResValues
+> Task :data:generateReleaseResources
+> Task :data:packageReleaseResources
+> Task :data:parseDebugTestLocalResources
+> Task :data:parseReleaseLocalResources
+> Task :data:mergeReleaseShaders
+> Task :data:compileReleaseShaders NO-SOURCE
+> Task :data:generateReleaseAssets UP-TO-DATE
+> Task :data:packageReleaseAssets
+> Task :data:packageReleaseRenderscript NO-SOURCE
+> Task :data:javaPreCompileRelease
+> Task :data:processReleaseManifest
+> Task :data:processReleaseJavaRes NO-SOURCE
+> Task :data:generateDebugTestRFile
+> Task :data:generateReleaseLibraryProguardRules
+> Task :data:generateReleaseRFile
+> Task :data:mergeReleaseResources
+> Task :data:kaptGenerateStubsDebugKotlin
+> Task :data:kaptGenerateStubsDebugTestKotlin
+> Task :data:kaptGenerateStubsReleaseKotlin
+> Task :data:verifyReleaseResources
+
+> Task :data:kaptDebugKotlin
+[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
+
+> Task :data:kaptDebugTestKotlin
+[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
+
+> Task :data:compileDebugKotlin
+
+> Task :data:kaptReleaseKotlin
+[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
+
+> Task :data:compileDebugJavaWithJavac
+> Task :data:extractDebugAnnotations
+> Task :data:mergeDebugGeneratedProguardFiles
+> Task :data:mergeDebugConsumerProguardFiles
+> Task :data:compileDebugSources
+> Task :data:compileReleaseKotlin
+> Task :data:compileReleaseJavaWithJavac
+> Task :data:extractReleaseAnnotations
+> Task :data:mergeReleaseGeneratedProguardFiles
+> Task :data:mergeReleaseConsumerProguardFiles
+> Task :data:mergeDebugJavaResource
+> Task :data:minifyDebugWithR8
+> Task :data:syncDebugLibJars
+> Task :data:bundleDebugAar
+> Task :data:assembleDebug
+> Task :data:compileReleaseSources
+> Task :data:mergeReleaseJavaResource
+> Task :data:minifyReleaseWithR8
+> Task :data:syncReleaseLibJars
+> Task :data:bundleReleaseAar
+> Task :data:assembleRelease
+> Task :data:compileDebugTestKotlin
+> Task :data:compileDebugTestJavaWithJavac
+> Task :data:extractDebugTestAnnotations
+> Task :data:mergeDebugTestGeneratedProguardFiles
+> Task :data:mergeDebugTestConsumerProguardFiles
+> Task :data:compileDebugTestSources
+> Task :data:mergeDebugTestJavaResource
+> Task :data:syncDebugTestLibJars
+> Task :data:bundleDebugTestAar
+> Task :data:assembleDebugTest
+> Task :data:assemble
+> Task :data:build
+
+BUILD SUCCESSFUL in 59s
+77 actionable tasks: 77 executed
+
+2020-06-11 19:38:25,345 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-11 19:38:25,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-11 19:38:33,602 INFO  ProjectTaskService - Detected possible tasks: 75
+2020-06-11 19:38:33,602 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest installRelease connectedCheck uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-06-11 19:38:33,603 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, installRelease, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-06-11 19:41:17,618 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :domain:compileKotlin UP-TO-DATE
+> Task :domain:compileJava NO-SOURCE
+> Task :domain:processResources NO-SOURCE
+> Task :domain:classes UP-TO-DATE
+> Task :domain:inspectClassesForKotlinIC UP-TO-DATE
+> Task :domain:jar UP-TO-DATE
+> Task :data:preBuild UP-TO-DATE
+> Task :data:extractProguardFiles UP-TO-DATE
+> Task :data:preDebugBuild UP-TO-DATE
+> Task :data:compileDebugAidl NO-SOURCE
+> Task :data:generateDebugBuildConfig UP-TO-DATE
+> Task :data:compileDebugRenderscript NO-SOURCE
+> Task :data:generateDebugResValues UP-TO-DATE
+> Task :data:generateDebugResources UP-TO-DATE
+> Task :data:packageDebugResources UP-TO-DATE
+> Task :data:parseDebugLocalResources UP-TO-DATE
+> Task :data:processDebugManifest UP-TO-DATE
+> Task :data:generateDebugRFile UP-TO-DATE
+> Task :data:javaPreCompileDebug UP-TO-DATE
+> Task :data:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :data:kaptDebugKotlin UP-TO-DATE
+> Task :data:compileDebugKotlin UP-TO-DATE
+> Task :data:compileDebugJavaWithJavac UP-TO-DATE
+> Task :presentation:preBuild UP-TO-DATE
+> Task :presentation:extractProguardFiles
+> Task :presentation:preDebugBuild
+> Task :presentation:compileDebugAidl NO-SOURCE
+> Task :data:packageDebugRenderscript NO-SOURCE
+> Task :presentation:generateDebugBuildConfig
+> Task :presentation:compileDebugRenderscript NO-SOURCE
+> Task :data:bundleLibCompileToJarDebug
+> Task :data:compileDebugLibraryResources
+> Task :presentation:generateDebugResValues
+> Task :presentation:generateDebugResources
+> Task :data:extractDeepLinksDebug
+> Task :presentation:createDebugCompatibleScreenManifests
+> Task :presentation:extractDeepLinksDebug
+> Task :presentation:processDebugManifest
+> Task :presentation:mergeDebugResources
+> Task :presentation:processDebugResources
+> Task :presentation:kaptGenerateStubsDebugKotlin
+> Task :presentation:javaPreCompileDebug
+> Task :data:mergeDebugShaders UP-TO-DATE
+> Task :data:compileDebugShaders NO-SOURCE
+> Task :data:generateDebugAssets UP-TO-DATE
+> Task :data:packageDebugAssets UP-TO-DATE
+> Task :presentation:mergeDebugShaders
+> Task :presentation:compileDebugShaders NO-SOURCE
+> Task :presentation:generateDebugAssets UP-TO-DATE
+> Task :presentation:mergeDebugAssets
+> Task :data:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :presentation:checkDebugDuplicateClasses
+> Task :data:exportDebugConsumerProguardFiles
+> Task :data:bundleLibRuntimeToJarDebug
+> Task :data:processDebugJavaRes NO-SOURCE
+> Task :presentation:processDebugJavaRes NO-SOURCE
+> Task :data:bundleLibResDebug
+> Task :data:mergeDebugJniLibFolders UP-TO-DATE
+> Task :data:mergeDebugNativeLibs UP-TO-DATE
+> Task :data:stripDebugDebugSymbols NO-SOURCE
+> Task :data:copyDebugJniLibsProjectOnly
+> Task :presentation:mergeDebugJniLibFolders
+> Task :presentation:validateSigningDebug
+> Task :data:preDebugTestBuild UP-TO-DATE
+> Task :data:generateDebugTestBuildConfig UP-TO-DATE
+> Task :data:generateDebugTestResValues UP-TO-DATE
+> Task :data:compileDebugTestAidl NO-SOURCE
+> Task :data:compileDebugTestRenderscript NO-SOURCE
+> Task :data:generateDebugTestResources UP-TO-DATE
+> Task :data:packageDebugTestResources UP-TO-DATE
+> Task :data:parseDebugTestLocalResources UP-TO-DATE
+> Task :data:processDebugTestManifest UP-TO-DATE
+> Task :data:generateDebugTestRFile UP-TO-DATE
+> Task :data:kaptGenerateStubsDebugTestKotlin UP-TO-DATE
+> Task :data:kaptDebugTestKotlin UP-TO-DATE
+> Task :data:compileDebugTestKotlin UP-TO-DATE
+> Task :data:javaPreCompileDebugTest UP-TO-DATE
+> Task :data:compileDebugTestJavaWithJavac UP-TO-DATE
+> Task :presentation:preDebugTestBuild UP-TO-DATE
+> Task :presentation:compileDebugTestAidl NO-SOURCE
+> Task :data:packageDebugTestRenderscript NO-SOURCE
+> Task :presentation:compileDebugTestRenderscript NO-SOURCE
+> Task :presentation:generateDebugTestBuildConfig
+> Task :presentation:generateDebugTestResValues
+> Task :presentation:generateDebugTestResources
+> Task :data:compileDebugTestLibraryResources
+> Task :data:extractDeepLinksDebugTest
+> Task :presentation:createDebugTestCompatibleScreenManifests
+> Task :presentation:extractDeepLinksDebugTest
+> Task :presentation:processDebugTestManifest
+> Task :presentation:mergeDebugNativeLibs
+> Task :presentation:stripDebugDebugSymbols NO-SOURCE
+> Task :data:mergeDebugTestShaders UP-TO-DATE
+> Task :data:compileDebugTestShaders NO-SOURCE
+> Task :data:generateDebugTestAssets UP-TO-DATE
+> Task :data:packageDebugTestAssets UP-TO-DATE
+> Task :presentation:mergeDebugTestShaders
+> Task :presentation:compileDebugTestShaders NO-SOURCE
+> Task :presentation:generateDebugTestAssets UP-TO-DATE
+> Task :presentation:mergeDebugTestAssets
+> Task :data:processDebugTestJavaRes NO-SOURCE
+> Task :presentation:processDebugTestJavaRes NO-SOURCE
+> Task :presentation:mergeDebugTestResources
+> Task :data:bundleLibCompileToJarDebugTest
+
+> Task :presentation:kaptDebugKotlin
+[WARN] Issue detected with dagger.internal.codegen.ComponentProcessor. Expected 1 originating source file when generating /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/build/generated/source/kapt/debug/com/mikhaellopez/domain/usecases/GetListRepo_Factory.java, but detected 0: [].
+
+> Task :presentation:processDebugTestResources
+> Task :presentation:kaptGenerateStubsDebugTestKotlin
+> Task :data:bundleLibResDebugTest
+> Task :presentation:javaPreCompileDebugTest
+
+> Task :presentation:kaptDebugTestKotlin
+[WARN] Issue detected with dagger.internal.codegen.ComponentProcessor. Expected 1 originating source file when generating /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/build/generated/source/kapt/debugTest/com/mikhaellopez/domain/usecases/GetListRepo_Factory.java, but detected 0: [].
+
+> Task :presentation:compileDebugKotlin
+> Task :presentation:compileDebugJavaWithJavac
+> Task :presentation:compileDebugSources
+> Task :presentation:mergeDebugGeneratedProguardFiles
+> Task :presentation:compileDebugTestKotlin
+> Task :presentation:compileDebugTestJavaWithJavac
+> Task :presentation:compileDebugTestSources
+> Task :presentation:mergeDebugJavaResource
+> Task :presentation:minifyDebugWithR8
+> Task :presentation:packageDebug
+> Task :presentation:assembleDebug
+> Task :presentation:mergeDebugTestJavaResource
+> Task :data:bundleLibRuntimeToJarDebugTest
+> Task :presentation:checkDebugTestDuplicateClasses
+> Task :presentation:dexBuilderDebugTest
+> Task :presentation:desugarDebugTestFileDependencies
+> Task :data:mergeDebugTestJniLibFolders UP-TO-DATE
+> Task :data:mergeDebugTestNativeLibs UP-TO-DATE
+> Task :data:stripDebugTestDebugSymbols NO-SOURCE
+> Task :data:copyDebugTestJniLibsProjectOnly
+> Task :presentation:mergeDebugTestJniLibFolders
+> Task :presentation:validateSigningDebugTest
+> Task :data:preReleaseBuild UP-TO-DATE
+> Task :data:compileReleaseAidl NO-SOURCE
+> Task :data:compileReleaseRenderscript NO-SOURCE
+> Task :data:generateReleaseBuildConfig UP-TO-DATE
+> Task :data:generateReleaseResValues UP-TO-DATE
+> Task :data:generateReleaseResources UP-TO-DATE
+> Task :data:packageReleaseResources UP-TO-DATE
+> Task :data:parseReleaseLocalResources UP-TO-DATE
+> Task :data:processReleaseManifest UP-TO-DATE
+> Task :data:generateReleaseRFile UP-TO-DATE
+> Task :data:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+> Task :data:kaptReleaseKotlin UP-TO-DATE
+> Task :data:compileReleaseKotlin UP-TO-DATE
+> Task :data:javaPreCompileRelease UP-TO-DATE
+> Task :data:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :presentation:preReleaseBuild
+> Task :presentation:compileReleaseAidl NO-SOURCE
+> Task :data:packageReleaseRenderscript NO-SOURCE
+> Task :presentation:compileReleaseRenderscript NO-SOURCE
+> Task :presentation:generateReleaseBuildConfig
+> Task :presentation:generateReleaseResValues
+> Task :presentation:generateReleaseResources
+> Task :presentation:mergeDebugTestNativeLibs
+> Task :presentation:stripDebugTestDebugSymbols NO-SOURCE
+> Task :data:extractDeepLinksRelease
+> Task :presentation:createReleaseCompatibleScreenManifests
+> Task :presentation:extractDeepLinksRelease
+> Task :presentation:processReleaseManifest
+> Task :data:bundleLibCompileToJarRelease
+> Task :presentation:javaPreCompileRelease
+> Task :data:prepareLintJarForPublish UP-TO-DATE
+> Task :presentation:prepareLintJar
+> Task :data:mergeReleaseShaders UP-TO-DATE
+> Task :data:compileReleaseShaders NO-SOURCE
+> Task :data:generateReleaseAssets UP-TO-DATE
+> Task :data:packageReleaseAssets UP-TO-DATE
+> Task :presentation:mergeReleaseShaders
+> Task :presentation:compileReleaseShaders NO-SOURCE
+> Task :presentation:generateReleaseAssets UP-TO-DATE
+> Task :presentation:mergeReleaseAssets
+> Task :data:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :presentation:checkReleaseDuplicateClasses
+> Task :data:processReleaseJavaRes NO-SOURCE
+> Task :data:exportReleaseConsumerProguardFiles
+> Task :data:bundleLibRuntimeToJarRelease
+> Task :presentation:processReleaseJavaRes NO-SOURCE
+> Task :presentation:collectReleaseDependencies
+> Task :presentation:sdkReleaseDependencyData
+> Task :data:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :data:mergeReleaseNativeLibs UP-TO-DATE
+> Task :data:stripReleaseDebugSymbols NO-SOURCE
+> Task :data:copyReleaseJniLibsProjectOnly
+> Task :presentation:mergeReleaseJniLibFolders
+> Task :presentation:validateSigningRelease
+> Task :presentation:multiDexListDebugTest
+> Task :data:bundleLibResRelease
+> Task :presentation:mergeReleaseResources
+> Task :presentation:processReleaseResources
+> Task :presentation:kaptGenerateStubsReleaseKotlin
+> Task :presentation:mergeReleaseNativeLibs
+> Task :presentation:stripReleaseDebugSymbols NO-SOURCE
+> Task :presentation:mergeDexDebugTest
+> Task :presentation:packageDebugTest
+> Task :presentation:assembleDebugTest
+
+> Task :presentation:kaptReleaseKotlin
+[WARN] Issue detected with dagger.internal.codegen.ComponentProcessor. Expected 1 originating source file when generating /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/build/generated/source/kapt/release/com/mikhaellopez/domain/usecases/GetListRepo_Factory.java, but detected 0: [].
+
+> Task :presentation:compileReleaseKotlin
+> Task :presentation:compileReleaseJavaWithJavac
+> Task :presentation:compileReleaseSources
+> Task :presentation:lintVitalRelease
+> Task :presentation:mergeReleaseGeneratedProguardFiles
+> Task :presentation:mergeReleaseJavaResource
+> Task :presentation:minifyReleaseWithR8
+> Task :presentation:shrinkReleaseRes
+> Task :presentation:packageRelease
+> Task :presentation:assembleRelease
+> Task :presentation:assemble
+> Task :presentation:build
+
+BUILD SUCCESSFUL in 2m 43s
+145 actionable tasks: 93 executed, 52 up-to-date
+
+2020-06-11 19:41:17,849 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879018047-0/src/CleanRxArchitecture-master/presentation/build/outputs/apk/debugTest/presentation-debugTest.apk

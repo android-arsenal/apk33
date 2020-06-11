@@ -1,0 +1,180 @@
+2020-06-11 19:41:20,013 INFO  DownloadService - Downloading "https://github.com/AraujoJordan/ExcuseMe/archive/master.zip", attempt 3
+2020-06-11 19:41:23,422 INFO  DownloadService - Downloaded https://github.com/AraujoJordan/ExcuseMe/archive/master.zip, attempt 3
+2020-06-11 19:41:23,422 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/master.zip": 2 MB
+2020-06-11 19:41:23,422 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-06-11 19:41:23,423 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/master.zip: true
+2020-06-11 19:41:23,423 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src'.
+2020-06-11 19:41:23,477 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-06-11 19:41:23,477 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src]
+2020-06-11 19:41:23,546 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/.git/
+
+2020-06-11 19:41:23,550 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/gradlew
+2020-06-11 19:41:23,555 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/excuseme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/build.gradle
+2020-06-11 19:41:23,559 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/excuseme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/settings.gradle
+2020-06-11 19:41:23,560 INFO  ProjectBuildService - Remote scripts: none
+2020-06-11 19:41:23,560 INFO  ProjectFixService - Fixing project...
+2020-06-11 19:41:23,572 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/app/local.properties
+2020-06-11 19:41:23,573 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-06-11 19:41:23,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/excuseme/local.properties
+2020-06-11 19:41:23,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/excuseme/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-06-11 19:41:23,576 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/local.properties
+2020-06-11 19:41:23,576 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-06-11 19:41:23,577 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-06-11 19:41:23,579 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-06-11 19:41:23,579 INFO  ProjectFixService - Project was maybe fixed
+2020-06-11 19:41:23,579 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-11 19:41:23,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-11 19:41:33,021 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-06-11 19:41:33,022 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-06-11 19:41:33,022 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-06-11 19:41:44,531 INFO  VirusProcessorServiceImpl - Queued project 8123 to scan viruses
+2020-06-11 19:42:59,635 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :excuseme:preBuild UP-TO-DATE
+> Task :excuseme:preDebugBuild UP-TO-DATE
+> Task :excuseme:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :excuseme:packageDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :excuseme:generateDebugResValues
+> Task :excuseme:compileDebugRenderscript NO-SOURCE
+> Task :excuseme:generateDebugResources
+> Task :excuseme:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :excuseme:extractDeepLinksDebug
+> Task :excuseme:processDebugManifest
+> Task :app:processDebugManifest
+> Task :excuseme:parseDebugLocalResources
+> Task :app:mergeDebugResources
+> Task :excuseme:generateDebugRFile
+> Task :excuseme:compileDebugLibraryResources
+> Task :app:processDebugResources
+> Task :excuseme:generateDebugBuildConfig
+> Task :excuseme:compileDebugKotlin
+> Task :excuseme:javaPreCompileDebug
+> Task :excuseme:compileDebugJavaWithJavac
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :excuseme:mergeDebugShaders
+> Task :excuseme:compileDebugShaders NO-SOURCE
+> Task :excuseme:generateDebugAssets UP-TO-DATE
+> Task :excuseme:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :excuseme:bundleLibCompileToJarDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/app/src/main/java/com/araujo/jordan/excusemesample/ExampleActivity.kt: (156, 56): Parameter 'result' is never used, could be renamed to _
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :excuseme:processDebugJavaRes NO-SOURCE
+> Task :excuseme:bundleLibResDebug
+> Task :app:dexBuilderDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :excuseme:jacocoDebug
+> Task :app:mergeDebugJavaResource
+> Task :excuseme:bundleLibRuntimeToJarDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :excuseme:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:extractProguardFiles
+> Task :app:preReleaseBuild
+> Task :excuseme:preReleaseBuild UP-TO-DATE
+> Task :excuseme:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :excuseme:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :excuseme:compileReleaseRenderscript NO-SOURCE
+> Task :excuseme:generateReleaseResValues
+> Task :excuseme:generateReleaseResources
+> Task :excuseme:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :excuseme:extractDeepLinksRelease
+> Task :excuseme:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :excuseme:mergeDebugNativeLibs
+> Task :excuseme:stripDebugDebugSymbols NO-SOURCE
+> Task :excuseme:copyDebugJniLibsProjectOnly
+> Task :excuseme:parseReleaseLocalResources
+> Task :excuseme:generateReleaseBuildConfig
+> Task :excuseme:compileReleaseLibraryResources
+> Task :excuseme:javaPreCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :excuseme:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :excuseme:compileReleaseKotlin
+> Task :excuseme:compileReleaseJavaWithJavac
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:prepareLintJar
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :excuseme:mergeReleaseShaders
+> Task :excuseme:compileReleaseShaders NO-SOURCE
+> Task :excuseme:generateReleaseAssets UP-TO-DATE
+> Task :excuseme:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :excuseme:bundleLibCompileToJarRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/app/src/main/java/com/araujo/jordan/excusemesample/ExampleActivity.kt: (156, 56): Parameter 'result' is never used, could be renamed to _
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
+> Task :excuseme:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+WARNING: [Processor] Library '/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.robolectric/shadows-framework/4.3.1/da048a93951f4d9e46519749c53b0f868dfdf425/shadows-framework-4.3.1.jar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/test/runner/lifecycle/Stage'
+ Example of support library reference: 'android/support/annotation/NonNull'
+
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :excuseme:mergeReleaseGeneratedProguardFiles
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :excuseme:processReleaseJavaRes NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :excuseme:mergeReleaseJniLibFolders
+> Task :excuseme:exportReleaseConsumerProguardFiles
+> Task :excuseme:bundleLibResRelease
+> Task :excuseme:mergeReleaseNativeLibs
+> Task :excuseme:stripReleaseDebugSymbols NO-SOURCE
+> Task :excuseme:copyReleaseJniLibsProjectOnly
+> Task :excuseme:bundleLibRuntimeToJarRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeReleaseJavaResource
+
+> Task :app:minifyReleaseWithR8
+R8: Missing class: java.lang.instrument.ClassFileTransformer
+R8: Missing class: sun.misc.SignalHandler
+
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 25s
+87 actionable tasks: 87 executed
+
+2020-06-11 19:42:59,713 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879280009-0/src/ExcuseMe-master/app/build/outputs/apk/debug/app-debug.apk

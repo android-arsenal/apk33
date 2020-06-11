@@ -1,29 +1,29 @@
-2020-04-06 12:31:41,091 INFO  DownloadService - Downloading "https://github.com/simformsolutions/SSCustomEditTextOutLineBorder/archive/master.zip", attempt 3
-2020-04-06 12:32:05,433 INFO  VirusProcessorServiceImpl - Queued project 8093 to scan viruses
-2020-04-06 12:32:21,942 INFO  DownloadService - Downloaded https://github.com/simformsolutions/SSCustomEditTextOutLineBorder/archive/master.zip, attempt 3
-2020-04-06 12:32:21,943 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/master.zip": 5 MB
-2020-04-06 12:32:21,943 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-06 12:32:21,945 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/master.zip: true
-2020-04-06 12:32:21,946 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src'.
-2020-04-06 12:32:22,083 INFO  FullProcessService - Size of directory with sources: 7 MB
-2020-04-06 12:32:22,084 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src]
-2020-04-06 12:32:22,162 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/.git/
+2020-06-11 19:44:45,826 INFO  DownloadService - Downloading "https://github.com/simformsolutions/SSCustomEditTextOutLineBorder/archive/master.zip", attempt 3
+2020-06-11 19:44:50,916 INFO  DownloadService - Downloaded https://github.com/simformsolutions/SSCustomEditTextOutLineBorder/archive/master.zip, attempt 3
+2020-06-11 19:44:50,918 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/master.zip": 5 MB
+2020-06-11 19:44:50,918 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-06-11 19:44:50,919 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/master.zip: true
+2020-06-11 19:44:50,919 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src'.
+2020-06-11 19:44:51,019 INFO  FullProcessService - Size of directory with sources: 7 MB
+2020-06-11 19:44:51,019 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src]
+2020-06-11 19:44:51,056 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/.git/
 
-2020-04-06 12:32:22,170 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/SSCustomEditTextOutLineBorder-master/gradlew
-2020-04-06 12:32:22,177 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/build.gradle
-2020-04-06 12:32:22,184 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/build.gradle
-2020-04-06 12:32:22,185 INFO  ProjectBuildService - Remote scripts: none
-2020-04-06 12:32:22,185 INFO  ProjectFixService - Fixing project...
-2020-04-06 12:32:22,192 INFO  ManifestFixService - Found manifest(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/SSCustomEditTextOutLineBorder-master/buildSrc/build/tmp/jar/MANIFEST.MF
-2020-04-06 12:32:22,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/local.properties
-2020-04-06 12:32:22,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-06 12:32:22,206 INFO  ProjectFixService - Project was maybe fixed
-2020-04-06 12:32:22,206 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-06 12:32:22,207 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/SSCustomEditTextOutLineBorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-06 12:33:00,916 INFO  ProjectTaskService - Detected possible tasks: 74
-2020-04-06 12:33:00,916 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-04-06 12:33:00,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/SSCustomEditTextOutLineBorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586151101088-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-04-06 12:34:08,431 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2020-06-11 19:44:51,062 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/SSCustomEditTextOutLineBorder-master/gradlew
+2020-06-11 19:44:51,068 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/build.gradle
+2020-06-11 19:44:51,075 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/build.gradle
+2020-06-11 19:44:51,075 INFO  ProjectBuildService - Remote scripts: none
+2020-06-11 19:44:51,075 INFO  ProjectFixService - Fixing project...
+2020-06-11 19:44:51,084 INFO  ManifestFixService - Found manifest(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/SSCustomEditTextOutLineBorder-master/buildSrc/build/tmp/jar/MANIFEST.MF
+2020-06-11 19:44:51,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/local.properties
+2020-06-11 19:44:51,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-06-11 19:44:51,094 INFO  ProjectFixService - Project was maybe fixed
+2020-06-11 19:44:51,094 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-11 19:44:51,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/SSCustomEditTextOutLineBorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-11 19:44:58,031 INFO  VirusProcessorServiceImpl - Queued project 8096 to scan viruses
+2020-06-11 19:46:15,357 INFO  ProjectTaskService - Detected possible tasks: 78
+2020-06-11 19:46:15,357 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-06-11 19:46:15,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/SSCustomEditTextOutLineBorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1591879485821-0/src/SSCustomEditTextOutLineBorder-master/customedittextoutlinedborder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-06-11 19:47:05,437 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -54,10 +54,10 @@ Configuration on demand is an incubating feature.
 > Task :customedittextoutlinedborder:compileDebugRenderscript NO-SOURCE
 > Task :customedittextoutlinedborder:generateDebugSources
 > Task :customedittextoutlinedborder:dataBindingExportBuildInfoDebug
-> Task :customedittextoutlinedborder:dataBindingMergeDependencyArtifactsDebug
 > Task :customedittextoutlinedborder:generateDebugResources
 > Task :customedittextoutlinedborder:packageDebugResources
 > Task :customedittextoutlinedborder:dataBindingMergeGenClassesDebug
+> Task :customedittextoutlinedborder:dataBindingMergeDependencyArtifactsDebug
 > Task :customedittextoutlinedborder:dataBindingGenBaseClassesDebug
 > Task :customedittextoutlinedborder:mergeDebugShaders
 > Task :customedittextoutlinedborder:compileDebugShaders
@@ -73,15 +73,14 @@ Configuration on demand is an incubating feature.
 > Task :customedittextoutlinedborder:generateReleaseBuildConfig
 > Task :customedittextoutlinedborder:generateReleaseSources
 > Task :customedittextoutlinedborder:dataBindingExportBuildInfoRelease
-> Task :customedittextoutlinedborder:dataBindingMergeDependencyArtifactsRelease
+> Task :customedittextoutlinedborder:processDebugManifest
 > Task :customedittextoutlinedborder:generateReleaseResValues
-> Task :customedittextoutlinedborder:dataBindingMergeGenClassesRelease
 > Task :customedittextoutlinedborder:generateReleaseResources
 > Task :customedittextoutlinedborder:packageReleaseResources
+> Task :customedittextoutlinedborder:dataBindingMergeDependencyArtifactsRelease
+> Task :customedittextoutlinedborder:parseDebugLibraryResources
+> Task :customedittextoutlinedborder:dataBindingMergeGenClassesRelease
 > Task :customedittextoutlinedborder:dataBindingGenBaseClassesRelease
-> Task :customedittextoutlinedborder:mergeDebugNativeLibs
-> Task :customedittextoutlinedborder:stripDebugDebugSymbols
-> Task :customedittextoutlinedborder:transformNativeLibsWithSyncJniLibsForDebug
 > Task :customedittextoutlinedborder:mergeReleaseShaders
 > Task :customedittextoutlinedborder:compileReleaseShaders
 > Task :customedittextoutlinedborder:generateReleaseAssets
@@ -89,23 +88,24 @@ Configuration on demand is an incubating feature.
 > Task :customedittextoutlinedborder:packageReleaseRenderscript NO-SOURCE
 > Task :customedittextoutlinedborder:processReleaseJavaRes NO-SOURCE
 > Task :customedittextoutlinedborder:mergeReleaseJniLibFolders
-> Task :customedittextoutlinedborder:parseDebugLibraryResources
-> Task :customedittextoutlinedborder:processReleaseManifest
-> Task :customedittextoutlinedborder:processDebugManifest
+> Task :customedittextoutlinedborder:mergeDebugNativeLibs
+> Task :customedittextoutlinedborder:stripDebugDebugSymbols
+> Task :customedittextoutlinedborder:transformNativeLibsWithSyncJniLibsForDebug
 > Task :customedittextoutlinedborder:mergeReleaseNativeLibs
 > Task :customedittextoutlinedborder:stripReleaseDebugSymbols
 > Task :customedittextoutlinedborder:transformNativeLibsWithSyncJniLibsForRelease
+> Task :customedittextoutlinedborder:processReleaseManifest
 > Task :customedittextoutlinedborder:parseReleaseLibraryResources
 > Task :customedittextoutlinedborder:mergeReleaseResources
 > Task :customedittextoutlinedborder:generateDebugRFile
 > Task :customedittextoutlinedborder:kaptGenerateStubsDebugKotlin
-> Task :customedittextoutlinedborder:generateReleaseRFile
 
 > Task :customedittextoutlinedborder:kaptDebugKotlin
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
 
-> Task :customedittextoutlinedborder:verifyReleaseResources
 > Task :customedittextoutlinedborder:compileDebugKotlin
+> Task :customedittextoutlinedborder:verifyReleaseResources
+> Task :customedittextoutlinedborder:generateReleaseRFile
 > Task :customedittextoutlinedborder:kaptGenerateStubsReleaseKotlin
 
 > Task :customedittextoutlinedborder:kaptReleaseKotlin
@@ -139,8 +139,8 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 6s
+BUILD SUCCESSFUL in 49s
 62 actionable tasks: 62 executed
 
-2020-04-06 12:34:08,509 ERROR FullProcessService - Project build has not produced APK file
-2020-04-06 12:34:08,578 ERROR FullProcessService - Could not find generated or existed APK file
+2020-06-11 19:47:05,512 ERROR FullProcessService - Project build has not produced APK file
+2020-06-11 19:47:05,589 ERROR FullProcessService - Could not find generated or existed APK file
