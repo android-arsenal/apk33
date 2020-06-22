@@ -1,0 +1,183 @@
+2020-06-23 00:43:35,345 INFO  DownloadService - Downloading "https://github.com/Chrisvin/BlobBackgroundLayout/archive/master.zip", attempt 3
+2020-06-23 00:43:39,072 INFO  DownloadService - Downloaded https://github.com/Chrisvin/BlobBackgroundLayout/archive/master.zip, attempt 3
+2020-06-23 00:43:39,072 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/master.zip": 2 MB
+2020-06-23 00:43:39,073 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-06-23 00:43:39,083 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/master.zip: true
+2020-06-23 00:43:39,084 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src'.
+2020-06-23 00:43:39,179 INFO  FullProcessService - Size of directory with sources: 3 MB
+2020-06-23 00:43:39,185 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src]
+2020-06-23 00:43:39,275 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/.git/
+
+2020-06-23 00:43:39,303 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/gradlew
+2020-06-23 00:43:39,330 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/build.gradle
+2020-06-23 00:43:39,345 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/settings.gradle
+2020-06-23 00:43:39,349 INFO  ProjectBuildService - Remote scripts: none
+2020-06-23 00:43:39,350 INFO  ProjectFixService - Fixing project...
+2020-06-23 00:43:39,473 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2020-06-23 00:43:39,473 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2020-06-23 00:43:39,508 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2020-06-23 00:43:39,516 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 28.0.0-rc1 28.0.0-rc2
+2020-06-23 00:43:39,549 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2020-06-23 00:43:39,552 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2020-06-23 00:43:39,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/app/local.properties
+2020-06-23 00:43:39,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-06-23 00:43:39,586 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-06-23 00:43:39,591 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/local.properties
+2020-06-23 00:43:39,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-06-23 00:43:39,599 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-06-23 00:43:39,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/local.properties
+2020-06-23 00:43:39,614 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-06-23 00:43:39,615 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-06-23 00:43:39,623 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-06-23 00:43:39,624 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-06-23 00:43:39,626 INFO  ProjectFixService - Project was maybe fixed
+2020-06-23 00:43:39,631 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-23 00:43:39,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-23 00:44:50,089 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-06-23 00:44:50,090 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-06-23 00:44:50,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-06-23 00:47:21,386 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :blobbackground:preBuild UP-TO-DATE
+> Task :blobbackground:preDebugBuild UP-TO-DATE
+> Task :blobbackground:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :blobbackground:packageDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :blobbackground:generateDebugResValues
+> Task :blobbackground:compileDebugRenderscript NO-SOURCE
+> Task :blobbackground:generateDebugResources
+> Task :blobbackground:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :blobbackground:extractDeepLinksDebug
+> Task :blobbackground:processDebugManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :blobbackground:compileDebugLibraryResources
+> Task :blobbackground:parseDebugLocalResources
+> Task :blobbackground:generateDebugBuildConfig
+> Task :blobbackground:javaPreCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :blobbackground:mergeDebugShaders
+> Task :blobbackground:compileDebugShaders NO-SOURCE
+> Task :blobbackground:generateDebugAssets UP-TO-DATE
+> Task :blobbackground:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :blobbackground:processDebugJavaRes NO-SOURCE
+> Task :blobbackground:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :blobbackground:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/src/main/java/com/jem/blobbackground/layout/BlobConstraintLayout.kt: (31, 22): Parameter 'attrs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/src/main/java/com/jem/blobbackground/layout/BlobFrameLayout.kt: (40, 22): Parameter 'attrs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/src/main/java/com/jem/blobbackground/layout/BlobLinearLayout.kt: (40, 22): Parameter 'attrs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/src/main/java/com/jem/blobbackground/model/Blob.kt: (85, 28): Variable 'currentAngle' initializer is redundant
+
+> Task :blobbackground:compileDebugJavaWithJavac
+> Task :blobbackground:bundleLibResDebug
+> Task :blobbackground:bundleLibCompileToJarDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:checkDebugDuplicateClasses
+> Task :app:dexBuilderDebug
+> Task :blobbackground:bundleLibRuntimeToJarDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :blobbackground:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :blobbackground:preReleaseBuild UP-TO-DATE
+> Task :blobbackground:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :blobbackground:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :blobbackground:compileReleaseRenderscript NO-SOURCE
+> Task :blobbackground:generateReleaseResValues
+> Task :blobbackground:generateReleaseResources
+> Task :blobbackground:packageReleaseResources
+> Task :app:mergeProjectDexDebug
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :blobbackground:extractDeepLinksRelease
+> Task :blobbackground:mergeDebugNativeLibs
+> Task :blobbackground:stripDebugDebugSymbols NO-SOURCE
+> Task :blobbackground:copyDebugJniLibsProjectOnly
+> Task :app:mergeLibDexDebug
+> Task :blobbackground:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :blobbackground:generateReleaseBuildConfig
+> Task :app:javaPreCompileRelease
+> Task :blobbackground:javaPreCompileRelease
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :blobbackground:parseReleaseLocalResources
+> Task :blobbackground:compileReleaseLibraryResources
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :blobbackground:prepareLintJarForPublish
+> Task :blobbackground:generateReleaseRFile
+> Task :app:processReleaseResources
+
+> Task :blobbackground:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/src/main/java/com/jem/blobbackground/layout/BlobConstraintLayout.kt: (31, 22): Parameter 'attrs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/src/main/java/com/jem/blobbackground/layout/BlobFrameLayout.kt: (40, 22): Parameter 'attrs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/src/main/java/com/jem/blobbackground/layout/BlobLinearLayout.kt: (40, 22): Parameter 'attrs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/blobbackground/src/main/java/com/jem/blobbackground/model/Blob.kt: (85, 28): Variable 'currentAngle' initializer is redundant
+
+> Task :blobbackground:compileReleaseJavaWithJavac
+> Task :blobbackground:bundleLibCompileToJarRelease
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
+> Task :blobbackground:bundleLibRuntimeToJarRelease
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :blobbackground:mergeReleaseShaders
+> Task :blobbackground:compileReleaseShaders NO-SOURCE
+> Task :blobbackground:generateReleaseAssets UP-TO-DATE
+> Task :blobbackground:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :blobbackground:processReleaseJavaRes NO-SOURCE
+> Task :blobbackground:bundleLibResRelease
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :blobbackground:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseJavaResource
+> Task :blobbackground:mergeReleaseNativeLibs
+> Task :blobbackground:stripReleaseDebugSymbols NO-SOURCE
+> Task :blobbackground:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 2m 30s
+85 actionable tasks: 85 executed
+
+2020-06-23 00:47:22,040 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592847815197-0/src/BlobBackgroundLayout-master/app/build/outputs/apk/debug/app-debug.apk

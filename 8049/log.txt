@@ -1,37 +1,37 @@
-2020-03-23 23:14:58,892 INFO  DownloadService - Downloading "https://github.com/skydoves/transformationlayout/archive/master.zip", attempt 3
-2020-03-23 23:15:11,744 INFO  VirusProcessorServiceImpl - Queued project 8051 to scan viruses
-2020-03-23 23:16:10,575 INFO  DownloadService - Downloaded https://github.com/skydoves/transformationlayout/archive/master.zip, attempt 3
-2020-03-23 23:16:10,575 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/master.zip": 37 MB
-2020-03-23 23:16:10,575 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-23 23:16:10,576 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/master.zip: true
-2020-03-23 23:16:10,576 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src'.
-2020-03-23 23:16:10,928 INFO  FullProcessService - Size of directory with sources: 37 MB
-2020-03-23 23:16:10,928 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src]
-2020-03-23 23:16:10,958 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/.git/
+2020-06-23 00:51:55,878 INFO  DownloadService - Downloading "https://github.com/skydoves/transformationlayout/archive/master.zip", attempt 3
+2020-06-23 00:52:05,987 INFO  VirusProcessorServiceImpl - Queued project 8075 to scan viruses
+2020-06-23 00:52:19,129 INFO  DownloadService - Downloaded https://github.com/skydoves/transformationlayout/archive/master.zip, attempt 3
+2020-06-23 00:52:19,129 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/master.zip": 37 MB
+2020-06-23 00:52:19,129 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-06-23 00:52:19,131 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/master.zip: true
+2020-06-23 00:52:19,132 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src'.
+2020-06-23 00:52:20,142 INFO  FullProcessService - Size of directory with sources: 37 MB
+2020-06-23 00:52:20,142 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src]
+2020-06-23 00:52:20,304 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/.git/
 
-2020-03-23 23:16:10,962 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/gradlew
-2020-03-23 23:16:10,966 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/transformationlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/build.gradle
-2020-03-23 23:16:10,971 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/transformationlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/spotless.gradle
-2020-03-23 23:16:10,972 INFO  ProjectBuildService - Remote scripts: none
-2020-03-23 23:16:10,972 INFO  ProjectFixService - Fixing project...
-2020-03-23 23:16:10,982 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/app/local.properties
-2020-03-23 23:16:10,986 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-23 23:16:10,986 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-23 23:16:10,987 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/transformationlayout/local.properties
-2020-03-23 23:16:10,990 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/transformationlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-23 23:16:10,990 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/transformationlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-23 23:16:10,992 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/local.properties
-2020-03-23 23:16:10,992 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-03-23 23:16:10,992 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-03-23 23:16:10,995 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-23 23:16:10,995 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-23 23:16:10,996 INFO  ProjectFixService - Project was maybe fixed
-2020-03-23 23:16:10,997 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-23 23:16:10,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-23 23:16:19,242 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-03-23 23:16:19,242 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-23 23:16:19,242 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-23 23:17:32,334 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-06-23 00:52:20,316 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/gradlew
+2020-06-23 00:52:20,327 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/transformationlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/build.gradle
+2020-06-23 00:52:20,338 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/transformationlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/spotless.gradle
+2020-06-23 00:52:20,347 INFO  ProjectBuildService - Remote scripts: none
+2020-06-23 00:52:20,347 INFO  ProjectFixService - Fixing project...
+2020-06-23 00:52:20,389 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/app/local.properties
+2020-06-23 00:52:20,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 00:52:20,423 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 00:52:20,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/transformationlayout/local.properties
+2020-06-23 00:52:20,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/transformationlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 00:52:20,432 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/transformationlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 00:52:20,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/local.properties
+2020-06-23 00:52:20,436 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-06-23 00:52:20,436 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-06-23 00:52:20,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-06-23 00:52:20,443 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-06-23 00:52:20,463 INFO  ProjectFixService - Project was maybe fixed
+2020-06-23 00:52:20,463 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-23 00:52:20,463 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-23 00:53:02,405 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-06-23 00:53:02,406 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-06-23 00:53:02,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-06-23 00:57:25,798 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :transformationlayout
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -50,9 +50,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :transformationlayout:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :transformationlayout:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -61,11 +60,13 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :transformationlayout:generateDebugResources
 > Task :transformationlayout:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :transformationlayout:checkDebugManifest
-> Task :app:mergeDebugResources
-> Task :transformationlayout:parseDebugLibraryResources
+> Task :app:extractDeepLinksDebug
+> Task :transformationlayout:extractDeepLinksDebug
 > Task :transformationlayout:processDebugManifest
 > Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :transformationlayout:compileDebugLibraryResources
+> Task :transformationlayout:parseDebugLocalResources
 > Task :transformationlayout:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -79,7 +80,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :transformationlayout:processDebugJavaRes NO-SOURCE
 > Task :transformationlayout:generateDebugRFile
 > Task :app:processDebugResources
-
 > Task :transformationlayout:compileDebugKotlin
 w: ATTENTION!
 This build uses unsafe internal compiler arguments:
@@ -98,24 +98,21 @@ compiler or generated code. Use it at your own risk!
 > Task :app:kaptGenerateStubsDebugKotlin
 > Task :app:kaptDebugKotlin
 > Task :app:compileDebugKotlin
-> Task :app:checkDebugDuplicateClasses
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :transformationlayout:bundleLibRuntimeDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeLibDexDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:dexBuilderDebug
+> Task :transformationlayout:bundleLibRuntimeDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :transformationlayout:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :transformationlayout:preReleaseBuild UP-TO-DATE
 > Task :transformationlayout:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :transformationlayout:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
@@ -124,21 +121,26 @@ compiler or generated code. Use it at your own risk!
 > Task :transformationlayout:generateReleaseResValues
 > Task :transformationlayout:generateReleaseResources
 > Task :transformationlayout:packageReleaseResources
-> Task :app:mergeDebugJavaResource
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :transformationlayout:checkReleaseManifest
-> Task :transformationlayout:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :app:mergeProjectDexDebug
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :transformationlayout:extractDeepLinksRelease
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJavaResource
 > Task :transformationlayout:generateReleaseBuildConfig
-> Task :transformationlayout:parseReleaseLibraryResources
 > Task :transformationlayout:mergeDebugNativeLibs
 > Task :transformationlayout:stripDebugDebugSymbols
-> Task :transformationlayout:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :transformationlayout:copyDebugJniLibsProjectOnly
+> Task :transformationlayout:parseReleaseLocalResources
+> Task :transformationlayout:compileReleaseLibraryResources
+> Task :transformationlayout:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 > Task :transformationlayout:prepareLintJarForPublish
 > Task :transformationlayout:generateReleaseRFile
+> Task :app:processReleaseResources
 
 > Task :transformationlayout:compileReleaseKotlin
 w: ATTENTION!
@@ -151,18 +153,23 @@ as no stability/compatibility guarantees are given on
 compiler or generated code. Use it at your own risk!
 
 
-> Task :app:mergeExtDexDebug
-> Task :transformationlayout:javaPreCompileRelease
-> Task :transformationlayout:compileReleaseJavaWithJavac
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :transformationlayout:javaPreCompileRelease
+> Task :transformationlayout:compileReleaseJavaWithJavac
 > Task :transformationlayout:bundleLibRuntimeRelease
 > Task :transformationlayout:bundleLibCompileRelease
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
 > Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:kaptReleaseKotlin
+> Task :app:compileReleaseKotlin
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -173,25 +180,14 @@ compiler or generated code. Use it at your own risk!
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :transformationlayout:processReleaseJavaRes NO-SOURCE
-> Task :transformationlayout:bundleLibResRelease
-> Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :transformationlayout:mergeReleaseJniLibFolders
+> Task :transformationlayout:bundleLibResRelease
 > Task :transformationlayout:mergeReleaseNativeLibs
 > Task :transformationlayout:stripReleaseDebugSymbols
-> Task :transformationlayout:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :transformationlayout:copyReleaseJniLibsProjectOnly
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
-> Task :app:kaptReleaseKotlin
-> Task :app:compileReleaseKotlin
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8d2744116ed586e8005ffd9b0a8974aa/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
@@ -200,11 +196,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 1m 12s
+BUILD SUCCESSFUL in 4m 21s
 97 actionable tasks: 97 executed
 
-2020-03-23 23:17:32,460 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980098889-0/src/TransformationLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2020-06-23 00:57:26,536 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848315873-0/src/TransformationLayout-master/app/build/outputs/apk/debug/app-debug.apk
