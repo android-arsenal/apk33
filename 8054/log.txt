@@ -1,49 +1,50 @@
-2020-03-24 13:39:48,807 INFO  DownloadService - Downloading "https://github.com/ibrahimsn98/achilles/archive/master.zip", attempt 3
-2020-03-24 13:39:49,360 INFO  DownloadService - Downloaded https://github.com/ibrahimsn98/achilles/archive/master.zip, attempt 3
-2020-03-24 13:39:49,360 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/master.zip": 155 KB
-2020-03-24 13:39:49,360 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-24 13:39:49,361 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/master.zip: true
-2020-03-24 13:39:49,361 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src'.
-2020-03-24 13:39:49,386 INFO  FullProcessService - Size of directory with sources: 162 KB
-2020-03-24 13:39:49,386 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src]
-2020-03-24 13:39:49,411 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/.git/
+2020-07-06 01:52:24,391 INFO  DownloadService - Downloading "https://github.com/ibrahimsn98/achilles/archive/master.zip", attempt 3
+2020-07-06 01:52:26,638 INFO  DownloadService - Downloaded https://github.com/ibrahimsn98/achilles/archive/master.zip, attempt 3
+2020-07-06 01:52:26,638 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/master.zip": 155 KB
+2020-07-06 01:52:26,638 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-06 01:52:26,644 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/master.zip: true
+2020-07-06 01:52:26,644 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src'.
+2020-07-06 01:52:26,669 INFO  FullProcessService - Size of directory with sources: 162 KB
+2020-07-06 01:52:26,669 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src]
+2020-07-06 01:52:26,689 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/.git/
 
-2020-03-24 13:39:49,416 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/gradlew
-2020-03-24 13:39:49,421 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/achilleslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/build.gradle
-2020-03-24 13:39:49,426 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/achilleslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/settings.gradle
-2020-03-24 13:39:49,427 INFO  ProjectBuildService - Remote scripts: none
-2020-03-24 13:39:49,427 INFO  ProjectFixService - Fixing project...
-2020-03-24 13:39:49,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/achilleslib/local.properties
-2020-03-24 13:39:49,440 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/achilleslib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-24 13:39:49,440 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/achilleslib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-24 13:39:49,441 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/app/local.properties
-2020-03-24 13:39:49,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-24 13:39:49,443 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-24 13:39:49,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/local.properties
-2020-03-24 13:39:49,445 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-03-24 13:39:49,445 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-03-24 13:39:49,447 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-24 13:39:49,447 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2020-03-24 13:39:49,448 INFO  ProjectFixService - Project was maybe fixed
-2020-03-24 13:39:49,448 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-24 13:39:49,448 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/achilleslib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-24 13:39:57,009 INFO  VirusProcessorServiceImpl - Queued project 8079 to scan viruses
-2020-03-24 13:40:02,533 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-03-24 13:40:02,534 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-03-24 13:40:02,534 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/achilleslib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-03-24 13:40:30,570 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-06 01:52:26,693 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/gradlew
+2020-07-06 01:52:26,698 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/achilleslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/build.gradle
+2020-07-06 01:52:26,703 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/achilleslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/settings.gradle
+2020-07-06 01:52:26,703 INFO  ProjectBuildService - Remote scripts: none
+2020-07-06 01:52:26,703 INFO  ProjectFixService - Fixing project...
+2020-07-06 01:52:26,713 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/achilleslib/local.properties
+2020-07-06 01:52:26,714 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/achilleslib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
+2020-07-06 01:52:26,714 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/achilleslib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
+2020-07-06 01:52:26,715 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/app/local.properties
+2020-07-06 01:52:26,716 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
+2020-07-06 01:52:26,716 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
+2020-07-06 01:52:26,717 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/local.properties
+2020-07-06 01:52:26,718 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-07-06 01:52:26,718 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-07-06 01:52:26,720 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
+2020-07-06 01:52:26,720 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
+2020-07-06 01:52:26,720 INFO  ProjectFixService - Project was maybe fixed
+2020-07-06 01:52:26,720 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-06 01:52:26,721 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/achilleslib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-06 01:52:33,337 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-07-06 01:52:33,337 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-07-06 01:52:33,338 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/achilleslib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-07-06 01:52:35,577 INFO  VirusProcessorServiceImpl - Queued project 8077 to scan viruses
+2020-07-06 01:52:53,133 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :achilleslib:preBuild UP-TO-DATE
 > Task :achilleslib:preDebugBuild UP-TO-DATE
 > Task :achilleslib:mergeDebugJniLibFolders
 > Task :achilleslib:mergeDebugNativeLibs
 > Task :achilleslib:stripDebugDebugSymbols
 > Task :achilleslib:copyDebugJniLibsProjectAndLocalJars
-> Task :achilleslib:compileDebugAidl NO-SOURCE
 > Task :achilleslib:generateDebugBuildConfig
-> Task :achilleslib:compileDebugRenderscript NO-SOURCE
 > Task :achilleslib:generateDebugResValues
+> Task :achilleslib:compileDebugAidl NO-SOURCE
+> Task :achilleslib:compileDebugRenderscript NO-SOURCE
 > Task :achilleslib:generateDebugResources
 > Task :achilleslib:packageDebugResources
+> Task :achilleslib:processDebugManifest
 > Task :achilleslib:mergeDebugShaders
 > Task :achilleslib:compileDebugShaders
 > Task :achilleslib:generateDebugAssets
@@ -59,23 +60,22 @@
 > Task :achilleslib:generateReleaseResValues
 > Task :achilleslib:generateReleaseResources
 > Task :achilleslib:packageReleaseResources
-> Task :achilleslib:parseDebugLocalResources
+> Task :achilleslib:mergeReleaseNativeLibs
+> Task :achilleslib:stripReleaseDebugSymbols
+> Task :achilleslib:copyReleaseJniLibsProjectAndLocalJars
+> Task :achilleslib:parseReleaseLocalResources
 > Task :achilleslib:mergeReleaseShaders
 > Task :achilleslib:compileReleaseShaders
 > Task :achilleslib:generateReleaseAssets
 > Task :achilleslib:packageReleaseAssets
 > Task :achilleslib:packageReleaseRenderscript NO-SOURCE
 > Task :achilleslib:processReleaseJavaRes NO-SOURCE
-> Task :achilleslib:mergeReleaseNativeLibs
-> Task :achilleslib:stripReleaseDebugSymbols
-> Task :achilleslib:copyReleaseJniLibsProjectAndLocalJars
-> Task :achilleslib:parseReleaseLocalResources
+> Task :achilleslib:parseDebugLocalResources
 > Task :achilleslib:processReleaseManifest
-> Task :achilleslib:processDebugManifest
 > Task :achilleslib:mergeReleaseResources
+> Task :achilleslib:generateReleaseRFile
 > Task :achilleslib:generateDebugRFile
 > Task :achilleslib:compileDebugKotlin
-> Task :achilleslib:generateReleaseRFile
 > Task :achilleslib:compileReleaseKotlin
 > Task :achilleslib:javaPreCompileDebug
 > Task :achilleslib:compileDebugJavaWithJavac
@@ -83,33 +83,33 @@
 > Task :achilleslib:mergeDebugGeneratedProguardFiles
 > Task :achilleslib:mergeDebugConsumerProguardFiles
 > Task :achilleslib:compileDebugSources
-> Task :achilleslib:mergeReleaseJavaResource
-> Task :achilleslib:verifyReleaseResources
+> Task :achilleslib:mergeDebugJavaResource
+> Task :achilleslib:syncDebugLibJars
+> Task :achilleslib:bundleDebugAar
+> Task :achilleslib:assembleDebug
 > Task :achilleslib:javaPreCompileRelease
 > Task :achilleslib:compileReleaseJavaWithJavac
 > Task :achilleslib:extractReleaseAnnotations
 > Task :achilleslib:mergeReleaseGeneratedProguardFiles
 > Task :achilleslib:mergeReleaseConsumerProguardFiles
+> Task :achilleslib:compileReleaseSources
+> Task :achilleslib:mergeReleaseJavaResource
 > Task :achilleslib:syncReleaseLibJars
 > Task :achilleslib:bundleReleaseAar
-> Task :achilleslib:compileReleaseSources
+> Task :achilleslib:verifyReleaseResources
 > Task :achilleslib:assembleRelease
-> Task :achilleslib:mergeDebugJavaResource
-> Task :achilleslib:syncDebugLibJars
-> Task :achilleslib:bundleDebugAar
-> Task :achilleslib:assembleDebug
 > Task :achilleslib:assemble
 > Task :achilleslib:build
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 19s
 47 actionable tasks: 47 executed
 
-2020-03-24 13:40:30,623 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-24 13:40:30,624 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-24 13:40:36,686 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-24 13:40:36,686 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-24 13:40:36,687 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-24 13:41:34,605 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-06 01:52:53,189 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-06 01:52:53,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-06 01:52:59,077 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-07-06 01:52:59,077 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-06 01:52:59,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-06 01:53:40,697 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :achilleslib:preBuild UP-TO-DATE
 > Task :achilleslib:preDebugBuild UP-TO-DATE
 > Task :achilleslib:compileDebugAidl NO-SOURCE
@@ -126,12 +126,12 @@ BUILD SUCCESSFUL in 27s
 > Task :achilleslib:compileDebugJavaWithJavac UP-TO-DATE
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
-> Task :achilleslib:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :achilleslib:packageDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :achilleslib:bundleLibCompileDebug
+> Task :app:mainApkListPersistenceDebug
 > Task :achilleslib:compileDebugLibraryResources
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -139,9 +139,6 @@ BUILD SUCCESSFUL in 27s
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :app:processDebugResources
-> Task :app:compileDebugKotlin
 > Task :achilleslib:mergeDebugShaders UP-TO-DATE
 > Task :achilleslib:compileDebugShaders UP-TO-DATE
 > Task :achilleslib:generateDebugAssets UP-TO-DATE
@@ -150,22 +147,26 @@ BUILD SUCCESSFUL in 27s
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :achilleslib:processDebugJavaRes NO-SOURCE
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :achilleslib:bundleLibResDebug
+> Task :app:mergeDebugResources
+> Task :app:processDebugResources
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:mergeDebugJavaResource
-> Task :app:checkDebugDuplicateClasses
 > Task :achilleslib:bundleLibRuntimeDebug
-> Task :app:mergeLibDexDebug
 > Task :app:dexBuilderDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeLibDexDebug
 > Task :achilleslib:mergeDebugJniLibFolders UP-TO-DATE
 > Task :achilleslib:mergeDebugNativeLibs UP-TO-DATE
 > Task :achilleslib:stripDebugDebugSymbols UP-TO-DATE
 > Task :achilleslib:copyDebugJniLibsProjectOnly
 > Task :app:mergeDebugJniLibFolders
+> Task :app:mergeProjectDexDebug
 > Task :app:validateSigningDebug
 > Task :achilleslib:preReleaseBuild UP-TO-DATE
 > Task :achilleslib:compileReleaseAidl NO-SOURCE
@@ -186,11 +187,10 @@ BUILD SUCCESSFUL in 27s
 > Task :achilleslib:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
-> Task :app:mergeProjectDexDebug
+> Task :achilleslib:compileReleaseLibraryResources
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :achilleslib:compileReleaseLibraryResources
 > Task :achilleslib:extractDeepLinksRelease
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
@@ -209,6 +209,9 @@ BUILD SUCCESSFUL in 27s
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:dexBuilderRelease
 > Task :achilleslib:bundleLibRuntimeRelease
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :achilleslib:mergeReleaseShaders UP-TO-DATE
 > Task :achilleslib:compileReleaseShaders UP-TO-DATE
 > Task :achilleslib:generateReleaseAssets UP-TO-DATE
@@ -218,9 +221,6 @@ BUILD SUCCESSFUL in 27s
 > Task :app:generateReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :achilleslib:processReleaseJavaRes NO-SOURCE
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :achilleslib:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :achilleslib:mergeReleaseNativeLibs UP-TO-DATE
@@ -238,7 +238,7 @@ BUILD SUCCESSFUL in 27s
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 57s
+BUILD SUCCESSFUL in 40s
 93 actionable tasks: 62 executed, 31 up-to-date
 
-2020-03-24 13:41:34,721 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585031988804-0/src/achilles-master/app/build/outputs/apk/debug/app-debug.apk
+2020-07-06 01:53:40,785 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975144386-0/src/achilles-master/app/build/outputs/apk/debug/app-debug.apk

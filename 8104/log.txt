@@ -1,33 +1,34 @@
-2020-04-23 18:47:22,570 INFO  DownloadService - Downloading "https://github.com/rrsaikat/RNetwork/archive/master.zip", attempt 3
-2020-04-23 18:47:26,572 INFO  DownloadService - Downloaded https://github.com/rrsaikat/RNetwork/archive/master.zip, attempt 3
-2020-04-23 18:47:26,572 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/master.zip": 6 MB
-2020-04-23 18:47:26,572 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-23 18:47:26,576 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/master.zip: true
-2020-04-23 18:47:26,576 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src'.
-2020-04-23 18:47:26,651 INFO  FullProcessService - Size of directory with sources: 8 MB
-2020-04-23 18:47:26,651 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src]
-2020-04-23 18:47:26,669 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/.git/
+2020-07-06 01:49:23,871 INFO  DownloadService - Downloading "https://github.com/rrsaikat/RNetwork/archive/master.zip", attempt 3
+2020-07-06 01:49:28,355 INFO  DownloadService - Downloaded https://github.com/rrsaikat/RNetwork/archive/master.zip, attempt 3
+2020-07-06 01:49:28,356 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/master.zip": 6 MB
+2020-07-06 01:49:28,356 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-06 01:49:28,358 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/master.zip: true
+2020-07-06 01:49:28,358 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src'.
+2020-07-06 01:49:28,433 INFO  FullProcessService - Size of directory with sources: 8 MB
+2020-07-06 01:49:28,434 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src]
+2020-07-06 01:49:28,458 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/.git/
 
-2020-04-23 18:47:26,672 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/gradlew
-2020-04-23 18:47:26,676 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/knetworklib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/build.gradle
-2020-04-23 18:47:26,679 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/knetworklib/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/knetworklib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/settings.gradle
-2020-04-23 18:47:26,679 INFO  ProjectBuildService - Remote scripts: none
-2020-04-23 18:47:26,679 INFO  ProjectFixService - Fixing project...
-2020-04-23 18:47:26,687 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/local.properties
-2020-04-23 18:47:26,688 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-04-23 18:47:26,688 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/knetworklib/local.properties
-2020-04-23 18:47:26,689 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/knetworklib/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=29]
-2020-04-23 18:47:26,689 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/local.properties
-2020-04-23 18:47:26,690 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-04-23 18:47:26,690 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-04-23 18:47:26,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-04-23 18:47:26,692 INFO  ProjectFixService - Project was maybe fixed
-2020-04-23 18:47:26,692 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:47:26,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:47:35,484 INFO  ProjectTaskService - Detected possible tasks: 71
-2020-04-23 18:47:35,484 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-04-23 18:47:35,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-04-23 18:48:44,416 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-06 01:49:28,461 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/gradlew
+2020-07-06 01:49:28,465 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/knetworklib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/build.gradle
+2020-07-06 01:49:28,468 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/knetworklib/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/knetworklib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/settings.gradle
+2020-07-06 01:49:28,471 INFO  ProjectBuildService - Remote scripts: none
+2020-07-06 01:49:28,471 INFO  ProjectFixService - Fixing project...
+2020-07-06 01:49:28,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/local.properties
+2020-07-06 01:49:28,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-07-06 01:49:28,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/knetworklib/local.properties
+2020-07-06 01:49:28,483 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/knetworklib/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=29]
+2020-07-06 01:49:28,483 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/local.properties
+2020-07-06 01:49:28,484 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-07-06 01:49:28,484 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-07-06 01:49:28,485 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-07-06 01:49:28,485 INFO  ProjectFixService - Project was maybe fixed
+2020-07-06 01:49:28,485 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-06 01:49:28,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-06 01:49:36,611 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-07-06 01:49:36,611 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-06 01:49:36,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-06 01:49:38,726 INFO  VirusProcessorServiceImpl - Queued project 8129 to scan viruses
+2020-07-06 01:50:35,412 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:knetworklib:preBuild UP-TO-DATE
@@ -35,8 +36,8 @@
 > Task :app:knetworklib:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:knetworklib:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -47,11 +48,11 @@
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :app:knetworklib:extractDeepLinksDebug
-> Task :app:knetworklib:compileDebugLibraryResources
+> Task :app:mergeDebugResources
 > Task :app:knetworklib:processDebugManifest
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
 > Task :app:knetworklib:parseDebugLocalResources
+> Task :app:knetworklib:compileDebugLibraryResources
 > Task :app:knetworklib:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -61,24 +62,24 @@
 > Task :app:knetworklib:generateDebugAssets
 > Task :app:knetworklib:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:knetworklib:generateDebugRFile
-> Task :app:processDebugResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:knetworklib:processDebugJavaRes NO-SOURCE
+> Task :app:knetworklib:generateDebugRFile
+> Task :app:processDebugResources
 > Task :app:knetworklib:compileDebugKotlin
 > Task :app:knetworklib:javaPreCompileDebug
 > Task :app:knetworklib:compileDebugJavaWithJavac
-> Task :app:checkDebugDuplicateClasses
 > Task :app:knetworklib:bundleLibResDebug
 > Task :app:knetworklib:bundleLibRuntimeDebug
 > Task :app:knetworklib:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (68, 50): Parameter 'buttonView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (79, 53): Parameter 'buttonView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (119, 13): 'setter for isWifiEnabled: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (131, 13): 'setter for isWifiEnabled: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (68, 50): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (79, 53): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (119, 13): 'setter for isWifiEnabled: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (131, 13): 'setter for isWifiEnabled: Boolean' is deprecated. Deprecated in Java
 
+> Task :app:checkDebugDuplicateClasses
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -111,37 +112,33 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/
 > Task :app:knetworklib:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :app:mergeReleaseResources
+> Task :app:knetworklib:compileReleaseLibraryResources
 > Task :app:knetworklib:generateReleaseBuildConfig
 > Task :app:knetworklib:parseReleaseLocalResources
-> Task :app:knetworklib:compileReleaseLibraryResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :app:knetworklib:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :app:knetworklib:compileReleaseKotlin
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:knetworklib:javaPreCompileRelease
 > Task :app:knetworklib:compileReleaseJavaWithJavac
 > Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:knetworklib:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (68, 50): Parameter 'buttonView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (79, 53): Parameter 'buttonView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (119, 13): 'setter for isWifiEnabled: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (131, 13): 'setter for isWifiEnabled: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (68, 50): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (79, 53): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (119, 13): 'setter for isWifiEnabled: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/src/main/java/com/rezwan/example/MainActivity.kt: (131, 13): 'setter for isWifiEnabled: Boolean' is deprecated. Deprecated in Java
 
-> Task :app:checkReleaseDuplicateClasses
+> Task :app:knetworklib:bundleLibRuntimeRelease
+> Task :app:knetworklib:prepareLintJarForPublish
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:knetworklib:bundleLibRuntimeRelease
-> Task :app:knetworklib:prepareLintJarForPublish
 > Task :app:lintVitalRelease
 > Task :app:dexBuilderRelease
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:desugarReleaseFileDependencies
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -153,16 +150,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:knetworklib:processReleaseJavaRes NO-SOURCE
+> Task :app:knetworklib:bundleLibResRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :app:knetworklib:mergeReleaseJniLibFolders
+> Task :app:knetworklib:mergeReleaseNativeLibs
+> Task :app:knetworklib:stripReleaseDebugSymbols
+> Task :app:knetworklib:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
 > Task :app:knetworklib:copyDebugJniLibsProjectAndLocalJars
 > Task :app:knetworklib:extractDebugAnnotations
 > Task :app:knetworklib:mergeDebugGeneratedProguardFiles
 > Task :app:knetworklib:mergeDebugConsumerProguardFiles
-> Task :app:knetworklib:bundleLibResRelease
-> Task :app:knetworklib:mergeReleaseNativeLibs
-> Task :app:knetworklib:stripReleaseDebugSymbols
-> Task :app:knetworklib:copyReleaseJniLibsProjectOnly
 > Task :app:knetworklib:mergeDebugJavaResource
 > Task :app:knetworklib:syncDebugLibJars
 > Task :app:knetworklib:bundleDebugAar
@@ -177,16 +176,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/
 > Task :app:knetworklib:bundleReleaseAar
 > Task :app:knetworklib:compileReleaseSources
 > Task :app:knetworklib:mergeReleaseResources
-> Task :app:mergeReleaseJavaResource
 > Task :app:knetworklib:javadoc SKIPPED
 > Task :app:knetworklib:javadocJar
 > Task :app:knetworklib:sourcesJar
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
 > Task :app:knetworklib:verifyReleaseResources
 > Task :app:knetworklib:assembleRelease
 > Task :app:knetworklib:assemble
 > Task :app:knetworklib:build
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -194,7 +195,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 8s
+BUILD SUCCESSFUL in 57s
 112 actionable tasks: 112 executed
 
-2020-04-23 18:48:44,516 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642442567-0/src/RNetwork-master/app/build/outputs/apk/debug/app-debug.apk
+2020-07-06 01:50:35,502 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974963868-0/src/RNetwork-master/app/build/outputs/apk/debug/app-debug.apk

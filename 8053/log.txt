@@ -1,33 +1,34 @@
-2020-04-16 00:23:02,305 INFO  DownloadService - Downloading "https://github.com/ImaginativeShohag/Why-Not-Image-Carousel/archive/master.zip", attempt 3
-2020-04-16 00:23:04,348 INFO  DownloadService - Downloaded https://github.com/ImaginativeShohag/Why-Not-Image-Carousel/archive/master.zip, attempt 3
-2020-04-16 00:23:04,349 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/master.zip": 3 MB
-2020-04-16 00:23:04,349 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-16 00:23:04,350 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/master.zip: true
-2020-04-16 00:23:04,350 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src'.
-2020-04-16 00:23:04,407 INFO  FullProcessService - Size of directory with sources: 4 MB
-2020-04-16 00:23:04,407 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src]
-2020-04-16 00:23:04,430 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/.git/
+2020-07-06 01:53:41,387 INFO  DownloadService - Downloading "https://github.com/ImaginativeShohag/Why-Not-Image-Carousel/archive/master.zip", attempt 3
+2020-07-06 01:53:46,195 INFO  DownloadService - Downloaded https://github.com/ImaginativeShohag/Why-Not-Image-Carousel/archive/master.zip, attempt 3
+2020-07-06 01:53:46,195 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/master.zip": 4 MB
+2020-07-06 01:53:46,195 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-06 01:53:46,202 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/master.zip: true
+2020-07-06 01:53:46,202 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src'.
+2020-07-06 01:53:46,260 INFO  FullProcessService - Size of directory with sources: 4 MB
+2020-07-06 01:53:46,260 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src]
+2020-07-06 01:53:46,283 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/.git/
 
-2020-04-16 00:23:04,435 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/gradlew
-2020-04-16 00:23:04,439 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/whynotimagecarousel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/build.gradle
-2020-04-16 00:23:04,443 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/whynotimagecarousel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/settings.gradle
-2020-04-16 00:23:04,444 INFO  ProjectBuildService - Remote scripts: none
-2020-04-16 00:23:04,444 INFO  ProjectFixService - Fixing project...
-2020-04-16 00:23:04,455 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/sample/local.properties
-2020-04-16 00:23:04,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/sample/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-16 00:23:04,456 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/whynotimagecarousel/local.properties
-2020-04-16 00:23:04,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/whynotimagecarousel/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-16 00:23:04,457 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/local.properties
-2020-04-16 00:23:04,458 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-04-16 00:23:04,459 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-04-16 00:23:04,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-16 00:23:04,461 INFO  ProjectFixService - Project was maybe fixed
-2020-04-16 00:23:04,461 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-16 00:23:04,462 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-16 00:23:12,243 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-04-16 00:23:12,244 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-04-16 00:23:12,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-04-16 00:24:32,052 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-06 01:53:46,288 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/gradlew
+2020-07-06 01:53:46,294 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/whynotimagecarousel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/build.gradle
+2020-07-06 01:53:46,299 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/whynotimagecarousel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/settings.gradle
+2020-07-06 01:53:46,300 INFO  ProjectBuildService - Remote scripts: none
+2020-07-06 01:53:46,300 INFO  ProjectFixService - Fixing project...
+2020-07-06 01:53:46,311 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/sample/local.properties
+2020-07-06 01:53:46,312 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/sample/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-06 01:53:46,312 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/whynotimagecarousel/local.properties
+2020-07-06 01:53:46,313 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/whynotimagecarousel/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-06 01:53:46,314 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/local.properties
+2020-07-06 01:53:46,314 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-07-06 01:53:46,314 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-07-06 01:53:46,316 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-06 01:53:46,316 INFO  ProjectFixService - Project was maybe fixed
+2020-07-06 01:53:46,316 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-06 01:53:46,316 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-06 01:53:52,895 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-07-06 01:53:52,895 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-06 01:53:52,896 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-06 01:53:56,880 INFO  VirusProcessorServiceImpl - Queued project 8054 to scan viruses
+2020-07-06 01:55:02,123 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :whynotimagecarousel:preBuild UP-TO-DATE
@@ -37,7 +38,6 @@
 > Task :whynotimagecarousel:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
-> Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
 > Task :whynotimagecarousel:generateDebugResValues
@@ -47,45 +47,41 @@
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
 > Task :whynotimagecarousel:extractDeepLinksDebug
+> Task :whynotimagecarousel:compileDebugLibraryResources
+> Task :sample:mergeDebugResources
 > Task :whynotimagecarousel:processDebugManifest
 > Task :sample:processDebugManifest
-> Task :whynotimagecarousel:compileDebugLibraryResources
 > Task :whynotimagecarousel:parseDebugLocalResources
-> Task :sample:mergeDebugResources
 > Task :whynotimagecarousel:generateDebugBuildConfig
+> Task :sample:javaPreCompileDebug
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :whynotimagecarousel:mergeDebugShaders
+> Task :whynotimagecarousel:compileDebugShaders NO-SOURCE
+> Task :whynotimagecarousel:generateDebugAssets UP-TO-DATE
+> Task :whynotimagecarousel:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :whynotimagecarousel:processDebugJavaRes NO-SOURCE
 > Task :whynotimagecarousel:generateDebugRFile
 > Task :sample:processDebugResources
 > Task :whynotimagecarousel:compileDebugKotlin
 > Task :whynotimagecarousel:javaPreCompileDebug
 > Task :whynotimagecarousel:compileDebugJavaWithJavac
-> Task :sample:mergeDebugShaders
-> Task :sample:compileDebugShaders
-> Task :sample:generateDebugAssets
-> Task :whynotimagecarousel:mergeDebugShaders
-> Task :whynotimagecarousel:compileDebugShaders
-> Task :whynotimagecarousel:generateDebugAssets
-> Task :whynotimagecarousel:packageDebugAssets
-> Task :sample:mergeDebugAssets
-> Task :whynotimagecarousel:bundleLibCompileDebug
+> Task :whynotimagecarousel:bundleLibResDebug
+> Task :whynotimagecarousel:bundleLibCompileToJarDebug
 > Task :sample:compileDebugKotlin
-> Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
-> Task :sample:processDebugJavaRes NO-SOURCE
-> Task :whynotimagecarousel:processDebugJavaRes NO-SOURCE
-> Task :whynotimagecarousel:bundleLibResDebug
 > Task :sample:mergeDebugJavaResource
-> Task :sample:desugarDebugFileDependencies
-> Task :whynotimagecarousel:bundleLibRuntimeDebug
 > Task :sample:checkDebugDuplicateClasses
+> Task :sample:desugarDebugFileDependencies
+> Task :whynotimagecarousel:bundleLibRuntimeToJarDebug
 > Task :sample:dexBuilderDebug
 > Task :sample:mergeLibDexDebug
 > Task :sample:mergeDebugJniLibFolders
 > Task :whynotimagecarousel:mergeDebugJniLibFolders
-> Task :whynotimagecarousel:mergeDebugNativeLibs
-> Task :whynotimagecarousel:stripDebugDebugSymbols
-> Task :whynotimagecarousel:copyDebugJniLibsProjectOnly
-> Task :sample:mergeProjectDexDebug
 > Task :sample:validateSigningDebug
 > Task :sample:extractProguardFiles
 > Task :sample:preReleaseBuild
@@ -95,7 +91,6 @@
 > Task :whynotimagecarousel:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:generateReleaseBuildConfig
-> Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
 > Task :whynotimagecarousel:compileReleaseRenderscript NO-SOURCE
@@ -104,62 +99,68 @@
 > Task :whynotimagecarousel:packageReleaseResources
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :whynotimagecarousel:extractDeepLinksRelease
-> Task :sample:mergeReleaseResources
+> Task :whynotimagecarousel:generateReleaseBuildConfig
+> Task :sample:mergeProjectDexDebug
 > Task :whynotimagecarousel:processReleaseManifest
 > Task :sample:processReleaseManifest
-> Task :whynotimagecarousel:compileReleaseLibraryResources
-> Task :whynotimagecarousel:generateReleaseBuildConfig
 > Task :whynotimagecarousel:parseReleaseLocalResources
-> Task :sample:prepareLintJar
-> Task :sample:mergeReleaseShaders
-> Task :sample:compileReleaseShaders
-> Task :sample:generateReleaseAssets
-> Task :whynotimagecarousel:mergeReleaseShaders
-> Task :whynotimagecarousel:compileReleaseShaders
-> Task :whynotimagecarousel:generateReleaseAssets
-> Task :whynotimagecarousel:packageReleaseAssets
-> Task :sample:mergeReleaseAssets
-> Task :whynotimagecarousel:prepareLintJarForPublish
+> Task :sample:javaPreCompileRelease
+> Task :whynotimagecarousel:mergeDebugNativeLibs
+> Task :whynotimagecarousel:stripDebugDebugSymbols NO-SOURCE
+> Task :whynotimagecarousel:copyDebugJniLibsProjectOnly
+> Task :sample:mergeReleaseResources
+> Task :whynotimagecarousel:compileReleaseLibraryResources
 > Task :whynotimagecarousel:generateReleaseRFile
 > Task :sample:processReleaseResources
 > Task :whynotimagecarousel:compileReleaseKotlin
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
 > Task :whynotimagecarousel:javaPreCompileRelease
 > Task :whynotimagecarousel:compileReleaseJavaWithJavac
-> Task :whynotimagecarousel:mergeReleaseGeneratedProguardFiles
-> Task :whynotimagecarousel:bundleLibCompileRelease
+> Task :sample:mergeExtDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :whynotimagecarousel:bundleLibCompileToJarRelease
 > Task :sample:compileReleaseKotlin
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :sample:prepareLintJar
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
+> Task :whynotimagecarousel:mergeReleaseShaders
+> Task :whynotimagecarousel:compileReleaseShaders NO-SOURCE
+> Task :whynotimagecarousel:generateReleaseAssets UP-TO-DATE
+> Task :whynotimagecarousel:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :whynotimagecarousel:prepareLintJarForPublish
+> Task :sample:lintVitalRelease
+> Task :whynotimagecarousel:mergeReleaseGeneratedProguardFiles
 > Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeReleaseGeneratedProguardFiles
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :whynotimagecarousel:processReleaseJavaRes NO-SOURCE
+> Task :sample:collectReleaseDependencies
+> Task :sample:sdkReleaseDependencyData
 > Task :sample:mergeReleaseJniLibFolders
 > Task :whynotimagecarousel:mergeReleaseJniLibFolders
 > Task :whynotimagecarousel:bundleLibResRelease
-> Task :sample:javaPreCompileRelease
-> Task :sample:compileReleaseJavaWithJavac
-> Task :sample:compileReleaseSources
-> Task :sample:lintVitalRelease
-> Task :sample:mergeReleaseGeneratedProguardFiles
-> Task :whynotimagecarousel:exportReleaseConsumerProguardFiles
-> Task :sample:mergeReleaseJavaResource
+> Task :whynotimagecarousel:bundleLibRuntimeToJarRelease
 > Task :whynotimagecarousel:mergeReleaseNativeLibs
-> Task :whynotimagecarousel:stripReleaseDebugSymbols
+> Task :whynotimagecarousel:stripReleaseDebugSymbols NO-SOURCE
 > Task :whynotimagecarousel:copyReleaseJniLibsProjectOnly
-> Task :whynotimagecarousel:bundleLibRuntimeRelease
-> Task :sample:mergeExtDexDebug
-> Task :sample:minifyReleaseWithR8
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
+> Task :whynotimagecarousel:exportReleaseConsumerProguardFiles
 > Task :sample:mergeReleaseNativeLibs
-> Task :sample:stripReleaseDebugSymbols
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:minifyReleaseWithR8
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 1m 18s
-96 actionable tasks: 96 executed
+BUILD SUCCESSFUL in 1m 8s
+88 actionable tasks: 88 executed
 
-2020-04-16 00:24:32,121 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586971382300-0/src/Why-Not-Image-Carousel-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-07-06 01:55:02,184 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975221383-0/src/Why-Not-Image-Carousel-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

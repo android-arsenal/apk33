@@ -1,90 +1,99 @@
-2020-04-23 18:57:37,156 INFO  DownloadService - Downloading "https://github.com/flipkart-incubator/madman-android/archive/master.zip", attempt 3
-2020-04-23 18:57:38,512 INFO  VirusProcessorServiceImpl - Queued project 8034 to scan viruses
-2020-04-23 18:57:39,343 INFO  DownloadService - Downloaded https://github.com/flipkart-incubator/madman-android/archive/master.zip, attempt 3
-2020-04-23 18:57:39,343 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/master.zip": 2 MB
-2020-04-23 18:57:39,343 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-23 18:57:39,350 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/master.zip: true
-2020-04-23 18:57:39,350 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src'.
-2020-04-23 18:57:39,447 INFO  FullProcessService - Size of directory with sources: 4 MB
-2020-04-23 18:57:39,447 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src]
-2020-04-23 18:57:39,468 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/.git/
+2020-07-06 01:55:02,573 INFO  DownloadService - Downloading "https://github.com/flipkart-incubator/madman-android/archive/master.zip", attempt 3
+2020-07-06 01:55:06,265 INFO  DownloadService - Downloaded https://github.com/flipkart-incubator/madman-android/archive/master.zip, attempt 3
+2020-07-06 01:55:06,265 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/master.zip": 3 MB
+2020-07-06 01:55:06,266 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-06 01:55:06,271 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/master.zip: true
+2020-07-06 01:55:06,272 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src'.
+2020-07-06 01:55:06,371 INFO  FullProcessService - Size of directory with sources: 4 MB
+2020-07-06 01:55:06,371 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src]
+2020-07-06 01:55:06,392 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/.git/
 
-2020-04-23 18:57:39,477 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/gradlew
-2020-04-23 18:57:39,487 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman-exoplayer-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/build.gradle
-2020-04-23 18:57:39,497 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman-exoplayer-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/settings.gradle
-2020-04-23 18:57:39,497 INFO  ProjectBuildService - Remote scripts: none
-2020-04-23 18:57:39,497 INFO  ProjectFixService - Fixing project...
-2020-04-23 18:57:39,520 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/app/local.properties
-2020-04-23 18:57:39,520 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-04-23 18:57:39,521 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman-exoplayer-extension/local.properties
-2020-04-23 18:57:39,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman-exoplayer-extension/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-04-23 18:57:39,521 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman-okhttp/local.properties
-2020-04-23 18:57:39,522 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman-okhttp/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-04-23 18:57:39,522 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman/local.properties
-2020-04-23 18:57:39,523 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-04-23 18:57:39,523 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/local.properties
-2020-04-23 18:57:39,523 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-04-23 18:57:39,524 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-04-23 18:57:39,525 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-04-23 18:57:39,525 INFO  ProjectFixService - Project was maybe fixed
-2020-04-23 18:57:39,525 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:57:39,525 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:57:58,688 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-04-23 18:57:58,689 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-04-23 18:57:58,689 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-04-23 18:59:47,529 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-06 01:55:06,403 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/gradlew
+2020-07-06 01:55:06,414 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman-exoplayer-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman-okhttp-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/build.gradle
+2020-07-06 01:55:06,424 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman-exoplayer-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman-okhttp-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/settings.gradle
+2020-07-06 01:55:06,425 INFO  ProjectBuildService - Remote scripts: none
+2020-07-06 01:55:06,425 INFO  ProjectFixService - Fixing project...
+2020-07-06 01:55:06,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/app/local.properties
+2020-07-06 01:55:06,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-07-06 01:55:06,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman-exoplayer-extension/local.properties
+2020-07-06 01:55:06,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman-exoplayer-extension/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-07-06 01:55:06,452 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman-okhttp-extension/local.properties
+2020-07-06 01:55:06,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman-okhttp-extension/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-07-06 01:55:06,453 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman/local.properties
+2020-07-06 01:55:06,453 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-07-06 01:55:06,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/local.properties
+2020-07-06 01:55:06,454 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-07-06 01:55:06,455 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-07-06 01:55:06,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-07-06 01:55:06,456 INFO  ProjectFixService - Project was maybe fixed
+2020-07-06 01:55:06,456 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-06 01:55:06,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-06 01:55:13,627 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-07-06 01:55:13,627 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-06 01:55:13,627 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-06 01:55:13,796 INFO  VirusProcessorServiceImpl - Queued project 8053 to scan viruses
+2020-07-06 01:57:06,186 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :madman:preBuild UP-TO-DATE
 > Task :madman:preDebugBuild UP-TO-DATE
 > Task :madman-exoplayer-extension:preBuild UP-TO-DATE
 > Task :madman-exoplayer-extension:preDebugBuild UP-TO-DATE
-> Task :madman-okhttp:preBuild UP-TO-DATE
-> Task :madman-okhttp:preDebugBuild UP-TO-DATE
+> Task :madman-okhttp-extension:preBuild UP-TO-DATE
+> Task :madman-okhttp-extension:preDebugBuild UP-TO-DATE
 > Task :madman:packageDebugRenderscript NO-SOURCE
 > Task :madman-exoplayer-extension:packageDebugRenderscript NO-SOURCE
-> Task :madman-okhttp:packageDebugRenderscript NO-SOURCE
+> Task :madman-okhttp-extension:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :madman:compileDebugAidl NO-SOURCE
-> Task :madman-okhttp:compileDebugAidl NO-SOURCE
 > Task :madman-exoplayer-extension:compileDebugAidl NO-SOURCE
+> Task :madman-okhttp-extension:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :madman:generateDebugResValues
 > Task :madman:compileDebugRenderscript NO-SOURCE
+> Task :madman:generateDebugResValues
 > Task :madman:generateDebugResources
 > Task :madman:packageDebugResources
 > Task :madman-exoplayer-extension:generateDebugResValues
 > Task :madman-exoplayer-extension:compileDebugRenderscript NO-SOURCE
 > Task :madman-exoplayer-extension:generateDebugResources
 > Task :madman-exoplayer-extension:packageDebugResources
-> Task :madman-okhttp:generateDebugResValues
-> Task :madman-okhttp:compileDebugRenderscript NO-SOURCE
-> Task :madman-okhttp:generateDebugResources
-> Task :madman-okhttp:packageDebugResources
+> Task :madman-okhttp-extension:generateDebugResValues
+> Task :madman-okhttp-extension:compileDebugRenderscript NO-SOURCE
+> Task :madman-okhttp-extension:generateDebugResources
+> Task :madman-okhttp-extension:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :madman:extractDeepLinksDebug
 > Task :madman-exoplayer-extension:extractDeepLinksDebug
-> Task :madman-okhttp:extractDeepLinksDebug
-> Task :madman-exoplayer-extension:processDebugManifest
-> Task :madman:processDebugManifest
-> Task :madman-okhttp:processDebugManifest
-> Task :app:processDebugManifest
-> Task :madman-exoplayer-extension:compileDebugLibraryResources
-> Task :app:mergeDebugResources
-> Task :madman:parseDebugLocalResources
+> Task :madman-okhttp-extension:extractDeepLinksDebug
 > Task :madman:compileDebugLibraryResources
+> Task :madman:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :madman-exoplayer-extension:compileDebugLibraryResources
+> Task :madman:parseDebugLocalResources
+> Task :madman-okhttp-extension:compileDebugLibraryResources
+> Task :madman-exoplayer-extension:processDebugManifest
 > Task :madman-exoplayer-extension:parseDebugLocalResources
-> Task :madman-okhttp:compileDebugLibraryResources
-> Task :madman:generateDebugBuildConfig
-> Task :madman-okhttp:parseDebugLocalResources
-> Task :madman-exoplayer-extension:generateDebugBuildConfig
-> Task :madman-okhttp:generateDebugBuildConfig
+> Task :madman-okhttp-extension:processDebugManifest
+> Task :app:processDebugManifest
+> Task :madman-okhttp-extension:parseDebugLocalResources
 > Task :madman:generateDebugRFile
+> Task :madman:generateDebugBuildConfig
+> Task :madman-exoplayer-extension:generateDebugBuildConfig
+> Task :madman-okhttp-extension:generateDebugBuildConfig
+> Task :madman-exoplayer-extension:generateDebugRFile
+> Task :madman-okhttp-extension:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :madman:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman/src/main/java/com/flipkart/madman/Madman.kt: (66, 5): Parameter 'context' is never used
+
+> Task :madman:javaPreCompileDebug
+> Task :madman:compileDebugJavaWithJavac
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -96,73 +105,69 @@
 > Task :madman-exoplayer-extension:compileDebugShaders
 > Task :madman-exoplayer-extension:generateDebugAssets
 > Task :madman-exoplayer-extension:packageDebugAssets
-> Task :madman-okhttp:mergeDebugShaders
-> Task :madman-okhttp:compileDebugShaders
-> Task :madman-okhttp:generateDebugAssets
-> Task :madman-okhttp:packageDebugAssets
+> Task :madman-okhttp-extension:mergeDebugShaders
+> Task :madman-okhttp-extension:compileDebugShaders
+> Task :madman-okhttp-extension:generateDebugAssets
+> Task :madman-okhttp-extension:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :madman-exoplayer-extension:generateDebugRFile
-> Task :madman-okhttp:generateDebugRFile
-> Task :app:processDebugResources
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :madman:processDebugJavaRes NO-SOURCE
-> Task :madman-exoplayer-extension:processDebugJavaRes NO-SOURCE
-> Task :madman-okhttp:processDebugJavaRes NO-SOURCE
-
-> Task :madman:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman/src/main/java/com/flipkart/madman/Madman.kt: (48, 5): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman/src/main/java/com/flipkart/madman/component/enums/VastErrors.kt: (45, 9): 'when' expression on enum is recommended to be exhaustive, add 'AD_REQUEST_MALFORMED', 'AD_REQUEST_NETWORK_FAILURE', 'EMPTY_VMAP_RESPONSE', 'EMPTY_VAST_RESPONSE', 'INVALID_CUE_POINTS', 'INTERNAL_ERROR' branches or 'else' branch instead
-
-> Task :madman:javaPreCompileDebug
-> Task :madman:compileDebugJavaWithJavac
-> Task :madman:bundleLibResDebug
 > Task :madman:bundleLibCompileDebug
 
 > Task :madman-exoplayer-extension:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman-exoplayer-extension/src/main/java/com/flipkart/madman/exo/extension/MadmanAdLoader.kt: (698, 21): Variable 'midpointTimeUs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman-exoplayer-extension/src/main/java/com/flipkart/madman/exo/extension/MadmanAdLoader.kt: (807, 21): Variable 'midpointTimeUs' is never used
 
-> Task :madman-okhttp:compileDebugKotlin
-> Task :madman-okhttp:javaPreCompileDebug
-> Task :madman-okhttp:compileDebugJavaWithJavac
+> Task :madman-okhttp-extension:compileDebugKotlin
 > Task :madman-exoplayer-extension:javaPreCompileDebug
 > Task :madman-exoplayer-extension:compileDebugJavaWithJavac
-> Task :madman-okhttp:bundleLibResDebug
+> Task :madman-okhttp-extension:javaPreCompileDebug
+> Task :madman-okhttp-extension:compileDebugJavaWithJavac
 > Task :madman-exoplayer-extension:bundleLibCompileDebug
-> Task :madman-okhttp:bundleLibCompileDebug
+> Task :madman-okhttp-extension:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-> Task :madman-exoplayer-extension:bundleLibResDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :madman-okhttp:bundleLibRuntimeDebug
-> Task :madman-exoplayer-extension:bundleLibRuntimeDebug
-> Task :madman:bundleLibRuntimeDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:dexBuilderDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :madman:processDebugJavaRes NO-SOURCE
+> Task :madman-exoplayer-extension:processDebugJavaRes NO-SOURCE
+> Task :madman-okhttp-extension:processDebugJavaRes NO-SOURCE
+> Task :madman-exoplayer-extension:bundleLibResDebug
+> Task :madman:bundleLibResDebug
+> Task :madman-okhttp-extension:bundleLibResDebug
 > Task :app:mergeDebugJavaResource
+> Task :madman-exoplayer-extension:bundleLibRuntimeDebug
+> Task :madman-okhttp-extension:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:desugarDebugFileDependencies
+> Task :madman:jacocoDebug
+> Task :madman:bundleLibRuntimeDebug
+> Task :app:dexBuilderDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :madman:mergeDebugJniLibFolders
-> Task :madman-exoplayer-extension:mergeDebugJniLibFolders
 > Task :madman:mergeDebugNativeLibs
 > Task :madman:stripDebugDebugSymbols
 > Task :madman:copyDebugJniLibsProjectOnly
-> Task :madman-okhttp:mergeDebugJniLibFolders
+> Task :madman-exoplayer-extension:mergeDebugJniLibFolders
 > Task :madman-exoplayer-extension:mergeDebugNativeLibs
 > Task :madman-exoplayer-extension:stripDebugDebugSymbols
 > Task :madman-exoplayer-extension:copyDebugJniLibsProjectOnly
+> Task :madman-okhttp-extension:mergeDebugJniLibFolders
+> Task :madman-okhttp-extension:mergeDebugNativeLibs
+> Task :madman-okhttp-extension:stripDebugDebugSymbols
+> Task :madman-okhttp-extension:copyDebugJniLibsProjectOnly
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :madman:preReleaseBuild UP-TO-DATE
 > Task :madman:compileReleaseAidl NO-SOURCE
 > Task :madman-exoplayer-extension:preReleaseBuild UP-TO-DATE
 > Task :madman-exoplayer-extension:compileReleaseAidl NO-SOURCE
-> Task :madman-okhttp:preReleaseBuild UP-TO-DATE
-> Task :madman-okhttp:compileReleaseAidl NO-SOURCE
+> Task :madman-okhttp-extension:preReleaseBuild UP-TO-DATE
+> Task :madman-okhttp-extension:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :madman:packageReleaseRenderscript NO-SOURCE
 > Task :madman-exoplayer-extension:packageReleaseRenderscript NO-SOURCE
-> Task :madman-okhttp:packageReleaseRenderscript NO-SOURCE
+> Task :madman-okhttp-extension:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
@@ -176,76 +181,70 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/
 > Task :madman-exoplayer-extension:generateReleaseResValues
 > Task :madman-exoplayer-extension:generateReleaseResources
 > Task :madman-exoplayer-extension:packageReleaseResources
-> Task :madman-okhttp:compileReleaseRenderscript NO-SOURCE
-> Task :madman-okhttp:generateReleaseResValues
-> Task :madman-okhttp:generateReleaseResources
-> Task :madman-okhttp:packageReleaseResources
-> Task :madman-okhttp:mergeDebugNativeLibs
-> Task :madman-okhttp:stripDebugDebugSymbols
-> Task :madman-okhttp:copyDebugJniLibsProjectOnly
-> Task :app:mergeReleaseResources
+> Task :madman-okhttp-extension:compileReleaseRenderscript NO-SOURCE
+> Task :madman-okhttp-extension:generateReleaseResValues
+> Task :madman-okhttp-extension:generateReleaseResources
+> Task :madman-okhttp-extension:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :madman:extractDeepLinksRelease
-> Task :madman:processReleaseManifest
 > Task :madman-exoplayer-extension:extractDeepLinksRelease
+> Task :madman:processReleaseManifest
+> Task :madman-okhttp-extension:extractDeepLinksRelease
+> Task :madman-okhttp-extension:processReleaseManifest
+> Task :madman-exoplayer-extension:compileReleaseLibraryResources
 > Task :madman-exoplayer-extension:processReleaseManifest
-> Task :madman-okhttp:extractDeepLinksRelease
-> Task :madman-okhttp:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :madman:compileReleaseLibraryResources
-> Task :madman:parseReleaseLocalResources
-> Task :madman:generateReleaseRFile
-> Task :madman-exoplayer-extension:compileReleaseLibraryResources
-> Task :madman-exoplayer-extension:parseReleaseLocalResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :madman-exoplayer-extension:generateReleaseRFile
-> Task :madman-okhttp:compileReleaseLibraryResources
+> Task :madman-okhttp-extension:compileReleaseLibraryResources
 > Task :madman:generateReleaseBuildConfig
+> Task :madman-exoplayer-extension:generateReleaseBuildConfig
+> Task :madman:parseReleaseLocalResources
+> Task :madman-okhttp-extension:parseReleaseLocalResources
+> Task :madman-okhttp-extension:generateReleaseBuildConfig
+> Task :madman-exoplayer-extension:parseReleaseLocalResources
+> Task :app:mergeReleaseResources
+> Task :madman:generateReleaseRFile
 
 > Task :madman:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman/src/main/java/com/flipkart/madman/Madman.kt: (48, 5): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman/src/main/java/com/flipkart/madman/component/enums/VastErrors.kt: (45, 9): 'when' expression on enum is recommended to be exhaustive, add 'AD_REQUEST_MALFORMED', 'AD_REQUEST_NETWORK_FAILURE', 'EMPTY_VMAP_RESPONSE', 'EMPTY_VAST_RESPONSE', 'INVALID_CUE_POINTS', 'INTERNAL_ERROR' branches or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman/src/main/java/com/flipkart/madman/Madman.kt: (66, 5): Parameter 'context' is never used
 
-> Task :madman-okhttp:parseReleaseLocalResources
-> Task :madman-exoplayer-extension:generateReleaseBuildConfig
-> Task :madman-okhttp:generateReleaseBuildConfig
+> Task :madman-exoplayer-extension:generateReleaseRFile
+> Task :madman-okhttp-extension:generateReleaseRFile
+> Task :app:processReleaseResources
 > Task :madman:javaPreCompileRelease
 > Task :madman:compileReleaseJavaWithJavac
-> Task :madman-okhttp:generateReleaseRFile
-> Task :app:processReleaseResources
+> Task :app:multiDexListDebug
+> Task :app:prepareLintJar
+> Task :madman-exoplayer-extension:prepareLintJarForPublish
+> Task :madman-okhttp-extension:prepareLintJarForPublish
+> Task :madman:prepareLintJarForPublish
 > Task :madman:bundleLibCompileRelease
 
 > Task :madman-exoplayer-extension:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/madman-exoplayer-extension/src/main/java/com/flipkart/madman/exo/extension/MadmanAdLoader.kt: (698, 21): Variable 'midpointTimeUs' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/madman-exoplayer-extension/src/main/java/com/flipkart/madman/exo/extension/MadmanAdLoader.kt: (807, 21): Variable 'midpointTimeUs' is never used
 
-> Task :madman-okhttp:compileReleaseKotlin
+> Task :madman-okhttp-extension:compileReleaseKotlin
 > Task :madman-exoplayer-extension:javaPreCompileRelease
 > Task :madman-exoplayer-extension:compileReleaseJavaWithJavac
-> Task :app:mergeExtDexDebug
+> Task :madman-okhttp-extension:javaPreCompileRelease
+> Task :madman-okhttp-extension:compileReleaseJavaWithJavac
 > Task :madman-exoplayer-extension:bundleLibCompileRelease
-> Task :madman-okhttp:javaPreCompileRelease
-> Task :madman-okhttp:compileReleaseJavaWithJavac
-> Task :madman-okhttp:bundleLibCompileRelease
+> Task :madman-okhttp-extension:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :app:prepareLintJar
-> Task :madman:prepareLintJarForPublish
-> Task :madman-exoplayer-extension:bundleLibRuntimeRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :madman:bundleLibRuntimeRelease
-> Task :madman-okhttp:bundleLibRuntimeRelease
-> Task :app:dexBuilderRelease
-> Task :madman-okhttp:prepareLintJarForPublish
-> Task :madman-exoplayer-extension:prepareLintJarForPublish
 > Task :app:lintVitalRelease
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
+> Task :madman:bundleLibRuntimeRelease
+> Task :madman-exoplayer-extension:bundleLibRuntimeRelease
+> Task :madman-okhttp-extension:bundleLibRuntimeRelease
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:desugarReleaseFileDependencies
+> Task :app:dexBuilderRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -257,35 +256,35 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/
 > Task :madman-exoplayer-extension:compileReleaseShaders
 > Task :madman-exoplayer-extension:generateReleaseAssets
 > Task :madman-exoplayer-extension:packageReleaseAssets
-> Task :madman-okhttp:mergeReleaseShaders
-> Task :madman-okhttp:compileReleaseShaders
-> Task :madman-okhttp:generateReleaseAssets
-> Task :madman-okhttp:packageReleaseAssets
+> Task :madman-okhttp-extension:mergeReleaseShaders
+> Task :madman-okhttp-extension:compileReleaseShaders
+> Task :madman-okhttp-extension:generateReleaseAssets
+> Task :madman-okhttp-extension:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :madman:processReleaseJavaRes NO-SOURCE
 > Task :madman-exoplayer-extension:processReleaseJavaRes NO-SOURCE
-> Task :madman-okhttp:processReleaseJavaRes NO-SOURCE
 > Task :madman:bundleLibResRelease
+> Task :madman-okhttp-extension:processReleaseJavaRes NO-SOURCE
+> Task :madman-exoplayer-extension:bundleLibResRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :madman:mergeReleaseJniLibFolders
-> Task :madman-exoplayer-extension:bundleLibResRelease
-> Task :madman-exoplayer-extension:mergeReleaseJniLibFolders
+> Task :madman-okhttp-extension:bundleLibResRelease
 > Task :madman:mergeReleaseNativeLibs
 > Task :madman:stripReleaseDebugSymbols
 > Task :madman:copyReleaseJniLibsProjectOnly
-> Task :madman-okhttp:mergeReleaseJniLibFolders
+> Task :madman-exoplayer-extension:mergeReleaseJniLibFolders
 > Task :madman-exoplayer-extension:mergeReleaseNativeLibs
 > Task :madman-exoplayer-extension:stripReleaseDebugSymbols
 > Task :madman-exoplayer-extension:copyReleaseJniLibsProjectOnly
-> Task :madman-okhttp:mergeReleaseNativeLibs
-> Task :madman-okhttp:stripReleaseDebugSymbols
-> Task :madman-okhttp:copyReleaseJniLibsProjectOnly
-> Task :madman-okhttp:bundleLibResRelease
+> Task :madman-okhttp-extension:mergeReleaseJniLibFolders
+> Task :madman-okhttp-extension:mergeReleaseNativeLibs
+> Task :madman-okhttp-extension:stripReleaseDebugSymbols
+> Task :madman-okhttp-extension:copyReleaseJniLibsProjectOnly
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexRelease
+> Task :app:multiDexListRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
@@ -296,7 +295,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 48s
-180 actionable tasks: 180 executed
+BUILD SUCCESSFUL in 1m 51s
+181 actionable tasks: 181 executed
 
-2020-04-23 18:59:47,656 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643057152-0/src/madman-android-master/app/build/outputs/apk/debug/app-debug.apk
+2020-07-06 01:57:06,300 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975302565-0/src/madman-android-master/app/build/outputs/apk/debug/app-debug.apk
