@@ -1,34 +1,34 @@
-2020-04-23 18:43:44,710 INFO  DownloadService - Downloading "https://github.com/gusakovgiorgi/PulseCountDownView/archive/master.zip", attempt 3
-2020-04-23 18:43:47,640 INFO  DownloadService - Downloaded https://github.com/gusakovgiorgi/PulseCountDownView/archive/master.zip, attempt 3
-2020-04-23 18:43:47,641 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/master.zip": 367 KB
-2020-04-23 18:43:47,641 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-23 18:43:47,641 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/master.zip: true
-2020-04-23 18:43:47,642 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src'.
-2020-04-23 18:43:47,688 INFO  FullProcessService - Size of directory with sources: 397 KB
-2020-04-23 18:43:47,688 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src]
-2020-04-23 18:43:47,747 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/.git/
+2020-07-29 18:39:30,937 INFO  DownloadService - Downloading "https://github.com/gusakovgiorgi/PulseCountDownView/archive/master.zip", attempt 3
+2020-07-29 18:39:34,291 INFO  DownloadService - Downloaded https://github.com/gusakovgiorgi/PulseCountDownView/archive/master.zip, attempt 3
+2020-07-29 18:39:34,291 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/master.zip": 369 KB
+2020-07-29 18:39:34,291 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-29 18:39:34,292 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/master.zip: true
+2020-07-29 18:39:34,292 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src'.
+2020-07-29 18:39:34,326 INFO  FullProcessService - Size of directory with sources: 399 KB
+2020-07-29 18:39:34,326 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src]
+2020-07-29 18:39:34,382 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/.git/
 
-2020-04-23 18:43:47,754 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/gradlew
-2020-04-23 18:43:47,762 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/build.gradle
-2020-04-23 18:43:47,770 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/settings.gradle
-2020-04-23 18:43:47,771 INFO  ProjectBuildService - Remote scripts: none
-2020-04-23 18:43:47,771 INFO  ProjectFixService - Fixing project...
-2020-04-23 18:43:47,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/library/local.properties
-2020-04-23 18:43:47,791 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
-2020-04-23 18:43:47,792 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/sample/local.properties
-2020-04-23 18:43:47,794 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
-2020-04-23 18:43:47,795 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/local.properties
-2020-04-23 18:43:47,796 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-04-23 18:43:47,797 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-04-23 18:43:47,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
-2020-04-23 18:43:47,799 INFO  ProjectFixService - Project was maybe fixed
-2020-04-23 18:43:47,800 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:43:47,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:43:58,448 INFO  VirusProcessorServiceImpl - Queued project 8107 to scan viruses
-2020-04-23 18:44:19,156 INFO  ProjectTaskService - Detected possible tasks: 80
-2020-04-23 18:44:19,157 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-04-23 18:44:19,157 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-04-23 18:45:18,827 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 18:39:34,388 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/gradlew
+2020-07-29 18:39:34,393 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/build.gradle
+2020-07-29 18:39:34,397 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/settings.gradle
+2020-07-29 18:39:34,397 INFO  ProjectBuildService - Remote scripts: none
+2020-07-29 18:39:34,398 INFO  ProjectFixService - Fixing project...
+2020-07-29 18:39:34,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/library/local.properties
+2020-07-29 18:39:34,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
+2020-07-29 18:39:34,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/sample/local.properties
+2020-07-29 18:39:34,413 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
+2020-07-29 18:39:34,414 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/local.properties
+2020-07-29 18:39:34,414 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-07-29 18:39:34,415 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-07-29 18:39:34,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=22,targetSdkVersion=29]
+2020-07-29 18:39:34,417 INFO  ProjectFixService - Project was maybe fixed
+2020-07-29 18:39:34,417 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 18:39:34,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 18:39:45,494 INFO  ProjectTaskService - Detected possible tasks: 80
+2020-07-29 18:39:45,495 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-07-29 18:39:45,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-07-29 18:39:46,910 INFO  VirusProcessorServiceImpl - Queued project 8111 to scan viruses
+2020-07-29 18:40:05,924 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -56,20 +56,20 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:mergeReleaseJniLibFolders
-> Task :library:prepareLintJarForPublish
 > Task :library:generateReleaseBuildConfig
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols
+> Task :library:copyReleaseJniLibsProjectAndLocalJars
 > Task :library:generateReleaseResValues
 > Task :library:mergeReleaseShaders
 > Task :library:compileReleaseShaders
 > Task :library:generateReleaseAssets
 > Task :library:packageReleaseAssets
-> Task :library:processDebugManifest
-> Task :library:processReleaseManifest
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:mergeReleaseNativeLibs
-> Task :library:stripReleaseDebugSymbols
-> Task :library:copyReleaseJniLibsProjectAndLocalJars
+> Task :library:prepareLintJarForPublish
+> Task :library:processReleaseManifest
+> Task :library:processDebugManifest
 > Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :library:generateDebugResources
@@ -78,13 +78,24 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
+> Task :library:mergeReleaseResources
 > Task :library:parseDebugLocalResources
 > Task :library:parseReleaseLocalResources
 > Task :library:generateReleaseRFile
 > Task :library:compileReleaseKotlin
+> Task :library:verifyReleaseResources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseGeneratedProguardFiles
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:compileReleaseSources
+> Task :library:mergeReleaseJavaResource
+> Task :library:syncReleaseLibJars
+> Task :library:bundleReleaseAar
+> Task :library:assembleRelease
 > Task :library:generateDebugRFile
 > Task :library:compileDebugKotlin
-> Task :library:mergeReleaseJavaResource
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
 > Task :library:extractDebugAnnotations
@@ -95,29 +106,18 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:syncDebugLibJars
 > Task :library:bundleDebugAar
 > Task :library:assembleDebug
-> Task :library:javaPreCompileRelease
-> Task :library:compileReleaseJavaWithJavac
-> Task :library:extractReleaseAnnotations
-> Task :library:mergeReleaseGeneratedProguardFiles
-> Task :library:mergeReleaseConsumerProguardFiles
-> Task :library:syncReleaseLibJars
-> Task :library:bundleReleaseAar
-> Task :library:compileReleaseSources
-> Task :library:mergeReleaseResources
-> Task :library:verifyReleaseResources
-> Task :library:assembleRelease
 > Task :library:assemble
 > Task :library:build
 
-BUILD SUCCESSFUL in 59s
+BUILD SUCCESSFUL in 19s
 47 actionable tasks: 47 executed
 
-2020-04-23 18:45:18,954 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:45:18,955 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:45:35,498 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-04-23 18:45:35,498 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-04-23 18:45:35,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-04-23 18:46:21,285 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 18:40:05,979 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 18:40:05,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 18:40:12,258 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-07-29 18:40:12,258 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-29 18:40:12,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-29 18:41:07,553 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -147,23 +147,17 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:mainApkListPersistenceDebug
-> Task :library:compileDebugLibraryResources
 > Task :library:bundleLibCompileDebug
+> Task :library:compileDebugLibraryResources
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
 > Task :library:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
-> Task :sample:mergeDebugResources
-> Task :sample:processDebugResources
-> Task :sample:compileDebugKotlin
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
 > Task :library:mergeDebugShaders UP-TO-DATE
 > Task :library:compileDebugShaders UP-TO-DATE
 > Task :library:generateDebugAssets UP-TO-DATE
@@ -175,11 +169,18 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :library:bundleLibResDebug
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
 > Task :sample:mergeDebugJavaResource
-> Task :library:bundleLibRuntimeDebug
+> Task :sample:compileDebugSources
 > Task :sample:checkDebugDuplicateClasses
-> Task :sample:mergeLibDexDebug
+> Task :sample:desugarDebugFileDependencies
+> Task :library:bundleLibRuntimeDebug
 > Task :sample:dexBuilderDebug
+> Task :sample:mergeLibDexDebug
 > Task :library:mergeDebugJniLibFolders UP-TO-DATE
 > Task :library:mergeDebugNativeLibs UP-TO-DATE
 > Task :library:stripDebugDebugSymbols UP-TO-DATE
@@ -199,7 +200,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:compileReleaseKotlin UP-TO-DATE
 > Task :library:javaPreCompileRelease UP-TO-DATE
 > Task :library:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :sample:mergeProjectDexDebug
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
@@ -209,16 +209,17 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :library:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
-> Task :sample:mergeReleaseResources
 > Task :library:compileReleaseLibraryResources
+> Task :sample:mergeProjectDexDebug
+> Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseKotlin
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
@@ -226,8 +227,12 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:prepareLintJar
 > Task :sample:lintVitalRelease
 > Task :sample:checkReleaseDuplicateClasses
-> Task :sample:dexBuilderRelease
 > Task :library:bundleLibRuntimeRelease
+> Task :sample:dexBuilderRelease
+> Task :sample:mergeExtDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:desugarReleaseFileDependencies
 > Task :library:mergeReleaseShaders UP-TO-DATE
 > Task :library:compileReleaseShaders UP-TO-DATE
 > Task :library:generateReleaseAssets UP-TO-DATE
@@ -237,18 +242,15 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:bundleLibResRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :library:mergeReleaseNativeLibs UP-TO-DATE
 > Task :library:stripReleaseDebugSymbols UP-TO-DATE
 > Task :library:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseJniLibFolders
+> Task :library:bundleLibResRelease
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeExtDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
@@ -257,7 +259,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 44s
-93 actionable tasks: 62 executed, 31 up-to-date
+BUILD SUCCESSFUL in 54s
+95 actionable tasks: 64 executed, 31 up-to-date
 
-2020-04-23 18:46:21,379 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642224704-0/src/PulseCountDownView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-07-29 18:41:07,649 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022770934-0/src/PulseCountDownView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

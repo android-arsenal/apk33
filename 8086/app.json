@@ -29,8 +29,8 @@
     "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_WIFI_STATE" ],
     "usesFeatures" : [ ],
     "permissions" : [ ],
-    "featureSplit" : false,
-    "splitRequired" : false
+    "splitRequired" : false,
+    "featureSplit" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -41,8 +41,8 @@
   "dexClasses" : 1656,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"org.richit.easiestsqlandroidapp\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"29\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"EasiestSQLAndroidApp\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"org.richit.easiestsqlandroidapp.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"com.amitshekhar.debug.DebugDBInitProvider\" android:enabled=\"true\" android:exported=\"false\" android:authorities=\"org.richit.easiestsqlandroidapp.DebugDBInitProvider\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 1865124,
-  "crc32" : 242403547,
-  "sha256" : "f241da784e28eca76779d9d9a2876718d7252619a2d4780dab44e581dac0f250",
-  "buildTime" : 1589206035000
+  "fileSize" : 1865514,
+  "crc32" : 611026485,
+  "sha256" : "83b3a71063bfce19dc946280df58641ad799b8a36a8aa388af4a2da9a29a6cf0",
+  "buildTime" : 1596022993000
 }

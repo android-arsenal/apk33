@@ -1,34 +1,34 @@
-2020-05-11 21:05:16,362 INFO  DownloadService - Downloading "https://github.com/noowenz/CustomDateTimePicker/archive/master.zip", attempt 3
-2020-05-11 21:05:18,363 INFO  DownloadService - Downloaded https://github.com/noowenz/CustomDateTimePicker/archive/master.zip, attempt 3
-2020-05-11 21:05:18,363 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/master.zip": 685 KB
-2020-05-11 21:05:18,363 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-05-11 21:05:18,364 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/master.zip: true
-2020-05-11 21:05:18,364 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src'.
-2020-05-11 21:05:18,393 INFO  FullProcessService - Size of directory with sources: 776 KB
-2020-05-11 21:05:18,394 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src]
-2020-05-11 21:05:18,429 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/.git/
+2020-07-29 18:41:08,282 INFO  DownloadService - Downloading "https://github.com/noowenz/CustomDateTimePicker/archive/master.zip", attempt 3
+2020-07-29 18:41:10,917 INFO  DownloadService - Downloaded https://github.com/noowenz/CustomDateTimePicker/archive/master.zip, attempt 3
+2020-07-29 18:41:10,917 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/master.zip": 685 KB
+2020-07-29 18:41:10,917 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-29 18:41:10,918 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/master.zip: true
+2020-07-29 18:41:10,918 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src'.
+2020-07-29 18:41:10,943 INFO  FullProcessService - Size of directory with sources: 776 KB
+2020-07-29 18:41:10,943 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src]
+2020-07-29 18:41:10,983 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/.git/
 
-2020-05-11 21:05:18,434 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/gradlew
-2020-05-11 21:05:18,439 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/build.gradle
-2020-05-11 21:05:18,444 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build.gradle
-2020-05-11 21:05:18,445 INFO  ProjectBuildService - Remote scripts: none
-2020-05-11 21:05:18,445 INFO  ProjectFixService - Fixing project...
-2020-05-11 21:05:18,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/local.properties
-2020-05-11 21:05:18,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-05-11 21:05:18,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/local.properties
-2020-05-11 21:05:18,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-05-11 21:05:18,467 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/local.properties
-2020-05-11 21:05:18,469 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-05-11 21:05:18,470 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-05-11 21:05:18,471 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-05-11 21:05:18,472 INFO  ProjectFixService - Project was maybe fixed
-2020-05-11 21:05:18,472 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-11 21:05:18,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-11 21:05:23,929 INFO  VirusProcessorServiceImpl - Queued project 8088 to scan viruses
-2020-05-11 21:05:27,046 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-05-11 21:05:27,046 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-05-11 21:05:27,046 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-05-11 21:05:47,886 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 18:41:10,987 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/gradlew
+2020-07-29 18:41:10,990 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/build.gradle
+2020-07-29 18:41:10,994 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build.gradle
+2020-07-29 18:41:10,994 INFO  ProjectBuildService - Remote scripts: none
+2020-07-29 18:41:10,994 INFO  ProjectFixService - Fixing project...
+2020-07-29 18:41:11,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/local.properties
+2020-07-29 18:41:11,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 18:41:11,006 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/local.properties
+2020-07-29 18:41:11,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 18:41:11,007 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/local.properties
+2020-07-29 18:41:11,008 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-07-29 18:41:11,008 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-07-29 18:41:11,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 18:41:11,010 INFO  ProjectFixService - Project was maybe fixed
+2020-07-29 18:41:11,010 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 18:41:11,010 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 18:41:17,126 INFO  VirusProcessorServiceImpl - Queued project 8106 to scan viruses
+2020-07-29 18:41:17,398 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-07-29 18:41:17,398 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-07-29 18:41:17,399 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-07-29 18:41:37,909 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :customdatetimepicker:preBuild UP-TO-DATE
 > Task :customdatetimepicker:preDebugBuild UP-TO-DATE
 > Task :customdatetimepicker:mergeDebugJniLibFolders
@@ -45,55 +45,44 @@
 > Task :customdatetimepicker:processDebugJavaRes NO-SOURCE
 > Task :customdatetimepicker:preReleaseBuild UP-TO-DATE
 > Task :customdatetimepicker:mergeReleaseJniLibFolders
-> Task :customdatetimepicker:processDebugManifest
+> Task :customdatetimepicker:prepareLintJarForPublish
 > Task :customdatetimepicker:generateReleaseBuildConfig
 > Task :customdatetimepicker:generateReleaseResValues
-> Task :customdatetimepicker:mergeReleaseNativeLibs
-> Task :customdatetimepicker:compileDebugAidl NO-SOURCE
-> Task :customdatetimepicker:compileDebugRenderscript NO-SOURCE
-> Task :customdatetimepicker:generateDebugResources
-> Task :customdatetimepicker:packageDebugResources
-> Task :customdatetimepicker:processReleaseManifest
-> Task :customdatetimepicker:compileReleaseAidl NO-SOURCE
-> Task :customdatetimepicker:stripReleaseDebugSymbols
-> Task :customdatetimepicker:copyReleaseJniLibsProjectAndLocalJars
-> Task :customdatetimepicker:compileReleaseRenderscript NO-SOURCE
-> Task :customdatetimepicker:generateReleaseResources
-> Task :customdatetimepicker:packageReleaseResources
-> Task :customdatetimepicker:parseDebugLocalResources
+> Task :customdatetimepicker:processDebugManifest
 > Task :customdatetimepicker:mergeReleaseShaders
 > Task :customdatetimepicker:compileReleaseShaders
 > Task :customdatetimepicker:generateReleaseAssets
 > Task :customdatetimepicker:packageReleaseAssets
 > Task :customdatetimepicker:packageReleaseRenderscript NO-SOURCE
 > Task :customdatetimepicker:processReleaseJavaRes NO-SOURCE
+> Task :customdatetimepicker:processReleaseManifest
+> Task :customdatetimepicker:mergeReleaseNativeLibs
+> Task :customdatetimepicker:stripReleaseDebugSymbols
+> Task :customdatetimepicker:compileDebugAidl NO-SOURCE
+> Task :customdatetimepicker:compileDebugRenderscript NO-SOURCE
+> Task :customdatetimepicker:generateDebugResources
+> Task :customdatetimepicker:packageDebugResources
+> Task :customdatetimepicker:compileReleaseAidl NO-SOURCE
+> Task :customdatetimepicker:copyReleaseJniLibsProjectAndLocalJars
+> Task :customdatetimepicker:compileReleaseRenderscript NO-SOURCE
+> Task :customdatetimepicker:generateReleaseResources
+> Task :customdatetimepicker:packageReleaseResources
+> Task :customdatetimepicker:parseDebugLocalResources
 > Task :customdatetimepicker:parseReleaseLocalResources
-> Task :customdatetimepicker:prepareLintJarForPublish
-> Task :customdatetimepicker:generateDebugRFile
-
-> Task :customdatetimepicker:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 53): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 59): Parameter 'hourOfDay' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 70): Parameter 'minute' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (228, 13): 'setter for currentMinute: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (229, 13): 'setter for currentHour: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (372, 49): 'getter for currentHour: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (372, 75): 'getter for currentMinute: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (487, 33): Type mismatch: inferred type is Date? but Date was expected
-
+> Task :customdatetimepicker:mergeReleaseResources
 > Task :customdatetimepicker:generateReleaseRFile
 
 > Task :customdatetimepicker:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 53): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 59): Parameter 'hourOfDay' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 70): Parameter 'minute' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (228, 13): 'setter for currentMinute: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (229, 13): 'setter for currentHour: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (372, 49): 'getter for currentHour: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (372, 75): 'getter for currentMinute: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (487, 33): Type mismatch: inferred type is Date? but Date was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 53): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 59): Parameter 'hourOfDay' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 70): Parameter 'minute' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (233, 13): 'setter for currentMinute: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (234, 13): 'setter for currentHour: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (377, 49): 'getter for currentHour: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (377, 75): 'getter for currentMinute: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (496, 33): Type mismatch: inferred type is Date? but Date was expected
 
-> Task :customdatetimepicker:mergeDebugJavaResource
+> Task :customdatetimepicker:verifyReleaseResources
 > Task :customdatetimepicker:javaPreCompileRelease
 > Task :customdatetimepicker:compileReleaseJavaWithJavac
 > Task :customdatetimepicker:extractReleaseAnnotations
@@ -103,30 +92,41 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/
 > Task :customdatetimepicker:mergeReleaseJavaResource
 > Task :customdatetimepicker:syncReleaseLibJars
 > Task :customdatetimepicker:bundleReleaseAar
+> Task :customdatetimepicker:assembleRelease
+> Task :customdatetimepicker:generateDebugRFile
+
+> Task :customdatetimepicker:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 53): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 59): Parameter 'hourOfDay' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (111, 70): Parameter 'minute' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (233, 13): 'setter for currentMinute: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (234, 13): 'setter for currentHour: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (377, 49): 'getter for currentHour: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (377, 75): 'getter for currentMinute: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/src/main/java/com/noowenz/customdatetimepicker/CustomDateTimePicker.kt: (496, 33): Type mismatch: inferred type is Date? but Date was expected
+
 > Task :customdatetimepicker:javaPreCompileDebug
 > Task :customdatetimepicker:compileDebugJavaWithJavac
 > Task :customdatetimepicker:extractDebugAnnotations
 > Task :customdatetimepicker:mergeDebugGeneratedProguardFiles
 > Task :customdatetimepicker:mergeDebugConsumerProguardFiles
+> Task :customdatetimepicker:compileDebugSources
+> Task :customdatetimepicker:mergeDebugJavaResource
 > Task :customdatetimepicker:syncDebugLibJars
 > Task :customdatetimepicker:bundleDebugAar
-> Task :customdatetimepicker:compileDebugSources
 > Task :customdatetimepicker:assembleDebug
-> Task :customdatetimepicker:mergeReleaseResources
-> Task :customdatetimepicker:verifyReleaseResources
-> Task :customdatetimepicker:assembleRelease
 > Task :customdatetimepicker:assemble
 > Task :customdatetimepicker:build
 
-BUILD SUCCESSFUL in 20s
+BUILD SUCCESSFUL in 19s
 47 actionable tasks: 47 executed
 
-2020-05-11 21:05:47,939 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-11 21:05:47,939 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-11 21:05:54,375 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-05-11 21:05:54,375 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-05-11 21:05:54,375 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-05-11 21:06:42,780 ERROR SysUtils - Could not process external command
+2020-07-29 18:41:37,962 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 18:41:37,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 18:41:44,478 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-07-29 18:41:44,478 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-29 18:41:44,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-29 18:42:35,677 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -154,7 +154,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-05-11 21:06:42,780 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 18:42:35,678 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :customdatetimepicker:preBuild UP-TO-DATE
 > Task :customdatetimepicker:preDebugBuild UP-TO-DATE
 > Task :customdatetimepicker:compileDebugAidl NO-SOURCE
@@ -181,20 +181,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :sample:dataBindingExportBuildInfoDebug
 > Task :customdatetimepicker:bundleLibCompileDebug
 > Task :sample:dataBindingMergeDependencyArtifactsDebug
-> Task :sample:dataBindingMergeGenClassesDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
 > Task :sample:dataBindingExportFeaturePackageIdsDebug
+> Task :sample:dataBindingMergeGenClassesDebug
 > Task :sample:mainApkListPersistenceDebug
-> Task :sample:mergeDebugResources
-> Task :sample:dataBindingGenBaseClassesDebug
-> Task :customdatetimepicker:compileDebugLibraryResources
 > Task :customdatetimepicker:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
-> Task :sample:processDebugResources
-> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :customdatetimepicker:compileDebugLibraryResources
 > Task :customdatetimepicker:mergeDebugShaders UP-TO-DATE
 > Task :customdatetimepicker:compileDebugShaders UP-TO-DATE
 > Task :customdatetimepicker:generateDebugAssets UP-TO-DATE
@@ -203,17 +199,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :sample:mergeDebugResources
+> Task :sample:dataBindingGenBaseClassesDebug
+> Task :sample:processDebugResources
+> Task :sample:kaptGenerateStubsDebugKotlin
 > Task :customdatetimepicker:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :customdatetimepicker:bundleLibResDebug
-> Task :sample:kaptDebugKotlin
-> Task :sample:compileDebugKotlin
-> Task :customdatetimepicker:bundleLibRuntimeDebug
 > Task :sample:checkDebugDuplicateClasses
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
-> Task :sample:dexBuilderDebug
+> Task :customdatetimepicker:bundleLibRuntimeDebug
+> Task :sample:mergeLibDexDebug
 > Task :customdatetimepicker:mergeDebugJniLibFolders UP-TO-DATE
 > Task :customdatetimepicker:mergeDebugNativeLibs UP-TO-DATE
 > Task :customdatetimepicker:stripDebugDebugSymbols UP-TO-DATE
@@ -241,32 +236,34 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :sample:generateReleaseSources
 > Task :sample:dataBindingExportBuildInfoRelease
 > Task :customdatetimepicker:bundleLibCompileRelease
-> Task :sample:dataBindingMergeDependencyArtifactsRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
-> Task :sample:mergeLibDexDebug
-> Task :sample:dataBindingExportFeaturePackageIdsRelease
+> Task :sample:dataBindingMergeGenClassesRelease
+> Task :sample:kaptDebugKotlin
+> Task :sample:compileDebugKotlin
 > Task :sample:mainApkListPersistenceRelease
 > Task :customdatetimepicker:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
-> Task :sample:dataBindingMergeGenClassesRelease
-> Task :customdatetimepicker:compileReleaseLibraryResources
-> Task :sample:mergeDebugJavaResource
-> Task :sample:mergeProjectDexDebug
-> Task :customdatetimepicker:prepareLintJarForPublish UP-TO-DATE
-> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :sample:mergeReleaseResources
+> Task :sample:dexBuilderDebug
+> Task :sample:dataBindingMergeDependencyArtifactsRelease
 > Task :sample:dataBindingGenBaseClassesRelease
+> Task :sample:dataBindingExportFeaturePackageIdsRelease
+> Task :customdatetimepicker:compileReleaseLibraryResources
 > Task :sample:processReleaseResources
 > Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:mergeProjectDexDebug
+> Task :sample:mergeDebugJavaResource
+> Task :customdatetimepicker:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:checkReleaseDuplicateClasses
 > Task :customdatetimepicker:bundleLibRuntimeRelease
-> Task :sample:mergeExtDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :customdatetimepicker:mergeReleaseShaders UP-TO-DATE
 > Task :customdatetimepicker:compileReleaseShaders UP-TO-DATE
 > Task :customdatetimepicker:generateReleaseAssets UP-TO-DATE
@@ -283,6 +280,9 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :customdatetimepicker:stripReleaseDebugSymbols UP-TO-DATE
 > Task :customdatetimepicker:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseJniLibFolders
+> Task :sample:mergeExtDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
 > Task :sample:kaptReleaseKotlin
@@ -296,10 +296,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :sample:mergeExtDexRelease
 
 > Task :sample:mergeDexRelease FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex: D8: Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/47331a9dd7b89eed13cc37bbf7883a03/classes/classes.dex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex: D8: Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/a38e84c8145bde90ecfc208ba209ad62/classes/classes.dex
 com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/47331a9dd7b89eed13cc37bbf7883a03/classes/classes.dex
+Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/a38e84c8145bde90ecfc208ba209ad62/classes/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -341,7 +341,7 @@ Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed t
 	at com.android.tools.r8.D8.run(:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 34 more
-Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/47331a9dd7b89eed13cc37bbf7883a03/classes/classes.dex
+Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/a38e84c8145bde90ecfc208ba209ad62/classes/classes.dex
 	at com.android.tools.r8.utils.y0.a(:21)
 	at com.android.tools.r8.utils.x0.a(:30)
 	at com.android.tools.r8.utils.x0.a(:10)
@@ -363,7 +363,7 @@ Execution failed for task ':sample:mergeDexRelease'.
 > A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
    > com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
      Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-     Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/47331a9dd7b89eed13cc37bbf7883a03/classes/classes.dex
+     Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/a38e84c8145bde90ecfc208ba209ad62/classes/classes.dex
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -405,9 +405,91 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:178)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:154)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:41)
+	at org.gradle.execution.DefaultBuildWorkExecutor.execute(DefaultBuildWorkExecutor.java:40)
+	at org.gradle.execution.DefaultBuildWorkExecutor.access$000(DefaultBuildWorkExecutor.java:24)
+	at org.gradle.execution.DefaultBuildWorkExecutor$1.proceed(DefaultBuildWorkExecutor.java:48)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:49)
+	at org.gradle.execution.DefaultBuildWorkExecutor.execute(DefaultBuildWorkExecutor.java:40)
+	at org.gradle.execution.DefaultBuildWorkExecutor.execute(DefaultBuildWorkExecutor.java:33)
+	at org.gradle.execution.IncludedBuildLifecycleBuildWorkExecutor.execute(IncludedBuildLifecycleBuildWorkExecutor.java:36)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.run(BuildOperationFiringBuildWorkerExecutor.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor.execute(BuildOperationFiringBuildWorkerExecutor.java:41)
+	at org.gradle.initialization.DefaultGradleLauncher.runWork(DefaultGradleLauncher.java:236)
+	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:147)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:106)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:60)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:57)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:85)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:78)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:57)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:56)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:212)
+	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAndBuildAction.execute(DefaultCommandLineActionFactory.java:404)
+	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAndBuildAction.execute(DefaultCommandLineActionFactory.java:376)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:38)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$WithLogging.execute(DefaultCommandLineActionFactory.java:369)
+	at org.gradle.launcher.Main.doAction(Main.java:35)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:31)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
 	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:375)
 	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:142)
@@ -469,10 +551,10 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:47)
 	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:140)
-	... 34 more
+	... 116 more
 Caused by: com.android.build.api.transform.TransformException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/47331a9dd7b89eed13cc37bbf7883a03/classes/classes.dex
+Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/a38e84c8145bde90ecfc208ba209ad62/classes/classes.dex
 	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:472)
 	at com.android.build.gradle.internal.tasks.Workers$ActionFacade.run(Workers.kt:348)
 	at org.gradle.workers.internal.AdapterWorkAction.execute(AdapterWorkAction.java:50)
@@ -497,10 +579,12 @@ Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /pr
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:215)
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:131)
-	... 3 more
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/47331a9dd7b89eed13cc37bbf7883a03/classes/classes.dex
+Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/a38e84c8145bde90ecfc208ba209ad62/classes/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -511,7 +595,7 @@ Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed t
 	at com.android.tools.r8.D8.run(:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 28 more
-Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/47331a9dd7b89eed13cc37bbf7883a03/classes/classes.dex
+Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, Type com.noowenz.customdatetimepicker.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/intermediates/project_dex_archive/release/out/com/noowenz/customdatetimepicker/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/customdatetimepicker/build/.transforms/a38e84c8145bde90ecfc208ba209ad62/classes/classes.dex
 	at com.android.tools.r8.utils.y0.a(:21)
 	at com.android.tools.r8.utils.x0.a(:30)
 	at com.android.tools.r8.utils.x0.a(:10)
@@ -527,7 +611,7 @@ Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 47s
+BUILD FAILED in 50s
 107 actionable tasks: 76 executed, 31 up-to-date
 
-2020-05-11 21:06:42,877 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205916358-0/src/CustomDateTimePicker-master/sample/build/outputs/apk/debug/sample-debug.apk
+2020-07-29 18:42:35,812 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022868279-0/src/CustomDateTimePicker-master/sample/build/outputs/apk/debug/sample-debug.apk

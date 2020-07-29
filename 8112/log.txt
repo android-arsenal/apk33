@@ -1,36 +1,37 @@
-2020-05-11 21:01:38,492 INFO  DownloadService - Downloading "https://github.com/oktavianto/ionalert/archive/master.zip", attempt 3
-2020-05-11 21:01:49,290 INFO  DownloadService - Downloaded https://github.com/oktavianto/ionalert/archive/master.zip, attempt 3
-2020-05-11 21:01:49,290 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/master.zip": 11 MB
-2020-05-11 21:01:49,290 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-05-11 21:01:49,292 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/master.zip: true
-2020-05-11 21:01:49,293 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src'.
-2020-05-11 21:01:49,573 INFO  FullProcessService - Size of directory with sources: 17 MB
-2020-05-11 21:01:49,573 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src]
-2020-05-11 21:01:49,597 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/.git/
+2020-07-29 18:36:34,979 INFO  DownloadService - Downloading "https://github.com/oktavianto/ionalert/archive/master.zip", attempt 3
+2020-07-29 18:36:45,903 INFO  DownloadService - Downloaded https://github.com/oktavianto/ionalert/archive/master.zip, attempt 3
+2020-07-29 18:36:45,904 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/master.zip": 11 MB
+2020-07-29 18:36:45,904 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-29 18:36:45,906 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/master.zip: true
+2020-07-29 18:36:45,906 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src'.
+2020-07-29 18:36:46,179 INFO  FullProcessService - Size of directory with sources: 17 MB
+2020-07-29 18:36:46,179 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src]
+2020-07-29 18:36:46,233 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/.git/
 
-2020-05-11 21:01:49,613 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/gradlew
-2020-05-11 21:01:49,629 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/build.gradle
-2020-05-11 21:01:49,647 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/settings.gradle
-2020-05-11 21:01:49,648 INFO  ProjectBuildService - Remote scripts: none
-2020-05-11 21:01:49,648 INFO  ProjectFixService - Fixing project...
-2020-05-11 21:01:49,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/library/local.properties
-2020-05-11 21:01:49,679 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-05-11 21:01:49,679 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-05-11 21:01:49,680 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/sample/local.properties
-2020-05-11 21:01:49,682 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-05-11 21:01:49,682 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-05-11 21:01:49,683 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/local.properties
-2020-05-11 21:01:49,684 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-05-11 21:01:49,685 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-05-11 21:01:49,687 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-05-11 21:01:49,688 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-05-11 21:01:49,688 INFO  ProjectFixService - Project was maybe fixed
-2020-05-11 21:01:49,689 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-11 21:01:49,689 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-11 21:01:58,102 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-05-11 21:01:58,103 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-05-11 21:01:58,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-05-11 21:02:11,545 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 18:36:46,251 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/gradlew
+2020-07-29 18:36:46,271 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/build.gradle
+2020-07-29 18:36:46,290 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/settings.gradle
+2020-07-29 18:36:46,291 INFO  ProjectBuildService - Remote scripts: none
+2020-07-29 18:36:46,291 INFO  ProjectFixService - Fixing project...
+2020-07-29 18:36:46,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/library/local.properties
+2020-07-29 18:36:46,330 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 18:36:46,330 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 18:36:46,332 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/sample/local.properties
+2020-07-29 18:36:46,333 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 18:36:46,333 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 18:36:46,334 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/local.properties
+2020-07-29 18:36:46,334 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-07-29 18:36:46,335 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-07-29 18:36:46,336 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 18:36:46,337 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 18:36:46,337 INFO  ProjectFixService - Project was maybe fixed
+2020-07-29 18:36:46,337 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 18:36:46,337 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 18:36:50,013 INFO  VirusProcessorServiceImpl - Queued project 8132 to scan viruses
+2020-07-29 18:36:54,129 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-07-29 18:36:54,130 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-07-29 18:36:54,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-07-29 18:37:07,312 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:mergeDebugJniLibFolders
@@ -43,55 +44,42 @@
 > Task :library:compileDebugShaders
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :library:compileDebugRenderscript NO-SOURCE
-> Task :library:generateDebugResources
-> Task :library:packageDebugResources
-> Task :library:javaPreCompileDebug
 > Task :library:packageDebugRenderscript NO-SOURCE
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:prepareLintJarForPublish
 > Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders
-> Task :library:processDebugManifest
-> Task :library:compileReleaseRenderscript NO-SOURCE
-> Task :library:generateReleaseBuildConfig
-> Task :library:generateReleaseResValues
-> Task :library:generateReleaseResources
-> Task :library:packageReleaseResources
 > Task :library:mergeReleaseNativeLibs
 > Task :library:stripReleaseDebugSymbols
 > Task :library:copyReleaseJniLibsProjectAndLocalJars
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseResValues
+> Task :library:processDebugManifest
 > Task :library:mergeReleaseShaders
 > Task :library:compileReleaseShaders
 > Task :library:generateReleaseAssets
 > Task :library:packageReleaseAssets
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:javaPreCompileRelease
-> Task :library:mergeDebugJavaResource
-> Task :library:parseReleaseLocalResources
 > Task :library:processReleaseManifest
+> Task :library:mergeDebugJavaResource
 > Task :library:mergeReleaseJavaResource
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:javaPreCompileDebug
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :library:javaPreCompileRelease
 > Task :library:parseDebugLocalResources
 > Task :library:mergeReleaseResources
-> Task :library:generateReleaseRFile
-
-> Task :library:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/library/src/main/java/id/ionbit/ionalert/IonAlert.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :library:extractReleaseAnnotations
-> Task :library:mergeReleaseGeneratedProguardFiles
-> Task :library:mergeReleaseConsumerProguardFiles
-> Task :library:syncReleaseLibJars
-> Task :library:bundleReleaseAar
-> Task :library:compileReleaseSources
 > Task :library:generateDebugRFile
 
 > Task :library:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/library/src/main/java/id/ionbit/ionalert/IonAlert.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/library/src/main/java/id/ionbit/ionalert/IonAlert.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :library:extractDebugAnnotations
@@ -101,7 +89,20 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :library:bundleDebugAar
 > Task :library:compileDebugSources
 > Task :library:assembleDebug
+> Task :library:parseReleaseLocalResources
 > Task :library:verifyReleaseResources
+> Task :library:generateReleaseRFile
+
+> Task :library:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/library/src/main/java/id/ionbit/ionalert/IonAlert.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseGeneratedProguardFiles
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:syncReleaseLibJars
+> Task :library:bundleReleaseAar
+> Task :library:compileReleaseSources
 > Task :library:assembleRelease
 > Task :library:assemble
 > Task :library:build
@@ -109,4 +110,4 @@ Note: Recompile with -Xlint:deprecation for details.
 BUILD SUCCESSFUL in 12s
 45 actionable tasks: 45 executed
 
-2020-05-11 21:02:11,611 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589205698488-0/src/ionalert-master/sample/build/outputs/apk/debug/sample-debug.apk
+2020-07-29 18:37:07,381 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022594976-0/src/ionalert-master/sample/build/outputs/apk/debug/sample-debug.apk
