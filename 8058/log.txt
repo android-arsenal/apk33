@@ -1,39 +1,39 @@
-2020-03-28 21:58:55,690 INFO  DownloadService - Downloading "https://github.com/Droppers/AnimatedBottomBar/archive/master.zip", attempt 3
-2020-03-28 21:59:05,831 INFO  VirusProcessorServiceImpl - Queued project 8083 to scan viruses
-2020-03-28 21:59:50,069 INFO  DownloadService - Downloaded https://github.com/Droppers/AnimatedBottomBar/archive/master.zip, attempt 3
-2020-03-28 21:59:50,069 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/master.zip": 7 MB
-2020-03-28 21:59:50,069 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-28 21:59:50,071 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/master.zip: true
-2020-03-28 21:59:50,071 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src'.
-2020-03-28 21:59:50,229 INFO  FullProcessService - Size of directory with sources: 8 MB
-2020-03-28 21:59:50,229 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src]
-2020-03-28 21:59:50,249 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/.git/
+2020-07-29 21:00:31,001 INFO  DownloadService - Downloading "https://github.com/Droppers/AnimatedBottomBar/archive/master.zip", attempt 3
+2020-07-29 21:00:36,626 INFO  DownloadService - Downloaded https://github.com/Droppers/AnimatedBottomBar/archive/master.zip, attempt 3
+2020-07-29 21:00:36,627 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/master.zip": 7 MB
+2020-07-29 21:00:36,627 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-29 21:00:36,648 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/master.zip: true
+2020-07-29 21:00:36,649 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src'.
+2020-07-29 21:00:36,748 INFO  FullProcessService - Size of directory with sources: 8 MB
+2020-07-29 21:00:36,748 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src]
+2020-07-29 21:00:36,792 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/.git/
 
-2020-03-28 21:59:50,257 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/gradlew
-2020-03-28 21:59:50,263 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/build.gradle
-2020-03-28 21:59:50,269 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/settings.gradle
-2020-03-28 21:59:50,273 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/jcenter/master/installv1.gradle", attempt 3
-2020-03-28 21:59:50,844 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/jcenter/master/installv1.gradle, attempt 3
-2020-03-28 21:59:50,844 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/jcenter/master/installv1.gradle
-2020-03-28 21:59:50,844 INFO  ProjectFixService - Fixing project...
-2020-03-28 21:59:50,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/demo/local.properties
-2020-03-28 21:59:50,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-28 21:59:50,860 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-28 21:59:50,861 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/library/local.properties
-2020-03-28 21:59:50,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-03-28 21:59:50,865 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-03-28 21:59:50,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/local.properties
-2020-03-28 21:59:50,866 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-03-28 21:59:50,867 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-03-28 21:59:50,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-28 21:59:50,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-28 21:59:50,870 INFO  ProjectFixService - Project was maybe fixed
-2020-03-28 21:59:50,870 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-28 21:59:50,870 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-28 21:59:59,238 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-03-28 21:59:59,238 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-28 21:59:59,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-28 22:01:20,005 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 21:00:36,798 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/gradlew
+2020-07-29 21:00:36,803 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/build.gradle
+2020-07-29 21:00:36,809 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/settings.gradle
+2020-07-29 21:00:36,816 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/jcenter/master/installv1.gradle", attempt 3
+2020-07-29 21:00:37,557 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/jcenter/master/installv1.gradle, attempt 3
+2020-07-29 21:00:37,558 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/jcenter/master/installv1.gradle
+2020-07-29 21:00:37,558 INFO  ProjectFixService - Fixing project...
+2020-07-29 21:00:37,581 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/demo/local.properties
+2020-07-29 21:00:37,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 21:00:37,584 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 21:00:37,585 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/library/local.properties
+2020-07-29 21:00:37,587 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 21:00:37,588 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 21:00:37,589 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/local.properties
+2020-07-29 21:00:37,589 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-07-29 21:00:37,590 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-07-29 21:00:37,592 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 21:00:37,592 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 21:00:37,593 INFO  ProjectFixService - Project was maybe fixed
+2020-07-29 21:00:37,593 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 21:00:37,593 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 21:00:47,490 INFO  VirusProcessorServiceImpl - Queued project 8059 to scan viruses
+2020-07-29 21:00:51,165 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-07-29 21:00:51,165 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-29 21:00:51,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-29 21:02:23,370 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :demo:preBuild UP-TO-DATE
 > Task :demo:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
@@ -52,11 +52,11 @@
 > Task :demo:createDebugCompatibleScreenManifests
 > Task :demo:extractDeepLinksDebug
 > Task :library:extractDeepLinksDebug
-> Task :demo:mergeDebugResources
-> Task :library:compileDebugLibraryResources
-> Task :library:parseDebugLocalResources
 > Task :library:processDebugManifest
 > Task :demo:processDebugManifest
+> Task :library:compileDebugLibraryResources
+> Task :demo:mergeDebugResources
+> Task :library:parseDebugLocalResources
 > Task :library:generateDebugBuildConfig
 > Task :library:javaPreCompileDebug
 > Task :demo:javaPreCompileDebug
@@ -107,18 +107,18 @@ w: Argument -module-name is passed multiple times. Only the last value will be u
 > Task :demo:createReleaseCompatibleScreenManifests
 > Task :demo:extractDeepLinksRelease
 > Task :library:extractDeepLinksRelease
+> Task :library:compileReleaseLibraryResources
+> Task :library:generateReleaseBuildConfig
+> Task :library:processReleaseManifest
+> Task :demo:processReleaseManifest
 > Task :library:mergeDebugNativeLibs
 > Task :library:stripDebugDebugSymbols NO-SOURCE
 > Task :library:copyDebugJniLibsProjectOnly
-> Task :library:processReleaseManifest
-> Task :demo:processReleaseManifest
-> Task :library:generateReleaseBuildConfig
-> Task :library:javaPreCompileRelease
+> Task :demo:mergeReleaseResources
 > Task :demo:mergeProjectDexDebug
 > Task :demo:javaPreCompileRelease
-> Task :demo:mergeReleaseResources
 > Task :library:parseReleaseLocalResources
-> Task :library:compileReleaseLibraryResources
+> Task :library:javaPreCompileRelease
 > Task :demo:prepareLintJar
 > Task :demo:checkReleaseDuplicateClasses
 > Task :library:prepareLintJarForPublish
@@ -129,10 +129,10 @@ w: Argument -module-name is passed multiple times. Only the last value will be u
 w: Argument -module-name is passed multiple times. Only the last value will be used: nl.joery.animatedbottombar.library
 
 > Task :library:compileReleaseJavaWithJavac
+> Task :demo:mergeExtDexDebug
+> Task :library:bundleLibCompileToJarRelease
 > Task :demo:mergeDebugNativeLibs
 > Task :demo:stripDebugDebugSymbols NO-SOURCE
-> Task :library:bundleLibCompileToJarRelease
-> Task :demo:mergeExtDexDebug
 > Task :demo:packageDebug
 > Task :demo:assembleDebug
 > Task :demo:compileReleaseKotlin
@@ -153,11 +153,11 @@ w: Argument -module-name is passed multiple times. Only the last value will be u
 > Task :demo:processReleaseJavaRes NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:bundleLibResRelease
+> Task :demo:mergeReleaseJavaResource
 > Task :demo:collectReleaseDependencies
 > Task :demo:sdkReleaseDependencyData
 > Task :demo:mergeReleaseJniLibFolders
 > Task :library:mergeReleaseJniLibFolders
-> Task :demo:mergeReleaseJavaResource
 > Task :library:mergeReleaseNativeLibs
 > Task :library:stripReleaseDebugSymbols NO-SOURCE
 > Task :library:copyReleaseJniLibsProjectOnly
@@ -170,7 +170,7 @@ w: Argument -module-name is passed multiple times. Only the last value will be u
 > Task :demo:assemble
 > Task :demo:build
 
-BUILD SUCCESSFUL in 1m 20s
+BUILD SUCCESSFUL in 1m 31s
 87 actionable tasks: 87 executed
 
-2020-03-28 22:01:20,071 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585407535686-0/src/AnimatedBottomBar-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2020-07-29 21:02:23,434 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031230998-0/src/AnimatedBottomBar-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

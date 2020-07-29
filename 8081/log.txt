@@ -1,35 +1,36 @@
-2020-04-23 18:53:41,163 INFO  DownloadService - Downloading "https://github.com/side-codes/andColorPicker/archive/master.zip", attempt 3
-2020-04-23 18:53:44,364 INFO  DownloadService - Downloaded https://github.com/side-codes/andColorPicker/archive/master.zip, attempt 3
-2020-04-23 18:53:44,365 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/master.zip": 501 KB
-2020-04-23 18:53:44,365 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-23 18:53:44,366 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/master.zip: true
-2020-04-23 18:53:44,367 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src'.
-2020-04-23 18:53:44,425 INFO  FullProcessService - Size of directory with sources: 605 KB
-2020-04-23 18:53:44,425 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src]
-2020-04-23 18:53:44,453 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/.git/
+2020-07-29 20:53:36,014 INFO  DownloadService - Downloading "https://github.com/side-codes/andColorPicker/archive/master.zip", attempt 3
+2020-07-29 20:53:38,736 INFO  DownloadService - Downloaded https://github.com/side-codes/andColorPicker/archive/master.zip, attempt 3
+2020-07-29 20:53:38,736 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/master.zip": 506 KB
+2020-07-29 20:53:38,736 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-29 20:53:38,737 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/master.zip: true
+2020-07-29 20:53:38,737 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src'.
+2020-07-29 20:53:38,802 INFO  FullProcessService - Size of directory with sources: 616 KB
+2020-07-29 20:53:38,802 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src]
+2020-07-29 20:53:38,833 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/.git/
 
-2020-04-23 18:53:44,461 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/gradlew
-2020-04-23 18:53:44,469 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/andcolorpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/build.gradle
-2020-04-23 18:53:44,476 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/andcolorpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/settings.gradle
-2020-04-23 18:53:44,476 INFO  ProjectBuildService - Remote scripts: none
-2020-04-23 18:53:44,476 INFO  ProjectFixService - Fixing project...
-2020-04-23 18:53:44,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/andcolorpicker/local.properties
-2020-04-23 18:53:44,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/andcolorpicker/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-23 18:53:44,494 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/local.properties
-2020-04-23 18:53:44,494 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-23 18:53:44,495 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/local.properties
-2020-04-23 18:53:44,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-23 18:53:44,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/local.properties
-2020-04-23 18:53:44,497 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-04-23 18:53:44,497 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-04-23 18:53:44,498 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-23 18:53:44,498 INFO  ProjectFixService - Project was maybe fixed
-2020-04-23 18:53:44,498 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:53:44,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/andcolorpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:54:01,029 INFO  ProjectTaskService - Detected possible tasks: 81
-2020-04-23 18:54:01,030 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-04-23 18:54:01,030 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/andcolorpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-04-23 18:54:34,409 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 20:53:38,843 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/gradlew
+2020-07-29 20:53:38,851 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/andcolorpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/build.gradle
+2020-07-29 20:53:38,859 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/andcolorpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/settings.gradle
+2020-07-29 20:53:38,860 INFO  ProjectBuildService - Remote scripts: none
+2020-07-29 20:53:38,860 INFO  ProjectFixService - Fixing project...
+2020-07-29 20:53:38,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/andcolorpicker/local.properties
+2020-07-29 20:53:38,878 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/andcolorpicker/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-07-29 20:53:38,879 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/local.properties
+2020-07-29 20:53:38,879 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-07-29 20:53:38,880 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/local.properties
+2020-07-29 20:53:38,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 20:53:38,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/local.properties
+2020-07-29 20:53:38,881 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-07-29 20:53:38,882 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-07-29 20:53:38,883 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-07-29 20:53:38,883 INFO  ProjectFixService - Project was maybe fixed
+2020-07-29 20:53:38,883 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 20:53:38,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/andcolorpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 20:53:50,860 INFO  ProjectTaskService - Detected possible tasks: 81
+2020-07-29 20:53:50,860 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-07-29 20:53:50,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/andcolorpicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-07-29 20:53:56,731 INFO  VirusProcessorServiceImpl - Queued project 8082 to scan viruses
+2020-07-29 20:54:23,372 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :andcolorpicker
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -69,8 +70,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :andcolorpicker:packageReleaseAssets
 > Task :andcolorpicker:packageReleaseRenderscript NO-SOURCE
 > Task :andcolorpicker:processReleaseJavaRes NO-SOURCE
-> Task :andcolorpicker:processDebugManifest
 > Task :andcolorpicker:processReleaseManifest
+> Task :andcolorpicker:processDebugManifest
 > Task :andcolorpicker:compileDebugRenderscript NO-SOURCE
 > Task :andcolorpicker:compileDebugAidl NO-SOURCE
 > Task :andcolorpicker:generateDebugResources
@@ -79,53 +80,55 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :andcolorpicker:compileReleaseRenderscript NO-SOURCE
 > Task :andcolorpicker:generateReleaseResources
 > Task :andcolorpicker:packageReleaseResources
-> Task :andcolorpicker:parseDebugLocalResources
 > Task :andcolorpicker:mergeReleaseResources
-> Task :andcolorpicker:generateDebugRFile
-
-> Task :andcolorpicker:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/andcolorpicker/src/main/java/codes/side/andcolorpicker/view/picker/ColorSeekBar.kt: (141, 9): Variable 'progressHeightPx' is never used
-
-> Task :andcolorpicker:verifyReleaseResources
-> Task :andcolorpicker:javaPreCompileDebug
-> Task :andcolorpicker:compileDebugJavaWithJavac
-> Task :andcolorpicker:extractDebugAnnotations
-> Task :andcolorpicker:mergeDebugGeneratedProguardFiles
-> Task :andcolorpicker:mergeDebugConsumerProguardFiles
-> Task :andcolorpicker:compileDebugSources
-> Task :andcolorpicker:mergeDebugJavaResource
-> Task :andcolorpicker:syncDebugLibJars
-> Task :andcolorpicker:bundleDebugAar
-> Task :andcolorpicker:assembleDebug
+> Task :andcolorpicker:parseDebugLocalResources
 > Task :andcolorpicker:parseReleaseLocalResources
 > Task :andcolorpicker:generateReleaseRFile
 
 > Task :andcolorpicker:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/andcolorpicker/src/main/java/codes/side/andcolorpicker/view/picker/ColorSeekBar.kt: (141, 9): Variable 'progressHeightPx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/andcolorpicker/src/main/java/codes/side/andcolorpicker/view/picker/ColorSeekBar.kt: (144, 9): Variable 'progressHeightPx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/andcolorpicker/src/main/java/codes/side/andcolorpicker/view/set/ColorPickerSeekBarSet.kt: (33, 20): Parameter 'attrs' is never used
+
+> Task :andcolorpicker:verifyReleaseResources
+> Task :andcolorpicker:mergeReleaseJavaResource
+> Task :andcolorpicker:generateDebugRFile
+
+> Task :andcolorpicker:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/andcolorpicker/src/main/java/codes/side/andcolorpicker/view/picker/ColorSeekBar.kt: (144, 9): Variable 'progressHeightPx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/andcolorpicker/src/main/java/codes/side/andcolorpicker/view/set/ColorPickerSeekBarSet.kt: (33, 20): Parameter 'attrs' is never used
 
 > Task :andcolorpicker:javaPreCompileRelease
 > Task :andcolorpicker:compileReleaseJavaWithJavac
 > Task :andcolorpicker:extractReleaseAnnotations
 > Task :andcolorpicker:mergeReleaseGeneratedProguardFiles
 > Task :andcolorpicker:mergeReleaseConsumerProguardFiles
-> Task :andcolorpicker:compileReleaseSources
-> Task :andcolorpicker:mergeReleaseJavaResource
 > Task :andcolorpicker:syncReleaseLibJars
 > Task :andcolorpicker:bundleReleaseAar
+> Task :andcolorpicker:compileReleaseSources
 > Task :andcolorpicker:assembleRelease
+> Task :andcolorpicker:mergeDebugJavaResource
+> Task :andcolorpicker:javaPreCompileDebug
+> Task :andcolorpicker:compileDebugJavaWithJavac
+> Task :andcolorpicker:extractDebugAnnotations
+> Task :andcolorpicker:mergeDebugGeneratedProguardFiles
+> Task :andcolorpicker:mergeDebugConsumerProguardFiles
+> Task :andcolorpicker:syncDebugLibJars
+> Task :andcolorpicker:bundleDebugAar
+> Task :andcolorpicker:compileDebugSources
+> Task :andcolorpicker:assembleDebug
 > Task :andcolorpicker:assemble
 > Task :andcolorpicker:build
 
-BUILD SUCCESSFUL in 32s
+BUILD SUCCESSFUL in 31s
 47 actionable tasks: 47 executed
 
-2020-04-23 18:54:34,472 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:54:34,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:54:39,664 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-04-23 18:54:39,665 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-04-23 18:54:39,665 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-04-23 18:54:39,665 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-04-23 18:54:44,468 ERROR SysUtils - Could not process external command
+2020-07-29 20:54:23,432 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 20:54:23,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 20:54:28,405 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-07-29 20:54:28,405 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-07-29 20:54:28,405 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-07-29 20:54:28,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-07-29 20:54:33,010 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -153,12 +156,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-04-23 18:54:44,468 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 20:54:33,011 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle' line: 28
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle' line: 28
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -322,7 +325,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_4tsfbu7uenrlr6zcukg78o795$_run_closure1$_closure5$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle:28)
+	at build_s9xaxwyk6b13g2fm1ms2wquq$_run_closure1$_closure5$_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle:28)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -331,7 +334,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:91)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_4tsfbu7uenrlr6zcukg78o795$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle:27)
+	at build_s9xaxwyk6b13g2fm1ms2wquq$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle:27)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -346,7 +349,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_4tsfbu7uenrlr6zcukg78o795$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle:26)
+	at build_s9xaxwyk6b13g2fm1ms2wquq$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle:26)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -361,7 +364,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:162)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_4tsfbu7uenrlr6zcukg78o795.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle:10)
+	at build_s9xaxwyk6b13g2fm1ms2wquq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle:10)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 134 more
 
@@ -370,14 +373,13 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 
 BUILD FAILED in 4s
 
-2020-04-23 18:54:44,528 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:54:44,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:54:49,608 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-04-23 18:54:49,608 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-04-23 18:54:49,608 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-04-23 18:54:49,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-04-23 18:54:53,992 INFO  VirusProcessorServiceImpl - Queued project 8082 to scan viruses
-2020-04-23 18:54:54,471 ERROR SysUtils - Could not process external command
+2020-07-29 20:54:33,069 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 20:54:33,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 20:54:37,890 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-07-29 20:54:37,890 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-07-29 20:54:37,890 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-07-29 20:54:37,890 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-07-29 20:54:42,346 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -405,12 +407,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-04-23 18:54:54,471 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 20:54:42,346 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/build.gradle' line: 23
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/build.gradle' line: 23
 
 * What went wrong:
 A problem occurred evaluating project ':integrationapp'.
@@ -574,7 +576,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_75wtcht70lxtta0jujmblr81m$_run_closure1$_closure5$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/build.gradle:23)
+	at build_cwwo8hrmrqwwtwagaiobcjw50$_run_closure1$_closure5$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/build.gradle:23)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -583,7 +585,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:91)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_75wtcht70lxtta0jujmblr81m$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/build.gradle:22)
+	at build_cwwo8hrmrqwwtwagaiobcjw50$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/build.gradle:22)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -598,7 +600,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_75wtcht70lxtta0jujmblr81m$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/build.gradle:21)
+	at build_cwwo8hrmrqwwtwagaiobcjw50$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/build.gradle:21)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -613,7 +615,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:162)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_75wtcht70lxtta0jujmblr81m.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/integrationapp/build.gradle:5)
+	at build_cwwo8hrmrqwwtwagaiobcjw50.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/integrationapp/build.gradle:5)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 134 more
 
@@ -622,13 +624,13 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 
 BUILD FAILED in 4s
 
-2020-04-23 18:54:54,531 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:54:54,532 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:55:00,812 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-04-23 18:55:00,813 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-04-23 18:55:00,813 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-04-23 18:55:00,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-04-23 18:55:07,240 ERROR SysUtils - Could not process external command
+2020-07-29 20:54:42,404 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 20:54:42,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 20:54:48,559 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-07-29 20:54:48,560 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-07-29 20:54:48,560 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-07-29 20:54:48,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-07-29 20:54:54,970 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -656,7 +658,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-04-23 18:55:07,240 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 20:54:54,971 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :andcolorpicker
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -671,7 +673,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle' line: 28
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle' line: 28
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -835,7 +837,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_4tsfbu7uenrlr6zcukg78o795$_run_closure1$_closure5$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle:28)
+	at build_s9xaxwyk6b13g2fm1ms2wquq$_run_closure1$_closure5$_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle:28)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -844,7 +846,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:91)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_4tsfbu7uenrlr6zcukg78o795$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle:27)
+	at build_s9xaxwyk6b13g2fm1ms2wquq$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle:27)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -859,7 +861,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_4tsfbu7uenrlr6zcukg78o795$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle:26)
+	at build_s9xaxwyk6b13g2fm1ms2wquq$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle:26)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -874,7 +876,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:162)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_4tsfbu7uenrlr6zcukg78o795.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642821160-0/src/andColorPicker-master/app/build.gradle:10)
+	at build_s9xaxwyk6b13g2fm1ms2wquq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030816011-0/src/andColorPicker-master/app/build.gradle:10)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 134 more
 
@@ -883,5 +885,5 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 
 BUILD FAILED in 6s
 
-2020-04-23 18:55:07,297 ERROR FullProcessService - Project build has not produced APK file
-2020-04-23 18:55:07,356 ERROR FullProcessService - Could not find generated or existed APK file
+2020-07-29 20:54:55,026 ERROR FullProcessService - Project build has not produced APK file
+2020-07-29 20:54:55,084 ERROR FullProcessService - Could not find generated or existed APK file

@@ -29,8 +29,8 @@
     "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WAKE_LOCK", "android.permission.ACCESS_NETWORK_STATE", "android.permission.RECEIVE_BOOT_COMPLETED", "android.permission.FOREGROUND_SERVICE", "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE", "com.google.android.c2dm.permission.RECEIVE" ],
     "usesFeatures" : [ ],
     "permissions" : [ ],
-    "featureSplit" : false,
-    "splitRequired" : false
+    "splitRequired" : false,
+    "featureSplit" : false
   },
   "icon" : {
     "path" : "res/mipmap-xxxhdpi-v4/ic_launcher.png",
@@ -44,5 +44,5 @@
   "fileSize" : 9135522,
   "crc32" : 3269063472,
   "sha256" : "18e877749b4a42499b0a8975469428203de188edc54bb383e2fc5e9187c65dea",
-  "buildTime" : 1588052256000
+  "buildTime" : 1596030670000
 }

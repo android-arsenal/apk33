@@ -1,114 +1,59 @@
-2020-05-11 21:10:01,800 INFO  DownloadService - Downloading "https://github.com/HeyAlex/CornerSheet/archive/master.zip", attempt 3
-2020-05-11 21:10:15,863 INFO  DownloadService - Downloaded https://github.com/HeyAlex/CornerSheet/archive/master.zip, attempt 3
-2020-05-11 21:10:15,864 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/master.zip": 5 MB
-2020-05-11 21:10:15,864 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-05-11 21:10:15,866 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/master.zip: true
-2020-05-11 21:10:15,866 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src'.
-2020-05-11 21:10:15,928 INFO  FullProcessService - Size of directory with sources: 6 MB
-2020-05-11 21:10:15,929 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src]
-2020-05-11 21:10:15,947 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/.git/
+2020-07-29 20:56:27,508 INFO  DownloadService - Downloading "https://github.com/HeyAlex/CornerSheet/archive/master.zip", attempt 3
+2020-07-29 20:56:33,531 INFO  DownloadService - Downloaded https://github.com/HeyAlex/CornerSheet/archive/master.zip, attempt 3
+2020-07-29 20:56:33,531 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/master.zip": 5 MB
+2020-07-29 20:56:33,531 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-29 20:56:33,532 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/master.zip: true
+2020-07-29 20:56:33,532 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src'.
+2020-07-29 20:56:33,608 INFO  FullProcessService - Size of directory with sources: 6 MB
+2020-07-29 20:56:33,608 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src]
+2020-07-29 20:56:33,663 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/.git/
 
-2020-05-11 21:10:15,952 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/gradlew
-2020-05-11 21:10:15,956 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/drawer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/build.gradle
-2020-05-11 21:10:15,960 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/drawer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/settings.gradle
-2020-05-11 21:10:15,960 INFO  ProjectBuildService - Remote scripts: none
-2020-05-11 21:10:15,960 INFO  ProjectFixService - Fixing project...
-2020-05-11 21:10:15,970 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/app/local.properties
-2020-05-11 21:10:15,970 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-05-11 21:10:15,971 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/core/local.properties
-2020-05-11 21:10:15,971 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/core/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-05-11 21:10:15,972 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/drawer/local.properties
-2020-05-11 21:10:15,972 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/drawer/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-05-11 21:10:15,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/local.properties
-2020-05-11 21:10:15,973 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-05-11 21:10:15,973 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-05-11 21:10:15,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-05-11 21:10:15,974 INFO  ProjectFixService - Project was maybe fixed
-2020-05-11 21:10:15,974 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-11 21:10:15,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-11 21:10:16,484 INFO  VirusProcessorServiceImpl - Queued project 8063 to scan viruses
-2020-05-11 21:10:23,028 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-05-11 21:10:23,028 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-05-11 21:10:23,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-05-11 21:11:29,701 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :drawer
-Kotlin plugin should be enabled before 'kotlin-android-extensions'
-
+2020-07-29 20:56:33,668 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/gradlew
+2020-07-29 20:56:33,673 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/drawer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/build.gradle
+2020-07-29 20:56:33,678 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/drawer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/jcenter/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/jcenter/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/release-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/settings.gradle
+2020-07-29 20:56:33,679 INFO  ProjectBuildService - Remote scripts: none
+2020-07-29 20:56:33,679 INFO  ProjectFixService - Fixing project...
+2020-07-29 20:56:33,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/app/local.properties
+2020-07-29 20:56:33,695 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 20:56:33,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/core/local.properties
+2020-07-29 20:56:33,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/core/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 20:56:33,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/drawer/local.properties
+2020-07-29 20:56:33,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/drawer/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 20:56:33,697 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/local.properties
+2020-07-29 20:56:33,698 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-07-29 20:56:33,698 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-07-29 20:56:33,699 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-29 20:56:33,699 INFO  ProjectFixService - Project was maybe fixed
+2020-07-29 20:56:33,699 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 20:56:33,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 20:56:42,420 INFO  VirusProcessorServiceImpl - Queued project 8063 to scan viruses
+2020-07-29 20:56:43,376 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-07-29 20:56:43,376 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-29 20:56:43,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-29 20:57:54,865 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
-> Task :core:preBuild UP-TO-DATE
-> Task :core:preDebugBuild UP-TO-DATE
-> Task :drawer:preBuild UP-TO-DATE
-> Task :drawer:preDebugBuild UP-TO-DATE
-> Task :core:compileDebugAidl NO-SOURCE
-> Task :drawer:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :core:packageDebugRenderscript NO-SOURCE
-> Task :drawer:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :core:generateDebugResValues
-> Task :core:compileDebugRenderscript NO-SOURCE
-> Task :core:generateDebugResources
-> Task :core:packageDebugResources
-> Task :drawer:generateDebugResValues
-> Task :drawer:compileDebugRenderscript NO-SOURCE
-> Task :drawer:generateDebugResources
-> Task :drawer:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :core:checkDebugManifest
-> Task :drawer:checkDebugManifest
-> Task :drawer:processDebugManifest
-> Task :core:processDebugManifest
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :core:parseDebugLibraryResources
-> Task :drawer:parseDebugLibraryResources
-> Task :core:generateDebugBuildConfig
-> Task :drawer:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
-> Task :core:mergeDebugShaders
-> Task :core:compileDebugShaders
-> Task :core:generateDebugAssets
-> Task :core:packageDebugAssets
-> Task :drawer:mergeDebugShaders
-> Task :drawer:compileDebugShaders
-> Task :drawer:generateDebugAssets
-> Task :drawer:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
-> Task :core:processDebugJavaRes NO-SOURCE
-> Task :drawer:processDebugJavaRes NO-SOURCE
-> Task :core:generateDebugRFile
-
-> Task :core:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/core/src/main/java/com/google/android/material/bottomsheet/CornerMaterialSheetBehavior.kt: (257, 59): 'constructor SavedState(Parcelable!, Int)' is deprecated. Deprecated in Java
-
-> Task :app:checkDebugDuplicateClasses
-> Task :drawer:generateDebugRFile
+> Task :app:mergeDebugResources
 > Task :app:processDebugResources
-> Task :core:javaPreCompileDebug
-> Task :core:compileDebugJavaWithJavac
-> Task :core:bundleLibResDebug
-> Task :core:bundleLibRuntimeDebug
-> Task :core:bundleLibCompileDebug
-> Task :drawer:compileDebugKotlin
-> Task :drawer:javaPreCompileDebug
-> Task :drawer:compileDebugJavaWithJavac
-> Task :drawer:bundleLibRuntimeDebug
-> Task :drawer:bundleLibResDebug
-> Task :drawer:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/app/src/main/java/com/github/heyalex/cornerdrawer/example/support/shop/DetailShopFragment.kt: (45, 54): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/app/src/main/java/com/github/heyalex/cornerdrawer/example/support/shop/DetailShopFragment.kt: (45, 54): Parameter 'v' is never used, could be renamed to _
 
+> Task :app:checkDebugDuplicateClasses
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -118,81 +63,34 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :core:mergeDebugJniLibFolders
-> Task :drawer:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
-> Task :core:preReleaseBuild UP-TO-DATE
-> Task :core:compileReleaseAidl NO-SOURCE
-> Task :drawer:preReleaseBuild UP-TO-DATE
-> Task :drawer:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
-> Task :core:packageReleaseRenderscript NO-SOURCE
-> Task :drawer:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :core:compileReleaseRenderscript NO-SOURCE
-> Task :core:generateReleaseResValues
-> Task :core:generateReleaseResources
-> Task :core:packageReleaseResources
-> Task :drawer:compileReleaseRenderscript NO-SOURCE
-> Task :drawer:generateReleaseResValues
-> Task :drawer:generateReleaseResources
-> Task :drawer:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
-> Task :core:checkReleaseManifest
-> Task :core:processReleaseManifest
-> Task :drawer:checkReleaseManifest
-> Task :core:mergeDebugNativeLibs
-> Task :core:stripDebugDebugSymbols
-> Task :core:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :drawer:mergeDebugNativeLibs
-> Task :drawer:stripDebugDebugSymbols
-> Task :drawer:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:mergeReleaseResources
-> Task :core:generateReleaseBuildConfig
-> Task :drawer:generateReleaseBuildConfig
-> Task :drawer:parseReleaseLibraryResources
-> Task :drawer:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :core:parseReleaseLibraryResources
-> Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
-> Task :core:prepareLintJarForPublish
-> Task :drawer:prepareLintJarForPublish
-> Task :core:generateReleaseRFile
-
-> Task :core:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/core/src/main/java/com/google/android/material/bottomsheet/CornerMaterialSheetBehavior.kt: (257, 59): 'constructor SavedState(Parcelable!, Int)' is deprecated. Deprecated in Java
-
-> Task :drawer:generateReleaseRFile
+> Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
-> Task :core:javaPreCompileRelease
-> Task :core:compileReleaseJavaWithJavac
-> Task :core:bundleLibCompileRelease
-> Task :drawer:compileReleaseKotlin
-> Task :core:bundleLibRuntimeRelease
-> Task :drawer:javaPreCompileRelease
-> Task :drawer:compileReleaseJavaWithJavac
-> Task :drawer:bundleLibRuntimeRelease
-> Task :drawer:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/app/src/main/java/com/github/heyalex/cornerdrawer/example/support/shop/DetailShopFragment.kt: (45, 54): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/app/src/main/java/com/github/heyalex/cornerdrawer/example/support/shop/DetailShopFragment.kt: (45, 54): Parameter 'v' is never used, could be renamed to _
 
-> Task :app:mergeExtDexDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+> Task :app:prepareLintJar
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5c1b4e70851e0ee8a7f4413df9e16dde/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a6e510f45286b5ccb2d3a1fcadf798d2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
@@ -201,30 +99,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
-> Task :core:mergeReleaseShaders
-> Task :core:compileReleaseShaders
-> Task :core:generateReleaseAssets
-> Task :core:packageReleaseAssets
-> Task :drawer:mergeReleaseShaders
-> Task :drawer:compileReleaseShaders
-> Task :drawer:generateReleaseAssets
-> Task :drawer:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :core:processReleaseJavaRes NO-SOURCE
-> Task :drawer:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :core:mergeReleaseJniLibFolders
-> Task :drawer:bundleLibResRelease
-> Task :drawer:mergeReleaseJniLibFolders
-> Task :core:mergeReleaseNativeLibs
-> Task :core:stripReleaseDebugSymbols
-> Task :core:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :drawer:mergeReleaseNativeLibs
-> Task :drawer:stripReleaseDebugSymbols
-> Task :drawer:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :core:bundleLibResRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
@@ -239,7 +117,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 5s
-135 actionable tasks: 135 executed
+BUILD SUCCESSFUL in 1m 10s
+53 actionable tasks: 53 executed
 
-2020-05-11 21:11:29,826 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206201792-0/src/CornerSheet-master/app/build/outputs/apk/debug/app-debug.apk
+2020-07-29 20:57:54,977 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030987505-0/src/CornerSheet-master/app/build/outputs/apk/debug/app-debug.apk

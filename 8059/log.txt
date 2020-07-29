@@ -1,37 +1,37 @@
-2020-03-29 01:53:13,576 INFO  DownloadService - Downloading "https://github.com/shripal17/MaterialIntroView-v2/archive/master.zip", attempt 3
-2020-03-29 01:53:20,095 INFO  DownloadService - Downloaded https://github.com/shripal17/MaterialIntroView-v2/archive/master.zip, attempt 3
-2020-03-29 01:53:20,095 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/master.zip": 9 MB
-2020-03-29 01:53:20,095 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-29 01:53:20,098 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/master.zip: true
-2020-03-29 01:53:20,098 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src'.
-2020-03-29 01:53:20,189 INFO  FullProcessService - Size of directory with sources: 9 MB
-2020-03-29 01:53:20,189 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src]
-2020-03-29 01:53:20,216 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/.git/
+2020-07-29 20:57:55,792 INFO  DownloadService - Downloading "https://github.com/shripal17/MaterialIntroView-v2/archive/master.zip", attempt 3
+2020-07-29 20:58:08,513 INFO  DownloadService - Downloaded https://github.com/shripal17/MaterialIntroView-v2/archive/master.zip, attempt 3
+2020-07-29 20:58:08,513 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/master.zip": 10 MB
+2020-07-29 20:58:08,513 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-29 20:58:08,514 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/master.zip: true
+2020-07-29 20:58:08,514 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src'.
+2020-07-29 20:58:08,645 INFO  FullProcessService - Size of directory with sources: 10 MB
+2020-07-29 20:58:08,645 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src]
+2020-07-29 20:58:08,691 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/.git/
 
-2020-03-29 01:53:20,221 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/gradlew
-2020-03-29 01:53:20,226 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/build.gradle
-2020-03-29 01:53:20,231 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/settings.gradle
-2020-03-29 01:53:20,231 INFO  ProjectBuildService - Remote scripts: none
-2020-03-29 01:53:20,232 INFO  ProjectFixService - Fixing project...
-2020-03-29 01:53:20,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/local.properties
-2020-03-29 01:53:20,245 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-29 01:53:20,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-29 01:53:20,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/local.properties
-2020-03-29 01:53:20,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-29 01:53:20,250 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-29 01:53:20,251 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/local.properties
-2020-03-29 01:53:20,251 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-29 01:53:20,252 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-29 01:53:20,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-29 01:53:20,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-29 01:53:20,255 INFO  ProjectFixService - Project was maybe fixed
-2020-03-29 01:53:20,255 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-29 01:53:20,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-29 01:53:28,563 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-03-29 01:53:28,563 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-03-29 01:53:28,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-03-29 01:53:38,830 INFO  VirusProcessorServiceImpl - Queued project 8084 to scan viruses
-2020-03-29 01:53:54,446 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 20:58:08,696 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/gradlew
+2020-07-29 20:58:08,701 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/materialintro/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/build.gradle
+2020-07-29 20:58:08,706 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/materialintro/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/materialintro/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/settings.gradle
+2020-07-29 20:58:08,710 INFO  ProjectBuildService - Remote scripts: none
+2020-07-29 20:58:08,710 INFO  ProjectFixService - Fixing project...
+2020-07-29 20:58:08,722 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/materialintro/local.properties
+2020-07-29 20:58:08,724 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/materialintro/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 20:58:08,724 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/materialintro/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 20:58:08,725 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/local.properties
+2020-07-29 20:58:08,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 20:58:08,726 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 20:58:08,727 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/local.properties
+2020-07-29 20:58:08,728 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-07-29 20:58:08,728 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-07-29 20:58:08,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 20:58:08,731 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-29 20:58:08,731 INFO  ProjectFixService - Project was maybe fixed
+2020-07-29 20:58:08,731 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 20:58:08,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/materialintro/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 20:58:13,941 INFO  VirusProcessorServiceImpl - Queued project 8062 to scan viruses
+2020-07-29 20:58:21,105 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-07-29 20:58:21,105 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-07-29 20:58:21,105 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/materialintro/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-07-29 20:59:10,438 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :materialintro
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -40,112 +40,103 @@ MaterialIntroView - Starting Release Deployment
 
 > Task :materialintro:preBuild UP-TO-DATE
 > Task :materialintro:preDebugBuild UP-TO-DATE
-> Task :materialintro:checkDebugManifest
+> Task :materialintro:mergeDebugJniLibFolders
+> Task :materialintro:mergeDebugNativeLibs
+> Task :materialintro:stripDebugDebugSymbols
+> Task :materialintro:copyDebugJniLibsProjectAndLocalJars
 > Task :materialintro:generateDebugBuildConfig
 > Task :materialintro:generateDebugResValues
-> Task :materialintro:compileDebugAidl NO-SOURCE
-> Task :materialintro:compileDebugRenderscript NO-SOURCE
-> Task :materialintro:generateDebugResources
-> Task :materialintro:packageDebugResources
 > Task :materialintro:mergeDebugShaders
 > Task :materialintro:compileDebugShaders
 > Task :materialintro:generateDebugAssets
 > Task :materialintro:packageDebugAssets
 > Task :materialintro:packageDebugRenderscript NO-SOURCE
+> Task :materialintro:compileDebugAidl NO-SOURCE
+> Task :materialintro:compileDebugRenderscript NO-SOURCE
+> Task :materialintro:generateDebugResources
+> Task :materialintro:packageDebugResources
+> Task :materialintro:processDebugManifest
 > Task :materialintro:processDebugJavaRes NO-SOURCE
-> Task :materialintro:mergeDebugJniLibFolders
-> Task :materialintro:prepareLintJarForPublish
 > Task :materialintro:preReleaseBuild UP-TO-DATE
 > Task :materialintro:compileReleaseAidl NO-SOURCE
+> Task :materialintro:mergeReleaseJniLibFolders
 > Task :materialintro:compileReleaseRenderscript NO-SOURCE
-> Task :materialintro:checkReleaseManifest
 > Task :materialintro:generateReleaseBuildConfig
 > Task :materialintro:generateReleaseResValues
 > Task :materialintro:generateReleaseResources
 > Task :materialintro:packageReleaseResources
+> Task :materialintro:parseDebugLocalResources
+> Task :materialintro:parseReleaseLocalResources
 > Task :materialintro:mergeReleaseShaders
 > Task :materialintro:compileReleaseShaders
 > Task :materialintro:generateReleaseAssets
 > Task :materialintro:packageReleaseAssets
 > Task :materialintro:packageReleaseRenderscript NO-SOURCE
 > Task :materialintro:processReleaseJavaRes NO-SOURCE
-> Task :materialintro:mergeReleaseJniLibFolders
-> Task :materialintro:parseReleaseLibraryResources
+> Task :materialintro:prepareLintJarForPublish
 > Task :materialintro:processReleaseManifest
-> Task :materialintro:mergeDebugNativeLibs
-> Task :materialintro:stripDebugDebugSymbols
-> Task :materialintro:transformNativeLibsWithSyncJniLibsForDebug
-> Task :materialintro:parseDebugLibraryResources
 > Task :materialintro:mergeReleaseNativeLibs
 > Task :materialintro:stripReleaseDebugSymbols
-> Task :materialintro:transformNativeLibsWithSyncJniLibsForRelease
-> Task :materialintro:processDebugManifest
-> Task :materialintro:mergeReleaseResources
+> Task :materialintro:copyReleaseJniLibsProjectAndLocalJars
 > Task :materialintro:generateDebugRFile
 
 > Task :materialintro:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/src/main/java/com/codertainment/materialintro/shape/Rect.kt: (25, 26): Type mismatch: inferred type is RectF? but RectF was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/src/main/java/com/codertainment/materialintro/view/MaterialIntroView.kt: (317, 28): Type mismatch: inferred type is Bitmap? but Bitmap was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/src/main/java/com/codertainment/materialintro/view/MaterialIntroView.kt: (328, 23): Type mismatch: inferred type is Bitmap? but Bitmap was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/src/main/java/com/codertainment/materialintro/view/MaterialIntroView.kt: (531, 103): 'FILL_PARENT: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/materialintro/src/main/java/com/codertainment/materialintro/view/MaterialIntroView.kt: (586, 103): 'FILL_PARENT: Int' is deprecated. Deprecated in Java
 
-> Task :materialintro:verifyReleaseResources
 > Task :materialintro:generateReleaseRFile
 
 > Task :materialintro:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/src/main/java/com/codertainment/materialintro/shape/Rect.kt: (25, 26): Type mismatch: inferred type is RectF? but RectF was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/src/main/java/com/codertainment/materialintro/view/MaterialIntroView.kt: (317, 28): Type mismatch: inferred type is Bitmap? but Bitmap was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/src/main/java/com/codertainment/materialintro/view/MaterialIntroView.kt: (328, 23): Type mismatch: inferred type is Bitmap? but Bitmap was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/materialintro/src/main/java/com/codertainment/materialintro/view/MaterialIntroView.kt: (531, 103): 'FILL_PARENT: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/materialintro/src/main/java/com/codertainment/materialintro/view/MaterialIntroView.kt: (586, 103): 'FILL_PARENT: Int' is deprecated. Deprecated in Java
 
 > Task :materialintro:javaPreCompileDebug
 > Task :materialintro:compileDebugJavaWithJavac
 > Task :materialintro:extractDebugAnnotations
 > Task :materialintro:mergeDebugGeneratedProguardFiles
 > Task :materialintro:mergeDebugConsumerProguardFiles
-> Task :materialintro:javaPreCompileRelease
 > Task :materialintro:compileDebugSources
+> Task :materialintro:mergeDebugJavaResource
+> Task :materialintro:syncDebugLibJars
+> Task :materialintro:bundleDebugAar
+> Task :materialintro:assembleDebug
+> Task :materialintro:mergeReleaseJavaResource
+> Task :materialintro:javaPreCompileRelease
 > Task :materialintro:compileReleaseJavaWithJavac
 > Task :materialintro:extractReleaseAnnotations
 > Task :materialintro:mergeReleaseGeneratedProguardFiles
 > Task :materialintro:mergeReleaseConsumerProguardFiles
-> Task :materialintro:compileReleaseSources
-> Task :materialintro:mergeDebugJavaResource
-> Task :materialintro:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :materialintro:bundleDebugAar
-> Task :materialintro:assembleDebug
-> Task :materialintro:mergeReleaseJavaResource
-> Task :materialintro:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :materialintro:syncReleaseLibJars
 > Task :materialintro:bundleReleaseAar
+> Task :materialintro:compileReleaseSources
+> Task :materialintro:mergeReleaseResources
+> Task :materialintro:verifyReleaseResources
 > Task :materialintro:assembleRelease
 > Task :materialintro:assemble
 > Task :materialintro:build
 
-BUILD SUCCESSFUL in 25s
-49 actionable tasks: 49 executed
+BUILD SUCCESSFUL in 48s
+47 actionable tasks: 47 executed
 
-2020-03-29 01:53:54,510 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-29 01:53:54,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-29 01:54:00,099 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-29 01:54:00,099 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-29 01:54:00,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-29 01:54:49,082 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 20:59:10,499 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 20:59:10,499 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 20:59:16,953 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-07-29 20:59:16,953 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-29 20:59:16,953 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-29 21:00:30,066 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :materialintro
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
 MaterialIntroView: Deployment: Building...
 MaterialIntroView - Starting Release Deployment
-Kotlin plugin should be enabled before 'kotlin-android-extensions'
 
 > Task :materialintro:preBuild UP-TO-DATE
 > Task :materialintro:preDebugBuild UP-TO-DATE
 > Task :materialintro:compileDebugAidl NO-SOURCE
-> Task :materialintro:checkDebugManifest UP-TO-DATE
-> Task :materialintro:compileDebugRenderscript NO-SOURCE
 > Task :materialintro:generateDebugBuildConfig UP-TO-DATE
+> Task :materialintro:compileDebugRenderscript NO-SOURCE
 > Task :materialintro:generateDebugResValues UP-TO-DATE
 > Task :materialintro:generateDebugResources UP-TO-DATE
 > Task :materialintro:packageDebugResources UP-TO-DATE
-> Task :materialintro:parseDebugLibraryResources UP-TO-DATE
+> Task :materialintro:parseDebugLocalResources UP-TO-DATE
 > Task :materialintro:processDebugManifest UP-TO-DATE
 > Task :materialintro:generateDebugRFile UP-TO-DATE
 > Task :materialintro:compileDebugKotlin UP-TO-DATE
@@ -155,21 +146,23 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :materialintro:packageDebugRenderscript NO-SOURCE
-> Task :sample:checkDebugManifest
 > Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
 > Task :materialintro:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
+> Task :materialintro:compileDebugLibraryResources
+> Task :materialintro:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
 > Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/src/main/java/com/codertainment/materialintro/sample/MainActivity.kt: (34, 12): 'setDrawerListener(DrawerLayout.DrawerListener!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/src/main/java/com/codertainment/materialintro/sample/ToolbarMenuItemActivity.kt: (39, 19): 'setDrawerListener(DrawerLayout.DrawerListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/src/main/java/com/codertainment/materialintro/sample/MainActivity.kt: (34, 12): 'setDrawerListener(DrawerLayout.DrawerListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/src/main/java/com/codertainment/materialintro/sample/ToolbarMenuItemActivity.kt: (35, 19): 'setDrawerListener(DrawerLayout.DrawerListener!): Unit' is deprecated. Deprecated in Java
 
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
@@ -185,25 +178,25 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/
 > Task :materialintro:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :materialintro:bundleLibResDebug
+> Task :sample:mergeDebugJavaResource
 > Task :sample:checkDebugDuplicateClasses
 > Task :materialintro:bundleLibRuntimeDebug
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:validateSigningDebug
-> Task :sample:signingConfigWriterDebug
+> Task :sample:dexBuilderDebug
+> Task :sample:mergeLibDexDebug
 > Task :materialintro:mergeDebugJniLibFolders UP-TO-DATE
 > Task :materialintro:mergeDebugNativeLibs UP-TO-DATE
 > Task :materialintro:stripDebugDebugSymbols UP-TO-DATE
-> Task :materialintro:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :materialintro:copyDebugJniLibsProjectOnly
 > Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug
 > Task :materialintro:preReleaseBuild UP-TO-DATE
 > Task :materialintro:compileReleaseAidl NO-SOURCE
 > Task :materialintro:compileReleaseRenderscript NO-SOURCE
-> Task :materialintro:checkReleaseManifest UP-TO-DATE
 > Task :materialintro:generateReleaseBuildConfig UP-TO-DATE
 > Task :materialintro:generateReleaseResValues UP-TO-DATE
 > Task :materialintro:generateReleaseResources UP-TO-DATE
 > Task :materialintro:packageReleaseResources UP-TO-DATE
-> Task :materialintro:parseReleaseLibraryResources UP-TO-DATE
+> Task :materialintro:parseReleaseLocalResources UP-TO-DATE
 > Task :materialintro:processReleaseManifest UP-TO-DATE
 > Task :materialintro:generateReleaseRFile UP-TO-DATE
 > Task :materialintro:compileReleaseKotlin UP-TO-DATE
@@ -213,23 +206,38 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :materialintro:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
+> Task :materialintro:bundleLibCompileRelease
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeDebugJavaResource
-> Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:processReleaseManifest
 > Task :sample:mergeProjectDexDebug
-> Task :sample:mergeLibDexDebug
+> Task :materialintro:extractDeepLinksRelease
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
+> Task :sample:processReleaseManifest
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
-> Task :materialintro:bundleLibCompileRelease
+> Task :sample:mergeReleaseResources
+> Task :materialintro:compileReleaseLibraryResources
+> Task :sample:processReleaseResources
+
+> Task :sample:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/src/main/java/com/codertainment/materialintro/sample/MainActivity.kt: (34, 12): 'setDrawerListener(DrawerLayout.DrawerListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/src/main/java/com/codertainment/materialintro/sample/ToolbarMenuItemActivity.kt: (35, 19): 'setDrawerListener(DrawerLayout.DrawerListener!): Unit' is deprecated. Deprecated in Java
+
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
 > Task :materialintro:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:prepareLintJar
+> Task :sample:lintVitalRelease
 > Task :sample:checkReleaseDuplicateClasses
+> Task :sample:dexBuilderRelease
 > Task :materialintro:bundleLibRuntimeRelease
+> Task :sample:mergeExtDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :materialintro:mergeReleaseShaders UP-TO-DATE
 > Task :materialintro:compileReleaseShaders UP-TO-DATE
 > Task :materialintro:generateReleaseAssets UP-TO-DATE
@@ -239,44 +247,24 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
 > Task :materialintro:processReleaseJavaRes NO-SOURCE
+> Task :materialintro:bundleLibResRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:signingConfigWriterRelease
 > Task :materialintro:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :materialintro:mergeReleaseNativeLibs UP-TO-DATE
 > Task :materialintro:stripReleaseDebugSymbols UP-TO-DATE
-> Task :materialintro:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :materialintro:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseJniLibFolders
-> Task :materialintro:bundleLibResRelease
-> Task :sample:mergeExtDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
-> Task :sample:mergeReleaseResources
-> Task :sample:processReleaseResources
-
-> Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/src/main/java/com/codertainment/materialintro/sample/MainActivity.kt: (34, 12): 'setDrawerListener(DrawerLayout.DrawerListener!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/src/main/java/com/codertainment/materialintro/sample/ToolbarMenuItemActivity.kt: (39, 19): 'setDrawerListener(DrawerLayout.DrawerListener!): Unit' is deprecated. Deprecated in Java
-
-> Task :sample:mergeExtDexRelease
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
-> Task :sample:javaPreCompileRelease
-> Task :sample:compileReleaseJavaWithJavac
-> Task :sample:compileReleaseSources
-> Task :sample:lintVitalRelease
-> Task :sample:transformClassesWithDexBuilderForRelease
 > Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 12s
+93 actionable tasks: 62 executed, 31 up-to-date
 
-BUILD SUCCESSFUL in 48s
-93 actionable tasks: 60 executed, 33 up-to-date
-
-2020-03-29 01:54:49,256 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421593567-0/src/MaterialIntroView-v2-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-07-29 21:00:30,170 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596031075788-0/src/MaterialIntroView-v2-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

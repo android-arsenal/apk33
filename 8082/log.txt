@@ -1,128 +1,71 @@
-2020-04-23 18:51:26,198 INFO  DownloadService - Downloading "https://github.com/bawaviki/youtube-dl-android/archive/master.zip", attempt 3
-2020-04-23 18:51:35,866 INFO  VirusProcessorServiceImpl - Queued project 8083 to scan viruses
-2020-04-23 18:51:44,563 INFO  DownloadService - Downloaded https://github.com/bawaviki/youtube-dl-android/archive/master.zip, attempt 3
-2020-04-23 18:51:44,563 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/master.zip": 30 MB
-2020-04-23 18:51:44,563 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-23 18:51:44,564 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/master.zip: true
-2020-04-23 18:51:44,565 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src'.
-2020-04-23 18:51:44,727 INFO  FullProcessService - Size of directory with sources: 30 MB
-2020-04-23 18:51:44,727 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src]
-2020-04-23 18:51:44,760 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/.git/
+2020-07-29 20:51:52,882 INFO  DownloadService - Downloading "https://github.com/bawaviki/youtube-dl-android/archive/master.zip", attempt 3
+2020-07-29 20:51:53,544 INFO  DownloadService - Downloaded https://github.com/bawaviki/youtube-dl-android/archive/master.zip, attempt 3
+2020-07-29 20:51:53,544 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/master.zip": 241 KB
+2020-07-29 20:51:53,545 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-29 20:51:53,545 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/master.zip: true
+2020-07-29 20:51:53,545 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src'.
+2020-07-29 20:51:53,581 INFO  FullProcessService - Size of directory with sources: 559 KB
+2020-07-29 20:51:53,581 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src]
+2020-07-29 20:51:53,606 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/.git/
 
-2020-04-23 18:51:44,765 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/gradlew
-2020-04-23 18:51:44,771 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/ffmpeg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/build.gradle
-2020-04-23 18:51:44,776 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/ffmpeg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/settings.gradle
-2020-04-23 18:51:44,776 INFO  ProjectBuildService - Remote scripts: none
-2020-04-23 18:51:44,776 INFO  ProjectFixService - Fixing project...
-2020-04-23 18:51:44,788 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/app/local.properties
-2020-04-23 18:51:44,789 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-04-23 18:51:44,790 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-04-23 18:51:44,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/ffmpeg/local.properties
-2020-04-23 18:51:44,791 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/ffmpeg/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-04-23 18:51:44,792 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/ffmpeg/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-04-23 18:51:44,792 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/library/local.properties
-2020-04-23 18:51:44,794 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-04-23 18:51:44,794 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-04-23 18:51:44,795 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/local.properties
-2020-04-23 18:51:44,795 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2020-04-23 18:51:44,796 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2020-04-23 18:51:44,797 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-04-23 18:51:44,797 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-04-23 18:51:44,798 INFO  ProjectFixService - Project was maybe fixed
-2020-04-23 18:51:44,798 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:51:44,798 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:52:19,256 INFO  ProjectTaskService - Detected possible tasks: 71
-2020-04-23 18:52:19,257 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-04-23 18:52:19,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-04-23 18:53:40,028 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-29 20:51:53,612 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/gradlew
+2020-07-29 20:51:53,618 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/ffmpeg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/build.gradle
+2020-07-29 20:51:53,625 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/ffmpeg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/settings.gradle
+2020-07-29 20:51:53,626 INFO  ProjectBuildService - Remote scripts: none
+2020-07-29 20:51:53,626 INFO  ProjectFixService - Fixing project...
+2020-07-29 20:51:53,650 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/app/local.properties
+2020-07-29 20:51:53,652 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-07-29 20:51:53,652 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-07-29 20:51:53,654 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/ffmpeg/local.properties
+2020-07-29 20:51:53,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/ffmpeg/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-07-29 20:51:53,656 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/ffmpeg/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-07-29 20:51:53,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/library/local.properties
+2020-07-29 20:51:53,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-07-29 20:51:53,659 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-07-29 20:51:53,660 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/local.properties
+2020-07-29 20:51:53,661 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-07-29 20:51:53,661 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-07-29 20:51:53,663 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-07-29 20:51:53,663 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-07-29 20:51:53,664 INFO  ProjectFixService - Project was maybe fixed
+2020-07-29 20:51:53,664 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-29 20:51:53,664 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-29 20:52:17,540 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-07-29 20:52:17,541 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-29 20:52:17,541 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-29 20:52:31,046 INFO  VirusProcessorServiceImpl - Queued project 8085 to scan viruses
+2020-07-29 20:53:34,503 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
+:ffmpeg:preBuild UP-TO-DATE
+:ffmpeg:preDebugBuild UP-TO-DATE
+:ffmpeg:checkDebugManifest
+:ffmpeg:processDebugManifest
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:checkDebugManifest
 :library:processDebugManifest
 :app:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.3/constraint-layout-1.1.3.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0/appcompat-v7-28.0.0.pom
-Download https://jcenter.bintray.com/com/orhanobut/logger/2.2.0/logger-2.2.0.pom
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.1.0/rxandroid-2.1.0.pom
-Download https://jcenter.bintray.com/com/devbrackets/android/exomedia/4.3.0/exomedia-4.3.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0/support-compat-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0/collections-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0/cursoradapter-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0/support-vector-drawable-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0/support-annotations-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0/support-core-utils-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0/animated-vector-drawable-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0/support-fragment-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.3/constraint-layout-solver-1.1.3.pom
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.2.0/rxjava-2.2.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/28.0.0/support-media-compat-28.0.0.pom
-Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-core/2.9.1/exoplayer-core-2.9.1.pom
-Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-hls/2.9.1/exoplayer-hls-2.9.1.pom
-Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-smoothstreaming/2.9.1/exoplayer-smoothstreaming-2.9.1.pom
-Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-dash/2.9.1/exoplayer-dash-2.9.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0/versionedparcelable-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.1/runtime-1.1.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0/localbroadcastmanager-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0/documentfile-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0/print-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0/loader-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.1/viewmodel-1.1.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0/support-core-ui-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.1/common-1.1.1.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.1/common-1.1.1.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata/1.1.1/livedata-1.1.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0/swiperefreshlayout-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0/coordinatorlayout-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0/viewpager-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0/customview-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0/slidingpanelayout-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0/drawerlayout-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0/interpolator-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0/asynclayoutinflater-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.1/runtime-1.1.1.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.1/livedata-core-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/28.0.0/design-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/28.0.0/cardview-v7-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/28.0.0/recyclerview-v7-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/28.0.0/transition-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/28.0.0/design-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.3/constraint-layout-1.1.3.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0/animated-vector-drawable-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0/support-fragment-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0/appcompat-v7-28.0.0.aar
-Download https://jcenter.bintray.com/com/orhanobut/logger/2.2.0/logger-2.2.0.aar
-Download https://jcenter.bintray.com/com/devbrackets/android/exomedia/4.3.0/exomedia-4.3.0.aar
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.1.0/rxandroid-2.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0/support-core-ui-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0/support-core-utils-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0/support-vector-drawable-28.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/28.0.0/recyclerview-v7-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/28.0.0/support-media-compat-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0/loader-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0/coordinatorlayout-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0/drawerlayout-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0/viewpager-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0/slidingpanelayout-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0/customview-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0/support-compat-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0/swiperefreshlayout-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0/asynclayoutinflater-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0/cursoradapter-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0/versionedparcelable-28.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/28.0.0/transition-28.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/28.0.0/cardview-v7-28.0.0.aar
+Download https://jcenter.bintray.com/com/devbrackets/android/exomedia/4.3.0/exomedia-4.3.0.aar
+Download https://jcenter.bintray.com/com/orhanobut/logger/2.2.0/logger-2.2.0.aar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.1.0/rxandroid-2.1.0.aar
 Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-hls/2.9.1/exoplayer-hls-2.9.1.aar
 Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-dash/2.9.1/exoplayer-dash-2.9.1.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.1/runtime-1.1.1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0/documentfile-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0/localbroadcastmanager-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0/print-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata/1.1.1/livedata-1.1.1.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.1/livedata-core-1.1.1.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.1/viewmodel-1.1.1.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.1/runtime-1.1.1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0/interpolator-28.0.0.aar
 Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-smoothstreaming/2.9.1/exoplayer-smoothstreaming-2.9.1.aar
 Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-core/2.9.1/exoplayer-core-2.9.1.aar
-Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/jackson-base/2.9.8/jackson-base-2.9.8.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.pom
 :library:compileDebugAidl
+:ffmpeg:compileDebugAidl
 :app:compileDebugAidl
+:ffmpeg:packageDebugRenderscript NO-SOURCE
 :library:packageDebugRenderscript NO-SOURCE
 :app:compileDebugRenderscript
 :app:checkDebugManifest
@@ -131,6 +74,10 @@ Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9
 :app:mainApkListPersistenceDebug
 :app:generateDebugResValues
 :app:generateDebugResources
+:ffmpeg:compileDebugRenderscript
+:ffmpeg:generateDebugResValues
+:ffmpeg:generateDebugResources
+:ffmpeg:packageDebugResources
 :library:compileDebugRenderscript
 :library:generateDebugResValues
 :library:generateDebugResources
@@ -139,22 +86,24 @@ Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9
 :app:createDebugCompatibleScreenManifests
 :app:processDebugManifest
 :app:splitsDiscoveryTaskDebug
+:ffmpeg:platformAttrExtractor
 :library:platformAttrExtractor
+:ffmpeg:generateDebugBuildConfig
+:ffmpeg:prepareLintJar
 :library:generateDebugBuildConfig
 :library:prepareLintJar
 :library:javaPreCompileDebug
-Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0/collections-28.0.0.jar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.1/common-1.1.1.jar
-Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.1/common-1.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0/support-annotations-28.0.0.jar
 Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8.jar
-Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar
-Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
 :library:processDebugJavaRes NO-SOURCE
+:ffmpeg:processDebugJavaRes NO-SOURCE
 :app:compileDebugNdk NO-SOURCE
 :app:mergeDebugShaders
 :app:compileDebugShaders
 :app:generateDebugAssets
+:ffmpeg:mergeDebugShaders
+:ffmpeg:compileDebugShaders
+:ffmpeg:generateDebugAssets
+:ffmpeg:packageDebugAssets
 :library:mergeDebugShaders
 :library:compileDebugShaders
 :library:generateDebugAssets
@@ -162,6 +111,11 @@ Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9
 :app:mergeDebugAssets
 :app:extractTryWithResourcesSupportJarDebug
 :app:mergeDebugJniLibFolders
+:ffmpeg:compileDebugNdk NO-SOURCE
+:ffmpeg:mergeDebugJniLibFolders
+:ffmpeg:transformNativeLibsWithMergeJniLibsForDebug
+:ffmpeg:transformNativeLibsWithStripDebugSymbolForDebug
+:ffmpeg:transformNativeLibsWithIntermediateJniLibsForDebug
 :library:compileDebugNdk NO-SOURCE
 :library:mergeDebugJniLibFolders
 :library:transformNativeLibsWithMergeJniLibsForDebug
@@ -169,12 +123,17 @@ Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9
 :library:transformNativeLibsWithIntermediateJniLibsForDebug
 :app:processDebugJavaRes NO-SOURCE
 :app:validateSigningDebug
+:ffmpeg:preReleaseBuild UP-TO-DATE
+:ffmpeg:checkReleaseManifest
+:ffmpeg:processReleaseManifest
 :library:preReleaseBuild UP-TO-DATE
 :library:checkReleaseManifest
 :library:processReleaseManifest
 :app:preReleaseBuild
 :library:compileReleaseAidl
+:ffmpeg:compileReleaseAidl
 :app:compileReleaseAidl
+:ffmpeg:packageReleaseRenderscript NO-SOURCE
 :library:packageReleaseRenderscript NO-SOURCE
 :app:compileReleaseRenderscript
 :app:checkReleaseManifest
@@ -182,7 +141,13 @@ Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9
 :app:mainApkListPersistenceRelease
 :app:generateReleaseResValues
 :app:generateReleaseResources
+:ffmpeg:compileReleaseRenderscript
+:ffmpeg:generateReleaseResValues
+:ffmpeg:generateReleaseResources
+:ffmpeg:packageReleaseResources
 :library:compileReleaseRenderscript
+:ffmpeg:generateDebugRFile
+:ffmpeg:generateDebugSources
 :library:generateReleaseResValues
 :library:generateReleaseResources
 :library:packageReleaseResources
@@ -190,13 +155,21 @@ Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9
 :app:createReleaseCompatibleScreenManifests
 :app:processReleaseManifest
 :app:splitsDiscoveryTaskRelease
+:ffmpeg:generateReleaseRFile
+:ffmpeg:generateReleaseBuildConfig
+:ffmpeg:generateReleaseSources
 :library:generateReleaseBuildConfig
 :library:javaPreCompileRelease
 :library:processReleaseJavaRes NO-SOURCE
+:ffmpeg:processReleaseJavaRes NO-SOURCE
 :app:compileReleaseNdk NO-SOURCE
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
+:ffmpeg:mergeReleaseShaders
+:ffmpeg:compileReleaseShaders
+:ffmpeg:generateReleaseAssets
+:ffmpeg:packageReleaseAssets
 :library:mergeReleaseShaders
 :library:compileReleaseShaders
 :library:generateReleaseAssets
@@ -204,6 +177,11 @@ Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9
 :app:mergeReleaseAssets
 :app:extractTryWithResourcesSupportJarRelease
 :app:mergeReleaseJniLibFolders
+:ffmpeg:compileReleaseNdk NO-SOURCE
+:ffmpeg:mergeReleaseJniLibFolders
+:ffmpeg:transformNativeLibsWithMergeJniLibsForRelease
+:ffmpeg:transformNativeLibsWithStripDebugSymbolForRelease
+:ffmpeg:transformNativeLibsWithIntermediateJniLibsForRelease
 :library:compileReleaseNdk NO-SOURCE
 :library:mergeReleaseJniLibFolders
 :library:transformNativeLibsWithMergeJniLibsForRelease
@@ -214,12 +192,21 @@ Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.9
 :app:processDebugResources
 :app:generateDebugSources
 :library:generateDebugSources
-:library:compileDebugJavaWithJavac
+:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/library/src/main/java/com/bawaviki/youtubedl_android/YoutubeDL.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:ffmpeg:javaPreCompileDebug
+:ffmpeg:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/ffmpeg/src/main/java/com/bawaviki/ffmpeg/FFmpeg.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:ffmpeg:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
 Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.3/constraint-layout-solver-1.1.3.jar
 Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.2.0/rxjava-2.2.0.jar
-:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/app/src/main/java/com/bawaviki/youtubedl_android_example/StreamingExampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 :app:compileDebugSources
 :app:transformClassesWithStackFramesFixerForDebug
 :app:transformClassesWithDesugarForDebug
@@ -235,40 +222,33 @@ Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.2.0/rxjava-2.
 :app:processReleaseResources
 :app:generateReleaseSources
 :library:generateReleaseSources
-:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/library/src/main/java/com/bawaviki/youtubedl_android/YoutubeDL.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:ffmpeg:javaPreCompileRelease
+:ffmpeg:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/ffmpeg/src/main/java/com/bawaviki/ffmpeg/FFmpeg.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:ffmpeg:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/app/src/main/java/com/bawaviki/youtubedl_android_example/StreamingExampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 :app:compileReleaseSources
 :app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.4/lint-gradle-26.1.4.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.4/intellij-core-26.1.4.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.4/lint-26.1.4.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.4/uast-26.1.4.pom
-Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.4/kotlin-compiler-26.1.4.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.4/lint-kotlin-26.1.4.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.4/lint-checks-26.1.4.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.4/lint-api-26.1.4.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.4/lint-26.1.4.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.4/lint-api-26.1.4.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.4/lint-checks-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.4/intellij-core-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.4/lint-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.4/lint-kotlin-26.1.4.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.4/lint-gradle-26.1.4.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.4/uast-26.1.4.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.4/lint-kotlin-26.1.4.jar
-Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.4/intellij-core-26.1.4.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.4/kotlin-compiler-26.1.4.jar
-Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.jar
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/runner/1.0.2/runner-1.0.2.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/3.0.2/espresso-core-3.0.2.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.1/support-annotations-27.1.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/monitor/1.0.2/monitor-1.0.2.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-idling-resource/3.0.2/espresso-idling-resource-3.0.2.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/runner/1.0.2/runner-1.0.2.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/3.0.2/espresso-core-3.0.2.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/monitor/1.0.2/monitor-1.0.2.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-idling-resource/3.0.2/espresso-idling-resource-3.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/runner/1.0.2/runner-1.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/monitor/1.0.2/monitor-1.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/3.0.2/espresso-core-3.0.2.aar
 :app:transformClassesWithStackFramesFixerForRelease
 :app:transformClassesWithDesugarForRelease
 :app:transformClassesWithDexBuilderForRelease
@@ -282,7 +262,7 @@ Download https://dl.google.com/dl/android/maven2/com/android/support/test/espres
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 19s
-97 actionable tasks: 97 executed
+BUILD SUCCESSFUL in 1m 16s
+135 actionable tasks: 135 executed
 
-2020-04-23 18:53:40,159 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642686193-0/src/youtube-dl-android-master/app/build/outputs/apk/debug/app-debug.apk
+2020-07-29 20:53:34,664 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030712878-0/src/youtube-dl-android-master/app/build/outputs/apk/debug/app-debug.apk
