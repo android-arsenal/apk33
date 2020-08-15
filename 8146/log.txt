@@ -1,0 +1,187 @@
+2020-08-16 01:46:29,577 INFO  DownloadService - Downloading "https://github.com/prathanbomb/telepathy-ipc/archive/master.zip", attempt 3
+2020-08-16 01:46:36,224 INFO  DownloadService - Downloading "https://github.com/prathanbomb/telepathy-ipc/archive/master.zip", attempt 2
+2020-08-16 01:46:42,012 INFO  DownloadService - Downloading "https://github.com/prathanbomb/telepathy-ipc/archive/master.zip", attempt 1
+2020-08-16 01:47:42,129 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-08-16 01:47:43,361 INFO  GithubDownloadService - Default branch of this repository: github
+2020-08-16 01:47:43,361 INFO  DownloadService - Downloading "https://github.com/prathanbomb/telepathy-ipc/archive/github.zip", attempt 3
+2020-08-16 01:48:44,841 DEBUG FullProcessService - Repository https://github.com/prathanbomb/telepathy-ipc available: true
+2020-08-16 01:48:44,841 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-08-16 01:48:44,844 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/prathanbomb/telepathy-ipc, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src]
+2020-08-16 01:48:47,065 INFO  SysUtils - 
+2020-08-16 01:48:47,093 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/.git": true
+2020-08-16 01:48:47,105 INFO  FullProcessService - Size of directory with sources: 249 KB
+2020-08-16 01:48:47,105 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src]
+2020-08-16 01:48:47,126 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/.git/
+
+2020-08-16 01:48:47,141 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/gradlew
+2020-08-16 01:48:47,158 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-a/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-b/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/telepathy-ipc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/build.gradle
+2020-08-16 01:48:47,169 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-a/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/telepathy-ipc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-b/build.gradle
+2020-08-16 01:48:47,172 INFO  ProjectBuildService - Remote scripts: none
+2020-08-16 01:48:47,173 INFO  ProjectFixService - Fixing project...
+2020-08-16 01:48:47,231 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2020-08-16 01:48:47,231 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2020-08-16 01:48:47,262 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2020-08-16 01:48:47,264 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 28.0.0-rc1 28.0.0-rc2
+2020-08-16 01:48:47,286 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2020-08-16 01:48:47,287 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2020-08-16 01:48:47,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-a/local.properties
+2020-08-16 01:48:47,293 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-a/build.gradle": [buildToolsVersion=30.0.1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-08-16 01:48:47,295 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-a/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-08-16 01:48:47,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-b/local.properties
+2020-08-16 01:48:47,299 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-b/build.gradle": [buildToolsVersion=30.0.1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-08-16 01:48:47,299 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-b/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-08-16 01:48:47,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/telepathy-ipc/local.properties
+2020-08-16 01:48:47,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/telepathy-ipc/build.gradle": [buildToolsVersion=30.0.1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=29]
+2020-08-16 01:48:47,303 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/telepathy-ipc/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-08-16 01:48:47,306 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/local.properties
+2020-08-16 01:48:47,312 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-08-16 01:48:47,313 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-08-16 01:48:47,315 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-08-16 01:48:47,315 INFO  ProjectFixService - Project was maybe fixed
+2020-08-16 01:48:47,318 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-16 01:48:47,318 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-a/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-16 01:49:57,228 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-08-16 01:49:57,230 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-08-16 01:49:57,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-a/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-08-16 01:52:27,349 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :app-a:preBuild UP-TO-DATE
+> Task :app-a:preDebugBuild UP-TO-DATE
+> Task :telepathy-ipc:preBuild UP-TO-DATE
+> Task :telepathy-ipc:preDebugBuild UP-TO-DATE
+> Task :telepathy-ipc:compileDebugAidl NO-SOURCE
+> Task :app-a:compileDebugAidl NO-SOURCE
+> Task :telepathy-ipc:packageDebugRenderscript NO-SOURCE
+> Task :app-a:compileDebugRenderscript NO-SOURCE
+> Task :app-a:generateDebugBuildConfig
+> Task :app-a:generateDebugResValues
+> Task :app-a:generateDebugResources
+> Task :telepathy-ipc:generateDebugResValues
+> Task :telepathy-ipc:compileDebugRenderscript NO-SOURCE
+> Task :telepathy-ipc:generateDebugResources
+> Task :telepathy-ipc:packageDebugResources
+> Task :app-a:createDebugCompatibleScreenManifests
+> Task :app-a:extractDeepLinksDebug
+> Task :telepathy-ipc:extractDeepLinksDebug
+> Task :app-a:mergeDebugResources
+> Task :telepathy-ipc:compileDebugLibraryResources
+> Task :telepathy-ipc:processDebugManifest
+> Task :app-a:processDebugManifest
+> Task :telepathy-ipc:generateDebugBuildConfig
+> Task :telepathy-ipc:javaPreCompileDebug
+> Task :app-a:javaPreCompileDebug
+> Task :app-a:mergeDebugShaders
+> Task :app-a:compileDebugShaders NO-SOURCE
+> Task :app-a:generateDebugAssets UP-TO-DATE
+> Task :telepathy-ipc:mergeDebugShaders
+> Task :telepathy-ipc:compileDebugShaders NO-SOURCE
+> Task :telepathy-ipc:generateDebugAssets UP-TO-DATE
+> Task :telepathy-ipc:packageDebugAssets
+> Task :app-a:mergeDebugAssets
+> Task :telepathy-ipc:parseDebugLocalResources
+> Task :app-a:processDebugJavaRes NO-SOURCE
+> Task :telepathy-ipc:processDebugJavaRes NO-SOURCE
+> Task :telepathy-ipc:generateDebugRFile
+> Task :app-a:processDebugResources
+> Task :telepathy-ipc:compileDebugKotlin
+> Task :telepathy-ipc:compileDebugJavaWithJavac
+> Task :telepathy-ipc:bundleLibResDebug
+> Task :telepathy-ipc:bundleLibCompileToJarDebug
+> Task :app-a:compileDebugKotlin
+> Task :app-a:compileDebugJavaWithJavac
+> Task :app-a:compileDebugSources
+> Task :app-a:checkDebugDuplicateClasses
+> Task :app-a:desugarDebugFileDependencies
+> Task :telepathy-ipc:bundleLibRuntimeToJarDebug
+> Task :app-a:dexBuilderDebug
+> Task :app-a:mergeDebugJavaResource
+> Task :app-a:mergeLibDexDebug
+> Task :app-a:mergeDebugJniLibFolders
+> Task :telepathy-ipc:mergeDebugJniLibFolders
+> Task :app-a:validateSigningDebug
+> Task :app-a:preReleaseBuild UP-TO-DATE
+> Task :telepathy-ipc:extractProguardFiles
+> Task :telepathy-ipc:preReleaseBuild
+> Task :telepathy-ipc:compileReleaseAidl NO-SOURCE
+> Task :app-a:compileReleaseAidl NO-SOURCE
+> Task :telepathy-ipc:packageReleaseRenderscript NO-SOURCE
+> Task :app-a:compileReleaseRenderscript NO-SOURCE
+> Task :app-a:generateReleaseBuildConfig
+> Task :app-a:generateReleaseResValues
+> Task :app-a:generateReleaseResources
+> Task :telepathy-ipc:compileReleaseRenderscript NO-SOURCE
+> Task :telepathy-ipc:generateReleaseResValues
+> Task :telepathy-ipc:generateReleaseResources
+> Task :telepathy-ipc:packageReleaseResources
+> Task :app-a:mergeProjectDexDebug
+> Task :app-a:createReleaseCompatibleScreenManifests
+> Task :app-a:extractDeepLinksRelease
+> Task :telepathy-ipc:extractDeepLinksRelease
+> Task :telepathy-ipc:mergeDebugNativeLibs
+> Task :telepathy-ipc:stripDebugDebugSymbols NO-SOURCE
+> Task :telepathy-ipc:copyDebugJniLibsProjectOnly
+> Task :telepathy-ipc:compileReleaseLibraryResources
+> Task :telepathy-ipc:generateReleaseBuildConfig
+> Task :telepathy-ipc:processReleaseManifest
+> Task :app-a:processReleaseManifest
+> Task :telepathy-ipc:javaPreCompileRelease
+> Task :app-a:mergeReleaseResources
+> Task :telepathy-ipc:parseReleaseLocalResources
+> Task :app-a:mergeDebugNativeLibs
+> Task :app-a:stripDebugDebugSymbols NO-SOURCE
+> Task :app-a:javaPreCompileRelease
+> Task :app-a:prepareLintJar
+> Task :app-a:checkReleaseDuplicateClasses
+> Task :telepathy-ipc:generateReleaseRFile
+> Task :app-a:processReleaseResources
+> Task :telepathy-ipc:compileReleaseKotlin
+> Task :telepathy-ipc:compileReleaseJavaWithJavac
+> Task :telepathy-ipc:prepareLintJarForPublish
+> Task :telepathy-ipc:bundleLibCompileToJarRelease
+> Task :app-a:compileReleaseKotlin
+> Task :app-a:compileReleaseJavaWithJavac
+> Task :app-a:compileReleaseSources
+> Task :app-a:mergeExtDexDebug
+> Task :telepathy-ipc:bundleLibRuntimeToJarRelease
+> Task :app-a:lintVitalRelease
+> Task :app-a:packageDebug
+> Task :app-a:assembleDebug
+> Task :app-a:dexBuilderRelease
+> Task :app-a:desugarReleaseFileDependencies
+> Task :app-a:mergeReleaseShaders
+> Task :app-a:compileReleaseShaders NO-SOURCE
+> Task :app-a:generateReleaseAssets UP-TO-DATE
+> Task :telepathy-ipc:mergeReleaseShaders
+> Task :telepathy-ipc:compileReleaseShaders NO-SOURCE
+> Task :telepathy-ipc:generateReleaseAssets UP-TO-DATE
+> Task :telepathy-ipc:packageReleaseAssets
+> Task :app-a:mergeReleaseAssets
+> Task :app-a:processReleaseJavaRes NO-SOURCE
+> Task :telepathy-ipc:processReleaseJavaRes NO-SOURCE
+> Task :app-a:collectReleaseDependencies
+> Task :app-a:sdkReleaseDependencyData
+> Task :app-a:mergeReleaseJniLibFolders
+> Task :telepathy-ipc:mergeReleaseJniLibFolders
+> Task :telepathy-ipc:bundleLibResRelease
+> Task :telepathy-ipc:mergeReleaseNativeLibs
+> Task :telepathy-ipc:stripReleaseDebugSymbols NO-SOURCE
+> Task :telepathy-ipc:copyReleaseJniLibsProjectOnly
+> Task :app-a:mergeReleaseNativeLibs
+> Task :app-a:stripReleaseDebugSymbols NO-SOURCE
+> Task :app-a:mergeReleaseJavaResource
+> Task :app-a:mergeExtDexRelease
+> Task :app-a:mergeDexRelease
+> Task :app-a:packageRelease
+> Task :app-a:assembleRelease
+> Task :app-a:assemble
+> Task :app-a:build
+
+BUILD SUCCESSFUL in 2m 28s
+88 actionable tasks: 88 executed
+
+2020-08-16 01:52:27,426 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517189490-0/src/app-a/build/outputs/apk/release/app-a-release-unsigned.apk

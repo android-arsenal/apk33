@@ -1,43 +1,41 @@
-2020-05-20 13:53:34,833 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiNFC/archive/master.zip", attempt 3
-2020-05-20 13:53:37,375 INFO  DownloadService - Downloaded https://github.com/romellfudi/FudiNFC/archive/master.zip, attempt 3
-2020-05-20 13:53:37,376 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/master.zip": 263 KB
-2020-05-20 13:53:37,376 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-05-20 13:53:37,407 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/master.zip: true
-2020-05-20 13:53:37,409 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src'.
-2020-05-20 13:53:37,524 INFO  FullProcessService - Size of directory with sources: 354 KB
-2020-05-20 13:53:37,529 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src]
-2020-05-20 13:53:37,585 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/.git/
+2020-08-16 02:25:55,819 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiNFC/archive/master.zip", attempt 3
+2020-08-16 02:26:09,316 INFO  VirusProcessorServiceImpl - Queued project 8122 to scan viruses
+2020-08-16 02:26:56,446 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-08-16 02:26:57,360 INFO  GithubDownloadService - Default branch of this repository: master
+2020-08-16 02:26:57,361 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiNFC/archive/master.zip", attempt 3
+2020-08-16 02:27:58,738 DEBUG FullProcessService - Repository https://github.com/romellfudi/FudiNFC available: true
+2020-08-16 02:27:58,738 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-08-16 02:27:58,738 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/romellfudi/FudiNFC, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src]
+2020-08-16 02:28:00,994 INFO  SysUtils - 
+2020-08-16 02:28:01,003 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/.git": true
+2020-08-16 02:28:01,008 INFO  FullProcessService - Size of directory with sources: 483 KB
+2020-08-16 02:28:01,008 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src]
+2020-08-16 02:28:01,027 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/.git/
 
-2020-05-20 13:53:37,605 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/gradlew
-2020-05-20 13:53:37,622 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/fudi-nfc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/build.gradle
-2020-05-20 13:53:37,631 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/fudi-nfc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/settings.gradle
-2020-05-20 13:53:37,640 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle", attempt 3
-2020-05-20 13:53:38,209 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle, attempt 3
-2020-05-20 13:53:38,210 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle", attempt 3
-2020-05-20 13:53:38,491 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle, attempt 3
-2020-05-20 13:53:38,497 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle
-2020-05-20 13:53:38,498 INFO  ProjectFixService - Fixing project...
-2020-05-20 13:53:38,564 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2020-05-20 13:53:38,565 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2020-05-20 13:53:38,587 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2020-05-20 13:53:38,589 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 28.0.0-rc1 28.0.0-rc2
-2020-05-20 13:53:38,615 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2020-05-20 13:53:38,616 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2020-05-20 13:53:38,617 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/local.properties
-2020-05-20 13:53:38,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2020-05-20 13:53:38,625 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/fudi-nfc/local.properties
-2020-05-20 13:53:38,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/fudi-nfc/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2020-05-20 13:53:38,626 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/local.properties
-2020-05-20 13:53:38,627 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-05-20 13:53:38,628 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-05-20 13:53:38,629 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2020-05-20 13:53:38,630 INFO  ProjectFixService - Project was maybe fixed
-2020-05-20 13:53:38,632 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-20 13:53:38,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-20 13:53:50,962 INFO  ProjectTaskService - Detected possible tasks: 70
-2020-05-20 13:53:50,963 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-05-20 13:53:50,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-05-20 13:53:56,185 ERROR SysUtils - Could not process external command
+2020-08-16 02:28:01,031 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/gradlew
+2020-08-16 02:28:01,035 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/fudi-nfc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/build.gradle
+2020-08-16 02:28:01,039 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/fudi-nfc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/settings.gradle
+2020-08-16 02:28:01,040 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle", attempt 3
+2020-08-16 02:28:01,325 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle, attempt 3
+2020-08-16 02:28:01,325 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle", attempt 3
+2020-08-16 02:28:01,815 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle, attempt 3
+2020-08-16 02:28:01,815 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle
+2020-08-16 02:28:01,815 INFO  ProjectFixService - Fixing project...
+2020-08-16 02:28:01,830 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/local.properties
+2020-08-16 02:28:01,830 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2020-08-16 02:28:01,831 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/fudi-nfc/local.properties
+2020-08-16 02:28:01,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/fudi-nfc/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2020-08-16 02:28:01,832 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/local.properties
+2020-08-16 02:28:01,832 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-08-16 02:28:01,833 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-08-16 02:28:01,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2020-08-16 02:28:01,834 INFO  ProjectFixService - Project was maybe fixed
+2020-08-16 02:28:01,834 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-16 02:28:01,834 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-16 02:28:47,930 INFO  ProjectTaskService - Detected possible tasks: 77
+2020-08-16 02:28:47,930 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-08-16 02:28:47,930 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-08-16 02:28:53,886 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -65,7 +63,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-05-20 13:53:56,185 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-08-16 02:28:53,886 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -169,9 +167,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2020-05-20 13:53:56,185 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2020-05-20 13:53:56,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-05-20 13:54:57,466 ERROR SysUtils - Could not process external command
+2020-08-16 02:28:53,887 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2020-08-16 02:28:53,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-08-16 02:30:10,801 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -199,15 +197,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-05-20 13:54:57,466 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-08-16 02:30:10,807 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
 
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
@@ -216,16 +214,16 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:createDebugCompatibleScreenManifests
 
 > Task :app:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/AndroidManifest.xml:15:5-33:19 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/AndroidManifest.xml:15:5-33:19 Warning:
 	application@android:label was tagged at AndroidManifest.xml:15 to replace other declarations but no other declaration present
 
-> Task :app:mergeDebugResources
-> Task :app:processDebugResources
-> Task :app:kaptGenerateStubsDebugKotlin
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:mergeDebugResources
+> Task :app:processDebugResources
+> Task :app:kaptGenerateStubsDebugKotlin
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:checkDebugDuplicateClasses
 > Task :app:validateSigningDebug
@@ -242,27 +240,39 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:createReleaseCompatibleScreenManifests
 
 > Task :app:processReleaseManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/AndroidManifest.xml:15:5-33:19 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/AndroidManifest.xml:15:5-33:19 Warning:
 	application@android:label was tagged at AndroidManifest.xml:15 to replace other declarations but no other declaration present
 
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :app:kaptGenerateStubsReleaseKotlin
 > Task :app:kaptDebugKotlin
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (8, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (27, 35): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 36): Condition 'mProgressDialog != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 78): Unnecessary non-null assertion (!!) on a non-null receiver of type ProgressDialog
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (125, 20): Condition 'element != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (9, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (47, 13): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (55, 74): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (8, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (27, 35): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 36): Condition 'mProgressDialog != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 78): Unnecessary non-null assertion (!!) on a non-null receiver of type ProgressDialog
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (125, 20): Condition 'element != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (9, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (47, 13): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (55, 74): 'ProgressDialog' is deprecated. Deprecated in Java
+
+> Task :app:kaptReleaseKotlin
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (8, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (27, 35): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 36): Condition 'mProgressDialog != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 78): Unnecessary non-null assertion (!!) on a non-null receiver of type ProgressDialog
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (125, 20): Condition 'element != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (9, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (47, 13): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (55, 74): 'ProgressDialog' is deprecated. Deprecated in Java
 
 > Task :app:javaPreCompileDebug
 
@@ -271,29 +281,17 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
-> Task :app:kaptReleaseKotlin
 > Task :app:transformClassesWithDexBuilderForDebug
-
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (8, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (27, 35): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 36): Condition 'mProgressDialog != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 78): Unnecessary non-null assertion (!!) on a non-null receiver of type ProgressDialog
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (125, 20): Condition 'element != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (9, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (47, 13): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (55, 74): 'ProgressDialog' is deprecated. Deprecated in Java
-
-> Task :app:mergeDebugJavaResource
-> Task :app:mergeExtDexDebug
 > Task :app:javaPreCompileRelease
 
 > Task :app:compileReleaseJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease SKIPPED
+> Task :app:mergeDebugJavaResource
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -302,18 +300,16 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 
 > Task :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/6e5ea0b74d3525c5c9f60e32549066ce/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 Ran lint on variant debug: 36 issues found
 Ran lint on variant release: 36 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/build/reports/lint-results.xml
 
 > Task :app:lint FAILED
+> Task :app:mergeDexDebug
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeReleaseNativeLibs
 
@@ -334,10 +330,10 @@ Execution failed for task ':app:lint'.
   
   Errors found:
   
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/res/menu/main.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/res/menu/main.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
           android:showAsAction="never" />
           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/res/menu/nfc.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/res/menu/nfc.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
           android:showAsAction="never" />
           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
@@ -400,10 +396,10 @@ android {
 
 Errors found:
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/res/menu/main.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/res/menu/main.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
         android:showAsAction="never" />
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/src/main/res/menu/nfc.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/src/main/res/menu/nfc.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
         android:showAsAction="never" />
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -471,11 +467,249 @@ Errors found:
 
 * Get more help at https://help.gradle.org
 
+BUILD FAILED in 1m 16s
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+50 actionable tasks: 50 executed
+
+2020-08-16 02:30:10,902 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-16 02:30:10,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/fudi-nfc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-16 02:30:19,007 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-08-16 02:30:19,007 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-08-16 02:30:19,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/fudi-nfc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-08-16 02:30:32,973 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :fudi-nfc:preBuild UP-TO-DATE
+> Task :fudi-nfc:preDebugBuild UP-TO-DATE
+> Task :fudi-nfc:checkDebugManifest
+> Task :fudi-nfc:generateDebugBuildConfig
+> Task :fudi-nfc:generateDebugResValues
+> Task :fudi-nfc:mergeDebugShaders
+> Task :fudi-nfc:compileDebugShaders
+> Task :fudi-nfc:generateDebugAssets
+> Task :fudi-nfc:packageDebugAssets
+> Task :fudi-nfc:packageDebugRenderscript NO-SOURCE
+> Task :fudi-nfc:compileDebugAidl NO-SOURCE
+> Task :fudi-nfc:compileDebugRenderscript NO-SOURCE
+> Task :fudi-nfc:generateDebugResources
+> Task :fudi-nfc:packageDebugResources
+> Task :fudi-nfc:processDebugJavaRes NO-SOURCE
+> Task :fudi-nfc:mergeDebugJniLibFolders
+> Task :fudi-nfc:preReleaseBuild UP-TO-DATE
+> Task :fudi-nfc:compileReleaseAidl NO-SOURCE
+> Task :fudi-nfc:compileReleaseRenderscript NO-SOURCE
+> Task :fudi-nfc:checkReleaseManifest
+> Task :fudi-nfc:generateReleaseBuildConfig
+> Task :fudi-nfc:generateReleaseResValues
+> Task :fudi-nfc:generateReleaseResources
+> Task :fudi-nfc:packageReleaseResources
+> Task :fudi-nfc:parseDebugLibraryResources
+> Task :fudi-nfc:mergeDebugNativeLibs
+> Task :fudi-nfc:stripDebugDebugSymbols
+> Task :fudi-nfc:transformNativeLibsWithSyncJniLibsForDebug
+> Task :fudi-nfc:processReleaseManifest
+> Task :fudi-nfc:mergeReleaseShaders
+> Task :fudi-nfc:compileReleaseShaders
+> Task :fudi-nfc:generateReleaseAssets
+> Task :fudi-nfc:packageReleaseAssets
+> Task :fudi-nfc:packageReleaseRenderscript NO-SOURCE
+> Task :fudi-nfc:processReleaseJavaRes NO-SOURCE
+> Task :fudi-nfc:mergeReleaseJniLibFolders
+> Task :fudi-nfc:parseReleaseLibraryResources
+> Task :fudi-nfc:javaPreCompileDebug
+> Task :fudi-nfc:prepareLintJarForPublish
+> Task :fudi-nfc:javaPreCompileRelease
+> Task :fudi-nfc:mergeReleaseNativeLibs
+> Task :fudi-nfc:stripReleaseDebugSymbols
+> Task :fudi-nfc:transformNativeLibsWithSyncJniLibsForRelease
+> Task :fudi-nfc:processDebugManifest
+> Task :fudi-nfc:mergeReleaseResources
+> Task :fudi-nfc:generateDebugRFile
+> Task :fudi-nfc:compileDebugJavaWithJavac
+> Task :fudi-nfc:extractDebugAnnotations
+> Task :fudi-nfc:mergeDebugGeneratedProguardFiles
+> Task :fudi-nfc:mergeDebugConsumerProguardFiles
+> Task :fudi-nfc:generateReleaseRFile
+> Task :fudi-nfc:compileDebugSources
+> Task :fudi-nfc:compileReleaseJavaWithJavac
+> Task :fudi-nfc:extractReleaseAnnotations
+> Task :fudi-nfc:mergeReleaseGeneratedProguardFiles
+> Task :fudi-nfc:mergeReleaseConsumerProguardFiles
+> Task :fudi-nfc:compileReleaseSources
+> Task :fudi-nfc:verifyReleaseResources
+> Task :fudi-nfc:mergeDebugJavaResource
+> Task :fudi-nfc:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :fudi-nfc:bundleDebugAar
+> Task :fudi-nfc:assembleDebug
+> Task :fudi-nfc:mergeReleaseJavaResource
+> Task :fudi-nfc:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :fudi-nfc:bundleReleaseAar
+> Task :fudi-nfc:assembleRelease
+> Task :fudi-nfc:assemble
+> Task :fudi-nfc:build
+
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1m 0s
-51 actionable tasks: 51 executed
+BUILD SUCCESSFUL in 13s
+47 actionable tasks: 47 executed
 
-2020-05-20 13:54:57,603 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589957614754-0/src/FudiNFC-master/app/build/outputs/apk/debug/app-debug.apk
+2020-08-16 02:30:33,103 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-16 02:30:33,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-16 02:30:40,831 INFO  ProjectTaskService - Detected possible tasks: 75
+2020-08-16 02:30:40,831 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-08-16 02:30:40,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-08-16 02:31:02,263 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :app:kaptDebugKotlin UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:compileDebugSources UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDexDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest UP-TO-DATE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:mainApkListPersistenceRelease UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseResources UP-TO-DATE
+> Task :app:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+> Task :app:kaptReleaseKotlin UP-TO-DATE
+> Task :app:compileReleaseKotlin UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:compileReleaseSources UP-TO-DATE
+> Task :app:prepareLintJar UP-TO-DATE
+> Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+> Task :app:lintVitalRelease
+> Task :app:transformClassesWithDexBuilderForRelease UP-TO-DATE
+> Task :app:mergeReleaseShaders UP-TO-DATE
+> Task :app:compileReleaseShaders UP-TO-DATE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets UP-TO-DATE
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeReleaseJavaResource UP-TO-DATE
+> Task :app:signingConfigWriterRelease UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :app:mergeReleaseNativeLibs UP-TO-DATE
+> Task :app:stripReleaseDebugSymbols
+> Task :fudi-nfc:preBuild UP-TO-DATE
+> Task :fudi-nfc:preDebugBuild UP-TO-DATE
+> Task :fudi-nfc:checkDebugManifest UP-TO-DATE
+> Task :fudi-nfc:generateDebugBuildConfig UP-TO-DATE
+> Task :fudi-nfc:generateDebugResValues UP-TO-DATE
+> Task :fudi-nfc:processDebugManifest UP-TO-DATE
+> Task :fudi-nfc:mergeDebugShaders UP-TO-DATE
+> Task :fudi-nfc:compileDebugShaders UP-TO-DATE
+> Task :fudi-nfc:generateDebugAssets UP-TO-DATE
+> Task :fudi-nfc:packageDebugAssets UP-TO-DATE
+> Task :fudi-nfc:packageDebugRenderscript NO-SOURCE
+> Task :fudi-nfc:prepareLintJarForPublish UP-TO-DATE
+> Task :fudi-nfc:javaPreCompileDebug UP-TO-DATE
+> Task :fudi-nfc:processDebugJavaRes NO-SOURCE
+> Task :fudi-nfc:mergeDebugJniLibFolders UP-TO-DATE
+> Task :fudi-nfc:compileDebugRenderscript NO-SOURCE
+> Task :fudi-nfc:compileDebugAidl NO-SOURCE
+> Task :fudi-nfc:generateDebugResources UP-TO-DATE
+> Task :fudi-nfc:packageDebugResources UP-TO-DATE
+> Task :fudi-nfc:parseDebugLibraryResources UP-TO-DATE
+> Task :fudi-nfc:generateDebugRFile UP-TO-DATE
+> Task :fudi-nfc:compileDebugJavaWithJavac UP-TO-DATE
+> Task :fudi-nfc:extractDebugAnnotations UP-TO-DATE
+> Task :fudi-nfc:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :fudi-nfc:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :fudi-nfc:mergeDebugJavaResource UP-TO-DATE
+> Task :fudi-nfc:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :fudi-nfc:mergeDebugNativeLibs UP-TO-DATE
+> Task :fudi-nfc:stripDebugDebugSymbols UP-TO-DATE
+> Task :fudi-nfc:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :fudi-nfc:bundleDebugAar UP-TO-DATE
+> Task :fudi-nfc:compileDebugSources UP-TO-DATE
+> Task :fudi-nfc:assembleDebug UP-TO-DATE
+> Task :fudi-nfc:preReleaseBuild UP-TO-DATE
+> Task :fudi-nfc:compileReleaseAidl NO-SOURCE
+> Task :fudi-nfc:compileReleaseRenderscript NO-SOURCE
+> Task :fudi-nfc:checkReleaseManifest UP-TO-DATE
+> Task :fudi-nfc:generateReleaseBuildConfig UP-TO-DATE
+> Task :fudi-nfc:generateReleaseResValues UP-TO-DATE
+> Task :fudi-nfc:generateReleaseResources UP-TO-DATE
+> Task :fudi-nfc:packageReleaseResources UP-TO-DATE
+> Task :fudi-nfc:parseReleaseLibraryResources UP-TO-DATE
+> Task :fudi-nfc:processReleaseManifest UP-TO-DATE
+> Task :fudi-nfc:generateReleaseRFile UP-TO-DATE
+> Task :fudi-nfc:javaPreCompileRelease UP-TO-DATE
+> Task :fudi-nfc:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :fudi-nfc:extractReleaseAnnotations UP-TO-DATE
+> Task :fudi-nfc:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :fudi-nfc:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :fudi-nfc:mergeReleaseShaders UP-TO-DATE
+> Task :fudi-nfc:compileReleaseShaders UP-TO-DATE
+> Task :fudi-nfc:generateReleaseAssets UP-TO-DATE
+> Task :fudi-nfc:packageReleaseAssets UP-TO-DATE
+> Task :fudi-nfc:packageReleaseRenderscript NO-SOURCE
+> Task :fudi-nfc:processReleaseJavaRes NO-SOURCE
+> Task :fudi-nfc:mergeReleaseJavaResource UP-TO-DATE
+> Task :fudi-nfc:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :fudi-nfc:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :fudi-nfc:mergeReleaseNativeLibs UP-TO-DATE
+> Task :fudi-nfc:stripReleaseDebugSymbols UP-TO-DATE
+> Task :fudi-nfc:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :fudi-nfc:bundleReleaseAar UP-TO-DATE
+> Task :fudi-nfc:compileReleaseSources UP-TO-DATE
+> Task :fudi-nfc:mergeReleaseResources UP-TO-DATE
+> Task :app:mergeExtDexRelease
+> Task :fudi-nfc:verifyReleaseResources
+> Task :fudi-nfc:assembleRelease
+> Task :fudi-nfc:assemble
+> Task :fudi-nfc:build
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 21s
+102 actionable tasks: 7 executed, 95 up-to-date
+
+2020-08-16 02:31:02,394 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519555811-0/src/app/build/outputs/apk/debug/app-debug.apk
