@@ -41,8 +41,8 @@
   "dexClasses" : 8212,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0-DEBUG\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.mikhaellopez.mycleankotlinarchitecture.debug\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"29\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f100046\" android:label=\"MyCleanKotlinArchitecture\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.mikhaellopez.presentation.AndroidApplication\" android:debuggable=\"true\" android:allowBackup=\"false\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f10013b\" android:name=\"com.mikhaellopez.presentation.scenes.repolist.RepoListActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.mikhaellopez.presentation.scenes.repo.RepoActivity\" />\n\t\t<service android:name=\"androidx.room.MultiInstanceInvalidationService\" android:exported=\"false\" android:directBootAware=\"true\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 5810392,
-  "crc32" : 3018525427,
-  "sha256" : "2fc453d4236d100efd2adc305b6fab6c8541e598c0a72895f0fe59f8637c3ba3",
-  "buildTime" : 1591879224000
+  "fileSize" : 5810393,
+  "crc32" : 3852772432,
+  "sha256" : "779968ad954f6df88164707c6d9ebb68dac0b3625d53cb2003a22771c2e895df",
+  "buildTime" : 1598884742000
 }

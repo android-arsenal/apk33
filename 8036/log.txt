@@ -1,121 +1,121 @@
-2020-04-23 18:55:07,675 INFO  DownloadService - Downloading "https://github.com/fartem/adaptive-recycler-view/archive/master.zip", attempt 3
-2020-04-23 18:55:10,439 INFO  DownloadService - Downloaded https://github.com/fartem/adaptive-recycler-view/archive/master.zip, attempt 3
-2020-04-23 18:55:10,439 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/master.zip": 711 KB
-2020-04-23 18:55:10,439 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-23 18:55:10,440 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/master.zip: true
-2020-04-23 18:55:10,440 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src'.
-2020-04-23 18:55:10,470 INFO  FullProcessService - Size of directory with sources: 759 KB
-2020-04-23 18:55:10,470 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src]
-2020-04-23 18:55:10,489 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/.git/
+2020-08-31 22:12:21,421 INFO  DownloadService - Downloading "https://github.com/fartem/adaptive-recycler-view/archive/master.zip", attempt 3
+2020-08-31 22:12:33,407 INFO  VirusProcessorServiceImpl - Queued project 8037 to scan viruses
+2020-08-31 22:13:21,424 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-08-31 22:13:23,518 INFO  GithubDownloadService - Default branch of this repository: master
+2020-08-31 22:13:23,518 INFO  DownloadService - Downloading "https://github.com/fartem/adaptive-recycler-view/archive/master.zip", attempt 3
+2020-08-31 22:14:24,400 DEBUG FullProcessService - Repository https://github.com/fartem/adaptive-recycler-view available: true
+2020-08-31 22:14:24,400 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-08-31 22:14:24,400 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/fartem/adaptive-recycler-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src]
+2020-08-31 22:14:26,395 INFO  SysUtils - 
+2020-08-31 22:14:26,404 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/.git": true
+2020-08-31 22:14:26,408 INFO  FullProcessService - Size of directory with sources: 346 KB
+2020-08-31 22:14:26,408 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src]
+2020-08-31 22:14:26,428 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/.git/
 
-2020-04-23 18:55:10,493 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/gradlew
-2020-04-23 18:55:10,497 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/adaptiverecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/build.gradle
-2020-04-23 18:55:10,501 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/adaptiverecyclerview/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/adaptiverecyclerview/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/adaptiverecyclerview/build.gradle
-2020-04-23 18:55:10,502 INFO  ProjectBuildService - Remote scripts: none
-2020-04-23 18:55:10,502 INFO  ProjectFixService - Fixing project...
-2020-04-23 18:55:10,511 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/adaptiverecyclerview/local.properties
-2020-04-23 18:55:10,512 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/adaptiverecyclerview/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-04-23 18:55:10,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/demo/local.properties
-2020-04-23 18:55:10,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/demo/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-23 18:55:10,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/local.properties
-2020-04-23 18:55:10,514 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-04-23 18:55:10,514 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-04-23 18:55:10,515 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-23 18:55:10,515 INFO  ProjectFixService - Project was maybe fixed
-2020-04-23 18:55:10,515 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:55:10,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/adaptiverecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:55:25,448 INFO  ProjectTaskService - Detected possible tasks: 78
-2020-04-23 18:55:25,448 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-04-23 18:55:25,448 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/adaptiverecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-04-23 18:55:49,358 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-08-31 22:14:26,433 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/gradlew
+2020-08-31 22:14:26,436 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/adaptiverecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/build.gradle
+2020-08-31 22:14:26,440 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/adaptiverecyclerview/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/adaptiverecyclerview/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/adaptiverecyclerview/build.gradle
+2020-08-31 22:14:26,440 INFO  ProjectBuildService - Remote scripts: none
+2020-08-31 22:14:26,440 INFO  ProjectFixService - Fixing project...
+2020-08-31 22:14:26,449 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/adaptiverecyclerview/local.properties
+2020-08-31 22:14:26,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/adaptiverecyclerview/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-08-31 22:14:26,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/demo/local.properties
+2020-08-31 22:14:26,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/demo/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-08-31 22:14:26,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/local.properties
+2020-08-31 22:14:26,451 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-08-31 22:14:26,451 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-08-31 22:14:26,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-08-31 22:14:26,452 INFO  ProjectFixService - Project was maybe fixed
+2020-08-31 22:14:26,452 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 22:14:26,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/adaptiverecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 22:14:46,608 INFO  ProjectTaskService - Detected possible tasks: 75
+2020-08-31 22:14:46,609 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-08-31 22:14:46,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/adaptiverecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-08-31 22:15:05,857 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :adaptiverecyclerview:preBuild UP-TO-DATE
 > Task :adaptiverecyclerview:preDebugBuild UP-TO-DATE
 > Task :adaptiverecyclerview:mergeDebugJniLibFolders
 > Task :adaptiverecyclerview:mergeDebugNativeLibs
-> Task :adaptiverecyclerview:stripDebugDebugSymbols
+> Task :adaptiverecyclerview:stripDebugDebugSymbols NO-SOURCE
 > Task :adaptiverecyclerview:copyDebugJniLibsProjectAndLocalJars
 > Task :adaptiverecyclerview:generateDebugBuildConfig
-> Task :adaptiverecyclerview:compileDebugRenderscript NO-SOURCE
-> Task :adaptiverecyclerview:compileDebugAidl NO-SOURCE
 > Task :adaptiverecyclerview:generateDebugResValues
+> Task :adaptiverecyclerview:compileDebugAidl NO-SOURCE
+> Task :adaptiverecyclerview:compileDebugRenderscript NO-SOURCE
 > Task :adaptiverecyclerview:generateDebugResources
 > Task :adaptiverecyclerview:packageDebugResources
 > Task :adaptiverecyclerview:mergeDebugShaders
-> Task :adaptiverecyclerview:compileDebugShaders
-> Task :adaptiverecyclerview:generateDebugAssets
+> Task :adaptiverecyclerview:compileDebugShaders NO-SOURCE
+> Task :adaptiverecyclerview:generateDebugAssets UP-TO-DATE
 > Task :adaptiverecyclerview:packageDebugAssets
 > Task :adaptiverecyclerview:packageDebugRenderscript NO-SOURCE
 > Task :adaptiverecyclerview:processDebugJavaRes NO-SOURCE
+> Task :adaptiverecyclerview:javaPreCompileDebug
 > Task :adaptiverecyclerview:prepareLintJarForPublish
 > Task :adaptiverecyclerview:preReleaseBuild UP-TO-DATE
+> Task :adaptiverecyclerview:processDebugManifest
 > Task :adaptiverecyclerview:compileReleaseAidl NO-SOURCE
-> Task :adaptiverecyclerview:mergeDebugResources
 > Task :adaptiverecyclerview:mergeReleaseJniLibFolders
+> Task :adaptiverecyclerview:mergeDebugResources
 > Task :adaptiverecyclerview:compileReleaseRenderscript NO-SOURCE
 > Task :adaptiverecyclerview:generateReleaseBuildConfig
 > Task :adaptiverecyclerview:generateReleaseResValues
 > Task :adaptiverecyclerview:generateReleaseResources
 > Task :adaptiverecyclerview:packageReleaseResources
-> Task :adaptiverecyclerview:mergeReleaseNativeLibs
-> Task :adaptiverecyclerview:stripReleaseDebugSymbols
-> Task :adaptiverecyclerview:copyReleaseJniLibsProjectAndLocalJars
-> Task :adaptiverecyclerview:parseReleaseLocalResources
 > Task :adaptiverecyclerview:mergeReleaseShaders
-> Task :adaptiverecyclerview:compileReleaseShaders
-> Task :adaptiverecyclerview:generateReleaseAssets
+> Task :adaptiverecyclerview:compileReleaseShaders NO-SOURCE
+> Task :adaptiverecyclerview:generateReleaseAssets UP-TO-DATE
 > Task :adaptiverecyclerview:packageReleaseAssets
 > Task :adaptiverecyclerview:packageReleaseRenderscript NO-SOURCE
 > Task :adaptiverecyclerview:processReleaseJavaRes NO-SOURCE
 > Task :adaptiverecyclerview:mergeReleaseResources
-> Task :adaptiverecyclerview:processDebugManifest
-> Task :adaptiverecyclerview:processReleaseManifest
+> Task :adaptiverecyclerview:javaPreCompileRelease
+> Task :adaptiverecyclerview:parseReleaseLocalResources
 > Task :adaptiverecyclerview:parseDebugLocalResources
-> Task :adaptiverecyclerview:generateDebugRFile
-> Task :adaptiverecyclerview:compileDebugKotlin
+> Task :adaptiverecyclerview:processReleaseManifest
 > Task :adaptiverecyclerview:generateReleaseRFile
 > Task :adaptiverecyclerview:compileReleaseKotlin
-> Task :adaptiverecyclerview:javaPreCompileDebug
-> Task :adaptiverecyclerview:compileDebugJavaWithJavac
-> Task :adaptiverecyclerview:extractDebugAnnotations
-> Task :adaptiverecyclerview:mergeDebugGeneratedProguardFiles
-> Task :adaptiverecyclerview:mergeDebugConsumerProguardFiles
-> Task :adaptiverecyclerview:compileDebugSources
-> Task :adaptiverecyclerview:javaPreCompileRelease
 > Task :adaptiverecyclerview:compileReleaseJavaWithJavac
 > Task :adaptiverecyclerview:extractReleaseAnnotations
 > Task :adaptiverecyclerview:mergeReleaseGeneratedProguardFiles
 > Task :adaptiverecyclerview:mergeReleaseConsumerProguardFiles
 > Task :adaptiverecyclerview:compileReleaseSources
+> Task :adaptiverecyclerview:verifyReleaseResources
+> Task :adaptiverecyclerview:mergeReleaseNativeLibs
+> Task :adaptiverecyclerview:stripReleaseDebugSymbols NO-SOURCE
+> Task :adaptiverecyclerview:copyReleaseJniLibsProjectAndLocalJars
+> Task :adaptiverecyclerview:generateDebugRFile
+> Task :adaptiverecyclerview:compileDebugKotlin
+> Task :adaptiverecyclerview:compileDebugJavaWithJavac
+> Task :adaptiverecyclerview:extractDebugAnnotations
+> Task :adaptiverecyclerview:mergeDebugGeneratedProguardFiles
+> Task :adaptiverecyclerview:mergeDebugConsumerProguardFiles
+> Task :adaptiverecyclerview:compileDebugSources
 > Task :adaptiverecyclerview:mergeReleaseJavaResource
+> Task :adaptiverecyclerview:syncReleaseLibJars
+> Task :adaptiverecyclerview:bundleReleaseAar
+> Task :adaptiverecyclerview:assembleRelease
 > Task :adaptiverecyclerview:mergeDebugJavaResource
 > Task :adaptiverecyclerview:jacocoDebug
 > Task :adaptiverecyclerview:syncDebugLibJars
 > Task :adaptiverecyclerview:bundleDebugAar
 > Task :adaptiverecyclerview:assembleDebug
-> Task :adaptiverecyclerview:jacocoRelease
-> Task :adaptiverecyclerview:syncReleaseLibJars
-> Task :adaptiverecyclerview:bundleReleaseAar
-> Task :adaptiverecyclerview:assembleRelease
 > Task :adaptiverecyclerview:assemble
 > Task :adaptiverecyclerview:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 18s
+45 actionable tasks: 45 executed
 
-BUILD SUCCESSFUL in 23s
-49 actionable tasks: 49 executed
-
-2020-04-23 18:55:49,405 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:55:49,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:55:55,623 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-04-23 18:55:55,623 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-04-23 18:55:55,623 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-04-23 18:56:48,357 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-08-31 22:15:05,907 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 22:15:05,907 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 22:15:12,331 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-08-31 22:15:12,331 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-08-31 22:15:12,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-08-31 22:15:59,743 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :adaptiverecyclerview:preBuild UP-TO-DATE
 > Task :adaptiverecyclerview:preDebugBuild UP-TO-DATE
-> Task :adaptiverecyclerview:compileDebugAidl NO-SOURCE
 > Task :adaptiverecyclerview:generateDebugBuildConfig UP-TO-DATE
+> Task :adaptiverecyclerview:compileDebugAidl NO-SOURCE
 > Task :adaptiverecyclerview:compileDebugRenderscript NO-SOURCE
 > Task :adaptiverecyclerview:generateDebugResValues UP-TO-DATE
 > Task :adaptiverecyclerview:generateDebugResources UP-TO-DATE
@@ -132,15 +132,14 @@ BUILD SUCCESSFUL in 23s
 > Task :adaptiverecyclerview:packageDebugRenderscript NO-SOURCE
 > Task :demo:generateDebugBuildConfig
 > Task :demo:compileDebugRenderscript NO-SOURCE
-> Task :adaptiverecyclerview:bundleLibCompileDebug
-> Task :demo:mainApkListPersistenceDebug
+> Task :adaptiverecyclerview:bundleLibCompileToJarDebug
 > Task :demo:generateDebugResValues
 > Task :demo:generateDebugResources
-> Task :adaptiverecyclerview:compileDebugLibraryResources
 > Task :adaptiverecyclerview:extractDeepLinksDebug
 > Task :demo:createDebugCompatibleScreenManifests
 > Task :demo:extractDeepLinksDebug
 > Task :demo:processDebugManifest
+> Task :adaptiverecyclerview:compileDebugLibraryResources
 > Task :demo:mergeDebugResources
 > Task :demo:processDebugResources
 > Task :demo:compileDebugKotlin
@@ -148,12 +147,12 @@ BUILD SUCCESSFUL in 23s
 > Task :demo:compileDebugJavaWithJavac
 > Task :demo:compileDebugSources
 > Task :adaptiverecyclerview:mergeDebugShaders UP-TO-DATE
-> Task :adaptiverecyclerview:compileDebugShaders UP-TO-DATE
+> Task :adaptiverecyclerview:compileDebugShaders NO-SOURCE
 > Task :adaptiverecyclerview:generateDebugAssets UP-TO-DATE
 > Task :adaptiverecyclerview:packageDebugAssets UP-TO-DATE
 > Task :demo:mergeDebugShaders
-> Task :demo:compileDebugShaders
-> Task :demo:generateDebugAssets
+> Task :demo:compileDebugShaders NO-SOURCE
+> Task :demo:generateDebugAssets UP-TO-DATE
 > Task :demo:mergeDebugAssets
 > Task :adaptiverecyclerview:processDebugJavaRes NO-SOURCE
 > Task :demo:processDebugJavaRes NO-SOURCE
@@ -161,15 +160,14 @@ BUILD SUCCESSFUL in 23s
 > Task :demo:mergeDebugJavaResource
 > Task :demo:checkDebugDuplicateClasses
 > Task :adaptiverecyclerview:jacocoDebug UP-TO-DATE
-> Task :adaptiverecyclerview:bundleLibRuntimeDebug
-> Task :demo:mergeLibDexDebug
 > Task :demo:dexBuilderDebug
+> Task :adaptiverecyclerview:bundleLibRuntimeToJarDebug
+> Task :demo:mergeLibDexDebug
 > Task :adaptiverecyclerview:mergeDebugJniLibFolders UP-TO-DATE
 > Task :adaptiverecyclerview:mergeDebugNativeLibs UP-TO-DATE
-> Task :adaptiverecyclerview:stripDebugDebugSymbols UP-TO-DATE
+> Task :adaptiverecyclerview:stripDebugDebugSymbols NO-SOURCE
 > Task :adaptiverecyclerview:copyDebugJniLibsProjectOnly
 > Task :demo:mergeDebugJniLibFolders
-> Task :demo:mergeProjectDexDebug
 > Task :demo:validateSigningDebug
 > Task :adaptiverecyclerview:preReleaseBuild UP-TO-DATE
 > Task :adaptiverecyclerview:compileReleaseAidl NO-SOURCE
@@ -184,20 +182,20 @@ BUILD SUCCESSFUL in 23s
 > Task :adaptiverecyclerview:compileReleaseKotlin UP-TO-DATE
 > Task :adaptiverecyclerview:javaPreCompileRelease UP-TO-DATE
 > Task :adaptiverecyclerview:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :demo:mergeDebugNativeLibs
-> Task :demo:stripDebugDebugSymbols
+> Task :demo:mergeProjectDexDebug
 > Task :demo:preReleaseBuild UP-TO-DATE
 > Task :demo:compileReleaseAidl NO-SOURCE
 > Task :adaptiverecyclerview:packageReleaseRenderscript NO-SOURCE
 > Task :demo:compileReleaseRenderscript NO-SOURCE
 > Task :demo:generateReleaseBuildConfig
-> Task :adaptiverecyclerview:bundleLibCompileRelease
-> Task :demo:mainApkListPersistenceRelease
+> Task :adaptiverecyclerview:bundleLibCompileToJarRelease
 > Task :demo:generateReleaseResValues
 > Task :demo:generateReleaseResources
 > Task :adaptiverecyclerview:compileReleaseLibraryResources
 > Task :adaptiverecyclerview:extractDeepLinksRelease
 > Task :demo:createReleaseCompatibleScreenManifests
+> Task :demo:mergeDebugNativeLibs
+> Task :demo:stripDebugDebugSymbols NO-SOURCE
 > Task :demo:extractDeepLinksRelease
 > Task :demo:processReleaseManifest
 > Task :demo:mergeReleaseResources
@@ -208,33 +206,39 @@ BUILD SUCCESSFUL in 23s
 > Task :demo:compileReleaseSources
 > Task :adaptiverecyclerview:prepareLintJarForPublish UP-TO-DATE
 > Task :demo:prepareLintJar
+
 > Task :demo:lintVitalRelease
-> Task :adaptiverecyclerview:jacocoRelease UP-TO-DATE
+WARNING: [Processor] Library '/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.robolectric/shadows-framework/4.3.1/da048a93951f4d9e46519749c53b0f868dfdf425/shadows-framework-4.3.1.jar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/test/runner/lifecycle/Stage'
+ Example of support library reference: 'android/support/annotation/NonNull'
+
 > Task :demo:checkReleaseDuplicateClasses
 > Task :demo:dexBuilderRelease
-> Task :adaptiverecyclerview:bundleLibRuntimeRelease
+> Task :adaptiverecyclerview:bundleLibRuntimeToJarRelease
 > Task :adaptiverecyclerview:mergeReleaseShaders UP-TO-DATE
-> Task :adaptiverecyclerview:compileReleaseShaders UP-TO-DATE
+> Task :adaptiverecyclerview:compileReleaseShaders NO-SOURCE
 > Task :adaptiverecyclerview:generateReleaseAssets UP-TO-DATE
 > Task :adaptiverecyclerview:packageReleaseAssets UP-TO-DATE
 > Task :demo:mergeReleaseShaders
-> Task :demo:compileReleaseShaders
-> Task :demo:generateReleaseAssets
+> Task :demo:compileReleaseShaders NO-SOURCE
+> Task :demo:generateReleaseAssets UP-TO-DATE
 > Task :demo:mergeReleaseAssets
 > Task :adaptiverecyclerview:processReleaseJavaRes NO-SOURCE
-> Task :adaptiverecyclerview:bundleLibResRelease
 > Task :demo:processReleaseJavaRes NO-SOURCE
-> Task :demo:mergeReleaseJavaResource
+> Task :demo:collectReleaseDependencies
+> Task :demo:sdkReleaseDependencyData
 > Task :adaptiverecyclerview:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :adaptiverecyclerview:mergeReleaseNativeLibs UP-TO-DATE
-> Task :adaptiverecyclerview:stripReleaseDebugSymbols UP-TO-DATE
+> Task :adaptiverecyclerview:stripReleaseDebugSymbols NO-SOURCE
 > Task :adaptiverecyclerview:copyReleaseJniLibsProjectOnly
 > Task :demo:mergeReleaseJniLibFolders
-> Task :demo:mergeReleaseNativeLibs
-> Task :demo:stripReleaseDebugSymbols
+> Task :adaptiverecyclerview:bundleLibResRelease
 > Task :demo:mergeExtDexDebug
 > Task :demo:packageDebug
 > Task :demo:assembleDebug
+> Task :demo:mergeReleaseNativeLibs
+> Task :demo:stripReleaseDebugSymbols NO-SOURCE
+> Task :demo:mergeReleaseJavaResource
 > Task :demo:mergeExtDexRelease
 > Task :demo:mergeDexRelease
 > Task :demo:packageRelease
@@ -242,11 +246,7 @@ BUILD SUCCESSFUL in 23s
 > Task :demo:assemble
 > Task :demo:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 46s
+86 actionable tasks: 58 executed, 28 up-to-date
 
-BUILD SUCCESSFUL in 51s
-95 actionable tasks: 62 executed, 33 up-to-date
-
-2020-04-23 18:56:48,457 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587642907673-0/src/adaptive-recycler-view-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2020-08-31 22:15:59,839 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886741419-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk

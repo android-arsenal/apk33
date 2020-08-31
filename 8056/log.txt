@@ -1,34 +1,37 @@
-2020-03-25 13:48:26,659 INFO  DownloadService - Downloading "https://github.com/iammohdzaki/KnotFileChooser-Android/archive/master.zip", attempt 3
-2020-03-25 13:48:28,979 INFO  DownloadService - Downloaded https://github.com/iammohdzaki/KnotFileChooser-Android/archive/master.zip, attempt 3
-2020-03-25 13:48:28,980 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/master.zip": 302 KB
-2020-03-25 13:48:28,980 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-25 13:48:28,980 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/master.zip: true
-2020-03-25 13:48:28,980 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src'.
-2020-03-25 13:48:29,019 INFO  FullProcessService - Size of directory with sources: 368 KB
-2020-03-25 13:48:29,019 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src]
-2020-03-25 13:48:29,045 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/.git/
+2020-08-31 21:45:32,619 INFO  DownloadService - Downloading "https://github.com/iammohdzaki/KnotFileChooser-Android/archive/master.zip", attempt 3
+2020-08-31 21:45:43,676 INFO  VirusProcessorServiceImpl - Queued project 8077 to scan viruses
+2020-08-31 21:46:32,626 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-08-31 21:46:33,476 INFO  GithubDownloadService - Default branch of this repository: master
+2020-08-31 21:46:33,476 INFO  DownloadService - Downloading "https://github.com/iammohdzaki/KnotFileChooser-Android/archive/master.zip", attempt 3
+2020-08-31 21:47:34,326 DEBUG FullProcessService - Repository https://github.com/iammohdzaki/KnotFileChooser-Android available: true
+2020-08-31 21:47:34,326 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-08-31 21:47:34,326 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/iammohdzaki/KnotFileChooser-Android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src]
+2020-08-31 21:47:37,162 INFO  SysUtils - 
+2020-08-31 21:47:37,170 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/.git": true
+2020-08-31 21:47:37,175 INFO  FullProcessService - Size of directory with sources: 402 KB
+2020-08-31 21:47:37,176 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src]
+2020-08-31 21:47:37,195 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/.git/
 
-2020-03-25 13:48:29,050 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/gradlew
-2020-03-25 13:48:29,055 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/filechooser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/build.gradle
-2020-03-25 13:48:29,059 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/filechooser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/settings.gradle
-2020-03-25 13:48:29,060 INFO  ProjectBuildService - Remote scripts: none
-2020-03-25 13:48:29,060 INFO  ProjectFixService - Fixing project...
-2020-03-25 13:48:29,071 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/local.properties
-2020-03-25 13:48:29,071 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-25 13:48:29,072 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/filechooser/local.properties
-2020-03-25 13:48:29,073 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/filechooser/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-25 13:48:29,073 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/local.properties
-2020-03-25 13:48:29,074 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-03-25 13:48:29,074 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-03-25 13:48:29,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-03-25 13:48:29,076 INFO  ProjectFixService - Project was maybe fixed
-2020-03-25 13:48:29,076 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-25 13:48:29,076 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-25 13:48:37,196 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-25 13:48:37,196 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-25 13:48:37,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-25 13:48:48,584 INFO  VirusProcessorServiceImpl - Queued project 8066 to scan viruses
-2020-03-25 13:49:47,260 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-08-31 21:47:37,200 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/gradlew
+2020-08-31 21:47:37,205 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/filechooser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/build.gradle
+2020-08-31 21:47:37,209 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/filechooser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/settings.gradle
+2020-08-31 21:47:37,210 INFO  ProjectBuildService - Remote scripts: none
+2020-08-31 21:47:37,210 INFO  ProjectFixService - Fixing project...
+2020-08-31 21:47:37,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/local.properties
+2020-08-31 21:47:37,220 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-08-31 21:47:37,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/filechooser/local.properties
+2020-08-31 21:47:37,221 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/filechooser/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-08-31 21:47:37,221 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/local.properties
+2020-08-31 21:47:37,222 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-08-31 21:47:37,222 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-08-31 21:47:37,224 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-08-31 21:47:37,224 INFO  ProjectFixService - Project was maybe fixed
+2020-08-31 21:47:37,224 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 21:47:37,224 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 21:48:05,720 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-08-31 21:48:05,720 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-08-31 21:48:05,721 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-08-31 21:49:18,864 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :filechooser
 WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
@@ -42,47 +45,19 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :filechooser:checkDebugManifest
 > Task :filechooser:processDebugManifest
 > Task :filechooser:packageDebugRenderscript NO-SOURCE
-> Task :filechooser:compileDebugAidl NO-SOURCE
+> Task :filechooser:generateDebugResValues
 > Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :filechooser:generateDebugResValues
 > Task :app:createDebugCompatibleScreenManifests
-> Task :filechooser:compileDebugRenderscript NO-SOURCE
-> Task :filechooser:generateDebugResources
 > Task :app:processDebugManifest
-> Task :filechooser:packageDebugResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:700: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:704: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-
-> Task :app:mergeDebugResources
-> Task :filechooser:generateDebugRFile
-> Task :app:processDebugResources
 > Task :filechooser:generateDebugBuildConfig
 > Task :filechooser:prepareLintJar
-> Task :filechooser:generateDebugSources
 > Task :app:prepareLintJar
-> Task :app:generateDebugSources
-
-> Task :filechooser:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/filechooser/src/main/java/com/zaphlabs/filechooser/KnotFileChooser.kt: (156, 21): Type mismatch: inferred type is File? but File was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/filechooser/src/main/java/com/zaphlabs/filechooser/filters/ExtensionFilter.kt: (7, 5): Parameter 'filter' is never used
-
-> Task :filechooser:javaPreCompileDebug
-> Task :filechooser:compileDebugJavaWithJavac
-> Task :filechooser:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/src/main/java/com/zaphlabs/knotFileExplorer/MainActivity.kt: (60, 41): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -92,6 +67,34 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/
 > Task :filechooser:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :filechooser:processDebugJavaRes NO-SOURCE
+> Task :filechooser:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :filechooser:compileDebugRenderscript NO-SOURCE
+> Task :filechooser:generateDebugResources
+> Task :filechooser:generateDebugSources
+> Task :app:generateDebugSources
+> Task :filechooser:packageDebugResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:700: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:704: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
+> Task :app:mergeDebugResources
+> Task :filechooser:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :filechooser:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/filechooser/src/main/java/com/zaphlabs/filechooser/KnotFileChooser.kt: (156, 21): Type mismatch: inferred type is File? but File was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/filechooser/src/main/java/com/zaphlabs/filechooser/filters/ExtensionFilter.kt: (7, 5): Parameter 'filter' is never used
+
+> Task :filechooser:javaPreCompileDebug
+> Task :filechooser:compileDebugJavaWithJavac
+> Task :filechooser:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/src/main/java/com/zaphlabs/knotFileExplorer/MainActivity.kt: (60, 41): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :filechooser:bundleLibResDebug
 > Task :filechooser:bundleLibRuntimeDebug
 > Task :filechooser:createFullJarDebug
@@ -125,8 +128,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/
 > Task :filechooser:generateReleaseResValues
 > Task :filechooser:generateReleaseResources
 > Task :filechooser:packageReleaseResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:700: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:704: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:700: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:704: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
 > Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
@@ -136,8 +139,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/
 > Task :filechooser:generateReleaseBuildConfig
 
 > Task :filechooser:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/filechooser/src/main/java/com/zaphlabs/filechooser/KnotFileChooser.kt: (156, 21): Type mismatch: inferred type is File? but File was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/filechooser/src/main/java/com/zaphlabs/filechooser/filters/ExtensionFilter.kt: (7, 5): Parameter 'filter' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/filechooser/src/main/java/com/zaphlabs/filechooser/KnotFileChooser.kt: (156, 21): Type mismatch: inferred type is File? but File was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/filechooser/src/main/java/com/zaphlabs/filechooser/filters/ExtensionFilter.kt: (7, 5): Parameter 'filter' is never used
 
 > Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
@@ -149,7 +152,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/
 > Task :filechooser:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/src/main/java/com/zaphlabs/knotFileExplorer/MainActivity.kt: (60, 41): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/src/main/java/com/zaphlabs/knotFileExplorer/MainActivity.kt: (60, 41): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
@@ -158,7 +161,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/
 > Task :filechooser:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ed6c1ecc379e906d1db2fa4649ccfec3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/559c1287cc045dcb7b2071ffda9dee06/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :filechooser:processReleaseJavaRes NO-SOURCE
 > Task :filechooser:bundleLibResRelease
@@ -191,7 +194,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 9s
+BUILD SUCCESSFUL in 1m 12s
 95 actionable tasks: 95 executed
 
-2020-03-25 13:49:47,397 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585118906653-0/src/KnotFileChooser-Android-master/app/build/outputs/apk/debug/app-debug.apk
+2020-08-31 21:49:18,995 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885132616-0/src/app/build/outputs/apk/debug/app-debug.apk

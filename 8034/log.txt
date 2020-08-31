@@ -1,34 +1,37 @@
-2020-04-23 18:56:49,033 INFO  DownloadService - Downloading "https://github.com/hanilozmen/Bumerang/archive/master.zip", attempt 3
-2020-04-23 18:56:52,222 INFO  DownloadService - Downloaded https://github.com/hanilozmen/Bumerang/archive/master.zip, attempt 3
-2020-04-23 18:56:52,223 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/master.zip": 714 KB
-2020-04-23 18:56:52,223 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-23 18:56:52,224 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/master.zip: true
-2020-04-23 18:56:52,224 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src'.
-2020-04-23 18:56:52,255 INFO  FullProcessService - Size of directory with sources: 808 KB
-2020-04-23 18:56:52,255 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src]
-2020-04-23 18:56:52,276 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/.git/
+2020-08-31 22:16:00,345 INFO  DownloadService - Downloading "https://github.com/hanilozmen/Bumerang/archive/master.zip", attempt 3
+2020-08-31 22:16:08,961 INFO  VirusProcessorServiceImpl - Queued project 8036 to scan viruses
+2020-08-31 22:17:00,347 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-08-31 22:17:01,199 INFO  GithubDownloadService - Default branch of this repository: master
+2020-08-31 22:17:01,199 INFO  DownloadService - Downloading "https://github.com/hanilozmen/Bumerang/archive/master.zip", attempt 3
+2020-08-31 22:18:02,924 DEBUG FullProcessService - Repository https://github.com/hanilozmen/Bumerang available: true
+2020-08-31 22:18:02,924 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-08-31 22:18:02,924 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hanilozmen/Bumerang, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src]
+2020-08-31 22:18:05,393 INFO  SysUtils - 
+2020-08-31 22:18:05,401 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/.git": true
+2020-08-31 22:18:05,405 INFO  FullProcessService - Size of directory with sources: 809 KB
+2020-08-31 22:18:05,405 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src]
+2020-08-31 22:18:05,424 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/.git/
 
-2020-04-23 18:56:52,280 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/gradlew
-2020-04-23 18:56:52,284 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/bumerang/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/build.gradle
-2020-04-23 18:56:52,287 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/bumerang/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/settings.gradle
-2020-04-23 18:56:52,288 INFO  ProjectBuildService - Remote scripts: none
-2020-04-23 18:56:52,288 INFO  ProjectFixService - Fixing project...
-2020-04-23 18:56:52,297 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/bumerang/local.properties
-2020-04-23 18:56:52,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/bumerang/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-04-23 18:56:52,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/sample/local.properties
-2020-04-23 18:56:52,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-04-23 18:56:52,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/local.properties
-2020-04-23 18:56:52,299 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-04-23 18:56:52,300 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-04-23 18:56:52,301 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-04-23 18:56:52,301 INFO  ProjectFixService - Project was maybe fixed
-2020-04-23 18:56:52,301 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:56:52,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/bumerang/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:56:59,566 INFO  VirusProcessorServiceImpl - Queued project 8036 to scan viruses
-2020-04-23 18:57:00,970 INFO  ProjectTaskService - Detected possible tasks: 80
-2020-04-23 18:57:00,971 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-04-23 18:57:00,971 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/bumerang/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-04-23 18:57:13,127 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-08-31 22:18:05,428 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/gradlew
+2020-08-31 22:18:05,432 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/bumerang/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/build.gradle
+2020-08-31 22:18:05,435 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/bumerang/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/settings.gradle
+2020-08-31 22:18:05,435 INFO  ProjectBuildService - Remote scripts: none
+2020-08-31 22:18:05,435 INFO  ProjectFixService - Fixing project...
+2020-08-31 22:18:05,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/bumerang/local.properties
+2020-08-31 22:18:05,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/bumerang/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-08-31 22:18:05,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/sample/local.properties
+2020-08-31 22:18:05,445 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-08-31 22:18:05,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/local.properties
+2020-08-31 22:18:05,446 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-08-31 22:18:05,447 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-08-31 22:18:05,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-08-31 22:18:05,448 INFO  ProjectFixService - Project was maybe fixed
+2020-08-31 22:18:05,448 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 22:18:05,448 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/bumerang/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 22:18:14,815 INFO  ProjectTaskService - Detected possible tasks: 80
+2020-08-31 22:18:14,815 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-08-31 22:18:14,815 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/bumerang/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-08-31 22:18:24,891 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :bumerang
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -55,9 +58,9 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :bumerang:generateDebugAssets
 > Task :bumerang:packageDebugAssets
 > Task :bumerang:packageDebugRenderscript NO-SOURCE
+> Task :bumerang:javaPreCompileDebug
 > Task :bumerang:processDebugJavaRes NO-SOURCE
 > Task :bumerang:mergeDebugJniLibFolders
-> Task :bumerang:prepareLintJarForPublish
 > Task :bumerang:preReleaseBuild UP-TO-DATE
 > Task :bumerang:compileReleaseAidl NO-SOURCE
 > Task :bumerang:compileReleaseRenderscript NO-SOURCE
@@ -66,10 +69,10 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :bumerang:generateReleaseResValues
 > Task :bumerang:generateReleaseResources
 > Task :bumerang:packageReleaseResources
+> Task :bumerang:parseReleaseLibraryResources
 > Task :bumerang:mergeDebugNativeLibs
 > Task :bumerang:stripDebugDebugSymbols
 > Task :bumerang:transformNativeLibsWithSyncJniLibsForDebug
-> Task :bumerang:processReleaseManifest
 > Task :bumerang:mergeReleaseShaders
 > Task :bumerang:compileReleaseShaders
 > Task :bumerang:generateReleaseAssets
@@ -79,12 +82,12 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :bumerang:mergeReleaseJniLibFolders
 > Task :bumerang:javaPreCompileRelease
 > Task :bumerang:mergeReleaseResources
-> Task :bumerang:javaPreCompileDebug
+> Task :bumerang:prepareLintJarForPublish
 > Task :bumerang:mergeReleaseNativeLibs
 > Task :bumerang:stripReleaseDebugSymbols
 > Task :bumerang:transformNativeLibsWithSyncJniLibsForRelease
-> Task :bumerang:parseReleaseLibraryResources
 > Task :bumerang:parseDebugLibraryResources
+> Task :bumerang:processReleaseManifest
 > Task :bumerang:generateDebugRFile
 
 > Task :bumerang:compileDebugJavaWithJavac
@@ -94,8 +97,9 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :bumerang:extractDebugAnnotations
 > Task :bumerang:mergeDebugGeneratedProguardFiles
 > Task :bumerang:mergeDebugConsumerProguardFiles
-> Task :bumerang:generateReleaseRFile
 > Task :bumerang:compileDebugSources
+> Task :bumerang:verifyReleaseResources
+> Task :bumerang:generateReleaseRFile
 
 > Task :bumerang:compileReleaseJavaWithJavac
 Note: Some input files use unchecked or unsafe operations.
@@ -105,7 +109,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :bumerang:mergeReleaseGeneratedProguardFiles
 > Task :bumerang:mergeReleaseConsumerProguardFiles
 > Task :bumerang:compileReleaseSources
-> Task :bumerang:verifyReleaseResources
 > Task :bumerang:mergeDebugJavaResource
 > Task :bumerang:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :bumerang:bundleDebugAar
@@ -121,15 +124,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 9s
 47 actionable tasks: 47 executed
 
-2020-04-23 18:57:13,145 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 18:57:13,145 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 18:57:19,176 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-04-23 18:57:19,176 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-04-23 18:57:19,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-04-23 18:57:36,960 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-08-31 22:18:24,910 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 22:18:24,910 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 22:18:30,268 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-08-31 22:18:30,268 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-08-31 22:18:30,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-08-31 22:18:48,158 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :bumerang
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -165,6 +168,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
+> Task :bumerang:bundleLibCompileDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
 > Task :bumerang:mergeDebugShaders UP-TO-DATE
@@ -175,12 +179,10 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
-> Task :bumerang:bundleLibCompileDebug
 > Task :bumerang:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:mergeDebugResources
-> Task :sample:processDebugResources
 > Task :sample:checkDebugDuplicateClasses
+> Task :bumerang:bundleLibResDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
 > Task :bumerang:mergeDebugJniLibFolders UP-TO-DATE
@@ -201,11 +203,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :bumerang:generateReleaseRFile UP-TO-DATE
 > Task :bumerang:javaPreCompileRelease UP-TO-DATE
 > Task :bumerang:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :bumerang:bundleLibRuntimeDebug
 > Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
-> Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :bumerang:packageReleaseRenderscript NO-SOURCE
@@ -219,10 +217,11 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:processReleaseManifest
 > Task :bumerang:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:prepareLintJar
+> Task :bumerang:bundleLibRuntimeDebug
 > Task :sample:mergeReleaseResources
-> Task :bumerang:bundleLibCompileRelease
 > Task :sample:processReleaseResources
 > Task :sample:checkReleaseDuplicateClasses
+> Task :bumerang:bundleLibRuntimeRelease
 > Task :bumerang:mergeReleaseShaders UP-TO-DATE
 > Task :bumerang:compileReleaseShaders UP-TO-DATE
 > Task :bumerang:generateReleaseAssets UP-TO-DATE
@@ -232,7 +231,25 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
 > Task :bumerang:processReleaseJavaRes NO-SOURCE
-> Task :bumerang:bundleLibResDebug
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugResources
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:mergeExtDexRelease
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:signingConfigWriterRelease
+> Task :bumerang:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :bumerang:mergeReleaseNativeLibs UP-TO-DATE
+> Task :bumerang:stripReleaseDebugSymbols UP-TO-DATE
+> Task :bumerang:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDebugJavaResource
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :bumerang:bundleLibCompileRelease
+> Task :bumerang:bundleLibResRelease
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
@@ -241,26 +258,12 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/6a753758f00dace954b63989abaa8106/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :sample:transformClassesWithDexBuilderForRelease
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:signingConfigWriterRelease
-> Task :bumerang:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :bumerang:mergeReleaseNativeLibs UP-TO-DATE
-> Task :bumerang:stripReleaseDebugSymbols UP-TO-DATE
-> Task :bumerang:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :sample:mergeReleaseJniLibFolders
-> Task :bumerang:bundleLibResRelease
-> Task :bumerang:bundleLibRuntimeRelease
-> Task :sample:mergeDebugJavaResource
-> Task :sample:mergeExtDexDebug
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
-> Task :sample:mergeReleaseJavaResource
-> Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
+> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
@@ -274,4 +277,4 @@ See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 17s
 88 actionable tasks: 57 executed, 31 up-to-date
 
-2020-04-23 18:57:36,995 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643009030-0/src/Bumerang-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-08-31 22:18:48,197 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598886960342-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

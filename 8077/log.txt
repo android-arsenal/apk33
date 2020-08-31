@@ -1,33 +1,41 @@
-2020-07-06 01:51:11,895 INFO  DownloadService - Downloading "https://github.com/AliAzaz/AndroidValidatorCrawler/archive/master.zip", attempt 3
-2020-07-06 01:51:13,303 INFO  DownloadService - Downloaded https://github.com/AliAzaz/AndroidValidatorCrawler/archive/master.zip, attempt 3
-2020-07-06 01:51:13,303 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/master.zip": 1 MB
-2020-07-06 01:51:13,303 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-07-06 01:51:13,304 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/master.zip: true
-2020-07-06 01:51:13,304 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src'.
-2020-07-06 01:51:13,341 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-07-06 01:51:13,341 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src]
-2020-07-06 01:51:13,363 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/.git/
+2020-08-31 21:42:25,688 INFO  DownloadService - Downloading "https://github.com/AliAzaz/AndroidValidatorCrawler/archive/master.zip", attempt 3
+2020-08-31 21:43:25,693 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-08-31 21:43:26,490 INFO  GithubDownloadService - Default branch of this repository: master
+2020-08-31 21:43:26,490 INFO  DownloadService - Downloading "https://github.com/AliAzaz/AndroidValidatorCrawler/archive/master.zip", attempt 3
+2020-08-31 21:44:27,376 DEBUG FullProcessService - Repository https://github.com/AliAzaz/AndroidValidatorCrawler available: true
+2020-08-31 21:44:27,376 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-08-31 21:44:27,376 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AliAzaz/AndroidValidatorCrawler, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src]
+2020-08-31 21:44:30,243 INFO  SysUtils - 
+2020-08-31 21:44:30,251 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/.git": true
+2020-08-31 21:44:30,256 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-08-31 21:44:30,256 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src]
+2020-08-31 21:44:30,274 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/.git/
 
-2020-07-06 01:51:13,367 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/gradlew
-2020-07-06 01:51:13,375 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/validatorcrawler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/build.gradle
-2020-07-06 01:51:13,380 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/validatorcrawler/build.gradle
-2020-07-06 01:51:13,380 INFO  ProjectBuildService - Remote scripts: none
-2020-07-06 01:51:13,380 INFO  ProjectFixService - Fixing project...
-2020-07-06 01:51:13,391 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/app/local.properties
-2020-07-06 01:51:13,391 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 01:51:13,392 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/validatorcrawler/local.properties
-2020-07-06 01:51:13,393 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/validatorcrawler/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 01:51:13,393 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/local.properties
-2020-07-06 01:51:13,394 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-07-06 01:51:13,394 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-07-06 01:51:13,395 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 01:51:13,395 INFO  ProjectFixService - Project was maybe fixed
-2020-07-06 01:51:13,395 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-06 01:51:13,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-06 01:51:21,867 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-07-06 01:51:21,868 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-07-06 01:51:21,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-07-06 01:52:23,579 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-08-31 21:44:30,279 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/gradlew
+2020-08-31 21:44:30,283 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/validatorcrawler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/build.gradle
+2020-08-31 21:44:30,287 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/validatorcrawler/build.gradle
+2020-08-31 21:44:30,287 INFO  ProjectBuildService - Remote scripts: none
+2020-08-31 21:44:30,287 INFO  ProjectFixService - Fixing project...
+2020-08-31 21:44:30,297 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/app/local.properties
+2020-08-31 21:44:30,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-08-31 21:44:30,300 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/validatorcrawler/local.properties
+2020-08-31 21:44:30,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/validatorcrawler/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-08-31 21:44:30,301 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/local.properties
+2020-08-31 21:44:30,301 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-08-31 21:44:30,302 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-08-31 21:44:30,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-08-31 21:44:30,303 INFO  ProjectFixService - Project was maybe fixed
+2020-08-31 21:44:30,303 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 21:44:30,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 21:44:37,504 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-08-31 21:44:37,504 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-08-31 21:44:37,504 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-08-31 21:45:32,154 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :validatorcrawler:preBuild UP-TO-DATE
@@ -35,9 +43,8 @@
 > Task :validatorcrawler:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :validatorcrawler:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:prepareLintJar
 > Task :app:prepareLintJarForPublish
 > Task :app:generateDebugSources
@@ -51,58 +58,46 @@
 > Task :validatorcrawler:generateDebugResources
 > Task :validatorcrawler:packageDebugResources
 > Task :app:dataBindingExportFeaturePackageIdsDebug
-> Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
-> Task :validatorcrawler:checkDebugManifest
-> Task :validatorcrawler:processDebugManifest
-> Task :app:processDebugManifest
-> Task :validatorcrawler:parseDebugLibraryResources
+> Task :app:extractDeepLinksDebug
+> Task :validatorcrawler:extractDeepLinksDebug
 > Task :app:mergeDebugResources
 > Task :app:dataBindingGenBaseClassesDebug
-> Task :validatorcrawler:generateDebugRFile
-> Task :app:processDebugResources
+> Task :validatorcrawler:compileDebugLibraryResources
+> Task :validatorcrawler:processDebugManifest
+> Task :app:processDebugManifest
 > Task :validatorcrawler:generateDebugBuildConfig
-> Task :validatorcrawler:compileDebugKotlin
 > Task :validatorcrawler:javaPreCompileDebug
-> Task :validatorcrawler:compileDebugJavaWithJavac
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :validatorcrawler:mergeDebugShaders
-> Task :validatorcrawler:compileDebugShaders
-> Task :validatorcrawler:generateDebugAssets
+> Task :validatorcrawler:compileDebugShaders NO-SOURCE
+> Task :validatorcrawler:generateDebugAssets UP-TO-DATE
 > Task :validatorcrawler:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :validatorcrawler:bundleLibCompileDebug
-> Task :app:kaptGenerateStubsDebugKotlin
-
-> Task :app:kaptDebugKotlin
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/app/src/main/java/com/validator/aliazaz/MainActivity.kt: (30, 19): Parameter 'view' is never used
-
 > Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
+> Task :validatorcrawler:parseDebugLocalResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :validatorcrawler:processDebugJavaRes NO-SOURCE
-> Task :validatorcrawler:bundleLibResDebug
-> Task :validatorcrawler:bundleLibRuntimeDebug
 > Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJavaResource
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
+> Task :validatorcrawler:generateDebugRFile
+> Task :app:processDebugResources
+> Task :validatorcrawler:compileDebugKotlin
+> Task :validatorcrawler:compileDebugJavaWithJavac
+> Task :validatorcrawler:bundleLibResDebug
+> Task :validatorcrawler:bundleLibRuntimeToJarDebug
+> Task :validatorcrawler:bundleLibCompileToJarDebug
+> Task :app:kaptGenerateStubsDebugKotlin
 > Task :app:mergeDebugJniLibFolders
 > Task :validatorcrawler:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :validatorcrawler:preReleaseBuild UP-TO-DATE
 > Task :validatorcrawler:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :validatorcrawler:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:generateReleaseSources
 > Task :app:dataBindingExportBuildInfoRelease
@@ -112,71 +107,77 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/
 > Task :validatorcrawler:generateReleaseResValues
 > Task :validatorcrawler:generateReleaseResources
 > Task :validatorcrawler:packageReleaseResources
+> Task :validatorcrawler:mergeDebugNativeLibs
+> Task :validatorcrawler:stripDebugDebugSymbols NO-SOURCE
+> Task :validatorcrawler:copyDebugJniLibsProjectOnly
+> Task :app:dataBindingMergeDependencyArtifactsRelease
 > Task :app:dataBindingExportFeaturePackageIdsRelease
-> Task :app:mainApkListPersistenceRelease
 > Task :app:createReleaseCompatibleScreenManifests
-> Task :validatorcrawler:checkReleaseManifest
+> Task :app:extractDeepLinksRelease
+> Task :validatorcrawler:extractDeepLinksRelease
 > Task :app:dataBindingMergeGenClassesRelease
 > Task :validatorcrawler:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :validatorcrawler:generateReleaseBuildConfig
-> Task :validatorcrawler:mergeDebugNativeLibs
-> Task :validatorcrawler:stripDebugDebugSymbols
-> Task :validatorcrawler:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:dataBindingMergeDependencyArtifactsRelease
-> Task :validatorcrawler:parseReleaseLibraryResources
-> Task :app:checkReleaseDuplicateClasses
-> Task :validatorcrawler:prepareLintJarForPublish
 > Task :app:mergeReleaseResources
 > Task :app:dataBindingGenBaseClassesRelease
+> Task :validatorcrawler:generateReleaseBuildConfig
+> Task :validatorcrawler:javaPreCompileRelease
+> Task :validatorcrawler:compileReleaseLibraryResources
+> Task :validatorcrawler:parseReleaseLocalResources
+> Task :app:javaPreCompileRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :validatorcrawler:prepareLintJarForPublish
 > Task :validatorcrawler:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :validatorcrawler:compileReleaseKotlin
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :validatorcrawler:javaPreCompileRelease
 > Task :validatorcrawler:compileReleaseJavaWithJavac
-> Task :validatorcrawler:bundleLibRuntimeRelease
-> Task :validatorcrawler:bundleLibCompileRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/app/src/main/java/com/validator/aliazaz/MainActivity.kt: (30, 19): Parameter 'view' is never used
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :validatorcrawler:bundleLibCompileToJarRelease
 > Task :app:kaptGenerateStubsReleaseKotlin
-
-> Task :app:kaptReleaseKotlin
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
-
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/app/src/main/java/com/validator/aliazaz/MainActivity.kt: (30, 19): Parameter 'view' is never used
-
+> Task :app:mergeDebugJavaResource
+> Task :validatorcrawler:bundleLibRuntimeToJarRelease
 > Task :app:mergeExtDexDebug
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/023799c2b9e14b4b8e0a6858bf5efec8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
 > Task :validatorcrawler:mergeReleaseShaders
-> Task :validatorcrawler:compileReleaseShaders
-> Task :validatorcrawler:generateReleaseAssets
+> Task :validatorcrawler:compileReleaseShaders NO-SOURCE
+> Task :validatorcrawler:generateReleaseAssets UP-TO-DATE
 > Task :validatorcrawler:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :validatorcrawler:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :validatorcrawler:mergeReleaseJniLibFolders
 > Task :validatorcrawler:bundleLibResRelease
 > Task :validatorcrawler:mergeReleaseNativeLibs
-> Task :validatorcrawler:stripReleaseDebugSymbols
-> Task :validatorcrawler:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :validatorcrawler:stripReleaseDebugSymbols NO-SOURCE
+> Task :validatorcrawler:copyReleaseJniLibsProjectOnly
 > Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:kaptReleaseKotlin
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/app/src/main/java/com/validator/aliazaz/MainActivity.kt: (30, 19): Parameter 'view' is never used
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
@@ -185,11 +186,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 53s
+99 actionable tasks: 99 executed
 
-BUILD SUCCESSFUL in 1m 0s
-107 actionable tasks: 107 executed
-
-2020-07-06 01:52:23,685 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975071890-0/src/AndroidValidatorCrawler-master/app/build/outputs/apk/debug/app-debug.apk
+2020-08-31 21:45:32,228 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884945684-0/src/app/build/outputs/apk/debug/app-debug.apk

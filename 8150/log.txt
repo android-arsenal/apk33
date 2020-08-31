@@ -1,0 +1,288 @@
+2020-08-31 21:19:05,207 INFO  DownloadService - Downloading "https://github.com/fraggjkee/databinding-recycler-adapter/archive/master.zip", attempt 3
+2020-08-31 21:19:06,718 INFO  DownloadService - Downloaded https://github.com/fraggjkee/databinding-recycler-adapter/archive/master.zip, attempt 3
+2020-08-31 21:19:06,718 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/master.zip": 123 KB
+2020-08-31 21:19:06,718 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-08-31 21:19:06,724 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/master.zip: true
+2020-08-31 21:19:06,724 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src'.
+2020-08-31 21:19:06,748 INFO  FullProcessService - Size of directory with sources: 150 KB
+2020-08-31 21:19:06,749 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src]
+2020-08-31 21:19:06,783 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/.git/
+
+2020-08-31 21:19:06,787 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/gradlew
+2020-08-31 21:19:06,790 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/build.gradle
+2020-08-31 21:19:06,793 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/settings.gradle
+2020-08-31 21:19:06,793 INFO  ProjectBuildService - Remote scripts: none
+2020-08-31 21:19:06,793 INFO  ProjectFixService - Fixing project...
+2020-08-31 21:19:06,802 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/library/local.properties
+2020-08-31 21:19:06,802 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-08-31 21:19:06,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/sample/local.properties
+2020-08-31 21:19:06,804 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-08-31 21:19:06,805 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/local.properties
+2020-08-31 21:19:06,805 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-08-31 21:19:06,806 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-08-31 21:19:06,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2020-08-31 21:19:06,807 INFO  ProjectFixService - Project was maybe fixed
+2020-08-31 21:19:06,807 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 21:19:06,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 21:19:15,577 INFO  ProjectTaskService - Detected possible tasks: 64
+2020-08-31 21:19:15,578 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-08-31 21:19:15,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-08-31 21:19:17,292 INFO  VirusProcessorServiceImpl - Queued project 8153 to scan viruses
+2020-08-31 21:19:38,201 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:mergeDebugJniLibFolders
+> Task :library:generateDebugResValues
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols NO-SOURCE
+> Task :library:copyDebugJniLibsProjectAndLocalJars
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:dataBindingMergeDependencyArtifactsDebug
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:dataBindingMergeGenClassesDebug
+> Task :library:dataBindingGenBaseClassesDebug
+> Task :library:generateDebugBuildConfig
+> Task :library:prepareLintJar
+> Task :library:prepareLintJarForPublish
+> Task :library:generateDebugSources
+> Task :library:dataBindingExportBuildInfoDebug
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders NO-SOURCE
+> Task :library:generateDebugAssets UP-TO-DATE
+> Task :library:packageDebugAssets
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:parseDebugLocalResources
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols NO-SOURCE
+> Task :library:copyReleaseJniLibsProjectAndLocalJars
+> Task :library:dataBindingMergeDependencyArtifactsRelease
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseSources
+> Task :library:dataBindingExportBuildInfoRelease
+> Task :library:dataBindingMergeGenClassesRelease
+> Task :library:dataBindingGenBaseClassesRelease
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders NO-SOURCE
+> Task :library:generateReleaseAssets UP-TO-DATE
+> Task :library:packageReleaseAssets
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:processDebugManifest
+> Task :library:processReleaseManifest
+> Task :library:javaPreCompileDebug
+> Task :library:generateDebugRFile
+> Task :library:kaptGenerateStubsDebugKotlin
+> Task :library:parseReleaseLocalResources
+> Task :library:javaPreCompileRelease
+> Task :library:mergeReleaseResources
+> Task :library:generateReleaseRFile
+> Task :library:kaptGenerateStubsReleaseKotlin
+> Task :library:verifyReleaseResources
+> Task :library:kaptDebugKotlin
+> Task :library:compileDebugKotlin
+> Task :library:compileDebugJavaWithJavac
+> Task :library:extractDebugAnnotations
+> Task :library:mergeDebugGeneratedProguardFiles
+> Task :library:mergeDebugConsumerProguardFiles
+> Task :library:compileDebugSources
+> Task :library:kaptReleaseKotlin
+> Task :library:compileReleaseKotlin
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseGeneratedProguardFiles
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:compileReleaseSources
+> Task :library:mergeDebugJavaResource
+> Task :library:syncDebugLibJars
+> Task :library:bundleDebugAar
+> Task :library:assembleDebug
+> Task :library:mergeReleaseJavaResource
+> Task :library:syncReleaseLibJars
+> Task :library:bundleReleaseAar
+> Task :library:assembleRelease
+> Task :library:assemble
+> Task :library:build
+
+BUILD SUCCESSFUL in 21s
+56 actionable tasks: 56 executed
+
+2020-08-31 21:19:38,246 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 21:19:38,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 21:19:44,532 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-08-31 21:19:44,533 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-08-31 21:19:44,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-08-31 21:20:46,640 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:generateDebugBuildConfig UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:prepareLintJar UP-TO-DATE
+> Task :library:prepareLintJarForPublish UP-TO-DATE
+> Task :library:generateDebugSources UP-TO-DATE
+> Task :library:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :library:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :library:generateDebugResValues UP-TO-DATE
+> Task :library:dataBindingMergeGenClassesDebug UP-TO-DATE
+> Task :library:generateDebugResources UP-TO-DATE
+> Task :library:packageDebugResources UP-TO-DATE
+> Task :library:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :library:parseDebugLocalResources UP-TO-DATE
+> Task :library:processDebugManifest UP-TO-DATE
+> Task :library:generateDebugRFile UP-TO-DATE
+> Task :library:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :library:kaptDebugKotlin UP-TO-DATE
+> Task :library:compileDebugKotlin UP-TO-DATE
+> Task :library:javaPreCompileDebug UP-TO-DATE
+> Task :library:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :library:bundleLibCompileToJarDebug
+> Task :sample:prepareLintJarForPublish
+> Task :sample:generateDebugSources
+> Task :sample:dataBindingExportBuildInfoDebug
+> Task :sample:dataBindingMergeDependencyArtifactsDebug
+> Task :sample:dataBindingMergeGenClassesDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:dataBindingExportFeaturePackageIdsDebug
+> Task :sample:mergeDebugResources
+> Task :sample:dataBindingGenBaseClassesDebug
+> Task :library:extractDeepLinksDebug
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
+> Task :sample:processDebugManifest
+> Task :library:compileDebugLibraryResources
+> Task :sample:javaPreCompileDebug
+> Task :library:mergeDebugShaders UP-TO-DATE
+> Task :library:compileDebugShaders NO-SOURCE
+> Task :library:generateDebugAssets UP-TO-DATE
+> Task :library:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugAssets
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :library:bundleLibResDebug
+> Task :sample:processDebugResources
+> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :sample:checkDebugDuplicateClasses
+> Task :library:bundleLibRuntimeToJarDebug
+> Task :sample:mergeLibDexDebug
+> Task :library:mergeDebugJniLibFolders UP-TO-DATE
+> Task :library:mergeDebugNativeLibs UP-TO-DATE
+> Task :library:stripDebugDebugSymbols NO-SOURCE
+> Task :library:copyDebugJniLibsProjectOnly
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:generateReleaseBuildConfig UP-TO-DATE
+> Task :library:generateReleaseSources UP-TO-DATE
+> Task :library:dataBindingExportBuildInfoRelease UP-TO-DATE
+> Task :library:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
+> Task :library:dataBindingMergeGenClassesRelease UP-TO-DATE
+> Task :library:generateReleaseResValues UP-TO-DATE
+> Task :library:generateReleaseResources UP-TO-DATE
+> Task :library:packageReleaseResources UP-TO-DATE
+> Task :library:dataBindingGenBaseClassesRelease UP-TO-DATE
+> Task :library:parseReleaseLocalResources UP-TO-DATE
+> Task :library:processReleaseManifest UP-TO-DATE
+> Task :library:generateReleaseRFile UP-TO-DATE
+> Task :library:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+> Task :library:kaptReleaseKotlin UP-TO-DATE
+> Task :library:compileReleaseKotlin UP-TO-DATE
+> Task :library:javaPreCompileRelease UP-TO-DATE
+> Task :library:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :library:bundleLibCompileToJarRelease
+> Task :sample:preReleaseBuild UP-TO-DATE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:generateReleaseSources
+> Task :sample:dataBindingExportBuildInfoRelease
+> Task :sample:dataBindingMergeDependencyArtifactsRelease
+> Task :sample:dataBindingMergeGenClassesRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:dataBindingExportFeaturePackageIdsRelease
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
+> Task :library:extractDeepLinksRelease
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
+> Task :sample:processReleaseManifest
+> Task :library:compileReleaseLibraryResources
+> Task :sample:mergeReleaseResources
+> Task :sample:dataBindingGenBaseClassesRelease
+> Task :sample:processReleaseResources
+> Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:kaptDebugKotlin
+> Task :sample:compileDebugKotlin
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:dexBuilderDebug
+> Task :sample:javaPreCompileRelease
+> Task :sample:kaptReleaseKotlin
+> Task :sample:compileReleaseKotlin
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeProjectDexDebug
+> Task :sample:mergeDebugJavaResource
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:lintVitalRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:dexBuilderRelease
+> Task :library:bundleLibRuntimeToJarRelease
+> Task :library:mergeReleaseShaders UP-TO-DATE
+> Task :library:compileReleaseShaders NO-SOURCE
+> Task :library:generateReleaseAssets UP-TO-DATE
+> Task :library:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseAssets
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:collectReleaseDependencies
+> Task :sample:sdkReleaseDependencyData
+> Task :library:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :library:mergeReleaseNativeLibs UP-TO-DATE
+> Task :library:stripReleaseDebugSymbols NO-SOURCE
+> Task :library:copyReleaseJniLibsProjectOnly
+> Task :sample:mergeReleaseJniLibFolders
+> Task :library:bundleLibResRelease
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 1m 1s
+113 actionable tasks: 73 executed, 40 up-to-date
+
+2020-08-31 21:20:46,744 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883545202-0/src/databinding-recycler-adapter-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

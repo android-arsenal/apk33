@@ -1,34 +1,37 @@
-2020-07-06 01:48:15,091 INFO  DownloadService - Downloading "https://github.com/FutureMind/rxwebsocket/archive/master.zip", attempt 3
-2020-07-06 01:48:15,673 INFO  DownloadService - Downloaded https://github.com/FutureMind/rxwebsocket/archive/master.zip, attempt 3
-2020-07-06 01:48:15,673 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/master.zip": 150 KB
-2020-07-06 01:48:15,673 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-07-06 01:48:15,674 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/master.zip: true
-2020-07-06 01:48:15,674 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src'.
-2020-07-06 01:48:15,691 INFO  FullProcessService - Size of directory with sources: 176 KB
-2020-07-06 01:48:15,691 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src]
-2020-07-06 01:48:15,712 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/.git/
+2020-08-31 21:25:11,878 INFO  DownloadService - Downloading "https://github.com/FutureMind/rxwebsocket/archive/master.zip", attempt 3
+2020-08-31 21:25:24,793 INFO  VirusProcessorServiceImpl - Queued project 8148 to scan viruses
+2020-08-31 21:26:11,883 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-08-31 21:26:13,094 INFO  GithubDownloadService - Default branch of this repository: master
+2020-08-31 21:26:13,094 INFO  DownloadService - Downloading "https://github.com/FutureMind/rxwebsocket/archive/master.zip", attempt 3
+2020-08-31 21:27:14,052 DEBUG FullProcessService - Repository https://github.com/FutureMind/rxwebsocket available: true
+2020-08-31 21:27:14,052 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-08-31 21:27:14,052 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/FutureMind/rxwebsocket, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src]
+2020-08-31 21:27:15,888 INFO  SysUtils - 
+2020-08-31 21:27:15,916 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/.git": true
+2020-08-31 21:27:15,920 INFO  FullProcessService - Size of directory with sources: 176 KB
+2020-08-31 21:27:15,920 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src]
+2020-08-31 21:27:15,939 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/.git/
 
-2020-07-06 01:48:15,715 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/gradlew
-2020-07-06 01:48:15,718 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/rxwebsocket/build.gradle
-2020-07-06 01:48:15,721 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/rxwebsocket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/settings.gradle
-2020-07-06 01:48:15,722 INFO  ProjectBuildService - Remote scripts: none
-2020-07-06 01:48:15,722 INFO  ProjectFixService - Fixing project...
-2020-07-06 01:48:15,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/sample/local.properties
-2020-07-06 01:48:15,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/sample/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-07-06 01:48:15,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/local.properties
-2020-07-06 01:48:15,731 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-07-06 01:48:15,732 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-07-06 01:48:15,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-07-06 01:48:15,734 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/rxwebsocket/local.properties
-2020-07-06 01:48:15,736 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/rxwebsocket/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-07-06 01:48:15,736 INFO  ProjectFixService - Project was maybe fixed
-2020-07-06 01:48:15,736 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-06 01:48:15,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-06 01:48:26,636 INFO  VirusProcessorServiceImpl - Queued project 8130 to scan viruses
-2020-07-06 01:48:27,477 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-07-06 01:48:27,477 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-07-06 01:48:27,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-07-06 01:49:23,459 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-08-31 21:27:15,942 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/gradlew
+2020-08-31 21:27:15,945 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/rxwebsocket/build.gradle
+2020-08-31 21:27:15,948 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/rxwebsocket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/settings.gradle
+2020-08-31 21:27:15,948 INFO  ProjectBuildService - Remote scripts: none
+2020-08-31 21:27:15,949 INFO  ProjectFixService - Fixing project...
+2020-08-31 21:27:15,956 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/sample/local.properties
+2020-08-31 21:27:15,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/sample/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-08-31 21:27:15,957 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/local.properties
+2020-08-31 21:27:15,957 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-08-31 21:27:15,958 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-08-31 21:27:15,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-08-31 21:27:15,960 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/rxwebsocket/local.properties
+2020-08-31 21:27:15,962 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/rxwebsocket/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-08-31 21:27:15,962 INFO  ProjectFixService - Project was maybe fixed
+2020-08-31 21:27:15,962 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 21:27:15,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 21:27:27,378 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-08-31 21:27:27,378 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-08-31 21:27:27,379 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-08-31 21:28:27,030 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :rxwebsocket:compileKotlin
 > Task :rxwebsocket:compileJava NO-SOURCE
 > Task :rxwebsocket:processResources NO-SOURCE
@@ -60,8 +63,8 @@
 > Task :sample:mergeDebugJavaResource
 > Task :sample:checkDebugDuplicateClasses
 > Task :sample:desugarDebugFileDependencies
-> Task :sample:mergeLibDexDebug
 > Task :sample:dexBuilderDebug
+> Task :sample:mergeLibDexDebug
 > Task :sample:mergeDebugJniLibFolders
 > Task :sample:mergeProjectDexDebug
 > Task :sample:validateSigningDebug
@@ -72,14 +75,14 @@
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseKotlin
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
@@ -107,7 +110,7 @@
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 58s
 55 actionable tasks: 55 executed
 
-2020-07-06 01:49:23,507 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593974895086-0/src/rxwebsocket-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-08-31 21:28:27,084 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883911875-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

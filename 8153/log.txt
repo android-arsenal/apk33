@@ -1,0 +1,284 @@
+2020-08-31 21:17:09,692 INFO  DownloadService - Downloading "https://github.com/rommansabbir/AnimationX/archive/master.zip", attempt 3
+2020-08-31 21:17:11,383 INFO  DownloadService - Downloaded https://github.com/rommansabbir/AnimationX/archive/master.zip, attempt 3
+2020-08-31 21:17:11,384 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/master.zip": 151 KB
+2020-08-31 21:17:11,384 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-08-31 21:17:11,398 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/master.zip: true
+2020-08-31 21:17:11,399 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src'.
+2020-08-31 21:17:11,431 INFO  FullProcessService - Size of directory with sources: 209 KB
+2020-08-31 21:17:11,436 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src]
+2020-08-31 21:17:11,495 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/.git/
+
+2020-08-31 21:17:11,512 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/gradlew
+2020-08-31 21:17:11,525 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/animationx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/build.gradle
+2020-08-31 21:17:11,531 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/animationx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/settings.gradle
+2020-08-31 21:17:11,534 INFO  ProjectBuildService - Remote scripts: none
+2020-08-31 21:17:11,534 INFO  ProjectFixService - Fixing project...
+2020-08-31 21:17:11,597 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2020-08-31 21:17:11,598 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2020-08-31 21:17:11,618 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2020-08-31 21:17:11,621 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 28.0.0-rc1 28.0.0-rc2
+2020-08-31 21:17:11,641 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2020-08-31 21:17:11,642 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2020-08-31 21:17:11,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/animationx/local.properties
+2020-08-31 21:17:11,647 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/animationx/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-08-31 21:17:11,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/local.properties
+2020-08-31 21:17:11,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-08-31 21:17:11,652 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/local.properties
+2020-08-31 21:17:11,657 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-08-31 21:17:11,657 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-08-31 21:17:11,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-08-31 21:17:11,659 INFO  ProjectFixService - Project was maybe fixed
+2020-08-31 21:17:11,661 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 21:17:11,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/animationx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 21:17:38,293 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-08-31 21:17:38,294 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-08-31 21:17:38,294 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/animationx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-08-31 21:18:06,481 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:animationx:preBuild UP-TO-DATE
+> Task :app:animationx:preDebugBuild UP-TO-DATE
+> Task :app:animationx:mergeDebugJniLibFolders
+> Task :app:animationx:mergeDebugNativeLibs
+> Task :app:animationx:stripDebugDebugSymbols
+> Task :app:animationx:copyDebugJniLibsProjectAndLocalJars
+> Task :app:animationx:generateDebugBuildConfig
+> Task :app:animationx:generateDebugResValues
+> Task :app:animationx:mergeDebugShaders
+> Task :app:animationx:compileDebugShaders
+> Task :app:animationx:generateDebugAssets
+> Task :app:animationx:packageDebugAssets
+> Task :app:animationx:packageDebugRenderscript NO-SOURCE
+> Task :app:animationx:processDebugJavaRes NO-SOURCE
+> Task :app:animationx:preReleaseBuild UP-TO-DATE
+> Task :app:animationx:mergeReleaseJniLibFolders
+> Task :app:animationx:prepareLintJarForPublish
+> Task :app:animationx:generateReleaseBuildConfig
+> Task :app:animationx:generateReleaseResValues
+> Task :app:animationx:mergeReleaseShaders
+> Task :app:animationx:compileReleaseShaders
+> Task :app:animationx:generateReleaseAssets
+> Task :app:animationx:packageReleaseAssets
+> Task :app:animationx:packageReleaseRenderscript NO-SOURCE
+> Task :app:animationx:processReleaseJavaRes NO-SOURCE
+> Task :app:animationx:mergeReleaseNativeLibs
+> Task :app:animationx:stripReleaseDebugSymbols
+> Task :app:animationx:copyReleaseJniLibsProjectAndLocalJars
+> Task :app:animationx:processReleaseManifest
+> Task :app:animationx:processDebugManifest
+> Task :app:animationx:compileDebugRenderscript NO-SOURCE
+> Task :app:animationx:compileDebugAidl NO-SOURCE
+> Task :app:animationx:generateDebugResources
+> Task :app:animationx:packageDebugResources
+> Task :app:animationx:compileReleaseAidl NO-SOURCE
+> Task :app:animationx:compileReleaseRenderscript NO-SOURCE
+> Task :app:animationx:generateReleaseResources
+> Task :app:animationx:packageReleaseResources
+> Task :app:animationx:parseDebugLocalResources
+> Task :app:animationx:parseReleaseLocalResources
+> Task :app:animationx:generateReleaseRFile
+> Task :app:animationx:compileReleaseKotlin
+> Task :app:animationx:generateDebugRFile
+> Task :app:animationx:compileDebugKotlin
+> Task :app:animationx:javaPreCompileRelease
+> Task :app:animationx:compileReleaseJavaWithJavac
+> Task :app:animationx:extractReleaseAnnotations
+> Task :app:animationx:mergeReleaseGeneratedProguardFiles
+> Task :app:animationx:mergeReleaseConsumerProguardFiles
+> Task :app:animationx:compileReleaseSources
+> Task :app:animationx:mergeReleaseJavaResource
+> Task :app:animationx:syncReleaseLibJars
+> Task :app:animationx:bundleReleaseAar
+> Task :app:animationx:mergeDebugJavaResource
+> Task :app:animationx:javaPreCompileDebug
+> Task :app:animationx:compileDebugJavaWithJavac
+> Task :app:animationx:extractDebugAnnotations
+> Task :app:animationx:mergeDebugGeneratedProguardFiles
+> Task :app:animationx:mergeDebugConsumerProguardFiles
+> Task :app:animationx:syncDebugLibJars
+> Task :app:animationx:bundleDebugAar
+> Task :app:animationx:compileDebugSources
+> Task :app:animationx:assembleDebug
+> Task :app:animationx:mergeReleaseResources
+> Task :app:animationx:verifyReleaseResources
+> Task :app:animationx:assembleRelease
+> Task :app:animationx:assemble
+> Task :app:animationx:build
+
+BUILD SUCCESSFUL in 27s
+47 actionable tasks: 47 executed
+
+2020-08-31 21:18:06,546 INFO  ProjectTaskService - Detecting possible tasks...
+2020-08-31 21:18:06,546 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-08-31 21:18:12,768 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-08-31 21:18:12,768 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-08-31 21:18:12,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-08-31 21:19:03,943 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:animationx:preBuild UP-TO-DATE
+> Task :app:animationx:preDebugBuild UP-TO-DATE
+> Task :app:animationx:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:animationx:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:prepareLintJarForPublish
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:animationx:generateDebugResValues UP-TO-DATE
+> Task :app:animationx:compileDebugRenderscript NO-SOURCE
+> Task :app:animationx:generateDebugResources UP-TO-DATE
+> Task :app:animationx:packageDebugResources UP-TO-DATE
+> Task :app:dataBindingExportFeaturePackageIdsDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:animationx:extractDeepLinksDebug
+> Task :app:animationx:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:animationx:compileDebugLibraryResources
+> Task :app:animationx:parseDebugLocalResources UP-TO-DATE
+> Task :app:animationx:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources
+> Task :app:animationx:generateDebugBuildConfig UP-TO-DATE
+> Task :app:animationx:compileDebugKotlin UP-TO-DATE
+> Task :app:animationx:javaPreCompileDebug UP-TO-DATE
+> Task :app:animationx:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:animationx:mergeDebugShaders UP-TO-DATE
+> Task :app:animationx:compileDebugShaders UP-TO-DATE
+> Task :app:animationx:generateDebugAssets UP-TO-DATE
+> Task :app:animationx:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:animationx:bundleLibCompileDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:animationx:processDebugJavaRes NO-SOURCE
+> Task :app:animationx:bundleLibResDebug
+> Task :app:animationx:bundleLibRuntimeDebug
+> Task :app:dexBuilderDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugJniLibFolders
+> Task :app:animationx:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:animationx:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:animationx:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:animationx:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:animationx:preReleaseBuild UP-TO-DATE
+> Task :app:animationx:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:animationx:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :app:dataBindingExportBuildInfoRelease
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:animationx:compileReleaseRenderscript NO-SOURCE
+> Task :app:animationx:generateReleaseResValues UP-TO-DATE
+> Task :app:animationx:generateReleaseResources UP-TO-DATE
+> Task :app:animationx:packageReleaseResources UP-TO-DATE
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:mainApkListPersistenceRelease
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:animationx:extractDeepLinksRelease
+> Task :app:animationx:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :app:animationx:parseReleaseLocalResources UP-TO-DATE
+> Task :app:animationx:generateReleaseRFile UP-TO-DATE
+> Task :app:animationx:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:animationx:compileReleaseKotlin UP-TO-DATE
+> Task :app:animationx:javaPreCompileRelease UP-TO-DATE
+> Task :app:animationx:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:animationx:compileReleaseLibraryResources
+> Task :app:processReleaseResources
+> Task :app:animationx:bundleLibCompileRelease
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptReleaseKotlin
+> Task :app:compileReleaseKotlin
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:animationx:prepareLintJarForPublish UP-TO-DATE
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:mergeExtDexDebug
+> Task :app:animationx:bundleLibRuntimeRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:animationx:mergeReleaseShaders UP-TO-DATE
+> Task :app:animationx:compileReleaseShaders UP-TO-DATE
+> Task :app:animationx:generateReleaseAssets UP-TO-DATE
+> Task :app:animationx:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:animationx:processReleaseJavaRes NO-SOURCE
+> Task :app:animationx:bundleLibResRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:animationx:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :app:animationx:mergeReleaseNativeLibs UP-TO-DATE
+> Task :app:animationx:stripReleaseDebugSymbols UP-TO-DATE
+> Task :app:animationx:copyReleaseJniLibsProjectOnly
+> Task :app:animationx:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :app:animationx:extractDebugAnnotations UP-TO-DATE
+> Task :app:animationx:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :app:animationx:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :app:animationx:mergeDebugJavaResource UP-TO-DATE
+> Task :app:animationx:syncDebugLibJars UP-TO-DATE
+> Task :app:animationx:bundleDebugAar UP-TO-DATE
+> Task :app:animationx:compileDebugSources UP-TO-DATE
+> Task :app:animationx:assembleDebug UP-TO-DATE
+> Task :app:animationx:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :app:animationx:extractReleaseAnnotations UP-TO-DATE
+> Task :app:animationx:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:animationx:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :app:animationx:mergeReleaseJavaResource UP-TO-DATE
+> Task :app:animationx:syncReleaseLibJars UP-TO-DATE
+> Task :app:animationx:bundleReleaseAar UP-TO-DATE
+> Task :app:animationx:compileReleaseSources UP-TO-DATE
+> Task :app:animationx:mergeReleaseResources UP-TO-DATE
+> Task :app:animationx:verifyReleaseResources UP-TO-DATE
+> Task :app:animationx:assembleRelease UP-TO-DATE
+> Task :app:animationx:assemble UP-TO-DATE
+> Task :app:animationx:build
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 50s
+123 actionable tasks: 76 executed, 47 up-to-date
+
+2020-08-31 21:19:04,061 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883429604-0/src/AnimationX-master/app/build/outputs/apk/debug/app-debug.apk
