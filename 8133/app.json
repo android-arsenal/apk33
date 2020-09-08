@@ -29,8 +29,8 @@
     "usesPermissions" : [ ],
     "usesFeatures" : [ ],
     "permissions" : [ ],
-    "splitRequired" : false,
-    "featureSplit" : false
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -42,7 +42,7 @@
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.0.2\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"nl.invissvenska.modalbottomsheetdialog\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"29\" />\n\t<application android:theme=\"resourceId:0x7f100007\" android:label=\"ModalBottomSheetDialog Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f100009\" android:label=\"ModalBottomSheetDialog Demo\" android:name=\"nl.invissvenska.modalbottomsheetdialog.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"androidx.lifecycle.ProcessLifecycleOwnerInitializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"nl.invissvenska.modalbottomsheetdialog.lifecycle-process\" />\n\t</application>\n</manifest>\n",
   "fileSize" : 2746066,
-  "crc32" : 2821086427,
-  "sha256" : "73ccfe6d57b929adc20b3782c3b801f73367137d63e51f3fed29260a22a3ed26",
-  "buildTime" : 1596022447000
+  "crc32" : 4162275414,
+  "sha256" : "3c36cfd419853b7dd74c413ec8bb34267d81f7822eeffe2107cd6f506fe545cf",
+  "buildTime" : 1599587019000
 }

@@ -1,42 +1,41 @@
-2020-07-29 18:34:11,890 INFO  DownloadService - Downloading "https://github.com/psuzn/WheelView/archive/master.zip", attempt 3
-2020-07-29 18:34:15,678 INFO  DownloadService - Downloaded https://github.com/psuzn/WheelView/archive/master.zip, attempt 3
-2020-07-29 18:34:15,679 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/master.zip": 5 MB
-2020-07-29 18:34:15,679 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-07-29 18:34:15,679 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/master.zip: true
-2020-07-29 18:34:15,680 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src'.
-2020-07-29 18:34:15,740 INFO  FullProcessService - Size of directory with sources: 5 MB
-2020-07-29 18:34:15,740 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src]
-2020-07-29 18:34:15,767 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/.git/
+2020-09-09 00:43:48,067 INFO  DownloadService - Downloading "https://github.com/psuzn/WheelView/archive/master.zip", attempt 3
+2020-09-09 00:43:50,188 INFO  DownloadService - Downloaded https://github.com/psuzn/WheelView/archive/master.zip, attempt 3
+2020-09-09 00:43:50,190 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/master.zip": 5 MB
+2020-09-09 00:43:50,190 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-09 00:43:50,192 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/master.zip: true
+2020-09-09 00:43:50,192 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src'.
+2020-09-09 00:43:50,348 INFO  FullProcessService - Size of directory with sources: 5 MB
+2020-09-09 00:43:50,348 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src]
+2020-09-09 00:43:50,416 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/.git/
 
-2020-07-29 18:34:15,771 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/gradlew
-2020-07-29 18:34:15,775 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/WheelView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/build.gradle
-2020-07-29 18:34:15,779 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/WheelView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/settings.gradle
-2020-07-29 18:34:15,779 INFO  ProjectBuildService - Remote scripts: none
-2020-07-29 18:34:15,779 INFO  ProjectFixService - Fixing project...
-2020-07-29 18:34:15,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/WheelView/local.properties
-2020-07-29 18:34:15,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/WheelView/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-07-29 18:34:15,791 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/app/local.properties
-2020-07-29 18:34:15,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-07-29 18:34:15,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/local.properties
-2020-07-29 18:34:15,793 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-rc-1-bin.zip
-2020-07-29 18:34:15,794 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
-2020-07-29 18:34:15,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-07-29 18:34:15,795 INFO  ProjectFixService - Project was maybe fixed
-2020-07-29 18:34:15,795 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-29 18:34:15,795 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/WheelView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-29 18:34:24,167 INFO  VirusProcessorServiceImpl - Queued project 8133 to scan viruses
-2020-07-29 18:34:47,557 INFO  ProjectTaskService - Detected possible tasks: 71
-2020-07-29 18:34:47,558 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-07-29 18:34:47,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/WheelView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-07-29 18:35:22,811 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-09 00:43:50,422 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/gradlew
+2020-09-09 00:43:50,428 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/WheelView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/build.gradle
+2020-09-09 00:43:50,433 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/WheelView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/settings.gradle
+2020-09-09 00:43:50,434 INFO  ProjectBuildService - Remote scripts: none
+2020-09-09 00:43:50,434 INFO  ProjectFixService - Fixing project...
+2020-09-09 00:43:50,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/WheelView/local.properties
+2020-09-09 00:43:50,447 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/WheelView/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-09-09 00:43:50,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/app/local.properties
+2020-09-09 00:43:50,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-09-09 00:43:50,448 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/local.properties
+2020-09-09 00:43:50,449 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2020-09-09 00:43:50,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-09-09 00:43:50,451 INFO  ProjectFixService - Project was maybe fixed
+2020-09-09 00:43:50,451 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-09 00:43:50,451 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/WheelView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-09 00:44:00,543 INFO  VirusProcessorServiceImpl - Queued project 8133 to scan viruses
+2020-09-09 00:44:15,395 INFO  ProjectTaskService - Detected possible tasks: 64
+2020-09-09 00:44:15,396 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-09-09 00:44:15,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/WheelView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-09-09 00:45:02,969 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :WheelView:preBuild UP-TO-DATE
 > Task :WheelView:preDebugBuild UP-TO-DATE
 > Task :WheelView:compileDebugAidl NO-SOURCE
 > Task :WheelView:mergeDebugJniLibFolders
 > Task :WheelView:mergeDebugNativeLibs NO-SOURCE
 > Task :WheelView:stripDebugDebugSymbols NO-SOURCE
-> Task :WheelView:copyDebugJniLibsProjectAndLocalJars
 > Task :WheelView:compileDebugRenderscript NO-SOURCE
+> Task :WheelView:copyDebugJniLibsProjectAndLocalJars
 > Task :WheelView:generateDebugBuildConfig
 > Task :WheelView:generateDebugResValues
 > Task :WheelView:generateDebugResources
@@ -47,8 +46,8 @@
 > Task :WheelView:generateDebugAssets UP-TO-DATE
 > Task :WheelView:packageDebugAssets
 > Task :WheelView:packageDebugRenderscript NO-SOURCE
-> Task :WheelView:prepareLintJarForPublish
 > Task :WheelView:processDebugJavaRes NO-SOURCE
+> Task :WheelView:prepareLintJarForPublish
 > Task :WheelView:preReleaseBuild UP-TO-DATE
 > Task :WheelView:compileReleaseAidl NO-SOURCE
 > Task :WheelView:writeDebugAarMetadata
@@ -56,16 +55,16 @@
 > Task :WheelView:mergeReleaseNativeLibs NO-SOURCE
 > Task :WheelView:stripReleaseDebugSymbols NO-SOURCE
 > Task :WheelView:copyReleaseJniLibsProjectAndLocalJars
-> Task :WheelView:parseDebugLocalResources
 > Task :WheelView:compileReleaseRenderscript NO-SOURCE
+> Task :WheelView:parseDebugLocalResources
 > Task :WheelView:generateReleaseBuildConfig
 > Task :WheelView:generateReleaseResValues
 > Task :WheelView:generateReleaseResources
 > Task :WheelView:processDebugManifest
 > Task :WheelView:packageReleaseResources
-> Task :WheelView:javaPreCompileRelease
 > Task :WheelView:parseReleaseLocalResources
 > Task :WheelView:mergeReleaseShaders
+> Task :WheelView:javaPreCompileRelease
 > Task :WheelView:compileReleaseShaders NO-SOURCE
 > Task :WheelView:generateReleaseAssets UP-TO-DATE
 > Task :WheelView:processReleaseManifest
@@ -78,7 +77,7 @@
 > Task :WheelView:mergeReleaseResources
 
 > Task :WheelView:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/WheelView/src/main/java/me/sujanpoudel/wheelview/WheelView.kt: (302, 30): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/WheelView/src/main/java/me/sujanpoudel/wheelview/WheelView.kt: (310, 30): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
 
 > Task :WheelView:compileDebugJavaWithJavac
 > Task :WheelView:extractDebugAnnotations
@@ -88,7 +87,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/
 > Task :WheelView:mergeDebugJavaResource
 
 > Task :WheelView:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/WheelView/src/main/java/me/sujanpoudel/wheelview/WheelView.kt: (302, 30): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/WheelView/src/main/java/me/sujanpoudel/wheelview/WheelView.kt: (310, 30): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
 
 > Task :WheelView:syncDebugLibJars
 > Task :WheelView:bundleDebugAar
@@ -106,15 +105,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/
 > Task :WheelView:assemble
 > Task :WheelView:build
 
-BUILD SUCCESSFUL in 34s
+BUILD SUCCESSFUL in 46s
 43 actionable tasks: 43 executed
 
-2020-07-29 18:35:22,872 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-29 18:35:22,872 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-29 18:35:30,180 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-07-29 18:35:30,180 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-07-29 18:35:30,181 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-07-29 18:36:34,173 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-09 00:45:03,036 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-09 00:45:03,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-09 00:45:13,022 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-09-09 00:45:13,022 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-09 00:45:13,022 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-09 00:46:13,015 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :WheelView:preBuild UP-TO-DATE
@@ -126,9 +125,9 @@ BUILD SUCCESSFUL in 34s
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :WheelView:writeDebugAarMetadata UP-TO-DATE
 > Task :app:generateDebugResValues
-> Task :app:checkDebugAarMetadata
 > Task :app:generateDebugResources
 > Task :WheelView:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugAarMetadata
 > Task :WheelView:generateDebugResValues UP-TO-DATE
 > Task :WheelView:generateDebugResources UP-TO-DATE
 > Task :WheelView:packageDebugResources UP-TO-DATE
@@ -146,14 +145,10 @@ BUILD SUCCESSFUL in 34s
 > Task :WheelView:compileDebugKotlin UP-TO-DATE
 > Task :WheelView:javaPreCompileDebug UP-TO-DATE
 > Task :WheelView:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:processDebugManifestForPackage
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :app:javaPreCompileDebug
-> Task :app:processDebugManifestForPackage
 > Task :WheelView:bundleLibCompileToJarDebug
-> Task :app:processDebugResources
-> Task :app:compileDebugKotlin
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
 > Task :app:generateDebugAssets UP-TO-DATE
@@ -167,9 +162,13 @@ BUILD SUCCESSFUL in 34s
 > Task :WheelView:processDebugJavaRes NO-SOURCE
 > Task :WheelView:bundleLibResDebug
 > Task :WheelView:bundleLibRuntimeToJarDebug
-> Task :app:mergeDebugJavaResource
-> Task :app:dexBuilderDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :app:processDebugResources
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:desugarDebugFileDependencies
 > Task :app:mergeDebugJniLibFolders
 > Task :WheelView:mergeDebugJniLibFolders UP-TO-DATE
@@ -192,8 +191,6 @@ BUILD SUCCESSFUL in 34s
 > Task :WheelView:generateReleaseResValues UP-TO-DATE
 > Task :WheelView:generateReleaseResources UP-TO-DATE
 > Task :WheelView:packageReleaseResources UP-TO-DATE
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :WheelView:extractDeepLinksRelease
@@ -204,21 +201,18 @@ BUILD SUCCESSFUL in 34s
 > Task :WheelView:parseReleaseLocalResources UP-TO-DATE
 > Task :WheelView:generateReleaseRFile UP-TO-DATE
 > Task :WheelView:generateReleaseBuildConfig UP-TO-DATE
-> Task :app:mergeReleaseResources
 > Task :WheelView:compileReleaseKotlin UP-TO-DATE
 > Task :WheelView:javaPreCompileRelease UP-TO-DATE
+> Task :app:mergeReleaseResources
 > Task :WheelView:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :app:javaPreCompileRelease
 > Task :app:processReleaseManifestForPackage
 > Task :WheelView:bundleLibCompileToJarRelease
-> Task :app:processReleaseResources
-> Task :app:compileReleaseKotlin
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
 > Task :WheelView:prepareLintJarForPublish UP-TO-DATE
-> Task :app:lintVitalRelease
 > Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeDebugNativeLibs
 > Task :app:mergeReleaseShaders
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
 > Task :WheelView:mergeReleaseShaders UP-TO-DATE
@@ -228,34 +222,39 @@ BUILD SUCCESSFUL in 34s
 > Task :app:mergeReleaseAssets
 > Task :app:compressReleaseAssets
 > Task :WheelView:bundleLibRuntimeToJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:processReleaseResources
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
 > Task :app:desugarReleaseFileDependencies
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :WheelView:processReleaseJavaRes NO-SOURCE
 > Task :WheelView:bundleLibResRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:collectReleaseDependencies
-> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseJavaResource
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :WheelView:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :WheelView:mergeReleaseNativeLibs NO-SOURCE
 > Task :WheelView:stripReleaseDebugSymbols NO-SOURCE
 > Task :WheelView:copyReleaseJniLibsProjectOnly
-> Task :app:dexBuilderRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
-> Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexRelease
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 3s
+BUILD SUCCESSFUL in 59s
 93 actionable tasks: 66 executed, 27 up-to-date
 
-2020-07-29 18:36:34,284 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022451887-0/src/WheelView-master/app/build/outputs/apk/debug/app-debug.apk
+2020-09-09 00:46:13,137 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587028064-0/src/WheelView-master/app/build/outputs/apk/debug/app-debug.apk

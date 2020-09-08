@@ -1,0 +1,258 @@
+2020-09-09 00:40:31,369 INFO  DownloadService - Downloading "https://github.com/ezralazuardy/orb/archive/master.zip", attempt 3
+2020-09-09 00:40:33,205 INFO  DownloadService - Downloaded https://github.com/ezralazuardy/orb/archive/master.zip, attempt 3
+2020-09-09 00:40:33,205 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/master.zip": 169 KB
+2020-09-09 00:40:33,205 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-09 00:40:33,211 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/master.zip: true
+2020-09-09 00:40:33,211 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src'.
+2020-09-09 00:40:33,261 INFO  FullProcessService - Size of directory with sources: 212 KB
+2020-09-09 00:40:33,261 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src]
+2020-09-09 00:40:33,303 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/.git/
+
+2020-09-09 00:40:33,307 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/gradlew
+2020-09-09 00:40:33,313 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/build.gradle
+2020-09-09 00:40:33,317 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/settings.gradle
+2020-09-09 00:40:33,318 INFO  ProjectBuildService - Remote scripts: none
+2020-09-09 00:40:33,318 INFO  ProjectFixService - Fixing project...
+2020-09-09 00:40:33,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/local.properties
+2020-09-09 00:40:33,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-09-09 00:40:33,329 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-09-09 00:40:33,331 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/local.properties
+2020-09-09 00:40:33,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2020-09-09 00:40:33,332 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/local.properties
+2020-09-09 00:40:33,333 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-09-09 00:40:33,333 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-09-09 00:40:33,334 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2020-09-09 00:40:33,334 INFO  ProjectFixService - Project was maybe fixed
+2020-09-09 00:40:33,334 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-09 00:40:33,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-09 00:40:38,891 INFO  VirusProcessorServiceImpl - Queued project 8155 to scan viruses
+2020-09-09 00:40:43,753 INFO  ProjectTaskService - Detected possible tasks: 65
+2020-09-09 00:40:43,753 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-09-09 00:40:43,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-09-09 00:41:12,954 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :orb
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :orb:preBuild UP-TO-DATE
+> Task :orb:preDebugBuild UP-TO-DATE
+> Task :orb:mergeDebugJniLibFolders
+> Task :orb:mergeDebugNativeLibs
+> Task :orb:stripDebugDebugSymbols NO-SOURCE
+> Task :orb:copyDebugJniLibsProjectAndLocalJars
+> Task :orb:generateDebugBuildConfig
+> Task :orb:generateDebugResValues
+> Task :orb:mergeDebugShaders
+> Task :orb:compileDebugShaders NO-SOURCE
+> Task :orb:generateDebugAssets UP-TO-DATE
+> Task :orb:packageDebugAssets
+> Task :orb:packageDebugRenderscript NO-SOURCE
+> Task :orb:javaPreCompileDebug
+> Task :orb:processDebugJavaRes NO-SOURCE
+> Task :orb:preReleaseBuild UP-TO-DATE
+> Task :orb:mergeReleaseJniLibFolders
+> Task :orb:prepareLintJarForPublish
+> Task :orb:generateReleaseBuildConfig
+> Task :orb:generateReleaseResValues
+> Task :orb:mergeReleaseNativeLibs
+> Task :orb:stripReleaseDebugSymbols NO-SOURCE
+> Task :orb:copyReleaseJniLibsProjectAndLocalJars
+> Task :orb:mergeReleaseShaders
+> Task :orb:compileReleaseShaders NO-SOURCE
+> Task :orb:generateReleaseAssets UP-TO-DATE
+> Task :orb:packageReleaseAssets
+> Task :orb:packageReleaseRenderscript NO-SOURCE
+> Task :orb:processReleaseJavaRes NO-SOURCE
+> Task :orb:javaPreCompileRelease
+> Task :orb:processDebugManifest
+> Task :orb:processReleaseManifest
+> Task :orb:compileDebugAidl NO-SOURCE
+> Task :orb:compileDebugRenderscript NO-SOURCE
+> Task :orb:generateDebugResources
+> Task :orb:packageDebugResources
+> Task :orb:compileReleaseAidl NO-SOURCE
+> Task :orb:compileReleaseRenderscript NO-SOURCE
+> Task :orb:generateReleaseResources
+> Task :orb:packageReleaseResources
+> Task :orb:parseDebugLocalResources
+> Task :orb:parseReleaseLocalResources
+> Task :orb:javadoc NO-SOURCE
+> Task :orb:mergeReleaseResources
+> Task :orb:javadocJar
+> Task :orb:sourcesJar
+> Task :orb:generateDebugRFile
+> Task :orb:compileDebugKotlin
+> Task :orb:compileDebugJavaWithJavac
+> Task :orb:extractDebugAnnotations
+> Task :orb:mergeDebugGeneratedProguardFiles
+> Task :orb:mergeDebugConsumerProguardFiles
+> Task :orb:compileDebugSources
+> Task :orb:verifyReleaseResources
+> Task :orb:generateReleaseRFile
+> Task :orb:compileReleaseKotlin
+> Task :orb:compileReleaseJavaWithJavac
+> Task :orb:extractReleaseAnnotations
+> Task :orb:mergeReleaseGeneratedProguardFiles
+> Task :orb:mergeReleaseConsumerProguardFiles
+> Task :orb:mergeDebugJavaResource
+> Task :orb:syncDebugLibJars
+> Task :orb:bundleDebugAar
+> Task :orb:assembleDebug
+> Task :orb:compileReleaseSources
+> Task :orb:mergeReleaseJavaResource
+> Task :orb:syncReleaseLibJars
+> Task :orb:bundleReleaseAar
+> Task :orb:assembleRelease
+> Task :orb:assemble
+> Task :orb:build
+
+BUILD SUCCESSFUL in 28s
+45 actionable tasks: 45 executed
+
+2020-09-09 00:41:13,044 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-09 00:41:13,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-09 00:41:23,864 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-09-09 00:41:23,864 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-09 00:41:23,865 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-09 00:42:46,751 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :orb
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :orb:preBuild UP-TO-DATE
+> Task :orb:preDebugBuild UP-TO-DATE
+> Task :orb:compileDebugAidl NO-SOURCE
+> Task :orb:generateDebugBuildConfig UP-TO-DATE
+> Task :orb:compileDebugRenderscript NO-SOURCE
+> Task :orb:generateDebugResValues UP-TO-DATE
+> Task :orb:generateDebugResources UP-TO-DATE
+> Task :orb:packageDebugResources UP-TO-DATE
+> Task :orb:parseDebugLocalResources UP-TO-DATE
+> Task :orb:processDebugManifest UP-TO-DATE
+> Task :orb:generateDebugRFile UP-TO-DATE
+> Task :orb:compileDebugKotlin UP-TO-DATE
+> Task :orb:javaPreCompileDebug UP-TO-DATE
+> Task :orb:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :orb:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugBuildConfig
+> Task :orb:compileDebugLibraryResources
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :orb:bundleLibCompileToJarDebug
+> Task :orb:extractDeepLinksDebug
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
+> Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :orb:mergeDebugShaders UP-TO-DATE
+> Task :orb:compileDebugShaders NO-SOURCE
+> Task :orb:generateDebugAssets UP-TO-DATE
+> Task :orb:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugAssets
+> Task :orb:processDebugJavaRes NO-SOURCE
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :orb:bundleLibResDebug
+> Task :orb:bundleLibRuntimeToJarDebug
+> Task :sample:dexBuilderDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
+> Task :orb:mergeDebugJniLibFolders UP-TO-DATE
+> Task :orb:mergeDebugNativeLibs UP-TO-DATE
+> Task :orb:stripDebugDebugSymbols NO-SOURCE
+> Task :orb:copyDebugJniLibsProjectOnly
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug
+> Task :orb:preReleaseBuild UP-TO-DATE
+> Task :orb:compileReleaseAidl NO-SOURCE
+> Task :orb:compileReleaseRenderscript NO-SOURCE
+> Task :orb:generateReleaseBuildConfig UP-TO-DATE
+> Task :orb:generateReleaseResValues UP-TO-DATE
+> Task :orb:generateReleaseResources UP-TO-DATE
+> Task :orb:packageReleaseResources UP-TO-DATE
+> Task :orb:parseReleaseLocalResources UP-TO-DATE
+> Task :orb:processReleaseManifest UP-TO-DATE
+> Task :orb:generateReleaseRFile UP-TO-DATE
+> Task :orb:compileReleaseKotlin UP-TO-DATE
+> Task :orb:javaPreCompileRelease UP-TO-DATE
+> Task :orb:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :sample:extractProguardFiles
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :orb:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
+> Task :orb:extractDeepLinksRelease
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
+> Task :sample:processReleaseManifest
+> Task :orb:bundleLibCompileToJarRelease
+> Task :sample:javaPreCompileRelease
+> Task :orb:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :orb:mergeReleaseShaders UP-TO-DATE
+> Task :orb:compileReleaseShaders NO-SOURCE
+> Task :orb:generateReleaseAssets UP-TO-DATE
+> Task :orb:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseAssets
+> Task :sample:mergeReleaseResources
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :sample:lintVitalRelease
+> Task :orb:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeReleaseGeneratedProguardFiles
+> Task :orb:processReleaseJavaRes NO-SOURCE
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:collectReleaseDependencies
+> Task :sample:sdkReleaseDependencyData
+> Task :orb:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :orb:mergeReleaseNativeLibs UP-TO-DATE
+> Task :orb:stripReleaseDebugSymbols NO-SOURCE
+> Task :orb:copyReleaseJniLibsProjectOnly
+> Task :sample:mergeReleaseJniLibFolders
+> Task :orb:bundleLibResRelease
+> Task :orb:bundleLibRuntimeToJarRelease
+> Task :orb:exportReleaseConsumerProguardFiles
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:minifyReleaseWithR8
+> Task :sample:shrinkReleaseRes
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 1m 21s
+86 actionable tasks: 58 executed, 28 up-to-date
+
+2020-09-09 00:42:46,872 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
