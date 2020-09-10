@@ -1,0 +1,273 @@
+2020-09-11 01:13:34,789 INFO  DownloadService - Downloading "https://github.com/rommansabbir/NetworkX/archive/master.zip", attempt 3
+2020-09-11 01:13:36,417 INFO  DownloadService - Downloaded https://github.com/rommansabbir/NetworkX/archive/master.zip, attempt 3
+2020-09-11 01:13:36,418 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/master.zip": 147 KB
+2020-09-11 01:13:36,418 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-11 01:13:36,418 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/master.zip: true
+2020-09-11 01:13:36,418 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src'.
+2020-09-11 01:13:36,439 INFO  FullProcessService - Size of directory with sources: 168 KB
+2020-09-11 01:13:36,440 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src]
+2020-09-11 01:13:36,471 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/.git/
+
+2020-09-11 01:13:36,475 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/gradlew
+2020-09-11 01:13:36,479 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/build.gradle
+2020-09-11 01:13:36,482 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/settings.gradle
+2020-09-11 01:13:36,483 INFO  ProjectBuildService - Remote scripts: none
+2020-09-11 01:13:36,483 INFO  ProjectFixService - Fixing project...
+2020-09-11 01:13:36,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/local.properties
+2020-09-11 01:13:36,494 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-09-11 01:13:36,495 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/local.properties
+2020-09-11 01:13:36,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-09-11 01:13:36,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/local.properties
+2020-09-11 01:13:36,497 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-09-11 01:13:36,497 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-09-11 01:13:36,498 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-09-11 01:13:36,498 INFO  ProjectFixService - Project was maybe fixed
+2020-09-11 01:13:36,499 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-11 01:13:36,499 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-11 01:13:45,094 INFO  ProjectTaskService - Detected possible tasks: 64
+2020-09-11 01:13:45,094 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-09-11 01:13:45,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-09-11 01:14:10,921 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:NetworkX:preBuild UP-TO-DATE
+> Task :app:NetworkX:preDebugBuild UP-TO-DATE
+> Task :app:NetworkX:mergeDebugJniLibFolders
+> Task :app:NetworkX:mergeDebugNativeLibs
+> Task :app:NetworkX:stripDebugDebugSymbols NO-SOURCE
+> Task :app:NetworkX:copyDebugJniLibsProjectAndLocalJars
+> Task :app:NetworkX:generateDebugBuildConfig
+> Task :app:NetworkX:generateDebugResValues
+> Task :app:NetworkX:mergeDebugShaders
+> Task :app:NetworkX:compileDebugShaders NO-SOURCE
+> Task :app:NetworkX:generateDebugAssets UP-TO-DATE
+> Task :app:NetworkX:packageDebugAssets
+> Task :app:NetworkX:packageDebugRenderscript NO-SOURCE
+> Task :app:NetworkX:processDebugJavaRes NO-SOURCE
+> Task :app:NetworkX:preReleaseBuild UP-TO-DATE
+> Task :app:NetworkX:mergeReleaseJniLibFolders
+> Task :app:NetworkX:prepareLintJarForPublish
+> Task :app:NetworkX:generateReleaseBuildConfig
+> Task :app:NetworkX:generateReleaseResValues
+> Task :app:NetworkX:javaPreCompileDebug
+> Task :app:NetworkX:mergeReleaseNativeLibs
+> Task :app:NetworkX:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:NetworkX:copyReleaseJniLibsProjectAndLocalJars
+> Task :app:NetworkX:mergeReleaseShaders
+> Task :app:NetworkX:compileReleaseShaders NO-SOURCE
+> Task :app:NetworkX:generateReleaseAssets UP-TO-DATE
+> Task :app:NetworkX:packageReleaseAssets
+> Task :app:NetworkX:packageReleaseRenderscript NO-SOURCE
+> Task :app:NetworkX:processReleaseJavaRes NO-SOURCE
+> Task :app:NetworkX:javaPreCompileRelease
+> Task :app:NetworkX:processDebugManifest
+> Task :app:NetworkX:processReleaseManifest
+> Task :app:NetworkX:compileDebugAidl NO-SOURCE
+> Task :app:NetworkX:compileDebugRenderscript NO-SOURCE
+> Task :app:NetworkX:generateDebugResources
+> Task :app:NetworkX:packageDebugResources
+> Task :app:NetworkX:compileReleaseAidl NO-SOURCE
+> Task :app:NetworkX:compileReleaseRenderscript NO-SOURCE
+> Task :app:NetworkX:generateReleaseResources
+> Task :app:NetworkX:packageReleaseResources
+> Task :app:NetworkX:parseDebugLocalResources
+> Task :app:NetworkX:parseReleaseLocalResources
+> Task :app:NetworkX:mergeReleaseResources
+> Task :app:NetworkX:generateReleaseRFile
+> Task :app:NetworkX:generateDebugRFile
+
+> Task :app:NetworkX:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (180, 40): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (180, 89): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (180, 109): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+
+> Task :app:NetworkX:compileDebugJavaWithJavac
+> Task :app:NetworkX:extractDebugAnnotations
+> Task :app:NetworkX:mergeDebugGeneratedProguardFiles
+> Task :app:NetworkX:mergeDebugConsumerProguardFiles
+> Task :app:NetworkX:compileDebugSources
+
+> Task :app:NetworkX:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (180, 40): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (180, 89): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (180, 109): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+
+> Task :app:NetworkX:compileReleaseJavaWithJavac
+> Task :app:NetworkX:extractReleaseAnnotations
+> Task :app:NetworkX:mergeReleaseGeneratedProguardFiles
+> Task :app:NetworkX:mergeReleaseConsumerProguardFiles
+> Task :app:NetworkX:verifyReleaseResources
+> Task :app:NetworkX:compileReleaseSources
+> Task :app:NetworkX:mergeReleaseJavaResource
+> Task :app:NetworkX:syncReleaseLibJars
+> Task :app:NetworkX:bundleReleaseAar
+> Task :app:NetworkX:assembleRelease
+> Task :app:NetworkX:mergeDebugJavaResource
+> Task :app:NetworkX:syncDebugLibJars
+> Task :app:NetworkX:bundleDebugAar
+> Task :app:NetworkX:assembleDebug
+> Task :app:NetworkX:assemble
+> Task :app:NetworkX:build
+
+BUILD SUCCESSFUL in 25s
+43 actionable tasks: 43 executed
+
+2020-09-11 01:14:10,979 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-11 01:14:10,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-11 01:14:19,043 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-09-11 01:14:19,043 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-11 01:14:19,043 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-11 01:15:22,065 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:NetworkX:preBuild UP-TO-DATE
+> Task :app:NetworkX:preDebugBuild UP-TO-DATE
+> Task :app:NetworkX:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:NetworkX:packageDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:NetworkX:generateDebugResValues UP-TO-DATE
+> Task :app:NetworkX:compileDebugRenderscript NO-SOURCE
+> Task :app:NetworkX:generateDebugResources UP-TO-DATE
+> Task :app:NetworkX:packageDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:NetworkX:extractDeepLinksDebug
+> Task :app:NetworkX:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:NetworkX:compileDebugLibraryResources
+> Task :app:NetworkX:parseDebugLocalResources UP-TO-DATE
+> Task :app:NetworkX:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources
+> Task :app:NetworkX:generateDebugBuildConfig UP-TO-DATE
+> Task :app:NetworkX:javaPreCompileDebug UP-TO-DATE
+> Task :app:NetworkX:compileDebugKotlin UP-TO-DATE
+> Task :app:NetworkX:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:NetworkX:mergeDebugShaders UP-TO-DATE
+> Task :app:NetworkX:compileDebugShaders NO-SOURCE
+> Task :app:NetworkX:generateDebugAssets UP-TO-DATE
+> Task :app:NetworkX:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:NetworkX:bundleLibCompileToJarDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:NetworkX:processDebugJavaRes NO-SOURCE
+> Task :app:NetworkX:bundleLibResDebug
+> Task :app:NetworkX:bundleLibRuntimeToJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :app:NetworkX:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:NetworkX:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:NetworkX:stripDebugDebugSymbols NO-SOURCE
+> Task :app:NetworkX:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:NetworkX:preReleaseBuild UP-TO-DATE
+> Task :app:NetworkX:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:NetworkX:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:NetworkX:compileReleaseRenderscript NO-SOURCE
+> Task :app:NetworkX:generateReleaseResValues UP-TO-DATE
+> Task :app:NetworkX:generateReleaseResources UP-TO-DATE
+> Task :app:NetworkX:packageReleaseResources UP-TO-DATE
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:NetworkX:extractDeepLinksRelease
+> Task :app:NetworkX:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :app:NetworkX:parseReleaseLocalResources UP-TO-DATE
+> Task :app:NetworkX:generateReleaseRFile UP-TO-DATE
+> Task :app:NetworkX:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:NetworkX:compileReleaseKotlin UP-TO-DATE
+> Task :app:NetworkX:javaPreCompileRelease UP-TO-DATE
+> Task :app:NetworkX:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:NetworkX:compileReleaseLibraryResources
+> Task :app:processReleaseResources
+> Task :app:NetworkX:bundleLibCompileToJarRelease
+> Task :app:compileReleaseKotlin
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:prepareLintJar
+> Task :app:NetworkX:prepareLintJarForPublish UP-TO-DATE
+> Task :app:lintVitalRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:NetworkX:bundleLibRuntimeToJarRelease
+> Task :app:dexBuilderRelease
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:NetworkX:mergeReleaseShaders UP-TO-DATE
+> Task :app:NetworkX:compileReleaseShaders NO-SOURCE
+> Task :app:NetworkX:generateReleaseAssets UP-TO-DATE
+> Task :app:NetworkX:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:NetworkX:processReleaseJavaRes NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:NetworkX:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :app:NetworkX:mergeReleaseNativeLibs UP-TO-DATE
+> Task :app:NetworkX:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:NetworkX:copyReleaseJniLibsProjectOnly
+> Task :app:NetworkX:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :app:NetworkX:extractDebugAnnotations UP-TO-DATE
+> Task :app:NetworkX:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :app:NetworkX:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :app:NetworkX:mergeDebugJavaResource UP-TO-DATE
+> Task :app:NetworkX:syncDebugLibJars UP-TO-DATE
+> Task :app:NetworkX:bundleDebugAar UP-TO-DATE
+> Task :app:NetworkX:compileDebugSources UP-TO-DATE
+> Task :app:NetworkX:assembleDebug UP-TO-DATE
+> Task :app:NetworkX:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :app:NetworkX:extractReleaseAnnotations UP-TO-DATE
+> Task :app:NetworkX:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:NetworkX:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :app:NetworkX:mergeReleaseJavaResource UP-TO-DATE
+> Task :app:NetworkX:syncReleaseLibJars UP-TO-DATE
+> Task :app:NetworkX:bundleReleaseAar UP-TO-DATE
+> Task :app:NetworkX:compileReleaseSources UP-TO-DATE
+> Task :app:NetworkX:bundleLibResRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:NetworkX:mergeReleaseResources UP-TO-DATE
+> Task :app:NetworkX:verifyReleaseResources UP-TO-DATE
+> Task :app:NetworkX:assembleRelease UP-TO-DATE
+> Task :app:NetworkX:assemble UP-TO-DATE
+> Task :app:NetworkX:build
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 2s
+102 actionable tasks: 59 executed, 43 up-to-date
+
+2020-09-11 01:15:22,193 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761614785-0/src/NetworkX-master/app/build/outputs/apk/debug/app-debug.apk
