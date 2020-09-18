@@ -1,32 +1,32 @@
-2020-07-29 18:29:21,649 INFO  DownloadService - Downloading "https://github.com/Asutosh11/DocumentReader/archive/master.zip", attempt 3
-2020-07-29 18:29:24,625 INFO  DownloadService - Downloaded https://github.com/Asutosh11/DocumentReader/archive/master.zip, attempt 3
-2020-07-29 18:29:24,625 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/master.zip": 148 KB
-2020-07-29 18:29:24,625 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-07-29 18:29:24,626 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/master.zip: true
-2020-07-29 18:29:24,626 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src'.
-2020-07-29 18:29:24,644 INFO  FullProcessService - Size of directory with sources: 175 KB
-2020-07-29 18:29:24,645 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src]
-2020-07-29 18:29:24,691 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/.git/
+2020-09-18 13:33:02,249 INFO  DownloadService - Downloading "https://github.com/Asutosh11/DocumentReader/archive/master.zip", attempt 3
+2020-09-18 13:33:03,817 INFO  DownloadService - Downloaded https://github.com/Asutosh11/DocumentReader/archive/master.zip, attempt 3
+2020-09-18 13:33:03,818 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/master.zip": 148 KB
+2020-09-18 13:33:03,818 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-18 13:33:03,823 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/master.zip: true
+2020-09-18 13:33:03,824 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src'.
+2020-09-18 13:33:03,842 INFO  FullProcessService - Size of directory with sources: 175 KB
+2020-09-18 13:33:03,843 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src]
+2020-09-18 13:33:03,868 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/.git/
 
-2020-07-29 18:29:24,694 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/gradlew
-2020-07-29 18:29:24,699 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/build.gradle
-2020-07-29 18:29:24,704 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/settings.gradle
-2020-07-29 18:29:24,705 INFO  ProjectBuildService - Remote scripts: none
-2020-07-29 18:29:24,705 INFO  ProjectFixService - Fixing project...
-2020-07-29 18:29:24,715 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/local.properties
-2020-07-29 18:29:24,715 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-07-29 18:29:24,716 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/local.properties
-2020-07-29 18:29:24,717 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-07-29 18:29:24,717 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-07-29 18:29:24,718 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-07-29 18:29:24,719 INFO  ProjectFixService - Project was maybe fixed
-2020-07-29 18:29:24,719 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-29 18:29:24,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-29 18:29:37,649 INFO  VirusProcessorServiceImpl - Queued project 8137 to scan viruses
-2020-07-29 18:29:43,776 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-07-29 18:29:43,777 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-07-29 18:29:43,777 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-07-29 18:30:44,659 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-18 13:33:03,871 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/gradlew
+2020-09-18 13:33:03,874 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/build.gradle
+2020-09-18 13:33:03,876 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/settings.gradle
+2020-09-18 13:33:03,877 INFO  ProjectBuildService - Remote scripts: none
+2020-09-18 13:33:03,877 INFO  ProjectFixService - Fixing project...
+2020-09-18 13:33:03,884 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/local.properties
+2020-09-18 13:33:03,884 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-09-18 13:33:03,885 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/local.properties
+2020-09-18 13:33:03,886 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-09-18 13:33:03,886 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-09-18 13:33:03,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-09-18 13:33:03,887 INFO  ProjectFixService - Project was maybe fixed
+2020-09-18 13:33:03,888 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-18 13:33:03,888 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-18 13:33:12,138 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-09-18 13:33:12,138 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-09-18 13:33:12,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-09-18 13:33:17,694 INFO  VirusProcessorServiceImpl - Queued project 8137 to scan viruses
+2020-09-18 13:34:02,097 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:mergeDebugJniLibFolders
@@ -34,8 +34,8 @@
 > Task :app:stripDebugDebugSymbols
 > Task :app:copyDebugJniLibsProjectAndLocalJars
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:generateDebugBuildConfig
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :app:packageDebugResources
@@ -49,15 +49,17 @@
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :app:mergeReleaseJniLibFolders
+> Task :app:prepareLintJarForPublish
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :app:packageReleaseResources
-> Task :app:prepareLintJarForPublish
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:copyReleaseJniLibsProjectAndLocalJars
+> Task :app:processDebugManifest
+> Task :app:parseReleaseLocalResources
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -65,77 +67,75 @@
 > Task :app:packageReleaseRenderscript NO-SOURCE
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:processReleaseManifest
-> Task :app:processDebugManifest
-> Task :app:parseReleaseLocalResources
 > Task :app:generateReleaseRFile
 > Task :app:generateDebugRFile
+> Task :app:mergeReleaseResources
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (50, 41): Variable 'document' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (70, 41): Variable 'document' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (129, 42): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (33, 21): Variable 'type' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (57, 45): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (159, 45): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (161, 39): Variable 'cursor' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (170, 94): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (190, 24): Variable 'fullPath' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (200, 29): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (239, 24): Variable 'read' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (254, 32): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (297, 24): Variable 'read' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (306, 32): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (50, 41): Variable 'document' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (68, 41): Variable 'document' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (125, 46): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (34, 21): Variable 'type' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (55, 45): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (150, 45): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (152, 39): Variable 'cursor' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (161, 94): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (181, 24): Variable 'fullPath' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (191, 29): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (230, 24): Variable 'read' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (245, 32): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (284, 24): Variable 'read' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (293, 32): Type mismatch: inferred type is String? but String was expected
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (50, 41): Variable 'document' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (70, 41): Variable 'document' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (129, 42): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (33, 21): Variable 'type' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (57, 45): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (159, 45): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (161, 39): Variable 'cursor' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (170, 94): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (190, 24): Variable 'fullPath' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (200, 29): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (239, 24): Variable 'read' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (254, 32): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (297, 24): Variable 'read' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (306, 32): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (50, 41): Variable 'document' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (68, 41): Variable 'document' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/DocumentReaderUtil.kt: (125, 46): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (34, 21): Variable 'type' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (55, 45): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (150, 45): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (152, 39): Variable 'cursor' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (161, 94): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (181, 24): Variable 'fullPath' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (191, 29): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (230, 24): Variable 'read' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (245, 32): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (284, 24): Variable 'read' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/app/src/main/java/com/asutosh/documentreader/FilePathHelper.kt: (293, 32): Type mismatch: inferred type is String? but String was expected
 
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:extractReleaseAnnotations
-> Task :app:mergeReleaseGeneratedProguardFiles
-> Task :app:mergeReleaseConsumerProguardFiles
-> Task :app:compileReleaseSources
-> Task :app:mergeDebugJavaResource
-> Task :app:mergeReleaseJavaResource
-> Task :app:syncReleaseLibJars
-> Task :app:bundleReleaseAar
+> Task :app:verifyReleaseResources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:extractDebugAnnotations
 > Task :app:mergeDebugGeneratedProguardFiles
 > Task :app:mergeDebugConsumerProguardFiles
+> Task :app:compileDebugSources
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDebugJavaResource
 > Task :app:syncDebugLibJars
 > Task :app:bundleDebugAar
-> Task :app:compileDebugSources
 > Task :app:assembleDebug
-> Task :app:mergeReleaseResources
-> Task :app:verifyReleaseResources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:extractReleaseAnnotations
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:mergeReleaseConsumerProguardFiles
+> Task :app:syncReleaseLibJars
+> Task :app:bundleReleaseAar
+> Task :app:compileReleaseSources
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 0s
+BUILD SUCCESSFUL in 49s
 47 actionable tasks: 47 executed
 
-2020-07-29 18:30:44,719 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-29 18:30:44,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-29 18:30:51,174 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-07-29 18:30:51,174 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-07-29 18:30:51,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596022161644-0/src/DocumentReader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-07-29 18:31:01,059 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-18 13:34:02,152 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-18 13:34:02,152 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-18 13:34:07,544 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-09-18 13:34:07,544 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-09-18 13:34:07,544 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410782245-0/src/DocumentReader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-09-18 13:34:15,911 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:mergeDebugJniLibFolders UP-TO-DATE
@@ -200,13 +200,13 @@ BUILD SUCCESSFUL in 1m 0s
 > Task :app:bundleReleaseAar UP-TO-DATE
 > Task :app:compileReleaseSources UP-TO-DATE
 > Task :app:mergeReleaseResources UP-TO-DATE
-> Task :app:verifyReleaseResources
-> Task :app:assembleRelease
-> Task :app:assemble
+> Task :app:verifyReleaseResources UP-TO-DATE
+> Task :app:assembleRelease UP-TO-DATE
+> Task :app:assemble UP-TO-DATE
 > Task :app:build
 
-BUILD SUCCESSFUL in 9s
-47 actionable tasks: 1 executed, 46 up-to-date
+BUILD SUCCESSFUL in 8s
+47 actionable tasks: 47 up-to-date
 
-2020-07-29 18:31:01,133 ERROR FullProcessService - Project build has not produced APK file
-2020-07-29 18:31:01,201 ERROR FullProcessService - Could not find generated or existed APK file
+2020-09-18 13:34:15,962 ERROR FullProcessService - Project build has not produced APK file
+2020-09-18 13:34:16,006 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,175 @@
+2020-09-18 13:30:17,322 INFO  DownloadService - Downloading "https://github.com/cookpad/BottomNavWatson/archive/master.zip", attempt 3
+2020-09-18 13:30:20,138 INFO  DownloadService - Downloaded https://github.com/cookpad/BottomNavWatson/archive/master.zip, attempt 3
+2020-09-18 13:30:20,139 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/master.zip": 274 KB
+2020-09-18 13:30:20,139 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-18 13:30:20,140 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/master.zip: true
+2020-09-18 13:30:20,140 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src'.
+2020-09-18 13:30:20,169 INFO  FullProcessService - Size of directory with sources: 335 KB
+2020-09-18 13:30:20,169 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src]
+2020-09-18 13:30:20,209 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/.git/
+
+2020-09-18 13:30:20,215 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/gradlew
+2020-09-18 13:30:20,220 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/bottom-nav-watson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/build.gradle
+2020-09-18 13:30:20,223 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/bottom-nav-watson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/settings.gradle
+2020-09-18 13:30:20,224 INFO  ProjectBuildService - Remote scripts: none
+2020-09-18 13:30:20,225 INFO  ProjectFixService - Fixing project...
+2020-09-18 13:30:20,238 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/app/local.properties
+2020-09-18 13:30:20,239 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=26,targetSdkVersion=29]
+2020-09-18 13:30:20,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/bottom-nav-watson/local.properties
+2020-09-18 13:30:20,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/bottom-nav-watson/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 13:30:20,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/local.properties
+2020-09-18 13:30:20,242 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-09-18 13:30:20,243 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-09-18 13:30:20,244 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 13:30:20,244 INFO  ProjectFixService - Project was maybe fixed
+2020-09-18 13:30:20,244 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-18 13:30:20,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-18 13:30:35,901 INFO  ProjectTaskService - Detected possible tasks: 72
+2020-09-18 13:30:35,901 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-18 13:30:35,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-18 13:30:37,607 INFO  VirusProcessorServiceImpl - Queued project 8163 to scan viruses
+2020-09-18 13:31:47,591 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :bottom-nav-watson:preBuild UP-TO-DATE
+> Task :bottom-nav-watson:preDebugBuild UP-TO-DATE
+> Task :bottom-nav-watson:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :bottom-nav-watson:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:writeDebugApplicationId
+> Task :app:generateSafeArgsDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :bottom-nav-watson:generateDebugResValues
+> Task :bottom-nav-watson:compileDebugRenderscript NO-SOURCE
+> Task :bottom-nav-watson:generateDebugResources
+> Task :bottom-nav-watson:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :bottom-nav-watson:extractDeepLinksDebug
+> Task :bottom-nav-watson:processDebugManifest
+> Task :app:processDebugManifest
+> Task :bottom-nav-watson:compileDebugLibraryResources
+> Task :bottom-nav-watson:parseDebugLocalResources
+> Task :app:mergeDebugResources
+> Task :bottom-nav-watson:generateDebugBuildConfig
+> Task :bottom-nav-watson:javaPreCompileDebug
+> Task :bottom-nav-watson:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :bottom-nav-watson:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/bottom-nav-watson/src/main/kotlin/com/cookpad/watson/BottomNavWatson.kt: (34, 19): Unchecked cast: FragmentTagsViewModel to T
+
+> Task :bottom-nav-watson:compileDebugJavaWithJavac
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :bottom-nav-watson:mergeDebugShaders
+> Task :bottom-nav-watson:compileDebugShaders NO-SOURCE
+> Task :bottom-nav-watson:generateDebugAssets UP-TO-DATE
+> Task :bottom-nav-watson:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :bottom-nav-watson:bundleLibCompileToJarDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :bottom-nav-watson:processDebugJavaRes NO-SOURCE
+> Task :bottom-nav-watson:bundleLibResDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies
+> Task :bottom-nav-watson:bundleLibRuntimeToJarDebug
+> Task :app:mergeLibDexDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :bottom-nav-watson:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :bottom-nav-watson:preReleaseBuild UP-TO-DATE
+> Task :bottom-nav-watson:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :bottom-nav-watson:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:writeReleaseApplicationId
+> Task :app:generateSafeArgsRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :bottom-nav-watson:compileReleaseRenderscript NO-SOURCE
+> Task :bottom-nav-watson:generateReleaseResValues
+> Task :bottom-nav-watson:generateReleaseResources
+> Task :bottom-nav-watson:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :bottom-nav-watson:extractDeepLinksRelease
+> Task :bottom-nav-watson:compileReleaseLibraryResources
+> Task :bottom-nav-watson:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :bottom-nav-watson:generateReleaseBuildConfig
+> Task :app:mergeProjectDexDebug
+> Task :bottom-nav-watson:javaPreCompileRelease
+> Task :app:mergeReleaseResources
+> Task :app:javaPreCompileRelease
+> Task :bottom-nav-watson:mergeDebugNativeLibs
+> Task :bottom-nav-watson:stripDebugDebugSymbols NO-SOURCE
+> Task :bottom-nav-watson:copyDebugJniLibsProjectOnly
+> Task :bottom-nav-watson:parseReleaseLocalResources
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :bottom-nav-watson:prepareLintJarForPublish
+> Task :bottom-nav-watson:generateReleaseRFile
+> Task :app:processReleaseResources
+
+> Task :bottom-nav-watson:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/bottom-nav-watson/src/main/kotlin/com/cookpad/watson/BottomNavWatson.kt: (34, 19): Unchecked cast: FragmentTagsViewModel to T
+
+> Task :bottom-nav-watson:compileReleaseJavaWithJavac
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :bottom-nav-watson:bundleLibCompileToJarRelease
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :bottom-nav-watson:bundleLibRuntimeToJarRelease
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :bottom-nav-watson:mergeReleaseShaders
+> Task :bottom-nav-watson:compileReleaseShaders NO-SOURCE
+> Task :bottom-nav-watson:generateReleaseAssets UP-TO-DATE
+> Task :bottom-nav-watson:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :bottom-nav-watson:processReleaseJavaRes NO-SOURCE
+> Task :bottom-nav-watson:bundleLibResRelease
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :bottom-nav-watson:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseJavaResource
+> Task :bottom-nav-watson:mergeReleaseNativeLibs
+> Task :bottom-nav-watson:stripReleaseDebugSymbols NO-SOURCE
+> Task :bottom-nav-watson:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 10s
+91 actionable tasks: 91 executed
+
+2020-09-18 13:31:47,659 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410617318-0/src/BottomNavWatson-master/app/build/outputs/apk/debug/app-debug.apk
