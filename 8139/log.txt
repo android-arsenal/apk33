@@ -1,41 +1,36 @@
-2020-07-29 20:48:27,531 INFO  DownloadService - Downloading "https://github.com/rehmanmuradali/wheel-spinner/archive/master.zip", attempt 3
-2020-07-29 20:48:30,232 INFO  DownloadService - Downloaded https://github.com/rehmanmuradali/wheel-spinner/archive/master.zip, attempt 3
-2020-07-29 20:48:30,232 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/master.zip": 399 KB
-2020-07-29 20:48:30,233 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-07-29 20:48:30,242 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/master.zip: true
-2020-07-29 20:48:30,243 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src'.
-2020-07-29 20:48:30,292 INFO  FullProcessService - Size of directory with sources: 422 KB
-2020-07-29 20:48:30,296 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src]
-2020-07-29 20:48:30,371 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/.git/
+2020-09-20 02:26:10,935 INFO  DownloadService - Downloading "https://github.com/rehmanmuradali/wheel-spinner/archive/master.zip", attempt 3
+2020-09-20 02:26:12,466 INFO  DownloadService - Downloaded https://github.com/rehmanmuradali/wheel-spinner/archive/master.zip, attempt 3
+2020-09-20 02:26:12,466 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/master.zip": 399 KB
+2020-09-20 02:26:12,466 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-20 02:26:12,467 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/master.zip: true
+2020-09-20 02:26:12,467 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src'.
+2020-09-20 02:26:12,511 INFO  FullProcessService - Size of directory with sources: 422 KB
+2020-09-20 02:26:12,511 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src]
+2020-09-20 02:26:12,551 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/.git/
 
-2020-07-29 20:48:30,396 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/gradlew
-2020-07-29 20:48:30,411 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/mylibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/build.gradle
-2020-07-29 20:48:30,420 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/mylibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/settings.gradle
-2020-07-29 20:48:30,423 INFO  ProjectBuildService - Remote scripts: none
-2020-07-29 20:48:30,424 INFO  ProjectFixService - Fixing project...
-2020-07-29 20:48:30,482 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2020-07-29 20:48:30,482 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2020-07-29 20:48:30,486 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2020-07-29 20:48:30,491 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 28.0.0-rc1 28.0.0-rc2
-2020-07-29 20:48:30,494 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2020-07-29 20:48:30,496 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2020-07-29 20:48:30,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/local.properties
-2020-07-29 20:48:30,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-07-29 20:48:30,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/mylibrary/local.properties
-2020-07-29 20:48:30,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/mylibrary/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-07-29 20:48:30,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/local.properties
-2020-07-29 20:48:30,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-07-29 20:48:30,511 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/local.properties
-2020-07-29 20:48:30,518 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-07-29 20:48:30,519 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-07-29 20:48:30,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-07-29 20:48:30,521 INFO  ProjectFixService - Project was maybe fixed
-2020-07-29 20:48:30,525 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-29 20:48:30,526 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-29 20:48:40,569 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-07-29 20:48:40,570 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-07-29 20:48:40,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-07-29 20:49:16,792 ERROR SysUtils - Could not process external command
+2020-09-20 02:26:12,560 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/gradlew
+2020-09-20 02:26:12,570 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/mylibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/build.gradle
+2020-09-20 02:26:12,579 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/mylibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/settings.gradle
+2020-09-20 02:26:12,580 INFO  ProjectBuildService - Remote scripts: none
+2020-09-20 02:26:12,581 INFO  ProjectFixService - Fixing project...
+2020-09-20 02:26:12,601 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/local.properties
+2020-09-20 02:26:12,602 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-20 02:26:12,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/mylibrary/local.properties
+2020-09-20 02:26:12,604 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/mylibrary/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-20 02:26:12,605 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/local.properties
+2020-09-20 02:26:12,606 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-20 02:26:12,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/local.properties
+2020-09-20 02:26:12,609 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-09-20 02:26:12,610 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-09-20 02:26:12,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-20 02:26:12,612 INFO  ProjectFixService - Project was maybe fixed
+2020-09-20 02:26:12,612 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:26:12,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:26:20,019 INFO  VirusProcessorServiceImpl - Queued project 8165 to scan viruses
+2020-09-20 02:26:25,685 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-09-20 02:26:25,685 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-20 02:26:25,686 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-20 02:27:13,423 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -63,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-07-29 20:49:16,793 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:27:13,424 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :wheelspinner:preBuild UP-TO-DATE
@@ -87,16 +82,20 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :wheelspinner:generateDebugRFile
 
 > Task :wheelspinner:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/src/main/java/com/spin/wheelspinner/WheelSpinner.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/src/main/java/com/spin/wheelspinner/WheelSpinner.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :app:mergeDebugResources
-> Task :wheelspinner:bundleLibCompileDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :wheelspinner:extractDeepLinksDebug
 > Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :wheelspinner:bundleLibCompileDebug
+> Task :wheelspinner:compileDebugLibraryResources
+> Task :app:processDebugResources
 > Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -108,10 +107,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :wheelspinner:processDebugJavaRes NO-SOURCE
 > Task :wheelspinner:bundleLibResDebug
-> Task :wheelspinner:compileDebugLibraryResources
-> Task :app:processDebugResources
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
 > Task :app:desugarDebugFileDependencies
@@ -126,9 +121,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :wheelspinner:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :wheelspinner:packageReleaseRenderscript NO-SOURCE
-> Task :wheelspinner:mergeDebugNativeLibs
-> Task :wheelspinner:stripDebugDebugSymbols
-> Task :wheelspinner:copyDebugJniLibsProjectOnly
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
 > Task :wheelspinner:compileReleaseRenderscript NO-SOURCE
@@ -136,37 +128,40 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :wheelspinner:generateReleaseResValues
 > Task :wheelspinner:generateReleaseResources
 > Task :wheelspinner:packageReleaseResources
+> Task :wheelspinner:mergeDebugNativeLibs
+> Task :wheelspinner:stripDebugDebugSymbols
+> Task :wheelspinner:copyDebugJniLibsProjectOnly
 > Task :wheelspinner:parseReleaseLocalResources
+> Task :wheelspinner:processReleaseManifest
+> Task :app:mergeProjectDexDebug
 > Task :wheelspinner:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :wheelspinner:extractDeepLinksRelease
-> Task :wheelspinner:processReleaseManifest
-> Task :app:mergeProjectDexDebug
 > Task :app:processReleaseManifest
 > Task :app:mergeReleaseResources
 > Task :wheelspinner:generateReleaseRFile
 
 > Task :wheelspinner:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/src/main/java/com/spin/wheelspinner/WheelSpinner.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/src/main/java/com/spin/wheelspinner/WheelSpinner.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :wheelspinner:bundleLibCompileRelease
 > Task :wheelspinner:compileReleaseLibraryResources
 > Task :app:processReleaseResources
-> Task :wheelspinner:bundleLibCompileRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
-> Task :wheelspinner:bundleLibRuntimeRelease
 > Task :wheelspinner:prepareLintJarForPublish
 > Task :app:lintVitalRelease
+> Task :wheelspinner:bundleLibRuntimeRelease
 > Task :app:dexBuilderRelease
 > Task :app:desugarReleaseFileDependencies
 > Task :app:mergeReleaseShaders
@@ -178,26 +173,26 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :wheelspinner:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
+> Task :wheelspinner:processReleaseJavaRes NO-SOURCE
+> Task :wheelspinner:bundleLibResRelease
 > Task :app:mergeExtDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :wheelspinner:processReleaseJavaRes NO-SOURCE
 > Task :app:mergeReleaseJniLibFolders
 > Task :wheelspinner:mergeReleaseJniLibFolders
-> Task :wheelspinner:bundleLibResRelease
+> Task :app:mergeReleaseJavaResource
 > Task :wheelspinner:mergeReleaseNativeLibs
 > Task :wheelspinner:stripReleaseDebugSymbols
 > Task :wheelspinner:copyReleaseJniLibsProjectOnly
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
-> Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 
 > Task :app:mergeDexRelease FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex: D8: Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/build/.transforms/d52628cc25fdd006dd8a4ee6d7da540f/classes/classes.dex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex: D8: Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/build/.transforms/7fee2e3c65e75a6d6f2ab0b3a3ffa628/classes/classes.dex
 com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/build/.transforms/d52628cc25fdd006dd8a4ee6d7da540f/classes/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/build/.transforms/7fee2e3c65e75a6d6f2ab0b3a3ffa628/classes/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -239,7 +234,7 @@ Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed t
 	at com.android.tools.r8.D8.run(:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 34 more
-Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/build/.transforms/d52628cc25fdd006dd8a4ee6d7da540f/classes/classes.dex
+Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/build/.transforms/7fee2e3c65e75a6d6f2ab0b3a3ffa628/classes/classes.dex
 	at com.android.tools.r8.utils.y0.a(:21)
 	at com.android.tools.r8.utils.x0.a(:30)
 	at com.android.tools.r8.utils.x0.a(:10)
@@ -260,8 +255,8 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:mergeDexRelease'.
 > A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
    > com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-     Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/build/.transforms/d52628cc25fdd006dd8a4ee6d7da540f/classes/classes.dex
      Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+     Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/build/.transforms/7fee2e3c65e75a6d6f2ab0b3a3ffa628/classes/classes.dex
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -369,8 +364,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:140)
 	... 34 more
 Caused by: com.android.build.api.transform.TransformException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/build/.transforms/d52628cc25fdd006dd8a4ee6d7da540f/classes/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/build/.transforms/7fee2e3c65e75a6d6f2ab0b3a3ffa628/classes/classes.dex
 	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:472)
 	at com.android.build.gradle.internal.tasks.Workers$ActionFacade.run(Workers.kt:348)
 	at org.gradle.workers.internal.AdapterWorkAction.execute(AdapterWorkAction.java:50)
@@ -397,8 +392,8 @@ Learn how to resolve the issue at https://developer.android.com/studio/build/dep
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:131)
 	... 3 more
 Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/build/.transforms/d52628cc25fdd006dd8a4ee6d7da540f/classes/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/build/.transforms/7fee2e3c65e75a6d6f2ab0b3a3ffa628/classes/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -409,7 +404,7 @@ Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed t
 	at com.android.tools.r8.D8.run(:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 28 more
-Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/wheelspinner/build/.transforms/d52628cc25fdd006dd8a4ee6d7da540f/classes/classes.dex
+Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, Type com.spin.wheelspinner.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/intermediates/project_dex_archive/release/out/com/spin/wheelspinner/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/wheelspinner/build/.transforms/7fee2e3c65e75a6d6f2ab0b3a3ffa628/classes/classes.dex
 	at com.android.tools.r8.utils.y0.a(:21)
 	at com.android.tools.r8.utils.x0.a(:30)
 	at com.android.tools.r8.utils.x0.a(:10)
@@ -425,7 +420,7 @@ Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 35s
+BUILD FAILED in 47s
 90 actionable tasks: 90 executed
 
-2020-07-29 20:49:16,885 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030507409-0/src/wheel-spinner-master/app/build/outputs/apk/debug/app-debug.apk
+2020-09-20 02:27:13,518 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543570930-0/src/wheel-spinner-master/app/build/outputs/apk/debug/app-debug.apk

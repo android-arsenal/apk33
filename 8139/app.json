@@ -29,8 +29,8 @@
     "usesPermissions" : [ ],
     "usesFeatures" : [ ],
     "permissions" : [ ],
-    "splitRequired" : false,
-    "featureSplit" : false
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -44,5 +44,5 @@
   "fileSize" : 1774203,
   "crc32" : 323607802,
   "sha256" : "6db9eeb174fb1760f93ee90966eccfa37d72f6c112c0da00ae2b2ec8d0224e7c",
-  "buildTime" : 1596030552000
+  "buildTime" : 1600543627000
 }

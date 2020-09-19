@@ -29,8 +29,8 @@
     "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
     "usesFeatures" : [ ],
     "permissions" : [ ],
-    "splitRequired" : false,
-    "featureSplit" : false
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -44,5 +44,5 @@
   "fileSize" : 3193149,
   "crc32" : 2693127391,
   "sha256" : "1dedb3c7e60e896395782ea2ce8c07075138786add39def84b9e05871c7a8fcf",
-  "buildTime" : 1596030986000
+  "buildTime" : 1600543798000
 }

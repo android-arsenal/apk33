@@ -1,36 +1,36 @@
-2020-07-29 20:49:18,121 INFO  DownloadService - Downloading "https://github.com/NsAveek/GraphView/archive/master.zip", attempt 3
-2020-07-29 20:49:18,934 INFO  DownloadService - Downloaded https://github.com/NsAveek/GraphView/archive/master.zip, attempt 3
-2020-07-29 20:49:18,934 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/master.zip": 287 KB
-2020-07-29 20:49:18,935 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-07-29 20:49:18,935 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/master.zip: true
-2020-07-29 20:49:18,935 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src'.
-2020-07-29 20:49:18,959 INFO  FullProcessService - Size of directory with sources: 344 KB
-2020-07-29 20:49:18,959 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src]
-2020-07-29 20:49:19,024 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/.git/
+2020-09-20 02:27:14,057 INFO  DownloadService - Downloading "https://github.com/NsAveek/GraphView/archive/master.zip", attempt 3
+2020-09-20 02:27:15,872 INFO  DownloadService - Downloaded https://github.com/NsAveek/GraphView/archive/master.zip, attempt 3
+2020-09-20 02:27:15,872 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/master.zip": 288 KB
+2020-09-20 02:27:15,872 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-20 02:27:15,873 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/master.zip: true
+2020-09-20 02:27:15,873 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src'.
+2020-09-20 02:27:15,894 INFO  FullProcessService - Size of directory with sources: 345 KB
+2020-09-20 02:27:15,894 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src]
+2020-09-20 02:27:15,922 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/.git/
 
-2020-07-29 20:49:19,029 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/gradlew
-2020-07-29 20:49:19,035 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/build.gradle
-2020-07-29 20:49:19,040 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/settings.gradle
-2020-07-29 20:49:19,040 INFO  ProjectBuildService - Remote scripts: none
-2020-07-29 20:49:19,041 INFO  ProjectFixService - Fixing project...
-2020-07-29 20:49:19,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/local.properties
-2020-07-29 20:49:19,054 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-29 20:49:19,054 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-29 20:49:19,056 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/local.properties
-2020-07-29 20:49:19,057 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-29 20:49:19,058 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-29 20:49:19,059 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/local.properties
-2020-07-29 20:49:19,060 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-07-29 20:49:19,060 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-07-29 20:49:19,062 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-29 20:49:19,062 INFO  ProjectFixService - Project was maybe fixed
-2020-07-29 20:49:19,062 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-29 20:49:19,062 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-29 20:49:26,444 INFO  VirusProcessorServiceImpl - Queued project 8139 to scan viruses
-2020-07-29 20:49:28,335 INFO  ProjectTaskService - Detected possible tasks: 64
-2020-07-29 20:49:28,335 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-07-29 20:49:28,336 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-07-29 20:49:50,368 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:27:15,926 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/gradlew
+2020-09-20 02:27:15,930 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/build.gradle
+2020-09-20 02:27:15,934 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/settings.gradle
+2020-09-20 02:27:15,935 INFO  ProjectBuildService - Remote scripts: none
+2020-09-20 02:27:15,935 INFO  ProjectFixService - Fixing project...
+2020-09-20 02:27:15,944 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/local.properties
+2020-09-20 02:27:15,945 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-09-20 02:27:15,946 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-09-20 02:27:15,947 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/local.properties
+2020-09-20 02:27:15,948 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-09-20 02:27:15,948 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-09-20 02:27:15,949 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/local.properties
+2020-09-20 02:27:15,950 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-09-20 02:27:15,950 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-09-20 02:27:15,951 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-09-20 02:27:15,951 INFO  ProjectFixService - Project was maybe fixed
+2020-09-20 02:27:15,951 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:27:15,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:27:21,626 INFO  VirusProcessorServiceImpl - Queued project 8139 to scan viruses
+2020-09-20 02:27:26,352 INFO  ProjectTaskService - Detected possible tasks: 64
+2020-09-20 02:27:26,352 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-09-20 02:27:26,353 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-09-20 02:27:48,766 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.0.
 Android SDK Build Tools 29.0.2 will be used.
 To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
@@ -47,25 +47,25 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :aesthetic-graphview:generateDebugAssets UP-TO-DATE
 > Task :aesthetic-graphview:packageDebugAssets
 > Task :aesthetic-graphview:packageDebugRenderscript NO-SOURCE
-> Task :aesthetic-graphview:javaPreCompileDebug
 > Task :aesthetic-graphview:processDebugJavaRes NO-SOURCE
 > Task :aesthetic-graphview:preReleaseBuild UP-TO-DATE
 > Task :aesthetic-graphview:mergeReleaseJniLibFolders
-> Task :aesthetic-graphview:prepareLintJarForPublish
 > Task :aesthetic-graphview:generateReleaseBuildConfig
 > Task :aesthetic-graphview:generateReleaseResValues
 > Task :aesthetic-graphview:mergeReleaseNativeLibs
 > Task :aesthetic-graphview:stripReleaseDebugSymbols NO-SOURCE
 > Task :aesthetic-graphview:copyReleaseJniLibsProjectAndLocalJars
-> Task :aesthetic-graphview:javaPreCompileRelease
 > Task :aesthetic-graphview:mergeReleaseShaders
 > Task :aesthetic-graphview:compileReleaseShaders NO-SOURCE
 > Task :aesthetic-graphview:generateReleaseAssets UP-TO-DATE
 > Task :aesthetic-graphview:packageReleaseAssets
 > Task :aesthetic-graphview:packageReleaseRenderscript NO-SOURCE
 > Task :aesthetic-graphview:processReleaseJavaRes NO-SOURCE
-> Task :aesthetic-graphview:processReleaseManifest
+> Task :aesthetic-graphview:prepareLintJarForPublish
+> Task :aesthetic-graphview:javaPreCompileRelease
+> Task :aesthetic-graphview:javaPreCompileDebug
 > Task :aesthetic-graphview:processDebugManifest
+> Task :aesthetic-graphview:processReleaseManifest
 > Task :aesthetic-graphview:compileDebugAidl NO-SOURCE
 > Task :aesthetic-graphview:compileDebugRenderscript NO-SOURCE
 > Task :aesthetic-graphview:generateDebugResources
@@ -74,52 +74,52 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :aesthetic-graphview:compileReleaseRenderscript NO-SOURCE
 > Task :aesthetic-graphview:generateReleaseResources
 > Task :aesthetic-graphview:packageReleaseResources
-> Task :aesthetic-graphview:parseReleaseLocalResources
 > Task :aesthetic-graphview:parseDebugLocalResources
-> Task :aesthetic-graphview:mergeReleaseResources
-> Task :aesthetic-graphview:generateReleaseRFile
-
-> Task :aesthetic-graphview:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/src/main/java/com/aveek/aesthetic_graphview/GraphView.kt: (179, 36): Parameter 'canvas' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/src/main/java/com/aveek/aesthetic_graphview/GraphView.kt: (227, 31): Variable 'initCoordinateY' initializer is redundant
-
-> Task :aesthetic-graphview:compileReleaseJavaWithJavac
-> Task :aesthetic-graphview:extractReleaseAnnotations
-> Task :aesthetic-graphview:mergeReleaseGeneratedProguardFiles
-> Task :aesthetic-graphview:mergeReleaseConsumerProguardFiles
-> Task :aesthetic-graphview:verifyReleaseResources
-> Task :aesthetic-graphview:compileReleaseSources
+> Task :aesthetic-graphview:parseReleaseLocalResources
 > Task :aesthetic-graphview:generateDebugRFile
 
 > Task :aesthetic-graphview:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/src/main/java/com/aveek/aesthetic_graphview/GraphView.kt: (179, 36): Parameter 'canvas' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/aesthetic-graphview/src/main/java/com/aveek/aesthetic_graphview/GraphView.kt: (227, 31): Variable 'initCoordinateY' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/src/main/java/com/aveek/aesthetic_graphview/GraphView.kt: (179, 36): Parameter 'canvas' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/src/main/java/com/aveek/aesthetic_graphview/GraphView.kt: (227, 31): Variable 'initCoordinateY' initializer is redundant
 
 > Task :aesthetic-graphview:compileDebugJavaWithJavac
 > Task :aesthetic-graphview:extractDebugAnnotations
 > Task :aesthetic-graphview:mergeDebugGeneratedProguardFiles
 > Task :aesthetic-graphview:mergeDebugConsumerProguardFiles
 > Task :aesthetic-graphview:compileDebugSources
-> Task :aesthetic-graphview:mergeReleaseJavaResource
-> Task :aesthetic-graphview:syncReleaseLibJars
-> Task :aesthetic-graphview:bundleReleaseAar
-> Task :aesthetic-graphview:assembleRelease
+> Task :aesthetic-graphview:mergeReleaseResources
 > Task :aesthetic-graphview:mergeDebugJavaResource
 > Task :aesthetic-graphview:syncDebugLibJars
 > Task :aesthetic-graphview:bundleDebugAar
 > Task :aesthetic-graphview:assembleDebug
+> Task :aesthetic-graphview:generateReleaseRFile
+
+> Task :aesthetic-graphview:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/src/main/java/com/aveek/aesthetic_graphview/GraphView.kt: (179, 36): Parameter 'canvas' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/aesthetic-graphview/src/main/java/com/aveek/aesthetic_graphview/GraphView.kt: (227, 31): Variable 'initCoordinateY' initializer is redundant
+
+> Task :aesthetic-graphview:compileReleaseJavaWithJavac
+> Task :aesthetic-graphview:extractReleaseAnnotations
+> Task :aesthetic-graphview:mergeReleaseGeneratedProguardFiles
+> Task :aesthetic-graphview:mergeReleaseConsumerProguardFiles
+> Task :aesthetic-graphview:compileReleaseSources
+> Task :aesthetic-graphview:verifyReleaseResources
+> Task :aesthetic-graphview:mergeReleaseJavaResource
+> Task :aesthetic-graphview:syncReleaseLibJars
+> Task :aesthetic-graphview:bundleReleaseAar
+> Task :aesthetic-graphview:assembleRelease
 > Task :aesthetic-graphview:assemble
 > Task :aesthetic-graphview:build
 
 BUILD SUCCESSFUL in 21s
 43 actionable tasks: 43 executed
 
-2020-07-29 20:49:50,430 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-29 20:49:50,430 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-29 20:49:59,701 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-07-29 20:49:59,701 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-07-29 20:49:59,702 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-07-29 20:50:16,940 ERROR SysUtils - Could not process external command
+2020-09-20 02:27:48,818 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:27:48,819 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:27:55,469 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-09-20 02:27:55,470 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-20 02:27:55,470 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-20 02:28:05,235 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -147,7 +147,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-07-29 20:50:16,940 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:28:05,236 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.0.
 Android SDK Build Tools 29.0.2 will be used.
 To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
@@ -161,15 +161,9 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :app:processDebugManifest
-> Task :app:javaPreCompileDebug
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders NO-SOURCE
-> Task :app:generateDebugAssets UP-TO-DATE
-> Task :app:mergeDebugAssets
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugResources
 > Task :app:processDebugResources FAILED
+> Task :app:javaPreCompileDebug
 
 FAILURE: Build failed with an exception.
 
@@ -177,11 +171,11 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:processDebugResources'.
 > A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
    > Android resource linking failed
-     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimary (aka com.example.graphviewapp:color/colorPrimary) not found.
+     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimary (aka com.example.graphviewapp:color/colorPrimary) not found.
          
-     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimaryDark (aka com.example.graphviewapp:color/colorPrimaryDark) not found.
+     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimaryDark (aka com.example.graphviewapp:color/colorPrimaryDark) not found.
          
-     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorAccent (aka com.example.graphviewapp:color/colorAccent) not found.
+     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorAccent (aka com.example.graphviewapp:color/colorAccent) not found.
          
 
 * Try:
@@ -305,11 +299,11 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at com.android.build.gradle.internal.tasks.Workers$WorkerExecutorAdapter.await(Workers.kt:188)
 	... 98 more
 Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimary (aka com.example.graphviewapp:color/colorPrimary) not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimary (aka com.example.graphviewapp:color/colorPrimary) not found.
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimaryDark (aka com.example.graphviewapp:color/colorPrimaryDark) not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimaryDark (aka com.example.graphviewapp:color/colorPrimaryDark) not found.
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorAccent (aka com.example.graphviewapp:color/colorAccent) not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorAccent (aka com.example.graphviewapp:color/colorAccent) not found.
     
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create$default(Aapt2Exception.kt:39)
@@ -344,15 +338,15 @@ Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 16s
-11 actionable tasks: 11 executed
+BUILD FAILED in 9s
+8 actionable tasks: 8 executed
 
-2020-07-29 20:50:17,021 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-29 20:50:17,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-29 20:50:23,609 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-07-29 20:50:23,610 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-07-29 20:50:23,610 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-07-29 20:50:32,656 ERROR SysUtils - Could not process external command
+2020-09-20 02:28:05,303 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:28:05,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:28:13,693 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-09-20 02:28:13,693 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-20 02:28:13,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-20 02:28:25,020 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -380,7 +374,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-07-29 20:50:32,656 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:28:25,020 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.0.
 Android SDK Build Tools 29.0.2 will be used.
 To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
@@ -474,11 +468,11 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:processDebugResources'.
 > A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
    > Android resource linking failed
-     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimary (aka com.example.graphviewapp:color/colorPrimary) not found.
+     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimary (aka com.example.graphviewapp:color/colorPrimary) not found.
          
-     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimaryDark (aka com.example.graphviewapp:color/colorPrimaryDark) not found.
+     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimaryDark (aka com.example.graphviewapp:color/colorPrimaryDark) not found.
          
-     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorAccent (aka com.example.graphviewapp:color/colorAccent) not found.
+     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorAccent (aka com.example.graphviewapp:color/colorAccent) not found.
          
 
 * Try:
@@ -602,11 +596,11 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at com.android.build.gradle.internal.tasks.Workers$WorkerExecutorAdapter.await(Workers.kt:188)
 	... 98 more
 Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimary (aka com.example.graphviewapp:color/colorPrimary) not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimary (aka com.example.graphviewapp:color/colorPrimary) not found.
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimaryDark (aka com.example.graphviewapp:color/colorPrimaryDark) not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorPrimaryDark (aka com.example.graphviewapp:color/colorPrimaryDark) not found.
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1596030558114-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorAccent (aka com.example.graphviewapp:color/colorAccent) not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543634052-0/src/GraphView-master/app/src/main/res/values/styles.xml:3:5-8:13: AAPT: error: resource color/colorAccent (aka com.example.graphviewapp:color/colorAccent) not found.
     
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create$default(Aapt2Exception.kt:39)
@@ -641,8 +635,8 @@ Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 10s
 50 actionable tasks: 1 executed, 49 up-to-date
 
-2020-07-29 20:50:32,719 ERROR FullProcessService - Project build has not produced APK file
-2020-07-29 20:50:32,786 ERROR FullProcessService - Could not find generated or existed APK file
+2020-09-20 02:28:25,082 ERROR FullProcessService - Project build has not produced APK file
+2020-09-20 02:28:25,142 ERROR FullProcessService - Could not find generated or existed APK file
