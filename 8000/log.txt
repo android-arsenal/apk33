@@ -1,49 +1,50 @@
-2020-09-09 00:54:35,462 INFO  DownloadService - Downloading "https://github.com/gotev/android-cookie-store/archive/master.zip", attempt 3
-2020-09-09 00:54:36,918 INFO  DownloadService - Downloaded https://github.com/gotev/android-cookie-store/archive/master.zip, attempt 3
-2020-09-09 00:54:36,919 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/master.zip": 267 KB
-2020-09-09 00:54:36,919 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-09 00:54:36,924 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/master.zip: true
-2020-09-09 00:54:36,925 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src'.
-2020-09-09 00:54:36,956 INFO  FullProcessService - Size of directory with sources: 307 KB
-2020-09-09 00:54:36,957 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src]
-2020-09-09 00:54:36,987 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/.git/
+2020-10-07 02:39:27,017 INFO  DownloadService - Downloading "https://github.com/gotev/android-cookie-store/archive/master.zip", attempt 3
+2020-10-07 02:39:28,795 INFO  DownloadService - Downloaded https://github.com/gotev/android-cookie-store/archive/master.zip, attempt 3
+2020-10-07 02:39:28,795 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/master.zip": 267 KB
+2020-10-07 02:39:28,795 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-07 02:39:28,796 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/master.zip: true
+2020-10-07 02:39:28,796 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src'.
+2020-10-07 02:39:28,826 INFO  FullProcessService - Size of directory with sources: 307 KB
+2020-10-07 02:39:28,827 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src]
+2020-10-07 02:39:28,858 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/.git/
 
-2020-09-09 00:54:36,992 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/gradlew
-2020-09-09 00:54:36,998 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store-okhttp/build.gradle
-2020-09-09 00:54:37,003 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/manifest.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/settings.gradle
-2020-09-09 00:54:37,004 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle", attempt 3
-2020-09-09 00:54:37,663 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle, attempt 3
-2020-09-09 00:54:37,663 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle
-2020-09-09 00:54:37,663 INFO  ProjectFixService - Fixing project...
-2020-09-09 00:54:37,681 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/local.properties
-2020-09-09 00:54:37,682 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-09-09 00:54:37,682 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-09-09 00:54:37,689 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-09 00:54:37,689 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-09 00:54:37,690 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store/local.properties
-2020-09-09 00:54:37,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-09 00:54:37,696 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-09 00:54:37,697 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/local.properties
-2020-09-09 00:54:37,698 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-09-09 00:54:37,698 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-09-09 00:54:37,704 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-09 00:54:37,704 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-09 00:54:37,705 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/local.properties
-2020-09-09 00:54:37,706 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-09-09 00:54:37,706 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-09-09 00:54:37,711 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-09 00:54:37,711 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-09 00:54:37,712 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store-okhttp/local.properties
-2020-09-09 00:54:37,716 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store-okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-09 00:54:37,717 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store-okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-09 00:54:37,717 INFO  ProjectFixService - Project was maybe fixed
-2020-09-09 00:54:37,717 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-09 00:54:37,718 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-09 00:55:02,775 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-09-09 00:55:02,776 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-09-09 00:55:02,776 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-09-09 00:55:02,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-09-09 00:55:07,397 ERROR SysUtils - Could not process external command
+2020-10-07 02:39:28,863 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/gradlew
+2020-10-07 02:39:28,868 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store-okhttp/build.gradle
+2020-10-07 02:39:28,872 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/manifest.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/settings.gradle
+2020-10-07 02:39:28,873 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle", attempt 3
+2020-10-07 02:39:29,109 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle, attempt 3
+2020-10-07 02:39:29,109 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle
+2020-10-07 02:39:29,109 INFO  ProjectFixService - Fixing project...
+2020-10-07 02:39:29,126 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/local.properties
+2020-10-07 02:39:29,127 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-10-07 02:39:29,127 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-10-07 02:39:29,133 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-07 02:39:29,133 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-07 02:39:29,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store/local.properties
+2020-10-07 02:39:29,140 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-07 02:39:29,140 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-07 02:39:29,142 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/local.properties
+2020-10-07 02:39:29,142 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-10-07 02:39:29,142 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-10-07 02:39:29,147 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-07 02:39:29,147 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-07 02:39:29,148 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/local.properties
+2020-10-07 02:39:29,148 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-10-07 02:39:29,149 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-10-07 02:39:29,153 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-07 02:39:29,153 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-07 02:39:29,154 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store-okhttp/local.properties
+2020-10-07 02:39:29,159 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store-okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-07 02:39:29,159 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store-okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-07 02:39:29,160 INFO  ProjectFixService - Project was maybe fixed
+2020-10-07 02:39:29,160 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-07 02:39:29,160 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-07 02:39:50,446 INFO  VirusProcessorServiceImpl - Queued project 8017 to scan viruses
+2020-10-07 02:39:55,726 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-10-07 02:39:55,726 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-10-07 02:39:55,726 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-10-07 02:39:55,726 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-10-07 02:39:59,088 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -71,12 +72,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-09-09 00:55:07,398 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-07 02:39:59,088 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -258,7 +259,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:49)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:41)
 	at org.gradle.api.Script$apply$1.callCurrent(Unknown Source)
-	at build_9de6tjo4m4zqe2r17slb4rjfl.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/build.gradle:1)
+	at build_cfgny958ayfvsgf4el6kzy97k.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 134 more
 Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 6.1.1. Current version is 5.6.4. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-6.1.1-all.zip
@@ -285,14 +286,14 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 6.1.1
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 3s
 
-2020-09-09 00:55:07,405 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-09 00:55:07,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-09 00:55:33,138 INFO  ProjectTaskService - Detected possible tasks: 82
-2020-09-09 00:55:33,138 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-09-09 00:55:33,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-09-09 00:56:08,181 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-07 02:39:59,095 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-07 02:39:59,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-07 02:40:17,964 INFO  ProjectTaskService - Detected possible tasks: 82
+2020-10-07 02:40:17,965 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-10-07 02:40:17,965 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-10-07 02:40:42,963 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :cookie-store:preBuild UP-TO-DATE
 > Task :cookie-store:preDebugBuild UP-TO-DATE
 > Task :cookie-store:compileDebugAidl NO-SOURCE
@@ -302,6 +303,9 @@ BUILD FAILED in 4s
 > Task :cookie-store:generateDebugResValues
 > Task :cookie-store:generateDebugResources
 > Task :cookie-store:packageDebugResources
+> Task :cookie-store:mergeDebugNativeLibs
+> Task :cookie-store:stripDebugDebugSymbols NO-SOURCE
+> Task :cookie-store:copyDebugJniLibsProjectAndLocalJars
 > Task :cookie-store:mergeDebugShaders
 > Task :cookie-store:compileDebugShaders NO-SOURCE
 > Task :cookie-store:generateDebugAssets UP-TO-DATE
@@ -311,19 +315,15 @@ BUILD FAILED in 4s
 > Task :cookie-store:preReleaseBuild UP-TO-DATE
 > Task :cookie-store:compileReleaseAidl NO-SOURCE
 > Task :cookie-store:mergeReleaseJniLibFolders
-> Task :cookie-store:mergeDebugNativeLibs
-> Task :cookie-store:stripDebugDebugSymbols NO-SOURCE
-> Task :cookie-store:copyDebugJniLibsProjectAndLocalJars
 > Task :cookie-store:compileReleaseRenderscript NO-SOURCE
 > Task :cookie-store:generateReleaseBuildConfig
 > Task :cookie-store:generateReleaseResValues
 > Task :cookie-store:generateReleaseResources
-> Task :cookie-store:packageReleaseResources
 > Task :cookie-store:mergeReleaseNativeLibs
 > Task :cookie-store:stripReleaseDebugSymbols NO-SOURCE
 > Task :cookie-store:copyReleaseJniLibsProjectAndLocalJars
-> Task :cookie-store:processDebugManifest
-> Task :cookie-store:javaPreCompileDebug
+> Task :cookie-store:packageReleaseResources
+> Task :cookie-store:parseDebugLocalResources
 > Task :cookie-store:mergeReleaseShaders
 > Task :cookie-store:compileReleaseShaders NO-SOURCE
 > Task :cookie-store:generateReleaseAssets UP-TO-DATE
@@ -331,18 +331,12 @@ BUILD FAILED in 4s
 > Task :cookie-store:packageReleaseRenderscript NO-SOURCE
 > Task :cookie-store:processReleaseJavaRes NO-SOURCE
 > Task :cookie-store:mergeReleaseResources
-> Task :cookie-store:prepareLintJarForPublish
-> Task :cookie-store:parseDebugLocalResources
-> Task :cookie-store:parseReleaseLocalResources
-> Task :cookie-store:javaPreCompileRelease
 > Task :cookie-store:processReleaseManifest
-> Task :cookie-store:generateReleaseRFile
-> Task :cookie-store:compileReleaseKotlin
-> Task :cookie-store:compileReleaseJavaWithJavac
-> Task :cookie-store:extractReleaseAnnotations
-> Task :cookie-store:mergeReleaseGeneratedProguardFiles
-> Task :cookie-store:mergeReleaseConsumerProguardFiles
-> Task :cookie-store:compileReleaseSources
+> Task :cookie-store:javaPreCompileRelease
+> Task :cookie-store:prepareLintJarForPublish
+> Task :cookie-store:processDebugManifest
+> Task :cookie-store:parseReleaseLocalResources
+> Task :cookie-store:javaPreCompileDebug
 > Task :cookie-store:generateDebugRFile
 > Task :cookie-store:compileDebugKotlin
 > Task :cookie-store:compileDebugJavaWithJavac
@@ -350,27 +344,34 @@ BUILD FAILED in 4s
 > Task :cookie-store:mergeDebugGeneratedProguardFiles
 > Task :cookie-store:mergeDebugConsumerProguardFiles
 > Task :cookie-store:compileDebugSources
-> Task :cookie-store:mergeReleaseJavaResource
-> Task :cookie-store:syncReleaseLibJars
-> Task :cookie-store:bundleReleaseAar
+> Task :cookie-store:generateReleaseRFile
+> Task :cookie-store:compileReleaseKotlin
+> Task :cookie-store:compileReleaseJavaWithJavac
+> Task :cookie-store:extractReleaseAnnotations
+> Task :cookie-store:mergeReleaseGeneratedProguardFiles
+> Task :cookie-store:mergeReleaseConsumerProguardFiles
+> Task :cookie-store:verifyReleaseResources
+> Task :cookie-store:compileReleaseSources
 > Task :cookie-store:mergeDebugJavaResource
 > Task :cookie-store:syncDebugLibJars
 > Task :cookie-store:bundleDebugAar
 > Task :cookie-store:assembleDebug
-> Task :cookie-store:verifyReleaseResources
+> Task :cookie-store:mergeReleaseJavaResource
+> Task :cookie-store:syncReleaseLibJars
+> Task :cookie-store:bundleReleaseAar
 > Task :cookie-store:assembleRelease
 > Task :cookie-store:assemble
 > Task :cookie-store:build
 
-BUILD SUCCESSFUL in 34s
+BUILD SUCCESSFUL in 24s
 43 actionable tasks: 43 executed
 
-2020-09-09 00:56:08,205 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-09 00:56:08,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-09 00:56:21,319 INFO  ProjectTaskService - Detected possible tasks: 89
-2020-09-09 00:56:21,319 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-09-09 00:56:21,319 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-09-09 00:56:46,730 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-07 02:40:42,985 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-07 02:40:42,985 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-07 02:40:52,732 INFO  ProjectTaskService - Detected possible tasks: 89
+2020-10-07 02:40:52,733 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-10-07 02:40:52,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-10-07 02:41:11,448 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :cookie-store:preBuild UP-TO-DATE
 > Task :cookie-store:preDebugBuild UP-TO-DATE
 > Task :cookie-store:compileDebugAidl NO-SOURCE
@@ -435,34 +436,34 @@ BUILD SUCCESSFUL in 34s
 > Task :cookie-store:bundleReleaseAar UP-TO-DATE
 > Task :cookie-store:compileReleaseSources UP-TO-DATE
 > Task :cookie-store:mergeReleaseResources UP-TO-DATE
-> Task :cookie-store:verifyReleaseResources UP-TO-DATE
-> Task :cookie-store:assembleRelease UP-TO-DATE
-> Task :cookie-store:assemble UP-TO-DATE
-> Task :cookie-store:build
 
 > Task :cookie-store-okhttp:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store-okhttp/src/main/java/net/gotev/cookiestore/okhttp/JavaNetCookieJar.kt: (57, 9): Unreachable code
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store-okhttp/src/main/java/net/gotev/cookiestore/okhttp/JavaNetCookieJar.kt: (57, 9): Unreachable code
 
 > Task :cookie-store-okhttp:compileJava NO-SOURCE
 > Task :cookie-store-okhttp:processResources NO-SOURCE
 > Task :cookie-store-okhttp:classes UP-TO-DATE
 > Task :cookie-store-okhttp:inspectClassesForKotlinIC
 > Task :cookie-store-okhttp:jar
+> Task :cookie-store:verifyReleaseResources
+> Task :cookie-store:assembleRelease
+> Task :cookie-store:assemble
+> Task :cookie-store:build
 > Task :cookie-store-okhttp:assemble
 > Task :cookie-store-okhttp:build
 
-BUILD SUCCESSFUL in 24s
-46 actionable tasks: 3 executed, 43 up-to-date
+BUILD SUCCESSFUL in 18s
+46 actionable tasks: 4 executed, 42 up-to-date
 
-2020-09-09 00:56:46,762 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-09 00:56:46,762 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-09 00:57:03,944 INFO  ProjectTaskService - Detected possible tasks: 94
-2020-09-09 00:57:03,944 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-09 00:57:03,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-09 00:59:01,928 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-07 02:41:11,474 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-07 02:41:11,474 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-07 02:41:23,286 INFO  ProjectTaskService - Detected possible tasks: 94
+2020-10-07 02:41:23,286 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-07 02:41:23,286 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-07 02:42:55,189 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :cookie-store-okhttp:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/cookie-store-okhttp/src/main/java/net/gotev/cookiestore/okhttp/JavaNetCookieJar.kt: (57, 9): Unreachable code
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/cookie-store-okhttp/src/main/java/net/gotev/cookiestore/okhttp/JavaNetCookieJar.kt: (57, 9): Unreachable code
 
 > Task :cookie-store-okhttp:compileJava NO-SOURCE
 > Task :cookie-store-okhttp:processResources NO-SOURCE
@@ -476,8 +477,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/
 > Task :cookie-store:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :cookie-store:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :cookie-store:compileDebugRenderscript NO-SOURCE
@@ -488,13 +489,17 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/
 > Task :app:extractDeepLinksDebug
 > Task :cookie-store:extractDeepLinksDebug
 > Task :cookie-store:compileDebugLibraryResources
-> Task :app:mergeDebugResources
 > Task :cookie-store:processDebugManifest
 > Task :app:processDebugManifest
-> Task :cookie-store:generateDebugBuildConfig
 > Task :cookie-store:parseDebugLocalResources
-> Task :cookie-store:javaPreCompileDebug
+> Task :cookie-store:generateDebugBuildConfig
+> Task :app:mergeDebugResources
 > Task :app:javaPreCompileDebug
+> Task :cookie-store:javaPreCompileDebug
+> Task :cookie-store:generateDebugRFile
+> Task :app:processDebugResources
+> Task :cookie-store:compileDebugKotlin
+> Task :cookie-store:compileDebugJavaWithJavac
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
 > Task :app:generateDebugAssets UP-TO-DATE
@@ -503,16 +508,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/
 > Task :cookie-store:generateDebugAssets UP-TO-DATE
 > Task :cookie-store:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :cookie-store:generateDebugRFile
-> Task :app:processDebugResources
-> Task :cookie-store:compileDebugKotlin
-> Task :cookie-store:compileDebugJavaWithJavac
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :cookie-store:processDebugJavaRes NO-SOURCE
 > Task :cookie-store:bundleLibCompileToJarDebug
 > Task :app:compileDebugKotlin
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :cookie-store:processDebugJavaRes NO-SOURCE
 > Task :cookie-store:bundleLibResDebug
 > Task :cookie-store:bundleLibRuntimeToJarDebug
 > Task :app:checkDebugDuplicateClasses
@@ -541,14 +542,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/
 > Task :cookie-store:mergeDebugNativeLibs
 > Task :cookie-store:stripDebugDebugSymbols NO-SOURCE
 > Task :cookie-store:copyDebugJniLibsProjectOnly
-> Task :cookie-store:generateReleaseBuildConfig
-> Task :app:mergeReleaseResources
 > Task :cookie-store:compileReleaseLibraryResources
-> Task :cookie-store:javaPreCompileRelease
-> Task :cookie-store:parseReleaseLocalResources
+> Task :cookie-store:generateReleaseBuildConfig
 > Task :cookie-store:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
 > Task :app:javaPreCompileRelease
+> Task :cookie-store:parseReleaseLocalResources
+> Task :cookie-store:javaPreCompileRelease
 > Task :cookie-store:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :cookie-store:compileReleaseKotlin
@@ -561,9 +562,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/
 > Task :app:compileReleaseSources
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
+> Task :cookie-store:bundleLibRuntimeToJarRelease
 > Task :cookie-store:prepareLintJarForPublish
 > Task :app:lintVitalRelease
-> Task :cookie-store:bundleLibRuntimeToJarRelease
 > Task :app:dexBuilderRelease
 > Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
@@ -592,22 +593,22 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/
 > Task :cookie-store:extractReleaseAnnotations
 > Task :cookie-store:mergeReleaseGeneratedProguardFiles
 > Task :cookie-store:mergeReleaseConsumerProguardFiles
-> Task :cookie-store:mergeDebugJavaResource
-> Task :cookie-store:syncDebugLibJars
-> Task :cookie-store:bundleDebugAar
-> Task :cookie-store:assembleDebug
+> Task :cookie-store:bundleLibResRelease
 > Task :cookie-store:compileReleaseSources
 > Task :cookie-store:mergeReleaseResources
 > Task :cookie-store:mergeReleaseJavaResource
 > Task :cookie-store:syncReleaseLibJars
 > Task :cookie-store-okhttp:assemble
 > Task :cookie-store-okhttp:build
-> Task :cookie-store:bundleLibResRelease
 > Task :cookie-store:mergeReleaseNativeLibs
 > Task :cookie-store:stripReleaseDebugSymbols NO-SOURCE
 > Task :cookie-store:copyReleaseJniLibsProjectOnly
 > Task :cookie-store:copyReleaseJniLibsProjectAndLocalJars
 > Task :cookie-store:bundleReleaseAar
+> Task :cookie-store:mergeDebugJavaResource
+> Task :cookie-store:syncDebugLibJars
+> Task :cookie-store:bundleDebugAar
+> Task :cookie-store:assembleDebug
 > Task :cookie-store:verifyReleaseResources
 > Task :cookie-store:assembleRelease
 > Task :cookie-store:assemble
@@ -622,7 +623,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 57s
+BUILD SUCCESSFUL in 1m 31s
 105 actionable tasks: 105 executed
 
-2020-09-09 00:59:02,019 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587675457-0/src/android-cookie-store-master/example/app/build/outputs/apk/debug/app-debug.apk
+2020-10-07 02:42:55,270 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013167014-0/src/android-cookie-store-master/example/app/build/outputs/apk/debug/app-debug.apk

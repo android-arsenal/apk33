@@ -1,194 +1,131 @@
-2020-05-15 14:18:41,175 INFO  DownloadService - Downloading "https://github.com/GuilhE/KeyboardStateEvents/archive/master.zip", attempt 3
-2020-05-15 14:18:48,325 INFO  DownloadService - Downloaded https://github.com/GuilhE/KeyboardStateEvents/archive/master.zip, attempt 3
-2020-05-15 14:18:48,326 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/master.zip": 392 KB
-2020-05-15 14:18:48,326 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-05-15 14:18:48,326 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/master.zip: true
-2020-05-15 14:18:48,326 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src'.
-2020-05-15 14:18:48,350 INFO  FullProcessService - Size of directory with sources: 428 KB
-2020-05-15 14:18:48,351 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src]
-2020-05-15 14:18:48,391 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/.git/
+2020-10-07 02:26:54,877 INFO  DownloadService - Downloading "https://github.com/GuilhE/KeyboardStateEvents/archive/master.zip", attempt 3
+2020-10-07 02:26:56,729 INFO  DownloadService - Downloaded https://github.com/GuilhE/KeyboardStateEvents/archive/master.zip, attempt 3
+2020-10-07 02:26:56,729 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/master.zip": 406 KB
+2020-10-07 02:26:56,729 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-07 02:26:56,730 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/master.zip: true
+2020-10-07 02:26:56,730 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src'.
+2020-10-07 02:26:56,758 INFO  FullProcessService - Size of directory with sources: 453 KB
+2020-10-07 02:26:56,758 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src]
+2020-10-07 02:26:56,793 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/.git/
 
-2020-05-15 14:18:48,395 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/gradlew
-2020-05-15 14:18:48,398 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/keyboard-state-events/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/build.gradle
-2020-05-15 14:18:48,401 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/deploy-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/keyboard-state-events/build.gradle
-2020-05-15 14:18:48,402 INFO  ProjectBuildService - Remote scripts: none
-2020-05-15 14:18:48,402 INFO  ProjectFixService - Fixing project...
-2020-05-15 14:18:48,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/keyboard-state-events/local.properties
-2020-05-15 14:18:48,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/keyboard-state-events/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-05-15 14:18:48,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/sample/local.properties
-2020-05-15 14:18:48,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/sample/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-05-15 14:18:48,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/local.properties
-2020-05-15 14:18:48,422 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-05-15 14:18:48,423 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-05-15 14:18:48,424 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-05-15 14:18:48,424 INFO  ProjectFixService - Project was maybe fixed
-2020-05-15 14:18:48,424 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-15 14:18:48,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/keyboard-state-events/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-15 14:19:03,794 INFO  ProjectTaskService - Detected possible tasks: 75
-2020-05-15 14:19:03,794 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-05-15 14:19:03,794 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/keyboard-state-events/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-05-15 14:19:04,495 INFO  VirusProcessorServiceImpl - Queued project 8093 to scan viruses
-2020-05-15 14:19:24,906 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-07 02:26:56,797 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/gradlew
+2020-10-07 02:26:56,801 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/sample/build.gradle
+2020-10-07 02:26:56,805 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/sample/build.gradle
+2020-10-07 02:26:56,805 INFO  ProjectBuildService - Remote scripts: none
+2020-10-07 02:26:56,805 INFO  ProjectFixService - Fixing project...
+2020-10-07 02:26:56,815 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/sample/local.properties
+2020-10-07 02:26:56,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-07 02:26:56,816 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-07 02:26:56,818 INFO  ProjectFixService - Project was maybe fixed
+2020-10-07 02:26:56,818 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-07 02:26:56,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-07 02:27:19,143 INFO  VirusProcessorServiceImpl - Queued project 8093 to scan viruses
+2020-10-07 02:28:39,078 INFO  ProjectTaskService - Detected possible tasks: 75
+2020-10-07 02:28:39,079 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-07 02:28:39,079 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-07 02:30:22,818 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:validatePlugins UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+File /Users/vbauer/.android/repositories.cfg could not be loaded.
+Checking the license for package Android SDK Build-Tools 30.0.2 in /Users/vbauer/Library/Android/sdk/licenses
+License for package Android SDK Build-Tools 30.0.2 accepted.
+Preparing "Install Android SDK Build-Tools 30.0.2 (revision: 30.0.2)".
+"Install Android SDK Build-Tools 30.0.2 (revision: 30.0.2)" ready.
+Installing Android SDK Build-Tools 30.0.2 in /Users/vbauer/Library/Android/sdk/build-tools/30.0.2
+"Install Android SDK Build-Tools 30.0.2 (revision: 30.0.2)" complete.
+"Install Android SDK Build-Tools 30.0.2 (revision: 30.0.2)" finished.
 > Task :keyboard-state-events:preBuild UP-TO-DATE
 > Task :keyboard-state-events:preDebugBuild UP-TO-DATE
-> Task :keyboard-state-events:mergeDebugJniLibFolders
-> Task :keyboard-state-events:mergeDebugNativeLibs
-> Task :keyboard-state-events:stripDebugDebugSymbols
-> Task :keyboard-state-events:copyDebugJniLibsProjectAndLocalJars
-> Task :keyboard-state-events:compileDebugAidl NO-SOURCE
 > Task :keyboard-state-events:generateDebugBuildConfig
-> Task :keyboard-state-events:compileDebugRenderscript NO-SOURCE
 > Task :keyboard-state-events:generateDebugResValues
-> Task :keyboard-state-events:generateDebugResources
-> Task :keyboard-state-events:packageDebugResources
-> Task :keyboard-state-events:mergeDebugShaders
-> Task :keyboard-state-events:compileDebugShaders
-> Task :keyboard-state-events:generateDebugAssets
-> Task :keyboard-state-events:packageDebugAssets
-> Task :keyboard-state-events:packageDebugRenderscript NO-SOURCE
-> Task :keyboard-state-events:processDebugJavaRes NO-SOURCE
-> Task :keyboard-state-events:preReleaseBuild UP-TO-DATE
-> Task :keyboard-state-events:compileReleaseAidl NO-SOURCE
-> Task :keyboard-state-events:mergeReleaseJniLibFolders
-> Task :keyboard-state-events:compileReleaseRenderscript NO-SOURCE
-> Task :keyboard-state-events:generateReleaseBuildConfig
-> Task :keyboard-state-events:generateReleaseResValues
-> Task :keyboard-state-events:generateReleaseResources
-> Task :keyboard-state-events:packageReleaseResources
-> Task :keyboard-state-events:mergeReleaseNativeLibs
-> Task :keyboard-state-events:stripReleaseDebugSymbols
-> Task :keyboard-state-events:copyReleaseJniLibsProjectAndLocalJars
-> Task :keyboard-state-events:parseReleaseLocalResources
-> Task :keyboard-state-events:mergeReleaseShaders
-> Task :keyboard-state-events:compileReleaseShaders
-> Task :keyboard-state-events:generateReleaseAssets
-> Task :keyboard-state-events:packageReleaseAssets
-> Task :keyboard-state-events:packageReleaseRenderscript NO-SOURCE
-> Task :keyboard-state-events:processReleaseJavaRes NO-SOURCE
-> Task :keyboard-state-events:prepareLintJarForPublish
-> Task :keyboard-state-events:processReleaseManifest
-> Task :keyboard-state-events:processDebugManifest
-> Task :keyboard-state-events:parseDebugLocalResources
-> Task :keyboard-state-events:generateReleaseRFile
-> Task :keyboard-state-events:compileReleaseKotlin
-> Task :keyboard-state-events:generateDebugRFile
-> Task :keyboard-state-events:compileDebugKotlin
-> Task :keyboard-state-events:mergeReleaseJavaResource
-> Task :keyboard-state-events:javaPreCompileRelease
-> Task :keyboard-state-events:compileReleaseJavaWithJavac
-> Task :keyboard-state-events:extractReleaseAnnotations
-> Task :keyboard-state-events:mergeReleaseGeneratedProguardFiles
-> Task :keyboard-state-events:mergeReleaseConsumerProguardFiles
-> Task :keyboard-state-events:syncReleaseLibJars
-> Task :keyboard-state-events:bundleReleaseAar
-> Task :keyboard-state-events:compileReleaseSources
-> Task :keyboard-state-events:mergeDebugJavaResource
 > Task :keyboard-state-events:javaPreCompileDebug
-> Task :keyboard-state-events:compileDebugJavaWithJavac
-> Task :keyboard-state-events:extractDebugAnnotations
-> Task :keyboard-state-events:mergeDebugGeneratedProguardFiles
-> Task :keyboard-state-events:mergeDebugConsumerProguardFiles
-> Task :keyboard-state-events:compileDebugSources
-> Task :keyboard-state-events:mergeReleaseResources
-> Task :keyboard-state-events:javadoc NO-SOURCE
-> Task :keyboard-state-events:javadocJar
-> Task :keyboard-state-events:sourcesJar
-> Task :keyboard-state-events:jacocoDebug
-> Task :keyboard-state-events:syncDebugLibJars
-> Task :keyboard-state-events:bundleDebugAar
-> Task :keyboard-state-events:assembleDebug
-> Task :keyboard-state-events:verifyReleaseResources
-> Task :keyboard-state-events:assembleRelease
-> Task :keyboard-state-events:assemble
-> Task :keyboard-state-events:build
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 20s
-50 actionable tasks: 50 executed
-
-2020-05-15 14:19:24,944 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-15 14:19:24,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-15 14:19:32,093 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-05-15 14:19:32,093 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-05-15 14:19:32,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-05-15 14:20:32,911 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :keyboard-state-events:preBuild UP-TO-DATE
-> Task :keyboard-state-events:preDebugBuild UP-TO-DATE
-> Task :keyboard-state-events:compileDebugAidl NO-SOURCE
-> Task :keyboard-state-events:generateDebugBuildConfig UP-TO-DATE
-> Task :keyboard-state-events:compileDebugRenderscript NO-SOURCE
-> Task :keyboard-state-events:generateDebugResValues UP-TO-DATE
-> Task :keyboard-state-events:generateDebugResources UP-TO-DATE
-> Task :keyboard-state-events:packageDebugResources UP-TO-DATE
-> Task :keyboard-state-events:parseDebugLocalResources UP-TO-DATE
-> Task :keyboard-state-events:processDebugManifest UP-TO-DATE
-> Task :keyboard-state-events:generateDebugRFile UP-TO-DATE
-> Task :keyboard-state-events:compileDebugKotlin UP-TO-DATE
-> Task :keyboard-state-events:javaPreCompileDebug UP-TO-DATE
-> Task :keyboard-state-events:compileDebugJavaWithJavac UP-TO-DATE
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :keyboard-state-events:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugAidl NO-SOURCE
-> Task :sample:generateDebugBuildConfig
 > Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugBuildConfig
 > Task :sample:prepareLintJar
-> Task :keyboard-state-events:bundleLibCompileDebug
+> Task :keyboard-state-events:processDebugManifest
 > Task :sample:prepareLintJarForPublish
-> Task :sample:generateDebugSources
-> Task :sample:dataBindingExportBuildInfoDebug
 > Task :sample:dataBindingMergeDependencyArtifactsDebug
 > Task :sample:dataBindingMergeGenClassesDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
 > Task :sample:dataBindingExportFeaturePackageIdsDebug
-> Task :sample:mainApkListPersistenceDebug
+> Task :keyboard-state-events:compileDebugRenderscript NO-SOURCE
+> Task :keyboard-state-events:compileDebugAidl NO-SOURCE
+> Task :keyboard-state-events:generateDebugResources
+> Task :keyboard-state-events:packageDebugResources
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:generateDebugSources
+> Task :sample:dataBindingExportBuildInfoDebug
+> Task :keyboard-state-events:parseDebugLocalResources
 > Task :sample:mergeDebugResources
 > Task :sample:dataBindingGenBaseClassesDebug
-> Task :keyboard-state-events:compileDebugLibraryResources
+> Task :keyboard-state-events:generateDebugRFile
+> Task :keyboard-state-events:compileDebugKotlin
+> Task :keyboard-state-events:compileDebugJavaWithJavac
 > Task :keyboard-state-events:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
-> Task :keyboard-state-events:mergeDebugShaders UP-TO-DATE
-> Task :keyboard-state-events:compileDebugShaders UP-TO-DATE
+> Task :sample:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :keyboard-state-events:compileDebugLibraryResources
+> Task :sample:processDebugResources
+> Task :keyboard-state-events:bundleLibCompileToJarDebug
+> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :sample:javaPreCompileDebug
+> Task :keyboard-state-events:mergeDebugShaders
+> Task :keyboard-state-events:compileDebugShaders NO-SOURCE
 > Task :keyboard-state-events:generateDebugAssets UP-TO-DATE
-> Task :keyboard-state-events:packageDebugAssets UP-TO-DATE
+> Task :keyboard-state-events:packageDebugAssets
 > Task :sample:mergeDebugShaders
-> Task :sample:compileDebugShaders
-> Task :sample:generateDebugAssets
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugAssets
 > Task :keyboard-state-events:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :keyboard-state-events:bundleLibResDebug
-> Task :sample:processDebugResources
-> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :sample:kaptDebugKotlin
+> Task :sample:compileDebugKotlin
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :sample:checkDebugDuplicateClasses
-> Task :keyboard-state-events:jacocoDebug UP-TO-DATE
-> Task :keyboard-state-events:bundleLibRuntimeDebug
-> Task :keyboard-state-events:mergeDebugJniLibFolders UP-TO-DATE
-> Task :keyboard-state-events:mergeDebugNativeLibs UP-TO-DATE
-> Task :keyboard-state-events:stripDebugDebugSymbols UP-TO-DATE
-> Task :keyboard-state-events:copyDebugJniLibsProjectOnly
-> Task :sample:mergeDebugJniLibFolders
+> Task :sample:dexBuilderDebug
+> Task :keyboard-state-events:bundleLibRuntimeToJarDebug
 > Task :sample:mergeLibDexDebug
+> Task :keyboard-state-events:mergeDebugJniLibFolders
+> Task :sample:mergeDebugJniLibFolders
 > Task :sample:validateSigningDebug
 > Task :keyboard-state-events:preReleaseBuild UP-TO-DATE
 > Task :keyboard-state-events:compileReleaseAidl NO-SOURCE
 > Task :keyboard-state-events:compileReleaseRenderscript NO-SOURCE
-> Task :keyboard-state-events:generateReleaseBuildConfig UP-TO-DATE
-> Task :keyboard-state-events:generateReleaseResValues UP-TO-DATE
-> Task :keyboard-state-events:generateReleaseResources UP-TO-DATE
-> Task :keyboard-state-events:packageReleaseResources UP-TO-DATE
-> Task :keyboard-state-events:parseReleaseLocalResources UP-TO-DATE
-> Task :keyboard-state-events:processReleaseManifest UP-TO-DATE
-> Task :keyboard-state-events:generateReleaseRFile UP-TO-DATE
-> Task :keyboard-state-events:compileReleaseKotlin UP-TO-DATE
-> Task :keyboard-state-events:javaPreCompileRelease UP-TO-DATE
-> Task :keyboard-state-events:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :keyboard-state-events:generateReleaseBuildConfig
+> Task :keyboard-state-events:generateReleaseResValues
+> Task :keyboard-state-events:generateReleaseResources
+> Task :keyboard-state-events:packageReleaseResources
+> Task :keyboard-state-events:mergeDebugNativeLibs
+> Task :keyboard-state-events:stripDebugDebugSymbols NO-SOURCE
+> Task :keyboard-state-events:copyDebugJniLibsProjectOnly
+> Task :keyboard-state-events:parseReleaseLocalResources
+> Task :keyboard-state-events:javaPreCompileRelease
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :keyboard-state-events:packageReleaseRenderscript NO-SOURCE
@@ -196,63 +133,61 @@ BUILD SUCCESSFUL in 20s
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:generateReleaseSources
 > Task :sample:dataBindingExportBuildInfoRelease
-> Task :keyboard-state-events:bundleLibCompileRelease
+> Task :keyboard-state-events:processReleaseManifest
 > Task :sample:dataBindingMergeDependencyArtifactsRelease
+> Task :sample:dataBindingMergeGenClassesRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:dataBindingMergeGenClassesRelease
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
-> Task :sample:kaptDebugKotlin
-> Task :sample:compileDebugKotlin
-> Task :sample:mainApkListPersistenceRelease
+> Task :sample:mergeProjectDexDebug
+> Task :sample:dataBindingExportFeaturePackageIdsRelease
 > Task :keyboard-state-events:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
-> Task :sample:dexBuilderDebug
+> Task :keyboard-state-events:compileReleaseLibraryResources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
+> Task :sample:javaPreCompileRelease
+> Task :sample:mergeDebugJavaResource
+> Task :keyboard-state-events:generateReleaseRFile
+> Task :keyboard-state-events:compileReleaseKotlin
+> Task :keyboard-state-events:compileReleaseJavaWithJavac
 > Task :sample:mergeReleaseResources
 > Task :sample:dataBindingGenBaseClassesRelease
-> Task :sample:dataBindingExportFeaturePackageIdsRelease
-> Task :keyboard-state-events:compileReleaseLibraryResources
 > Task :sample:processReleaseResources
-> Task :sample:mergeProjectDexDebug
+> Task :keyboard-state-events:bundleLibCompileToJarRelease
 > Task :sample:kaptGenerateStubsReleaseKotlin
-> Task :sample:mergeDebugJavaResource
-> Task :keyboard-state-events:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :sample:checkReleaseDuplicateClasses
-> Task :keyboard-state-events:bundleLibRuntimeRelease
-> Task :sample:mergeExtDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
-> Task :keyboard-state-events:mergeReleaseShaders UP-TO-DATE
-> Task :keyboard-state-events:compileReleaseShaders UP-TO-DATE
+> Task :keyboard-state-events:bundleLibRuntimeToJarRelease
+> Task :keyboard-state-events:prepareLintJarForPublish
+> Task :keyboard-state-events:mergeReleaseShaders
+> Task :keyboard-state-events:compileReleaseShaders NO-SOURCE
 > Task :keyboard-state-events:generateReleaseAssets UP-TO-DATE
-> Task :keyboard-state-events:packageReleaseAssets UP-TO-DATE
+> Task :keyboard-state-events:packageReleaseAssets
 > Task :sample:mergeReleaseShaders
-> Task :sample:compileReleaseShaders
-> Task :sample:generateReleaseAssets
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseAssets
 > Task :keyboard-state-events:processReleaseJavaRes NO-SOURCE
 > Task :keyboard-state-events:bundleLibResRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :keyboard-state-events:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :keyboard-state-events:mergeReleaseNativeLibs UP-TO-DATE
-> Task :keyboard-state-events:stripReleaseDebugSymbols UP-TO-DATE
+> Task :keyboard-state-events:mergeReleaseJniLibFolders
+> Task :sample:mergeExtDexDebug
+> Task :keyboard-state-events:mergeReleaseNativeLibs
+> Task :keyboard-state-events:stripReleaseDebugSymbols NO-SOURCE
 > Task :keyboard-state-events:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:mergeReleaseNativeLibs
-> Task :sample:stripReleaseDebugSymbols
 > Task :sample:kaptReleaseKotlin
 > Task :sample:compileReleaseKotlin
-> Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :sample:lintVitalRelease
 > Task :sample:dexBuilderRelease
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
 > Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
@@ -261,11 +196,7 @@ BUILD SUCCESSFUL in 20s
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 42s
+98 actionable tasks: 98 executed
 
-BUILD SUCCESSFUL in 1m 0s
-109 actionable tasks: 77 executed, 32 up-to-date
-
-2020-05-15 14:20:33,003 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527121170-0/src/KeyboardStateEvents-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-10-07 02:30:22,902 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602012414873-0/src/KeyboardStateEvents-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
