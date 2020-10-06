@@ -1,0 +1,177 @@
+2020-10-06 21:27:06,703 INFO  DownloadService - Downloading "https://github.com/TalbotGooday/ToothyProgress/archive/master.zip", attempt 3
+2020-10-06 21:27:19,575 INFO  VirusProcessorServiceImpl - Queued project 8170 to scan viruses
+2020-10-06 21:27:47,651 INFO  DownloadService - Downloaded https://github.com/TalbotGooday/ToothyProgress/archive/master.zip, attempt 3
+2020-10-06 21:27:47,652 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/master.zip": 6 MB
+2020-10-06 21:27:47,652 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-06 21:27:47,653 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/master.zip: true
+2020-10-06 21:27:47,654 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src'.
+2020-10-06 21:27:47,722 INFO  FullProcessService - Size of directory with sources: 6 MB
+2020-10-06 21:27:47,722 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src]
+2020-10-06 21:27:47,749 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/.git/
+
+2020-10-06 21:27:47,753 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/gradlew
+2020-10-06 21:27:47,758 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/build.gradle
+2020-10-06 21:27:47,764 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/settings.gradle
+2020-10-06 21:27:47,765 INFO  ProjectBuildService - Remote scripts: none
+2020-10-06 21:27:47,765 INFO  ProjectFixService - Fixing project...
+2020-10-06 21:27:47,776 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/app/local.properties
+2020-10-06 21:27:47,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-10-06 21:27:47,777 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-10-06 21:27:47,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/widget/local.properties
+2020-10-06 21:27:47,779 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/widget/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-10-06 21:27:47,779 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/widget/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-10-06 21:27:47,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/local.properties
+2020-10-06 21:27:47,782 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-bin.zip
+2020-10-06 21:27:47,783 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-10-06 21:27:47,783 INFO  ProjectFixService - Project was maybe fixed
+2020-10-06 21:27:47,783 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-06 21:27:47,783 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-06 21:28:18,687 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-10-06 21:28:18,688 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-06 21:28:18,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-06 21:29:45,199 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.1.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :widget:preBuild UP-TO-DATE
+> Task :widget:preDebugBuild UP-TO-DATE
+> Task :widget:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :widget:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :widget:generateDebugResValues
+> Task :widget:compileDebugRenderscript NO-SOURCE
+> Task :widget:generateDebugResources
+> Task :widget:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :widget:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :widget:compileDebugLibraryResources
+> Task :widget:processDebugManifest
+> Task :app:processDebugManifest
+> Task :widget:generateDebugBuildConfig
+> Task :widget:javaPreCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :widget:mergeDebugShaders
+> Task :widget:compileDebugShaders NO-SOURCE
+> Task :widget:generateDebugAssets UP-TO-DATE
+> Task :widget:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :widget:parseDebugLocalResources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :widget:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :widget:generateDebugRFile
+> Task :app:processDebugResources
+> Task :widget:compileDebugKotlin
+> Task :widget:compileDebugJavaWithJavac
+> Task :widget:bundleLibResDebug
+> Task :widget:bundleLibRuntimeToJarDebug
+> Task :widget:bundleLibCompileToJarDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (94, 7): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :widget:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :widget:preReleaseBuild UP-TO-DATE
+> Task :widget:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :widget:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :widget:compileReleaseRenderscript NO-SOURCE
+> Task :widget:generateReleaseResValues
+> Task :widget:generateReleaseResources
+> Task :widget:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :widget:extractDeepLinksRelease
+> Task :app:mergeDebugJavaResource
+> Task :widget:generateReleaseBuildConfig
+> Task :widget:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :widget:javaPreCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :widget:parseReleaseLocalResources
+> Task :widget:mergeDebugNativeLibs
+> Task :widget:stripDebugDebugSymbols NO-SOURCE
+> Task :widget:copyDebugJniLibsProjectOnly
+> Task :widget:compileReleaseLibraryResources
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :widget:prepareLintJarForPublish
+> Task :widget:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :widget:compileReleaseKotlin
+> Task :widget:compileReleaseJavaWithJavac
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :widget:bundleLibCompileToJarRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (94, 7): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :widget:bundleLibRuntimeToJarRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :widget:mergeReleaseShaders
+> Task :widget:compileReleaseShaders NO-SOURCE
+> Task :widget:generateReleaseAssets UP-TO-DATE
+> Task :widget:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :widget:processReleaseJavaRes NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :widget:mergeReleaseJniLibFolders
+> Task :widget:bundleLibResRelease
+> Task :widget:mergeReleaseNativeLibs
+> Task :widget:stripReleaseDebugSymbols NO-SOURCE
+> Task :widget:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 25s
+84 actionable tasks: 84 executed
+
+2020-10-06 21:29:45,278 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994426699-0/src/ToothyProgress-master/app/build/outputs/apk/debug/app-debug.apk

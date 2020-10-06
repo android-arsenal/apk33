@@ -1,0 +1,171 @@
+2020-10-06 21:29:45,722 INFO  DownloadService - Downloading "https://github.com/furkanaskin/ClickablePieChart/archive/master.zip", attempt 3
+2020-10-06 21:29:47,485 INFO  DownloadService - Downloaded https://github.com/furkanaskin/ClickablePieChart/archive/master.zip, attempt 3
+2020-10-06 21:29:47,485 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/master.zip": 165 KB
+2020-10-06 21:29:47,485 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-06 21:29:47,487 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/master.zip: true
+2020-10-06 21:29:47,487 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src'.
+2020-10-06 21:29:47,515 INFO  FullProcessService - Size of directory with sources: 195 KB
+2020-10-06 21:29:47,515 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src]
+2020-10-06 21:29:47,536 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/.git/
+
+2020-10-06 21:29:47,541 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/gradlew
+2020-10-06 21:29:47,545 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/build.gradle
+2020-10-06 21:29:47,549 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/settings.gradle
+2020-10-06 21:29:47,550 INFO  ProjectBuildService - Remote scripts: none
+2020-10-06 21:29:47,550 INFO  ProjectFixService - Fixing project...
+2020-10-06 21:29:47,560 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/local.properties
+2020-10-06 21:29:47,561 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-06 21:29:47,562 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/lib/local.properties
+2020-10-06 21:29:47,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/lib/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-06 21:29:47,564 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/local.properties
+2020-10-06 21:29:47,564 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-10-06 21:29:47,564 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-10-06 21:29:47,566 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-06 21:29:47,566 INFO  ProjectFixService - Project was maybe fixed
+2020-10-06 21:29:47,566 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-06 21:29:47,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-06 21:30:12,886 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-10-06 21:30:12,886 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-06 21:30:12,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-06 21:30:14,674 INFO  VirusProcessorServiceImpl - Queued project 8169 to scan viruses
+2020-10-06 21:31:26,114 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :lib:generateDebugResValues
+> Task :lib:compileDebugRenderscript NO-SOURCE
+> Task :lib:generateDebugResources
+> Task :lib:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :lib:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :lib:processDebugManifest
+> Task :app:processDebugManifest
+> Task :lib:compileDebugLibraryResources
+> Task :lib:generateDebugBuildConfig
+> Task :lib:javaPreCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :lib:mergeDebugShaders
+> Task :lib:compileDebugShaders NO-SOURCE
+> Task :lib:generateDebugAssets UP-TO-DATE
+> Task :lib:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :lib:parseDebugLocalResources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:generateDebugRFile
+> Task :app:processDebugResources
+> Task :lib:compileDebugKotlin
+> Task :lib:compileDebugJavaWithJavac
+> Task :lib:bundleLibResDebug
+> Task :lib:bundleLibCompileToJarDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/src/main/java/com/faskn/clickablepiechart/MainActivity.kt: (21, 29): Parameter 'angle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/src/main/java/com/faskn/clickablepiechart/MainActivity.kt: (21, 36): Parameter 'index' is never used, could be renamed to _
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:checkDebugDuplicateClasses
+> Task :app:dexBuilderDebug
+> Task :lib:bundleLibRuntimeToJarDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :lib:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :lib:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:generateReleaseResValues
+> Task :lib:generateReleaseResources
+> Task :lib:packageReleaseResources
+> Task :app:mergeDebugJavaResource
+> Task :lib:mergeDebugNativeLibs
+> Task :lib:stripDebugDebugSymbols NO-SOURCE
+> Task :lib:copyDebugJniLibsProjectOnly
+> Task :app:mergeLibDexDebug
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :lib:extractDeepLinksRelease
+> Task :app:mergeProjectDexDebug
+> Task :lib:generateReleaseBuildConfig
+> Task :app:mergeReleaseResources
+> Task :app:javaPreCompileRelease
+> Task :lib:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :lib:javaPreCompileRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :lib:parseReleaseLocalResources
+> Task :lib:compileReleaseLibraryResources
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :lib:prepareLintJarForPublish
+> Task :lib:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :lib:compileReleaseKotlin
+> Task :lib:compileReleaseJavaWithJavac
+> Task :lib:bundleLibCompileToJarRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/src/main/java/com/faskn/clickablepiechart/MainActivity.kt: (21, 29): Parameter 'angle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/src/main/java/com/faskn/clickablepiechart/MainActivity.kt: (21, 36): Parameter 'index' is never used, could be renamed to _
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :lib:bundleLibRuntimeToJarRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :lib:mergeReleaseShaders
+> Task :lib:compileReleaseShaders NO-SOURCE
+> Task :lib:generateReleaseAssets UP-TO-DATE
+> Task :lib:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :lib:mergeReleaseJniLibFolders
+> Task :lib:bundleLibResRelease
+> Task :lib:mergeReleaseNativeLibs
+> Task :lib:stripReleaseDebugSymbols NO-SOURCE
+> Task :lib:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 12s
+85 actionable tasks: 85 executed
+
+2020-10-06 21:31:26,190 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994585718-0/src/ClickablePieChart-master/app/build/outputs/apk/debug/app-debug.apk

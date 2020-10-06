@@ -38,11 +38,11 @@
     "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAPFBMVEVHcEz5+fn09PT///8AAAAAAADU2dm0vr2grKvs7u5pfXsIKCZUammJmJckQT8/WFbX19cZGRnLy8sAAAABIW4sAAAAFHRSTlMAlP7/DBP/////////////pSCqMJmlyQAAAAE4SURBVHgBYhjBANBMGSxJDoJguAeyiPyCk9n3f9ctk6p0etMab9PfJYB8eiDFF/EN9PXSzxOcjIV4AlqeAk/x55cEktRQ1faRfCOI4T+KjATFG7wvJCBc8gnRALQnUKBeJkIVQR1BgcwXMqAdwVD4DQXWEfYTUU3caJFs99Su4EwFAKow57pFeSBUOBvCtaK2LNwDhX0kCNAuD6QEZOaWDwXdDwvcUfaaDoSjzWAGO2rDF+K1LZBGgmXAmRMgAqR9ln2hwNiBWjfL9kiHcyjMGkBoS71FaSt3BN9/MyJuHFHAO4IAzhcckI7ABjhd+wv3BKpAFDtRAqi5KzAZLlgebo2s9oLKxF7KB3OLTHGgU4LogfSFj1vGxBPQSfjmCb6Xx8H6k+mG/LM+nizr31vW9sDZueHxufwDqoAh82tkVHEAAAAASUVORK5CYII=",
     "file" : true
   },
-  "dexClasses" : 2606,
+  "dexClasses" : 2627,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:allowClearUserData=\"true\" android:versionCode=\"1\" android:versionName=\"1.0.a\" android:allowBackup=\"true\" android:vmSafeMode=\"true\" android:hardwareAccelerated=\"true\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.romellfudi.fudinfc.app\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"18\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.NFC\" />\n\t<uses-permission android:name=\"android.permission.BLUETOOTH\" />\n\t<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Fudi NFC App\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:label=\"Fudi NFC App\" android:name=\"com.romellfudi.fudinfc.app.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.rbddevs.splashy.SplashyActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2447019,
-  "crc32" : 2336701587,
-  "sha256" : "7922891bf465cebc8e23099762c0d2eb9c34fc2aa2249f23baab15b5193708f7",
-  "buildTime" : 1597519849000
+  "fileSize" : 2542080,
+  "crc32" : 3316039093,
+  "sha256" : "a63bf13ee5fa3f3e2ae05bb6e5b5746fe7e6d3e71f75bb8cceefef62793eb59c",
+  "buildTime" : 1601997312000
 }

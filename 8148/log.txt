@@ -1,38 +1,36 @@
-2020-08-31 21:21:59,938 INFO  DownloadService - Downloading "https://github.com/chnouman/AwesomeDialog/archive/master.zip", attempt 3
-2020-08-31 21:22:59,942 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-08-31 21:23:01,086 INFO  GithubDownloadService - Default branch of this repository: master
-2020-08-31 21:23:01,086 INFO  DownloadService - Downloading "https://github.com/chnouman/AwesomeDialog/archive/master.zip", attempt 3
-2020-08-31 21:24:02,358 DEBUG FullProcessService - Repository https://github.com/chnouman/AwesomeDialog available: true
-2020-08-31 21:24:02,358 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-08-31 21:24:02,359 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/chnouman/AwesomeDialog, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src]
-2020-08-31 21:24:08,041 INFO  SysUtils - 
-2020-08-31 21:24:08,052 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/.git": true
-2020-08-31 21:24:08,055 INFO  FullProcessService - Size of directory with sources: 10 MB
-2020-08-31 21:24:08,055 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src]
-2020-08-31 21:24:08,076 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/.git/
+2020-10-06 21:32:50,743 INFO  DownloadService - Downloading "https://github.com/chnouman/AwesomeDialog/archive/master.zip", attempt 3
+2020-10-06 21:32:58,797 INFO  VirusProcessorServiceImpl - Queued project 8167 to scan viruses
+2020-10-06 21:33:24,190 INFO  DownloadService - Downloaded https://github.com/chnouman/AwesomeDialog/archive/master.zip, attempt 3
+2020-10-06 21:33:24,191 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/master.zip": 10 MB
+2020-10-06 21:33:24,191 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-06 21:33:24,191 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/master.zip: true
+2020-10-06 21:33:24,192 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src'.
+2020-10-06 21:33:24,278 INFO  FullProcessService - Size of directory with sources: 10 MB
+2020-10-06 21:33:24,278 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src]
+2020-10-06 21:33:24,302 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/.git/
 
-2020-08-31 21:24:08,079 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/gradlew
-2020-08-31 21:24:08,083 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/awesomeDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/build.gradle
-2020-08-31 21:24:08,086 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/awesomeDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/settings.gradle
-2020-08-31 21:24:08,086 INFO  ProjectBuildService - Remote scripts: none
-2020-08-31 21:24:08,086 INFO  ProjectFixService - Fixing project...
-2020-08-31 21:24:08,095 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/local.properties
-2020-08-31 21:24:08,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2020-08-31 21:24:08,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-08-31 21:24:08,098 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/awesomeDialog/local.properties
-2020-08-31 21:24:08,098 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/awesomeDialog/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=15,targetSdkVersion=30]
-2020-08-31 21:24:08,098 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/awesomeDialog/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-08-31 21:24:08,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/local.properties
-2020-08-31 21:24:08,100 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-08-31 21:24:08,101 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-08-31 21:24:08,102 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-08-31 21:24:08,102 INFO  ProjectFixService - Project was maybe fixed
-2020-08-31 21:24:08,102 INFO  ProjectTaskService - Detecting possible tasks...
-2020-08-31 21:24:08,102 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-08-31 21:24:26,633 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-08-31 21:24:26,633 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-08-31 21:24:26,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-08-31 21:25:11,517 ERROR SysUtils - Could not process external command
+2020-10-06 21:33:24,305 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/gradlew
+2020-10-06 21:33:24,310 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/awesomeDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/build.gradle
+2020-10-06 21:33:24,314 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/awesomeDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/settings.gradle
+2020-10-06 21:33:24,314 INFO  ProjectBuildService - Remote scripts: none
+2020-10-06 21:33:24,315 INFO  ProjectFixService - Fixing project...
+2020-10-06 21:33:24,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/local.properties
+2020-10-06 21:33:24,325 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-10-06 21:33:24,326 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-10-06 21:33:24,327 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/awesomeDialog/local.properties
+2020-10-06 21:33:24,328 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/awesomeDialog/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=15,targetSdkVersion=30]
+2020-10-06 21:33:24,328 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/awesomeDialog/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=15,targetSdkVersion=30]
+2020-10-06 21:33:24,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/local.properties
+2020-10-06 21:33:24,330 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-10-06 21:33:24,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-10-06 21:33:24,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-10-06 21:33:24,332 INFO  ProjectFixService - Project was maybe fixed
+2020-10-06 21:33:24,332 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-06 21:33:24,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-06 21:33:36,703 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-10-06 21:33:36,703 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-06 21:33:36,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-06 21:34:42,212 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,14 +58,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-08-31 21:25:11,518 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-06 21:34:42,213 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
 Android SDK Build Tools 29.0.2 will be used.
 To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
-> Task :app:generateDebugBuildConfig
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :app:generateDebugBuildConfig
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -100,13 +98,13 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:mergeProjectDexDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
+> Task :app:processReleaseManifest
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols NO-SOURCE
-> Task :app:processReleaseManifest
+> Task :app:javaPreCompileRelease
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :app:compileReleaseKotlin
-> Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:prepareLintJar
@@ -122,18 +120,18 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :app:mergeReleaseJavaResource
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:mergeExtDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:mergeExtDexRelease
 
 > Task :app:mergeDexRelease FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex: D8: Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex: D8: Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -174,7 +172,7 @@ Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed t
 	at com.android.tools.r8.D8.run(:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 33 more
-Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
+Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 	at Version.fakeStackEntry(Version_2.0.88.java:0)
 	at com.android.tools.r8.utils.O0.a(:21)
 	at com.android.tools.r8.utils.N0.b(:7)
@@ -197,8 +195,8 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:mergeDexRelease'.
 > A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
    > com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-     Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
      Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+     Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -309,8 +307,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:192)
 	... 30 more
 Caused by: com.android.build.api.transform.TransformException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:468)
 	at com.android.build.gradle.internal.tasks.Workers$ActionFacade.run(Workers.kt:242)
 	at org.gradle.workers.internal.AdapterWorkAction.execute(AdapterWorkAction.java:50)
@@ -336,8 +334,8 @@ Learn how to resolve the issue at https://developer.android.com/studio/build/dep
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:131)
 	... 3 more
 Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -348,7 +346,7 @@ Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed t
 	at com.android.tools.r8.D8.run(:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 27 more
-Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
+Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 	at Version.fakeStackEntry(Version_2.0.88.java:0)
 	at com.android.tools.r8.utils.O0.a(:21)
 	at com.android.tools.r8.utils.N0.b(:7)
@@ -366,7 +364,7 @@ Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 44s
+BUILD FAILED in 1m 4s
 45 actionable tasks: 45 executed
 
-2020-08-31 21:25:11,564 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598883719933-0/src/app/build/outputs/apk/debug/app-debug.apk
+2020-10-06 21:34:42,265 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,166 @@
+2020-10-06 21:31:26,628 INFO  DownloadService - Downloading "https://github.com/thekundankamal/textinputedittext/archive/master.zip", attempt 3
+2020-10-06 21:31:28,168 INFO  DownloadService - Downloaded https://github.com/thekundankamal/textinputedittext/archive/master.zip, attempt 3
+2020-10-06 21:31:28,169 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/master.zip": 157 KB
+2020-10-06 21:31:28,169 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-06 21:31:28,169 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/master.zip: true
+2020-10-06 21:31:28,169 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src'.
+2020-10-06 21:31:28,198 INFO  FullProcessService - Size of directory with sources: 167 KB
+2020-10-06 21:31:28,198 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src]
+2020-10-06 21:31:28,229 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/.git/
+
+2020-10-06 21:31:28,234 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/gradlew
+2020-10-06 21:31:28,239 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/textinputlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/build.gradle
+2020-10-06 21:31:28,245 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/textinputlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/settings.gradle
+2020-10-06 21:31:28,246 INFO  ProjectBuildService - Remote scripts: none
+2020-10-06 21:31:28,246 INFO  ProjectFixService - Fixing project...
+2020-10-06 21:31:28,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/app/local.properties
+2020-10-06 21:31:28,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-10-06 21:31:28,261 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/textinputlibrary/local.properties
+2020-10-06 21:31:28,262 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/textinputlibrary/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-10-06 21:31:28,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/local.properties
+2020-10-06 21:31:28,263 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-10-06 21:31:28,263 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-10-06 21:31:28,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-10-06 21:31:28,265 INFO  ProjectFixService - Project was maybe fixed
+2020-10-06 21:31:28,265 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-06 21:31:28,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-06 21:31:38,250 INFO  VirusProcessorServiceImpl - Queued project 8168 to scan viruses
+2020-10-06 21:32:04,409 INFO  ProjectTaskService - Detected possible tasks: 73
+2020-10-06 21:32:04,409 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-06 21:32:04,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-06 21:32:50,388 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :textinputlibrary:preBuild UP-TO-DATE
+> Task :textinputlibrary:preDebugBuild UP-TO-DATE
+> Task :textinputlibrary:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :textinputlibrary:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :textinputlibrary:generateDebugBuildConfig
+> Task :textinputlibrary:compileDebugRenderscript NO-SOURCE
+> Task :textinputlibrary:generateDebugResValues
+> Task :textinputlibrary:generateDebugResources
+> Task :textinputlibrary:packageDebugResources
+> Task :textinputlibrary:processDebugManifest
+> Task :textinputlibrary:parseDebugLocalResources
+> Task :textinputlibrary:javaPreCompileDebug
+> Task :textinputlibrary:generateDebugRFile
+
+> Task :textinputlibrary:compileDebugJavaWithJavac
+
+> Task :app:mainApkListPersistenceDebug
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/textinputlibrary/src/main/java/com/thekundankamal/textinputlibrary/TextInputEditText.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :textinputlibrary:bundleLibCompileDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :textinputlibrary:extractDeepLinksDebug
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:javaPreCompileDebug
+> Task :textinputlibrary:compileDebugLibraryResources
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :textinputlibrary:mergeDebugShaders
+> Task :textinputlibrary:compileDebugShaders
+> Task :textinputlibrary:generateDebugAssets
+> Task :textinputlibrary:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :textinputlibrary:processDebugJavaRes NO-SOURCE
+> Task :textinputlibrary:bundleLibResDebug
+> Task :textinputlibrary:bundleLibRuntimeDebug
+> Task :app:dexBuilderDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugJniLibFolders
+> Task :textinputlibrary:mergeDebugJniLibFolders
+> Task :textinputlibrary:mergeDebugNativeLibs
+> Task :textinputlibrary:stripDebugDebugSymbols
+> Task :textinputlibrary:copyDebugJniLibsProjectOnly
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :textinputlibrary:preReleaseBuild UP-TO-DATE
+> Task :textinputlibrary:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :textinputlibrary:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :textinputlibrary:compileReleaseRenderscript NO-SOURCE
+> Task :textinputlibrary:generateReleaseBuildConfig
+> Task :textinputlibrary:generateReleaseResValues
+> Task :textinputlibrary:generateReleaseResources
+> Task :textinputlibrary:packageReleaseResources
+> Task :textinputlibrary:parseReleaseLocalResources
+> Task :textinputlibrary:processReleaseManifest
+> Task :textinputlibrary:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :textinputlibrary:extractDeepLinksRelease
+> Task :app:processReleaseManifest
+> Task :textinputlibrary:generateReleaseRFile
+
+> Task :textinputlibrary:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/textinputlibrary/src/main/java/com/thekundankamal/textinputlibrary/TextInputEditText.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:mergeReleaseResources
+> Task :textinputlibrary:compileReleaseLibraryResources
+> Task :app:processReleaseResources
+> Task :textinputlibrary:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:dexBuilderRelease
+> Task :textinputlibrary:bundleLibRuntimeRelease
+> Task :textinputlibrary:prepareLintJarForPublish
+> Task :app:lintVitalRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :textinputlibrary:mergeReleaseShaders
+> Task :textinputlibrary:compileReleaseShaders
+> Task :textinputlibrary:generateReleaseAssets
+> Task :textinputlibrary:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :textinputlibrary:processReleaseJavaRes NO-SOURCE
+> Task :textinputlibrary:bundleLibResRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeReleaseJniLibFolders
+> Task :textinputlibrary:mergeReleaseJniLibFolders
+> Task :textinputlibrary:mergeReleaseNativeLibs
+> Task :textinputlibrary:stripReleaseDebugSymbols
+> Task :textinputlibrary:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 45s
+88 actionable tasks: 88 executed
+
+2020-10-06 21:32:50,446 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994686625-0/src/textinputedittext-master/app/build/outputs/apk/debug/app-debug.apk

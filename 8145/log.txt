@@ -1,41 +1,41 @@
-2020-08-16 01:52:27,972 INFO  DownloadService - Downloading "https://github.com/Aghajari/ZoomHelper/archive/master.zip", attempt 3
-2020-08-16 01:52:36,920 INFO  VirusProcessorServiceImpl - Queued project 8146 to scan viruses
-2020-08-16 01:53:28,632 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-08-16 01:53:29,494 INFO  GithubDownloadService - Default branch of this repository: master
-2020-08-16 01:53:29,495 INFO  DownloadService - Downloading "https://github.com/Aghajari/ZoomHelper/archive/master.zip", attempt 3
-2020-08-16 01:54:30,748 DEBUG FullProcessService - Repository https://github.com/Aghajari/ZoomHelper available: true
-2020-08-16 01:54:30,749 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-08-16 01:54:30,749 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Aghajari/ZoomHelper, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src]
-2020-08-16 01:54:35,396 INFO  SysUtils - 
-2020-08-16 01:54:35,419 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/.git": true
-2020-08-16 01:54:35,429 INFO  FullProcessService - Size of directory with sources: 9 MB
-2020-08-16 01:54:35,429 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src]
-2020-08-16 01:54:35,461 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/.git/
+2020-10-06 21:38:08,802 INFO  DownloadService - Downloading "https://github.com/Aghajari/ZoomHelper/archive/master.zip", attempt 3
+2020-10-06 21:38:17,427 INFO  VirusProcessorServiceImpl - Queued project 8146 to scan viruses
+2020-10-06 21:39:09,385 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-10-06 21:39:10,453 INFO  GithubDownloadService - Default branch of this repository: master
+2020-10-06 21:39:10,454 INFO  DownloadService - Downloading "https://github.com/Aghajari/ZoomHelper/archive/master.zip", attempt 3
+2020-10-06 21:40:11,717 DEBUG FullProcessService - Repository https://github.com/Aghajari/ZoomHelper available: true
+2020-10-06 21:40:11,717 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-10-06 21:40:11,717 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Aghajari/ZoomHelper, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src]
+2020-10-06 21:41:02,645 INFO  SysUtils - 
+2020-10-06 21:41:02,655 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/.git": true
+2020-10-06 21:41:02,660 INFO  FullProcessService - Size of directory with sources: 9 MB
+2020-10-06 21:41:02,660 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src]
+2020-10-06 21:41:02,680 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/.git/
 
-2020-08-16 01:54:35,470 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/gradlew
-2020-08-16 01:54:35,479 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/ZoomHelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/build.gradle
-2020-08-16 01:54:35,487 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/ZoomHelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/settings.gradle
-2020-08-16 01:54:35,488 INFO  ProjectBuildService - Remote scripts: none
-2020-08-16 01:54:35,488 INFO  ProjectFixService - Fixing project...
-2020-08-16 01:54:35,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/ZoomHelper/local.properties
-2020-08-16 01:54:35,510 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/ZoomHelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-08-16 01:54:35,510 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/ZoomHelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-08-16 01:54:35,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/app/local.properties
-2020-08-16 01:54:35,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-08-16 01:54:35,514 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-08-16 01:54:35,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/local.properties
-2020-08-16 01:54:35,516 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-08-16 01:54:35,517 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-08-16 01:54:35,519 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-08-16 01:54:35,519 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-08-16 01:54:35,520 INFO  ProjectFixService - Project was maybe fixed
-2020-08-16 01:54:35,520 INFO  ProjectTaskService - Detecting possible tasks...
-2020-08-16 01:54:35,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/ZoomHelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-08-16 01:54:35,996 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-08-16 01:54:35,997 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-08-16 01:54:35,997 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-08-16 01:54:35,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/ZoomHelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-08-16 01:54:36,180 ERROR SysUtils - Could not process external command
+2020-10-06 21:41:02,684 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/gradlew
+2020-10-06 21:41:02,689 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/ZoomHelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/build.gradle
+2020-10-06 21:41:02,693 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/ZoomHelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/settings.gradle
+2020-10-06 21:41:02,693 INFO  ProjectBuildService - Remote scripts: none
+2020-10-06 21:41:02,693 INFO  ProjectFixService - Fixing project...
+2020-10-06 21:41:02,705 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/ZoomHelper/local.properties
+2020-10-06 21:41:02,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/ZoomHelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-10-06 21:41:02,707 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/ZoomHelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-10-06 21:41:02,708 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/app/local.properties
+2020-10-06 21:41:02,709 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-06 21:41:02,709 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-06 21:41:02,710 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/local.properties
+2020-10-06 21:41:02,710 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-10-06 21:41:02,711 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-10-06 21:41:02,712 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-06 21:41:02,712 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-06 21:41:02,713 INFO  ProjectFixService - Project was maybe fixed
+2020-10-06 21:41:02,713 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-06 21:41:02,713 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/ZoomHelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-06 21:41:03,118 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-10-06 21:41:03,118 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-10-06 21:41:03,118 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-10-06 21:41:03,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/ZoomHelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-10-06 21:41:03,276 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -63,15 +63,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-08-16 01:54:36,180 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-10-06 21:41:03,277 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-08-16 01:54:36,187 INFO  ProjectTaskService - Detecting possible tasks...
-2020-08-16 01:54:36,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-08-16 01:54:36,360 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-08-16 01:54:36,360 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-08-16 01:54:36,360 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-08-16 01:54:36,360 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-08-16 01:54:36,598 ERROR SysUtils - Could not process external command
+2020-10-06 21:41:03,283 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-06 21:41:03,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-06 21:41:03,425 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-10-06 21:41:03,425 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-10-06 21:41:03,425 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-10-06 21:41:03,426 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-10-06 21:41:03,569 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -99,15 +99,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-08-16 01:54:36,599 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-10-06 21:41:03,569 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-08-16 01:54:36,606 INFO  ProjectTaskService - Detecting possible tasks...
-2020-08-16 01:54:36,606 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-08-16 01:54:36,795 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-08-16 01:54:36,795 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-08-16 01:54:36,795 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-08-16 01:54:36,795 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597517547969-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-08-16 01:54:36,998 ERROR SysUtils - Could not process external command
+2020-10-06 21:41:03,574 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-06 21:41:03,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-06 21:41:03,713 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-10-06 21:41:03,714 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-10-06 21:41:03,714 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-10-06 21:41:03,714 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601995088798-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-10-06 21:41:03,858 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -135,7 +135,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-08-16 01:54:36,998 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-10-06 21:41:03,858 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-08-16 01:54:37,004 ERROR FullProcessService - Project build has not produced APK file
-2020-08-16 01:54:37,012 ERROR FullProcessService - Could not find generated or existed APK file
+2020-10-06 21:41:03,864 ERROR FullProcessService - Project build has not produced APK file
+2020-10-06 21:41:03,868 ERROR FullProcessService - Could not find generated or existed APK file

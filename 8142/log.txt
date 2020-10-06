@@ -1,39 +1,39 @@
-2020-08-16 02:09:17,280 INFO  DownloadService - Downloading "https://github.com/onimur/handle-path-oz/archive/master.zip", attempt 3
-2020-08-16 02:09:31,228 INFO  VirusProcessorServiceImpl - Queued project 8143 to scan viruses
-2020-08-16 02:10:17,967 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-08-16 02:10:18,826 INFO  GithubDownloadService - Default branch of this repository: master
-2020-08-16 02:10:18,826 INFO  DownloadService - Downloading "https://github.com/onimur/handle-path-oz/archive/master.zip", attempt 3
-2020-08-16 02:11:20,189 DEBUG FullProcessService - Repository https://github.com/onimur/handle-path-oz available: true
-2020-08-16 02:11:20,189 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-08-16 02:11:20,189 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/onimur/handle-path-oz, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src]
-2020-08-16 02:11:23,304 INFO  SysUtils - 
-2020-08-16 02:11:23,313 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/.git": true
-2020-08-16 02:11:23,319 INFO  FullProcessService - Size of directory with sources: 4 MB
-2020-08-16 02:11:23,319 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src]
-2020-08-16 02:11:23,342 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/.git/
+2020-10-06 21:53:42,219 INFO  DownloadService - Downloading "https://github.com/onimur/handle-path-oz/archive/master.zip", attempt 3
+2020-10-06 21:53:55,600 INFO  VirusProcessorServiceImpl - Queued project 8143 to scan viruses
+2020-10-06 21:54:42,791 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-10-06 21:54:43,612 INFO  GithubDownloadService - Default branch of this repository: master
+2020-10-06 21:54:43,613 INFO  DownloadService - Downloading "https://github.com/onimur/handle-path-oz/archive/master.zip", attempt 3
+2020-10-06 21:55:45,171 DEBUG FullProcessService - Repository https://github.com/onimur/handle-path-oz available: true
+2020-10-06 21:55:45,171 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-10-06 21:55:45,172 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/onimur/handle-path-oz, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src]
+2020-10-06 21:55:54,524 INFO  SysUtils - 
+2020-10-06 21:55:54,535 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/.git": true
+2020-10-06 21:55:54,543 INFO  FullProcessService - Size of directory with sources: 4 MB
+2020-10-06 21:55:54,543 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src]
+2020-10-06 21:55:54,562 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/.git/
 
-2020-08-16 02:11:23,347 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/gradlew
-2020-08-16 02:11:23,353 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/handle-path-oz/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/build.gradle
-2020-08-16 02:11:23,359 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/handle-path-oz/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/handle-path-oz/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/settings.gradle
-2020-08-16 02:11:23,364 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/onimur/gradle-maven-plugin/master/gradle-mavenizer.gradle", attempt 3
-2020-08-16 02:11:25,369 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/onimur/gradle-maven-plugin/master/gradle-mavenizer.gradle, attempt 3
-2020-08-16 02:11:25,370 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/onimur/gradle-maven-plugin/master/gradle-mavenizer.gradle
-2020-08-16 02:11:25,370 INFO  ProjectFixService - Fixing project...
-2020-08-16 02:11:25,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/app/local.properties
-2020-08-16 02:11:25,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-08-16 02:11:25,388 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/handle-path-oz/local.properties
-2020-08-16 02:11:25,388 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/handle-path-oz/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-08-16 02:11:25,389 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/local.properties
-2020-08-16 02:11:25,389 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5.1-all.zip
-2020-08-16 02:11:25,390 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5.1-bin.zip)
-2020-08-16 02:11:25,392 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-08-16 02:11:25,392 INFO  ProjectFixService - Project was maybe fixed
-2020-08-16 02:11:25,392 INFO  ProjectTaskService - Detecting possible tasks...
-2020-08-16 02:11:25,393 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-08-16 02:12:02,042 INFO  ProjectTaskService - Detected possible tasks: 96
-2020-08-16 02:12:02,042 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-08-16 02:12:02,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-08-16 02:13:31,510 ERROR SysUtils - Could not process external command
+2020-10-06 21:55:54,568 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/gradlew
+2020-10-06 21:55:54,574 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/handle-path-oz/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/build.gradle
+2020-10-06 21:55:54,579 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/handle-path-oz/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/handle-path-oz/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/settings.gradle
+2020-10-06 21:55:54,591 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/onimur/gradle-maven-plugin/master/gradle-mavenizer.gradle", attempt 3
+2020-10-06 21:55:55,514 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/onimur/gradle-maven-plugin/master/gradle-mavenizer.gradle, attempt 3
+2020-10-06 21:55:55,515 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/onimur/gradle-maven-plugin/master/gradle-mavenizer.gradle
+2020-10-06 21:55:55,515 INFO  ProjectFixService - Fixing project...
+2020-10-06 21:55:55,539 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/app/local.properties
+2020-10-06 21:55:55,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-10-06 21:55:55,540 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/handle-path-oz/local.properties
+2020-10-06 21:55:55,540 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/handle-path-oz/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-10-06 21:55:55,540 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/local.properties
+2020-10-06 21:55:55,541 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5.1-all.zip
+2020-10-06 21:55:55,541 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5.1-bin.zip)
+2020-10-06 21:55:55,543 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-10-06 21:55:55,543 INFO  ProjectFixService - Project was maybe fixed
+2020-10-06 21:55:55,543 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-06 21:55:55,544 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-06 21:56:41,376 INFO  ProjectTaskService - Detected possible tasks: 96
+2020-10-06 21:56:41,376 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-06 21:56:41,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-06 21:58:11,479 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -61,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-08-16 02:13:31,511 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-06 21:58:11,480 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration(s) specified but the install task does not exist in project :handle-path-oz.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
@@ -76,15 +76,15 @@ Configuration(s) specified but the install task does not exist in project :handl
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :handle-path-oz:extractDeepLinksDebug
-> Task :handle-path-oz:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :handle-path-oz:compileDebugRenderscript NO-SOURCE
-> Task :handle-path-oz:generateDebugResources
-> Task :handle-path-oz:packageDebugResources
 > Task :handle-path-oz:processDebugManifest
 > Task :app:processDebugManifest
-> Task :handle-path-oz:compileDebugLibraryResources
+> Task :handle-path-oz:compileDebugRenderscript NO-SOURCE
+> Task :handle-path-oz:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :handle-path-oz:generateDebugResources
+> Task :handle-path-oz:packageDebugResources
 > Task :app:mergeDebugResources
+> Task :handle-path-oz:compileDebugLibraryResources
 > Task :handle-path-oz:generateDebugBuildConfig
 > Task :handle-path-oz:parseDebugLocalResources
 > Task :handle-path-oz:javaPreCompileDebug
@@ -109,14 +109,17 @@ Configuration(s) specified but the install task does not exist in project :handl
 > Task :app:compileDebugSources
 > Task :handle-path-oz:bundleLibResDebug
 > Task :app:mergeDebugJavaResource
-> Task :app:checkDebugDuplicateClasses
 > Task :handle-path-oz:bundleLibRuntimeToJarDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:dexBuilderDebug
 > Task :app:desugarDebugFileDependencies
 > Task :app:mergeDebugJniLibFolders
 > Task :handle-path-oz:mergeDebugJniLibFolders
 > Task :app:validateSigningDebug
 > Task :app:processReleaseMetadata SKIPPED
+> Task :handle-path-oz:mergeDebugNativeLibs
+> Task :handle-path-oz:stripDebugDebugSymbols NO-SOURCE
+> Task :handle-path-oz:copyDebugJniLibsProjectOnly
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :handle-path-oz:preReleaseBuild UP-TO-DATE
 > Task :handle-path-oz:compileReleaseAidl NO-SOURCE
@@ -135,33 +138,33 @@ Configuration(s) specified but the install task does not exist in project :handl
 > Task :handle-path-oz:extractDeepLinksRelease
 > Task :handle-path-oz:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :handle-path-oz:mergeDebugNativeLibs
-> Task :handle-path-oz:stripDebugDebugSymbols NO-SOURCE
-> Task :handle-path-oz:copyDebugJniLibsProjectOnly
 > Task :handle-path-oz:compileReleaseLibraryResources
 > Task :handle-path-oz:parseReleaseLocalResources
 > Task :handle-path-oz:generateReleaseRFile
 > Task :handle-path-oz:generateReleaseBuildConfig
 > Task :handle-path-oz:compileReleaseKotlin
-> Task :app:multiDexListDebug
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
+> Task :app:javaPreCompileRelease
 > Task :handle-path-oz:javaPreCompileRelease
 > Task :handle-path-oz:compileReleaseJavaWithJavac
-> Task :app:javaPreCompileRelease
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :handle-path-oz:bundleLibCompileToJarRelease
 > Task :app:compileReleaseKotlin
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:multiDexListDebug
 > Task :app:prepareLintJar
 > Task :handle-path-oz:prepareLintJarForPublish
 > Task :app:lintVitalRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:checkReleaseDuplicateClasses
+> Task :handle-path-oz:bundleLibRuntimeToJarRelease
+> Task :app:dexBuilderRelease
+> Task :app:desugarReleaseFileDependencies
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -172,24 +175,21 @@ Configuration(s) specified but the install task does not exist in project :handl
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :handle-path-oz:processReleaseJavaRes NO-SOURCE
-> Task :handle-path-oz:bundleLibRuntimeToJarRelease
-> Task :app:desugarReleaseFileDependencies
-> Task :app:dexBuilderRelease
-> Task :handle-path-oz:bundleLibResRelease
 > Task :app:collectReleaseDependencies
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :handle-path-oz:mergeReleaseJniLibFolders
-> Task :app:mergeReleaseJavaResource
+> Task :handle-path-oz:bundleLibResRelease
 > Task :app:validateSigningRelease FAILED
 > Task :handle-path-oz:mergeReleaseNativeLibs
+> Task :app:mergeReleaseJavaResource
 > Task :app:multiDexListRelease
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':app:validateSigningRelease'.
-> Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/.exclude/key/handlepathoz.jks' not found for signing config 'release'.
+> Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/.exclude/key/handlepathoz.jks' not found for signing config 'release'.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -229,7 +229,7 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:val
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/.exclude/key/handlepathoz.jks' not found for signing config 'release'.
+Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/.exclude/key/handlepathoz.jks' not found for signing config 'release'.
 	at com.android.build.gradle.internal.tasks.ValidateSigningTask.doTaskAction(ValidateSigningTask.kt:74)
 	at com.android.build.gradle.internal.tasks.NonIncrementalTask$taskAction$$inlined$recordTaskAction$1.invoke(AndroidVariantTask.kt:74)
 	at com.android.build.gradle.internal.tasks.NonIncrementalTask$taskAction$$inlined$recordTaskAction$1.invoke(AndroidVariantTask.kt:34)
@@ -335,7 +335,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/6.5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1m 28s
+BUILD FAILED in 1m 29s
 83 actionable tasks: 83 executed
 
-2020-08-16 02:13:31,582 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597518557275-0/src/artifacts/HandlePathOZ.apk
+2020-10-06 21:58:11,551 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996022215-0/src/artifacts/HandlePathOZ.apk

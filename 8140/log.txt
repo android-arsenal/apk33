@@ -1,12 +1,12 @@
-2020-08-16 02:16:44,603 INFO  DownloadService - Downloading "https://github.com/ibrahimyilmaz/kiel/archive/master.zip", attempt 3
-2020-08-16 02:16:55,515 INFO  VirusProcessorServiceImpl - Queued project 8141 to scan viruses
-2020-08-16 02:17:45,331 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-08-16 02:17:46,228 INFO  GithubDownloadService - Default branch of this repository: develop
-2020-08-16 02:17:46,228 INFO  DownloadService - Downloading "https://github.com/ibrahimyilmaz/kiel/archive/develop.zip", attempt 3
-2020-08-16 02:18:47,620 DEBUG FullProcessService - Repository https://github.com/ibrahimyilmaz/kiel available: true
-2020-08-16 02:18:47,620 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-08-16 02:18:47,620 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ibrahimyilmaz/kiel, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src]
-2020-08-16 02:18:49,705 INFO  SysUtils - warning: the following paths have collided (e.g. case-sensitive paths
+2020-10-06 22:01:29,486 INFO  DownloadService - Downloading "https://github.com/ibrahimyilmaz/kiel/archive/master.zip", attempt 3
+2020-10-06 22:01:39,275 INFO  VirusProcessorServiceImpl - Queued project 8141 to scan viruses
+2020-10-06 22:02:30,065 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-10-06 22:02:31,088 INFO  GithubDownloadService - Default branch of this repository: develop
+2020-10-06 22:02:31,088 INFO  DownloadService - Downloading "https://github.com/ibrahimyilmaz/kiel/archive/develop.zip", attempt 3
+2020-10-06 22:03:32,579 DEBUG FullProcessService - Repository https://github.com/ibrahimyilmaz/kiel available: true
+2020-10-06 22:03:32,579 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-10-06 22:03:32,579 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ibrahimyilmaz/kiel, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src]
+2020-10-06 22:03:34,398 INFO  SysUtils - warning: the following paths have collided (e.g. case-sensitive paths
 on a case-insensitive filesystem) and only one from the same
 colliding group is in the working tree:
 
@@ -15,114 +15,104 @@ colliding group is in the working tree:
   '.github/ISSUE_TEMPLATE/feature_request.md'
   '.github/issue_template/feature_request.md'
 
-2020-08-16 02:18:49,720 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/.git": true
-2020-08-16 02:18:49,728 INFO  FullProcessService - Size of directory with sources: 252 KB
-2020-08-16 02:18:49,728 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src]
-2020-08-16 02:18:49,760 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/.git/
+2020-10-06 22:03:34,408 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/.git": true
+2020-10-06 22:03:34,413 INFO  FullProcessService - Size of directory with sources: 249 KB
+2020-10-06 22:03:34,413 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src]
+2020-10-06 22:03:34,434 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/.git/
 
-2020-08-16 02:18:49,770 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/gradlew
-2020-08-16 02:18:49,778 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/build.gradle
-2020-08-16 02:18:49,786 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/bintrayVersions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/settings.gradle
-2020-08-16 02:18:49,787 INFO  ProjectBuildService - Remote scripts: none
-2020-08-16 02:18:49,787 INFO  ProjectFixService - Fixing project...
-2020-08-16 02:18:49,810 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/local.properties
-2020-08-16 02:18:49,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-08-16 02:18:49,817 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-08-16 02:18:49,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/samples/local.properties
-2020-08-16 02:18:49,825 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/samples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-08-16 02:18:49,825 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/samples/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-08-16 02:18:49,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/local.properties
-2020-08-16 02:18:49,828 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
-2020-08-16 02:18:49,829 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
-2020-08-16 02:18:49,836 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-08-16 02:18:49,837 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-08-16 02:18:49,838 INFO  ProjectFixService - Project was maybe fixed
-2020-08-16 02:18:49,838 INFO  ProjectTaskService - Detecting possible tasks...
-2020-08-16 02:18:49,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-08-16 02:19:03,821 INFO  ProjectTaskService - Detected possible tasks: 79
-2020-08-16 02:19:03,821 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-08-16 02:19:03,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-08-16 02:19:34,924 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-06 22:03:34,439 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/gradlew
+2020-10-06 22:03:34,444 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/kiel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/build.gradle
+2020-10-06 22:03:34,448 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/bintrayVersions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/kiel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/settings.gradle
+2020-10-06 22:03:34,449 INFO  ProjectBuildService - Remote scripts: none
+2020-10-06 22:03:34,449 INFO  ProjectFixService - Fixing project...
+2020-10-06 22:03:34,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/kiel/local.properties
+2020-10-06 22:03:34,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/kiel/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=19,targetSdkVersion=<null>]
+2020-10-06 22:03:34,467 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/kiel/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2020-10-06 22:03:34,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/samples/local.properties
+2020-10-06 22:03:34,471 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/samples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=19,targetSdkVersion=<null>]
+2020-10-06 22:03:34,472 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/samples/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2020-10-06 22:03:34,473 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/local.properties
+2020-10-06 22:03:34,473 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2020-10-06 22:03:34,473 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2020-10-06 22:03:34,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=19,targetSdkVersion=<null>]
+2020-10-06 22:03:34,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2020-10-06 22:03:34,478 INFO  ProjectFixService - Project was maybe fixed
+2020-10-06 22:03:34,478 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-06 22:03:34,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/kiel/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-06 22:03:53,206 INFO  ProjectTaskService - Detected possible tasks: 79
+2020-10-06 22:03:53,206 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-10-06 22:03:53,206 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/kiel/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-10-06 22:04:22,736 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :kiel:preBuild UP-TO-DATE
 > Task :kiel:preDebugBuild UP-TO-DATE
+> Task :kiel:compileDebugAidl NO-SOURCE
 > Task :kiel:mergeDebugJniLibFolders
+> Task :kiel:compileDebugRenderscript NO-SOURCE
+> Task :kiel:generateDebugBuildConfig
+> Task :kiel:generateDebugResValues
+> Task :kiel:generateDebugResources
+> Task :kiel:packageDebugResources
 > Task :kiel:mergeDebugNativeLibs
 > Task :kiel:stripDebugDebugSymbols NO-SOURCE
 > Task :kiel:copyDebugJniLibsProjectAndLocalJars
-> Task :kiel:generateDebugBuildConfig
-> Task :kiel:generateDebugResValues
 > Task :kiel:mergeDebugShaders
 > Task :kiel:compileDebugShaders NO-SOURCE
 > Task :kiel:generateDebugAssets UP-TO-DATE
 > Task :kiel:packageDebugAssets
 > Task :kiel:packageDebugRenderscript NO-SOURCE
 > Task :kiel:processDebugJavaRes NO-SOURCE
-> Task :kiel:javaPreCompileDebug
-> Task :kiel:prepareLintJarForPublish
-> Task :kiel:preReleaseBuild UP-TO-DATE
-> Task :kiel:mergeReleaseJniLibFolders
-> Task :kiel:generateReleaseBuildConfig
-> Task :kiel:mergeReleaseNativeLibs
-> Task :kiel:compileDebugAidl NO-SOURCE
-> Task :kiel:compileDebugRenderscript NO-SOURCE
-> Task :kiel:generateDebugResources
-> Task :kiel:packageDebugResources
-> Task :kiel:processDebugManifest
-> Task :kiel:compileReleaseAidl NO-SOURCE
-> Task :kiel:stripReleaseDebugSymbols NO-SOURCE
-> Task :kiel:copyReleaseJniLibsProjectAndLocalJars
-> Task :kiel:compileReleaseRenderscript NO-SOURCE
-> Task :kiel:generateReleaseResValues
 > Task :kiel:mergeDebugResources
+> Task :kiel:preReleaseBuild UP-TO-DATE
+> Task :kiel:compileReleaseAidl NO-SOURCE
+> Task :kiel:mergeReleaseJniLibFolders
 > Task :kiel:parseDebugLocalResources
+> Task :kiel:compileReleaseRenderscript NO-SOURCE
+> Task :kiel:generateReleaseBuildConfig
+> Task :kiel:generateReleaseResValues
 > Task :kiel:generateReleaseResources
 > Task :kiel:packageReleaseResources
-> Task :kiel:parseReleaseLocalResources
+> Task :kiel:javaPreCompileDebug
+> Task :kiel:mergeReleaseNativeLibs
+> Task :kiel:stripReleaseDebugSymbols NO-SOURCE
+> Task :kiel:copyReleaseJniLibsProjectAndLocalJars
 > Task :kiel:mergeReleaseShaders
 > Task :kiel:compileReleaseShaders NO-SOURCE
 > Task :kiel:generateReleaseAssets UP-TO-DATE
+> Task :kiel:processReleaseManifest
 > Task :kiel:packageReleaseAssets
 > Task :kiel:packageReleaseRenderscript NO-SOURCE
 > Task :kiel:processReleaseJavaRes NO-SOURCE
 > Task :kiel:mergeReleaseResources
-> Task :kiel:generateDebugRFile
+> Task :kiel:javadoc SKIPPED
+> Task :kiel:javadocJar
+> Task :kiel:sourcesJar
+> Task :kiel:parseReleaseLocalResources
+> Task :kiel:prepareLintJarForPublish
 > Task :kiel:javaPreCompileRelease
-> Task :kiel:processReleaseManifest
+> Task :kiel:processDebugManifest
 > Task :kiel:generateReleaseRFile
-
+> Task :kiel:compileReleaseKotlin
+> Task :kiel:compileReleaseJavaWithJavac
+> Task :kiel:extractReleaseAnnotations
+> Task :kiel:mergeReleaseGeneratedProguardFiles
+> Task :kiel:mergeReleaseConsumerProguardFiles
+> Task :kiel:verifyReleaseResources
+> Task :kiel:compileReleaseSources
+> Task :kiel:generateDebugRFile
 > Task :kiel:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/src/main/java/me/ibrahimyilmaz/kiel/core/AdapterFactory.kt: (86, 17): 'AdapterRegistryBuilder<T : Any>' is deprecated. In general we try to avoid builder classes in Kotlin, as they're not needed and introduce nullability. So AdapterRegistryBuilder will be retired soon
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/src/main/java/me/ibrahimyilmaz/kiel/core/AdapterFactory.kt: (89, 13): 'AdapterRegistryBuilder<T : Any>' is deprecated. In general we try to avoid builder classes in Kotlin, as they're not needed and introduce nullability. So AdapterRegistryBuilder will be retired soon
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/src/main/java/me/ibrahimyilmaz/kiel/core/AdapterRegistryBuilder.kt: (75, 19): 'RecyclerViewAdapterRegistry<T : Any, VH : RecyclerViewHolder<T>>' is deprecated. It belongs to AdapterRegistryBuilder, when AdapterRegistryBuilder is removed, this one also
-
 > Task :kiel:compileDebugJavaWithJavac
 > Task :kiel:extractDebugAnnotations
 > Task :kiel:mergeDebugGeneratedProguardFiles
 > Task :kiel:mergeDebugConsumerProguardFiles
 > Task :kiel:compileDebugSources
-
-> Task :kiel:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/src/main/java/me/ibrahimyilmaz/kiel/core/AdapterFactory.kt: (86, 17): 'AdapterRegistryBuilder<T : Any>' is deprecated. In general we try to avoid builder classes in Kotlin, as they're not needed and introduce nullability. So AdapterRegistryBuilder will be retired soon
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/src/main/java/me/ibrahimyilmaz/kiel/core/AdapterFactory.kt: (89, 13): 'AdapterRegistryBuilder<T : Any>' is deprecated. In general we try to avoid builder classes in Kotlin, as they're not needed and introduce nullability. So AdapterRegistryBuilder will be retired soon
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/kiel/src/main/java/me/ibrahimyilmaz/kiel/core/AdapterRegistryBuilder.kt: (75, 19): 'RecyclerViewAdapterRegistry<T : Any, VH : RecyclerViewHolder<T>>' is deprecated. It belongs to AdapterRegistryBuilder, when AdapterRegistryBuilder is removed, this one also
-
-> Task :kiel:compileReleaseJavaWithJavac
-> Task :kiel:extractReleaseAnnotations
-> Task :kiel:mergeReleaseGeneratedProguardFiles
-> Task :kiel:mergeReleaseConsumerProguardFiles
-> Task :kiel:compileReleaseSources
+> Task :kiel:mergeReleaseJavaResource
+> Task :kiel:syncReleaseLibJars
+> Task :kiel:bundleReleaseAar
+> Task :kiel:assembleRelease
 > Task :kiel:mergeDebugJavaResource
 > Task :kiel:syncDebugLibJars
 > Task :kiel:bundleDebugAar
 > Task :kiel:assembleDebug
-> Task :kiel:javadoc SKIPPED
-> Task :kiel:javadocJar
-> Task :kiel:sourcesJar
-> Task :kiel:mergeReleaseJavaResource
-> Task :kiel:syncReleaseLibJars
-> Task :kiel:bundleReleaseAar
-> Task :kiel:verifyReleaseResources
-> Task :kiel:assembleRelease
 > Task :kiel:assemble
 > Task :kiel:build
 
@@ -130,20 +120,20 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/6.5/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 30s
+BUILD SUCCESSFUL in 28s
 46 actionable tasks: 46 executed
 
-2020-08-16 02:19:34,973 INFO  ProjectTaskService - Detecting possible tasks...
-2020-08-16 02:19:34,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-08-16 02:19:42,787 INFO  ProjectTaskService - Detected possible tasks: 75
-2020-08-16 02:19:42,787 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-08-16 02:19:42,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-08-16 02:21:17,589 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-06 22:04:22,791 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-06 22:04:22,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-06 22:04:30,419 INFO  ProjectTaskService - Detected possible tasks: 75
+2020-10-06 22:04:30,419 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-06 22:04:30,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-06 22:06:14,165 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :kiel:preBuild UP-TO-DATE
 > Task :kiel:preDebugBuild UP-TO-DATE
 > Task :kiel:compileDebugAidl NO-SOURCE
-> Task :kiel:generateDebugBuildConfig UP-TO-DATE
 > Task :kiel:compileDebugRenderscript NO-SOURCE
+> Task :kiel:generateDebugBuildConfig UP-TO-DATE
 > Task :kiel:generateDebugResValues UP-TO-DATE
 > Task :kiel:generateDebugResources UP-TO-DATE
 > Task :kiel:packageDebugResources UP-TO-DATE
@@ -158,19 +148,19 @@ BUILD SUCCESSFUL in 30s
 > Task :samples:compileDebugAidl NO-SOURCE
 > Task :kiel:packageDebugRenderscript NO-SOURCE
 > Task :samples:compileDebugRenderscript NO-SOURCE
-> Task :kiel:bundleLibCompileToJarDebug
 > Task :samples:dataBindingMergeDependencyArtifactsDebug
+> Task :kiel:bundleLibCompileToJarDebug
 > Task :samples:dataBindingMergeGenClassesDebug
 > Task :samples:generateDebugResValues
 > Task :samples:generateDebugResources
 > Task :samples:generateDebugBuildConfig
-> Task :samples:mergeDebugResources
-> Task :samples:dataBindingGenBaseClassesDebug
 > Task :kiel:compileDebugLibraryResources
 > Task :kiel:extractDeepLinksDebug
 > Task :samples:createDebugCompatibleScreenManifests
 > Task :samples:extractDeepLinksDebug
 > Task :samples:processDebugManifest
+> Task :samples:mergeDebugResources
+> Task :samples:dataBindingGenBaseClassesDebug
 > Task :samples:javaPreCompileDebug
 > Task :kiel:mergeDebugShaders UP-TO-DATE
 > Task :kiel:compileDebugShaders NO-SOURCE
@@ -179,14 +169,14 @@ BUILD SUCCESSFUL in 30s
 > Task :samples:mergeDebugShaders
 > Task :samples:compileDebugShaders NO-SOURCE
 > Task :samples:generateDebugAssets UP-TO-DATE
-> Task :samples:mergeDebugAssets
 > Task :kiel:processDebugJavaRes NO-SOURCE
 > Task :samples:processDebugJavaRes NO-SOURCE
-> Task :kiel:bundleLibResDebug
-> Task :kiel:bundleLibRuntimeToJarDebug
-> Task :samples:checkDebugDuplicateClasses
 > Task :samples:processDebugResources
 > Task :samples:kaptGenerateStubsDebugKotlin
+> Task :kiel:bundleLibResDebug
+> Task :samples:mergeDebugAssets
+> Task :kiel:bundleLibRuntimeToJarDebug
+> Task :samples:checkDebugDuplicateClasses
 > Task :samples:kaptDebugKotlin
 > Task :samples:compileDebugKotlin
 > Task :samples:compileDebugJavaWithJavac
@@ -213,40 +203,39 @@ BUILD SUCCESSFUL in 30s
 > Task :kiel:compileReleaseKotlin UP-TO-DATE
 > Task :kiel:javaPreCompileRelease UP-TO-DATE
 > Task :kiel:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :kiel:bundleLibCompileToJarRelease
 > Task :samples:preReleaseBuild UP-TO-DATE
 > Task :samples:compileReleaseAidl NO-SOURCE
 > Task :kiel:packageReleaseRenderscript NO-SOURCE
 > Task :samples:compileReleaseRenderscript NO-SOURCE
-> Task :kiel:bundleLibCompileToJarRelease
+> Task :samples:dataBindingMergeDependencyArtifactsRelease
 > Task :samples:dataBindingMergeGenClassesRelease
 > Task :samples:generateReleaseResValues
 > Task :samples:generateReleaseResources
-> Task :samples:mergeDebugNativeLibs
-> Task :samples:stripDebugDebugSymbols NO-SOURCE
 > Task :samples:generateReleaseBuildConfig
+> Task :samples:mergeDebugNativeLibs
+> Task :kiel:compileReleaseLibraryResources
+> Task :samples:stripDebugDebugSymbols NO-SOURCE
 > Task :kiel:extractDeepLinksRelease
 > Task :samples:createReleaseCompatibleScreenManifests
 > Task :samples:extractDeepLinksRelease
 > Task :samples:processReleaseManifest
-> Task :samples:dataBindingMergeDependencyArtifactsRelease
-> Task :kiel:compileReleaseLibraryResources
-> Task :samples:javaPreCompileRelease
 > Task :samples:mergeReleaseResources
 > Task :samples:dataBindingGenBaseClassesRelease
 > Task :samples:processReleaseResources
 > Task :samples:kaptGenerateStubsReleaseKotlin
+> Task :samples:javaPreCompileRelease
 > Task :kiel:prepareLintJarForPublish UP-TO-DATE
 > Task :samples:prepareLintJar
 > Task :samples:checkReleaseDuplicateClasses
-> Task :kiel:bundleLibRuntimeToJarRelease
+> Task :samples:desugarReleaseFileDependencies
 > Task :samples:kaptReleaseKotlin
 > Task :samples:compileReleaseKotlin
 > Task :samples:compileReleaseJavaWithJavac
 > Task :samples:compileReleaseSources
-> Task :samples:mergeExtDexDebug
+> Task :kiel:bundleLibRuntimeToJarRelease
+> Task :samples:mergeExtDexRelease
 > Task :samples:lintVitalRelease
-> Task :samples:dexBuilderRelease
-> Task :samples:desugarReleaseFileDependencies
 > Task :kiel:mergeReleaseShaders UP-TO-DATE
 > Task :kiel:compileReleaseShaders NO-SOURCE
 > Task :kiel:generateReleaseAssets UP-TO-DATE
@@ -256,25 +245,26 @@ BUILD SUCCESSFUL in 30s
 > Task :samples:generateReleaseAssets UP-TO-DATE
 > Task :samples:mergeReleaseAssets
 > Task :kiel:processReleaseJavaRes NO-SOURCE
+> Task :samples:dexBuilderRelease
 > Task :samples:processReleaseJavaRes NO-SOURCE
 > Task :samples:collectReleaseDependencies
 > Task :samples:sdkReleaseDependencyData
 > Task :kiel:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :kiel:mergeReleaseNativeLibs UP-TO-DATE
+> Task :kiel:bundleLibResRelease
+> Task :samples:mergeExtDexDebug
 > Task :kiel:stripReleaseDebugSymbols NO-SOURCE
 > Task :kiel:copyReleaseJniLibsProjectOnly
 > Task :samples:mergeReleaseJniLibFolders
-> Task :kiel:bundleLibResRelease
 > Task :samples:mergeReleaseNativeLibs
 > Task :samples:stripReleaseDebugSymbols NO-SOURCE
 > Task :samples:mergeReleaseJavaResource
-> Task :samples:mergeDexDebug
-> Task :samples:packageDebug
-> Task :samples:assembleDebug
-> Task :samples:mergeExtDexRelease
 > Task :samples:mergeDexRelease
 > Task :samples:packageRelease
 > Task :samples:assembleRelease
+> Task :samples:mergeDexDebug
+> Task :samples:packageDebug
+> Task :samples:assembleDebug
 > Task :samples:assemble
 > Task :samples:build
 
@@ -282,7 +272,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/6.5/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 33s
+BUILD SUCCESSFUL in 1m 42s
 96 actionable tasks: 69 executed, 27 up-to-date
 
-2020-08-16 02:21:17,750 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1597519004600-0/src/samples/build/outputs/apk/release/samples-release-unsigned.apk
+2020-10-06 22:06:14,288 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996489481-0/src/samples/build/outputs/apk/release/samples-release-unsigned.apk
