@@ -1,41 +1,34 @@
-2020-09-09 00:40:31,369 INFO  DownloadService - Downloading "https://github.com/ezralazuardy/orb/archive/master.zip", attempt 3
-2020-09-09 00:40:33,205 INFO  DownloadService - Downloaded https://github.com/ezralazuardy/orb/archive/master.zip, attempt 3
-2020-09-09 00:40:33,205 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/master.zip": 169 KB
-2020-09-09 00:40:33,205 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-09 00:40:33,211 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/master.zip: true
-2020-09-09 00:40:33,211 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src'.
-2020-09-09 00:40:33,261 INFO  FullProcessService - Size of directory with sources: 212 KB
-2020-09-09 00:40:33,261 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src]
-2020-09-09 00:40:33,303 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/.git/
+2020-10-29 21:12:42,441 INFO  DownloadService - Downloading "https://github.com/ezralazuardy/orb/archive/master.zip", attempt 3
+2020-10-29 21:12:44,054 INFO  DownloadService - Downloaded https://github.com/ezralazuardy/orb/archive/master.zip, attempt 3
+2020-10-29 21:12:44,054 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/master.zip": 169 KB
+2020-10-29 21:12:44,054 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-29 21:12:44,054 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/master.zip: true
+2020-10-29 21:12:44,055 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src'.
+2020-10-29 21:12:44,083 INFO  FullProcessService - Size of directory with sources: 212 KB
+2020-10-29 21:12:44,083 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src]
+2020-10-29 21:12:44,111 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/.git/
 
-2020-09-09 00:40:33,307 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/gradlew
-2020-09-09 00:40:33,313 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/build.gradle
-2020-09-09 00:40:33,317 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/settings.gradle
-2020-09-09 00:40:33,318 INFO  ProjectBuildService - Remote scripts: none
-2020-09-09 00:40:33,318 INFO  ProjectFixService - Fixing project...
-2020-09-09 00:40:33,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/local.properties
-2020-09-09 00:40:33,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
-2020-09-09 00:40:33,329 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
-2020-09-09 00:40:33,331 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/local.properties
-2020-09-09 00:40:33,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-09-09 00:40:33,332 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/local.properties
-2020-09-09 00:40:33,333 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-09-09 00:40:33,333 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-09-09 00:40:33,334 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-09-09 00:40:33,334 INFO  ProjectFixService - Project was maybe fixed
-2020-09-09 00:40:33,334 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-09 00:40:33,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-09 00:40:38,891 INFO  VirusProcessorServiceImpl - Queued project 8155 to scan viruses
-2020-09-09 00:40:43,753 INFO  ProjectTaskService - Detected possible tasks: 65
-2020-09-09 00:40:43,753 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-09-09 00:40:43,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/orb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-09-09 00:41:12,954 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :orb
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
-Android SDK Build Tools 29.0.2 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
-
+2020-10-29 21:12:44,116 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/gradlew
+2020-10-29 21:12:44,121 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/orb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/build.gradle
+2020-10-29 21:12:44,125 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/orb/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/settings.gradle
+2020-10-29 21:12:44,125 INFO  ProjectBuildService - Remote scripts: none
+2020-10-29 21:12:44,125 INFO  ProjectFixService - Fixing project...
+2020-10-29 21:12:44,136 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/orb/local.properties
+2020-10-29 21:12:44,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/orb/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-10-29 21:12:44,137 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/sample/local.properties
+2020-10-29 21:12:44,138 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/sample/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2020-10-29 21:12:44,138 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/local.properties
+2020-10-29 21:12:44,139 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-10-29 21:12:44,139 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-10-29 21:12:44,140 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2020-10-29 21:12:44,140 INFO  ProjectFixService - Project was maybe fixed
+2020-10-29 21:12:44,141 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-29 21:12:44,141 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/orb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-29 21:12:49,403 INFO  VirusProcessorServiceImpl - Queued project 8155 to scan viruses
+2020-10-29 21:12:52,639 INFO  ProjectTaskService - Detected possible tasks: 64
+2020-10-29 21:12:52,639 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-10-29 21:12:52,639 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/orb/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-10-29 21:13:18,528 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :orb:preBuild UP-TO-DATE
 > Task :orb:preDebugBuild UP-TO-DATE
 > Task :orb:mergeDebugJniLibFolders
@@ -53,12 +46,9 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :orb:processDebugJavaRes NO-SOURCE
 > Task :orb:preReleaseBuild UP-TO-DATE
 > Task :orb:mergeReleaseJniLibFolders
-> Task :orb:prepareLintJarForPublish
 > Task :orb:generateReleaseBuildConfig
 > Task :orb:generateReleaseResValues
-> Task :orb:mergeReleaseNativeLibs
-> Task :orb:stripReleaseDebugSymbols NO-SOURCE
-> Task :orb:copyReleaseJniLibsProjectAndLocalJars
+> Task :orb:prepareLintJarForPublish
 > Task :orb:mergeReleaseShaders
 > Task :orb:compileReleaseShaders NO-SOURCE
 > Task :orb:generateReleaseAssets UP-TO-DATE
@@ -66,63 +56,60 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :orb:packageReleaseRenderscript NO-SOURCE
 > Task :orb:processReleaseJavaRes NO-SOURCE
 > Task :orb:javaPreCompileRelease
+> Task :orb:mergeReleaseNativeLibs
+> Task :orb:stripReleaseDebugSymbols NO-SOURCE
+> Task :orb:copyReleaseJniLibsProjectAndLocalJars
 > Task :orb:processDebugManifest
 > Task :orb:processReleaseManifest
-> Task :orb:compileDebugAidl NO-SOURCE
 > Task :orb:compileDebugRenderscript NO-SOURCE
 > Task :orb:generateDebugResources
 > Task :orb:packageDebugResources
+> Task :orb:compileDebugAidl NO-SOURCE
 > Task :orb:compileReleaseAidl NO-SOURCE
 > Task :orb:compileReleaseRenderscript NO-SOURCE
 > Task :orb:generateReleaseResources
 > Task :orb:packageReleaseResources
-> Task :orb:parseDebugLocalResources
-> Task :orb:parseReleaseLocalResources
 > Task :orb:javadoc NO-SOURCE
 > Task :orb:mergeReleaseResources
+> Task :orb:parseReleaseLocalResources
 > Task :orb:javadocJar
 > Task :orb:sourcesJar
-> Task :orb:generateDebugRFile
-> Task :orb:compileDebugKotlin
-> Task :orb:compileDebugJavaWithJavac
-> Task :orb:extractDebugAnnotations
-> Task :orb:mergeDebugGeneratedProguardFiles
-> Task :orb:mergeDebugConsumerProguardFiles
-> Task :orb:compileDebugSources
-> Task :orb:verifyReleaseResources
 > Task :orb:generateReleaseRFile
 > Task :orb:compileReleaseKotlin
 > Task :orb:compileReleaseJavaWithJavac
 > Task :orb:extractReleaseAnnotations
 > Task :orb:mergeReleaseGeneratedProguardFiles
 > Task :orb:mergeReleaseConsumerProguardFiles
+> Task :orb:compileReleaseSources
+> Task :orb:parseDebugLocalResources
+> Task :orb:verifyReleaseResources
+> Task :orb:generateDebugRFile
+> Task :orb:compileDebugKotlin
+> Task :orb:compileDebugJavaWithJavac
+> Task :orb:extractDebugAnnotations
+> Task :orb:mergeDebugGeneratedProguardFiles
+> Task :orb:mergeDebugConsumerProguardFiles
+> Task :orb:mergeReleaseJavaResource
+> Task :orb:compileDebugSources
+> Task :orb:syncReleaseLibJars
+> Task :orb:bundleReleaseAar
+> Task :orb:assembleRelease
 > Task :orb:mergeDebugJavaResource
 > Task :orb:syncDebugLibJars
 > Task :orb:bundleDebugAar
 > Task :orb:assembleDebug
-> Task :orb:compileReleaseSources
-> Task :orb:mergeReleaseJavaResource
-> Task :orb:syncReleaseLibJars
-> Task :orb:bundleReleaseAar
-> Task :orb:assembleRelease
 > Task :orb:assemble
 > Task :orb:build
 
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 25s
 45 actionable tasks: 45 executed
 
-2020-09-09 00:41:13,044 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-09 00:41:13,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-09 00:41:23,864 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-09-09 00:41:23,864 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-09 00:41:23,865 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-09 00:42:46,751 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :orb
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
-Android SDK Build Tools 29.0.2 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
-
+2020-10-29 21:13:18,590 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-29 21:13:18,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-29 21:13:26,495 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-10-29 21:13:26,495 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-29 21:13:26,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-29 21:29:37,982 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :orb:preBuild UP-TO-DATE
 > Task :orb:preDebugBuild UP-TO-DATE
 > Task :orb:compileDebugAidl NO-SOURCE
@@ -141,12 +128,12 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :orb:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :orb:bundleLibCompileToJarDebug
 > Task :orb:compileDebugLibraryResources
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :orb:bundleLibCompileToJarDebug
 > Task :orb:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
@@ -199,14 +186,13 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols NO-SOURCE
 > Task :orb:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
-> Task :orb:bundleLibCompileToJarRelease
 > Task :sample:javaPreCompileRelease
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
 > Task :orb:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:prepareLintJar
 > Task :orb:mergeReleaseShaders UP-TO-DATE
@@ -217,15 +203,9 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :sample:compileReleaseShaders NO-SOURCE
 > Task :sample:generateReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseAssets
-> Task :sample:mergeReleaseResources
-> Task :sample:processReleaseResources
-> Task :sample:compileReleaseKotlin
-> Task :sample:compileReleaseJavaWithJavac
-> Task :sample:compileReleaseSources
-> Task :sample:lintVitalRelease
+> Task :orb:bundleLibCompileToJarRelease
 > Task :orb:mergeReleaseGeneratedProguardFiles UP-TO-DATE
 > Task :sample:checkReleaseDuplicateClasses
-> Task :sample:mergeReleaseGeneratedProguardFiles
 > Task :orb:processReleaseJavaRes NO-SOURCE
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:collectReleaseDependencies
@@ -235,9 +215,16 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :orb:stripReleaseDebugSymbols NO-SOURCE
 > Task :orb:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseJniLibFolders
-> Task :orb:bundleLibResRelease
-> Task :orb:bundleLibRuntimeToJarRelease
+> Task :sample:mergeReleaseResources
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
 > Task :orb:exportReleaseConsumerProguardFiles
+> Task :orb:bundleLibRuntimeToJarRelease
+> Task :orb:bundleLibResRelease
+> Task :sample:lintVitalRelease
+> Task :sample:mergeReleaseGeneratedProguardFiles
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols NO-SOURCE
 > Task :sample:mergeReleaseJavaResource
@@ -252,7 +239,7 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 1m 21s
+BUILD SUCCESSFUL in 16m 10s
 86 actionable tasks: 58 executed, 28 up-to-date
 
-2020-09-09 00:42:46,872 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599586831365-0/src/orb-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-10-29 21:29:38,101 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980762437-0/src/orb-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

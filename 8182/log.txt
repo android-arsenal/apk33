@@ -1,0 +1,196 @@
+2020-10-29 20:59:00,029 INFO  DownloadService - Downloading "https://github.com/tejpratap46/PDFCreatorAndroid/archive/master.zip", attempt 3
+2020-10-29 20:59:02,509 INFO  DownloadService - Downloaded https://github.com/tejpratap46/PDFCreatorAndroid/archive/master.zip, attempt 3
+2020-10-29 20:59:02,509 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/master.zip": 1 MB
+2020-10-29 20:59:02,510 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-29 20:59:02,527 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/master.zip: true
+2020-10-29 20:59:02,528 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src'.
+2020-10-29 20:59:02,599 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-10-29 20:59:02,605 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src]
+2020-10-29 20:59:02,657 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/.git/
+
+2020-10-29 20:59:02,681 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/gradlew
+2020-10-29 20:59:02,698 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/pdfcreator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/build.gradle
+2020-10-29 20:59:02,707 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/pdfcreator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/settings.gradle
+2020-10-29 20:59:02,711 INFO  ProjectBuildService - Remote scripts: none
+2020-10-29 20:59:02,711 INFO  ProjectFixService - Fixing project...
+2020-10-29 20:59:02,781 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2020-10-29 20:59:02,782 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2020-10-29 20:59:02,802 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 30.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2020-10-29 20:59:02,806 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 30.0.2 28.0.0-rc1 28.0.0-rc2
+2020-10-29 20:59:02,826 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 30 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2020-10-29 20:59:02,828 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+2020-10-29 20:59:02,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/app/local.properties
+2020-10-29 20:59:02,837 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-29 20:59:02,841 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-29 20:59:02,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/pdfcreator/local.properties
+2020-10-29 20:59:02,845 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/pdfcreator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-29 20:59:02,845 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/pdfcreator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-29 20:59:02,847 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/local.properties
+2020-10-29 20:59:02,853 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2020-10-29 20:59:02,854 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2020-10-29 20:59:02,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-29 20:59:02,856 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-10-29 20:59:02,857 INFO  ProjectFixService - Project was maybe fixed
+2020-10-29 20:59:02,859 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-29 20:59:02,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-29 20:59:26,765 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-10-29 20:59:26,766 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-29 20:59:26,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-29 21:00:21,406 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :pdfcreator:preBuild UP-TO-DATE
+> Task :pdfcreator:preDebugBuild UP-TO-DATE
+> Task :pdfcreator:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :pdfcreator:packageDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :pdfcreator:writeDebugAarMetadata
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :pdfcreator:compileDebugRenderscript NO-SOURCE
+> Task :pdfcreator:generateDebugResValues
+> Task :pdfcreator:generateDebugResources
+> Task :pdfcreator:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :pdfcreator:extractDeepLinksDebug
+> Task :pdfcreator:compileDebugLibraryResources
+> Task :pdfcreator:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :pdfcreator:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :pdfcreator:generateDebugBuildConfig
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :pdfcreator:javaPreCompileDebug
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :pdfcreator:mergeDebugShaders
+> Task :pdfcreator:compileDebugShaders NO-SOURCE
+> Task :pdfcreator:generateDebugAssets UP-TO-DATE
+> Task :pdfcreator:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :pdfcreator:generateDebugRFile
+> Task :app:compressDebugAssets
+> Task :app:processDebugResources
+
+> Task :pdfcreator:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/pdfcreator/src/main/java/com/tejpratapsingh/pdfcreator/utils/FileManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :pdfcreator:processDebugJavaRes NO-SOURCE
+> Task :pdfcreator:bundleLibResDebug NO-SOURCE
+> Task :pdfcreator:bundleLibCompileToJarDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
+> Task :pdfcreator:bundleLibRuntimeToJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:dexBuilderDebug
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :pdfcreator:mergeDebugJniLibFolders
+> Task :pdfcreator:mergeDebugNativeLibs NO-SOURCE
+> Task :pdfcreator:stripDebugDebugSymbols NO-SOURCE
+> Task :pdfcreator:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:extractProguardFiles
+> Task :app:preReleaseBuild
+> Task :pdfcreator:preReleaseBuild UP-TO-DATE
+> Task :pdfcreator:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :pdfcreator:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:javaPreCompileRelease
+> Task :pdfcreator:writeReleaseAarMetadata
+> Task :app:checkReleaseAarMetadata
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :pdfcreator:compileReleaseRenderscript NO-SOURCE
+> Task :pdfcreator:generateReleaseResValues
+> Task :pdfcreator:generateReleaseResources
+> Task :pdfcreator:packageReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeProjectDexDebug
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :pdfcreator:extractDeepLinksRelease
+> Task :pdfcreator:processReleaseManifest
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:processReleaseManifestForPackage
+> Task :pdfcreator:compileReleaseLibraryResources
+> Task :pdfcreator:generateReleaseBuildConfig
+> Task :pdfcreator:parseReleaseLocalResources
+> Task :pdfcreator:javaPreCompileRelease
+> Task :pdfcreator:generateReleaseRFile
+> Task :app:mergeReleaseResources
+
+> Task :pdfcreator:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/pdfcreator/src/main/java/com/tejpratapsingh/pdfcreator/utils/FileManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:processReleaseResources
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :pdfcreator:prepareLintJarForPublish
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :pdfcreator:bundleLibCompileToJarRelease
+> Task :pdfcreator:mergeReleaseShaders
+> Task :pdfcreator:compileReleaseShaders NO-SOURCE
+> Task :pdfcreator:generateReleaseAssets UP-TO-DATE
+> Task :pdfcreator:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+
+> Task :app:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
+> Task :app:lintVitalRelease
+> Task :pdfcreator:mergeReleaseGeneratedProguardFiles
+> Task :pdfcreator:exportReleaseConsumerProguardFiles
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :pdfcreator:processReleaseJavaRes NO-SOURCE
+> Task :pdfcreator:bundleLibResRelease NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :pdfcreator:bundleLibRuntimeToJarRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :pdfcreator:mergeReleaseJniLibFolders
+> Task :pdfcreator:mergeReleaseNativeLibs NO-SOURCE
+> Task :pdfcreator:stripReleaseDebugSymbols NO-SOURCE
+> Task :pdfcreator:copyReleaseJniLibsProjectOnly
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeReleaseNativeLibs
+> Task :app:minifyReleaseWithR8
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 54s
+88 actionable tasks: 88 executed
+
+2020-10-29 21:00:21,486 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603979939935-0/src/PDFCreatorAndroid-master/app/build/outputs/apk/debug/app-debug.apk

@@ -104,6 +104,8 @@
   "devmike.leviapps.co.sample" : [ "-$$Lambda$MainActivity$Riibs-V67JeE3DAzQm-MImdIXa8", "App", "BuildConfig", "LogoutActivity", "MainActivity", "R", "R$anim", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$interpolator", "R$layout", "R$mipmap", "R$string", "R$style", "R$styleable" ],
   "devmike.leviapps.co.timeddogx" : [ "BuildConfig", "Foreground", "Foreground$1", "Foreground$Listener", "R", "R$anim", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$interpolator", "R$layout", "R$string", "R$style", "R$styleable", "TimedDog", "TimedDogXWorker", "TimedDogXWorker$Builder", "TimedDogXWorker$OnTimeOutListener", "TimedResult", "TimeoutHandlerCallback" ],
   "devmike.leviapps.co.timeddogx.activities" : [ "TimeoutActivity" ],
+  "devmike.leviapps.co.timeddogx.services" : [ "-$$Lambda$TimeOutService$TimeOutBinder$xX76DiPYwWNsl0FJlAbgcyD8K7g", "TimeOutBinderImpl", "TimeOutService", "TimeOutService$TimeOutBinder" ],
   "devmike.leviapps.co.timeddogx.utils" : [ "TimeDogAppLifecycle", "TimeDogAppLifecycle$OnTimeDogAppLifecycleListener", "TimeDogAppLifecycleEvents", "TimeDogAppLifecycle_LifecycleAdapter" ],
+  "devmike.leviapps.co.timeddogx.v2" : [ "TimedDog", "TimedDog$1" ],
   "idlingresources" : [ "TimedDogIdlingResources" ]
 }

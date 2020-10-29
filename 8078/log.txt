@@ -1,12 +1,11 @@
-2020-07-06 01:50:36,115 INFO  DownloadService - Downloading "https://github.com/mayuce/AndroidDocumentScanner/archive/master.zip", attempt 3
-2020-07-06 01:50:53,818 INFO  VirusProcessorServiceImpl - Queued project 8104 to scan viruses
-2020-07-06 01:51:10,393 INFO  DownloadService - Downloaded https://github.com/mayuce/AndroidDocumentScanner/archive/master.zip, attempt 3
-2020-07-06 01:51:10,393 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975036111-0/master.zip": 74 MB
-2020-07-06 01:51:10,393 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-07-06 01:51:10,401 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975036111-0/master.zip: true
-2020-07-06 01:51:10,401 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975036111-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975036111-0/src'.
-2020-07-06 01:51:11,819 INFO  FullProcessService - Size of directory with sources: 177 MB
-2020-07-06 01:51:11,819 ERROR FullProcessService - Source directory should be less than 50 MB
-2020-07-06 01:51:11,819 ERROR FullProcessService - Project will not be processed
-2020-07-06 01:51:11,819 ERROR FullProcessService - Project build has not produced APK file
-2020-07-06 01:51:11,827 ERROR FullProcessService - Could not find generated or existed APK file
+2020-10-29 23:47:11,417 INFO  DownloadService - Downloading "https://github.com/mayuce/AndroidDocumentScanner/archive/master.zip", attempt 3
+2020-10-29 23:47:30,295 INFO  DownloadService - Downloaded https://github.com/mayuce/AndroidDocumentScanner/archive/master.zip, attempt 3
+2020-10-29 23:47:30,296 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603990031413-0/master.zip": 74 MB
+2020-10-29 23:47:30,296 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-29 23:47:30,297 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603990031413-0/master.zip: true
+2020-10-29 23:47:30,297 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603990031413-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603990031413-0/src'.
+2020-10-29 23:47:32,165 INFO  FullProcessService - Size of directory with sources: 177 MB
+2020-10-29 23:47:32,165 ERROR FullProcessService - Source directory should be less than 50 MB
+2020-10-29 23:47:32,165 ERROR FullProcessService - Project will not be processed
+2020-10-29 23:47:32,165 ERROR FullProcessService - Project build has not produced APK file
+2020-10-29 23:47:32,174 ERROR FullProcessService - Could not find generated or existed APK file
