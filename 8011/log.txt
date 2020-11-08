@@ -1,10 +1,21 @@
-2020-09-11 01:20:29,677 INFO  DownloadService - Downloading "https://github.com/beworker/edge-to-edge/archive/master.zip", attempt 3
-2020-09-11 01:20:31,240 INFO  DownloadService - Downloaded https://github.com/beworker/edge-to-edge/archive/master.zip, attempt 3
-2020-09-11 01:20:31,240 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762029673-0/master.zip": 164 KB
-2020-09-11 01:20:31,240 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-11 01:20:31,241 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762029673-0/master.zip: false
-2020-09-11 01:20:31,241 INFO  FullProcessService - Archive with sources does not contain any build script
-2020-09-11 01:20:31,241 ERROR FullProcessService - Could not find directory with sources
-2020-09-11 01:20:31,241 ERROR FullProcessService - Project will not be processed
-2020-09-11 01:20:31,241 ERROR FullProcessService - Project build has not produced APK file
-2020-09-11 01:20:31,241 ERROR FullProcessService - Could not find generated or existed APK file
+2020-11-09 03:39:38,452 INFO  DownloadService - Downloading "https://github.com/beworker/edge-to-edge/archive/master.zip", attempt 3
+2020-11-09 03:39:46,856 INFO  VirusProcessorServiceImpl - Queued project 8036 to scan viruses
+2020-11-09 03:40:39,079 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-11-09 03:40:39,995 INFO  GithubDownloadService - Default branch of this repository: master
+2020-11-09 03:40:39,996 INFO  DownloadService - Downloading "https://github.com/beworker/edge-to-edge/archive/master.zip", attempt 3
+2020-11-09 03:41:41,449 DEBUG FullProcessService - Repository https://github.com/beworker/edge-to-edge available: true
+2020-11-09 03:41:41,450 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-11-09 03:41:41,450 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/beworker/edge-to-edge, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867978448-0/src]
+2020-11-09 03:41:43,536 INFO  SysUtils - 
+2020-11-09 03:41:43,544 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867978448-0/src/.git": true
+2020-11-09 03:41:43,547 INFO  FullProcessService - Size of directory with sources: 207 KB
+2020-11-09 03:41:43,548 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867978448-0/src]
+2020-11-09 03:41:43,565 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867978448-0/src/.git/
+
+2020-11-09 03:41:43,569 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867978448-0/src/gradlew
+2020-11-09 03:41:43,572 INFO  ProjectBuildService - Build script(s): none
+2020-11-09 03:41:43,575 INFO  ProjectBuildService - All script(s): none
+2020-11-09 03:41:43,575 INFO  ProjectBuildService - Remote scripts: none
+2020-11-09 03:41:43,575 ERROR FullProcessService - Project is not correct Gradle project
+2020-11-09 03:41:43,575 ERROR FullProcessService - Project build has not produced APK file
+2020-11-09 03:41:43,579 ERROR FullProcessService - Could not find generated or existed APK file

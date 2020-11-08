@@ -1,153 +1,151 @@
-2020-09-11 01:15:33,260 INFO  DownloadService - Downloading "https://github.com/skydoves/AndroidBottomBar/archive/master.zip", attempt 3
-2020-09-11 01:15:34,003 INFO  DownloadService - Downloaded https://github.com/skydoves/AndroidBottomBar/archive/master.zip, attempt 3
-2020-09-11 01:15:34,004 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/master.zip": 202 KB
-2020-09-11 01:15:34,004 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-11 01:15:34,009 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/master.zip: true
-2020-09-11 01:15:34,009 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src'.
-2020-09-11 01:15:34,037 INFO  FullProcessService - Size of directory with sources: 284 KB
-2020-09-11 01:15:34,037 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src]
-2020-09-11 01:15:34,057 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/.git/
+2020-11-09 03:26:24,624 INFO  DownloadService - Downloading "https://github.com/skydoves/AndroidBottomBar/archive/master.zip", attempt 3
+2020-11-09 03:26:37,465 INFO  VirusProcessorServiceImpl - Queued project 8160 to scan viruses
+2020-11-09 03:27:25,212 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-11-09 03:27:26,019 INFO  GithubDownloadService - Default branch of this repository: master
+2020-11-09 03:27:26,019 INFO  DownloadService - Downloading "https://github.com/skydoves/AndroidBottomBar/archive/master.zip", attempt 3
+2020-11-09 03:28:28,182 DEBUG FullProcessService - Repository https://github.com/skydoves/AndroidBottomBar available: true
+2020-11-09 03:28:28,182 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-11-09 03:28:28,183 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/skydoves/AndroidBottomBar, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src]
+2020-11-09 03:28:30,207 INFO  SysUtils - 
+2020-11-09 03:28:30,215 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/.git": true
+2020-11-09 03:28:30,219 INFO  FullProcessService - Size of directory with sources: 291 KB
+2020-11-09 03:28:30,219 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src]
+2020-11-09 03:28:30,237 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/.git/
 
-2020-09-11 01:15:34,061 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/gradlew
-2020-09-11 01:15:34,066 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/AndroidBottomBar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/build.gradle
-2020-09-11 01:15:34,070 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/AndroidBottomBar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/spotless.gradle
-2020-09-11 01:15:34,074 INFO  ProjectBuildService - Remote scripts: none
-2020-09-11 01:15:34,074 INFO  ProjectFixService - Fixing project...
-2020-09-11 01:15:34,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/AndroidBottomBar/local.properties
-2020-09-11 01:15:34,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/AndroidBottomBar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-11 01:15:34,088 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/AndroidBottomBar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-11 01:15:34,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/app/local.properties
-2020-09-11 01:15:34,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-11 01:15:34,094 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-11 01:15:34,095 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/local.properties
-2020-09-11 01:15:34,095 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-09-11 01:15:34,096 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-09-11 01:15:34,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-11 01:15:34,099 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-11 01:15:34,100 INFO  ProjectFixService - Project was maybe fixed
-2020-09-11 01:15:34,100 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-11 01:15:34,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/AndroidBottomBar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-11 01:15:37,075 INFO  VirusProcessorServiceImpl - Queued project 8160 to scan viruses
-2020-09-11 01:15:47,047 INFO  ProjectTaskService - Detected possible tasks: 86
-2020-09-11 01:15:47,047 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-09-11 01:15:47,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/AndroidBottomBar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-09-11 01:16:08,912 INFO  VirusProcessorServiceImpl - Queued project 8159 to scan viruses
-2020-09-11 01:16:20,519 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-09 03:28:30,241 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/gradlew
+2020-11-09 03:28:30,244 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/AndroidBottomBar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/build.gradle
+2020-11-09 03:28:30,248 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/AndroidBottomBar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/spotless.gradle
+2020-11-09 03:28:30,254 INFO  ProjectBuildService - Remote scripts: none
+2020-11-09 03:28:30,254 INFO  ProjectFixService - Fixing project...
+2020-11-09 03:28:30,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/AndroidBottomBar/local.properties
+2020-11-09 03:28:30,269 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/AndroidBottomBar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-09 03:28:30,269 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/AndroidBottomBar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-09 03:28:30,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/app/local.properties
+2020-11-09 03:28:30,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-09 03:28:30,275 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-09 03:28:30,277 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/local.properties
+2020-11-09 03:28:30,277 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.6.1-all.zip
+2020-11-09 03:28:30,277 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.6.1-bin.zip)
+2020-11-09 03:28:30,282 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-09 03:28:30,282 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-09 03:28:30,283 INFO  ProjectFixService - Project was maybe fixed
+2020-11-09 03:28:30,283 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-09 03:28:30,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/AndroidBottomBar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-09 03:28:49,393 INFO  ProjectTaskService - Detected possible tasks: 81
+2020-11-09 03:28:49,393 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-11-09 03:28:49,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/AndroidBottomBar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-11-09 03:29:28,902 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.6.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 
 > Configure project :AndroidBottomBar
-WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: DSL element 'android.viewBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.viewBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
 
 > Task :AndroidBottomBar:preBuild UP-TO-DATE
 > Task :AndroidBottomBar:preDebugBuild UP-TO-DATE
+> Task :AndroidBottomBar:compileDebugAidl NO-SOURCE
 > Task :AndroidBottomBar:mergeDebugJniLibFolders
-> Task :AndroidBottomBar:mergeDebugNativeLibs
-> Task :AndroidBottomBar:stripDebugDebugSymbols
-> Task :AndroidBottomBar:copyDebugJniLibsProjectAndLocalJars
+> Task :AndroidBottomBar:compileDebugRenderscript NO-SOURCE
+> Task :AndroidBottomBar:dataBindingMergeGenClassesDebug
 > Task :AndroidBottomBar:generateDebugResValues
+> Task :AndroidBottomBar:generateDebugResources
+> Task :AndroidBottomBar:packageDebugResources
 > Task :AndroidBottomBar:generateDebugBuildConfig
 > Task :AndroidBottomBar:mergeDebugShaders
-> Task :AndroidBottomBar:compileDebugShaders
-> Task :AndroidBottomBar:generateDebugAssets
+> Task :AndroidBottomBar:compileDebugShaders NO-SOURCE
+> Task :AndroidBottomBar:generateDebugAssets UP-TO-DATE
 > Task :AndroidBottomBar:packageDebugAssets
 > Task :AndroidBottomBar:packageDebugRenderscript NO-SOURCE
 > Task :AndroidBottomBar:processDebugJavaRes NO-SOURCE
 > Task :AndroidBottomBar:preReleaseBuild UP-TO-DATE
-> Task :AndroidBottomBar:mergeReleaseJniLibFolders
-> Task :AndroidBottomBar:prepareLintJarForPublish
-> Task :AndroidBottomBar:generateReleaseResValues
-> Task :AndroidBottomBar:generateReleaseBuildConfig
-> Task :AndroidBottomBar:mergeReleaseNativeLibs
-> Task :AndroidBottomBar:stripReleaseDebugSymbols
-> Task :AndroidBottomBar:copyReleaseJniLibsProjectAndLocalJars
-> Task :AndroidBottomBar:mergeReleaseShaders
-> Task :AndroidBottomBar:compileReleaseShaders
-> Task :AndroidBottomBar:generateReleaseAssets
-> Task :AndroidBottomBar:packageReleaseAssets
-> Task :AndroidBottomBar:packageReleaseRenderscript NO-SOURCE
-> Task :AndroidBottomBar:processReleaseJavaRes NO-SOURCE
-> Task :AndroidBottomBar:processReleaseManifest
-> Task :AndroidBottomBar:processDebugManifest
-> Task :AndroidBottomBar:compileDebugAidl NO-SOURCE
-> Task :AndroidBottomBar:compileDebugRenderscript NO-SOURCE
-> Task :AndroidBottomBar:dataBindingMergeGenClassesDebug
-> Task :AndroidBottomBar:generateDebugResources
-> Task :AndroidBottomBar:packageDebugResources
 > Task :AndroidBottomBar:compileReleaseAidl NO-SOURCE
+> Task :AndroidBottomBar:mergeReleaseJniLibFolders
+> Task :AndroidBottomBar:mergeDebugNativeLibs
+> Task :AndroidBottomBar:stripDebugDebugSymbols NO-SOURCE
+> Task :AndroidBottomBar:copyDebugJniLibsProjectAndLocalJars
 > Task :AndroidBottomBar:compileReleaseRenderscript NO-SOURCE
+> Task :AndroidBottomBar:parseDebugLocalResources
+> Task :AndroidBottomBar:mergeReleaseNativeLibs
+> Task :AndroidBottomBar:stripReleaseDebugSymbols NO-SOURCE
+> Task :AndroidBottomBar:copyReleaseJniLibsProjectAndLocalJars
 > Task :AndroidBottomBar:dataBindingMergeGenClassesRelease
+> Task :AndroidBottomBar:generateReleaseResValues
 > Task :AndroidBottomBar:generateReleaseResources
 > Task :AndroidBottomBar:packageReleaseResources
-> Task :AndroidBottomBar:parseDebugLocalResources
+> Task :AndroidBottomBar:generateReleaseBuildConfig
 > Task :AndroidBottomBar:dataBindingMergeDependencyArtifactsDebug
 > Task :AndroidBottomBar:dataBindingGenBaseClassesDebug
 > Task :AndroidBottomBar:parseReleaseLocalResources
-> Task :AndroidBottomBar:generateDebugRFile
-> Task :AndroidBottomBar:compileDebugKotlin
+> Task :AndroidBottomBar:mergeReleaseShaders
+> Task :AndroidBottomBar:compileReleaseShaders NO-SOURCE
+> Task :AndroidBottomBar:generateReleaseAssets UP-TO-DATE
+> Task :AndroidBottomBar:packageReleaseAssets
+> Task :AndroidBottomBar:packageReleaseRenderscript NO-SOURCE
+> Task :AndroidBottomBar:processReleaseJavaRes NO-SOURCE
+> Task :AndroidBottomBar:mergeReleaseResources
+> Task :AndroidBottomBar:processReleaseManifest
+> Task :AndroidBottomBar:javaPreCompileRelease
+> Task :AndroidBottomBar:javaPreCompileDebug
 > Task :AndroidBottomBar:generateReleaseRFile
+> Task :AndroidBottomBar:processDebugManifest
+> Task :AndroidBottomBar:prepareLintJarForPublish
 > Task :AndroidBottomBar:dataBindingMergeDependencyArtifactsRelease
 > Task :AndroidBottomBar:dataBindingGenBaseClassesRelease
 > Task :AndroidBottomBar:compileReleaseKotlin
-> Task :AndroidBottomBar:javaPreCompileDebug
+> Task :AndroidBottomBar:compileReleaseJavaWithJavac
+> Task :AndroidBottomBar:extractReleaseAnnotations
+> Task :AndroidBottomBar:mergeReleaseGeneratedProguardFiles
+> Task :AndroidBottomBar:mergeReleaseConsumerProguardFiles
+> Task :AndroidBottomBar:compileReleaseSources
+> Task :AndroidBottomBar:generateDebugRFile
+> Task :AndroidBottomBar:compileDebugKotlin
 > Task :AndroidBottomBar:compileDebugJavaWithJavac
 > Task :AndroidBottomBar:extractDebugAnnotations
 > Task :AndroidBottomBar:mergeDebugGeneratedProguardFiles
 > Task :AndroidBottomBar:mergeDebugConsumerProguardFiles
 > Task :AndroidBottomBar:compileDebugSources
 > Task :AndroidBottomBar:mergeReleaseJavaResource
-> Task :AndroidBottomBar:javaPreCompileRelease
-> Task :AndroidBottomBar:compileReleaseJavaWithJavac
-> Task :AndroidBottomBar:extractReleaseAnnotations
-> Task :AndroidBottomBar:mergeReleaseGeneratedProguardFiles
-> Task :AndroidBottomBar:mergeReleaseConsumerProguardFiles
 > Task :AndroidBottomBar:syncReleaseLibJars
 > Task :AndroidBottomBar:bundleReleaseAar
-> Task :AndroidBottomBar:compileReleaseSources
 > Task :AndroidBottomBar:mergeDebugJavaResource
 > Task :AndroidBottomBar:syncDebugLibJars
 > Task :AndroidBottomBar:bundleDebugAar
 > Task :AndroidBottomBar:assembleDebug
-> Task :AndroidBottomBar:mergeReleaseResources
 > Task :AndroidBottomBar:verifyReleaseResources
 > Task :AndroidBottomBar:assembleRelease
 > Task :AndroidBottomBar:assemble
 > Task :AndroidBottomBar:build
 
-BUILD SUCCESSFUL in 32s
-53 actionable tasks: 53 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2020-09-11 01:16:20,595 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-11 01:16:20,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-11 01:16:29,395 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-09-11 01:16:29,396 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-11 01:16:29,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-11 01:17:45,595 INFO  SysUtils - Configuration on demand is an incubating feature.
+BUILD SUCCESSFUL in 38s
+49 actionable tasks: 49 executed
+
+2020-11-09 03:29:28,958 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-09 03:29:28,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-09 03:29:36,926 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-11-09 03:29:36,926 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-09 03:29:36,927 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-09 03:30:47,044 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.6.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 
 > Configure project :AndroidBottomBar
-WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: DSL element 'android.viewBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.viewBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
 
 > Task :AndroidBottomBar:preBuild UP-TO-DATE
 > Task :AndroidBottomBar:preDebugBuild UP-TO-DATE
 > Task :AndroidBottomBar:compileDebugAidl NO-SOURCE
 > Task :AndroidBottomBar:compileDebugRenderscript NO-SOURCE
 > Task :AndroidBottomBar:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :AndroidBottomBar:dataBindingMergeGenClassesDebug UP-TO-DATE
 > Task :AndroidBottomBar:generateDebugResValues UP-TO-DATE
 > Task :AndroidBottomBar:generateDebugResources UP-TO-DATE
 > Task :AndroidBottomBar:packageDebugResources UP-TO-DATE
-> Task :AndroidBottomBar:dataBindingMergeGenClassesDebug UP-TO-DATE
 > Task :AndroidBottomBar:dataBindingGenBaseClassesDebug UP-TO-DATE
 > Task :AndroidBottomBar:generateDebugBuildConfig UP-TO-DATE
 > Task :AndroidBottomBar:parseDebugLocalResources UP-TO-DATE
@@ -162,50 +160,34 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :AndroidBottomBar:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :AndroidBottomBar:bundleLibCompileDebug
-> Task :app:mainApkListPersistenceDebug
-> Task :AndroidBottomBar:compileDebugLibraryResources
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :AndroidBottomBar:extractDeepLinksDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :app:processDebugResources
-> Task :app:kaptGenerateStubsDebugKotlin
 > Task :AndroidBottomBar:mergeDebugShaders UP-TO-DATE
-> Task :AndroidBottomBar:compileDebugShaders UP-TO-DATE
+> Task :AndroidBottomBar:compileDebugShaders NO-SOURCE
 > Task :AndroidBottomBar:generateDebugAssets UP-TO-DATE
 > Task :AndroidBottomBar:packageDebugAssets UP-TO-DATE
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :app:mergeDebugAssets
 > Task :AndroidBottomBar:processDebugJavaRes NO-SOURCE
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :AndroidBottomBar:bundleLibResDebug
-> Task :AndroidBottomBar:bundleLibRuntimeDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:kaptDebugKotlin
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/app/src/main/java/com/skydoves/androidbottombardemo/MainActivity.kt: (112, 7): 'constructor Handler()' is deprecated. Deprecated in Java
-
 > Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
-> Task :app:dexBuilderDebug
-> Task :app:mergeDebugJavaResource
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
 > Task :AndroidBottomBar:mergeDebugJniLibFolders UP-TO-DATE
 > Task :AndroidBottomBar:mergeDebugNativeLibs UP-TO-DATE
-> Task :AndroidBottomBar:stripDebugDebugSymbols UP-TO-DATE
+> Task :AndroidBottomBar:stripDebugDebugSymbols NO-SOURCE
 > Task :AndroidBottomBar:copyDebugJniLibsProjectOnly
 > Task :app:mergeDebugJniLibFolders
 > Task :app:validateSigningDebug
 > Task :AndroidBottomBar:preReleaseBuild UP-TO-DATE
 > Task :AndroidBottomBar:compileReleaseAidl NO-SOURCE
 > Task :AndroidBottomBar:compileReleaseRenderscript NO-SOURCE
+> Task :app:mergeDebugResources
 > Task :AndroidBottomBar:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
 > Task :AndroidBottomBar:dataBindingMergeGenClassesRelease UP-TO-DATE
 > Task :AndroidBottomBar:generateReleaseResValues UP-TO-DATE
@@ -219,70 +201,84 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/
 > Task :AndroidBottomBar:compileReleaseKotlin UP-TO-DATE
 > Task :AndroidBottomBar:javaPreCompileRelease UP-TO-DATE
 > Task :AndroidBottomBar:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :AndroidBottomBar:bundleLibCompileRelease
+> Task :AndroidBottomBar:bundleLibResDebug
+> Task :AndroidBottomBar:bundleLibCompileToJarRelease
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :AndroidBottomBar:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
-> Task :AndroidBottomBar:compileReleaseLibraryResources
-> Task :app:mainApkListPersistenceRelease
+> Task :AndroidBottomBar:bundleLibRuntimeToJarDebug
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :AndroidBottomBar:extractDeepLinksRelease
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
-> Task :app:kaptGenerateStubsReleaseKotlin
 > Task :AndroidBottomBar:prepareLintJarForPublish UP-TO-DATE
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
-> Task :AndroidBottomBar:bundleLibRuntimeRelease
-> Task :app:kaptReleaseKotlin
-
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/app/src/main/java/com/skydoves/androidbottombardemo/MainActivity.kt: (112, 7): 'constructor Handler()' is deprecated. Deprecated in Java
-
+> Task :AndroidBottomBar:compileDebugLibraryResources
+> Task :app:processDebugResources
+> Task :AndroidBottomBar:mergeReleaseShaders UP-TO-DATE
+> Task :AndroidBottomBar:compileReleaseShaders NO-SOURCE
+> Task :AndroidBottomBar:generateReleaseAssets UP-TO-DATE
+> Task :AndroidBottomBar:packageReleaseAssets UP-TO-DATE
+> Task :AndroidBottomBar:bundleLibCompileToJarDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :AndroidBottomBar:processReleaseJavaRes NO-SOURCE
+> Task :AndroidBottomBar:compileReleaseLibraryResources
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :AndroidBottomBar:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :AndroidBottomBar:mergeReleaseNativeLibs UP-TO-DATE
+> Task :AndroidBottomBar:stripReleaseDebugSymbols NO-SOURCE
+> Task :AndroidBottomBar:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeExtDexRelease
+> Task :app:mergeExtDexDebug
 > Task :app:javaPreCompileRelease
+> Task :AndroidBottomBar:bundleLibRuntimeToJarRelease
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptDebugKotlin
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:kaptReleaseKotlin
+> Task :app:compileReleaseKotlin
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease
 > Task :app:dexBuilderRelease
-> Task :app:mergeExtDexDebug
-> Task :AndroidBottomBar:mergeReleaseShaders UP-TO-DATE
-> Task :AndroidBottomBar:compileReleaseShaders UP-TO-DATE
-> Task :AndroidBottomBar:generateReleaseAssets UP-TO-DATE
-> Task :AndroidBottomBar:packageReleaseAssets UP-TO-DATE
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :AndroidBottomBar:processReleaseJavaRes NO-SOURCE
-> Task :AndroidBottomBar:bundleLibResRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :AndroidBottomBar:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :AndroidBottomBar:mergeReleaseNativeLibs UP-TO-DATE
-> Task :AndroidBottomBar:stripReleaseDebugSymbols UP-TO-DATE
-> Task :AndroidBottomBar:copyReleaseJniLibsProjectOnly
-> Task :app:mergeReleaseJniLibFolders
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
-> Task :app:mergeReleaseJavaResource
 > Task :app:mergeDexDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:mergeExtDexRelease
+> Task :AndroidBottomBar:bundleLibResRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeReleaseJavaResource
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 15s
-102 actionable tasks: 65 executed, 37 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2020-09-11 01:17:45,789 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599761733251-0/src/AndroidBottomBar-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 1m 9s
+94 actionable tasks: 61 executed, 33 up-to-date
+
+2020-11-09 03:30:47,178 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604867184619-0/src/app/build/outputs/apk/debug/app-debug.apk
