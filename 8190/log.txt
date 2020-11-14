@@ -1,0 +1,182 @@
+2020-11-15 01:16:55,088 INFO  DownloadService - Downloading "https://github.com/sidrxd/Fancy-Toast/archive/master.zip", attempt 3
+2020-11-15 01:16:56,529 INFO  DownloadService - Downloaded https://github.com/sidrxd/Fancy-Toast/archive/master.zip, attempt 3
+2020-11-15 01:16:56,529 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/master.zip": 153 KB
+2020-11-15 01:16:56,530 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-15 01:16:56,530 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/master.zip: true
+2020-11-15 01:16:56,530 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src'.
+2020-11-15 01:16:56,552 INFO  FullProcessService - Size of directory with sources: 161 KB
+2020-11-15 01:16:56,552 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src]
+2020-11-15 01:16:56,584 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/.git/
+
+2020-11-15 01:16:56,589 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/gradlew
+2020-11-15 01:16:56,593 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/sefancytoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/build.gradle
+2020-11-15 01:16:56,597 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/sefancytoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/settings.gradle
+2020-11-15 01:16:56,597 INFO  ProjectBuildService - Remote scripts: none
+2020-11-15 01:16:56,597 INFO  ProjectFixService - Fixing project...
+2020-11-15 01:16:56,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/app/local.properties
+2020-11-15 01:16:56,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2020-11-15 01:16:56,607 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2020-11-15 01:16:56,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/sefancytoast/local.properties
+2020-11-15 01:16:56,609 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/sefancytoast/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2020-11-15 01:16:56,609 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/sefancytoast/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2020-11-15 01:16:56,610 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/local.properties
+2020-11-15 01:16:56,611 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2020-11-15 01:16:56,611 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2020-11-15 01:16:56,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2020-11-15 01:16:56,612 INFO  ProjectFixService - Project was maybe fixed
+2020-11-15 01:16:56,612 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-15 01:16:56,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-15 01:17:04,708 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-11-15 01:17:04,708 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-15 01:17:04,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-15 01:17:08,297 INFO  VirusProcessorServiceImpl - Queued project 8191 to scan viruses
+2020-11-15 01:17:47,916 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :sefancytoast:preBuild UP-TO-DATE
+> Task :sefancytoast:preDebugBuild UP-TO-DATE
+> Task :sefancytoast:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :sefancytoast:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:javaPreCompileDebug
+> Task :sefancytoast:writeDebugAarMetadata
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :sefancytoast:compileDebugRenderscript NO-SOURCE
+> Task :sefancytoast:generateDebugResValues
+> Task :sefancytoast:generateDebugResources
+> Task :sefancytoast:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :sefancytoast:extractDeepLinksDebug
+> Task :sefancytoast:compileDebugLibraryResources
+> Task :sefancytoast:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :sefancytoast:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :sefancytoast:generateDebugBuildConfig
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :sefancytoast:javaPreCompileDebug
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :sefancytoast:mergeDebugShaders
+> Task :sefancytoast:compileDebugShaders NO-SOURCE
+> Task :sefancytoast:generateDebugAssets UP-TO-DATE
+> Task :sefancytoast:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :sefancytoast:processDebugJavaRes NO-SOURCE
+> Task :sefancytoast:bundleLibResDebug NO-SOURCE
+> Task :sefancytoast:generateDebugRFile
+> Task :app:mergeDebugJavaResource
+> Task :app:processDebugResources
+
+> Task :sefancytoast:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/sefancytoast/src/main/java/com/soepic/sefancytoast/FancyToast.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sefancytoast:bundleLibCompileToJarDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:checkDebugDuplicateClasses
+> Task :sefancytoast:bundleLibRuntimeToJarDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:dexBuilderDebug
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :sefancytoast:mergeDebugJniLibFolders
+> Task :sefancytoast:mergeDebugNativeLibs NO-SOURCE
+> Task :sefancytoast:stripDebugDebugSymbols NO-SOURCE
+> Task :sefancytoast:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :sefancytoast:preReleaseBuild UP-TO-DATE
+> Task :sefancytoast:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :sefancytoast:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:javaPreCompileRelease
+> Task :sefancytoast:writeReleaseAarMetadata
+> Task :app:checkReleaseAarMetadata
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :sefancytoast:compileReleaseRenderscript NO-SOURCE
+> Task :sefancytoast:generateReleaseResValues
+> Task :sefancytoast:generateReleaseResources
+> Task :sefancytoast:packageReleaseResources
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :sefancytoast:extractDeepLinksRelease
+> Task :sefancytoast:compileReleaseLibraryResources
+> Task :sefancytoast:processReleaseManifest
+> Task :sefancytoast:parseReleaseLocalResources
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :sefancytoast:generateReleaseBuildConfig
+> Task :sefancytoast:javaPreCompileRelease
+> Task :app:processReleaseManifestForPackage
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :sefancytoast:prepareLintJarForPublish
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :sefancytoast:mergeReleaseShaders
+> Task :sefancytoast:compileReleaseShaders NO-SOURCE
+> Task :sefancytoast:generateReleaseAssets UP-TO-DATE
+> Task :sefancytoast:generateReleaseRFile
+> Task :sefancytoast:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseResources
+
+> Task :sefancytoast:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/sefancytoast/src/main/java/com/soepic/sefancytoast/FancyToast.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:processReleaseResources
+> Task :sefancytoast:bundleLibCompileToJarRelease
+> Task :sefancytoast:bundleLibRuntimeToJarRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:dexBuilderRelease
+> Task :app:mergeExtDexDebug
+> Task :app:lintVitalRelease
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:desugarReleaseFileDependencies
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :sefancytoast:processReleaseJavaRes NO-SOURCE
+> Task :sefancytoast:bundleLibResRelease NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:mergeReleaseJavaResource
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :sefancytoast:mergeReleaseJniLibFolders
+> Task :sefancytoast:mergeReleaseNativeLibs NO-SOURCE
+> Task :sefancytoast:stripReleaseDebugSymbols NO-SOURCE
+> Task :sefancytoast:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 42s
+88 actionable tasks: 88 executed
+
+2020-11-15 01:17:47,966 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377815081-0/src/Fancy-Toast-master/app/build/outputs/apk/debug/app-debug.apk

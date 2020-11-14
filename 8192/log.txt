@@ -1,0 +1,278 @@
+2020-11-15 01:11:46,305 INFO  DownloadService - Downloading "https://github.com/fraggjkee/sms-confirmation-view/archive/master.zip", attempt 3
+2020-11-15 01:11:47,771 INFO  DownloadService - Downloaded https://github.com/fraggjkee/sms-confirmation-view/archive/master.zip, attempt 3
+2020-11-15 01:11:47,772 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/master.zip": 183 KB
+2020-11-15 01:11:47,772 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-15 01:11:47,772 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/master.zip: true
+2020-11-15 01:11:47,800 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src'.
+2020-11-15 01:11:47,917 INFO  FullProcessService - Size of directory with sources: 221 KB
+2020-11-15 01:11:47,918 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src]
+2020-11-15 01:11:47,954 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/.git/
+
+2020-11-15 01:11:47,959 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/gradlew
+2020-11-15 01:11:47,965 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/build.gradle
+2020-11-15 01:11:47,969 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/settings.gradle
+2020-11-15 01:11:47,969 INFO  ProjectBuildService - Remote scripts: none
+2020-11-15 01:11:47,969 INFO  ProjectFixService - Fixing project...
+2020-11-15 01:11:47,982 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/library/local.properties
+2020-11-15 01:11:47,983 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/library/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-11-15 01:11:47,984 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/sample/local.properties
+2020-11-15 01:11:47,985 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/sample/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-11-15 01:11:47,988 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/local.properties
+2020-11-15 01:11:47,990 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2020-11-15 01:11:47,991 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2020-11-15 01:11:47,995 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-11-15 01:11:47,996 INFO  ProjectFixService - Project was maybe fixed
+2020-11-15 01:11:47,996 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-15 01:11:47,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-15 01:11:57,885 INFO  ProjectTaskService - Detected possible tasks: 64
+2020-11-15 01:11:57,886 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-11-15 01:11:57,886 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-11-15 01:12:02,371 INFO  VirusProcessorServiceImpl - Queued project 8193 to scan viruses
+2020-11-15 01:12:33,259 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:mergeDebugJniLibFolders
+> Task :library:mergeDebugNativeLibs NO-SOURCE
+> Task :library:stripDebugDebugSymbols NO-SOURCE
+> Task :library:copyDebugJniLibsProjectAndLocalJars
+> Task :library:dataBindingMergeDependencyArtifactsDebug
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:dataBindingMergeGenClassesDebug
+> Task :library:generateDebugResValues
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:dataBindingGenBaseClassesDebug
+> Task :library:dataBindingTriggerDebug
+> Task :library:generateDebugBuildConfig
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders NO-SOURCE
+> Task :library:generateDebugAssets UP-TO-DATE
+> Task :library:parseDebugLocalResources
+> Task :library:packageDebugAssets
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:prepareLintJarForPublish
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:javaPreCompileDebug
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:writeDebugAarMetadata
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:mergeReleaseNativeLibs NO-SOURCE
+> Task :library:stripReleaseDebugSymbols NO-SOURCE
+> Task :library:copyReleaseJniLibsProjectAndLocalJars
+> Task :library:processDebugManifest
+> Task :library:dataBindingMergeDependencyArtifactsRelease
+> Task :library:dataBindingMergeGenClassesRelease
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :library:dataBindingGenBaseClassesRelease
+> Task :library:dataBindingTriggerRelease
+> Task :library:generateReleaseBuildConfig
+> Task :library:parseReleaseLocalResources
+> Task :library:processReleaseManifest
+> Task :library:javaPreCompileRelease
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders NO-SOURCE
+> Task :library:generateReleaseAssets UP-TO-DATE
+> Task :library:packageReleaseAssets
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:writeReleaseAarMetadata
+> Task :library:generateDebugRFile
+> Task :library:generateReleaseRFile
+> Task :library:mergeReleaseResources
+> Task :library:kaptGenerateStubsDebugKotlin
+> Task :library:kaptGenerateStubsReleaseKotlin
+> Task :library:kaptDebugKotlin
+> Task :library:kaptReleaseKotlin
+> Task :library:verifyReleaseResources
+> Task :library:compileDebugKotlin
+> Task :library:compileDebugJavaWithJavac
+> Task :library:extractDebugAnnotations
+> Task :library:mergeDebugGeneratedProguardFiles
+> Task :library:mergeDebugConsumerProguardFiles
+> Task :library:compileDebugSources
+> Task :library:mergeDebugJavaResource
+> Task :library:compileReleaseKotlin
+> Task :library:syncDebugLibJars
+> Task :library:bundleDebugAar
+> Task :library:assembleDebug
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseGeneratedProguardFiles
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:compileReleaseSources
+> Task :library:mergeReleaseJavaResource
+> Task :library:syncReleaseLibJars
+> Task :library:bundleReleaseAar
+> Task :library:assembleRelease
+> Task :library:assemble
+> Task :library:build
+
+BUILD SUCCESSFUL in 34s
+55 actionable tasks: 55 executed
+
+2020-11-15 01:12:33,334 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-15 01:12:33,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-15 01:12:43,924 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-11-15 01:12:43,924 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-15 01:12:43,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-15 01:13:39,063 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :library:dataBindingMergeGenClassesDebug UP-TO-DATE
+> Task :library:generateDebugResValues UP-TO-DATE
+> Task :library:generateDebugResources UP-TO-DATE
+> Task :library:packageDebugResources UP-TO-DATE
+> Task :library:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :library:dataBindingTriggerDebug UP-TO-DATE
+> Task :library:generateDebugBuildConfig UP-TO-DATE
+> Task :library:parseDebugLocalResources UP-TO-DATE
+> Task :library:processDebugManifest UP-TO-DATE
+> Task :library:generateDebugRFile UP-TO-DATE
+> Task :library:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :library:kaptDebugKotlin UP-TO-DATE
+> Task :library:compileDebugKotlin UP-TO-DATE
+> Task :library:javaPreCompileDebug UP-TO-DATE
+> Task :library:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugBuildConfig
+> Task :library:bundleLibCompileToJarDebug
+> Task :library:compileDebugLibraryResources
+> Task :library:writeDebugAarMetadata UP-TO-DATE
+> Task :sample:checkDebugAarMetadata
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :library:extractDeepLinksDebug
+> Task :sample:extractDeepLinksDebug
+> Task :sample:processDebugMainManifest
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugManifest
+> Task :sample:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :sample:javaPreCompileDebug
+> Task :sample:processDebugManifestForPackage
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :library:mergeDebugShaders UP-TO-DATE
+> Task :library:compileDebugShaders NO-SOURCE
+> Task :library:generateDebugAssets UP-TO-DATE
+> Task :library:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugAssets
+> Task :sample:compressDebugAssets
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :library:bundleLibResDebug
+> Task :sample:mergeDebugJavaResource
+> Task :library:bundleLibRuntimeToJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:dexBuilderDebug
+> Task :sample:mergeLibDexDebug
+> Task :library:mergeDebugJniLibFolders UP-TO-DATE
+> Task :library:mergeDebugNativeLibs NO-SOURCE
+> Task :library:stripDebugDebugSymbols NO-SOURCE
+> Task :library:copyDebugJniLibsProjectOnly
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
+> Task :library:dataBindingMergeGenClassesRelease UP-TO-DATE
+> Task :library:generateReleaseResValues UP-TO-DATE
+> Task :library:generateReleaseResources UP-TO-DATE
+> Task :library:packageReleaseResources UP-TO-DATE
+> Task :library:dataBindingGenBaseClassesRelease UP-TO-DATE
+> Task :library:dataBindingTriggerRelease UP-TO-DATE
+> Task :library:generateReleaseBuildConfig UP-TO-DATE
+> Task :library:parseReleaseLocalResources UP-TO-DATE
+> Task :library:processReleaseManifest UP-TO-DATE
+> Task :library:generateReleaseRFile UP-TO-DATE
+> Task :library:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+> Task :library:kaptReleaseKotlin UP-TO-DATE
+> Task :library:compileReleaseKotlin UP-TO-DATE
+> Task :library:javaPreCompileRelease UP-TO-DATE
+> Task :sample:mergeProjectDexDebug
+> Task :library:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :sample:preReleaseBuild UP-TO-DATE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :library:bundleLibCompileToJarRelease
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:generateReleaseBuildConfig
+> Task :library:compileReleaseLibraryResources
+> Task :library:writeReleaseAarMetadata UP-TO-DATE
+> Task :sample:checkReleaseAarMetadata
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :library:extractDeepLinksRelease
+> Task :sample:extractDeepLinksRelease
+> Task :sample:processReleaseMainManifest
+> Task :sample:processReleaseManifest
+> Task :sample:javaPreCompileRelease
+> Task :sample:processReleaseManifestForPackage
+> Task :library:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :library:mergeReleaseShaders UP-TO-DATE
+> Task :library:compileReleaseShaders NO-SOURCE
+> Task :library:generateReleaseAssets UP-TO-DATE
+> Task :library:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseAssets
+> Task :sample:compressReleaseAssets
+> Task :library:bundleLibRuntimeToJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeReleaseResources
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :sample:lintVitalRelease
+> Task :sample:dexBuilderRelease
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:bundleLibResRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:mergeExtDexDebug
+> Task :sample:collectReleaseDependencies
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:sdkReleaseDependencyData
+> Task :library:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :library:mergeReleaseNativeLibs NO-SOURCE
+> Task :library:stripReleaseDebugSymbols NO-SOURCE
+> Task :library:copyReleaseJniLibsProjectOnly
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 54s
+104 actionable tasks: 65 executed, 39 up-to-date
+
+2020-11-15 01:13:39,179 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377506301-0/src/sms-confirmation-view-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
