@@ -1,0 +1,197 @@
+2020-12-11 06:08:44,916 INFO  DownloadService - Downloading "https://github.com/aradxxx/ciceroneflows/archive/master.zip", attempt 3
+2020-12-11 06:08:53,845 INFO  VirusProcessorServiceImpl - Queued project 8202 to scan viruses
+2020-12-11 06:09:45,512 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-12-11 06:09:46,347 INFO  GithubDownloadService - Default branch of this repository: master
+2020-12-11 06:09:46,347 INFO  DownloadService - Downloading "https://github.com/aradxxx/ciceroneflows/archive/master.zip", attempt 3
+2020-12-11 06:10:48,137 DEBUG FullProcessService - Repository https://github.com/aradxxx/ciceroneflows available: true
+2020-12-11 06:10:48,137 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-12-11 06:10:48,137 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/aradxxx/ciceroneflows, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src]
+2020-12-11 06:10:50,028 INFO  SysUtils - 
+2020-12-11 06:10:50,069 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/.git": true
+2020-12-11 06:10:50,073 INFO  FullProcessService - Size of directory with sources: 228 KB
+2020-12-11 06:10:50,073 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src]
+2020-12-11 06:10:50,092 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/.git/
+
+2020-12-11 06:10:50,097 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/gradlew
+2020-12-11 06:10:50,101 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/ciceroneflows/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/build.gradle
+2020-12-11 06:10:50,104 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/ciceroneflows/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/settings.gradle
+2020-12-11 06:10:50,105 INFO  ProjectBuildService - Remote scripts: none
+2020-12-11 06:10:50,105 INFO  ProjectFixService - Fixing project...
+2020-12-11 06:10:50,114 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/app/local.properties
+2020-12-11 06:10:50,116 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=17,targetSdkVersion=30]
+2020-12-11 06:10:50,116 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=17,targetSdkVersion=30]
+2020-12-11 06:10:50,118 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/ciceroneflows/local.properties
+2020-12-11 06:10:50,119 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/ciceroneflows/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=17,targetSdkVersion=30]
+2020-12-11 06:10:50,119 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/ciceroneflows/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=17,targetSdkVersion=30]
+2020-12-11 06:10:50,120 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/local.properties
+2020-12-11 06:10:50,121 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2020-12-11 06:10:50,121 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2020-12-11 06:10:50,123 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=17,targetSdkVersion=30]
+2020-12-11 06:10:50,123 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=17,targetSdkVersion=30]
+2020-12-11 06:10:50,123 INFO  ProjectFixService - Project was maybe fixed
+2020-12-11 06:10:50,123 INFO  ProjectTaskService - Detecting possible tasks...
+2020-12-11 06:10:50,124 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-12-11 06:11:23,875 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-12-11 06:11:23,875 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-12-11 06:11:23,875 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-12-11 06:13:53,764 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :ciceroneflows:preBuild UP-TO-DATE
+> Task :ciceroneflows:preDebugBuild UP-TO-DATE
+> Task :ciceroneflows:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :ciceroneflows:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :ciceroneflows:compileDebugRenderscript NO-SOURCE
+> Task :ciceroneflows:generateDebugResValues
+> Task :ciceroneflows:generateDebugResources
+> Task :ciceroneflows:packageDebugResources
+> Task :ciceroneflows:writeDebugAarMetadata
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:checkDebugAarMetadata
+> Task :app:extractDeepLinksDebug
+> Task :ciceroneflows:extractDeepLinksDebug
+> Task :ciceroneflows:compileDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :ciceroneflows:processDebugManifest
+> Task :ciceroneflows:parseDebugLocalResources
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :ciceroneflows:javaPreCompileDebug
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :ciceroneflows:mergeDebugShaders
+> Task :ciceroneflows:compileDebugShaders NO-SOURCE
+> Task :ciceroneflows:generateDebugAssets UP-TO-DATE
+> Task :ciceroneflows:packageDebugAssets
+> Task :ciceroneflows:generateDebugRFile
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugResources
+> Task :ciceroneflows:compileDebugKotlin
+> Task :ciceroneflows:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :ciceroneflows:bundleLibCompileToJarDebug
+> Task :ciceroneflows:processDebugJavaRes NO-SOURCE
+> Task :ciceroneflows:bundleLibResDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :ciceroneflows:bundleLibRuntimeToJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/app/src/main/java/com/github/aradxxx/ciceroneflowssample/AppFragment.kt: (43, 31): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :ciceroneflows:mergeDebugJniLibFolders
+> Task :ciceroneflows:mergeDebugNativeLibs NO-SOURCE
+> Task :ciceroneflows:stripDebugDebugSymbols NO-SOURCE
+> Task :ciceroneflows:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :ciceroneflows:preReleaseBuild UP-TO-DATE
+> Task :ciceroneflows:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :ciceroneflows:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :ciceroneflows:compileReleaseRenderscript NO-SOURCE
+> Task :ciceroneflows:generateReleaseResValues
+> Task :ciceroneflows:generateReleaseResources
+> Task :ciceroneflows:packageReleaseResources
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :ciceroneflows:writeReleaseAarMetadata
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :ciceroneflows:extractDeepLinksRelease
+> Task :ciceroneflows:compileReleaseLibraryResources
+> Task :app:checkReleaseAarMetadata
+> Task :ciceroneflows:processReleaseManifest
+> Task :ciceroneflows:javaPreCompileRelease
+> Task :ciceroneflows:parseReleaseLocalResources
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseManifestForPackage
+> Task :ciceroneflows:generateReleaseRFile
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :app:javaPreCompileRelease
+> Task :app:processReleaseResources
+> Task :ciceroneflows:compileReleaseKotlin
+> Task :ciceroneflows:compileReleaseJavaWithJavac NO-SOURCE
+> Task :ciceroneflows:bundleLibCompileToJarRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :ciceroneflows:prepareLintJarForPublish
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :ciceroneflows:mergeReleaseShaders
+> Task :ciceroneflows:compileReleaseShaders NO-SOURCE
+> Task :ciceroneflows:generateReleaseAssets UP-TO-DATE
+> Task :ciceroneflows:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :ciceroneflows:bundleLibRuntimeToJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:kaptReleaseKotlin
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/app/src/main/java/com/github/aradxxx/ciceroneflowssample/AppFragment.kt: (43, 31): 'fromHtml(String!): Spanned!' is deprecated. Deprecated in Java
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:desugarReleaseFileDependencies
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :ciceroneflows:processReleaseJavaRes NO-SOURCE
+> Task :ciceroneflows:bundleLibResRelease
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :ciceroneflows:mergeReleaseJniLibFolders
+> Task :ciceroneflows:mergeReleaseNativeLibs NO-SOURCE
+> Task :ciceroneflows:stripReleaseDebugSymbols NO-SOURCE
+> Task :ciceroneflows:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2m 29s
+97 actionable tasks: 97 executed
+
+2020-12-11 06:13:53,855 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641724910-0/src/app/build/outputs/apk/debug/app-debug.apk

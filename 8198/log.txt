@@ -1,0 +1,249 @@
+2020-12-11 06:17:23,808 INFO  DownloadService - Downloading "https://github.com/anirudhmpai/EasyLocationFetch/archive/master.zip", attempt 3
+2020-12-11 06:18:24,433 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-12-11 06:18:25,313 INFO  GithubDownloadService - Default branch of this repository: master
+2020-12-11 06:18:25,313 INFO  DownloadService - Downloading "https://github.com/anirudhmpai/EasyLocationFetch/archive/master.zip", attempt 3
+2020-12-11 06:19:26,859 DEBUG FullProcessService - Repository https://github.com/anirudhmpai/EasyLocationFetch available: true
+2020-12-11 06:19:26,860 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-12-11 06:19:26,860 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/anirudhmpai/EasyLocationFetch, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src]
+2020-12-11 06:19:28,780 INFO  SysUtils - 
+2020-12-11 06:19:28,816 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/.git": true
+2020-12-11 06:19:28,821 INFO  FullProcessService - Size of directory with sources: 170 KB
+2020-12-11 06:19:28,821 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src]
+2020-12-11 06:19:28,840 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/.git/
+
+2020-12-11 06:19:28,844 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/gradlew
+2020-12-11 06:19:28,847 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/LocationFetch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/build.gradle
+2020-12-11 06:19:28,851 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/LocationFetch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/settings.gradle
+2020-12-11 06:19:28,852 INFO  ProjectBuildService - Remote scripts: none
+2020-12-11 06:19:28,852 INFO  ProjectFixService - Fixing project...
+2020-12-11 06:19:28,862 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/LocationFetch/local.properties
+2020-12-11 06:19:28,863 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/LocationFetch/build.gradle": [buildToolsVersion=30.0.1,compileSdkVersion=30,minSdkVersion=24,targetSdkVersion=30]
+2020-12-11 06:19:28,863 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/LocationFetch/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=24,targetSdkVersion=30]
+2020-12-11 06:19:28,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/app/local.properties
+2020-12-11 06:19:28,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/app/build.gradle": [buildToolsVersion=30.0.1,compileSdkVersion=30,minSdkVersion=24,targetSdkVersion=30]
+2020-12-11 06:19:28,865 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=24,targetSdkVersion=30]
+2020-12-11 06:19:28,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/local.properties
+2020-12-11 06:19:28,867 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-12-11 06:19:28,867 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-12-11 06:19:28,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=24,targetSdkVersion=30]
+2020-12-11 06:19:28,869 INFO  ProjectFixService - Project was maybe fixed
+2020-12-11 06:19:28,869 INFO  ProjectTaskService - Detecting possible tasks...
+2020-12-11 06:19:28,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/LocationFetch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-12-11 06:19:37,778 INFO  ProjectTaskService - Detected possible tasks: 64
+2020-12-11 06:19:37,778 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-12-11 06:19:37,779 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/LocationFetch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-12-11 06:20:03,630 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :LocationFetch:preBuild UP-TO-DATE
+> Task :LocationFetch:preDebugBuild UP-TO-DATE
+> Task :LocationFetch:mergeDebugJniLibFolders
+> Task :LocationFetch:mergeDebugNativeLibs
+> Task :LocationFetch:stripDebugDebugSymbols NO-SOURCE
+> Task :LocationFetch:copyDebugJniLibsProjectAndLocalJars
+> Task :LocationFetch:compileDebugAidl NO-SOURCE
+> Task :LocationFetch:generateDebugBuildConfig
+> Task :LocationFetch:compileDebugRenderscript NO-SOURCE
+> Task :LocationFetch:generateDebugResValues
+> Task :LocationFetch:generateDebugResources
+> Task :LocationFetch:packageDebugResources
+> Task :LocationFetch:mergeDebugShaders
+> Task :LocationFetch:compileDebugShaders NO-SOURCE
+> Task :LocationFetch:generateDebugAssets UP-TO-DATE
+> Task :LocationFetch:packageDebugAssets
+> Task :LocationFetch:parseDebugLocalResources
+> Task :LocationFetch:packageDebugRenderscript NO-SOURCE
+> Task :LocationFetch:processDebugJavaRes NO-SOURCE
+> Task :LocationFetch:javaPreCompileDebug
+> Task :LocationFetch:preReleaseBuild UP-TO-DATE
+> Task :LocationFetch:compileReleaseAidl NO-SOURCE
+> Task :LocationFetch:prepareLintJarForPublish
+> Task :LocationFetch:mergeReleaseJniLibFolders
+> Task :LocationFetch:compileReleaseRenderscript NO-SOURCE
+> Task :LocationFetch:generateReleaseBuildConfig
+> Task :LocationFetch:generateReleaseResValues
+> Task :LocationFetch:generateReleaseResources
+> Task :LocationFetch:packageReleaseResources
+> Task :LocationFetch:mergeDebugJavaResource
+> Task :LocationFetch:mergeReleaseNativeLibs
+> Task :LocationFetch:stripReleaseDebugSymbols NO-SOURCE
+> Task :LocationFetch:copyReleaseJniLibsProjectAndLocalJars
+> Task :LocationFetch:mergeReleaseShaders
+> Task :LocationFetch:compileReleaseShaders NO-SOURCE
+> Task :LocationFetch:generateReleaseAssets UP-TO-DATE
+> Task :LocationFetch:packageReleaseAssets
+> Task :LocationFetch:packageReleaseRenderscript NO-SOURCE
+> Task :LocationFetch:processReleaseJavaRes NO-SOURCE
+> Task :LocationFetch:processDebugManifest
+> Task :LocationFetch:mergeReleaseJavaResource
+> Task :LocationFetch:parseReleaseLocalResources
+> Task :LocationFetch:javaPreCompileRelease
+> Task :LocationFetch:processReleaseManifest
+> Task :LocationFetch:generateReleaseRFile
+
+> Task :LocationFetch:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/LocationFetch/src/main/java/com/anirudh/locationfetch/EasyLocationFetch.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :LocationFetch:extractReleaseAnnotations
+> Task :LocationFetch:mergeReleaseGeneratedProguardFiles
+> Task :LocationFetch:mergeReleaseConsumerProguardFiles
+> Task :LocationFetch:syncReleaseLibJars
+> Task :LocationFetch:bundleReleaseAar
+> Task :LocationFetch:compileReleaseSources
+> Task :LocationFetch:generateDebugRFile
+
+> Task :LocationFetch:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/LocationFetch/src/main/java/com/anirudh/locationfetch/EasyLocationFetch.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :LocationFetch:extractDebugAnnotations
+> Task :LocationFetch:mergeDebugGeneratedProguardFiles
+> Task :LocationFetch:mergeDebugConsumerProguardFiles
+> Task :LocationFetch:syncDebugLibJars
+> Task :LocationFetch:bundleDebugAar
+> Task :LocationFetch:compileDebugSources
+> Task :LocationFetch:assembleDebug
+> Task :LocationFetch:mergeReleaseResources
+> Task :LocationFetch:verifyReleaseResources
+> Task :LocationFetch:assembleRelease
+> Task :LocationFetch:assemble
+> Task :LocationFetch:build
+
+BUILD SUCCESSFUL in 25s
+41 actionable tasks: 41 executed
+
+2020-12-11 06:20:03,700 INFO  ProjectTaskService - Detecting possible tasks...
+2020-12-11 06:20:03,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-12-11 06:20:16,984 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-12-11 06:20:16,985 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-12-11 06:20:16,985 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-12-11 06:22:14,933 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :LocationFetch:preBuild UP-TO-DATE
+> Task :LocationFetch:preDebugBuild UP-TO-DATE
+> Task :LocationFetch:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :LocationFetch:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :LocationFetch:generateDebugResValues UP-TO-DATE
+> Task :LocationFetch:compileDebugRenderscript NO-SOURCE
+> Task :LocationFetch:generateDebugResources UP-TO-DATE
+> Task :LocationFetch:packageDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :LocationFetch:extractDeepLinksDebug
+> Task :LocationFetch:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :LocationFetch:compileDebugLibraryResources
+> Task :LocationFetch:parseDebugLocalResources UP-TO-DATE
+> Task :LocationFetch:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources
+> Task :LocationFetch:generateDebugBuildConfig UP-TO-DATE
+> Task :LocationFetch:javaPreCompileDebug UP-TO-DATE
+> Task :LocationFetch:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :LocationFetch:mergeDebugShaders UP-TO-DATE
+> Task :LocationFetch:compileDebugShaders NO-SOURCE
+> Task :LocationFetch:generateDebugAssets UP-TO-DATE
+> Task :LocationFetch:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :LocationFetch:bundleLibCompileToJarDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :LocationFetch:processDebugJavaRes NO-SOURCE
+> Task :LocationFetch:bundleLibResDebug NO-SOURCE
+> Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies
+> Task :LocationFetch:bundleLibRuntimeToJarDebug
+> Task :app:mergeLibDexDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :LocationFetch:mergeDebugJniLibFolders UP-TO-DATE
+> Task :LocationFetch:mergeDebugNativeLibs UP-TO-DATE
+> Task :LocationFetch:stripDebugDebugSymbols NO-SOURCE
+> Task :LocationFetch:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :LocationFetch:preReleaseBuild UP-TO-DATE
+> Task :LocationFetch:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :LocationFetch:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :LocationFetch:compileReleaseRenderscript NO-SOURCE
+> Task :LocationFetch:generateReleaseResValues UP-TO-DATE
+> Task :LocationFetch:generateReleaseResources UP-TO-DATE
+> Task :LocationFetch:packageReleaseResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :LocationFetch:extractDeepLinksRelease
+> Task :LocationFetch:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseManifest
+> Task :LocationFetch:parseReleaseLocalResources UP-TO-DATE
+> Task :LocationFetch:generateReleaseRFile UP-TO-DATE
+> Task :LocationFetch:generateReleaseBuildConfig UP-TO-DATE
+> Task :LocationFetch:javaPreCompileRelease UP-TO-DATE
+> Task :LocationFetch:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :LocationFetch:compileReleaseLibraryResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeProjectDexDebug
+> Task :app:javaPreCompileRelease
+> Task :LocationFetch:bundleLibCompileToJarRelease
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:prepareLintJar
+> Task :LocationFetch:prepareLintJarForPublish UP-TO-DATE
+> Task :app:lintVitalRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:dexBuilderRelease
+> Task :LocationFetch:bundleLibRuntimeToJarRelease
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :LocationFetch:mergeReleaseShaders UP-TO-DATE
+> Task :LocationFetch:compileReleaseShaders NO-SOURCE
+> Task :LocationFetch:generateReleaseAssets UP-TO-DATE
+> Task :LocationFetch:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :LocationFetch:processReleaseJavaRes NO-SOURCE
+> Task :LocationFetch:bundleLibResRelease NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :LocationFetch:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :LocationFetch:mergeReleaseNativeLibs UP-TO-DATE
+> Task :LocationFetch:stripReleaseDebugSymbols NO-SOURCE
+> Task :LocationFetch:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 56s
+81 actionable tasks: 56 executed, 25 up-to-date
+
+2020-12-11 06:22:15,062 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642243803-0/src/app/build/outputs/apk/debug/app-debug.apk

@@ -1,34 +1,37 @@
-2020-10-29 21:02:53,544 INFO  DownloadService - Downloading "https://github.com/AmrDeveloper/Codeview/archive/master.zip", attempt 3
-2020-10-29 21:02:57,502 INFO  DownloadService - Downloaded https://github.com/AmrDeveloper/Codeview/archive/master.zip, attempt 3
-2020-10-29 21:02:57,502 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/master.zip": 1 MB
-2020-10-29 21:02:57,502 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-10-29 21:02:57,508 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/master.zip: true
-2020-10-29 21:02:57,509 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src'.
-2020-10-29 21:02:57,568 INFO  FullProcessService - Size of directory with sources: 3 MB
-2020-10-29 21:02:57,568 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src]
-2020-10-29 21:02:57,606 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/.git/
+2020-12-11 06:35:52,429 INFO  DownloadService - Downloading "https://github.com/AmrDeveloper/Codeview/archive/master.zip", attempt 3
+2020-12-11 06:36:01,911 INFO  VirusProcessorServiceImpl - Queued project 8194 to scan viruses
+2020-12-11 06:36:53,113 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-12-11 06:36:53,975 INFO  GithubDownloadService - Default branch of this repository: master
+2020-12-11 06:36:53,976 INFO  DownloadService - Downloading "https://github.com/AmrDeveloper/Codeview/archive/master.zip", attempt 3
+2020-12-11 06:37:55,283 DEBUG FullProcessService - Repository https://github.com/AmrDeveloper/Codeview available: true
+2020-12-11 06:37:55,284 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-12-11 06:37:55,284 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AmrDeveloper/Codeview, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src]
+2020-12-11 06:37:57,899 INFO  SysUtils - 
+2020-12-11 06:37:57,908 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/.git": true
+2020-12-11 06:37:57,914 INFO  FullProcessService - Size of directory with sources: 3 MB
+2020-12-11 06:37:57,914 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src]
+2020-12-11 06:37:57,935 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/.git/
 
-2020-10-29 21:02:57,610 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/gradlew
-2020-10-29 21:02:57,614 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/codeview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/build.gradle
-2020-10-29 21:02:57,618 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/codeview/build.gradle
-2020-10-29 21:02:57,619 INFO  ProjectBuildService - Remote scripts: none
-2020-10-29 21:02:57,619 INFO  ProjectFixService - Fixing project...
-2020-10-29 21:02:57,630 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/app/local.properties
-2020-10-29 21:02:57,630 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-10-29 21:02:57,631 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/codeview/local.properties
-2020-10-29 21:02:57,631 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/codeview/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-10-29 21:02:57,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/local.properties
-2020-10-29 21:02:57,632 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-10-29 21:02:57,633 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-10-29 21:02:57,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-10-29 21:02:57,634 INFO  ProjectFixService - Project was maybe fixed
-2020-10-29 21:02:57,634 INFO  ProjectTaskService - Detecting possible tasks...
-2020-10-29 21:02:57,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-10-29 21:03:04,395 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-10-29 21:03:04,395 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-10-29 21:03:04,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-10-29 21:03:10,381 INFO  VirusProcessorServiceImpl - Queued project 8180 to scan viruses
-2020-10-29 21:03:39,185 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-12-11 06:37:57,939 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/gradlew
+2020-12-11 06:37:57,944 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/codeview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/build.gradle
+2020-12-11 06:37:57,948 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/codeview/build.gradle
+2020-12-11 06:37:57,948 INFO  ProjectBuildService - Remote scripts: none
+2020-12-11 06:37:57,948 INFO  ProjectFixService - Fixing project...
+2020-12-11 06:37:57,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/app/local.properties
+2020-12-11 06:37:57,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-12-11 06:37:57,960 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/codeview/local.properties
+2020-12-11 06:37:57,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/codeview/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-12-11 06:37:57,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/local.properties
+2020-12-11 06:37:57,961 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-12-11 06:37:57,962 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-12-11 06:37:57,963 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-12-11 06:37:57,963 INFO  ProjectFixService - Project was maybe fixed
+2020-12-11 06:37:57,963 INFO  ProjectTaskService - Detecting possible tasks...
+2020-12-11 06:37:57,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-12-11 06:38:08,785 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-12-11 06:38:08,785 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-12-11 06:38:08,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-12-11 06:39:00,388 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :codeview:preBuild UP-TO-DATE
@@ -49,9 +52,9 @@
 > Task :app:extractDeepLinksDebug
 > Task :codeview:extractDeepLinksDebug
 > Task :app:mergeDebugResources
-> Task :codeview:compileDebugLibraryResources
 > Task :codeview:processDebugManifest
 > Task :app:processDebugManifest
+> Task :codeview:compileDebugLibraryResources
 > Task :codeview:generateDebugBuildConfig
 > Task :codeview:javaPreCompileDebug
 > Task :app:mergeDebugShaders
@@ -66,6 +69,7 @@
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :codeview:processDebugJavaRes NO-SOURCE
 > Task :codeview:bundleLibResDebug NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
 > Task :codeview:generateDebugRFile
 > Task :app:processDebugResources
 > Task :codeview:compileDebugJavaWithJavac
@@ -78,14 +82,10 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
-> Task :app:checkDebugDuplicateClasses
 > Task :app:dexBuilderDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :codeview:mergeDebugJniLibFolders
 > Task :app:validateSigningDebug
-> Task :codeview:mergeDebugNativeLibs
-> Task :codeview:stripDebugDebugSymbols NO-SOURCE
-> Task :codeview:copyDebugJniLibsProjectOnly
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :codeview:preReleaseBuild UP-TO-DATE
 > Task :codeview:compileReleaseAidl NO-SOURCE
@@ -99,25 +99,28 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :codeview:generateReleaseResValues
 > Task :codeview:generateReleaseResources
 > Task :codeview:packageReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :codeview:extractDeepLinksRelease
-> Task :app:javaPreCompileRelease
-> Task :codeview:generateReleaseBuildConfig
-> Task :codeview:parseReleaseLocalResources
-> Task :codeview:compileReleaseLibraryResources
+> Task :codeview:mergeDebugNativeLibs
+> Task :codeview:stripDebugDebugSymbols NO-SOURCE
+> Task :codeview:copyDebugJniLibsProjectOnly
+> Task :app:mergeReleaseResources
 > Task :codeview:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :codeview:generateReleaseBuildConfig
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :codeview:javaPreCompileRelease
-> Task :app:mergeReleaseResources
-> Task :codeview:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :codeview:compileReleaseJavaWithJavac
+> Task :app:javaPreCompileRelease
+> Task :codeview:compileReleaseLibraryResources
+> Task :codeview:parseReleaseLocalResources
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 > Task :codeview:prepareLintJarForPublish
+> Task :codeview:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :codeview:compileReleaseJavaWithJavac
 > Task :codeview:bundleLibRuntimeToJarRelease
 > Task :codeview:bundleLibCompileToJarRelease
 
@@ -160,7 +163,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 34s
+BUILD SUCCESSFUL in 50s
 78 actionable tasks: 78 executed
 
-2020-10-29 21:03:39,240 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980173540-0/src/CodeView-master/app/build/outputs/apk/debug/app-debug.apk
+2020-12-11 06:39:00,457 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607643352418-0/src/app/build/outputs/apk/debug/app-debug.apk
