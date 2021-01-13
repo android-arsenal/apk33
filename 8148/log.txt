@@ -1,36 +1,39 @@
-2020-10-06 21:32:50,743 INFO  DownloadService - Downloading "https://github.com/chnouman/AwesomeDialog/archive/master.zip", attempt 3
-2020-10-06 21:32:58,797 INFO  VirusProcessorServiceImpl - Queued project 8167 to scan viruses
-2020-10-06 21:33:24,190 INFO  DownloadService - Downloaded https://github.com/chnouman/AwesomeDialog/archive/master.zip, attempt 3
-2020-10-06 21:33:24,191 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/master.zip": 10 MB
-2020-10-06 21:33:24,191 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-10-06 21:33:24,191 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/master.zip: true
-2020-10-06 21:33:24,192 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src'.
-2020-10-06 21:33:24,278 INFO  FullProcessService - Size of directory with sources: 10 MB
-2020-10-06 21:33:24,278 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src]
-2020-10-06 21:33:24,302 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/.git/
+2021-01-13 02:22:06,690 INFO  DownloadService - Downloading "https://github.com/chnouman/AwesomeDialog/archive/master.zip", attempt 3
+2021-01-13 02:22:15,704 INFO  VirusProcessorServiceImpl - Queued project 8155 to scan viruses
+2021-01-13 02:23:07,501 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-01-13 02:23:09,418 INFO  GithubDownloadService - Default branch of this repository: master
+2021-01-13 02:23:09,418 INFO  DownloadService - Downloading "https://github.com/chnouman/AwesomeDialog/archive/master.zip", attempt 3
+2021-01-13 02:24:10,684 DEBUG FullProcessService - Repository https://github.com/chnouman/AwesomeDialog available: true
+2021-01-13 02:24:10,684 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-01-13 02:24:10,684 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/chnouman/AwesomeDialog, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src]
+2021-01-13 02:24:30,014 INFO  SysUtils - 
+2021-01-13 02:24:30,022 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/.git": true
+2021-01-13 02:24:30,025 INFO  FullProcessService - Size of directory with sources: 10 MB
+2021-01-13 02:24:30,025 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src]
+2021-01-13 02:24:30,043 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/.git/
 
-2020-10-06 21:33:24,305 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/gradlew
-2020-10-06 21:33:24,310 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/awesomeDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/build.gradle
-2020-10-06 21:33:24,314 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/awesomeDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/settings.gradle
-2020-10-06 21:33:24,314 INFO  ProjectBuildService - Remote scripts: none
-2020-10-06 21:33:24,315 INFO  ProjectFixService - Fixing project...
-2020-10-06 21:33:24,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/local.properties
-2020-10-06 21:33:24,325 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2020-10-06 21:33:24,326 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2020-10-06 21:33:24,327 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/awesomeDialog/local.properties
-2020-10-06 21:33:24,328 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/awesomeDialog/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=15,targetSdkVersion=30]
-2020-10-06 21:33:24,328 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/awesomeDialog/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=15,targetSdkVersion=30]
-2020-10-06 21:33:24,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/local.properties
-2020-10-06 21:33:24,330 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-10-06 21:33:24,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-10-06 21:33:24,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2020-10-06 21:33:24,332 INFO  ProjectFixService - Project was maybe fixed
-2020-10-06 21:33:24,332 INFO  ProjectTaskService - Detecting possible tasks...
-2020-10-06 21:33:24,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-10-06 21:33:36,703 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-10-06 21:33:36,703 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-10-06 21:33:36,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-10-06 21:34:42,212 ERROR SysUtils - Could not process external command
+2021-01-13 02:24:30,046 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/gradlew
+2021-01-13 02:24:30,049 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/awesomeDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/build.gradle
+2021-01-13 02:24:30,052 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/awesomeDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/settings.gradle
+2021-01-13 02:24:30,052 INFO  ProjectBuildService - Remote scripts: none
+2021-01-13 02:24:30,052 INFO  ProjectFixService - Fixing project...
+2021-01-13 02:24:30,059 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/local.properties
+2021-01-13 02:24:30,060 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-01-13 02:24:30,060 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-01-13 02:24:30,060 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/awesomeDialog/local.properties
+2021-01-13 02:24:30,061 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/awesomeDialog/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=15,targetSdkVersion=30]
+2021-01-13 02:24:30,061 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/awesomeDialog/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=15,targetSdkVersion=30]
+2021-01-13 02:24:30,062 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/local.properties
+2021-01-13 02:24:30,062 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2021-01-13 02:24:30,062 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2021-01-13 02:24:30,063 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-01-13 02:24:30,064 INFO  ProjectFixService - Project was maybe fixed
+2021-01-13 02:24:30,064 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-13 02:24:30,064 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-13 02:25:41,089 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-01-13 02:25:41,090 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-13 02:25:41,090 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-13 12:00:52,481 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -58,10 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-10-06 21:34:42,213 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
-Android SDK Build Tools 29.0.2 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2021-01-13 12:00:52,501 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -74,8 +74,8 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:processDebugManifest
 > Task :app:mergeDebugResources
 > Task :app:processDebugResources
-> Task :app:compileDebugKotlin
 > Task :app:javaPreCompileDebug
+> Task :app:compileDebugKotlin
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
@@ -85,8 +85,8 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
-> Task :app:dexBuilderDebug
 > Task :app:mergeLibDexDebug
+> Task :app:dexBuilderDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
@@ -108,9 +108,402 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:lintVitalRelease
+> Task :app:lintVitalRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:lintVitalRelease'.
+> Could not resolve all files for configuration ':app:lintClassPath'.
+   > Could not download lint-gradle-27.0.1.jar (com.android.tools.lint:lint-gradle:27.0.1)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/27.0.1/lint-gradle-27.0.1.jar'.
+         > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/27.0.1/lint-gradle-27.0.1.jar'.
+            > dl.google.com
+   > Could not download lint-27.0.1.jar (com.android.tools.lint:lint:27.0.1)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/27.0.1/lint-27.0.1.jar'.
+         > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/27.0.1/lint-27.0.1.jar'.
+            > dl.google.com: nodename nor servname provided, or not known
+   > Could not download lint-checks-27.0.1.jar (com.android.tools.lint:lint-checks:27.0.1)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/27.0.1/lint-checks-27.0.1.jar'.
+         > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/27.0.1/lint-checks-27.0.1.jar'.
+            > dl.google.com
+   > Could not download lint-api-27.0.1.jar (com.android.tools.lint:lint-api:27.0.1)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/27.0.1/lint-api-27.0.1.jar'.
+         > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/27.0.1/lint-api-27.0.1.jar'.
+            > dl.google.com
+   > Could not download intellij-core-27.0.1.jar (com.android.tools.external.com-intellij:intellij-core:27.0.1)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/27.0.1/intellij-core-27.0.1.jar'.
+         > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/27.0.1/intellij-core-27.0.1.jar'.
+            > dl.google.com
+   > Could not download kotlin-compiler-27.0.1.jar (com.android.tools.external.com-intellij:kotlin-compiler:27.0.1)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/27.0.1/kotlin-compiler-27.0.1.jar'.
+         > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/27.0.1/kotlin-compiler-27.0.1.jar'.
+            > dl.google.com
+   > Could not download uast-27.0.1.jar (com.android.tools.external.org-jetbrains:uast:27.0.1)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/27.0.1/uast-27.0.1.jar'.
+         > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/27.0.1/uast-27.0.1.jar'.
+            > dl.google.com
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:205)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:263)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:203)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:184)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:109)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:41)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:372)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:359)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:352)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:338)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.lambda$run$0(DefaultPlanExecutor.java:127)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:191)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:182)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:124)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':app:lintClassPath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1293)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$2300(DefaultConfiguration.java:140)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.visitFiles(DefaultConfiguration.java:1270)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1256)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:499)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:115)
+	at com.android.build.gradle.tasks.LintPerVariantTask.lint(LintPerVariantTask.java:64)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:104)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:49)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:42)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:727)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:694)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.run(ExecuteActionsTaskExecuter.java:568)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:553)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:536)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$300(ExecuteActionsTaskExecuter.java:109)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.executeWithPreviousOutputFiles(ExecuteActionsTaskExecuter.java:276)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:265)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:63)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:34)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:34)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:44)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:54)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:153)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:67)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:41)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:44)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:33)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:92)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:85)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:76)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:94)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:79)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:53)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:74)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.lambda$execute$2(SkipEmptyWorkStep.java:78)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:78)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:34)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:39)
+	at org.gradle.internal.execution.steps.LoadExecutionStateStep.execute(LoadExecutionStateStep.java:40)
+	at org.gradle.internal.execution.steps.LoadExecutionStateStep.execute(LoadExecutionStateStep.java:28)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:192)
+	... 30 more
+Caused by: org.gradle.internal.resolve.ArtifactResolveException: Could not download lint-gradle-27.0.1.jar (com.android.tools.lint:lint-gradle:27.0.1)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveArtifact(ExternalResourceResolver.java:518)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$ResolveAndCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:445)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.lambda$resolveArtifact$15(ErrorHandlingModuleComponentRepository.java:181)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.tryResolveAndMaybeBlacklist(ErrorHandlingModuleComponentRepository.java:237)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.performOperationWithRetries(ErrorHandlingModuleComponentRepository.java:203)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:179)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:96)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:184)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:170)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:166)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:148)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.access$1500(DefaultBuildOperationExecutor.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:444)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:231)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:173)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.create(DefaultBuildOperationQueue.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.create(DefaultBuildOperationQueue.java:204)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:178)
+	... 3 more
+Caused by: org.gradle.api.resources.ResourceException: Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/27.0.1/lint-gradle-27.0.1.jar'.
+	at org.gradle.internal.resource.ResourceExceptions.failure(ResourceExceptions.java:74)
+	at org.gradle.internal.resource.ResourceExceptions.getFailed(ResourceExceptions.java:57)
+	at org.gradle.internal.resource.transfer.DefaultCacheAwareExternalResourceAccessor.copyToCache(DefaultCacheAwareExternalResourceAccessor.java:211)
+	at org.gradle.internal.resource.transfer.DefaultCacheAwareExternalResourceAccessor.access$300(DefaultCacheAwareExternalResourceAccessor.java:56)
+	at org.gradle.internal.resource.transfer.DefaultCacheAwareExternalResourceAccessor$1.get(DefaultCacheAwareExternalResourceAccessor.java:93)
+	at org.gradle.internal.resource.transfer.DefaultCacheAwareExternalResourceAccessor$1.get(DefaultCacheAwareExternalResourceAccessor.java:85)
+	at org.gradle.cache.internal.ProducerGuard$AdaptiveProducerGuard.guardByKey(ProducerGuard.java:97)
+	at org.gradle.internal.resource.transfer.DefaultCacheAwareExternalResourceAccessor.getResource(DefaultCacheAwareExternalResourceAccessor.java:85)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.downloadByCoords(DefaultExternalResourceArtifactResolver.java:139)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.downloadStaticResource(DefaultExternalResourceArtifactResolver.java:94)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.resolveArtifact(DefaultExternalResourceArtifactResolver.java:62)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveArtifact(ExternalResourceResolver.java:511)
+	... 27 more
+Caused by: org.gradle.internal.resource.transport.http.HttpRequestException: Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/27.0.1/lint-gradle-27.0.1.jar'.
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performRequest(HttpClientHelper.java:101)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performRawGet(HttpClientHelper.java:84)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performGet(HttpClientHelper.java:88)
+	at org.gradle.internal.resource.transport.http.HttpResourceAccessor.openResource(HttpResourceAccessor.java:43)
+	at org.gradle.internal.resource.transport.http.HttpResourceAccessor.openResource(HttpResourceAccessor.java:28)
+	at org.gradle.internal.resource.transfer.DefaultExternalResourceConnector.openResource(DefaultExternalResourceConnector.java:56)
+	at org.gradle.internal.resource.transfer.ProgressLoggingExternalResourceAccessor.openResource(ProgressLoggingExternalResourceAccessor.java:38)
+	at org.gradle.internal.resource.transfer.AccessorBackedExternalResource.withContentIfPresent(AccessorBackedExternalResource.java:130)
+	at org.gradle.internal.resource.BuildOperationFiringExternalResourceDecorator$11.call(BuildOperationFiringExternalResourceDecorator.java:237)
+	at org.gradle.internal.resource.BuildOperationFiringExternalResourceDecorator$11.call(BuildOperationFiringExternalResourceDecorator.java:229)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.internal.resource.BuildOperationFiringExternalResourceDecorator.withContentIfPresent(BuildOperationFiringExternalResourceDecorator.java:229)
+	at org.gradle.internal.resource.transfer.DefaultCacheAwareExternalResourceAccessor.copyToCache(DefaultCacheAwareExternalResourceAccessor.java:209)
+	... 36 more
+Caused by: java.net.UnknownHostException: dl.google.com
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performHttpRequest(HttpClientHelper.java:141)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performHttpRequest(HttpClientHelper.java:117)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.executeGetOrHead(HttpClientHelper.java:106)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performRequest(HttpClientHelper.java:97)
+	... 54 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9h 35m 10s
+32 actionable tasks: 32 executed
+
+2021-01-13 12:00:52,612 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-13 12:00:52,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/awesomeDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-13 12:01:02,004 INFO  ProjectTaskService - Detected possible tasks: 64
+2021-01-13 12:01:02,006 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2021-01-13 12:01:02,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/awesomeDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2021-01-13 12:01:41,959 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :awesomeDialog:preBuild UP-TO-DATE
+> Task :awesomeDialog:preDebugBuild UP-TO-DATE
+> Task :awesomeDialog:mergeDebugJniLibFolders
+> Task :awesomeDialog:compileDebugAidl NO-SOURCE
+> Task :awesomeDialog:generateDebugBuildConfig
+> Task :awesomeDialog:compileDebugRenderscript NO-SOURCE
+> Task :awesomeDialog:mergeDebugNativeLibs
+> Task :awesomeDialog:stripDebugDebugSymbols NO-SOURCE
+> Task :awesomeDialog:copyDebugJniLibsProjectAndLocalJars
+> Task :awesomeDialog:generateDebugResValues
+> Task :awesomeDialog:generateDebugResources
+> Task :awesomeDialog:packageDebugResources
+> Task :awesomeDialog:mergeDebugShaders
+> Task :awesomeDialog:compileDebugShaders NO-SOURCE
+> Task :awesomeDialog:generateDebugAssets UP-TO-DATE
+> Task :awesomeDialog:packageDebugAssets
+> Task :awesomeDialog:packageDebugRenderscript NO-SOURCE
+> Task :awesomeDialog:processDebugJavaRes NO-SOURCE
+> Task :awesomeDialog:preReleaseBuild UP-TO-DATE
+> Task :awesomeDialog:compileReleaseAidl NO-SOURCE
+> Task :awesomeDialog:mergeReleaseJniLibFolders
+> Task :awesomeDialog:compileReleaseRenderscript NO-SOURCE
+> Task :awesomeDialog:generateReleaseBuildConfig
+> Task :awesomeDialog:generateReleaseResValues
+> Task :awesomeDialog:generateReleaseResources
+> Task :awesomeDialog:packageReleaseResources
+> Task :awesomeDialog:mergeReleaseNativeLibs
+> Task :awesomeDialog:stripReleaseDebugSymbols NO-SOURCE
+> Task :awesomeDialog:copyReleaseJniLibsProjectAndLocalJars
+> Task :awesomeDialog:prepareLintJarForPublish
+> Task :awesomeDialog:mergeReleaseShaders
+> Task :awesomeDialog:compileReleaseShaders NO-SOURCE
+> Task :awesomeDialog:generateReleaseAssets UP-TO-DATE
+> Task :awesomeDialog:packageReleaseAssets
+> Task :awesomeDialog:packageReleaseRenderscript NO-SOURCE
+> Task :awesomeDialog:processReleaseJavaRes NO-SOURCE
+> Task :awesomeDialog:parseDebugLocalResources
+> Task :awesomeDialog:javaPreCompileRelease
+> Task :awesomeDialog:processReleaseManifest
+> Task :awesomeDialog:javaPreCompileDebug
+> Task :awesomeDialog:parseReleaseLocalResources
+> Task :awesomeDialog:processDebugManifest
+> Task :awesomeDialog:mergeReleaseResources
+> Task :awesomeDialog:generateDebugRFile
+> Task :awesomeDialog:compileDebugKotlin
+> Task :awesomeDialog:compileDebugJavaWithJavac
+> Task :awesomeDialog:extractDebugAnnotations
+> Task :awesomeDialog:generateReleaseRFile
+> Task :awesomeDialog:mergeDebugGeneratedProguardFiles
+> Task :awesomeDialog:mergeDebugConsumerProguardFiles
+> Task :awesomeDialog:compileDebugSources
+> Task :awesomeDialog:compileReleaseKotlin
+> Task :awesomeDialog:compileReleaseJavaWithJavac
+> Task :awesomeDialog:extractReleaseAnnotations
+> Task :awesomeDialog:mergeReleaseGeneratedProguardFiles
+> Task :awesomeDialog:mergeReleaseConsumerProguardFiles
+> Task :awesomeDialog:compileReleaseSources
+> Task :awesomeDialog:verifyReleaseResources
+> Task :awesomeDialog:mergeDebugJavaResource
+> Task :awesomeDialog:syncDebugLibJars
+> Task :awesomeDialog:bundleDebugAar
+> Task :awesomeDialog:assembleDebug
+> Task :awesomeDialog:mergeReleaseJavaResource
+> Task :awesomeDialog:syncReleaseLibJars
+> Task :awesomeDialog:bundleReleaseAar
+> Task :awesomeDialog:assembleRelease
+> Task :awesomeDialog:assemble
+> Task :awesomeDialog:build
+
+BUILD SUCCESSFUL in 39s
+43 actionable tasks: 43 executed
+
+2021-01-13 12:01:42,053 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-13 12:01:42,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-13 12:01:49,881 INFO  ProjectTaskService - Detected possible tasks: 69
+2021-01-13 12:01:49,881 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-13 12:01:49,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-13 12:02:21,033 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-13 12:02:21,033 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:compileDebugSources UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseResources UP-TO-DATE
+> Task :app:compileReleaseKotlin UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:compileReleaseSources UP-TO-DATE
+> Task :app:prepareLintJar UP-TO-DATE
+> Task :app:lintVitalRelease
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:dexBuilderRelease
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -119,19 +512,84 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:collectReleaseDependencies
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
-> Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :awesomeDialog:preBuild UP-TO-DATE
+> Task :awesomeDialog:preDebugBuild UP-TO-DATE
+> Task :awesomeDialog:compileDebugAidl NO-SOURCE
+> Task :awesomeDialog:mergeDebugJniLibFolders UP-TO-DATE
+> Task :awesomeDialog:mergeDebugNativeLibs UP-TO-DATE
+> Task :awesomeDialog:stripDebugDebugSymbols NO-SOURCE
+> Task :awesomeDialog:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :awesomeDialog:compileDebugRenderscript NO-SOURCE
+> Task :awesomeDialog:generateDebugBuildConfig UP-TO-DATE
+> Task :awesomeDialog:generateDebugResValues UP-TO-DATE
+> Task :awesomeDialog:generateDebugResources UP-TO-DATE
+> Task :awesomeDialog:packageDebugResources UP-TO-DATE
+> Task :awesomeDialog:parseDebugLocalResources UP-TO-DATE
+> Task :awesomeDialog:processDebugManifest UP-TO-DATE
+> Task :awesomeDialog:generateDebugRFile UP-TO-DATE
+> Task :awesomeDialog:compileDebugKotlin UP-TO-DATE
+> Task :awesomeDialog:javaPreCompileDebug UP-TO-DATE
+> Task :awesomeDialog:compileDebugJavaWithJavac UP-TO-DATE
+> Task :awesomeDialog:extractDebugAnnotations UP-TO-DATE
+> Task :awesomeDialog:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :awesomeDialog:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :awesomeDialog:mergeDebugShaders UP-TO-DATE
+> Task :awesomeDialog:compileDebugShaders NO-SOURCE
+> Task :awesomeDialog:generateDebugAssets UP-TO-DATE
+> Task :awesomeDialog:packageDebugAssets UP-TO-DATE
+> Task :awesomeDialog:packageDebugRenderscript NO-SOURCE
+> Task :awesomeDialog:prepareLintJarForPublish UP-TO-DATE
+> Task :awesomeDialog:processDebugJavaRes NO-SOURCE
+> Task :awesomeDialog:mergeDebugJavaResource UP-TO-DATE
+> Task :awesomeDialog:syncDebugLibJars UP-TO-DATE
+> Task :awesomeDialog:bundleDebugAar UP-TO-DATE
+> Task :awesomeDialog:compileDebugSources UP-TO-DATE
+> Task :awesomeDialog:assembleDebug UP-TO-DATE
+> Task :awesomeDialog:preReleaseBuild UP-TO-DATE
+> Task :awesomeDialog:compileReleaseAidl NO-SOURCE
+> Task :awesomeDialog:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :awesomeDialog:mergeReleaseNativeLibs UP-TO-DATE
+> Task :awesomeDialog:stripReleaseDebugSymbols NO-SOURCE
+> Task :awesomeDialog:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :awesomeDialog:compileReleaseRenderscript NO-SOURCE
+> Task :awesomeDialog:generateReleaseBuildConfig UP-TO-DATE
+> Task :awesomeDialog:generateReleaseResValues UP-TO-DATE
+> Task :awesomeDialog:generateReleaseResources UP-TO-DATE
+> Task :awesomeDialog:packageReleaseResources UP-TO-DATE
+> Task :awesomeDialog:parseReleaseLocalResources UP-TO-DATE
+> Task :awesomeDialog:processReleaseManifest UP-TO-DATE
+> Task :awesomeDialog:generateReleaseRFile UP-TO-DATE
+> Task :awesomeDialog:compileReleaseKotlin UP-TO-DATE
+> Task :awesomeDialog:javaPreCompileRelease UP-TO-DATE
+> Task :awesomeDialog:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :awesomeDialog:extractReleaseAnnotations UP-TO-DATE
+> Task :awesomeDialog:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :awesomeDialog:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :awesomeDialog:mergeReleaseShaders UP-TO-DATE
+> Task :awesomeDialog:compileReleaseShaders NO-SOURCE
+> Task :awesomeDialog:generateReleaseAssets UP-TO-DATE
+> Task :awesomeDialog:packageReleaseAssets UP-TO-DATE
+> Task :awesomeDialog:packageReleaseRenderscript NO-SOURCE
+> Task :awesomeDialog:processReleaseJavaRes NO-SOURCE
+> Task :awesomeDialog:mergeReleaseJavaResource UP-TO-DATE
+> Task :awesomeDialog:syncReleaseLibJars UP-TO-DATE
+> Task :awesomeDialog:bundleReleaseAar UP-TO-DATE
+> Task :awesomeDialog:compileReleaseSources UP-TO-DATE
+> Task :awesomeDialog:mergeReleaseResources UP-TO-DATE
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeReleaseJavaResource
+> Task :awesomeDialog:verifyReleaseResources
+> Task :awesomeDialog:assembleRelease
+> Task :awesomeDialog:assemble
+> Task :awesomeDialog:build
 > Task :app:mergeExtDexRelease
 
 > Task :app:mergeDexRelease FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex: D8: Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex: D8: Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -172,7 +630,7 @@ Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed t
 	at com.android.tools.r8.D8.run(:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 33 more
-Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
+Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 	at Version.fakeStackEntry(Version_2.0.88.java:0)
 	at com.android.tools.r8.utils.O0.a(:21)
 	at com.android.tools.r8.utils.N0.b(:7)
@@ -195,8 +653,8 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:mergeDexRelease'.
 > A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
    > com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+     Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
      Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-     Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -307,8 +765,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:192)
 	... 30 more
 Caused by: com.android.build.api.transform.TransformException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:468)
 	at com.android.build.gradle.internal.tasks.Workers$ActionFacade.run(Workers.kt:242)
 	at org.gradle.workers.internal.AdapterWorkAction.execute(AdapterWorkAction.java:50)
@@ -334,8 +792,8 @@ Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/v
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:131)
 	... 3 more
 Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -346,7 +804,7 @@ Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed t
 	at com.android.tools.r8.D8.run(:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 27 more
-Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
+Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, Type com.example.awesomedialog.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/project_dex_archive/release/out/com/example/awesomedialog/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/intermediates/external_libs_dex/release/mergeExtDexRelease/classes.dex
 	at Version.fakeStackEntry(Version_2.0.88.java:0)
 	at com.android.tools.r8.utils.O0.a(:21)
 	at com.android.tools.r8.utils.N0.b(:7)
@@ -364,7 +822,7 @@ Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1m 4s
-45 actionable tasks: 45 executed
+BUILD FAILED in 30s
+88 actionable tasks: 15 executed, 73 up-to-date
 
-2020-10-06 21:34:42,265 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601994770735-0/src/AwesomeDialog-master/app/build/outputs/apk/debug/app-debug.apk
+2021-01-13 12:02:21,126 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610479326688-0/src/app/build/outputs/apk/debug/app-debug.apk

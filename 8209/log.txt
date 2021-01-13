@@ -1,0 +1,469 @@
+2021-01-13 01:41:29,608 INFO  DownloadService - Downloading "https://github.com/BoyzDroizy/SimpleAndroidBarChart/archive/master.zip", attempt 3
+2021-01-13 01:41:32,670 INFO  DownloadService - Downloaded https://github.com/BoyzDroizy/SimpleAndroidBarChart/archive/master.zip, attempt 3
+2021-01-13 01:41:32,670 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/master.zip": 176 KB
+2021-01-13 01:41:32,670 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-01-13 01:41:32,671 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/master.zip: true
+2021-01-13 01:41:32,671 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src'.
+2021-01-13 01:41:32,699 INFO  FullProcessService - Size of directory with sources: 203 KB
+2021-01-13 01:41:32,699 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src]
+2021-01-13 01:41:32,728 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/.git/
+
+2021-01-13 01:41:32,733 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/gradlew
+2021-01-13 01:41:32,737 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/build.gradle
+2021-01-13 01:41:32,741 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/settings.gradle
+2021-01-13 01:41:32,742 INFO  ProjectBuildService - Remote scripts: none
+2021-01-13 01:41:32,742 INFO  ProjectFixService - Fixing project...
+2021-01-13 01:41:32,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/local.properties
+2021-01-13 01:41:32,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-01-13 01:41:32,752 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-01-13 01:41:32,753 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/local.properties
+2021-01-13 01:41:32,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-01-13 01:41:32,754 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-01-13 01:41:32,755 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/local.properties
+2021-01-13 01:41:32,755 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-01-13 01:41:32,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-01-13 01:41:32,757 INFO  ProjectFixService - Project was maybe fixed
+2021-01-13 01:41:32,757 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-13 01:41:32,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-13 01:41:48,550 INFO  VirusProcessorServiceImpl - Queued project 8210 to scan viruses
+2021-01-13 01:42:20,690 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-01-13 01:42:20,691 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-13 01:42:20,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-13 01:43:42,285 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-13 01:43:42,286 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :simpleandroidbarchart:preBuild UP-TO-DATE
+> Task :simpleandroidbarchart:preDebugBuild UP-TO-DATE
+> Task :simpleandroidbarchart:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :simpleandroidbarchart:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :simpleandroidbarchart:writeDebugAarMetadata
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :simpleandroidbarchart:compileDebugRenderscript NO-SOURCE
+> Task :simpleandroidbarchart:generateDebugResValues
+> Task :simpleandroidbarchart:generateDebugResources
+> Task :simpleandroidbarchart:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :simpleandroidbarchart:extractDeepLinksDebug
+> Task :simpleandroidbarchart:compileDebugLibraryResources
+> Task :simpleandroidbarchart:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :simpleandroidbarchart:parseDebugLocalResources
+
+> Task :app:processDebugMainManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/src/main/AndroidManifest.xml Warning:
+	Package name 'com.boyzdroizy.simpleandroidbarchart' used in: AndroidManifest.xml, :simpleandroidbarchart.
+
+> Task :app:processDebugManifest
+> Task :simpleandroidbarchart:generateDebugBuildConfig
+> Task :simpleandroidbarchart:javaPreCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :simpleandroidbarchart:mergeDebugShaders
+> Task :simpleandroidbarchart:compileDebugShaders NO-SOURCE
+> Task :simpleandroidbarchart:generateDebugAssets UP-TO-DATE
+> Task :simpleandroidbarchart:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :simpleandroidbarchart:processDebugJavaRes NO-SOURCE
+> Task :simpleandroidbarchart:generateDebugRFile
+> Task :app:processDebugResources
+> Task :simpleandroidbarchart:compileDebugKotlin
+> Task :simpleandroidbarchart:compileDebugJavaWithJavac
+> Task :simpleandroidbarchart:bundleLibResDebug
+> Task :simpleandroidbarchart:bundleLibCompileToJarDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
+> Task :simpleandroidbarchart:bundleLibRuntimeToJarDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:dexBuilderDebug
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :simpleandroidbarchart:mergeDebugJniLibFolders
+> Task :simpleandroidbarchart:mergeDebugNativeLibs NO-SOURCE
+> Task :simpleandroidbarchart:stripDebugDebugSymbols NO-SOURCE
+> Task :simpleandroidbarchart:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :simpleandroidbarchart:preReleaseBuild UP-TO-DATE
+> Task :simpleandroidbarchart:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :simpleandroidbarchart:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :simpleandroidbarchart:writeReleaseAarMetadata
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :simpleandroidbarchart:compileReleaseRenderscript NO-SOURCE
+> Task :simpleandroidbarchart:generateReleaseResValues
+> Task :simpleandroidbarchart:generateReleaseResources
+> Task :simpleandroidbarchart:packageReleaseResources
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:checkReleaseAarMetadata
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :simpleandroidbarchart:extractDeepLinksRelease
+> Task :simpleandroidbarchart:processReleaseManifest
+> Task :simpleandroidbarchart:compileReleaseLibraryResources
+
+> Task :app:processReleaseMainManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/src/main/AndroidManifest.xml Warning:
+	Package name 'com.boyzdroizy.simpleandroidbarchart' used in: AndroidManifest.xml, :simpleandroidbarchart.
+
+> Task :app:processReleaseManifest
+> Task :simpleandroidbarchart:generateReleaseBuildConfig
+> Task :simpleandroidbarchart:javaPreCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :simpleandroidbarchart:parseReleaseLocalResources
+> Task :app:processReleaseManifestForPackage
+> Task :simpleandroidbarchart:prepareLintJarForPublish
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :simpleandroidbarchart:mergeReleaseShaders
+> Task :simpleandroidbarchart:compileReleaseShaders NO-SOURCE
+> Task :simpleandroidbarchart:generateReleaseAssets UP-TO-DATE
+> Task :simpleandroidbarchart:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:checkReleaseDuplicateClasses
+> Task :simpleandroidbarchart:generateReleaseRFile
+> Task :app:mergeReleaseResources
+> Task :simpleandroidbarchart:compileReleaseKotlin
+> Task :app:processReleaseResources
+> Task :simpleandroidbarchart:compileReleaseJavaWithJavac
+> Task :simpleandroidbarchart:bundleLibCompileToJarRelease
+> Task :simpleandroidbarchart:bundleLibRuntimeToJarRelease
+> Task :app:mergeExtDexDebug
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:dexBuilderRelease
+> Task :app:desugarReleaseFileDependencies
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :simpleandroidbarchart:processReleaseJavaRes NO-SOURCE
+> Task :simpleandroidbarchart:bundleLibResRelease
+> Task :app:collectReleaseDependencies
+> Task :app:mergeReleaseJavaResource
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :simpleandroidbarchart:mergeReleaseJniLibFolders
+> Task :simpleandroidbarchart:mergeReleaseNativeLibs NO-SOURCE
+> Task :simpleandroidbarchart:stripReleaseDebugSymbols NO-SOURCE
+> Task :simpleandroidbarchart:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeExtDexRelease
+
+> Task :app:mergeDexRelease FAILED
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex: D8: Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
+com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
+	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
+	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
+	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:432)
+	at com.android.build.gradle.internal.tasks.Workers$ActionFacade.run(Workers.kt:242)
+	at org.gradle.workers.internal.AdapterWorkAction.execute(AdapterWorkAction.java:57)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:67)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:63)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:97)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:63)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:409)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:399)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:242)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:150)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:94)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:60)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$2(DefaultWorkerExecutor.java:200)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:215)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:131)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex
+	at Version.fakeStackEntry(Version_2.1.62.java:0)
+	at com.android.tools.r8.utils.Y.a(SourceFile:78)
+	at com.android.tools.r8.D8.run(D8.java:11)
+	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
+	... 33 more
+Caused by: com.android.tools.r8.utils.b: Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
+	at com.android.tools.r8.utils.T0.error(SourceFile:1)
+	at com.android.tools.r8.utils.T0.a(SourceFile:2)
+	at com.android.tools.r8.utils.R0.b(SourceFile:6)
+	at com.android.tools.r8.utils.R0.a(SourceFile:24)
+	at com.android.tools.r8.utils.R0.a(SourceFile:10)
+	at java.util.concurrent.ConcurrentHashMap.merge(ConcurrentHashMap.java:1990)
+	at com.android.tools.r8.utils.R0.a(SourceFile:6)
+	at com.android.tools.r8.graph.O0$c.f(SourceFile:3)
+	at com.android.tools.r8.dex.a.a(SourceFile:294)
+	at com.android.tools.r8.dex.a.a(SourceFile:222)
+	at com.android.tools.r8.D8.d(D8.java:6)
+	at com.android.tools.r8.D8.b(D8.java:1)
+	at com.android.tools.r8.utils.Y.a(SourceFile:36)
+	... 35 more
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:mergeDexRelease'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
+   > com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+     Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
+     Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:mergeDexRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:207)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:263)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:205)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:186)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:114)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:409)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:399)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:242)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:150)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:94)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:41)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:356)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.lambda$run$0(DefaultPlanExecutor.java:127)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:191)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:182)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:124)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:336)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:142)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:94)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:80)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:68)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.run(ExecuteActionsTaskExecuter.java:577)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:395)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:387)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:242)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:150)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:84)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:554)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:537)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$300(ExecuteActionsTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.executeWithPreviousOutputFiles(ExecuteActionsTaskExecuter.java:278)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:267)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$0(ExecuteStep.java:32)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:32)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:36)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:34)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:34)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:44)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:54)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:159)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:72)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:43)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:44)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:33)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:92)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:85)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:76)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:94)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:79)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:53)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:74)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.lambda$execute$2(SkipEmptyWorkStep.java:78)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:78)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:34)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:39)
+	at org.gradle.internal.execution.steps.LoadExecutionStateStep.execute(LoadExecutionStateStep.java:40)
+	at org.gradle.internal.execution.steps.LoadExecutionStateStep.execute(LoadExecutionStateStep.java:28)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:194)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:186)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:114)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:409)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:399)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:242)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:150)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:94)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:41)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:356)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.lambda$run$0(DefaultPlanExecutor.java:127)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:191)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:182)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:124)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+Caused by: com.android.build.api.transform.TransformException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:459)
+	at com.android.build.gradle.internal.tasks.Workers$ActionFacade.run(Workers.kt:242)
+	at org.gradle.workers.internal.AdapterWorkAction.execute(AdapterWorkAction.java:57)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:67)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:63)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:97)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:63)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:409)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:399)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:242)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:150)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:94)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:60)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$2(DefaultWorkerExecutor.java:200)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:215)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:131)
+	... 3 more
+Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
+	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
+	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
+	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:432)
+	... 25 more
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex
+	at Version.fakeStackEntry(Version_2.1.62.java:0)
+	at com.android.tools.r8.utils.Y.a(SourceFile:78)
+	at com.android.tools.r8.D8.run(D8.java:11)
+	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
+	... 27 more
+Caused by: com.android.tools.r8.utils.b: Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
+	at com.android.tools.r8.utils.T0.error(SourceFile:1)
+	at com.android.tools.r8.utils.T0.a(SourceFile:2)
+	at com.android.tools.r8.utils.R0.b(SourceFile:6)
+	at com.android.tools.r8.utils.R0.a(SourceFile:24)
+	at com.android.tools.r8.utils.R0.a(SourceFile:10)
+	at com.android.tools.r8.utils.R0.a(SourceFile:6)
+	at com.android.tools.r8.graph.O0$c.f(SourceFile:3)
+	at com.android.tools.r8.dex.a.a(SourceFile:294)
+	at com.android.tools.r8.dex.a.a(SourceFile:222)
+	at com.android.tools.r8.D8.d(D8.java:6)
+	at com.android.tools.r8.D8.b(D8.java:1)
+	at com.android.tools.r8.utils.Y.a(SourceFile:36)
+	... 29 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1m 20s
+93 actionable tasks: 93 executed
+
+2021-01-13 01:43:42,350 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/outputs/apk/debug/app-debug.apk

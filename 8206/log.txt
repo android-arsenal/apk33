@@ -1,0 +1,177 @@
+2021-01-13 01:52:10,283 INFO  DownloadService - Downloading "https://github.com/iammert/TileProgressView/archive/master.zip", attempt 3
+2021-01-13 01:52:21,115 INFO  VirusProcessorServiceImpl - Queued project 8207 to scan viruses
+2021-01-13 01:53:10,999 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-01-13 01:53:12,085 INFO  GithubDownloadService - Default branch of this repository: main
+2021-01-13 01:53:12,085 INFO  DownloadService - Downloading "https://github.com/iammert/TileProgressView/archive/main.zip", attempt 3
+2021-01-13 01:54:13,790 DEBUG FullProcessService - Repository https://github.com/iammert/TileProgressView available: true
+2021-01-13 01:54:13,790 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-01-13 01:54:13,791 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/iammert/TileProgressView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src]
+2021-01-13 01:54:16,269 INFO  SysUtils - 
+2021-01-13 01:54:16,311 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/.git": true
+2021-01-13 01:54:16,314 INFO  FullProcessService - Size of directory with sources: 875 KB
+2021-01-13 01:54:16,314 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src]
+2021-01-13 01:54:16,333 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/.git/
+
+2021-01-13 01:54:16,335 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/gradlew
+2021-01-13 01:54:16,340 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/tileprogressview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/build.gradle
+2021-01-13 01:54:16,343 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/tileprogressview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/settings.gradle
+2021-01-13 01:54:16,344 INFO  ProjectBuildService - Remote scripts: none
+2021-01-13 01:54:16,344 INFO  ProjectFixService - Fixing project...
+2021-01-13 01:54:16,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/app/local.properties
+2021-01-13 01:54:16,351 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-01-13 01:54:16,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/tileprogressview/local.properties
+2021-01-13 01:54:16,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/tileprogressview/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-01-13 01:54:16,353 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/local.properties
+2021-01-13 01:54:16,353 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-01-13 01:54:16,355 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-01-13 01:54:16,355 INFO  ProjectFixService - Project was maybe fixed
+2021-01-13 01:54:16,355 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-13 01:54:16,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-13 01:54:26,466 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-01-13 01:54:26,466 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-13 01:54:26,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-13 01:55:30,347 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :tileprogressview:preBuild UP-TO-DATE
+> Task :tileprogressview:preDebugBuild UP-TO-DATE
+> Task :tileprogressview:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :tileprogressview:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :tileprogressview:writeDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :tileprogressview:compileDebugRenderscript NO-SOURCE
+> Task :tileprogressview:generateDebugResValues
+> Task :tileprogressview:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :tileprogressview:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :tileprogressview:extractDeepLinksDebug
+> Task :tileprogressview:compileDebugLibraryResources
+> Task :tileprogressview:generateDebugBuildConfig
+> Task :tileprogressview:javaPreCompileDebug
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :tileprogressview:processDebugManifest
+> Task :app:mergeDebugShaders
+> Task :tileprogressview:parseDebugLocalResources
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :tileprogressview:mergeDebugShaders
+> Task :tileprogressview:compileDebugShaders NO-SOURCE
+> Task :tileprogressview:generateDebugAssets UP-TO-DATE
+> Task :tileprogressview:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :tileprogressview:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :tileprogressview:generateDebugRFile
+> Task :app:processDebugResources
+> Task :tileprogressview:compileDebugKotlin
+> Task :tileprogressview:compileDebugJavaWithJavac
+> Task :tileprogressview:bundleLibResDebug
+> Task :tileprogressview:bundleLibRuntimeToJarDebug
+> Task :tileprogressview:bundleLibCompileToJarDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :tileprogressview:mergeDebugJniLibFolders
+> Task :tileprogressview:mergeDebugNativeLibs NO-SOURCE
+> Task :tileprogressview:stripDebugDebugSymbols NO-SOURCE
+> Task :tileprogressview:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :tileprogressview:preReleaseBuild UP-TO-DATE
+> Task :tileprogressview:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :tileprogressview:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :tileprogressview:writeReleaseAarMetadata
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :tileprogressview:compileReleaseRenderscript NO-SOURCE
+> Task :tileprogressview:generateReleaseResValues
+> Task :tileprogressview:generateReleaseResources
+> Task :tileprogressview:packageReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:checkReleaseAarMetadata
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :tileprogressview:extractDeepLinksRelease
+> Task :tileprogressview:processReleaseManifest
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :tileprogressview:generateReleaseBuildConfig
+> Task :tileprogressview:parseReleaseLocalResources
+> Task :tileprogressview:javaPreCompileRelease
+> Task :tileprogressview:compileReleaseLibraryResources
+> Task :app:processReleaseManifestForPackage
+> Task :app:javaPreCompileRelease
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :tileprogressview:prepareLintJarForPublish
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :tileprogressview:mergeReleaseShaders
+> Task :tileprogressview:compileReleaseShaders NO-SOURCE
+> Task :tileprogressview:generateReleaseAssets UP-TO-DATE
+> Task :tileprogressview:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :tileprogressview:generateReleaseRFile
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseResources
+> Task :tileprogressview:compileReleaseKotlin
+> Task :app:processReleaseResources
+> Task :tileprogressview:compileReleaseJavaWithJavac
+> Task :tileprogressview:bundleLibCompileToJarRelease
+> Task :tileprogressview:bundleLibRuntimeToJarRelease
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:desugarReleaseFileDependencies
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :tileprogressview:processReleaseJavaRes NO-SOURCE
+> Task :tileprogressview:bundleLibResRelease
+> Task :app:collectReleaseDependencies
+> Task :app:mergeReleaseJavaResource
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :tileprogressview:mergeReleaseJniLibFolders
+> Task :tileprogressview:mergeReleaseNativeLibs NO-SOURCE
+> Task :tileprogressview:stripReleaseDebugSymbols NO-SOURCE
+> Task :tileprogressview:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 3s
+93 actionable tasks: 93 executed
+
+2021-01-13 01:55:30,411 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477530279-0/src/app/build/outputs/apk/debug/app-debug.apk

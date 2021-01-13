@@ -1,0 +1,194 @@
+2021-01-13 01:34:44,474 INFO  DownloadService - Downloading "https://github.com/mars885/value-picker/archive/master.zip", attempt 3
+2021-01-13 01:34:47,292 INFO  DownloadService - Downloaded https://github.com/mars885/value-picker/archive/master.zip, attempt 3
+2021-01-13 01:34:47,293 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/master.zip": 481 KB
+2021-01-13 01:34:47,293 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-01-13 01:34:47,307 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/master.zip: true
+2021-01-13 01:34:47,308 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src'.
+2021-01-13 01:34:47,366 INFO  FullProcessService - Size of directory with sources: 663 KB
+2021-01-13 01:34:47,370 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src]
+2021-01-13 01:34:47,427 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/.git/
+
+2021-01-13 01:34:47,452 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/gradlew
+2021-01-13 01:34:47,472 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/value-picker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/build.gradle
+2021-01-13 01:34:47,483 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/gradle/configs/app_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/gradle/configs/publishing_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/gradle/scripts/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/value-picker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/value-picker/library_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/settings.gradle
+2021-01-13 01:34:47,491 INFO  ProjectBuildService - Remote scripts: none
+2021-01-13 01:34:47,492 INFO  ProjectFixService - Fixing project...
+2021-01-13 01:34:47,568 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2021-01-13 01:34:47,569 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2021-01-13 01:34:47,593 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 30.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2021-01-13 01:34:47,596 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 30.0.2 28.0.0-rc1 28.0.0-rc2
+2021-01-13 01:34:47,622 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 30 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2021-01-13 01:34:47,623 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+2021-01-13 01:34:47,624 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/sample/local.properties
+2021-01-13 01:34:47,641 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-01-13 01:34:47,645 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-01-13 01:34:47,646 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/value-picker/local.properties
+2021-01-13 01:34:47,654 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/value-picker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-01-13 01:34:47,654 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/value-picker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-01-13 01:34:47,656 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/local.properties
+2021-01-13 01:34:47,661 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.7.1-all.zip
+2021-01-13 01:34:47,661 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.7.1-bin.zip)
+2021-01-13 01:34:47,668 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-01-13 01:34:47,668 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-01-13 01:34:47,669 INFO  ProjectFixService - Project was maybe fixed
+2021-01-13 01:34:47,671 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-13 01:34:47,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-13 01:35:56,298 INFO  ProjectTaskService - Detected possible tasks: 77
+2021-01-13 01:35:56,299 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-13 01:35:56,300 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-13 01:38:31,466 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :value-picker:preBuild UP-TO-DATE
+> Task :value-picker:preDebugBuild UP-TO-DATE
+> Task :value-picker:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :value-picker:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:dataBindingMergeDependencyArtifactsDebug
+> Task :sample:dataBindingMergeGenClassesDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :value-picker:compileDebugRenderscript NO-SOURCE
+> Task :value-picker:generateDebugResValues
+> Task :value-picker:generateDebugResources
+> Task :value-picker:packageDebugResources
+> Task :sample:generateDebugBuildConfig
+> Task :value-picker:writeDebugAarMetadata
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
+> Task :sample:mergeDebugResources
+> Task :sample:checkDebugAarMetadata
+> Task :sample:dataBindingGenBaseClassesDebug
+> Task :value-picker:extractDeepLinksDebug
+> Task :value-picker:compileDebugLibraryResources
+> Task :value-picker:processDebugManifest
+> Task :value-picker:parseDebugLocalResources
+> Task :sample:processDebugMainManifest
+> Task :sample:processDebugManifest
+> Task :value-picker:generateDebugBuildConfig
+> Task :value-picker:javaPreCompileDebug
+> Task :sample:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :sample:javaPreCompileDebug
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :value-picker:mergeDebugShaders
+> Task :value-picker:compileDebugShaders NO-SOURCE
+> Task :value-picker:generateDebugAssets UP-TO-DATE
+> Task :value-picker:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:compressDebugAssets
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :value-picker:processDebugJavaRes NO-SOURCE
+> Task :value-picker:generateDebugRFile
+> Task :value-picker:compileDebugKotlin
+> Task :value-picker:compileDebugJavaWithJavac
+> Task :sample:processDebugManifestForPackage
+> Task :value-picker:bundleLibResDebug
+> Task :value-picker:bundleLibCompileToJarDebug
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:desugarDebugFileDependencies
+> Task :sample:mergeDebugJavaResource
+> Task :sample:mergeDebugJniLibFolders
+> Task :value-picker:mergeDebugJniLibFolders
+> Task :value-picker:mergeDebugNativeLibs NO-SOURCE
+> Task :value-picker:stripDebugDebugSymbols NO-SOURCE
+> Task :value-picker:copyDebugJniLibsProjectOnly
+> Task :value-picker:bundleLibRuntimeToJarDebug
+> Task :sample:validateSigningDebug
+> Task :sample:preReleaseBuild UP-TO-DATE
+> Task :value-picker:preReleaseBuild UP-TO-DATE
+> Task :value-picker:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :value-picker:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:dataBindingMergeDependencyArtifactsRelease
+> Task :sample:dataBindingMergeGenClassesRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :value-picker:compileReleaseRenderscript NO-SOURCE
+> Task :value-picker:generateReleaseResValues
+> Task :value-picker:generateReleaseResources
+> Task :value-picker:packageReleaseResources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
+> Task :sample:generateReleaseBuildConfig
+> Task :value-picker:writeReleaseAarMetadata
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
+> Task :value-picker:extractDeepLinksRelease
+> Task :value-picker:compileReleaseLibraryResources
+> Task :sample:checkReleaseAarMetadata
+> Task :value-picker:processReleaseManifest
+> Task :value-picker:parseReleaseLocalResources
+> Task :value-picker:generateReleaseBuildConfig
+> Task :sample:mergeReleaseResources
+> Task :sample:dexBuilderDebug
+> Task :sample:mergeLibDexDebug
+> Task :sample:dataBindingGenBaseClassesRelease
+> Task :sample:processReleaseMainManifest
+> Task :sample:processReleaseManifest
+> Task :sample:mergeProjectDexDebug
+> Task :value-picker:javaPreCompileRelease
+> Task :sample:javaPreCompileRelease
+> Task :value-picker:prepareLintJarForPublish
+> Task :sample:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
+> Task :sample:mergeExtDexDebug
+> Task :value-picker:mergeReleaseShaders
+> Task :value-picker:generateReleaseRFile
+> Task :value-picker:compileReleaseShaders NO-SOURCE
+> Task :value-picker:compileReleaseKotlin
+> Task :value-picker:compileReleaseJavaWithJavac
+> Task :value-picker:generateReleaseAssets UP-TO-DATE
+> Task :value-picker:packageReleaseAssets
+> Task :value-picker:bundleLibCompileToJarRelease
+> Task :sample:mergeReleaseAssets
+> Task :sample:compressReleaseAssets
+> Task :value-picker:bundleLibRuntimeToJarRelease
+> Task :sample:desugarReleaseFileDependencies
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :value-picker:processReleaseJavaRes NO-SOURCE
+> Task :value-picker:bundleLibResRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:collectReleaseDependencies
+> Task :sample:processReleaseManifestForPackage
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :sample:packageDebug
+> Task :sample:lintVitalRelease
+> Task :sample:dexBuilderRelease
+> Task :sample:sdkReleaseDependencyData
+> Task :sample:mergeReleaseJniLibFolders
+> Task :value-picker:mergeReleaseJniLibFolders
+> Task :value-picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :value-picker:stripReleaseDebugSymbols NO-SOURCE
+> Task :value-picker:copyReleaseJniLibsProjectOnly
+> Task :sample:assembleDebug
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.7.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2m 34s
+100 actionable tasks: 100 executed
+
+2021-01-13 01:38:31,623 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476484388-0/src/value-picker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

@@ -136,7 +136,8 @@
   "com.google.gson.reflect" : [ "TypeToken" ],
   "com.google.gson.stream" : [ "JsonReader", "JsonReader$1", "JsonScope", "JsonToken", "JsonWriter", "MalformedJsonException" ],
   "com.maps.route" : [ "BuildConfig", "DrawerApi", "R", "R$anim", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$interpolator", "R$layout", "R$string", "R$style", "R$styleable", "RouteApi", "RouteDrawer", "RouteDrawer$Companion", "RouteDrawer$RouteDrawerBuilder", "RouteRest", "RouteRest$getJsonDirections$1" ],
-  "com.maps.route.extensions" : [ "MapExtensionKt", "MapExtensionKt$drawRouteOnMap$2", "MapExtensionKt$drawRouteOnMap$3", "ViewExtensionKt" ],
+  "com.maps.route.callbacks" : [ "EstimationsCallBack" ],
+  "com.maps.route.extensions" : [ "MapExtensionKt", "MapExtensionKt$drawRouteOnMap$2", "MapExtensionKt$drawRouteOnMap$3", "MapExtensionKt$getTravelEstimations$1", "MapExtensionKt$getTravelEstimations$2", "ViewExtensionKt" ],
   "com.maps.route.model" : [ "Bounds", "Distance", "Duration", "GeoPoint", "Legs", "Route", "Routes", "Step", "TravelMode" ],
   "com.maps.route.parser" : [ "RouteJsonParser", "RouteParser" ],
   "com.maps.route.utils" : [ "MapUtils" ],
@@ -238,7 +239,7 @@
   "org.koin.core.scope" : [ "Scope", "Scope$get$1", "Scope$inject$1", "Scope$injectOrNull$1", "ScopeCallback", "ScopeDefinition", "ScopeDefinition$Companion", "ScopeDefinition$saveNewDefinition$beanDefinition$1", "ScopeKt" ],
   "org.koin.core.time" : [ "MeasureKt" ],
   "org.koin.dsl" : [ "DefinitionBindingKt", "KoinApplicationKt", "ModuleKt", "ScopeDSL" ],
-  "org.koin.ext" : [ "InjectPropertyKt", "InstanceScopeExtKt", "KClassExtKt", "StringExtKt" ],
+  "org.koin.ext" : [ "InjectPropertyKt", "InstanceScopeExtKt", "KClassExtKt", "KoinPropertyExtKt", "StringExtKt" ],
   "org.koin.java" : [ "KoinJavaComponent", "KoinJavaComponent$inject$1" ],
   "org.reactivestreams" : [ "FlowAdapters", "FlowAdapters$FlowPublisherFromReactive", "FlowAdapters$FlowToReactiveProcessor", "FlowAdapters$FlowToReactiveSubscriber", "FlowAdapters$FlowToReactiveSubscription", "FlowAdapters$ReactivePublisherFromFlow", "FlowAdapters$ReactiveToFlowProcessor", "FlowAdapters$ReactiveToFlowSubscriber", "FlowAdapters$ReactiveToFlowSubscription", "Processor", "Publisher", "Subscriber", "Subscription" ]
 }

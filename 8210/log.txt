@@ -1,0 +1,271 @@
+2021-01-13 01:38:32,882 INFO  DownloadService - Downloading "https://github.com/RaviKoradiya/LiveAdapter/archive/master.zip", attempt 3
+2021-01-13 01:38:35,096 INFO  DownloadService - Downloaded https://github.com/RaviKoradiya/LiveAdapter/archive/master.zip, attempt 3
+2021-01-13 01:38:35,096 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/master.zip": 265 KB
+2021-01-13 01:38:35,096 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-01-13 01:38:35,097 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/master.zip: true
+2021-01-13 01:38:35,097 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src'.
+2021-01-13 01:38:35,129 INFO  FullProcessService - Size of directory with sources: 299 KB
+2021-01-13 01:38:35,129 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src]
+2021-01-13 01:38:35,186 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/.git/
+
+2021-01-13 01:38:35,192 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/gradlew
+2021-01-13 01:38:35,197 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/build.gradle
+2021-01-13 01:38:35,204 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/settings.gradle
+2021-01-13 01:38:35,205 INFO  ProjectBuildService - Remote scripts: none
+2021-01-13 01:38:35,205 INFO  ProjectFixService - Fixing project...
+2021-01-13 01:38:35,222 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/local.properties
+2021-01-13 01:38:35,224 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-01-13 01:38:35,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/local.properties
+2021-01-13 01:38:35,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-01-13 01:38:35,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/local.properties
+2021-01-13 01:38:35,231 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2021-01-13 01:38:35,233 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2021-01-13 01:38:35,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-01-13 01:38:35,235 INFO  ProjectFixService - Project was maybe fixed
+2021-01-13 01:38:35,235 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-13 01:38:35,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-13 01:38:48,448 INFO  VirusProcessorServiceImpl - Queued project 8212 to scan viruses
+2021-01-13 01:39:07,803 INFO  ProjectTaskService - Detected possible tasks: 73
+2021-01-13 01:39:07,804 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-13 01:39:07,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-13 01:41:28,894 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.5/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+
+> Configure project :app
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
+> Configure project :liveadapter
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :liveadapter:preBuild UP-TO-DATE
+> Task :liveadapter:preDebugBuild UP-TO-DATE
+> Task :liveadapter:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :liveadapter:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :liveadapter:dataBindingMergeDependencyArtifactsDebug
+> Task :liveadapter:compileDebugRenderscript NO-SOURCE
+> Task :liveadapter:dataBindingMergeGenClassesDebug
+> Task :liveadapter:generateDebugResValues
+> Task :liveadapter:generateDebugResources
+> Task :liveadapter:packageDebugResources
+> Task :liveadapter:dataBindingGenBaseClassesDebug
+> Task :liveadapter:dataBindingTriggerDebug
+> Task :liveadapter:parseDebugLocalResources
+> Task :liveadapter:generateDebugBuildConfig
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :liveadapter:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:dataBindingTriggerDebug
+> Task :app:generateDebugBuildConfig
+> Task :liveadapter:generateDebugRFile
+> Task :liveadapter:writeDebugAarMetadata
+> Task :liveadapter:kaptGenerateStubsDebugKotlin
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:checkDebugAarMetadata
+> Task :app:extractDeepLinksDebug
+> Task :liveadapter:extractDeepLinksDebug
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :liveadapter:compileDebugLibraryResources
+> Task :liveadapter:javaPreCompileDebug
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:processDebugManifestForPackage
+> Task :app:javaPreCompileDebug
+> Task :app:processDebugResources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :liveadapter:mergeDebugShaders
+> Task :liveadapter:compileDebugShaders NO-SOURCE
+> Task :liveadapter:generateDebugAssets UP-TO-DATE
+> Task :liveadapter:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :liveadapter:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :liveadapter:kaptDebugKotlin
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingGenBaseClassesDebug
+
+> Task :liveadapter:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (95, 72): Elvis operator (?:) always returns the left operand of non-nullable type Boolean
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (125, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (128, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (180, 39): 'getter for adapterPosition: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (193, 29): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (225, 31): 'getter for adapterPosition: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (240, 33): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (257, 29): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (257, 46): Elvis operator (?:) always returns the left operand of non-nullable type Int
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (266, 33): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (279, 33): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (292, 29): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (313, 29): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (379, 29): Unchecked cast: Any to P1
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (379, 40): Unchecked cast: Any to P1
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (383, 35): Unchecked cast: Any to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (383, 45): Unchecked cast: Any to T
+
+> Task :liveadapter:compileDebugJavaWithJavac
+> Task :liveadapter:bundleLibResDebug
+> Task :liveadapter:bundleLibRuntimeToJarDebug
+> Task :liveadapter:bundleLibCompileToJarDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:mergeDebugJniLibFolders
+> Task :liveadapter:mergeDebugJniLibFolders
+> Task :liveadapter:mergeDebugNativeLibs NO-SOURCE
+> Task :liveadapter:stripDebugDebugSymbols NO-SOURCE
+> Task :liveadapter:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :liveadapter:preReleaseBuild UP-TO-DATE
+> Task :liveadapter:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :liveadapter:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :liveadapter:dataBindingMergeDependencyArtifactsRelease
+> Task :liveadapter:dataBindingMergeGenClassesRelease
+> Task :liveadapter:compileReleaseRenderscript NO-SOURCE
+> Task :liveadapter:generateReleaseResValues
+> Task :liveadapter:generateReleaseResources
+> Task :liveadapter:packageReleaseResources
+> Task :liveadapter:dataBindingGenBaseClassesRelease
+> Task :liveadapter:parseReleaseLocalResources
+> Task :liveadapter:dataBindingTriggerRelease
+> Task :liveadapter:processReleaseManifest
+> Task :liveadapter:generateReleaseBuildConfig
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :liveadapter:generateReleaseRFile
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+
+> Task :app:kaptDebugKotlin
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/build/tmp/kapt3/stubs/debug/com/sample/liveadapter/db/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends androidx.room.RoomDatabase {
+                ^ANTLR Tool version 4.5.3 used for code generation does not match the current runtime version 4.7.1ANTLR Runtime version 4.5.3 used for parser compilation does not match the current runtime version 4.7.1ANTLR Tool version 4.5.3 used for code generation does not match the current runtime version 4.7.1ANTLR Runtime version 4.5.3 used for parser compilation does not match the current runtime version 4.7.1
+> Task :app:mergeReleaseResources
+
+> Task :app:kaptDebugKotlin
+[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
+
+> Task :liveadapter:kaptGenerateStubsReleaseKotlin
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/src/main/java/com/sample/liveadapter/ui/HomeActivity.kt: (48, 40): Name shadowed: destination
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/src/main/java/com/sample/liveadapter/ui/LiveDataVsObservableListActivity.kt: (48, 58): Parameter 'buttonView' is never used, could be renamed to _
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:dataBindingTriggerRelease
+> Task :app:generateReleaseBuildConfig
+> Task :liveadapter:writeReleaseAarMetadata
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :liveadapter:extractDeepLinksRelease
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :liveadapter:compileReleaseLibraryResources
+> Task :app:checkReleaseAarMetadata
+> Task :liveadapter:javaPreCompileRelease
+> Task :app:processReleaseManifestForPackage
+> Task :app:javaPreCompileRelease
+> Task :app:mergeDebugJavaResource
+> Task :app:processReleaseResources
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :liveadapter:prepareLintJarForPublish
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :liveadapter:mergeReleaseShaders
+> Task :liveadapter:compileReleaseShaders NO-SOURCE
+> Task :liveadapter:generateReleaseAssets UP-TO-DATE
+> Task :liveadapter:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:checkReleaseDuplicateClasses
+> Task :liveadapter:kaptReleaseKotlin
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:mergeExtDexDebug
+
+> Task :liveadapter:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (95, 72): Elvis operator (?:) always returns the left operand of non-nullable type Boolean
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (125, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (128, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (180, 39): 'getter for adapterPosition: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (193, 29): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (225, 31): 'getter for adapterPosition: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (240, 33): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (257, 29): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (257, 46): Elvis operator (?:) always returns the left operand of non-nullable type Int
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (266, 33): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (279, 33): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (292, 29): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (313, 29): Unnecessary safe call on a non-null receiver of type LiveListCallback
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (379, 29): Unchecked cast: Any to P1
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (379, 40): Unchecked cast: Any to P1
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (383, 35): Unchecked cast: Any to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/liveadapter/src/main/java/com/ravikoradiya/liveadapter/LiveAdapter.kt: (383, 45): Unchecked cast: Any to T
+
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :liveadapter:compileReleaseJavaWithJavac
+> Task :liveadapter:bundleLibRuntimeToJarRelease
+> Task :liveadapter:bundleLibCompileToJarRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :liveadapter:processReleaseJavaRes NO-SOURCE
+> Task :liveadapter:bundleLibResRelease
+> Task :app:mergeDexDebug
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :liveadapter:mergeReleaseJniLibFolders
+> Task :liveadapter:mergeReleaseNativeLibs NO-SOURCE
+> Task :liveadapter:stripReleaseDebugSymbols NO-SOURCE
+> Task :liveadapter:copyReleaseJniLibsProjectOnly
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+
+> Task :app:kaptReleaseKotlin
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/build/tmp/kapt3/stubs/release/com/sample/liveadapter/db/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends androidx.room.RoomDatabase {
+                ^ANTLR Tool version 4.5.3 used for code generation does not match the current runtime version 4.7.1ANTLR Runtime version 4.5.3 used for parser compilation does not match the current runtime version 4.7.1ANTLR Tool version 4.5.3 used for code generation does not match the current runtime version 4.7.1ANTLR Runtime version 4.5.3 used for parser compilation does not match the current runtime version 4.7.1[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/src/main/java/com/sample/liveadapter/ui/HomeActivity.kt: (48, 40): Name shadowed: destination
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/src/main/java/com/sample/liveadapter/ui/LiveDataVsObservableListActivity.kt: (48, 58): Parameter 'buttonView' is never used, could be renamed to _
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2m 20s
+115 actionable tasks: 115 executed
+
+2021-01-13 01:41:29,004 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476712878-0/src/LiveAdapter-master/app/build/outputs/apk/debug/app-debug.apk

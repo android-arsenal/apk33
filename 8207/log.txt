@@ -1,0 +1,169 @@
+2021-01-13 01:47:45,196 INFO  DownloadService - Downloading "https://github.com/jianastrero/kdimens-extensions/archive/master.zip", attempt 3
+2021-01-13 01:47:51,614 INFO  DownloadService - Downloading "https://github.com/jianastrero/kdimens-extensions/archive/master.zip", attempt 2
+2021-01-13 01:47:57,190 INFO  DownloadService - Downloading "https://github.com/jianastrero/kdimens-extensions/archive/master.zip", attempt 1
+2021-01-13 01:48:04,089 INFO  VirusProcessorServiceImpl - Queued project 8208 to scan viruses
+2021-01-13 01:48:58,410 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-01-13 01:48:59,569 INFO  GithubDownloadService - Default branch of this repository: main
+2021-01-13 01:48:59,570 INFO  DownloadService - Downloading "https://github.com/jianastrero/kdimens-extensions/archive/main.zip", attempt 3
+2021-01-13 01:50:01,896 DEBUG FullProcessService - Repository https://github.com/jianastrero/kdimens-extensions available: true
+2021-01-13 01:50:01,896 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-01-13 01:50:01,896 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jianastrero/kdimens-extensions, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src]
+2021-01-13 01:50:05,091 INFO  SysUtils - 
+2021-01-13 01:50:05,126 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/.git": true
+2021-01-13 01:50:05,129 INFO  FullProcessService - Size of directory with sources: 157 KB
+2021-01-13 01:50:05,129 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src]
+2021-01-13 01:50:05,149 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/.git/
+
+2021-01-13 01:50:05,152 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/gradlew
+2021-01-13 01:50:05,155 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/kdimens_extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/build.gradle
+2021-01-13 01:50:05,160 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/kdimens_extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/settings.gradle
+2021-01-13 01:50:05,161 INFO  ProjectBuildService - Remote scripts: none
+2021-01-13 01:50:05,161 INFO  ProjectFixService - Fixing project...
+2021-01-13 01:50:05,169 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/app/local.properties
+2021-01-13 01:50:05,169 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=14,targetSdkVersion=30]
+2021-01-13 01:50:05,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/kdimens_extensions/local.properties
+2021-01-13 01:50:05,171 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/kdimens_extensions/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=14,targetSdkVersion=30]
+2021-01-13 01:50:05,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/local.properties
+2021-01-13 01:50:05,172 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2021-01-13 01:50:05,172 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2021-01-13 01:50:05,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=14,targetSdkVersion=30]
+2021-01-13 01:50:05,173 INFO  ProjectFixService - Project was maybe fixed
+2021-01-13 01:50:05,174 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-13 01:50:05,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-13 01:50:43,613 INFO  ProjectTaskService - Detected possible tasks: 71
+2021-01-13 01:50:43,613 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-13 01:50:43,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-13 01:52:09,862 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :kdimens_extensions:preBuild UP-TO-DATE
+> Task :kdimens_extensions:preDebugBuild UP-TO-DATE
+> Task :kdimens_extensions:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :kdimens_extensions:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :kdimens_extensions:generateDebugResValues
+> Task :kdimens_extensions:compileDebugRenderscript NO-SOURCE
+> Task :kdimens_extensions:generateDebugResources
+> Task :kdimens_extensions:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :kdimens_extensions:extractDeepLinksDebug
+> Task :kdimens_extensions:compileDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :kdimens_extensions:processDebugManifest
+> Task :app:processDebugManifest
+> Task :kdimens_extensions:parseDebugLocalResources
+> Task :kdimens_extensions:generateDebugBuildConfig
+> Task :kdimens_extensions:javaPreCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :kdimens_extensions:mergeDebugShaders
+> Task :kdimens_extensions:compileDebugShaders NO-SOURCE
+> Task :kdimens_extensions:generateDebugAssets UP-TO-DATE
+> Task :kdimens_extensions:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :kdimens_extensions:processDebugJavaRes NO-SOURCE
+> Task :kdimens_extensions:generateDebugRFile
+> Task :app:processDebugResources
+> Task :kdimens_extensions:compileDebugKotlin
+> Task :kdimens_extensions:compileDebugJavaWithJavac
+> Task :kdimens_extensions:bundleLibResDebug
+> Task :kdimens_extensions:bundleLibRuntimeToJarDebug
+> Task :kdimens_extensions:bundleLibCompileToJarDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:checkDebugDuplicateClasses
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :kdimens_extensions:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :kdimens_extensions:preReleaseBuild UP-TO-DATE
+> Task :kdimens_extensions:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :kdimens_extensions:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :kdimens_extensions:compileReleaseRenderscript NO-SOURCE
+> Task :kdimens_extensions:generateReleaseResValues
+> Task :kdimens_extensions:generateReleaseResources
+> Task :kdimens_extensions:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :kdimens_extensions:extractDeepLinksRelease
+> Task :kdimens_extensions:compileReleaseLibraryResources
+> Task :kdimens_extensions:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :kdimens_extensions:generateReleaseBuildConfig
+> Task :kdimens_extensions:mergeDebugNativeLibs
+> Task :kdimens_extensions:stripDebugDebugSymbols NO-SOURCE
+> Task :kdimens_extensions:copyDebugJniLibsProjectOnly
+> Task :app:mergeReleaseResources
+> Task :kdimens_extensions:parseReleaseLocalResources
+> Task :app:javaPreCompileRelease
+> Task :kdimens_extensions:javaPreCompileRelease
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :kdimens_extensions:prepareLintJarForPublish
+> Task :kdimens_extensions:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :kdimens_extensions:compileReleaseKotlin
+> Task :kdimens_extensions:compileReleaseJavaWithJavac
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :kdimens_extensions:bundleLibRuntimeToJarRelease
+> Task :kdimens_extensions:bundleLibCompileToJarRelease
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :kdimens_extensions:mergeReleaseShaders
+> Task :kdimens_extensions:compileReleaseShaders NO-SOURCE
+> Task :kdimens_extensions:generateReleaseAssets UP-TO-DATE
+> Task :kdimens_extensions:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :kdimens_extensions:processReleaseJavaRes NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :kdimens_extensions:mergeReleaseJniLibFolders
+> Task :kdimens_extensions:bundleLibResRelease
+> Task :kdimens_extensions:mergeReleaseNativeLibs
+> Task :kdimens_extensions:stripReleaseDebugSymbols NO-SOURCE
+> Task :kdimens_extensions:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 25s
+86 actionable tasks: 86 executed
+
+2021-01-13 01:52:09,924 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477265192-0/src/app/build/outputs/apk/debug/app-debug.apk
