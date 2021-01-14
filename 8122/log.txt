@@ -1,45 +1,43 @@
-2020-10-06 22:06:15,047 INFO  DownloadService - Downloading "https://github.com/AraujoJordan/ExcuseMe/archive/master.zip", attempt 3
-2020-10-06 22:06:31,530 INFO  VirusProcessorServiceImpl - Queued project 8140 to scan viruses
-2020-10-06 22:07:15,668 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-10-06 22:07:16,691 INFO  GithubDownloadService - Default branch of this repository: master
-2020-10-06 22:07:16,691 INFO  DownloadService - Downloading "https://github.com/AraujoJordan/ExcuseMe/archive/master.zip", attempt 3
-2020-10-06 22:08:18,441 DEBUG FullProcessService - Repository https://github.com/AraujoJordan/ExcuseMe available: true
-2020-10-06 22:08:18,441 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-10-06 22:08:18,441 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AraujoJordan/ExcuseMe, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src]
-2020-10-06 22:08:31,939 INFO  SysUtils - 
-2020-10-06 22:08:31,948 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/.git": true
-2020-10-06 22:08:31,953 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-10-06 22:08:31,953 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src]
-2020-10-06 22:08:31,973 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/.git/
+2021-01-14 13:37:33,245 INFO  DownloadService - Downloading "https://github.com/AraujoJordan/ExcuseMe/archive/master.zip", attempt 3
+2021-01-14 13:37:49,125 INFO  VirusProcessorServiceImpl - Queued project 8124 to scan viruses
+2021-01-14 13:38:33,815 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-01-14 13:38:34,907 INFO  GithubDownloadService - Default branch of this repository: master
+2021-01-14 13:38:34,908 INFO  DownloadService - Downloading "https://github.com/AraujoJordan/ExcuseMe/archive/master.zip", attempt 3
+2021-01-14 13:39:36,155 DEBUG FullProcessService - Repository https://github.com/AraujoJordan/ExcuseMe available: true
+2021-01-14 13:39:36,156 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-01-14 13:39:36,156 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AraujoJordan/ExcuseMe, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src]
+2021-01-14 13:39:40,347 INFO  SysUtils - 
+2021-01-14 13:39:40,355 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/.git": true
+2021-01-14 13:39:40,360 INFO  FullProcessService - Size of directory with sources: 2 MB
+2021-01-14 13:39:40,360 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src]
+2021-01-14 13:39:40,379 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/.git/
 
-2020-10-06 22:08:31,977 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/gradlew
-2020-10-06 22:08:31,981 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/excuseme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/build.gradle
-2020-10-06 22:08:31,985 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/excuseme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/settings.gradle
-2020-10-06 22:08:31,986 INFO  ProjectBuildService - Remote scripts: none
-2020-10-06 22:08:31,986 INFO  ProjectFixService - Fixing project...
-2020-10-06 22:08:31,995 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/app/local.properties
-2020-10-06 22:08:31,996 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-10-06 22:08:31,996 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-10-06 22:08:31,997 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/excuseme/local.properties
-2020-10-06 22:08:31,997 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/excuseme/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-10-06 22:08:31,997 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/excuseme/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-10-06 22:08:31,999 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/local.properties
-2020-10-06 22:08:31,999 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.4-all.zip
-2020-10-06 22:08:32,000 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.4-bin.zip)
-2020-10-06 22:08:32,001 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-10-06 22:08:32,001 INFO  ProjectFixService - Project was maybe fixed
-2020-10-06 22:08:32,001 INFO  ProjectTaskService - Detecting possible tasks...
-2020-10-06 22:08:32,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-10-06 22:08:58,244 INFO  ProjectTaskService - Detected possible tasks: 74
-2020-10-06 22:08:58,244 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-10-06 22:08:58,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-10-06 22:10:31,993 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
-Android SDK Build Tools 29.0.2 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
-Android SDK Build Tools 29.0.2 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2021-01-14 13:39:40,384 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/gradlew
+2021-01-14 13:39:40,388 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/excuseme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/build.gradle
+2021-01-14 13:39:40,392 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/excuseme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/settings.gradle
+2021-01-14 13:39:40,393 INFO  ProjectBuildService - Remote scripts: none
+2021-01-14 13:39:40,393 INFO  ProjectFixService - Fixing project...
+2021-01-14 13:39:40,404 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/app/local.properties
+2021-01-14 13:39:40,404 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-01-14 13:39:40,404 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/excuseme/local.properties
+2021-01-14 13:39:40,405 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/excuseme/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-01-14 13:39:40,406 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/local.properties
+2021-01-14 13:39:40,406 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-01-14 13:39:40,407 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-01-14 13:39:40,408 INFO  ProjectFixService - Project was maybe fixed
+2021-01-14 13:39:40,408 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-14 13:39:40,408 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-14 13:39:52,830 INFO  ProjectTaskService - Detected possible tasks: 68
+2021-01-14 13:39:52,830 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-14 13:39:52,830 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-14 13:41:25,969 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+
+> Configure project :excuseme
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :excuseme:preBuild UP-TO-DATE
@@ -47,8 +45,10 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :excuseme:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :excuseme:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :excuseme:writeDebugAarMetadata
+> Task :app:checkDebugAarMetadata
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :excuseme:compileDebugRenderscript NO-SOURCE
@@ -58,13 +58,17 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :excuseme:extractDeepLinksDebug
+> Task :excuseme:compileDebugLibraryResources
 > Task :app:mergeDebugResources
 > Task :excuseme:processDebugManifest
+> Task :excuseme:parseDebugLocalResources
+> Task :app:processDebugMainManifest
 > Task :app:processDebugManifest
-> Task :excuseme:compileDebugLibraryResources
 > Task :excuseme:generateDebugBuildConfig
 > Task :excuseme:javaPreCompileDebug
+> Task :app:processDebugManifestForPackage
 > Task :app:javaPreCompileDebug
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
 > Task :app:generateDebugAssets UP-TO-DATE
@@ -73,28 +77,31 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :excuseme:generateDebugAssets UP-TO-DATE
 > Task :excuseme:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :excuseme:parseDebugLocalResources
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :excuseme:processDebugJavaRes NO-SOURCE
 > Task :excuseme:generateDebugRFile
+> Task :app:compressDebugAssets
 > Task :app:processDebugResources
 > Task :excuseme:compileDebugKotlin
 > Task :excuseme:compileDebugJavaWithJavac
-> Task :excuseme:bundleLibResDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :excuseme:processDebugJavaRes NO-SOURCE
 > Task :excuseme:bundleLibCompileToJarDebug
+> Task :excuseme:bundleLibResDebug
+> Task :excuseme:jacocoDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/app/src/main/java/com/araujo/jordan/excusemesample/ExampleActivity.kt: (156, 56): Parameter 'result' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/app/src/main/java/com/araujo/jordan/excusemesample/ExampleActivity.kt: (155, 56): Parameter 'result' is never used, could be renamed to _
 
 > Task :app:compileDebugJavaWithJavac
-> Task :excuseme:jacocoDebug
 > Task :app:compileDebugSources
-> Task :app:checkDebugDuplicateClasses
-> Task :app:dexBuilderDebug
-> Task :app:mergeDebugJavaResource
 > Task :excuseme:bundleLibRuntimeToJarDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:dexBuilderDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJniLibFolders
 > Task :excuseme:mergeDebugJniLibFolders
+> Task :excuseme:mergeDebugNativeLibs NO-SOURCE
+> Task :excuseme:stripDebugDebugSymbols NO-SOURCE
+> Task :excuseme:copyDebugJniLibsProjectOnly
 > Task :app:validateSigningDebug
 > Task :app:extractProguardFiles
 > Task :app:preReleaseBuild
@@ -104,92 +111,81 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/
 > Task :excuseme:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
+> Task :excuseme:writeReleaseAarMetadata
+> Task :app:checkReleaseAarMetadata
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :excuseme:compileReleaseRenderscript NO-SOURCE
 > Task :excuseme:generateReleaseResValues
 > Task :excuseme:generateReleaseResources
 > Task :excuseme:packageReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :excuseme:extractDeepLinksRelease
-> Task :excuseme:mergeDebugNativeLibs
-> Task :excuseme:stripDebugDebugSymbols NO-SOURCE
-> Task :excuseme:copyDebugJniLibsProjectOnly
 > Task :excuseme:processReleaseManifest
+> Task :app:processReleaseMainManifest
 > Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
-> Task :excuseme:generateReleaseBuildConfig
 > Task :excuseme:compileReleaseLibraryResources
+> Task :excuseme:generateReleaseBuildConfig
 > Task :excuseme:javaPreCompileRelease
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
-> Task :app:javaPreCompileRelease
 > Task :excuseme:parseReleaseLocalResources
-> Task :app:prepareLintJar
+> Task :app:processReleaseManifestForPackage
+> Task :app:javaPreCompileRelease
+> Task :excuseme:generateReleaseRFile
+> Task :excuseme:prepareLintJarForPublish
+> Task :app:mergeReleaseResources
+> Task :excuseme:compileReleaseKotlin
+> Task :app:processReleaseResources
+> Task :excuseme:compileReleaseJavaWithJavac
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
+> Task :excuseme:bundleLibCompileToJarRelease
 > Task :excuseme:mergeReleaseShaders
 > Task :excuseme:compileReleaseShaders NO-SOURCE
 > Task :excuseme:generateReleaseAssets UP-TO-DATE
 > Task :excuseme:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :excuseme:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :excuseme:compileReleaseKotlin
-> Task :excuseme:compileReleaseJavaWithJavac
-> Task :excuseme:prepareLintJarForPublish
-> Task :excuseme:bundleLibCompileToJarRelease
+> Task :app:compressReleaseAssets
+> Task :excuseme:mergeReleaseGeneratedProguardFiles
+> Task :excuseme:exportReleaseConsumerProguardFiles
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/app/src/main/java/com/araujo/jordan/excusemesample/ExampleActivity.kt: (156, 56): Parameter 'result' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/app/src/main/java/com/araujo/jordan/excusemesample/ExampleActivity.kt: (155, 56): Parameter 'result' is never used, could be renamed to _
 
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-
-> Task :app:lintVitalRelease
-WARNING: [Processor] Library '/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.robolectric/shadows-framework/4.3.1/da048a93951f4d9e46519749c53b0f868dfdf425/shadows-framework-4.3.1.jar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
- Example of androidX reference: 'androidx/test/runner/lifecycle/Stage'
- Example of support library reference: 'android/support/annotation/NonNull'
-
 > Task :app:mergeExtDexDebug
-> Task :excuseme:mergeReleaseGeneratedProguardFiles
-> Task :app:checkReleaseDuplicateClasses
+> Task :app:lintVitalRelease
 > Task :app:mergeReleaseGeneratedProguardFiles
-> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :excuseme:processReleaseJavaRes NO-SOURCE
+> Task :excuseme:bundleLibResRelease
+> Task :excuseme:bundleLibRuntimeToJarRelease
 > Task :app:collectReleaseDependencies
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :excuseme:mergeReleaseJniLibFolders
-> Task :excuseme:bundleLibResRelease
-> Task :excuseme:mergeReleaseNativeLibs
+> Task :excuseme:mergeReleaseNativeLibs NO-SOURCE
 > Task :excuseme:stripReleaseDebugSymbols NO-SOURCE
 > Task :excuseme:copyReleaseJniLibsProjectOnly
-> Task :excuseme:exportReleaseConsumerProguardFiles
-> Task :excuseme:bundleLibRuntimeToJarRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:mergeReleaseJavaResource
-
+> Task :app:mergeDexDebug
 > Task :app:minifyReleaseWithR8
-R8: Missing class: java.lang.instrument.ClassFileTransformer
-R8: Missing class: sun.misc.SignalHandler
-
 > Task :app:packageRelease
 > Task :app:assembleRelease
-> Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/6.4/userguide/command_line_interface.html#sec:command_line_warnings
-
 BUILD SUCCESSFUL in 1m 32s
-87 actionable tasks: 87 executed
+94 actionable tasks: 94 executed
 
-2020-10-06 22:10:32,066 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601996775042-0/src/app/build/outputs/apk/debug/app-debug.apk
+2021-01-14 13:41:26,043 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610606253241-0/src/app/build/outputs/apk/debug/app-debug.apk

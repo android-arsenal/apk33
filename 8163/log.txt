@@ -1,37 +1,45 @@
-2020-11-09 04:21:44,022 INFO  DownloadService - Downloading "https://github.com/SimformSolutionsPvtLtd/SSCustomBottomNavigation/archive/master.zip", attempt 3
-2020-11-09 04:22:02,190 INFO  VirusProcessorServiceImpl - Queued project 8187 to scan viruses
-2020-11-09 04:22:44,645 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-11-09 04:22:45,618 INFO  GithubDownloadService - Default branch of this repository: master
-2020-11-09 04:22:45,618 INFO  DownloadService - Downloading "https://github.com/SimformSolutionsPvtLtd/SSCustomBottomNavigation/archive/master.zip", attempt 3
-2020-11-09 04:23:46,953 DEBUG FullProcessService - Repository https://github.com/SimformSolutionsPvtLtd/SSCustomBottomNavigation available: true
-2020-11-09 04:23:46,953 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-11-09 04:23:46,954 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SimformSolutionsPvtLtd/SSCustomBottomNavigation, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src]
-2020-11-09 04:23:49,940 INFO  SysUtils - 
-2020-11-09 04:23:49,950 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/.git": true
-2020-11-09 04:23:49,956 INFO  FullProcessService - Size of directory with sources: 5 MB
-2020-11-09 04:23:49,956 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src]
-2020-11-09 04:23:49,979 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/.git/
+2021-01-14 13:19:55,151 INFO  DownloadService - Downloading "https://github.com/SimformSolutionsPvtLtd/SSCustomBottomNavigation/archive/master.zip", attempt 3
+2021-01-14 13:20:03,836 INFO  VirusProcessorServiceImpl - Queued project 8165 to scan viruses
+2021-01-14 13:20:55,737 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-01-14 13:20:56,580 INFO  GithubDownloadService - Default branch of this repository: master
+2021-01-14 13:20:56,580 INFO  DownloadService - Downloading "https://github.com/SimformSolutionsPvtLtd/SSCustomBottomNavigation/archive/master.zip", attempt 3
+2021-01-14 13:21:58,891 DEBUG FullProcessService - Repository https://github.com/SimformSolutionsPvtLtd/SSCustomBottomNavigation available: true
+2021-01-14 13:21:58,891 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-01-14 13:21:58,891 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SimformSolutionsPvtLtd/SSCustomBottomNavigation, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src]
+2021-01-14 13:22:07,841 INFO  SysUtils - 
+2021-01-14 13:22:07,849 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/.git": true
+2021-01-14 13:22:07,853 INFO  FullProcessService - Size of directory with sources: 5 MB
+2021-01-14 13:22:07,853 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src]
+2021-01-14 13:22:07,872 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/.git/
 
-2020-11-09 04:23:49,984 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/gradlew
-2020-11-09 04:23:49,988 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/custombottomnavigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/build.gradle
-2020-11-09 04:23:49,993 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/custombottomnavigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/settings.gradle
-2020-11-09 04:23:49,993 INFO  ProjectBuildService - Remote scripts: none
-2020-11-09 04:23:49,993 INFO  ProjectFixService - Fixing project...
-2020-11-09 04:23:50,003 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/app/local.properties
-2020-11-09 04:23:50,004 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-11-09 04:23:50,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/custombottomnavigation/local.properties
-2020-11-09 04:23:50,005 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/custombottomnavigation/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-11-09 04:23:50,006 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/local.properties
-2020-11-09 04:23:50,007 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-11-09 04:23:50,008 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-11-09 04:23:50,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-11-09 04:23:50,010 INFO  ProjectFixService - Project was maybe fixed
-2020-11-09 04:23:50,010 INFO  ProjectTaskService - Detecting possible tasks...
-2020-11-09 04:23:50,010 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-11-09 04:24:01,120 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-11-09 04:24:01,121 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-11-09 04:24:01,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-11-09 04:25:19,018 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-01-14 13:22:07,876 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/gradlew
+2021-01-14 13:22:07,880 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/custombottomnavigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/build.gradle
+2021-01-14 13:22:07,883 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/custombottomnavigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/settings.gradle
+2021-01-14 13:22:07,883 INFO  ProjectBuildService - Remote scripts: none
+2021-01-14 13:22:07,883 INFO  ProjectFixService - Fixing project...
+2021-01-14 13:22:07,894 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/app/local.properties
+2021-01-14 13:22:07,894 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-01-14 13:22:07,895 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/custombottomnavigation/local.properties
+2021-01-14 13:22:07,895 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/custombottomnavigation/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-01-14 13:22:07,896 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/local.properties
+2021-01-14 13:22:07,896 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.7.1-bin.zip
+2021-01-14 13:22:07,897 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-01-14 13:22:07,897 INFO  ProjectFixService - Project was maybe fixed
+2021-01-14 13:22:07,897 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-14 13:22:07,897 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-14 13:22:24,852 INFO  ProjectTaskService - Detected possible tasks: 73
+2021-01-14 13:22:24,852 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-14 13:22:24,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-14 13:24:55,238 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
+> Configure project :custombottomnavigation
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :custombottomnavigation:preBuild UP-TO-DATE
@@ -42,62 +50,37 @@
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
-> Task :app:prepareLintJarForPublish
-> Task :app:generateDebugSources
-> Task :app:dataBindingExportBuildInfoDebug
-> Task :app:dataBindingMergeDependencyArtifactsDebug
-> Task :app:dataBindingMergeGenClassesDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :custombottomnavigation:generateDebugResValues
 > Task :custombottomnavigation:compileDebugRenderscript NO-SOURCE
+> Task :custombottomnavigation:generateDebugResValues
 > Task :custombottomnavigation:generateDebugResources
 > Task :custombottomnavigation:packageDebugResources
-> Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :custombottomnavigation:extractDeepLinksDebug
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingMergeGenClassesDebug
 > Task :app:mergeDebugResources
 > Task :app:dataBindingGenBaseClassesDebug
-> Task :custombottomnavigation:compileDebugLibraryResources
-> Task :custombottomnavigation:processDebugManifest
-> Task :app:processDebugManifest
 > Task :custombottomnavigation:generateDebugBuildConfig
-> Task :custombottomnavigation:parseDebugLocalResources
-> Task :app:dataBindingExportFeaturePackageIdsDebug
+> Task :custombottomnavigation:compileDebugLibraryResources
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :custombottomnavigation:mergeDebugShaders
-> Task :custombottomnavigation:compileDebugShaders
-> Task :custombottomnavigation:generateDebugAssets
+> Task :custombottomnavigation:compileDebugShaders NO-SOURCE
+> Task :custombottomnavigation:generateDebugAssets UP-TO-DATE
 > Task :custombottomnavigation:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :custombottomnavigation:generateDebugRFile
-> Task :app:processDebugResources
-
-> Task :custombottomnavigation:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/custombottomnavigation/src/main/java/com/simform/custombottomnavigation/Utils.kt: (42, 19): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Overrides deprecated member in 'android.graphics.drawable.Drawable'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/custombottomnavigation/src/main/java/com/simform/custombottomnavigation/Utils.kt: (58, 19): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :custombottomnavigation:processDebugJavaRes NO-SOURCE
-> Task :custombottomnavigation:javaPreCompileDebug
-> Task :custombottomnavigation:compileDebugJavaWithJavac
-> Task :custombottomnavigation:bundleLibResDebug
-> Task :custombottomnavigation:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/app/src/main/java/com/sscustombottomnavigation/MainActivity.kt: (68, 21): Variable 'name' is never used
-
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
-> Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
-> Task :custombottomnavigation:bundleLibRuntimeDebug
-> Task :app:dexBuilderDebug
-> Task :app:mergeLibDexDebug
+> Task :app:prepareLintJarForPublish
+> Task :custombottomnavigation:processDebugManifest
+> Task :app:processDebugManifest
+> Task :custombottomnavigation:parseDebugLocalResources
+> Task :app:javaPreCompileDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :custombottomnavigation:mergeDebugJniLibFolders
 > Task :app:validateSigningDebug
@@ -108,86 +91,115 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/
 > Task :custombottomnavigation:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
-> Task :app:dataBindingExportBuildInfoRelease
-> Task :custombottomnavigation:mergeDebugNativeLibs
-> Task :custombottomnavigation:stripDebugDebugSymbols
-> Task :custombottomnavigation:copyDebugJniLibsProjectOnly
-> Task :app:dataBindingMergeDependencyArtifactsRelease
-> Task :app:dataBindingMergeGenClassesRelease
+> Task :custombottomnavigation:javaPreCompileDebug
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :custombottomnavigation:compileReleaseRenderscript NO-SOURCE
 > Task :custombottomnavigation:generateReleaseResValues
 > Task :custombottomnavigation:generateReleaseResources
+> Task :custombottomnavigation:mergeDebugNativeLibs
+> Task :custombottomnavigation:stripDebugDebugSymbols NO-SOURCE
+> Task :custombottomnavigation:copyDebugJniLibsProjectOnly
 > Task :custombottomnavigation:packageReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:mainApkListPersistenceRelease
+> Task :app:dataBindingExportFeaturePackageIdsDebug
+> Task :app:dataBindingMergeGenClassesRelease
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :custombottomnavigation:extractDeepLinksRelease
-> Task :app:mergeProjectDexDebug
-> Task :custombottomnavigation:compileReleaseLibraryResources
-> Task :custombottomnavigation:generateReleaseBuildConfig
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :app:generateReleaseSources
+> Task :app:dataBindingExportBuildInfoRelease
 > Task :custombottomnavigation:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :custombottomnavigation:parseReleaseLocalResources
+> Task :custombottomnavigation:generateDebugRFile
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:mergeExtDexDebug
+> Task :app:processDebugResources
 > Task :app:mergeReleaseResources
+
+> Task :custombottomnavigation:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/custombottomnavigation/src/main/java/com/simform/custombottomnavigation/Utils.kt: (42, 19): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Overrides deprecated member in 'android.graphics.drawable.Drawable'. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/custombottomnavigation/src/main/java/com/simform/custombottomnavigation/Utils.kt: (58, 19): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+
+> Task :custombottomnavigation:compileReleaseLibraryResources
+> Task :custombottomnavigation:parseReleaseLocalResources
+> Task :custombottomnavigation:compileDebugJavaWithJavac
 > Task :app:dataBindingGenBaseClassesRelease
+> Task :custombottomnavigation:bundleLibCompileToJarDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/app/src/main/java/com/sscustombottomnavigation/MainActivity.kt: (68, 21): Variable 'name' is never used
+
+> Task :custombottomnavigation:generateReleaseBuildConfig
+> Task :custombottomnavigation:bundleLibResDebug
+> Task :custombottomnavigation:bundleLibRuntimeToJarDebug
+> Task :custombottomnavigation:javaPreCompileRelease
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :custombottomnavigation:generateReleaseRFile
-> Task :app:processReleaseResources
+> Task :custombottomnavigation:prepareLintJarForPublish
+> Task :app:dexBuilderDebug
+> Task :app:mergeExtDexRelease
 
 > Task :custombottomnavigation:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/custombottomnavigation/src/main/java/com/simform/custombottomnavigation/Utils.kt: (42, 19): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Overrides deprecated member in 'android.graphics.drawable.Drawable'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/custombottomnavigation/src/main/java/com/simform/custombottomnavigation/Utils.kt: (58, 19): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/custombottomnavigation/src/main/java/com/simform/custombottomnavigation/Utils.kt: (42, 19): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Overrides deprecated member in 'android.graphics.drawable.Drawable'. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/custombottomnavigation/src/main/java/com/simform/custombottomnavigation/Utils.kt: (58, 19): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
 
-> Task :app:dataBindingExportFeaturePackageIdsRelease
-> Task :custombottomnavigation:javaPreCompileRelease
 > Task :custombottomnavigation:compileReleaseJavaWithJavac
-> Task :app:checkReleaseDuplicateClasses
-> Task :custombottomnavigation:bundleLibCompileRelease
-
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/app/src/main/java/com/sscustombottomnavigation/MainActivity.kt: (68, 21): Variable 'name' is never used
-
-> Task :custombottomnavigation:prepareLintJarForPublish
-> Task :custombottomnavigation:bundleLibRuntimeRelease
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
-> Task :app:dexBuilderRelease
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:mergeLibDexDebug
 > Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
 > Task :custombottomnavigation:mergeReleaseShaders
-> Task :custombottomnavigation:compileReleaseShaders
-> Task :custombottomnavigation:generateReleaseAssets
+> Task :custombottomnavigation:compileReleaseShaders NO-SOURCE
+> Task :custombottomnavigation:generateReleaseAssets UP-TO-DATE
 > Task :custombottomnavigation:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
+> Task :custombottomnavigation:bundleLibRuntimeToJarRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :custombottomnavigation:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :custombottomnavigation:mergeReleaseJniLibFolders
+> Task :custombottomnavigation:bundleLibCompileToJarRelease
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:javaPreCompileRelease
 > Task :custombottomnavigation:bundleLibResRelease
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/app/src/main/java/com/sscustombottomnavigation/MainActivity.kt: (68, 21): Variable 'name' is never used
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
 > Task :custombottomnavigation:mergeReleaseNativeLibs
-> Task :custombottomnavigation:stripReleaseDebugSymbols
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :custombottomnavigation:stripReleaseDebugSymbols NO-SOURCE
 > Task :custombottomnavigation:copyReleaseJniLibsProjectOnly
 > Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 17s
-104 actionable tasks: 104 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.7.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2020-11-09 04:25:19,087 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604870504017-0/src/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 2m 29s
+96 actionable tasks: 96 executed
+
+2021-01-14 13:24:55,310 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605195137-0/src/app/build/outputs/apk/debug/app-debug.apk

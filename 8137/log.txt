@@ -1,34 +1,37 @@
-2020-09-18 13:31:48,113 INFO  DownloadService - Downloading "https://github.com/santalu/maskara/archive/master.zip", attempt 3
-2020-09-18 13:31:50,466 INFO  DownloadService - Downloaded https://github.com/santalu/maskara/archive/master.zip, attempt 3
-2020-09-18 13:31:50,466 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/master.zip": 2 MB
-2020-09-18 13:31:50,467 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-18 13:31:50,467 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/master.zip: true
-2020-09-18 13:31:50,467 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src'.
-2020-09-18 13:31:50,510 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-09-18 13:31:50,510 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src]
-2020-09-18 13:31:50,542 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/.git/
+2021-01-14 13:24:56,093 INFO  DownloadService - Downloading "https://github.com/santalu/maskara/archive/master.zip", attempt 3
+2021-01-14 13:25:19,360 INFO  VirusProcessorServiceImpl - Queued project 8163 to scan viruses
+2021-01-14 13:25:58,173 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-01-14 13:26:00,075 INFO  GithubDownloadService - Default branch of this repository: master
+2021-01-14 13:26:00,076 INFO  DownloadService - Downloading "https://github.com/santalu/maskara/archive/master.zip", attempt 3
+2021-01-14 13:27:01,148 DEBUG FullProcessService - Repository https://github.com/santalu/maskara available: true
+2021-01-14 13:27:01,148 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-01-14 13:27:01,148 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/santalu/maskara, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src]
+2021-01-14 13:27:05,744 INFO  SysUtils - 
+2021-01-14 13:27:05,776 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/.git": true
+2021-01-14 13:27:05,779 INFO  FullProcessService - Size of directory with sources: 2 MB
+2021-01-14 13:27:05,779 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src]
+2021-01-14 13:27:05,797 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/.git/
 
-2020-09-18 13:31:50,545 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/gradlew
-2020-09-18 13:31:50,549 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/build.gradle
-2020-09-18 13:31:50,552 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/settings.gradle
-2020-09-18 13:31:50,553 INFO  ProjectBuildService - Remote scripts: none
-2020-09-18 13:31:50,553 INFO  ProjectFixService - Fixing project...
-2020-09-18 13:31:50,563 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/app/local.properties
-2020-09-18 13:31:50,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-09-18 13:31:50,564 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/library/local.properties
-2020-09-18 13:31:50,565 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/library/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-09-18 13:31:50,565 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/local.properties
-2020-09-18 13:31:50,566 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5.1-all.zip
-2020-09-18 13:31:50,566 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5.1-bin.zip)
-2020-09-18 13:31:50,567 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-09-18 13:31:50,568 INFO  ProjectFixService - Project was maybe fixed
-2020-09-18 13:31:50,568 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 13:31:50,568 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 13:31:59,966 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-09-18 13:31:59,966 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-18 13:31:59,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-18 13:32:05,639 INFO  VirusProcessorServiceImpl - Queued project 8162 to scan viruses
-2020-09-18 13:33:01,758 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-01-14 13:27:05,799 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/gradlew
+2021-01-14 13:27:05,802 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/build.gradle
+2021-01-14 13:27:05,805 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/settings.gradle
+2021-01-14 13:27:05,805 INFO  ProjectBuildService - Remote scripts: none
+2021-01-14 13:27:05,805 INFO  ProjectFixService - Fixing project...
+2021-01-14 13:27:05,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/app/local.properties
+2021-01-14 13:27:05,813 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2021-01-14 13:27:05,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/library/local.properties
+2021-01-14 13:27:05,814 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/library/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2021-01-14 13:27:05,814 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/local.properties
+2021-01-14 13:27:05,814 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5.1-all.zip
+2021-01-14 13:27:05,815 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5.1-bin.zip)
+2021-01-14 13:27:05,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2021-01-14 13:27:05,816 INFO  ProjectFixService - Project was maybe fixed
+2021-01-14 13:27:05,816 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-14 13:27:05,816 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-14 13:27:38,790 INFO  ProjectTaskService - Detected possible tasks: 71
+2021-01-14 13:27:38,790 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-14 13:27:38,790 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-14 13:28:39,343 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
@@ -68,11 +71,11 @@
 > Task :library:parseDebugLocalResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :library:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
 > Task :library:generateDebugRFile
 > Task :app:processDebugResources
 > Task :library:compileDebugKotlin
 > Task :library:compileDebugJavaWithJavac
-> Task :app:checkDebugDuplicateClasses
 > Task :library:bundleLibResDebug
 > Task :library:bundleLibRuntimeToJarDebug
 > Task :library:bundleLibCompileToJarDebug
@@ -80,7 +83,6 @@
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:dexBuilderDebug
-> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :library:mergeDebugJniLibFolders
 > Task :app:validateSigningDebug
@@ -90,10 +92,6 @@
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :library:mergeDebugNativeLibs
-> Task :library:stripDebugDebugSymbols NO-SOURCE
-> Task :library:copyDebugJniLibsProjectOnly
-> Task :app:dataBindingMergeDependencyArtifactsRelease
 > Task :app:dataBindingMergeGenClassesRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
@@ -101,24 +99,29 @@
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols NO-SOURCE
+> Task :library:copyDebugJniLibsProjectOnly
 > Task :app:generateReleaseBuildConfig
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :library:extractDeepLinksRelease
 > Task :library:compileReleaseLibraryResources
-> Task :library:generateReleaseBuildConfig
-> Task :library:parseReleaseLocalResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :library:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:javaPreCompileRelease
-> Task :library:javaPreCompileRelease
+> Task :library:generateReleaseBuildConfig
+> Task :app:mergeDebugJavaResource
+> Task :library:parseReleaseLocalResources
 > Task :app:mergeReleaseResources
+> Task :app:javaPreCompileRelease
 > Task :app:dataBindingGenBaseClassesRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :library:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :library:compileReleaseKotlin
+> Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
 > Task :app:mergeExtDexDebug
 > Task :library:bundleLibCompileToJarRelease
@@ -128,12 +131,12 @@
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:dexBuilderRelease
+> Task :library:bundleLibRuntimeToJarRelease
 > Task :library:prepareLintJarForPublish
 > Task :app:lintVitalRelease
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :library:bundleLibRuntimeToJarRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -166,7 +169,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/6.5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 0s
+BUILD SUCCESSFUL in 59s
 90 actionable tasks: 90 executed
 
-2020-09-18 13:33:01,827 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600410708110-0/src/maskara-master/app/build/outputs/apk/debug/app-debug.apk
+2021-01-14 13:28:39,407 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605496088-0/src/app/build/outputs/apk/debug/app-debug.apk

@@ -1,29 +1,31 @@
-2020-11-15 01:13:39,910 INFO  DownloadService - Downloading "https://github.com/GuilhE/RecyclerPickerDialog/archive/master.zip", attempt 3
-2020-11-15 01:13:43,616 INFO  DownloadService - Downloaded https://github.com/GuilhE/RecyclerPickerDialog/archive/master.zip, attempt 3
-2020-11-15 01:13:43,616 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/master.zip": 3 MB
-2020-11-15 01:13:43,616 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-11-15 01:13:43,617 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/master.zip: true
-2020-11-15 01:13:43,617 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src'.
-2020-11-15 01:13:43,671 INFO  FullProcessService - Size of directory with sources: 4 MB
-2020-11-15 01:13:43,671 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src]
-2020-11-15 01:13:43,699 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/.git/
+2021-01-14 12:58:25,834 INFO  DownloadService - Downloading "https://github.com/GuilhE/RecyclerPickerDialog/archive/master.zip", attempt 3
+2021-01-14 12:59:26,439 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-01-14 12:59:27,302 INFO  GithubDownloadService - Default branch of this repository: master
+2021-01-14 12:59:27,303 INFO  DownloadService - Downloading "https://github.com/GuilhE/RecyclerPickerDialog/archive/master.zip", attempt 3
+2021-01-14 13:00:28,829 DEBUG FullProcessService - Repository https://github.com/GuilhE/RecyclerPickerDialog available: true
+2021-01-14 13:00:28,835 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-01-14 13:00:28,836 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/GuilhE/RecyclerPickerDialog, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src]
+2021-01-14 13:00:31,907 INFO  SysUtils - 
+2021-01-14 13:00:31,916 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/.git": true
+2021-01-14 13:00:31,921 INFO  FullProcessService - Size of directory with sources: 4 MB
+2021-01-14 13:00:31,921 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src]
+2021-01-14 13:00:31,941 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/.git/
 
-2020-11-15 01:13:43,703 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/gradlew
-2020-11-15 01:13:43,707 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/sample/build.gradle
-2020-11-15 01:13:43,711 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/sample/build.gradle
-2020-11-15 01:13:43,711 INFO  ProjectBuildService - Remote scripts: none
-2020-11-15 01:13:43,711 INFO  ProjectFixService - Fixing project...
-2020-11-15 01:13:43,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/sample/local.properties
-2020-11-15 01:13:43,725 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-11-15 01:13:43,725 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-11-15 01:13:43,726 INFO  ProjectFixService - Project was maybe fixed
-2020-11-15 01:13:43,726 INFO  ProjectTaskService - Detecting possible tasks...
-2020-11-15 01:13:43,726 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-11-15 01:13:52,586 INFO  VirusProcessorServiceImpl - Queued project 8192 to scan viruses
-2020-11-15 01:15:19,787 INFO  ProjectTaskService - Detected possible tasks: 73
-2020-11-15 01:15:19,787 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-11-15 01:15:19,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-11-15 01:16:54,466 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2021-01-14 13:00:31,944 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/gradlew
+2021-01-14 13:00:31,948 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/sample/build.gradle
+2021-01-14 13:00:31,952 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/sample/build.gradle
+2021-01-14 13:00:31,952 INFO  ProjectBuildService - Remote scripts: none
+2021-01-14 13:00:31,952 INFO  ProjectFixService - Fixing project...
+2021-01-14 13:00:31,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/sample/local.properties
+2021-01-14 13:00:31,962 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-01-14 13:00:31,962 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-01-14 13:00:31,964 INFO  ProjectFixService - Project was maybe fixed
+2021-01-14 13:00:31,964 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-14 13:00:31,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-14 13:03:00,800 INFO  ProjectTaskService - Detected possible tasks: 73
+2021-01-14 13:03:00,801 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-14 13:03:00,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-14 13:06:13,979 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -49,33 +51,31 @@ Configuration on demand is an incubating feature.
 > Task :recycler-picker-dialog:compileDebugRenderscript NO-SOURCE
 > Task :recycler-picker-dialog:generateDebugBuildConfig
 > Task :recycler-picker-dialog:prepareLintJar
-> Task :recycler-picker-dialog:dataBindingMergeDependencyArtifactsDebug
 > Task :recycler-picker-dialog:generateDebugResValues
 > Task :recycler-picker-dialog:generateDebugResources
 > Task :recycler-picker-dialog:packageDebugResources
-> Task :recycler-picker-dialog:parseDebugLocalResources
+> Task :recycler-picker-dialog:dataBindingMergeGenClassesDebug
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :recycler-picker-dialog:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
-> Task :recycler-picker-dialog:dataBindingMergeGenClassesDebug
-> Task :recycler-picker-dialog:dataBindingGenBaseClassesDebug
 > Task :sample:prepareLintJar
-> Task :recycler-picker-dialog:javaPreCompileDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :sample:prepareLintJarForPublish
-> Task :sample:generateDebugSources
-> Task :sample:dataBindingExportBuildInfoDebug
-> Task :recycler-picker-dialog:prepareLintJarForPublish
-> Task :recycler-picker-dialog:generateDebugSources
-> Task :recycler-picker-dialog:dataBindingExportBuildInfoDebug
+> Task :recycler-picker-dialog:javaPreCompileDebug
+> Task :recycler-picker-dialog:dataBindingMergeDependencyArtifactsDebug
+> Task :recycler-picker-dialog:dataBindingGenBaseClassesDebug
+> Task :sample:mergeDebugResources
+> Task :recycler-picker-dialog:processDebugManifest
 > Task :recycler-picker-dialog:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
-> Task :sample:dataBindingMergeGenClassesDebug
+> Task :sample:processDebugManifest
+> Task :sample:prepareLintJarForPublish
+> Task :sample:generateDebugSources
+> Task :sample:dataBindingExportBuildInfoDebug
 > Task :recycler-picker-dialog:mergeDebugShaders
 > Task :recycler-picker-dialog:compileDebugShaders NO-SOURCE
 > Task :recycler-picker-dialog:generateDebugAssets UP-TO-DATE
@@ -87,12 +87,12 @@ Configuration on demand is an incubating feature.
 > Task :recycler-picker-dialog:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :sample:checkDebugDuplicateClasses
+> Task :recycler-picker-dialog:prepareLintJarForPublish
+> Task :recycler-picker-dialog:parseDebugLocalResources
+> Task :recycler-picker-dialog:generateDebugSources
+> Task :recycler-picker-dialog:dataBindingExportBuildInfoDebug
 > Task :recycler-picker-dialog:mergeDebugJniLibFolders
-> Task :recycler-picker-dialog:processDebugManifest
-> Task :recycler-picker-dialog:mergeDebugNativeLibs
-> Task :sample:processDebugManifest
-> Task :recycler-picker-dialog:stripDebugDebugSymbols NO-SOURCE
-> Task :recycler-picker-dialog:copyDebugJniLibsProjectOnly
+> Task :recycler-picker-dialog:compileDebugLibraryResources
 > Task :sample:mergeDebugJniLibFolders
 > Task :sample:validateSigningDebug
 > Task :recycler-picker-dialog:preReleaseBuild UP-TO-DATE
@@ -101,13 +101,18 @@ Configuration on demand is an incubating feature.
 > Task :recycler-picker-dialog:generateReleaseBuildConfig
 > Task :recycler-picker-dialog:generateReleaseSources
 > Task :recycler-picker-dialog:dataBindingExportBuildInfoRelease
-> Task :sample:dataBindingExportFeaturePackageIdsDebug
-> Task :sample:mergeDebugResources
+> Task :recycler-picker-dialog:mergeDebugNativeLibs
+> Task :recycler-picker-dialog:stripDebugDebugSymbols NO-SOURCE
+> Task :recycler-picker-dialog:copyDebugJniLibsProjectOnly
+> Task :sample:dataBindingMergeGenClassesDebug
 > Task :recycler-picker-dialog:generateReleaseResValues
 > Task :recycler-picker-dialog:generateReleaseResources
 > Task :recycler-picker-dialog:packageReleaseResources
-> Task :recycler-picker-dialog:compileDebugLibraryResources
+> Task :sample:dataBindingExportFeaturePackageIdsDebug
 > Task :recycler-picker-dialog:dataBindingMergeGenClassesRelease
+> Task :recycler-picker-dialog:dataBindingMergeDependencyArtifactsRelease
+> Task :recycler-picker-dialog:dataBindingGenBaseClassesRelease
+> Task :recycler-picker-dialog:processReleaseManifest
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :recycler-picker-dialog:packageReleaseRenderscript NO-SOURCE
@@ -115,22 +120,30 @@ Configuration on demand is an incubating feature.
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:generateReleaseSources
 > Task :sample:dataBindingExportBuildInfoRelease
+> Task :recycler-picker-dialog:generateDebugRFile
+> Task :sample:javaPreCompileDebug
+> Task :sample:mergeExtDexDebug
+> Task :recycler-picker-dialog:kaptGenerateStubsDebugKotlin
+> Task :sample:processDebugResources
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :recycler-picker-dialog:dataBindingMergeDependencyArtifactsRelease
-> Task :recycler-picker-dialog:dataBindingGenBaseClassesRelease
-> Task :recycler-picker-dialog:processReleaseManifest
 > Task :recycler-picker-dialog:parseReleaseLocalResources
-> Task :recycler-picker-dialog:javaPreCompileRelease
-> Task :sample:dataBindingMergeGenClassesRelease
-> Task :sample:javaPreCompileDebug
+> Task :sample:dataBindingExportFeaturePackageIdsRelease
 > Task :recycler-picker-dialog:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
-> Task :sample:mergeReleaseResources
+> Task :recycler-picker-dialog:javaPreCompileRelease
 > Task :sample:checkReleaseDuplicateClasses
-> Task :sample:dataBindingExportFeaturePackageIdsRelease
+> Task :sample:dataBindingMergeGenClassesRelease
+> Task :recycler-picker-dialog:kaptDebugKotlin
+> Task :recycler-picker-dialog:compileDebugKotlin
+> Task :recycler-picker-dialog:compileDebugJavaWithJavac
+> Task :recycler-picker-dialog:compileReleaseLibraryResources
+> Task :recycler-picker-dialog:generateReleaseRFile
+> Task :sample:dataBindingMergeDependencyArtifactsDebug
+> Task :sample:dataBindingGenBaseClassesDebug
+> Task :recycler-picker-dialog:kaptGenerateStubsReleaseKotlin
 > Task :recycler-picker-dialog:mergeReleaseShaders
 > Task :recycler-picker-dialog:compileReleaseShaders NO-SOURCE
 > Task :recycler-picker-dialog:generateReleaseAssets UP-TO-DATE
@@ -144,41 +157,39 @@ Configuration on demand is an incubating feature.
 > Task :sample:collectReleaseDependencies
 > Task :sample:sdkReleaseDependencyData
 > Task :recycler-picker-dialog:mergeReleaseJniLibFolders
-> Task :recycler-picker-dialog:compileReleaseLibraryResources
-> Task :sample:mergeReleaseJniLibFolders
-> Task :recycler-picker-dialog:mergeReleaseNativeLibs
-> Task :recycler-picker-dialog:stripReleaseDebugSymbols NO-SOURCE
-> Task :recycler-picker-dialog:copyReleaseJniLibsProjectOnly
-> Task :sample:mergeExtDexDebug
-> Task :recycler-picker-dialog:generateDebugRFile
-> Task :recycler-picker-dialog:kaptGenerateStubsDebugKotlin
-> Task :recycler-picker-dialog:generateReleaseRFile
-> Task :sample:processDebugResources
-> Task :recycler-picker-dialog:kaptGenerateStubsReleaseKotlin
-> Task :sample:processReleaseResources
+> Task :recycler-picker-dialog:bundleLibRuntimeToJarDebug
 > Task :sample:javaPreCompileRelease
-> Task :recycler-picker-dialog:kaptDebugKotlin
-> Task :recycler-picker-dialog:compileDebugKotlin
-> Task :recycler-picker-dialog:compileDebugJavaWithJavac
-> Task :recycler-picker-dialog:kaptReleaseKotlin
-> Task :sample:dataBindingMergeDependencyArtifactsDebug
-> Task :sample:dataBindingGenBaseClassesDebug
-> Task :recycler-picker-dialog:compileReleaseKotlin
+> Task :sample:mergeReleaseJniLibFolders
 > Task :recycler-picker-dialog:bundleLibResDebug
-> Task :recycler-picker-dialog:compileReleaseJavaWithJavac
-> Task :sample:dataBindingMergeDependencyArtifactsRelease
-> Task :sample:dataBindingGenBaseClassesRelease
-> Task :recycler-picker-dialog:bundleLibCompileToJarRelease
-> Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:mergeReleaseResources
+> Task :sample:processReleaseResources
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols NO-SOURCE
-> Task :recycler-picker-dialog:bundleLibRuntimeToJarRelease
 > Task :sample:mergeExtDexRelease
 > Task :recycler-picker-dialog:bundleLibCompileToJarDebug
 > Task :sample:kaptGenerateStubsDebugKotlin
-> Task :recycler-picker-dialog:bundleLibResRelease
-> Task :recycler-picker-dialog:bundleLibRuntimeToJarDebug
 > Task :sample:mergeLibDexDebug
+> Task :recycler-picker-dialog:mergeReleaseNativeLibs
+> Task :recycler-picker-dialog:stripReleaseDebugSymbols NO-SOURCE
+> Task :recycler-picker-dialog:copyReleaseJniLibsProjectOnly
+> Task :recycler-picker-dialog:kaptReleaseKotlin
+> Task :recycler-picker-dialog:compileReleaseKotlin
+> Task :recycler-picker-dialog:compileReleaseJavaWithJavac
+> Task :sample:kaptDebugKotlin
+> Task :sample:compileDebugKotlin
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:dexBuilderDebug
+> Task :recycler-picker-dialog:bundleLibCompileToJarRelease
+> Task :recycler-picker-dialog:bundleLibRuntimeToJarRelease
+> Task :sample:dataBindingMergeDependencyArtifactsRelease
+> Task :sample:dataBindingGenBaseClassesRelease
+> Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:mergeProjectDexDebug
+> Task :recycler-picker-dialog:bundleLibResRelease
+> Task :sample:mergeDebugJavaResource
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols NO-SOURCE
 > Task :sample:kaptReleaseKotlin
@@ -187,19 +198,10 @@ Configuration on demand is an incubating feature.
 > Task :sample:compileReleaseSources
 > Task :sample:lintVitalRelease
 > Task :sample:dexBuilderRelease
-> Task :sample:kaptDebugKotlin
-> Task :sample:compileDebugKotlin
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
-> Task :sample:dexBuilderDebug
 > Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
-> Task :sample:mergeDebugJavaResource
-> Task :sample:mergeProjectDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :sample:assemble
 > Task :sample:build
 
@@ -207,7 +209,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/6.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 33s
+BUILD SUCCESSFUL in 3m 11s
 113 actionable tasks: 113 executed
 
-2020-11-15 01:16:54,555 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377619905-0/src/RecyclerPickerDialog-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2021-01-14 13:06:14,114 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603905829-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

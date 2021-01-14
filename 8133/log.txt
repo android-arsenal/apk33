@@ -1,86 +1,97 @@
-2020-11-01 23:37:19,119 INFO  DownloadService - Downloading "https://github.com/invissvenska/ModalBottomSheetDialog/archive/master.zip", attempt 3
-2020-11-01 23:37:20,898 INFO  DownloadService - Downloaded https://github.com/invissvenska/ModalBottomSheetDialog/archive/master.zip, attempt 3
-2020-11-01 23:37:20,899 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/master.zip": 487 KB
-2020-11-01 23:37:20,899 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-11-01 23:37:20,899 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/master.zip: true
-2020-11-01 23:37:20,900 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src'.
-2020-11-01 23:37:20,946 INFO  FullProcessService - Size of directory with sources: 599 KB
-2020-11-01 23:37:20,947 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src]
-2020-11-01 23:37:20,982 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/.git/
+2021-01-14 13:28:39,805 INFO  DownloadService - Downloading "https://github.com/invissvenska/ModalBottomSheetDialog/archive/master.zip", attempt 3
+2021-01-14 13:29:02,871 INFO  VirusProcessorServiceImpl - Queued project 8137 to scan viruses
+2021-01-14 13:29:43,265 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-01-14 13:29:44,121 INFO  GithubDownloadService - Default branch of this repository: master
+2021-01-14 13:29:44,121 INFO  DownloadService - Downloading "https://github.com/invissvenska/ModalBottomSheetDialog/archive/master.zip", attempt 3
+2021-01-14 13:30:45,338 DEBUG FullProcessService - Repository https://github.com/invissvenska/ModalBottomSheetDialog available: true
+2021-01-14 13:30:45,338 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-01-14 13:30:45,339 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/invissvenska/ModalBottomSheetDialog, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src]
+2021-01-14 13:30:50,447 INFO  SysUtils - 
+2021-01-14 13:30:50,457 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/.git": true
+2021-01-14 13:30:50,461 INFO  FullProcessService - Size of directory with sources: 5 MB
+2021-01-14 13:30:50,461 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src]
+2021-01-14 13:30:50,480 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/.git/
 
-2020-11-01 23:37:20,987 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/gradlew
-2020-11-01 23:37:20,994 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/modalbottomsheetdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/build.gradle
-2020-11-01 23:37:20,999 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/modalbottomsheetdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/settings.gradle
-2020-11-01 23:37:21,000 INFO  ProjectBuildService - Remote scripts: none
-2020-11-01 23:37:21,000 INFO  ProjectFixService - Fixing project...
-2020-11-01 23:37:21,014 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/app/local.properties
-2020-11-01 23:37:21,016 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=<null>]
-2020-11-01 23:37:21,018 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=30]
-2020-11-01 23:37:21,019 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/modalbottomsheetdialog/local.properties
-2020-11-01 23:37:21,022 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/modalbottomsheetdialog/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=<null>]
-2020-11-01 23:37:21,022 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/modalbottomsheetdialog/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=30]
-2020-11-01 23:37:21,023 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/local.properties
-2020-11-01 23:37:21,024 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-11-01 23:37:21,025 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-11-01 23:37:21,027 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=<null>]
-2020-11-01 23:37:21,028 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=30]
-2020-11-01 23:37:21,028 INFO  ProjectFixService - Project was maybe fixed
-2020-11-01 23:37:21,028 INFO  ProjectTaskService - Detecting possible tasks...
-2020-11-01 23:37:21,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-11-01 23:37:30,283 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-11-01 23:37:30,283 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-11-01 23:37:30,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-11-01 23:37:37,549 INFO  VirusProcessorServiceImpl - Queued project 8158 to scan viruses
-2020-11-01 23:38:12,730 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-01-14 13:30:50,483 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/gradlew
+2021-01-14 13:30:50,487 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/modalbottomsheetdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/build.gradle
+2021-01-14 13:30:50,491 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/modalbottomsheetdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/settings.gradle
+2021-01-14 13:30:50,491 INFO  ProjectBuildService - Remote scripts: none
+2021-01-14 13:30:50,491 INFO  ProjectFixService - Fixing project...
+2021-01-14 13:30:50,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/app/local.properties
+2021-01-14 13:30:50,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=<null>]
+2021-01-14 13:30:50,502 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=30]
+2021-01-14 13:30:50,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/modalbottomsheetdialog/local.properties
+2021-01-14 13:30:50,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/modalbottomsheetdialog/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=<null>]
+2021-01-14 13:30:50,504 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/modalbottomsheetdialog/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=30]
+2021-01-14 13:30:50,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/local.properties
+2021-01-14 13:30:50,505 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-01-14 13:30:50,510 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=<null>]
+2021-01-14 13:30:50,511 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=30]
+2021-01-14 13:30:50,511 INFO  ProjectFixService - Project was maybe fixed
+2021-01-14 13:30:50,511 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-14 13:30:50,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-14 13:30:58,842 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-01-14 13:30:58,842 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-14 13:30:58,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-14 13:31:40,556 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :modalbottomsheetdialog:preBuild UP-TO-DATE
 > Task :modalbottomsheetdialog:preDebugBuild UP-TO-DATE
+> Task :modalbottomsheetdialog:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :modalbottomsheetdialog:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:javaPreCompileDebug
+> Task :modalbottomsheetdialog:writeDebugAarMetadata
+> Task :app:checkDebugAarMetadata
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :modalbottomsheetdialog:compileDebugRenderscript NO-SOURCE
 > Task :modalbottomsheetdialog:generateDebugResValues
+> Task :modalbottomsheetdialog:generateDebugResources
+> Task :modalbottomsheetdialog:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :modalbottomsheetdialog:extractDeepLinksDebug
+> Task :modalbottomsheetdialog:compileDebugLibraryResources
+> Task :modalbottomsheetdialog:processDebugManifest
+> Task :modalbottomsheetdialog:parseDebugLocalResources
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
 > Task :modalbottomsheetdialog:generateDebugBuildConfig
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :modalbottomsheetdialog:javaPreCompileDebug
+> Task :app:processDebugManifestForPackage
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
-> Task :modalbottomsheetdialog:compileDebugRenderscript NO-SOURCE
-> Task :modalbottomsheetdialog:generateDebugResources
-> Task :modalbottomsheetdialog:packageDebugResources
-> Task :modalbottomsheetdialog:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:mergeDebugResources
 > Task :app:generateDebugAssets UP-TO-DATE
 > Task :modalbottomsheetdialog:mergeDebugShaders
 > Task :modalbottomsheetdialog:compileDebugShaders NO-SOURCE
 > Task :modalbottomsheetdialog:generateDebugAssets UP-TO-DATE
 > Task :modalbottomsheetdialog:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :modalbottomsheetdialog:compileDebugLibraryResources
-> Task :modalbottomsheetdialog:processDebugManifest
-> Task :app:processDebugManifest
-> Task :modalbottomsheetdialog:parseDebugLocalResources
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :modalbottomsheetdialog:processDebugJavaRes NO-SOURCE
-> Task :modalbottomsheetdialog:bundleLibResDebug NO-SOURCE
+> Task :app:compressDebugAssets
 > Task :modalbottomsheetdialog:generateDebugRFile
 > Task :app:processDebugResources
 > Task :modalbottomsheetdialog:compileDebugJavaWithJavac
-> Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJavaResource
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :modalbottomsheetdialog:processDebugJavaRes NO-SOURCE
+> Task :modalbottomsheetdialog:bundleLibResDebug NO-SOURCE
 > Task :modalbottomsheetdialog:bundleLibCompileToJarDebug
+> Task :modalbottomsheetdialog:bundleLibRuntimeToJarDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:dexBuilderDebug
-> Task :modalbottomsheetdialog:bundleLibRuntimeToJarDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJniLibFolders
 > Task :modalbottomsheetdialog:mergeDebugJniLibFolders
+> Task :modalbottomsheetdialog:mergeDebugNativeLibs NO-SOURCE
+> Task :modalbottomsheetdialog:stripDebugDebugSymbols NO-SOURCE
+> Task :modalbottomsheetdialog:copyDebugJniLibsProjectOnly
 > Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :modalbottomsheetdialog:preReleaseBuild UP-TO-DATE
@@ -89,63 +100,65 @@
 > Task :modalbottomsheetdialog:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
-> Task :modalbottomsheetdialog:mergeDebugNativeLibs
-> Task :modalbottomsheetdialog:stripDebugDebugSymbols NO-SOURCE
-> Task :modalbottomsheetdialog:copyDebugJniLibsProjectOnly
 > Task :app:javaPreCompileRelease
+> Task :modalbottomsheetdialog:writeReleaseAarMetadata
+> Task :app:checkReleaseAarMetadata
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :modalbottomsheetdialog:compileReleaseRenderscript NO-SOURCE
 > Task :modalbottomsheetdialog:generateReleaseResValues
 > Task :modalbottomsheetdialog:generateReleaseResources
 > Task :modalbottomsheetdialog:packageReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :modalbottomsheetdialog:extractDeepLinksRelease
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :modalbottomsheetdialog:compileReleaseLibraryResources
-> Task :modalbottomsheetdialog:generateReleaseBuildConfig
 > Task :modalbottomsheetdialog:processReleaseManifest
-> Task :app:processReleaseManifest
-> Task :modalbottomsheetdialog:javaPreCompileRelease
-> Task :app:mergeReleaseResources
 > Task :modalbottomsheetdialog:parseReleaseLocalResources
-> Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :modalbottomsheetdialog:generateReleaseBuildConfig
+> Task :modalbottomsheetdialog:javaPreCompileRelease
+> Task :app:processReleaseManifestForPackage
 > Task :modalbottomsheetdialog:prepareLintJarForPublish
-> Task :modalbottomsheetdialog:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :modalbottomsheetdialog:compileReleaseJavaWithJavac
-> Task :modalbottomsheetdialog:bundleLibRuntimeToJarRelease
-> Task :modalbottomsheetdialog:bundleLibCompileToJarRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
-> Task :app:dexBuilderRelease
-> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseResources
+> Task :modalbottomsheetdialog:generateReleaseRFile
 > Task :modalbottomsheetdialog:mergeReleaseShaders
 > Task :modalbottomsheetdialog:compileReleaseShaders NO-SOURCE
 > Task :modalbottomsheetdialog:generateReleaseAssets UP-TO-DATE
 > Task :modalbottomsheetdialog:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:processReleaseResources
+> Task :modalbottomsheetdialog:compileReleaseJavaWithJavac
+> Task :modalbottomsheetdialog:bundleLibCompileToJarRelease
+> Task :modalbottomsheetdialog:bundleLibRuntimeToJarRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :modalbottomsheetdialog:processReleaseJavaRes NO-SOURCE
 > Task :modalbottomsheetdialog:bundleLibResRelease NO-SOURCE
 > Task :app:collectReleaseDependencies
+> Task :app:mergeReleaseJavaResource
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :modalbottomsheetdialog:mergeReleaseJniLibFolders
-> Task :app:mergeReleaseJavaResource
-> Task :modalbottomsheetdialog:mergeReleaseNativeLibs
+> Task :modalbottomsheetdialog:mergeReleaseNativeLibs NO-SOURCE
 > Task :modalbottomsheetdialog:stripReleaseDebugSymbols NO-SOURCE
 > Task :modalbottomsheetdialog:copyReleaseJniLibsProjectOnly
+> Task :app:mergeDexDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
-> Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
@@ -155,7 +168,7 @@
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 41s
-78 actionable tasks: 78 executed
+BUILD SUCCESSFUL in 40s
+85 actionable tasks: 85 executed
 
-2020-11-01 23:38:12,794 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604248639114-0/src/ModalBottomSheetDialog-master/app/build/outputs/apk/debug/app-debug.apk
+2021-01-14 13:31:40,606 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605719803-0/src/app/build/outputs/apk/debug/app-debug.apk

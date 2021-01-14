@@ -1,37 +1,40 @@
-2020-11-15 01:20:55,834 INFO  DownloadService - Downloading "https://github.com/Gkemon/Android-XML-to-PDF-Generator/archive/master.zip", attempt 3
-2020-11-15 01:20:56,453 INFO  DownloadService - Downloaded https://github.com/Gkemon/Android-XML-to-PDF-Generator/archive/master.zip, attempt 3
-2020-11-15 01:20:56,453 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/master.zip": 159 KB
-2020-11-15 01:20:56,453 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-11-15 01:20:56,454 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/master.zip: true
-2020-11-15 01:20:56,454 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src'.
-2020-11-15 01:20:56,479 INFO  FullProcessService - Size of directory with sources: 192 KB
-2020-11-15 01:20:56,479 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src]
-2020-11-15 01:20:56,500 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/.git/
+2021-01-14 13:16:05,775 INFO  DownloadService - Downloading "https://github.com/Gkemon/Android-XML-to-PDF-Generator/archive/master.zip", attempt 3
+2021-01-14 13:16:24,568 INFO  VirusProcessorServiceImpl - Queued project 8187 to scan viruses
+2021-01-14 13:17:06,830 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-01-14 13:17:07,703 INFO  GithubDownloadService - Default branch of this repository: master
+2021-01-14 13:17:07,703 INFO  DownloadService - Downloading "https://github.com/Gkemon/Android-XML-to-PDF-Generator/archive/master.zip", attempt 3
+2021-01-14 13:18:09,042 DEBUG FullProcessService - Repository https://github.com/Gkemon/Android-XML-to-PDF-Generator available: true
+2021-01-14 13:18:09,042 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-01-14 13:18:09,043 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Gkemon/Android-XML-to-PDF-Generator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src]
+2021-01-14 13:18:11,921 INFO  SysUtils - 
+2021-01-14 13:18:11,931 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/.git": true
+2021-01-14 13:18:11,935 INFO  FullProcessService - Size of directory with sources: 193 KB
+2021-01-14 13:18:11,936 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src]
+2021-01-14 13:18:11,956 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/.git/
 
-2020-11-15 01:20:56,504 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/gradlew
-2020-11-15 01:20:56,508 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/xml-to-pdf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/build.gradle
-2020-11-15 01:20:56,511 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/xml-to-pdf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/settings.gradle
-2020-11-15 01:20:56,512 INFO  ProjectBuildService - Remote scripts: none
-2020-11-15 01:20:56,512 INFO  ProjectFixService - Fixing project...
-2020-11-15 01:20:56,522 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/sample/local.properties
-2020-11-15 01:20:56,523 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-11-15 01:20:56,523 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-11-15 01:20:56,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/xml-to-pdf/local.properties
-2020-11-15 01:20:56,525 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/xml-to-pdf/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-11-15 01:20:56,525 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/xml-to-pdf/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-11-15 01:20:56,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/local.properties
-2020-11-15 01:20:56,527 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-11-15 01:20:56,527 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-11-15 01:20:56,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-11-15 01:20:56,528 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-11-15 01:20:56,529 INFO  ProjectFixService - Project was maybe fixed
-2020-11-15 01:20:56,529 INFO  ProjectTaskService - Detecting possible tasks...
-2020-11-15 01:20:56,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-11-15 01:21:03,440 INFO  VirusProcessorServiceImpl - Queued project 8167 to scan viruses
-2020-11-15 01:21:04,246 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-11-15 01:21:04,247 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-11-15 01:21:04,247 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-11-15 01:21:46,872 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-01-14 13:18:11,960 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/gradlew
+2021-01-14 13:18:11,963 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/build.gradle
+2021-01-14 13:18:11,967 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/settings.gradle
+2021-01-14 13:18:11,967 INFO  ProjectBuildService - Remote scripts: none
+2021-01-14 13:18:11,967 INFO  ProjectFixService - Fixing project...
+2021-01-14 13:18:11,977 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/local.properties
+2021-01-14 13:18:11,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-01-14 13:18:11,978 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-01-14 13:18:11,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/local.properties
+2021-01-14 13:18:11,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-01-14 13:18:11,980 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-01-14 13:18:11,981 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/local.properties
+2021-01-14 13:18:11,982 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2021-01-14 13:18:11,982 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2021-01-14 13:18:11,983 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-01-14 13:18:11,983 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-01-14 13:18:11,984 INFO  ProjectFixService - Project was maybe fixed
+2021-01-14 13:18:11,984 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-14 13:18:11,984 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-14 13:18:46,731 INFO  ProjectTaskService - Detected possible tasks: 70
+2021-01-14 13:18:46,732 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-14 13:18:46,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-14 13:19:53,653 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :xml-to-pdf:preBuild UP-TO-DATE
@@ -44,9 +47,9 @@
 > Task :xml-to-pdf:generateDebugBuildConfig
 > Task :xml-to-pdf:generateDebugResValues
 > Task :sample:mainApkListPersistenceDebug
-> Task :xml-to-pdf:compileDebugRenderscript NO-SOURCE
 > Task :xml-to-pdf:compileDebugAidl NO-SOURCE
 > Task :sample:compileDebugAidl NO-SOURCE
+> Task :xml-to-pdf:compileDebugRenderscript NO-SOURCE
 > Task :xml-to-pdf:generateDebugResources
 > Task :xml-to-pdf:packageDebugResources
 > Task :xml-to-pdf:processDebugManifest
@@ -57,15 +60,15 @@
 > Task :xml-to-pdf:generateDebugRFile
 
 > Task :xml-to-pdf:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/xml-to-pdf/src/main/java/com/gkemon/XMLtoPDF/PdfGenerator.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/src/main/java/com/gkemon/XMLtoPDF/PdfGenerator.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sample:mergeDebugResources
 > Task :xml-to-pdf:bundleLibCompileDebug
+> Task :sample:javaPreCompileDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
 > Task :sample:processDebugResources
-> Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
 > Task :sample:mergeDebugShaders
@@ -111,19 +114,19 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
 > Task :xml-to-pdf:generateReleaseRFile
 
 > Task :xml-to-pdf:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/xml-to-pdf/src/main/java/com/gkemon/XMLtoPDF/PdfGenerator.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/src/main/java/com/gkemon/XMLtoPDF/PdfGenerator.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sample:mergeReleaseResources
-> Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:processReleaseManifest
 > Task :sample:processReleaseResources
 > Task :xml-to-pdf:bundleLibCompileRelease
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
@@ -135,10 +138,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7c166950cf9cad8e3bde3c29cb5d3096/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-30/android.jar
 
-> Task :xml-to-pdf:bundleLibResRelease
-> Task :sample:mergeExtDexDebug
 > Task :xml-to-pdf:bundleLibRuntimeRelease
+> Task :xml-to-pdf:bundleLibResRelease
 > Task :xml-to-pdf:createFullJarRelease
+> Task :sample:mergeExtDexDebug
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :sample:mergeReleaseShaders
 > Task :sample:compileReleaseShaders
@@ -172,7 +175,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 41s
+BUILD SUCCESSFUL in 1m 5s
 90 actionable tasks: 90 executed
 
-2020-11-15 01:21:46,975 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605378055831-0/src/Android-XML-to-PDF-Generator-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2021-01-14 13:19:53,798 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

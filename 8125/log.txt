@@ -1,21 +1,21 @@
-2020-08-31 21:28:27,431 INFO  DownloadService - Downloading "https://github.com/oneHamidreza/Meow-Framework-MVVM/archive/master.zip", attempt 3
-2020-08-31 21:28:43,055 INFO  VirusProcessorServiceImpl - Queued project 8129 to scan viruses
-2020-08-31 21:29:27,433 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-08-31 21:29:28,312 INFO  GithubDownloadService - Default branch of this repository: master
-2020-08-31 21:29:28,313 INFO  DownloadService - Downloading "https://github.com/oneHamidreza/Meow-Framework-MVVM/archive/master.zip", attempt 3
-2020-08-31 21:30:29,556 DEBUG FullProcessService - Repository https://github.com/oneHamidreza/Meow-Framework-MVVM available: true
-2020-08-31 21:30:29,559 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-08-31 21:30:29,559 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/oneHamidreza/Meow-Framework-MVVM, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884107428-0/src]
-2020-08-31 21:30:32,190 INFO  SysUtils - 
-2020-08-31 21:30:32,209 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884107428-0/src/.git": true
-2020-08-31 21:30:32,233 INFO  FullProcessService - Size of directory with sources: 3 MB
-2020-08-31 21:30:32,233 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884107428-0/src]
-2020-08-31 21:30:32,253 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884107428-0/src/.git/
+2021-01-14 13:31:40,976 INFO  DownloadService - Downloading "https://github.com/oneHamidreza/Meow-Framework-MVVM/archive/master.zip", attempt 3
+2021-01-14 13:31:56,512 INFO  VirusProcessorServiceImpl - Queued project 8133 to scan viruses
+2021-01-14 13:32:42,015 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-01-14 13:32:42,913 INFO  GithubDownloadService - Default branch of this repository: master
+2021-01-14 13:32:42,914 INFO  DownloadService - Downloading "https://github.com/oneHamidreza/Meow-Framework-MVVM/archive/master.zip", attempt 3
+2021-01-14 13:33:45,553 DEBUG FullProcessService - Repository https://github.com/oneHamidreza/Meow-Framework-MVVM available: true
+2021-01-14 13:33:45,553 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-01-14 13:33:45,553 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/oneHamidreza/Meow-Framework-MVVM, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605900973-0/src]
+2021-01-14 13:33:49,239 INFO  SysUtils - 
+2021-01-14 13:33:49,257 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605900973-0/src/.git": true
+2021-01-14 13:33:49,279 INFO  FullProcessService - Size of directory with sources: 3 MB
+2021-01-14 13:33:49,279 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605900973-0/src]
+2021-01-14 13:33:49,299 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605900973-0/src/.git/
 
-2020-08-31 21:30:32,271 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598884107428-0/src/gradlew
-2020-08-31 21:30:32,287 INFO  ProjectBuildService - Build script(s): none
-2020-08-31 21:30:32,305 INFO  ProjectBuildService - All script(s): none
-2020-08-31 21:30:32,305 INFO  ProjectBuildService - Remote scripts: none
-2020-08-31 21:30:32,305 ERROR FullProcessService - Project is not correct Gradle project
-2020-08-31 21:30:32,305 ERROR FullProcessService - Project build has not produced APK file
-2020-08-31 21:30:32,321 ERROR FullProcessService - Could not find generated or existed APK file
+2021-01-14 13:33:49,316 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610605900973-0/src/gradlew
+2021-01-14 13:33:49,332 INFO  ProjectBuildService - Build script(s): none
+2021-01-14 13:33:49,348 INFO  ProjectBuildService - All script(s): none
+2021-01-14 13:33:49,348 INFO  ProjectBuildService - Remote scripts: none
+2021-01-14 13:33:49,348 ERROR FullProcessService - Project is not correct Gradle project
+2021-01-14 13:33:49,348 ERROR FullProcessService - Project build has not produced APK file
+2021-01-14 13:33:49,364 ERROR FullProcessService - Could not find generated or existed APK file

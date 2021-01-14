@@ -1,0 +1,10 @@
+2021-01-14 12:49:46,643 INFO  DownloadService - Downloading "https://github.com/mazenrashed/MoshiKotlinExtensions/archive/master.zip", attempt 3
+2021-01-14 12:49:50,337 INFO  DownloadService - Downloaded https://github.com/mazenrashed/MoshiKotlinExtensions/archive/master.zip, attempt 3
+2021-01-14 12:49:50,338 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603386639-0/master.zip": 97 KB
+2021-01-14 12:49:50,338 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-01-14 12:49:50,343 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603386639-0/master.zip: false
+2021-01-14 12:49:50,343 INFO  FullProcessService - Archive with sources does not contain any build script
+2021-01-14 12:49:50,343 ERROR FullProcessService - Could not find directory with sources
+2021-01-14 12:49:50,343 ERROR FullProcessService - Project will not be processed
+2021-01-14 12:49:50,343 ERROR FullProcessService - Project build has not produced APK file
+2021-01-14 12:49:50,344 ERROR FullProcessService - Could not find generated or existed APK file
