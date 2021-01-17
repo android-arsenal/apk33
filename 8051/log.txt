@@ -1,41 +1,35 @@
-2020-08-31 21:49:19,921 INFO  DownloadService - Downloading "https://github.com/minibugdev/SheetSelection/archive/master.zip", attempt 3
-2020-08-31 21:49:37,657 INFO  VirusProcessorServiceImpl - Queued project 8056 to scan viruses
-2020-08-31 21:50:19,924 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-08-31 21:50:20,777 INFO  GithubDownloadService - Default branch of this repository: master
-2020-08-31 21:50:20,777 INFO  DownloadService - Downloading "https://github.com/minibugdev/SheetSelection/archive/master.zip", attempt 3
-2020-08-31 21:51:21,714 DEBUG FullProcessService - Repository https://github.com/minibugdev/SheetSelection available: true
-2020-08-31 21:51:21,714 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-08-31 21:51:21,714 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/minibugdev/SheetSelection, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src]
-2020-08-31 21:51:24,681 INFO  SysUtils - 
-2020-08-31 21:51:24,714 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/.git": true
-2020-08-31 21:51:24,717 INFO  FullProcessService - Size of directory with sources: 301 KB
-2020-08-31 21:51:24,717 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src]
-2020-08-31 21:51:24,738 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/.git/
+2021-01-18 02:31:47,694 INFO  DownloadService - Downloading "https://github.com/minibugdev/SheetSelection/archive/master.zip", attempt 3
+2021-01-18 02:31:49,597 INFO  DownloadService - Downloaded https://github.com/minibugdev/SheetSelection/archive/master.zip, attempt 3
+2021-01-18 02:31:49,597 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/master.zip": 263 KB
+2021-01-18 02:31:49,597 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-01-18 02:31:49,598 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/master.zip: true
+2021-01-18 02:31:49,598 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src'.
+2021-01-18 02:31:49,624 INFO  FullProcessService - Size of directory with sources: 301 KB
+2021-01-18 02:31:49,624 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src]
+2021-01-18 02:31:49,658 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/.git/
 
-2020-08-31 21:51:24,741 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/gradlew
-2020-08-31 21:51:24,745 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/sheetselection/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/build.gradle
-2020-08-31 21:51:24,747 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/sheetselection/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/settings.gradle
-2020-08-31 21:51:24,748 INFO  ProjectBuildService - Remote scripts: none
-2020-08-31 21:51:24,748 INFO  ProjectFixService - Fixing project...
-2020-08-31 21:51:24,755 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/app/local.properties
-2020-08-31 21:51:24,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-08-31 21:51:24,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/sheetselection/local.properties
-2020-08-31 21:51:24,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/sheetselection/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-08-31 21:51:24,757 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/sheetselection/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-08-31 21:51:24,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/local.properties
-2020-08-31 21:51:24,758 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-08-31 21:51:24,758 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-08-31 21:51:24,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-08-31 21:51:24,759 INFO  ProjectFixService - Project was maybe fixed
-2020-08-31 21:51:24,760 INFO  ProjectTaskService - Detecting possible tasks...
-2020-08-31 21:51:24,760 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-08-31 21:51:33,474 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-08-31 21:51:33,474 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-08-31 21:51:33,475 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-08-31 21:52:25,797 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.0.
-Android SDK Build Tools 29.0.2 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2021-01-18 02:31:49,661 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/gradlew
+2021-01-18 02:31:49,663 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/sheetselection/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/build.gradle
+2021-01-18 02:31:49,666 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/sheetselection/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/settings.gradle
+2021-01-18 02:31:49,666 INFO  ProjectBuildService - Remote scripts: none
+2021-01-18 02:31:49,666 INFO  ProjectFixService - Fixing project...
+2021-01-18 02:31:49,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/app/local.properties
+2021-01-18 02:31:49,675 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2021-01-18 02:31:49,676 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/sheetselection/local.properties
+2021-01-18 02:31:49,676 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/sheetselection/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2021-01-18 02:31:49,677 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/sheetselection/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2021-01-18 02:31:49,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/local.properties
+2021-01-18 02:31:49,679 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2021-01-18 02:31:49,680 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2021-01-18 02:31:49,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2021-01-18 02:31:49,681 INFO  ProjectFixService - Project was maybe fixed
+2021-01-18 02:31:49,681 INFO  ProjectTaskService - Detecting possible tasks...
+2021-01-18 02:31:49,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-01-18 02:31:58,008 INFO  VirusProcessorServiceImpl - Queued project 8053 to scan viruses
+2021-01-18 02:32:01,165 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-01-18 02:32:01,166 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-01-18 02:32:01,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-01-18 02:33:12,705 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :sheetselection:preBuild UP-TO-DATE
@@ -56,15 +50,11 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :sheetselection:extractDeepLinksDebug
 > Task :sheetselection:processDebugManifest
 > Task :app:processDebugManifest
+> Task :app:mergeDebugResources
 > Task :sheetselection:compileDebugLibraryResources
 > Task :sheetselection:parseDebugLocalResources
-> Task :app:mergeDebugResources
-> Task :sheetselection:generateDebugRFile
-> Task :app:processDebugResources
 > Task :sheetselection:generateDebugBuildConfig
-> Task :sheetselection:compileDebugKotlin
 > Task :sheetselection:javaPreCompileDebug
-> Task :sheetselection:compileDebugJavaWithJavac
 > Task :app:javaPreCompileDebug
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
@@ -74,16 +64,20 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :sheetselection:generateDebugAssets UP-TO-DATE
 > Task :sheetselection:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :sheetselection:processDebugJavaRes NO-SOURCE
+> Task :sheetselection:generateDebugRFile
+> Task :app:processDebugResources
+> Task :sheetselection:compileDebugKotlin
+> Task :sheetselection:compileDebugJavaWithJavac
+> Task :app:checkDebugDuplicateClasses
+> Task :sheetselection:bundleLibRuntimeToJarDebug
+> Task :sheetselection:bundleLibResDebug
 > Task :sheetselection:bundleLibCompileToJarDebug
 > Task :app:compileDebugKotlin
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :sheetselection:processDebugJavaRes NO-SOURCE
-> Task :sheetselection:bundleLibResDebug
-> Task :sheetselection:bundleLibRuntimeToJarDebug
 > Task :app:dexBuilderDebug
-> Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :sheetselection:mergeDebugJniLibFolders
@@ -101,22 +95,22 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :sheetselection:generateReleaseResValues
 > Task :sheetselection:generateReleaseResources
 > Task :sheetselection:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
 > Task :sheetselection:mergeDebugNativeLibs
 > Task :sheetselection:stripDebugDebugSymbols NO-SOURCE
 > Task :sheetselection:copyDebugJniLibsProjectOnly
-> Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :sheetselection:extractDeepLinksRelease
 > Task :sheetselection:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
 > Task :sheetselection:generateReleaseBuildConfig
-> Task :sheetselection:compileReleaseLibraryResources
-> Task :sheetselection:javaPreCompileRelease
+> Task :app:mergeReleaseResources
 > Task :app:javaPreCompileRelease
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :sheetselection:parseReleaseLocalResources
+> Task :sheetselection:javaPreCompileRelease
+> Task :sheetselection:compileReleaseLibraryResources
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 > Task :sheetselection:prepareLintJarForPublish
@@ -130,8 +124,8 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease
 > Task :app:dexBuilderRelease
-> Task :app:mergeExtDexDebug
 > Task :sheetselection:bundleLibRuntimeToJarRelease
+> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -163,7 +157,7 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 51s
+BUILD SUCCESSFUL in 1m 10s
 84 actionable tasks: 84 executed
 
-2020-08-31 21:52:25,854 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1598885359919-0/src/app/build/outputs/apk/debug/app-debug.apk
+2021-01-18 02:33:12,776 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911907689-0/src/SheetSelection-master/app/build/outputs/apk/debug/app-debug.apk
