@@ -1,40 +1,43 @@
-2021-01-13 01:43:42,828 INFO  DownloadService - Downloading "https://github.com/Drjacky/ImagePicker/archive/master.zip", attempt 3
-2021-01-13 01:43:49,233 INFO  DownloadService - Downloaded https://github.com/Drjacky/ImagePicker/archive/master.zip, attempt 3
-2021-01-13 01:43:49,234 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/master.zip": 9 MB
-2021-01-13 01:43:49,234 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2021-01-13 01:43:49,235 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/master.zip: true
-2021-01-13 01:43:49,235 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src'.
-2021-01-13 01:43:49,358 INFO  FullProcessService - Size of directory with sources: 9 MB
-2021-01-13 01:43:49,358 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src]
-2021-01-13 01:43:49,389 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/.git/
+2021-03-09 04:21:50,259 INFO  DownloadService - Downloading "https://github.com/Drjacky/ImagePicker/archive/master.zip", attempt 3
+2021-03-09 04:22:05,620 INFO  VirusProcessorServiceImpl - Queued project 8209 to scan viruses
+2021-03-09 04:22:51,079 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-09 04:22:51,903 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-09 04:22:51,904 INFO  DownloadService - Downloading "https://github.com/Drjacky/ImagePicker/archive/master.zip", attempt 3
+2021-03-09 04:23:52,817 DEBUG FullProcessService - Repository https://github.com/Drjacky/ImagePicker available: true
+2021-03-09 04:23:52,817 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-09 04:23:52,817 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Drjacky/ImagePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src]
+2021-03-09 04:23:57,530 INFO  SysUtils - 
+2021-03-09 04:23:57,542 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/.git": true
+2021-03-09 04:23:57,549 INFO  FullProcessService - Size of directory with sources: 9 MB
+2021-03-09 04:23:57,549 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src]
+2021-03-09 04:23:57,570 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/.git/
 
-2021-01-13 01:43:49,394 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/gradlew
-2021-01-13 01:43:49,401 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/build.gradle
-2021-01-13 01:43:49,407 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/bintray-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/ktlint.gradle
-2021-01-13 01:43:49,416 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray.gradle", attempt 3
-2021-01-13 01:43:51,062 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray.gradle, attempt 3
-2021-01-13 01:43:51,062 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray-install.gradle", attempt 3
-2021-01-13 01:43:51,340 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray-install.gradle, attempt 3
-2021-01-13 01:43:51,340 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray.gradle https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray-install.gradle
-2021-01-13 01:43:51,340 INFO  ProjectFixService - Fixing project...
-2021-01-13 01:43:51,356 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/local.properties
-2021-01-13 01:43:51,358 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-13 01:43:51,358 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-13 01:43:51,359 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/local.properties
-2021-01-13 01:43:51,361 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-13 01:43:51,361 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-13 01:43:51,362 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/local.properties
-2021-01-13 01:43:51,363 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
-2021-01-13 01:43:51,365 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-13 01:43:51,365 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-13 01:43:51,366 INFO  ProjectFixService - Project was maybe fixed
-2021-01-13 01:43:51,366 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-13 01:43:51,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-13 01:44:06,354 INFO  VirusProcessorServiceImpl - Queued project 8209 to scan viruses
-2021-01-13 01:44:23,070 INFO  ProjectTaskService - Detected possible tasks: 74
-2021-01-13 01:44:23,071 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2021-01-13 01:44:23,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2021-01-13 01:45:09,041 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-09 04:23:57,576 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/gradlew
+2021-03-09 04:23:57,582 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/build.gradle
+2021-03-09 04:23:57,588 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/bintray-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/ktlint.gradle
+2021-03-09 04:23:57,589 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray.gradle", attempt 3
+2021-03-09 04:23:58,055 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray.gradle, attempt 3
+2021-03-09 04:23:58,055 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray-install.gradle", attempt 3
+2021-03-09 04:23:58,295 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray-install.gradle, attempt 3
+2021-03-09 04:23:58,295 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray.gradle https://raw.githubusercontent.com/Drjacky/ImagePicker/master/bintray-install.gradle
+2021-03-09 04:23:58,295 INFO  ProjectFixService - Fixing project...
+2021-03-09 04:23:58,317 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/local.properties
+2021-03-09 04:23:58,320 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-09 04:23:58,320 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-09 04:23:58,321 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/local.properties
+2021-03-09 04:23:58,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-09 04:23:58,324 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-09 04:23:58,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/local.properties
+2021-03-09 04:23:58,326 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-03-09 04:23:58,328 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-09 04:23:58,328 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-09 04:23:58,329 INFO  ProjectFixService - Project was maybe fixed
+2021-03-09 04:23:58,329 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-09 04:23:58,329 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-09 04:24:12,283 INFO  ProjectTaskService - Detected possible tasks: 74
+2021-03-09 04:24:12,283 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2021-03-09 04:24:12,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2021-03-09 04:25:10,751 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :imagepicker
 Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
@@ -65,22 +68,22 @@ Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use
 > Task :imagepicker:mergeReleaseJniLibFolders
 > Task :imagepicker:mergeReleaseNativeLibs NO-SOURCE
 > Task :imagepicker:stripReleaseDebugSymbols NO-SOURCE
-> Task :imagepicker:copyReleaseJniLibsProjectAndLocalJars
 > Task :imagepicker:parseDebugLocalResources
+> Task :imagepicker:copyReleaseJniLibsProjectAndLocalJars
 > Task :imagepicker:compileReleaseRenderscript NO-SOURCE
 > Task :imagepicker:generateReleaseBuildConfig
 > Task :imagepicker:generateReleaseResValues
 > Task :imagepicker:generateReleaseResources
 > Task :imagepicker:processDebugManifest
 > Task :imagepicker:packageReleaseResources
-> Task :imagepicker:parseReleaseLocalResources
 > Task :imagepicker:javaPreCompileRelease
+> Task :imagepicker:parseReleaseLocalResources
 > Task :imagepicker:mergeReleaseShaders
 > Task :imagepicker:compileReleaseShaders NO-SOURCE
 > Task :imagepicker:generateReleaseAssets UP-TO-DATE
-> Task :imagepicker:processReleaseManifest
 > Task :imagepicker:packageReleaseAssets
 > Task :imagepicker:packageReleaseRenderscript NO-SOURCE
+> Task :imagepicker:processReleaseManifest
 > Task :imagepicker:processReleaseJavaRes NO-SOURCE
 > Task :imagepicker:writeReleaseAarMetadata
 > Task :imagepicker:generateDebugRFile
@@ -88,21 +91,21 @@ Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use
 > Task :imagepicker:mergeReleaseResources
 
 > Task :imagepicker:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CameraProvider.kt: (184, 30): Parameter 'data' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (6, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (93, 18): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (93, 18): 'constructor AsyncTask<Params : Any!, Progress : Any!, Result : Any!>()' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (100, 23): 'onPostExecute(Result!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (109, 11): 'execute(vararg File!): AsyncTask<File!, Void!, File!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CropProvider.kt: (162, 61): Parameter 'data' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (47, 37): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (49, 37): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (63, 40): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUtil.kt: (61, 31): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUtil.kt: (96, 84): 'WEBP' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (46, 14): Unsafe use of a nullable receiver of type File?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (47, 13): Unsafe use of a nullable receiver of type File?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (216, 50): 'ARGB_4444' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CameraProvider.kt: (184, 30): Parameter 'data' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (6, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (93, 18): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (93, 18): 'constructor AsyncTask<Params : Any!, Progress : Any!, Result : Any!>()' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (100, 23): 'onPostExecute(Result!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (109, 11): 'execute(vararg File!): AsyncTask<File!, Void!, File!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CropProvider.kt: (162, 61): Parameter 'data' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (47, 37): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (49, 37): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (63, 40): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUtil.kt: (61, 31): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUtil.kt: (96, 84): 'WEBP' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (46, 14): Unsafe use of a nullable receiver of type File?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (47, 13): Unsafe use of a nullable receiver of type File?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (216, 50): 'ARGB_4444' is deprecated. Deprecated in Java
 
 > Task :imagepicker:compileDebugJavaWithJavac
 > Task :imagepicker:extractDebugAnnotations
@@ -112,21 +115,21 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/
 > Task :imagepicker:mergeDebugJavaResource
 
 > Task :imagepicker:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CameraProvider.kt: (184, 30): Parameter 'data' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (6, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (93, 18): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (93, 18): 'constructor AsyncTask<Params : Any!, Progress : Any!, Result : Any!>()' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (100, 23): 'onPostExecute(Result!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (109, 11): 'execute(vararg File!): AsyncTask<File!, Void!, File!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CropProvider.kt: (162, 61): Parameter 'data' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (47, 37): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (49, 37): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (63, 40): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUtil.kt: (61, 31): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUtil.kt: (96, 84): 'WEBP' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (46, 14): Unsafe use of a nullable receiver of type File?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (47, 13): Unsafe use of a nullable receiver of type File?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (216, 50): 'ARGB_4444' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CameraProvider.kt: (184, 30): Parameter 'data' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (6, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (93, 18): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (93, 18): 'constructor AsyncTask<Params : Any!, Progress : Any!, Result : Any!>()' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (100, 23): 'onPostExecute(Result!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CompressionProvider.kt: (109, 11): 'execute(vararg File!): AsyncTask<File!, Void!, File!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/provider/CropProvider.kt: (162, 61): Parameter 'data' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (47, 37): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (49, 37): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUriUtils.kt: (63, 40): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUtil.kt: (61, 31): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/FileUtil.kt: (96, 84): 'WEBP' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (46, 14): Unsafe use of a nullable receiver of type File?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (47, 13): Unsafe use of a nullable receiver of type File?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/imagepicker/src/main/kotlin/com/github/drjacky/imagepicker/util/ImageUtil.kt: (216, 50): 'ARGB_4444' is deprecated. Deprecated in Java
 
 > Task :imagepicker:syncDebugLibJars
 > Task :imagepicker:bundleDebugAar
@@ -144,15 +147,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/
 > Task :imagepicker:assemble
 > Task :imagepicker:build
 
-BUILD SUCCESSFUL in 45s
+BUILD SUCCESSFUL in 57s
 43 actionable tasks: 43 executed
 
-2021-01-13 01:45:09,105 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-13 01:45:09,105 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-13 01:45:17,279 INFO  ProjectTaskService - Detected possible tasks: 75
-2021-01-13 01:45:17,279 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-13 01:45:17,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-13 01:45:23,941 ERROR SysUtils - Could not process external command
+2021-03-09 04:25:10,824 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-09 04:25:10,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-09 04:25:24,171 INFO  ProjectTaskService - Detected possible tasks: 75
+2021-03-09 04:25:24,172 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-09 04:25:24,172 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-09 04:25:39,352 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -180,7 +183,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-13 01:45:23,942 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-09 04:25:39,352 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :sample
 Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
@@ -287,11 +290,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 14s
 
-2021-01-13 01:45:23,942 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2021-01-13 01:45:23,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2021-01-13 01:46:55,858 ERROR SysUtils - Could not process external command
+2021-03-09 04:25:39,352 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2021-03-09 04:25:39,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2021-03-09 04:27:08,585 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -319,7 +322,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-13 01:46:55,858 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-09 04:27:08,587 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :sample
 Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
@@ -346,8 +349,8 @@ Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :imagepicker:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
-> Task :sample:generateDebugBuildConfig
 > Task :imagepicker:bundleLibCompileToJarDebug
+> Task :sample:generateDebugBuildConfig
 > Task :imagepicker:compileDebugLibraryResources
 > Task :imagepicker:writeDebugAarMetadata UP-TO-DATE
 > Task :sample:checkDebugAarMetadata
@@ -361,17 +364,6 @@ Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use
 > Task :sample:processDebugManifest
 > Task :sample:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :sample:javaPreCompileDebug
-> Task :sample:processDebugManifestForPackage
-> Task :sample:processDebugResources
-
-> Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (60, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (74, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (93, 25): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (99, 34): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
 > Task :imagepicker:mergeDebugShaders UP-TO-DATE
 > Task :imagepicker:compileDebugShaders NO-SOURCE
 > Task :imagepicker:generateDebugAssets UP-TO-DATE
@@ -381,6 +373,17 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/
 > Task :sample:generateDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugAssets
 > Task :sample:compressDebugAssets
+> Task :sample:processDebugManifestForPackage
+> Task :sample:processDebugResources
+
+> Task :sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (60, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (74, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (93, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (99, 34): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :imagepicker:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :imagepicker:bundleLibResDebug
@@ -414,10 +417,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/
 > Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:generateReleaseBuildConfig
 > Task :imagepicker:writeReleaseAarMetadata UP-TO-DATE
-> Task :imagepicker:bundleLibCompileToJarRelease
 > Task :sample:checkReleaseAarMetadata
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
+> Task :imagepicker:bundleLibCompileToJarRelease
 > Task :imagepicker:compileReleaseLibraryResources
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols NO-SOURCE
@@ -445,10 +448,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/
 > Task :sample:processReleaseResources
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (60, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (74, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (93, 25): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (99, 34): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (60, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (74, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (93, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt: (99, 34): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
 
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
@@ -471,10 +474,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/
 > Task :sample:mergeDexDebug
 
 > Task :sample:ktlint
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/androidTest/java/com/github/drjacky/imagepicker/MainActivityEspressoTest.kt:21:1: Unexpected indentation (12) (should be 8)
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt:81:32: Unnecessary space(s)
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt:81:33: Missing space after //
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/util/FileUtil.kt:6:1: Wildcard import (cannot be auto-corrected)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/androidTest/java/com/github/drjacky/imagepicker/MainActivityEspressoTest.kt:21:1: Unexpected indentation (12) (should be 8)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt:81:32: Unnecessary space(s)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/MainActivity.kt:81:33: Missing space after //
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/src/main/kotlin/com.github.drjacky.imagepicker/sample/util/FileUtil.kt:6:1: Wildcard import (cannot be auto-corrected)
 
 > Task :sample:ktlint FAILED
 
@@ -622,15 +625,15 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1m 31s
+BUILD FAILED in 1m 28s
 89 actionable tasks: 62 executed, 27 up-to-date
 
-2021-01-13 01:46:55,969 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-13 01:46:55,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-13 01:47:06,574 INFO  ProjectTaskService - Detected possible tasks: 80
-2021-01-13 01:47:06,574 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-13 01:47:06,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-13 01:47:44,463 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-09 04:27:08,692 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-09 04:27:08,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-09 04:27:22,480 INFO  ProjectTaskService - Detected possible tasks: 80
+2021-03-09 04:27:22,480 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-09 04:27:22,480 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-09 04:28:14,741 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :imagepicker
 Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
@@ -715,8 +718,8 @@ Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use
 > Task :sample:generateDebugBuildConfig UP-TO-DATE
 > Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :imagepicker:compileDebugLibraryResources UP-TO-DATE
-> Task :sample:checkDebugAarMetadata UP-TO-DATE
 > Task :sample:generateDebugResValues UP-TO-DATE
+> Task :sample:checkDebugAarMetadata UP-TO-DATE
 > Task :sample:generateDebugResources UP-TO-DATE
 > Task :sample:mergeDebugResources UP-TO-DATE
 > Task :sample:createDebugCompatibleScreenManifests UP-TO-DATE
@@ -781,8 +784,8 @@ Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use
 > Task :imagepicker:bundleLibRuntimeToJarRelease UP-TO-DATE
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
-> Task :sample:dexBuilderRelease UP-TO-DATE
 > Task :sample:checkReleaseDuplicateClasses UP-TO-DATE
+> Task :sample:dexBuilderRelease UP-TO-DATE
 > Task :sample:desugarReleaseFileDependencies UP-TO-DATE
 > Task :imagepicker:bundleLibResRelease UP-TO-DATE
 > Task :sample:processReleaseJavaRes NO-SOURCE
@@ -800,7 +803,7 @@ Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 37s
+BUILD SUCCESSFUL in 51s
 109 actionable tasks: 5 executed, 104 up-to-date
 
-2021-01-13 01:47:44,557 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477022824-0/src/ImagePicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2021-03-09 04:28:14,853 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238510251-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

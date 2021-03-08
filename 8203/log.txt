@@ -1,16 +1,15 @@
-2020-12-11 06:00:59,824 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXMemojiView/archive/master.zip", attempt 3
-2020-12-11 06:01:06,266 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXMemojiView/archive/master.zip", attempt 2
-2020-12-11 06:01:11,831 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXMemojiView/archive/master.zip", attempt 1
-2020-12-11 06:02:11,933 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-12-11 06:02:13,431 INFO  GithubDownloadService - Default branch of this repository: main
-2020-12-11 06:02:13,431 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXMemojiView/archive/main.zip", attempt 3
-2020-12-11 06:03:14,898 DEBUG FullProcessService - Repository https://github.com/Aghajari/AXMemojiView available: true
-2020-12-11 06:03:14,898 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-12-11 06:03:14,907 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Aghajari/AXMemojiView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641259722-0/src]
-2020-12-11 06:03:43,860 INFO  SysUtils - 
-2020-12-11 06:03:43,954 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607641259722-0/src/.git": true
-2020-12-11 06:03:44,029 INFO  FullProcessService - Size of directory with sources: 59 MB
-2020-12-11 06:03:44,030 ERROR FullProcessService - Source directory should be less than 50 MB
-2020-12-11 06:03:44,030 ERROR FullProcessService - Project will not be processed
-2020-12-11 06:03:44,030 ERROR FullProcessService - Project build has not produced APK file
-2020-12-11 06:03:44,076 ERROR FullProcessService - Could not find generated or existed APK file
+2021-03-09 04:33:58,690 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXMemojiView/archive/master.zip", attempt 3
+2021-03-09 04:34:25,902 INFO  VirusProcessorServiceImpl - Queued project 8205 to scan viruses
+2021-03-09 04:34:59,377 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-09 04:35:00,218 INFO  GithubDownloadService - Default branch of this repository: main
+2021-03-09 04:35:00,218 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXMemojiView/archive/main.zip", attempt 3
+2021-03-09 04:36:01,296 DEBUG FullProcessService - Repository https://github.com/Aghajari/AXMemojiView available: true
+2021-03-09 04:36:01,296 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-09 04:36:01,296 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Aghajari/AXMemojiView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615239238684-0/src]
+2021-03-09 04:36:29,551 INFO  SysUtils - 
+2021-03-09 04:36:29,593 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615239238684-0/src/.git": true
+2021-03-09 04:36:29,657 INFO  FullProcessService - Size of directory with sources: 59 MB
+2021-03-09 04:36:29,658 ERROR FullProcessService - Source directory should be less than 50 MB
+2021-03-09 04:36:29,658 ERROR FullProcessService - Project will not be processed
+2021-03-09 04:36:29,658 ERROR FullProcessService - Project build has not produced APK file
+2021-03-09 04:36:29,700 ERROR FullProcessService - Could not find generated or existed APK file

@@ -41,8 +41,8 @@
   "dexClasses" : 3866,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"30\" android:compileSdkVersionCodename=\"11\" package=\"com.github.aradxxx.ciceroneflowsample\" platformBuildVersionCode=\"30\" platformBuildVersionName=\"11\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"30\" />\n\t<application android:theme=\"resourceId:0x7f100008\" android:label=\"CiceroneFlow sample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.github.aradxxx.ciceroneflowssample.App\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.github.aradxxx.ciceroneflowssample.MainActivity\" android:launchMode=\"singleTask\" android:windowSoftInputMode=\"0x12\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 3717065,
-  "crc32" : 1997205931,
-  "sha256" : "015d6b91fceff1784f39d36b6206ccd00a6e476f7668db65970ea38265943890",
-  "buildTime" : 1607641978000
+  "fileSize" : 3717179,
+  "crc32" : 1838046147,
+  "sha256" : "8d0f949fbb16c0fc785f2c66e270009996027991a65fffee9e6de7fc4c6b3477",
+  "buildTime" : 1615240047000
 }

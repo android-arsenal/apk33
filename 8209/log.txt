@@ -1,35 +1,38 @@
-2021-01-13 01:41:29,608 INFO  DownloadService - Downloading "https://github.com/BoyzDroizy/SimpleAndroidBarChart/archive/master.zip", attempt 3
-2021-01-13 01:41:32,670 INFO  DownloadService - Downloaded https://github.com/BoyzDroizy/SimpleAndroidBarChart/archive/master.zip, attempt 3
-2021-01-13 01:41:32,670 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/master.zip": 176 KB
-2021-01-13 01:41:32,670 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2021-01-13 01:41:32,671 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/master.zip: true
-2021-01-13 01:41:32,671 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src'.
-2021-01-13 01:41:32,699 INFO  FullProcessService - Size of directory with sources: 203 KB
-2021-01-13 01:41:32,699 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src]
-2021-01-13 01:41:32,728 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/.git/
+2021-03-09 04:17:17,125 INFO  DownloadService - Downloading "https://github.com/BoyzDroizy/SimpleAndroidBarChart/archive/master.zip", attempt 3
+2021-03-09 04:17:34,611 INFO  VirusProcessorServiceImpl - Queued project 8210 to scan viruses
+2021-03-09 04:18:18,442 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-09 04:18:19,263 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-09 04:18:19,271 INFO  DownloadService - Downloading "https://github.com/BoyzDroizy/SimpleAndroidBarChart/archive/master.zip", attempt 3
+2021-03-09 04:19:20,126 DEBUG FullProcessService - Repository https://github.com/BoyzDroizy/SimpleAndroidBarChart available: true
+2021-03-09 04:19:20,128 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-09 04:19:20,129 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/BoyzDroizy/SimpleAndroidBarChart, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src]
+2021-03-09 04:19:21,537 INFO  SysUtils - 
+2021-03-09 04:19:21,549 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/.git": true
+2021-03-09 04:19:21,558 INFO  FullProcessService - Size of directory with sources: 203 KB
+2021-03-09 04:19:21,558 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src]
+2021-03-09 04:19:21,593 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/.git/
 
-2021-01-13 01:41:32,733 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/gradlew
-2021-01-13 01:41:32,737 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/build.gradle
-2021-01-13 01:41:32,741 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/settings.gradle
-2021-01-13 01:41:32,742 INFO  ProjectBuildService - Remote scripts: none
-2021-01-13 01:41:32,742 INFO  ProjectFixService - Fixing project...
-2021-01-13 01:41:32,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/local.properties
-2021-01-13 01:41:32,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
-2021-01-13 01:41:32,752 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
-2021-01-13 01:41:32,753 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/local.properties
-2021-01-13 01:41:32,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
-2021-01-13 01:41:32,754 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
-2021-01-13 01:41:32,755 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/local.properties
-2021-01-13 01:41:32,755 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
-2021-01-13 01:41:32,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
-2021-01-13 01:41:32,757 INFO  ProjectFixService - Project was maybe fixed
-2021-01-13 01:41:32,757 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-13 01:41:32,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-13 01:41:48,550 INFO  VirusProcessorServiceImpl - Queued project 8210 to scan viruses
-2021-01-13 01:42:20,690 INFO  ProjectTaskService - Detected possible tasks: 67
-2021-01-13 01:42:20,691 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-13 01:42:20,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-13 01:43:42,285 ERROR SysUtils - Could not process external command
+2021-03-09 04:19:21,600 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/gradlew
+2021-03-09 04:19:21,610 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/build.gradle
+2021-03-09 04:19:21,619 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/settings.gradle
+2021-03-09 04:19:21,619 INFO  ProjectBuildService - Remote scripts: none
+2021-03-09 04:19:21,619 INFO  ProjectFixService - Fixing project...
+2021-03-09 04:19:21,638 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/local.properties
+2021-03-09 04:19:21,639 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-03-09 04:19:21,640 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-03-09 04:19:21,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/local.properties
+2021-03-09 04:19:21,644 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-03-09 04:19:21,644 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-03-09 04:19:21,645 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/local.properties
+2021-03-09 04:19:21,645 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-03-09 04:19:21,647 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-03-09 04:19:21,647 INFO  ProjectFixService - Project was maybe fixed
+2021-03-09 04:19:21,647 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-09 04:19:21,647 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-09 04:19:46,781 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-09 04:19:46,781 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-09 04:19:46,782 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-09 04:21:49,516 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -57,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-13 01:43:42,286 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-09 04:21:49,517 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :simpleandroidbarchart:preBuild UP-TO-DATE
@@ -65,33 +68,33 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :simpleandroidbarchart:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :simpleandroidbarchart:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :simpleandroidbarchart:writeDebugAarMetadata
-> Task :app:checkDebugAarMetadata
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugResValues
+> Task :simpleandroidbarchart:writeDebugAarMetadata
 > Task :app:generateDebugResources
 > Task :simpleandroidbarchart:compileDebugRenderscript NO-SOURCE
 > Task :simpleandroidbarchart:generateDebugResValues
 > Task :simpleandroidbarchart:generateDebugResources
 > Task :simpleandroidbarchart:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:checkDebugAarMetadata
 > Task :app:extractDeepLinksDebug
 > Task :simpleandroidbarchart:extractDeepLinksDebug
 > Task :simpleandroidbarchart:compileDebugLibraryResources
 > Task :simpleandroidbarchart:processDebugManifest
-> Task :app:mergeDebugResources
 > Task :simpleandroidbarchart:parseDebugLocalResources
+> Task :app:mergeDebugResources
 
 > Task :app:processDebugMainManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/src/main/AndroidManifest.xml Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/src/main/AndroidManifest.xml Warning:
 	Package name 'com.boyzdroizy.simpleandroidbarchart' used in: AndroidManifest.xml, :simpleandroidbarchart.
 
 > Task :app:processDebugManifest
 > Task :simpleandroidbarchart:generateDebugBuildConfig
 > Task :simpleandroidbarchart:javaPreCompileDebug
-> Task :app:javaPreCompileDebug
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug
 > Task :app:processDebugManifestForPackage
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
@@ -147,20 +150,20 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:extractDeepLinksRelease
 > Task :simpleandroidbarchart:extractDeepLinksRelease
 > Task :simpleandroidbarchart:processReleaseManifest
-> Task :simpleandroidbarchart:compileReleaseLibraryResources
 
 > Task :app:processReleaseMainManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/src/main/AndroidManifest.xml Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/src/main/AndroidManifest.xml Warning:
 	Package name 'com.boyzdroizy.simpleandroidbarchart' used in: AndroidManifest.xml, :simpleandroidbarchart.
 
 > Task :app:processReleaseManifest
+> Task :simpleandroidbarchart:compileReleaseLibraryResources
 > Task :simpleandroidbarchart:generateReleaseBuildConfig
 > Task :simpleandroidbarchart:javaPreCompileRelease
-> Task :app:javaPreCompileRelease
 > Task :simpleandroidbarchart:parseReleaseLocalResources
+> Task :app:javaPreCompileRelease
 > Task :app:processReleaseManifestForPackage
-> Task :simpleandroidbarchart:prepareLintJarForPublish
 > Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :simpleandroidbarchart:prepareLintJarForPublish
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -168,24 +171,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :simpleandroidbarchart:compileReleaseShaders NO-SOURCE
 > Task :simpleandroidbarchart:generateReleaseAssets UP-TO-DATE
 > Task :simpleandroidbarchart:packageReleaseAssets
+> Task :simpleandroidbarchart:generateReleaseRFile
+> Task :app:mergeReleaseResources
 > Task :app:mergeReleaseAssets
 > Task :app:compressReleaseAssets
 > Task :app:checkReleaseDuplicateClasses
-> Task :simpleandroidbarchart:generateReleaseRFile
-> Task :app:mergeReleaseResources
-> Task :simpleandroidbarchart:compileReleaseKotlin
 > Task :app:processReleaseResources
-> Task :simpleandroidbarchart:compileReleaseJavaWithJavac
-> Task :simpleandroidbarchart:bundleLibCompileToJarRelease
-> Task :simpleandroidbarchart:bundleLibRuntimeToJarRelease
 > Task :app:mergeExtDexDebug
+> Task :simpleandroidbarchart:compileReleaseKotlin
+> Task :simpleandroidbarchart:compileReleaseJavaWithJavac
+> Task :simpleandroidbarchart:bundleLibRuntimeToJarRelease
+> Task :simpleandroidbarchart:bundleLibCompileToJarRelease
 > Task :app:compileReleaseKotlin
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
 > Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:lintVitalRelease
 > Task :app:dexBuilderRelease
+> Task :app:assembleDebug
 > Task :app:desugarReleaseFileDependencies
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :simpleandroidbarchart:processReleaseJavaRes NO-SOURCE
@@ -203,10 +206,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:mergeExtDexRelease
 
 > Task :app:mergeDexRelease FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex: D8: Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex: D8: Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build/.transforms/40a02ca7fa09719ca926e6370d57bcf8/classes/classes.dex
 com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build/.transforms/40a02ca7fa09719ca926e6370d57bcf8/classes/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -242,13 +245,13 @@ Learn how to resolve the issue at https://developer.android.com/studio/build/dep
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
 	at Version.fakeStackEntry(Version_2.1.62.java:0)
 	at com.android.tools.r8.utils.Y.a(SourceFile:78)
 	at com.android.tools.r8.D8.run(D8.java:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 33 more
-Caused by: com.android.tools.r8.utils.b: Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
+Caused by: com.android.tools.r8.utils.b: Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build/.transforms/40a02ca7fa09719ca926e6370d57bcf8/classes/classes.dex
 	at com.android.tools.r8.utils.T0.error(SourceFile:1)
 	at com.android.tools.r8.utils.T0.a(SourceFile:2)
 	at com.android.tools.r8.utils.R0.b(SourceFile:6)
@@ -271,8 +274,8 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:mergeDexRelease'.
 > A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
    > com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-     Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
      Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+     Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build/.transforms/40a02ca7fa09719ca926e6370d57bcf8/classes/classes.dex
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -405,8 +408,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: com.android.build.api.transform.TransformException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build/.transforms/40a02ca7fa09719ca926e6370d57bcf8/classes/classes.dex
 	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:459)
 	at com.android.build.gradle.internal.tasks.Workers$ActionFacade.run(Workers.kt:242)
 	at org.gradle.workers.internal.AdapterWorkAction.execute(AdapterWorkAction.java:57)
@@ -432,20 +435,20 @@ Learn how to resolve the issue at https://developer.android.com/studio/build/dep
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:131)
 	... 3 more
 Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
-Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build/.transforms/40a02ca7fa09719ca926e6370d57bcf8/classes/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
 	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:432)
 	... 25 more
-Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
 	at Version.fakeStackEntry(Version_2.1.62.java:0)
 	at com.android.tools.r8.utils.Y.a(SourceFile:78)
 	at com.android.tools.r8.D8.run(D8.java:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 27 more
-Caused by: com.android.tools.r8.utils.b: Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/simpleandroidbarchart/build/.transforms/b84d4205fbf6c4a3cfa774e68c6b2e5e/classes/classes.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex
+Caused by: com.android.tools.r8.utils.b: Type com.boyzdroizy.simpleandroidbarchart.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/intermediates/project_dex_archive/release/out/com/boyzdroizy/simpleandroidbarchart/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/simpleandroidbarchart/build/.transforms/40a02ca7fa09719ca926e6370d57bcf8/classes/classes.dex
 	at com.android.tools.r8.utils.T0.error(SourceFile:1)
 	at com.android.tools.r8.utils.T0.a(SourceFile:2)
 	at com.android.tools.r8.utils.R0.b(SourceFile:6)
@@ -463,7 +466,7 @@ Caused by: com.android.tools.r8.utils.b: Type com.boyzdroizy.simpleandroidbarcha
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1m 20s
+BUILD FAILED in 2m 1s
 93 actionable tasks: 93 executed
 
-2021-01-13 01:43:42,350 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610476889605-0/src/SimpleAndroidBarChart-master/app/build/outputs/apk/debug/app-debug.apk
+2021-03-09 04:21:49,632 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238237117-0/src/app/build/outputs/apk/debug/app-debug.apk

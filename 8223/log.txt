@@ -1,0 +1,130 @@
+2021-03-09 03:44:45,398 INFO  DownloadService - Downloading "https://github.com/mazenrashed/BottomSheetMenu/archive/master.zip", attempt 3
+2021-03-09 03:44:59,722 INFO  VirusProcessorServiceImpl - Queued project 8224 to scan viruses
+2021-03-09 03:45:45,985 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-09 03:45:47,041 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-09 03:45:47,041 INFO  DownloadService - Downloading "https://github.com/mazenrashed/BottomSheetMenu/archive/master.zip", attempt 3
+2021-03-09 03:46:47,952 DEBUG FullProcessService - Repository https://github.com/mazenrashed/BottomSheetMenu available: true
+2021-03-09 03:46:47,953 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-09 03:46:47,954 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mazenrashed/BottomSheetMenu, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src]
+2021-03-09 03:46:49,658 INFO  SysUtils - 
+2021-03-09 03:46:49,683 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/.git": true
+2021-03-09 03:46:49,700 INFO  FullProcessService - Size of directory with sources: 178 KB
+2021-03-09 03:46:49,701 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src]
+2021-03-09 03:46:49,788 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/.git/
+
+2021-03-09 03:46:49,823 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/gradlew
+2021-03-09 03:46:49,876 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/BottomSheetMenuLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/build.gradle
+2021-03-09 03:46:49,891 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/BottomSheetMenuLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/settings.gradle
+2021-03-09 03:46:49,892 INFO  ProjectBuildService - Remote scripts: none
+2021-03-09 03:46:49,893 INFO  ProjectFixService - Fixing project...
+2021-03-09 03:46:50,033 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/BottomSheetMenuLib/local.properties
+2021-03-09 03:46:50,096 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/BottomSheetMenuLib/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=22,targetSdkVersion=30]
+2021-03-09 03:46:50,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/app/local.properties
+2021-03-09 03:46:50,109 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=22,targetSdkVersion=30]
+2021-03-09 03:46:50,117 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/local.properties
+2021-03-09 03:46:50,119 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-03-09 03:46:50,135 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=22,targetSdkVersion=30]
+2021-03-09 03:46:50,137 INFO  ProjectFixService - Project was maybe fixed
+2021-03-09 03:46:50,139 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-09 03:46:50,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/BottomSheetMenuLib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-09 03:48:26,962 INFO  ProjectTaskService - Detected possible tasks: 65
+2021-03-09 03:48:26,962 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2021-03-09 03:48:26,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/BottomSheetMenuLib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2021-03-09 03:50:30,514 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :BottomSheetMenuLib
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+
+> Task :BottomSheetMenuLib:preBuild UP-TO-DATE
+> Task :BottomSheetMenuLib:preDebugBuild UP-TO-DATE
+> Task :BottomSheetMenuLib:compileDebugAidl NO-SOURCE
+> Task :BottomSheetMenuLib:compileDebugRenderscript NO-SOURCE
+> Task :BottomSheetMenuLib:dataBindingMergeDependencyArtifactsDebug
+> Task :BottomSheetMenuLib:generateDebugResValues
+> Task :BottomSheetMenuLib:dataBindingMergeGenClassesDebug
+> Task :BottomSheetMenuLib:generateDebugResources
+> Task :BottomSheetMenuLib:packageDebugResources
+> Task :BottomSheetMenuLib:dataBindingGenBaseClassesDebug
+> Task :BottomSheetMenuLib:dataBindingTriggerDebug
+> Task :BottomSheetMenuLib:generateDebugBuildConfig
+> Task :BottomSheetMenuLib:processDebugManifest
+> Task :BottomSheetMenuLib:parseDebugLocalResources
+> Task :BottomSheetMenuLib:javaPreCompileDebug
+> Task :BottomSheetMenuLib:mergeDebugJniLibFolders
+> Task :BottomSheetMenuLib:mergeDebugNativeLibs NO-SOURCE
+> Task :BottomSheetMenuLib:stripDebugDebugSymbols NO-SOURCE
+> Task :BottomSheetMenuLib:copyDebugJniLibsProjectAndLocalJars
+> Task :BottomSheetMenuLib:mergeDebugShaders
+> Task :BottomSheetMenuLib:compileDebugShaders NO-SOURCE
+> Task :BottomSheetMenuLib:generateDebugAssets UP-TO-DATE
+> Task :BottomSheetMenuLib:packageDebugAssets
+> Task :BottomSheetMenuLib:packageDebugRenderscript NO-SOURCE
+> Task :BottomSheetMenuLib:prepareLintJarForPublish
+> Task :BottomSheetMenuLib:processDebugJavaRes NO-SOURCE
+> Task :BottomSheetMenuLib:preReleaseBuild UP-TO-DATE
+> Task :BottomSheetMenuLib:writeDebugAarMetadata
+> Task :BottomSheetMenuLib:compileReleaseAidl NO-SOURCE
+> Task :BottomSheetMenuLib:compileReleaseRenderscript NO-SOURCE
+> Task :BottomSheetMenuLib:dataBindingMergeDependencyArtifactsRelease
+> Task :BottomSheetMenuLib:dataBindingMergeGenClassesRelease
+> Task :BottomSheetMenuLib:generateReleaseResValues
+> Task :BottomSheetMenuLib:generateReleaseResources
+> Task :BottomSheetMenuLib:generateDebugRFile
+> Task :BottomSheetMenuLib:packageReleaseResources
+
+> Task :BottomSheetMenuLib:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/BottomSheetMenuLib/src/main/java/com/mazenrashed/bottomsheetmenulib/base/BaseAdapter.kt: (17, 38): 'constructor Handler()' is deprecated. Deprecated in Java
+
+> Task :BottomSheetMenuLib:compileDebugJavaWithJavac
+> Task :BottomSheetMenuLib:extractDebugAnnotations
+> Task :BottomSheetMenuLib:mergeDebugGeneratedProguardFiles
+> Task :BottomSheetMenuLib:mergeDebugConsumerProguardFiles
+> Task :BottomSheetMenuLib:compileDebugSources
+> Task :BottomSheetMenuLib:dataBindingGenBaseClassesRelease
+> Task :BottomSheetMenuLib:dataBindingTriggerRelease
+> Task :BottomSheetMenuLib:generateReleaseBuildConfig
+> Task :BottomSheetMenuLib:parseReleaseLocalResources
+> Task :BottomSheetMenuLib:processReleaseManifest
+> Task :BottomSheetMenuLib:javaPreCompileRelease
+> Task :BottomSheetMenuLib:mergeReleaseJniLibFolders
+> Task :BottomSheetMenuLib:mergeReleaseNativeLibs NO-SOURCE
+> Task :BottomSheetMenuLib:stripReleaseDebugSymbols NO-SOURCE
+> Task :BottomSheetMenuLib:copyReleaseJniLibsProjectAndLocalJars
+> Task :BottomSheetMenuLib:mergeReleaseShaders
+> Task :BottomSheetMenuLib:compileReleaseShaders NO-SOURCE
+> Task :BottomSheetMenuLib:generateReleaseAssets UP-TO-DATE
+> Task :BottomSheetMenuLib:packageReleaseAssets
+> Task :BottomSheetMenuLib:packageReleaseRenderscript NO-SOURCE
+> Task :BottomSheetMenuLib:processReleaseJavaRes NO-SOURCE
+> Task :BottomSheetMenuLib:writeReleaseAarMetadata
+> Task :BottomSheetMenuLib:generateReleaseRFile
+> Task :BottomSheetMenuLib:mergeDebugJavaResource
+> Task :BottomSheetMenuLib:mergeReleaseResources
+> Task :BottomSheetMenuLib:syncDebugLibJars
+> Task :BottomSheetMenuLib:bundleDebugAar
+> Task :BottomSheetMenuLib:assembleDebug
+
+> Task :BottomSheetMenuLib:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/BottomSheetMenuLib/src/main/java/com/mazenrashed/bottomsheetmenulib/base/BaseAdapter.kt: (17, 38): 'constructor Handler()' is deprecated. Deprecated in Java
+
+> Task :BottomSheetMenuLib:compileReleaseJavaWithJavac
+> Task :BottomSheetMenuLib:extractReleaseAnnotations
+> Task :BottomSheetMenuLib:mergeReleaseGeneratedProguardFiles
+> Task :BottomSheetMenuLib:mergeReleaseConsumerProguardFiles
+> Task :BottomSheetMenuLib:compileReleaseSources
+> Task :BottomSheetMenuLib:mergeReleaseJavaResource
+> Task :BottomSheetMenuLib:syncReleaseLibJars
+> Task :BottomSheetMenuLib:bundleReleaseAar
+> Task :BottomSheetMenuLib:verifyReleaseResources
+> Task :BottomSheetMenuLib:assembleRelease
+> Task :BottomSheetMenuLib:assemble
+> Task :BottomSheetMenuLib:build
+
+BUILD SUCCESSFUL in 2m 2s
+51 actionable tasks: 51 executed
+
+2021-03-09 03:50:30,646 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-09 03:50:30,647 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-09 03:50:53,528 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-09 03:50:53,528 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-09 03:50:53,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615236285364-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]

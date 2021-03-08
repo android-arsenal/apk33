@@ -41,8 +41,8 @@
   "dexClasses" : 3731,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.1\" android:compileSdkVersion=\"30\" android:compileSdkVersionCodename=\"11\" package=\"com.assist.simpleandroidbarchart\" platformBuildVersionCode=\"30\" platformBuildVersionName=\"11\">\n\t<uses-sdk android:minSdkVersion=\"23\" android:targetSdkVersion=\"30\" />\n\t<application android:theme=\"resourceId:0x7f0f01cd\" android:label=\"SimpleAndroidBarChart\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:extractNativeLibs=\"false\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.boyzdroizy.simpleandroidbarchart.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 3603224,
-  "crc32" : 3322706883,
-  "sha256" : "3c6595db0d9b719a49544c214b9e271977867fb66d5c81008c925825ef686d88",
-  "buildTime" : 1610476989000
+  "fileSize" : 3603220,
+  "crc32" : 62602782,
+  "sha256" : "20cce7be77f07c8b59752181e2bbcca39a2d082484c8c686fb6fa7bea7191e49",
+  "buildTime" : 1615238448000
 }

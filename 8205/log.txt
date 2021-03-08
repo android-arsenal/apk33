@@ -1,37 +1,39 @@
-2021-01-13 01:55:30,820 INFO  DownloadService - Downloading "https://github.com/amirisback/frogo-recycler-view/archive/master.zip", attempt 3
-2021-01-13 01:55:47,488 INFO  VirusProcessorServiceImpl - Queued project 8206 to scan viruses
-2021-01-13 01:56:31,413 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2021-01-13 01:56:32,243 INFO  GithubDownloadService - Default branch of this repository: master
-2021-01-13 01:56:32,244 INFO  DownloadService - Downloading "https://github.com/amirisback/frogo-recycler-view/archive/master.zip", attempt 3
-2021-01-13 01:57:33,824 DEBUG FullProcessService - Repository https://github.com/amirisback/frogo-recycler-view available: true
-2021-01-13 01:57:33,824 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2021-01-13 01:57:33,825 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/amirisback/frogo-recycler-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src]
-2021-01-13 01:57:37,949 INFO  SysUtils - 
-2021-01-13 01:57:37,959 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/.git": true
-2021-01-13 01:57:37,966 INFO  FullProcessService - Size of directory with sources: 2 MB
-2021-01-13 01:57:37,967 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src]
-2021-01-13 01:57:37,993 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/.git/
+2021-03-09 04:28:15,641 INFO  DownloadService - Downloading "https://github.com/amirisback/frogo-recycler-view/archive/master.zip", attempt 3
+2021-03-09 04:28:32,590 INFO  VirusProcessorServiceImpl - Queued project 8208 to scan viruses
+2021-03-09 04:29:16,553 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-09 04:29:17,352 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-09 04:29:17,352 INFO  DownloadService - Downloading "https://github.com/amirisback/frogo-recycler-view/archive/master.zip", attempt 3
+2021-03-09 04:30:18,836 DEBUG FullProcessService - Repository https://github.com/amirisback/frogo-recycler-view available: true
+2021-03-09 04:30:18,836 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-09 04:30:18,836 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/amirisback/frogo-recycler-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src]
+2021-03-09 04:30:31,848 INFO  SysUtils - 
+2021-03-09 04:30:31,865 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/.git": true
+2021-03-09 04:30:31,872 INFO  FullProcessService - Size of directory with sources: 29 MB
+2021-03-09 04:30:31,872 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src]
+2021-03-09 04:30:31,897 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/.git/
 
-2021-01-13 01:57:37,998 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/gradlew
-2021-01-13 01:57:38,007 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/build.gradle
-2021-01-13 01:57:38,013 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/settings.gradle
-2021-01-13 01:57:38,014 INFO  ProjectBuildService - Remote scripts: none
-2021-01-13 01:57:38,014 INFO  ProjectFixService - Fixing project...
-2021-01-13 01:57:38,028 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/local.properties
-2021-01-13 01:57:38,028 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-13 01:57:38,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/local.properties
-2021-01-13 01:57:38,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-13 01:57:38,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/local.properties
-2021-01-13 01:57:38,030 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
-2021-01-13 01:57:38,030 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
-2021-01-13 01:57:38,031 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-13 01:57:38,031 INFO  ProjectFixService - Project was maybe fixed
-2021-01-13 01:57:38,031 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-13 01:57:38,031 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-13 01:57:49,647 INFO  ProjectTaskService - Detected possible tasks: 68
-2021-01-13 01:57:49,648 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-13 01:57:49,648 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-13 02:00:03,298 ERROR SysUtils - Could not process external command
+2021-03-09 04:30:31,902 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/gradlew
+2021-03-09 04:30:31,908 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/build.gradle
+2021-03-09 04:30:31,913 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/settings.gradle
+2021-03-09 04:30:31,914 INFO  ProjectBuildService - Remote scripts: none
+2021-03-09 04:30:31,914 INFO  ProjectFixService - Fixing project...
+2021-03-09 04:30:31,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/local.properties
+2021-03-09 04:30:31,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build.gradle": [buildToolsVersion=30.0.3,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-09 04:30:31,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-09 04:30:31,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/local.properties
+2021-03-09 04:30:31,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build.gradle": [buildToolsVersion=30.0.3,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-09 04:30:31,935 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-09 04:30:31,936 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/local.properties
+2021-03-09 04:30:31,937 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2021-03-09 04:30:31,937 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2021-03-09 04:30:31,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-09 04:30:31,938 INFO  ProjectFixService - Project was maybe fixed
+2021-03-09 04:30:31,938 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-09 04:30:31,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-09 04:30:44,803 INFO  ProjectTaskService - Detected possible tasks: 68
+2021-03-09 04:30:44,804 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-09 04:30:44,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-09 04:33:57,707 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,13 +61,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-13 02:00:03,300 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-09 04:33:57,708 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
 
 > Configure project :frogorecyclerview
 Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.1.2.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
@@ -83,31 +88,31 @@ Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use
 > Task :frogorecyclerview:generateDebugResources
 > Task :frogorecyclerview:packageDebugResources
 > Task :frogorecyclerview:dataBindingGenBaseClassesDebug
-> Task :app:dataBindingMergeGenClassesDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :app:dataBindingMergeGenClassesDebug
 > Task :app:generateDebugBuildConfig
 > Task :frogorecyclerview:writeDebugAarMetadata
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:checkDebugAarMetadata
+> Task :app:mergeDebugResources
 > Task :app:extractDeepLinksDebug
+> Task :app:dataBindingGenBaseClassesDebug
 > Task :frogorecyclerview:extractDeepLinksDebug
 > Task :frogorecyclerview:compileDebugLibraryResources
-> Task :app:mergeDebugResources
+> Task :frogorecyclerview:generateDebugBuildConfig
 > Task :frogorecyclerview:processDebugManifest
-> Task :app:dataBindingGenBaseClassesDebug
+> Task :frogorecyclerview:javaPreCompileDebug
 > Task :frogorecyclerview:parseDebugLocalResources
 
 > Task :app:processDebugMainManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/src/main/AndroidManifest.xml Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/src/main/AndroidManifest.xml Warning:
 	Package name 'com.frogobox.recycler' used in: AndroidManifest.xml, :frogorecyclerview.
 
 > Task :app:processDebugManifest
-> Task :frogorecyclerview:generateDebugBuildConfig
-> Task :app:processDebugManifestForPackage
-> Task :frogorecyclerview:javaPreCompileDebug
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :app:javaPreCompileDebug
+> Task :app:processDebugManifestForPackage
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
 > Task :app:generateDebugAssets UP-TO-DATE
@@ -115,15 +120,15 @@ Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use
 > Task :frogorecyclerview:compileDebugShaders NO-SOURCE
 > Task :frogorecyclerview:generateDebugAssets UP-TO-DATE
 > Task :frogorecyclerview:packageDebugAssets
-> Task :frogorecyclerview:generateDebugRFile
 > Task :app:mergeDebugAssets
+> Task :frogorecyclerview:generateDebugRFile
 > Task :app:compressDebugAssets
 > Task :app:processDebugResources
 > Task :frogorecyclerview:kaptGenerateStubsDebugKotlin
 > Task :frogorecyclerview:kaptDebugKotlin
 
 > Task :frogorecyclerview:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/src/main/java/com/frogobox/recycler/base/viewbinding/FrogoRecyclerViewAdapterBinding.kt: (56, 20): Parameter 'parent' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/src/main/java/com/frogobox/recycler/dev/InnerAdapter.kt: (26, 30): Unchecked cast: RecyclerView.ViewHolder to InnerHolder<T>
 
 > Task :frogorecyclerview:compileDebugJavaWithJavac
 > Task :frogorecyclerview:bundleLibCompileToJarDebug
@@ -134,12 +139,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/
 > Task :app:kaptDebugKotlin
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/src/main/java/com/frogobox/recycler/kotlinsample/usingadapter/KotlinSampleActivity.kt: (48, 54): 'isViewLinearVertical(Boolean): Unit' is deprecated. We are going to replace with  createLayoutLinearVertical inside injector() singleton
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/src/main/java/com/frogobox/recycler/kotlinsample/usingadapter/KotlinSampleActivity.kt: (46, 54): 'isViewLinearVertical(Boolean): Unit' is deprecated. We are going to replace with  createLayoutLinearVertical inside injector() singleton
 
 > Task :app:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/src/main/java/com/frogobox/recycler/javasample/usingadapter/JavaSampleActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/src/main/java/com/frogobox/recycler/javasample/JavaNoAdapterActivity.java uses unchecked or unsafe operations.
+Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileDebugSources
@@ -180,29 +185,29 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :frogorecyclerview:extractDeepLinksRelease
+> Task :frogorecyclerview:processReleaseManifest
 > Task :app:checkReleaseAarMetadata
 > Task :frogorecyclerview:compileReleaseLibraryResources
-> Task :frogorecyclerview:processReleaseManifest
-> Task :frogorecyclerview:generateReleaseBuildConfig
-> Task :frogorecyclerview:parseReleaseLocalResources
 
 > Task :app:processReleaseMainManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/src/main/AndroidManifest.xml Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/src/main/AndroidManifest.xml Warning:
 	Package name 'com.frogobox.recycler' used in: AndroidManifest.xml, :frogorecyclerview.
 
 > Task :app:processReleaseManifest
+> Task :frogorecyclerview:generateReleaseBuildConfig
 > Task :frogorecyclerview:javaPreCompileRelease
-> Task :app:processReleaseManifestForPackage
+> Task :frogorecyclerview:parseReleaseLocalResources
 > Task :app:javaPreCompileRelease
-> Task :frogorecyclerview:generateReleaseRFile
-> Task :app:mergeReleaseResources
+> Task :app:processReleaseManifestForPackage
 > Task :frogorecyclerview:prepareLintJarForPublish
-> Task :app:dataBindingGenBaseClassesRelease
+> Task :frogorecyclerview:generateReleaseRFile
 > Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseResources
 > Task :frogorecyclerview:mergeReleaseShaders
+> Task :app:dataBindingGenBaseClassesRelease
 > Task :frogorecyclerview:compileReleaseShaders NO-SOURCE
 > Task :frogorecyclerview:generateReleaseAssets UP-TO-DATE
 > Task :frogorecyclerview:packageReleaseAssets
@@ -214,22 +219,22 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :frogorecyclerview:kaptReleaseKotlin
 
 > Task :frogorecyclerview:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/src/main/java/com/frogobox/recycler/base/viewbinding/FrogoRecyclerViewAdapterBinding.kt: (56, 20): Parameter 'parent' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/src/main/java/com/frogobox/recycler/dev/InnerAdapter.kt: (26, 30): Unchecked cast: RecyclerView.ViewHolder to InnerHolder<T>
 
 > Task :frogorecyclerview:compileReleaseJavaWithJavac
-> Task :frogorecyclerview:bundleLibCompileToJarRelease
 > Task :frogorecyclerview:bundleLibRuntimeToJarRelease
+> Task :frogorecyclerview:bundleLibCompileToJarRelease
 > Task :app:kaptGenerateStubsReleaseKotlin
 > Task :app:kaptReleaseKotlin
 > Task :app:mergeExtDexDebug
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/src/main/java/com/frogobox/recycler/kotlinsample/usingadapter/KotlinSampleActivity.kt: (48, 54): 'isViewLinearVertical(Boolean): Unit' is deprecated. We are going to replace with  createLayoutLinearVertical inside injector() singleton
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/src/main/java/com/frogobox/recycler/kotlinsample/usingadapter/KotlinSampleActivity.kt: (46, 54): 'isViewLinearVertical(Boolean): Unit' is deprecated. We are going to replace with  createLayoutLinearVertical inside injector() singleton
 
 > Task :app:compileReleaseJavaWithJavac
-Note: Some input files use or override a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/src/main/java/com/frogobox/recycler/javasample/usingadapter/JavaSampleActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/src/main/java/com/frogobox/recycler/javasample/JavaNoAdapterActivity.java uses unchecked or unsafe operations.
+Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileReleaseSources
@@ -241,7 +246,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :frogorecyclerview:processReleaseJavaRes NO-SOURCE
 > Task :frogorecyclerview:bundleLibResRelease
-> Task :app:mergeReleaseJavaResource
 > Task :app:collectReleaseDependencies
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
@@ -249,15 +253,16 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :frogorecyclerview:mergeReleaseNativeLibs NO-SOURCE
 > Task :frogorecyclerview:stripReleaseDebugSymbols NO-SOURCE
 > Task :frogorecyclerview:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseJavaResource
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:mergeExtDexRelease
 
 > Task :app:mergeDexRelease FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex: D8: Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/build/.transforms/63e59f99ae2341b01e189efce4daf4af/classes/classes.dex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex: D8: Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build/.transforms/72ad5aeedc4cee24371509793a445c26/classes/classes.dex
 com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build/.transforms/72ad5aeedc4cee24371509793a445c26/classes/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/build/.transforms/63e59f99ae2341b01e189efce4daf4af/classes/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -293,13 +298,13 @@ Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/f
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex
-	at Version.fakeStackEntry(Version_2.1.75.java:0)
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex
+	at Version.fakeStackEntry(Version_2.1.86.java:0)
 	at com.android.tools.r8.utils.Y.a(SourceFile:78)
 	at com.android.tools.r8.D8.run(D8.java:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 33 more
-Caused by: com.android.tools.r8.utils.b: Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/build/.transforms/63e59f99ae2341b01e189efce4daf4af/classes/classes.dex
+Caused by: com.android.tools.r8.utils.b: Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build/.transforms/72ad5aeedc4cee24371509793a445c26/classes/classes.dex
 	at com.android.tools.r8.utils.T0.error(SourceFile:1)
 	at com.android.tools.r8.utils.T0.a(SourceFile:2)
 	at com.android.tools.r8.utils.R0.b(SourceFile:6)
@@ -322,8 +327,8 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:mergeDexRelease'.
 > A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
    > com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+     Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build/.transforms/72ad5aeedc4cee24371509793a445c26/classes/classes.dex
      Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-     Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/build/.transforms/63e59f99ae2341b01e189efce4daf4af/classes/classes.dex
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -456,8 +461,8 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: com.android.build.api.transform.TransformException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build/.transforms/72ad5aeedc4cee24371509793a445c26/classes/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/build/.transforms/63e59f99ae2341b01e189efce4daf4af/classes/classes.dex
 	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:459)
 	at com.android.build.gradle.internal.tasks.Workers$ActionFacade.run(Workers.kt:242)
 	at org.gradle.workers.internal.AdapterWorkAction.execute(AdapterWorkAction.java:57)
@@ -483,20 +488,20 @@ Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/f
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:131)
 	... 3 more
 Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build/.transforms/72ad5aeedc4cee24371509793a445c26/classes/classes.dex
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/build/.transforms/63e59f99ae2341b01e189efce4daf4af/classes/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
 	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:432)
 	... 25 more
-Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex
-	at Version.fakeStackEntry(Version_2.1.75.java:0)
+Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex
+	at Version.fakeStackEntry(Version_2.1.86.java:0)
 	at com.android.tools.r8.utils.Y.a(SourceFile:78)
 	at com.android.tools.r8.D8.run(D8.java:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 27 more
-Caused by: com.android.tools.r8.utils.b: Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/frogorecyclerview/build/.transforms/63e59f99ae2341b01e189efce4daf4af/classes/classes.dex
+Caused by: com.android.tools.r8.utils.b: Type com.frogobox.recycler.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/intermediates/project_dex_archive/release/out/com/frogobox/recycler/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/frogorecyclerview/build/.transforms/72ad5aeedc4cee24371509793a445c26/classes/classes.dex
 	at com.android.tools.r8.utils.T0.error(SourceFile:1)
 	at com.android.tools.r8.utils.T0.a(SourceFile:2)
 	at com.android.tools.r8.utils.R0.b(SourceFile:6)
@@ -514,11 +519,7 @@ Caused by: com.android.tools.r8.utils.b: Type com.frogobox.recycler.BuildConfig 
 
 * Get more help at https://help.gradle.org
 
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/6.5/userguide/command_line_interface.html#sec:command_line_warnings
-BUILD FAILED in 2m 12s
+BUILD FAILED in 3m 11s
 113 actionable tasks: 113 executed
 
-2021-01-13 02:00:03,386 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610477730815-0/src/app/build/outputs/apk/debug/frogo-recycler-view(3.0.1)#master-debug.apk
+2021-03-09 04:33:57,830 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615238895638-0/src/app/build/outputs/apk/debug/frogo-recycler-view(3.4.0)#master-debug.apk

@@ -1,0 +1,21 @@
+2021-03-09 03:10:12,060 INFO  DownloadService - Downloading "https://github.com/salihselimsekerci/MultipleProgressBar/archive/master.zip", attempt 3
+2021-03-09 03:10:29,503 INFO  VirusProcessorServiceImpl - Queued project 8228 to scan viruses
+2021-03-09 03:11:12,682 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-09 03:11:16,349 INFO  GithubDownloadService - Default branch of this repository: main
+2021-03-09 03:11:16,349 INFO  DownloadService - Downloading "https://github.com/salihselimsekerci/MultipleProgressBar/archive/main.zip", attempt 3
+2021-03-09 03:12:17,911 DEBUG FullProcessService - Repository https://github.com/salihselimsekerci/MultipleProgressBar available: true
+2021-03-09 03:12:17,911 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-09 03:12:17,911 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/salihselimsekerci/MultipleProgressBar, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615234212050-0/src]
+2021-03-09 03:12:19,917 INFO  SysUtils - 
+2021-03-09 03:12:19,959 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615234212050-0/src/.git": true
+2021-03-09 03:12:19,986 INFO  FullProcessService - Size of directory with sources: 2 MB
+2021-03-09 03:12:19,987 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615234212050-0/src]
+2021-03-09 03:12:20,023 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615234212050-0/src/.git/
+
+2021-03-09 03:12:20,034 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615234212050-0/src/gradlew
+2021-03-09 03:12:20,049 INFO  ProjectBuildService - Build script(s): none
+2021-03-09 03:12:20,061 INFO  ProjectBuildService - All script(s): none
+2021-03-09 03:12:20,061 INFO  ProjectBuildService - Remote scripts: none
+2021-03-09 03:12:20,061 ERROR FullProcessService - Project is not correct Gradle project
+2021-03-09 03:12:20,061 ERROR FullProcessService - Project build has not produced APK file
+2021-03-09 03:12:20,071 ERROR FullProcessService - Could not find generated or existed APK file
