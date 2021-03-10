@@ -1,42 +1,36 @@
-2020-09-09 00:46:14,018 INFO  DownloadService - Downloading "https://github.com/amir5121/arcView/archive/master.zip", attempt 3
-2020-09-09 00:46:15,762 INFO  DownloadService - Downloaded https://github.com/amir5121/arcView/archive/master.zip, attempt 3
-2020-09-09 00:46:15,763 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/master.zip": 250 KB
-2020-09-09 00:46:15,763 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-09 00:46:15,763 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/master.zip: true
-2020-09-09 00:46:15,764 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src'.
-2020-09-09 00:46:15,798 INFO  FullProcessService - Size of directory with sources: 405 KB
-2020-09-09 00:46:15,798 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src]
-2020-09-09 00:46:15,829 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/.git/
+2021-03-11 00:44:09,205 INFO  DownloadService - Downloading "https://github.com/amir5121/arcView/archive/master.zip", attempt 3
+2021-03-11 00:44:10,123 INFO  DownloadService - Downloaded https://github.com/amir5121/arcView/archive/master.zip, attempt 3
+2021-03-11 00:44:10,123 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/master.zip": 250 KB
+2021-03-11 00:44:10,123 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-03-11 00:44:10,129 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/master.zip: true
+2021-03-11 00:44:10,129 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src'.
+2021-03-11 00:44:10,164 INFO  FullProcessService - Size of directory with sources: 405 KB
+2021-03-11 00:44:10,165 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src]
+2021-03-11 00:44:10,193 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/.git/
 
-2020-09-09 00:46:15,834 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/gradlew
-2020-09-09 00:46:15,839 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/arcView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/build.gradle
-2020-09-09 00:46:15,843 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/arcView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/settings.gradle
-2020-09-09 00:46:15,844 INFO  ProjectBuildService - Remote scripts: none
-2020-09-09 00:46:15,844 INFO  ProjectFixService - Fixing project...
-2020-09-09 00:46:15,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/app/local.properties
-2020-09-09 00:46:15,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-09-09 00:46:15,856 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-09-09 00:46:15,857 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/arcView/local.properties
-2020-09-09 00:46:15,857 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/arcView/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-09-09 00:46:15,857 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/arcView/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-09-09 00:46:15,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/local.properties
-2020-09-09 00:46:15,859 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-09-09 00:46:15,860 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-09-09 00:46:15,861 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-09-09 00:46:15,861 INFO  ProjectFixService - Project was maybe fixed
-2020-09-09 00:46:15,861 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-09 00:46:15,861 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-09 00:46:25,335 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-09-09 00:46:25,335 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-09 00:46:25,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-09 00:46:29,693 INFO  VirusProcessorServiceImpl - Queued project 8132 to scan viruses
-2020-09-09 00:47:49,958 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.0.
-Android SDK Build Tools 29.0.2 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.0.
-Android SDK Build Tools 29.0.2 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2021-03-11 00:44:10,198 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/gradlew
+2021-03-11 00:44:10,202 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/arcView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/build.gradle
+2021-03-11 00:44:10,206 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/arcView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/settings.gradle
+2021-03-11 00:44:10,207 INFO  ProjectBuildService - Remote scripts: none
+2021-03-11 00:44:10,207 INFO  ProjectFixService - Fixing project...
+2021-03-11 00:44:10,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/app/local.properties
+2021-03-11 00:44:10,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/app/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-11 00:44:10,217 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-11 00:44:10,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/arcView/local.properties
+2021-03-11 00:44:10,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/arcView/build.gradle": [buildToolsVersion=30.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-11 00:44:10,219 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/arcView/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-11 00:44:10,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/local.properties
+2021-03-11 00:44:10,221 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2021-03-11 00:44:10,222 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2021-03-11 00:44:10,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-11 00:44:10,223 INFO  ProjectFixService - Project was maybe fixed
+2021-03-11 00:44:10,223 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-11 00:44:10,223 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-11 00:44:19,447 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-11 00:44:19,447 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-11 00:44:19,448 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-11 00:44:22,730 INFO  VirusProcessorServiceImpl - Queued project 8133 to scan viruses
+2021-03-11 00:45:17,216 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :arcView:preBuild UP-TO-DATE
@@ -59,6 +53,7 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :arcView:compileDebugLibraryResources
 > Task :arcView:processDebugManifest
 > Task :app:processDebugManifest
+> Task :arcView:parseDebugLocalResources
 > Task :arcView:generateDebugBuildConfig
 > Task :arcView:javaPreCompileDebug
 > Task :app:javaPreCompileDebug
@@ -70,10 +65,8 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :arcView:generateDebugAssets UP-TO-DATE
 > Task :arcView:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :arcView:parseDebugLocalResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :arcView:processDebugJavaRes NO-SOURCE
-> Task :app:checkDebugDuplicateClasses
 > Task :arcView:generateDebugRFile
 > Task :app:processDebugResources
 > Task :arcView:compileDebugKotlin
@@ -84,7 +77,9 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:compileDebugKotlin
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
+> Task :app:checkDebugDuplicateClasses
 > Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :arcView:mergeDebugJniLibFolders
 > Task :app:validateSigningDebug
@@ -104,18 +99,19 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :arcView:extractDeepLinksRelease
-> Task :app:mergeDebugJavaResource
-> Task :arcView:generateReleaseBuildConfig
-> Task :app:mergeReleaseResources
-> Task :arcView:parseReleaseLocalResources
 > Task :arcView:mergeDebugNativeLibs
 > Task :arcView:stripDebugDebugSymbols NO-SOURCE
-> Task :app:javaPreCompileRelease
 > Task :arcView:copyDebugJniLibsProjectOnly
-> Task :arcView:javaPreCompileRelease
 > Task :arcView:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :arcView:compileReleaseLibraryResources
+> Task :arcView:generateReleaseBuildConfig
+> Task :app:mergeReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:javaPreCompileRelease
+> Task :arcView:javaPreCompileRelease
+> Task :arcView:parseReleaseLocalResources
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 > Task :arcView:prepareLintJarForPublish
@@ -123,16 +119,14 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:processReleaseResources
 > Task :arcView:compileReleaseKotlin
 > Task :arcView:compileReleaseJavaWithJavac
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :arcView:bundleLibCompileToJarRelease
 > Task :app:compileReleaseKotlin
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease
 > Task :app:dexBuilderRelease
-> Task :app:mergeExtDexDebug
 > Task :arcView:bundleLibRuntimeToJarRelease
+> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -164,7 +158,7 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 23s
+BUILD SUCCESSFUL in 56s
 84 actionable tasks: 84 executed
 
-2020-09-09 00:47:50,024 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587174013-0/src/arcView-master/app/build/outputs/apk/debug/app-debug.apk
+2021-03-11 00:45:17,284 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398249202-0/src/arcView-master/app/build/outputs/apk/debug/app-debug.apk

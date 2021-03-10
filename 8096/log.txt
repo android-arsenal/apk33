@@ -1,38 +1,36 @@
-2021-01-18 02:10:37,302 INFO  DownloadService - Downloading "https://github.com/zhpanvip/viewpagerindicator/archive/master.zip", attempt 3
-2021-01-18 02:10:39,604 INFO  DownloadService - Downloaded https://github.com/zhpanvip/viewpagerindicator/archive/master.zip, attempt 3
-2021-01-18 02:10:39,604 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/master.zip": 2 MB
-2021-01-18 02:10:39,604 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2021-01-18 02:10:39,605 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/master.zip: true
-2021-01-18 02:10:39,605 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src'.
-2021-01-18 02:10:39,659 INFO  FullProcessService - Size of directory with sources: 2 MB
-2021-01-18 02:10:39,659 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src]
-2021-01-18 02:10:39,686 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/.git/
+2021-03-11 00:59:06,454 INFO  DownloadService - Downloading "https://github.com/zhpanvip/viewpagerindicator/archive/master.zip", attempt 3
+2021-03-11 00:59:08,955 INFO  DownloadService - Downloaded https://github.com/zhpanvip/viewpagerindicator/archive/master.zip, attempt 3
+2021-03-11 00:59:08,956 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/master.zip": 2 MB
+2021-03-11 00:59:08,956 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-03-11 00:59:08,956 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/master.zip: true
+2021-03-11 00:59:08,957 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src'.
+2021-03-11 00:59:09,013 INFO  FullProcessService - Size of directory with sources: 3 MB
+2021-03-11 00:59:09,013 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src]
+2021-03-11 00:59:09,038 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/.git/
 
-2021-01-18 02:10:39,692 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/gradlew
-2021-01-18 02:10:39,699 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/indicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/build.gradle
-2021-01-18 02:10:39,704 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/indicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/settings.gradle
-2021-01-18 02:10:39,704 INFO  ProjectBuildService - Remote scripts: none
-2021-01-18 02:10:39,704 INFO  ProjectFixService - Fixing project...
-2021-01-18 02:10:39,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/app/local.properties
-2021-01-18 02:10:39,719 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2021-01-18 02:10:39,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/indicator/local.properties
-2021-01-18 02:10:39,721 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/indicator/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2021-01-18 02:10:39,721 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/local.properties
-2021-01-18 02:10:39,722 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
-2021-01-18 02:10:39,722 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
-2021-01-18 02:10:39,723 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2021-01-18 02:10:39,723 INFO  ProjectFixService - Project was maybe fixed
-2021-01-18 02:10:39,724 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-18 02:10:39,724 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-18 02:10:51,764 INFO  ProjectTaskService - Detected possible tasks: 68
-2021-01-18 02:10:51,764 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-18 02:10:51,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-18 02:12:34,035 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-11 00:59:09,042 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/gradlew
+2021-03-11 00:59:09,047 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/indicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/build.gradle
+2021-03-11 00:59:09,051 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/indicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/settings.gradle
+2021-03-11 00:59:09,052 INFO  ProjectBuildService - Remote scripts: none
+2021-03-11 00:59:09,052 INFO  ProjectFixService - Fixing project...
+2021-03-11 00:59:09,063 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/app/local.properties
+2021-03-11 00:59:09,063 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-11 00:59:09,064 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/indicator/local.properties
+2021-03-11 00:59:09,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/indicator/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-11 00:59:09,065 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/local.properties
+2021-03-11 00:59:09,065 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2021-03-11 00:59:09,066 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2021-03-11 00:59:09,066 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-11 00:59:09,067 INFO  ProjectFixService - Project was maybe fixed
+2021-03-11 00:59:09,067 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-11 00:59:09,067 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-11 00:59:18,944 INFO  ProjectTaskService - Detected possible tasks: 68
+2021-03-11 00:59:18,944 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-11 00:59:18,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-11 00:59:21,203 INFO  VirusProcessorServiceImpl - Queued project 8098 to scan viruses
+2021-03-11 01:01:11,071 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
-Kotlin plugin should be enabled before 'kotlin-android-extensions'
-
-> Configure project :indicator
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
 
 > Task :app:preBuild UP-TO-DATE
@@ -63,36 +61,36 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:processDebugManifest
 > Task :indicator:generateDebugBuildConfig
 > Task :indicator:javaPreCompileDebug
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :app:javaPreCompileDebug
 > Task :app:processDebugManifestForPackage
-> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
 > Task :app:generateDebugAssets UP-TO-DATE
 > Task :indicator:mergeDebugShaders
-> Task :indicator:generateDebugRFile
 > Task :indicator:compileDebugShaders NO-SOURCE
 > Task :indicator:generateDebugAssets UP-TO-DATE
 > Task :indicator:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :indicator:generateDebugRFile
 > Task :app:compressDebugAssets
 > Task :app:processDebugResources
 > Task :indicator:compileDebugKotlin
 > Task :indicator:compileDebugJavaWithJavac
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :indicator:processDebugJavaRes NO-SOURCE
-> Task :indicator:bundleLibCompileToJarDebug
 > Task :indicator:bundleLibResDebug
+> Task :indicator:bundleLibCompileToJarDebug
+> Task :indicator:bundleLibRuntimeToJarDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/app/src/main/java/com/zhpan/viewpagerindicator/BaseDataActivity.kt: (26, 26): 'getColor(Int): Int' is deprecated. Deprecated in Java
-
-> Task :app:compileDebugJavaWithJavac
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/app/src/main/java/com/zhpan/viewpagerindicator/BaseDataActivity.kt: (26, 26): 'getColor(Int): Int' is deprecated. Deprecated in Java
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
+> Task :app:compileDebugJavaWithJavac
+
 > Task :app:compileDebugSources
-> Task :indicator:bundleLibRuntimeToJarDebug
 > Task :app:mergeDebugJavaResource
 > Task :app:dexBuilderDebug
 > Task :app:checkDebugDuplicateClasses
@@ -123,23 +121,32 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :indicator:extractDeepLinksRelease
+> Task :indicator:compileReleaseLibraryResources
 > Task :indicator:processReleaseManifest
+> Task :indicator:parseReleaseLocalResources
 > Task :app:processReleaseMainManifest
 > Task :app:processReleaseManifest
-> Task :indicator:compileReleaseLibraryResources
+> Task :app:processReleaseManifestForPackage
 > Task :indicator:generateReleaseBuildConfig
-> Task :indicator:parseReleaseLocalResources
+> Task :app:mergeReleaseResources
+> Task :indicator:generateReleaseRFile
 > Task :indicator:javaPreCompileRelease
 > Task :app:javaPreCompileRelease
-> Task :app:processReleaseManifestForPackage
-> Task :indicator:generateReleaseRFile
-> Task :app:mergeReleaseResources
-> Task :indicator:compileReleaseKotlin
 > Task :app:processReleaseResources
+> Task :indicator:compileReleaseKotlin
 > Task :indicator:compileReleaseJavaWithJavac
-> Task :indicator:prepareLintJarForPublish
 > Task :indicator:bundleLibCompileToJarRelease
+> Task :indicator:prepareLintJarForPublish
 > Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/app/src/main/java/com/zhpan/viewpagerindicator/BaseDataActivity.kt: (26, 26): 'getColor(Int): Int' is deprecated. Deprecated in Java
+
+> Task :app:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileReleaseSources
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -151,22 +158,17 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:compressReleaseAssets
 > Task :indicator:bundleLibRuntimeToJarRelease
 > Task :app:checkReleaseDuplicateClasses
-
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/app/src/main/java/com/zhpan/viewpagerindicator/BaseDataActivity.kt: (26, 26): 'getColor(Int): Int' is deprecated. Deprecated in Java
-
-> Task :app:compileReleaseJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:compileReleaseSources
 > Task :app:mergeExtDexDebug
 > Task :app:lintVitalRelease
 > Task :app:dexBuilderRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:desugarReleaseFileDependencies
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :indicator:processReleaseJavaRes NO-SOURCE
 > Task :indicator:bundleLibResRelease
+> Task :app:mergeReleaseJavaResource
 > Task :app:collectReleaseDependencies
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
@@ -174,12 +176,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :indicator:mergeReleaseNativeLibs NO-SOURCE
 > Task :indicator:stripReleaseDebugSymbols NO-SOURCE
 > Task :indicator:copyReleaseJniLibsProjectOnly
-> Task :app:mergeDexDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
-> Task :app:mergeReleaseJavaResource
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -187,7 +185,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 41s
+BUILD SUCCESSFUL in 1m 51s
 93 actionable tasks: 93 executed
 
-2021-01-18 02:12:34,121 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910637295-0/src/viewpagerindicator-master/app/build/outputs/apk/debug/app-debug.apk
+2021-03-11 01:01:11,143 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615399146450-0/src/viewpagerindicator-master/app/build/outputs/apk/debug/app-debug.apk

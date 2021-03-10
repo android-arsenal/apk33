@@ -1,37 +1,37 @@
-2021-01-18 02:05:49,043 INFO  DownloadService - Downloading "https://github.com/Devlight/CornerCutLinearLayout/archive/master.zip", attempt 3
-2021-01-18 02:05:54,069 INFO  DownloadService - Downloaded https://github.com/Devlight/CornerCutLinearLayout/archive/master.zip, attempt 3
-2021-01-18 02:05:54,069 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/master.zip": 7 MB
-2021-01-18 02:05:54,069 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2021-01-18 02:05:54,070 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/master.zip: true
-2021-01-18 02:05:54,070 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src'.
-2021-01-18 02:05:54,187 INFO  FullProcessService - Size of directory with sources: 8 MB
-2021-01-18 02:05:54,187 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src]
-2021-01-18 02:05:54,211 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/.git/
+2021-03-11 00:48:43,449 INFO  DownloadService - Downloading "https://github.com/Devlight/CornerCutLinearLayout/archive/master.zip", attempt 3
+2021-03-11 00:48:46,425 INFO  DownloadService - Downloaded https://github.com/Devlight/CornerCutLinearLayout/archive/master.zip, attempt 3
+2021-03-11 00:48:46,425 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/master.zip": 7 MB
+2021-03-11 00:48:46,425 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-03-11 00:48:46,426 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/master.zip: true
+2021-03-11 00:48:46,426 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src'.
+2021-03-11 00:48:46,549 INFO  FullProcessService - Size of directory with sources: 8 MB
+2021-03-11 00:48:46,549 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src]
+2021-03-11 00:48:46,581 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/.git/
 
-2021-01-18 02:05:54,215 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/gradlew
-2021-01-18 02:05:54,219 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/cornercutlinearlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/build.gradle
-2021-01-18 02:05:54,223 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/cornercutlinearlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/settings.gradle
-2021-01-18 02:05:54,224 INFO  ProjectBuildService - Remote scripts: none
-2021-01-18 02:05:54,224 INFO  ProjectFixService - Fixing project...
-2021-01-18 02:05:54,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/app/local.properties
-2021-01-18 02:05:54,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-18 02:05:54,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-18 02:05:54,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/cornercutlinearlayout/local.properties
-2021-01-18 02:05:54,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/cornercutlinearlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-18 02:05:54,238 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/cornercutlinearlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-18 02:05:54,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/local.properties
-2021-01-18 02:05:54,239 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.7.1-all.zip
-2021-01-18 02:05:54,239 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.7.1-bin.zip)
-2021-01-18 02:05:54,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-18 02:05:54,241 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-18 02:05:54,242 INFO  ProjectFixService - Project was maybe fixed
-2021-01-18 02:05:54,242 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-18 02:05:54,242 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-18 02:06:03,718 INFO  VirusProcessorServiceImpl - Queued project 8115 to scan viruses
-2021-01-18 02:06:28,394 INFO  ProjectTaskService - Detected possible tasks: 70
-2021-01-18 02:06:28,394 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-18 02:06:28,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-18 02:09:11,004 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-11 00:48:46,586 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/gradlew
+2021-03-11 00:48:46,591 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/cornercutlinearlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/build.gradle
+2021-03-11 00:48:46,595 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/cornercutlinearlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/settings.gradle
+2021-03-11 00:48:46,596 INFO  ProjectBuildService - Remote scripts: none
+2021-03-11 00:48:46,596 INFO  ProjectFixService - Fixing project...
+2021-03-11 00:48:46,606 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/app/local.properties
+2021-03-11 00:48:46,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-11 00:48:46,607 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-11 00:48:46,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/cornercutlinearlayout/local.properties
+2021-03-11 00:48:46,609 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/cornercutlinearlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-11 00:48:46,609 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/cornercutlinearlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-11 00:48:46,611 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/local.properties
+2021-03-11 00:48:46,612 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.7.1-all.zip
+2021-03-11 00:48:46,612 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.7.1-bin.zip)
+2021-03-11 00:48:46,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-11 00:48:46,615 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-11 00:48:46,616 INFO  ProjectFixService - Project was maybe fixed
+2021-03-11 00:48:46,616 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-11 00:48:46,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-11 00:48:58,082 INFO  VirusProcessorServiceImpl - Queued project 8121 to scan viruses
+2021-03-11 00:49:18,235 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-11 00:49:18,235 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-11 00:49:18,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-11 00:51:47,984 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :cornercutlinearlayout:preBuild UP-TO-DATE
@@ -79,22 +79,18 @@
 > Task :cornercutlinearlayout:generateDebugRFile
 > Task :app:checkDebugDuplicateClasses
 > Task :app:desugarDebugFileDependencies
+> Task :app:mergeExtDexDebug
 > Task :app:processDebugManifestForPackage
 > Task :cornercutlinearlayout:compileDebugKotlin
 > Task :cornercutlinearlayout:compileDebugJavaWithJavac
-> Task :cornercutlinearlayout:bundleLibCompileToJarDebug
 > Task :cornercutlinearlayout:bundleLibResDebug
-> Task :app:processDebugResources
-> Task :app:mergeExtDexDebug
-> Task :app:compileDebugKotlin
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
+> Task :cornercutlinearlayout:bundleLibCompileToJarDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :cornercutlinearlayout:mergeDebugJniLibFolders
 > Task :cornercutlinearlayout:mergeDebugNativeLibs NO-SOURCE
 > Task :cornercutlinearlayout:stripDebugDebugSymbols NO-SOURCE
-> Task :cornercutlinearlayout:copyDebugJniLibsProjectOnly
 > Task :cornercutlinearlayout:bundleLibRuntimeToJarDebug
+> Task :cornercutlinearlayout:copyDebugJniLibsProjectOnly
 > Task :app:validateSigningDebug
 > Task :app:writeDebugAppMetadata
 > Task :app:writeDebugSigningConfigVersions
@@ -112,7 +108,12 @@
 > Task :cornercutlinearlayout:generateReleaseResValues
 > Task :cornercutlinearlayout:generateReleaseResources
 > Task :cornercutlinearlayout:packageReleaseResources
+> Task :app:processDebugResources
 > Task :app:mergeReleaseResources
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeLibDexDebug
 > Task :app:dexBuilderDebug
 > Task :app:dataBindingGenBaseClassesRelease
 > Task :app:generateReleaseBuildConfig
@@ -135,18 +136,10 @@
 > Task :cornercutlinearlayout:generateReleaseRFile
 > Task :cornercutlinearlayout:prepareLintJarForPublish
 > Task :app:mergeReleaseJniLibFolders
-> Task :app:mergeDebugNativeLibs
-> Task :app:mergeDebugJavaResource
-> Task :cornercutlinearlayout:compileReleaseKotlin
-> Task :app:stripDebugDebugSymbols NO-SOURCE
-> Task :app:mergeLibDexDebug
-> Task :cornercutlinearlayout:compileReleaseJavaWithJavac
 > Task :cornercutlinearlayout:processReleaseJavaRes NO-SOURCE
-> Task :cornercutlinearlayout:bundleLibResRelease
 > Task :cornercutlinearlayout:mergeReleaseJniLibFolders
 > Task :cornercutlinearlayout:mergeReleaseNativeLibs NO-SOURCE
 > Task :cornercutlinearlayout:stripReleaseDebugSymbols NO-SOURCE
-> Task :cornercutlinearlayout:bundleLibCompileToJarRelease
 > Task :cornercutlinearlayout:copyReleaseJniLibsProjectOnly
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
@@ -156,42 +149,45 @@
 > Task :cornercutlinearlayout:generateReleaseAssets UP-TO-DATE
 > Task :cornercutlinearlayout:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:mergeDebugJavaResource
 > Task :app:compressReleaseAssets
-> Task :app:processReleaseManifestForPackage
-> Task :cornercutlinearlayout:bundleLibRuntimeToJarRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:desugarReleaseFileDependencies
-> Task :app:processReleaseResources
-> Task :app:mergeExtDexRelease
-> Task :app:compileReleaseKotlin
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:packageDebug
-> Task :app:lintVitalRelease
-> Task :app:dexBuilderRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeDebugNativeLibs
 > Task :app:collectReleaseDependencies
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:sdkReleaseDependencyData
 > Task :app:writeReleaseAppMetadata
 > Task :app:writeReleaseSigningConfigVersions
-> Task :app:assembleDebug
-> Task :app:optimizeReleaseResources
+> Task :app:processReleaseManifestForPackage
+> Task :app:processReleaseResources
+> Task :app:mergeExtDexRelease
+> Task :cornercutlinearlayout:compileReleaseKotlin
+> Task :cornercutlinearlayout:compileReleaseJavaWithJavac
+> Task :cornercutlinearlayout:bundleLibResRelease
+> Task :cornercutlinearlayout:bundleLibCompileToJarRelease
+> Task :cornercutlinearlayout:bundleLibRuntimeToJarRelease
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
 > Task :app:mergeReleaseNativeLibs
+> Task :app:mergeReleaseJavaResource
+> Task :app:dexBuilderRelease
 > Task :app:extractReleaseNativeSymbolTables NO-SOURCE
 > Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
-> Task :app:mergeReleaseJavaResource
+> Task :app:optimizeReleaseResources
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/6.7.1/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 2m 41s
+BUILD SUCCESSFUL in 2m 28s
 107 actionable tasks: 107 executed
 
-2021-01-18 02:09:11,104 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910349039-0/src/CornerCutLinearLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2021-03-11 00:51:48,070 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398523445-0/src/CornerCutLinearLayout-master/app/build/outputs/apk/debug/app-debug.apk

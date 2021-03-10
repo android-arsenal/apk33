@@ -1,40 +1,43 @@
-2021-01-13 02:12:00,161 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXEmojiView/archive/master.zip", attempt 3
-2021-01-13 02:13:00,783 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2021-01-13 02:13:01,647 INFO  GithubDownloadService - Default branch of this repository: master
-2021-01-13 02:13:01,647 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXEmojiView/archive/master.zip", attempt 3
-2021-01-13 02:14:03,399 DEBUG FullProcessService - Repository https://github.com/Aghajari/AXEmojiView available: true
-2021-01-13 02:14:03,400 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2021-01-13 02:14:03,400 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Aghajari/AXEmojiView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src]
-2021-01-13 02:14:29,964 INFO  SysUtils - 
-2021-01-13 02:14:30,002 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/.git": true
-2021-01-13 02:14:30,084 INFO  FullProcessService - Size of directory with sources: 26 MB
-2021-01-13 02:14:30,084 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src]
-2021-01-13 02:14:30,105 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/.git/
+2021-03-11 00:37:03,838 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXEmojiView/archive/master.zip", attempt 3
+2021-03-11 00:37:12,061 INFO  DownloadService - Downloaded https://github.com/Aghajari/AXEmojiView/archive/master.zip, attempt 3
+2021-03-11 00:37:12,062 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/master.zip": 25 MB
+2021-03-11 00:37:12,063 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-03-11 00:37:12,082 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/master.zip: true
+2021-03-11 00:37:12,083 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src'.
+2021-03-11 00:37:13,021 INFO  FullProcessService - Size of directory with sources: 26 MB
+2021-03-11 00:37:13,030 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src]
+2021-03-11 00:37:13,150 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/.git/
 
-2021-01-13 02:14:30,159 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/gradlew
-2021-01-13 02:14:30,212 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/AXEmojiView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/build.gradle
-2021-01-13 02:14:30,264 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/AXEmojiView/build.gradle
-2021-01-13 02:14:30,265 INFO  ProjectBuildService - Remote scripts: none
-2021-01-13 02:14:30,265 INFO  ProjectFixService - Fixing project...
-2021-01-13 02:14:30,380 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/AXEmojiView/local.properties
-2021-01-13 02:14:30,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/AXEmojiView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-13 02:14:30,382 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/AXEmojiView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-13 02:14:30,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/app/local.properties
-2021-01-13 02:14:30,384 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-13 02:14:30,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-13 02:14:30,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/local.properties
-2021-01-13 02:14:30,386 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2021-01-13 02:14:30,386 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2021-01-13 02:14:30,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-13 02:14:30,389 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-13 02:14:30,389 INFO  ProjectFixService - Project was maybe fixed
-2021-01-13 02:14:30,389 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-13 02:14:30,389 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/AXEmojiView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-13 02:14:30,930 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2021-01-13 02:14:30,930 INFO  ProjectTaskService - Detected possible tasks: 0
-2021-01-13 02:14:30,930 INFO  ProjectTaskService - Excluded tasks (0): none
-2021-01-13 02:14:30,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView/AXEmojiView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2021-01-13 02:14:31,082 ERROR SysUtils - Could not process external command
+2021-03-11 00:37:13,237 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/gradlew
+2021-03-11 00:37:13,299 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/AXEmojiView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/build.gradle
+2021-03-11 00:37:13,360 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/AXEmojiView/build.gradle
+2021-03-11 00:37:13,362 INFO  ProjectBuildService - Remote scripts: none
+2021-03-11 00:37:13,363 INFO  ProjectFixService - Fixing project...
+2021-03-11 00:37:13,521 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2021-03-11 00:37:13,521 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2021-03-11 00:37:13,525 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 30.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2021-03-11 00:37:13,528 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 30.0.2 28.0.0-rc1 28.0.0-rc2
+2021-03-11 00:37:13,531 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 30 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2021-03-11 00:37:13,532 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+2021-03-11 00:37:13,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/AXEmojiView/local.properties
+2021-03-11 00:37:13,541 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/AXEmojiView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-11 00:37:13,543 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/AXEmojiView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-11 00:37:13,546 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/app/local.properties
+2021-03-11 00:37:13,548 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-11 00:37:13,548 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-11 00:37:13,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/local.properties
+2021-03-11 00:37:13,556 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2021-03-11 00:37:13,557 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2021-03-11 00:37:13,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-11 00:37:13,559 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-11 00:37:13,560 INFO  ProjectFixService - Project was maybe fixed
+2021-03-11 00:37:13,562 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-11 00:37:13,562 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/AXEmojiView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-11 00:37:14,194 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2021-03-11 00:37:14,194 INFO  ProjectTaskService - Detected possible tasks: 0
+2021-03-11 00:37:14,194 INFO  ProjectTaskService - Excluded tasks (0): none
+2021-03-11 00:37:14,194 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView/AXEmojiView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2021-03-11 00:37:14,328 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -62,6 +65,6 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-13 02:14:31,082 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2021-03-11 00:37:14,329 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2021-01-13 02:14:31,134 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478720158-0/src/AXEmojiView1.3.0.apk
+2021-03-11 00:37:14,379 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397823748-0/src/AXEmojiView-master/AXEmojiView1.3.0.apk

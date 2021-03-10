@@ -1,41 +1,38 @@
-2020-10-06 22:10:32,491 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiNFC/archive/master.zip", attempt 3
-2020-10-06 22:10:45,970 INFO  VirusProcessorServiceImpl - Queued project 8122 to scan viruses
-2020-10-06 22:11:33,076 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-10-06 22:11:33,886 INFO  GithubDownloadService - Default branch of this repository: master
-2020-10-06 22:11:33,887 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiNFC/archive/master.zip", attempt 3
-2020-10-06 22:12:35,158 DEBUG FullProcessService - Repository https://github.com/romellfudi/FudiNFC available: true
-2020-10-06 22:12:35,158 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-10-06 22:12:35,158 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/romellfudi/FudiNFC, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src]
-2020-10-06 22:12:37,137 INFO  SysUtils - 
-2020-10-06 22:12:37,152 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/.git": true
-2020-10-06 22:12:37,158 INFO  FullProcessService - Size of directory with sources: 485 KB
-2020-10-06 22:12:37,158 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src]
-2020-10-06 22:12:37,184 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/.git/
+2021-03-11 00:46:46,151 INFO  DownloadService - Downloading "https://github.com/romellfudi/FudiNFC/archive/master.zip", attempt 3
+2021-03-11 00:46:46,858 INFO  DownloadService - Downloaded https://github.com/romellfudi/FudiNFC/archive/master.zip, attempt 3
+2021-03-11 00:46:46,859 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/master.zip": 419 KB
+2021-03-11 00:46:46,859 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-03-11 00:46:46,859 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/master.zip: true
+2021-03-11 00:46:46,860 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src'.
+2021-03-11 00:46:46,895 INFO  FullProcessService - Size of directory with sources: 493 KB
+2021-03-11 00:46:46,895 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src]
+2021-03-11 00:46:46,929 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/.git/
 
-2020-10-06 22:12:37,189 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/gradlew
-2020-10-06 22:12:37,193 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/fudi-nfc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/build.gradle
-2020-10-06 22:12:37,197 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/fudi-nfc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/settings.gradle
-2020-10-06 22:12:37,197 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle", attempt 3
-2020-10-06 22:12:37,878 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle, attempt 3
-2020-10-06 22:12:37,878 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle", attempt 3
-2020-10-06 22:12:38,324 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle, attempt 3
-2020-10-06 22:12:38,324 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle
-2020-10-06 22:12:38,324 INFO  ProjectFixService - Fixing project...
-2020-10-06 22:12:38,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/local.properties
-2020-10-06 22:12:38,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2020-10-06 22:12:38,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/fudi-nfc/local.properties
-2020-10-06 22:12:38,348 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/fudi-nfc/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2020-10-06 22:12:38,348 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/local.properties
-2020-10-06 22:12:38,349 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-10-06 22:12:38,349 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-10-06 22:12:38,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2020-10-06 22:12:38,350 INFO  ProjectFixService - Project was maybe fixed
-2020-10-06 22:12:38,350 INFO  ProjectTaskService - Detecting possible tasks...
-2020-10-06 22:12:38,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-10-06 22:13:19,174 INFO  ProjectTaskService - Detected possible tasks: 77
-2020-10-06 22:13:19,175 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-10-06 22:13:19,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-10-06 22:13:24,258 ERROR SysUtils - Could not process external command
+2021-03-11 00:46:46,935 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/gradlew
+2021-03-11 00:46:46,940 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/fudi-nfc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/build.gradle
+2021-03-11 00:46:46,943 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/fudi-nfc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/settings.gradle
+2021-03-11 00:46:46,945 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle", attempt 3
+2021-03-11 00:46:47,473 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle, attempt 3
+2021-03-11 00:46:47,473 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle", attempt 3
+2021-03-11 00:46:47,749 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle, attempt 3
+2021-03-11 00:46:47,750 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_install.gradle https://raw.githubusercontent.com/romellfudi/assets/bintray/artifactory_bintray.gradle
+2021-03-11 00:46:47,750 INFO  ProjectFixService - Fixing project...
+2021-03-11 00:46:47,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/local.properties
+2021-03-11 00:46:47,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2021-03-11 00:46:47,764 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/fudi-nfc/local.properties
+2021-03-11 00:46:47,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/fudi-nfc/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2021-03-11 00:46:47,766 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/local.properties
+2021-03-11 00:46:47,767 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2021-03-11 00:46:47,767 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2021-03-11 00:46:47,768 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2021-03-11 00:46:47,768 INFO  ProjectFixService - Project was maybe fixed
+2021-03-11 00:46:47,768 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-11 00:46:47,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-11 00:46:59,712 INFO  VirusProcessorServiceImpl - Queued project 8122 to scan viruses
+2021-03-11 00:47:17,113 INFO  ProjectTaskService - Detected possible tasks: 74
+2021-03-11 00:47:17,113 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-11 00:47:17,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-11 00:47:25,595 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -63,10 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-10-06 22:13:24,258 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :app
-Kotlin plugin should be enabled before 'kotlin-android-extensions'
+2021-03-11 00:47:25,596 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -78,17 +72,19 @@ Run gradlew tasks to get a list of available tasks. Run with --info or --debug o
 
 * Exception is:
 org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:117)
 	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:43)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:58)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:43)
-	at org.gradle.internal.Factories$1.create(Factories.java:25)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:44)
+	at org.gradle.internal.Factories$1.create(Factories.java:26)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:134)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:126)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:40)
+	at org.gradle.initialization.DefaultTaskExecutionPreparer.prepareForTaskExecution(DefaultTaskExecutionPreparer.java:38)
+	at org.gradle.initialization.BuildOperatingFiringTaskExecutionPreparer$CalculateTaskGraph.populateTaskGraph(BuildOperatingFiringTaskExecutionPreparer.java:82)
+	at org.gradle.initialization.BuildOperatingFiringTaskExecutionPreparer$CalculateTaskGraph.run(BuildOperatingFiringTaskExecutionPreparer.java:57)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
@@ -96,20 +92,22 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.initialization.BuildOperatingFiringTaskExecutionPreparer.prepareForTaskExecution(BuildOperatingFiringTaskExecutionPreparer.java:45)
+	at org.gradle.initialization.DefaultGradleLauncher.prepareTaskExecution(DefaultGradleLauncher.java:214)
+	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:110)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:60)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:57)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:85)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:78)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:57)
 	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
 	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
 	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
@@ -122,17 +120,17 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
 	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:38)
 	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
 	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
 	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
@@ -145,19 +143,18 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:56)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:212)
+	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAndBuildAction.execute(DefaultCommandLineActionFactory.java:404)
+	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAndBuildAction.execute(DefaultCommandLineActionFactory.java:376)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:38)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$WithLogging.execute(DefaultCommandLineActionFactory.java:369)
+	at org.gradle.launcher.Main.doAction(Main.java:35)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:31)
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
@@ -165,11 +162,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 8s
 
-2020-10-06 22:13:24,258 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2020-10-06 22:13:24,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-10-06 22:14:34,453 ERROR SysUtils - Could not process external command
+2021-03-11 00:47:25,596 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2021-03-11 00:47:25,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2021-03-11 00:48:42,972 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -197,24 +194,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-10-06 22:14:34,453 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :app
-Kotlin plugin should be enabled before 'kotlin-android-extensions'
-
+2021-03-11 00:48:42,978 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
 
 > Task :app:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/AndroidManifest.xml:15:5-33:19 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/AndroidManifest.xml:15:5-34:19 Warning:
 	application@android:label was tagged at AndroidManifest.xml:15 to replace other declarations but no other declaration present
 
 > Task :app:mergeDebugResources
@@ -222,32 +214,57 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 
 > Task :app:kaptGenerateStubsDebugKotlin
 w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.70/95aee922bc2a0fff3b7bfa1b6503ff0afe38264a/kotlin-stdlib-jdk7-1.3.70.jar (version 1.3)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.0/63e75298e93d4ae0b299bb869cf0c627196f8843/kotlin-stdlib-1.4.0.jar (version 1.4)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.0/1c752cce0ead8d504ccc88a4fed6471fd83ab0dd/kotlin-stdlib-common-1.4.0.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c0752616d91fcdd85501ac1a97a58bff/jetified-kotlin-stdlib-jdk7-1.3.70.jar (version 1.3)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9fbb6b173c8682950f416b98bb76c56c/jetified-kotlin-stdlib-1.4.30.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b5d20eba0714c6c2223f3a6bbbd70f3c/jetified-kotlin-stdlib-common-1.4.30.jar (version 1.4)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
 
+> Task :app:javaPreCompileDebug
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :app:mergeDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:checkDebugDuplicateClasses
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c0752616d91fcdd85501ac1a97a58bff/jetified-kotlin-stdlib-jdk7-1.3.70.jar (version 1.3)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9fbb6b173c8682950f416b98bb76c56c/jetified-kotlin-stdlib-1.4.30.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b5d20eba0714c6c2223f3a6bbbd70f3c/jetified-kotlin-stdlib-common-1.4.30.jar (version 1.4)
+w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (8, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (30, 35): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (118, 25): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (9, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (47, 13): 'constructor ProgressDialog(Context!)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (47, 13): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (55, 74): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (66, 41): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
 > Task :app:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
 
 > Task :app:processReleaseManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/AndroidManifest.xml:15:5-33:19 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/AndroidManifest.xml:15:5-34:19 Warning:
 	application@android:label was tagged at AndroidManifest.xml:15 to replace other declarations but no other declaration present
 
 > Task :app:mergeReleaseResources
@@ -255,87 +272,59 @@ w: Some runtime JAR files in the classpath have an incompatible version. Conside
 
 > Task :app:kaptGenerateStubsReleaseKotlin
 w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.70/95aee922bc2a0fff3b7bfa1b6503ff0afe38264a/kotlin-stdlib-jdk7-1.3.70.jar (version 1.3)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.0/63e75298e93d4ae0b299bb869cf0c627196f8843/kotlin-stdlib-1.4.0.jar (version 1.4)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.0/1c752cce0ead8d504ccc88a4fed6471fd83ab0dd/kotlin-stdlib-common-1.4.0.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c0752616d91fcdd85501ac1a97a58bff/jetified-kotlin-stdlib-jdk7-1.3.70.jar (version 1.3)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9fbb6b173c8682950f416b98bb76c56c/jetified-kotlin-stdlib-1.4.30.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b5d20eba0714c6c2223f3a6bbbd70f3c/jetified-kotlin-stdlib-common-1.4.30.jar (version 1.4)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
 
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:kaptDebugKotlin
-
-> Task :app:compileDebugKotlin
-w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.70/95aee922bc2a0fff3b7bfa1b6503ff0afe38264a/kotlin-stdlib-jdk7-1.3.70.jar (version 1.3)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.0/63e75298e93d4ae0b299bb869cf0c627196f8843/kotlin-stdlib-1.4.0.jar (version 1.4)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.0/1c752cce0ead8d504ccc88a4fed6471fd83ab0dd/kotlin-stdlib-common-1.4.0.jar (version 1.4)
-w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (8, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (27, 35): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 36): Condition 'mProgressDialog != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 78): Unnecessary non-null assertion (!!) on a non-null receiver of type ProgressDialog
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (125, 20): Condition 'element != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (9, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (47, 13): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (55, 74): 'ProgressDialog' is deprecated. Deprecated in Java
-
+> Task :app:mergeExtDexDebug
+> Task :app:javaPreCompileRelease
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:kaptReleaseKotlin
 
 > Task :app:compileReleaseKotlin
 w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.70/95aee922bc2a0fff3b7bfa1b6503ff0afe38264a/kotlin-stdlib-jdk7-1.3.70.jar (version 1.3)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.0/63e75298e93d4ae0b299bb869cf0c627196f8843/kotlin-stdlib-1.4.0.jar (version 1.4)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.0/1c752cce0ead8d504ccc88a4fed6471fd83ab0dd/kotlin-stdlib-common-1.4.0.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c0752616d91fcdd85501ac1a97a58bff/jetified-kotlin-stdlib-jdk7-1.3.70.jar (version 1.3)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9fbb6b173c8682950f416b98bb76c56c/jetified-kotlin-stdlib-1.4.30.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b5d20eba0714c6c2223f3a6bbbd70f3c/jetified-kotlin-stdlib-common-1.4.30.jar (version 1.4)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (8, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (27, 35): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 36): Condition 'mProgressDialog != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (99, 78): Unnecessary non-null assertion (!!) on a non-null receiver of type ProgressDialog
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (125, 20): Condition 'element != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (9, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (47, 13): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (55, 74): 'ProgressDialog' is deprecated. Deprecated in Java
-
-> Task :app:javaPreCompileDebug
-
-> Task :app:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:compileDebugSources
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:javaPreCompileRelease
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (8, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (30, 35): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/MainActivity.kt: (118, 25): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (9, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (47, 13): 'constructor ProgressDialog(Context!)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (47, 13): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (55, 74): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/java/com/romellfudi/fudinfc/app/di/module/UIModule.kt: (66, 41): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
 
 > Task :app:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
-> Task :app:mergeDebugJavaResource
-> Task :app:mergeExtDexDebug
-> Task :app:prepareLintJar
 > Task :app:lintVitalRelease SKIPPED
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:dexBuilderRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 
-> Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/6e5ea0b74d3525c5c9f60e32549066ce/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 36 issues found
-Ran lint on variant release: 36 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/build/reports/lint-results.xml
-
 > Task :app:lint FAILED
-> Task :app:mergeDexDebug
-> Task :app:mergeReleaseJavaResource
+Ran lint on variant debug: 28 issues found
+Ran lint on variant release: 28 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/build/reports/lint-results.xml
+
 > Task :app:mergeReleaseNativeLibs
+> Task :app:mergeReleaseJavaResource
 
 FAILURE: Build failed with an exception.
 
@@ -354,10 +343,10 @@ Execution failed for task ':app:lint'.
   
   Errors found:
   
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/res/menu/main.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/res/menu/main.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
           android:showAsAction="never" />
           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/res/menu/nfc.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/res/menu/nfc.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
           android:showAsAction="never" />
           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
@@ -368,24 +357,19 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 
 * Exception is:
 org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lint'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:151)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:148)
-	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:141)
-	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
-	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:205)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:263)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:203)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:184)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:109)
 	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:62)
 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
@@ -393,20 +377,19 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lin
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
-	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:41)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:372)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:359)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:352)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:338)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.lambda$run$0(DefaultPlanExecutor.java:127)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:191)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:182)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:124)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: org.gradle.api.GradleException: Lint found errors in the project; aborting build.
 
 Fix the issues identified by lint, or add the following to your build script to proceed with errors:
@@ -420,27 +403,27 @@ android {
 
 Errors found:
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/res/menu/main.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/res/menu/main.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
         android:showAsAction="never" />
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/src/main/res/menu/nfc.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/src/main/res/menu/nfc.xml:14: Error: Should use app:showAsAction with the appcompat library with xmlns:app="http://schemas.android.com/apk/res-auto" [AppCompatResource]
         android:showAsAction="never" />
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-	at com.android.tools.lint.gradle.LintGradleExecution.abort(LintGradleExecution.java:206)
-	at com.android.tools.lint.gradle.LintGradleExecution.lintAllVariants(LintGradleExecution.java:530)
-	at com.android.tools.lint.gradle.LintGradleExecution.analyze(LintGradleExecution.java:96)
+	at com.android.tools.lint.gradle.LintGradleExecution.abort(LintGradleExecution.java:210)
+	at com.android.tools.lint.gradle.LintGradleExecution.lintAllVariants(LintGradleExecution.java:544)
+	at com.android.tools.lint.gradle.LintGradleExecution.analyze(LintGradleExecution.java:101)
 	at com.android.tools.lint.gradle.api.ReflectiveLintRunner.runLint(ReflectiveLintRunner.kt:38)
-	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:100)
-	at com.android.build.gradle.tasks.LintGlobalTask.lint(LintGlobalTask.java:47)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:114)
+	at com.android.build.gradle.tasks.LintGlobalTask.lint(LintGlobalTask.java:50)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:104)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:49)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:42)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:702)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:669)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:404)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:727)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:694)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.run(ExecuteActionsTaskExecuter.java:568)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
@@ -448,292 +431,60 @@ Errors found:
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:393)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:376)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:80)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:213)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:553)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:536)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$300(ExecuteActionsTaskExecuter.java:109)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.executeWithPreviousOutputFiles(ExecuteActionsTaskExecuter.java:276)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:265)
 	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
-	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:63)
 	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
-	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
-	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
-	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:34)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:43)
 	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
 	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
-	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
-	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
-	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
-	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
-	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
-	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
-	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:34)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:44)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:54)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:38)
 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
-	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
-	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:153)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:67)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:41)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:44)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:33)
 	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
 	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
-	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:92)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:85)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:76)
 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
-	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
-	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:94)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:79)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:53)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:74)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.lambda$execute$2(SkipEmptyWorkStep.java:78)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:78)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:34)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:39)
+	at org.gradle.internal.execution.steps.LoadExecutionStateStep.execute(LoadExecutionStateStep.java:40)
+	at org.gradle.internal.execution.steps.LoadExecutionStateStep.execute(LoadExecutionStateStep.java:28)
 	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
-	... 35 more
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:192)
+	... 30 more
 
 
 * Get more help at https://help.gradle.org
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD FAILED in 1m 16s
+46 actionable tasks: 46 executed
 
-BUILD FAILED in 1m 9s
-50 actionable tasks: 50 executed
-
-2020-10-06 22:14:34,545 INFO  ProjectTaskService - Detecting possible tasks...
-2020-10-06 22:14:34,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/fudi-nfc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-10-06 22:14:41,975 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-10-06 22:14:41,975 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-10-06 22:14:41,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/fudi-nfc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-10-06 22:14:55,554 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :fudi-nfc:preBuild UP-TO-DATE
-> Task :fudi-nfc:preDebugBuild UP-TO-DATE
-> Task :fudi-nfc:checkDebugManifest
-> Task :fudi-nfc:generateDebugBuildConfig
-> Task :fudi-nfc:generateDebugResValues
-> Task :fudi-nfc:mergeDebugShaders
-> Task :fudi-nfc:compileDebugShaders
-> Task :fudi-nfc:generateDebugAssets
-> Task :fudi-nfc:packageDebugAssets
-> Task :fudi-nfc:packageDebugRenderscript NO-SOURCE
-> Task :fudi-nfc:processDebugJavaRes NO-SOURCE
-> Task :fudi-nfc:mergeDebugJniLibFolders
-> Task :fudi-nfc:preReleaseBuild UP-TO-DATE
-> Task :fudi-nfc:checkReleaseManifest
-> Task :fudi-nfc:generateReleaseBuildConfig
-> Task :fudi-nfc:generateReleaseResValues
-> Task :fudi-nfc:prepareLintJarForPublish
-> Task :fudi-nfc:mergeReleaseShaders
-> Task :fudi-nfc:compileReleaseShaders
-> Task :fudi-nfc:mergeDebugNativeLibs
-> Task :fudi-nfc:processReleaseManifest
-> Task :fudi-nfc:stripDebugDebugSymbols
-> Task :fudi-nfc:compileDebugAidl NO-SOURCE
-> Task :fudi-nfc:compileDebugRenderscript NO-SOURCE
-> Task :fudi-nfc:generateDebugResources
-> Task :fudi-nfc:packageDebugResources
-> Task :fudi-nfc:transformNativeLibsWithSyncJniLibsForDebug
-> Task :fudi-nfc:compileReleaseAidl NO-SOURCE
-> Task :fudi-nfc:compileReleaseRenderscript NO-SOURCE
-> Task :fudi-nfc:generateReleaseResources
-> Task :fudi-nfc:packageReleaseResources
-> Task :fudi-nfc:generateReleaseAssets
-> Task :fudi-nfc:packageReleaseAssets
-> Task :fudi-nfc:packageReleaseRenderscript NO-SOURCE
-> Task :fudi-nfc:processReleaseJavaRes NO-SOURCE
-> Task :fudi-nfc:mergeReleaseJniLibFolders
-> Task :fudi-nfc:parseReleaseLibraryResources
-> Task :fudi-nfc:javaPreCompileRelease
-> Task :fudi-nfc:processDebugManifest
-> Task :fudi-nfc:mergeReleaseNativeLibs
-> Task :fudi-nfc:stripReleaseDebugSymbols
-> Task :fudi-nfc:transformNativeLibsWithSyncJniLibsForRelease
-> Task :fudi-nfc:javaPreCompileDebug
-> Task :fudi-nfc:parseDebugLibraryResources
-> Task :fudi-nfc:mergeReleaseResources
-> Task :fudi-nfc:generateDebugRFile
-> Task :fudi-nfc:compileDebugJavaWithJavac
-> Task :fudi-nfc:extractDebugAnnotations
-> Task :fudi-nfc:mergeDebugGeneratedProguardFiles
-> Task :fudi-nfc:mergeDebugConsumerProguardFiles
-> Task :fudi-nfc:compileDebugSources
-> Task :fudi-nfc:generateReleaseRFile
-> Task :fudi-nfc:compileReleaseJavaWithJavac
-> Task :fudi-nfc:extractReleaseAnnotations
-> Task :fudi-nfc:mergeReleaseGeneratedProguardFiles
-> Task :fudi-nfc:mergeReleaseConsumerProguardFiles
-> Task :fudi-nfc:compileReleaseSources
-> Task :fudi-nfc:verifyReleaseResources
-> Task :fudi-nfc:mergeDebugJavaResource
-> Task :fudi-nfc:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :fudi-nfc:bundleDebugAar
-> Task :fudi-nfc:assembleDebug
-> Task :fudi-nfc:mergeReleaseJavaResource
-> Task :fudi-nfc:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :fudi-nfc:bundleReleaseAar
-> Task :fudi-nfc:assembleRelease
-> Task :fudi-nfc:assemble
-> Task :fudi-nfc:build
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 13s
-47 actionable tasks: 47 executed
-
-2020-10-06 22:14:55,681 INFO  ProjectTaskService - Detecting possible tasks...
-2020-10-06 22:14:55,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-10-06 22:15:03,182 INFO  ProjectTaskService - Detected possible tasks: 75
-2020-10-06 22:15:03,182 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-10-06 22:15:03,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-10-06 22:15:23,966 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :app
-Kotlin plugin should be enabled before 'kotlin-android-extensions'
-
-> Task :app:preBuild UP-TO-DATE
-> Task :app:preDebugBuild UP-TO-DATE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:checkDebugManifest UP-TO-DATE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig UP-TO-DATE
-> Task :app:mainApkListPersistenceDebug UP-TO-DATE
-> Task :app:generateDebugResValues UP-TO-DATE
-> Task :app:generateDebugResources UP-TO-DATE
-> Task :app:mergeDebugResources UP-TO-DATE
-> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
-> Task :app:processDebugManifest UP-TO-DATE
-> Task :app:processDebugResources UP-TO-DATE
-> Task :app:kaptGenerateStubsDebugKotlin UP-TO-DATE
-> Task :app:kaptDebugKotlin UP-TO-DATE
-> Task :app:compileDebugKotlin UP-TO-DATE
-> Task :app:javaPreCompileDebug UP-TO-DATE
-> Task :app:compileDebugJavaWithJavac UP-TO-DATE
-> Task :app:compileDebugSources UP-TO-DATE
-> Task :app:mergeDebugShaders UP-TO-DATE
-> Task :app:compileDebugShaders UP-TO-DATE
-> Task :app:generateDebugAssets UP-TO-DATE
-> Task :app:mergeDebugAssets UP-TO-DATE
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:mergeDebugJavaResource UP-TO-DATE
-> Task :app:checkDebugDuplicateClasses UP-TO-DATE
-> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
-> Task :app:mergeExtDexDebug UP-TO-DATE
-> Task :app:mergeDexDebug UP-TO-DATE
-> Task :app:validateSigningDebug UP-TO-DATE
-> Task :app:signingConfigWriterDebug UP-TO-DATE
-> Task :app:mergeDebugJniLibFolders UP-TO-DATE
-> Task :app:mergeDebugNativeLibs UP-TO-DATE
-> Task :app:stripDebugDebugSymbols UP-TO-DATE
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:preReleaseBuild UP-TO-DATE
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest UP-TO-DATE
-> Task :app:generateReleaseBuildConfig UP-TO-DATE
-> Task :app:mainApkListPersistenceRelease UP-TO-DATE
-> Task :app:generateReleaseResValues UP-TO-DATE
-> Task :app:generateReleaseResources UP-TO-DATE
-> Task :app:mergeReleaseResources UP-TO-DATE
-> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
-> Task :app:processReleaseManifest UP-TO-DATE
-> Task :app:processReleaseResources UP-TO-DATE
-> Task :app:kaptGenerateStubsReleaseKotlin UP-TO-DATE
-> Task :app:kaptReleaseKotlin UP-TO-DATE
-> Task :app:compileReleaseKotlin UP-TO-DATE
-> Task :app:javaPreCompileRelease UP-TO-DATE
-> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :app:compileReleaseSources UP-TO-DATE
-> Task :app:prepareLintJar UP-TO-DATE
-> Task :app:checkReleaseDuplicateClasses UP-TO-DATE
-> Task :app:lintVitalRelease
-> Task :app:transformClassesWithDexBuilderForRelease UP-TO-DATE
-> Task :app:mergeReleaseShaders UP-TO-DATE
-> Task :app:compileReleaseShaders UP-TO-DATE
-> Task :app:generateReleaseAssets UP-TO-DATE
-> Task :app:mergeReleaseAssets UP-TO-DATE
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:mergeReleaseJavaResource UP-TO-DATE
-> Task :app:signingConfigWriterRelease UP-TO-DATE
-> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :app:mergeReleaseNativeLibs UP-TO-DATE
-> Task :app:stripReleaseDebugSymbols
-> Task :fudi-nfc:preBuild UP-TO-DATE
-> Task :fudi-nfc:preDebugBuild UP-TO-DATE
-> Task :fudi-nfc:checkDebugManifest UP-TO-DATE
-> Task :fudi-nfc:generateDebugBuildConfig UP-TO-DATE
-> Task :fudi-nfc:generateDebugResValues UP-TO-DATE
-> Task :fudi-nfc:processDebugManifest UP-TO-DATE
-> Task :fudi-nfc:mergeDebugShaders UP-TO-DATE
-> Task :fudi-nfc:compileDebugShaders UP-TO-DATE
-> Task :fudi-nfc:generateDebugAssets UP-TO-DATE
-> Task :fudi-nfc:packageDebugAssets UP-TO-DATE
-> Task :fudi-nfc:packageDebugRenderscript NO-SOURCE
-> Task :fudi-nfc:prepareLintJarForPublish UP-TO-DATE
-> Task :fudi-nfc:processDebugJavaRes NO-SOURCE
-> Task :fudi-nfc:mergeDebugJniLibFolders UP-TO-DATE
-> Task :fudi-nfc:mergeDebugNativeLibs UP-TO-DATE
-> Task :fudi-nfc:javaPreCompileDebug UP-TO-DATE
-> Task :fudi-nfc:stripDebugDebugSymbols UP-TO-DATE
-> Task :fudi-nfc:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-> Task :fudi-nfc:compileDebugAidl NO-SOURCE
-> Task :fudi-nfc:compileDebugRenderscript NO-SOURCE
-> Task :fudi-nfc:generateDebugResources UP-TO-DATE
-> Task :fudi-nfc:packageDebugResources UP-TO-DATE
-> Task :fudi-nfc:parseDebugLibraryResources UP-TO-DATE
-> Task :fudi-nfc:generateDebugRFile UP-TO-DATE
-> Task :fudi-nfc:compileDebugJavaWithJavac UP-TO-DATE
-> Task :fudi-nfc:extractDebugAnnotations UP-TO-DATE
-> Task :fudi-nfc:mergeDebugGeneratedProguardFiles UP-TO-DATE
-> Task :fudi-nfc:mergeDebugConsumerProguardFiles UP-TO-DATE
-> Task :fudi-nfc:mergeDebugJavaResource UP-TO-DATE
-> Task :fudi-nfc:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-> Task :fudi-nfc:bundleDebugAar UP-TO-DATE
-> Task :fudi-nfc:compileDebugSources UP-TO-DATE
-> Task :fudi-nfc:assembleDebug UP-TO-DATE
-> Task :fudi-nfc:preReleaseBuild UP-TO-DATE
-> Task :fudi-nfc:compileReleaseAidl NO-SOURCE
-> Task :fudi-nfc:compileReleaseRenderscript NO-SOURCE
-> Task :fudi-nfc:checkReleaseManifest UP-TO-DATE
-> Task :fudi-nfc:generateReleaseBuildConfig UP-TO-DATE
-> Task :fudi-nfc:generateReleaseResValues UP-TO-DATE
-> Task :fudi-nfc:generateReleaseResources UP-TO-DATE
-> Task :fudi-nfc:packageReleaseResources UP-TO-DATE
-> Task :fudi-nfc:parseReleaseLibraryResources UP-TO-DATE
-> Task :fudi-nfc:processReleaseManifest UP-TO-DATE
-> Task :fudi-nfc:generateReleaseRFile UP-TO-DATE
-> Task :fudi-nfc:javaPreCompileRelease UP-TO-DATE
-> Task :fudi-nfc:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :fudi-nfc:extractReleaseAnnotations UP-TO-DATE
-> Task :fudi-nfc:mergeReleaseGeneratedProguardFiles UP-TO-DATE
-> Task :fudi-nfc:mergeReleaseConsumerProguardFiles UP-TO-DATE
-> Task :fudi-nfc:mergeReleaseShaders UP-TO-DATE
-> Task :fudi-nfc:compileReleaseShaders UP-TO-DATE
-> Task :fudi-nfc:generateReleaseAssets UP-TO-DATE
-> Task :fudi-nfc:packageReleaseAssets UP-TO-DATE
-> Task :fudi-nfc:packageReleaseRenderscript NO-SOURCE
-> Task :fudi-nfc:processReleaseJavaRes NO-SOURCE
-> Task :fudi-nfc:mergeReleaseJavaResource UP-TO-DATE
-> Task :fudi-nfc:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-> Task :fudi-nfc:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :fudi-nfc:mergeReleaseNativeLibs UP-TO-DATE
-> Task :fudi-nfc:stripReleaseDebugSymbols UP-TO-DATE
-> Task :fudi-nfc:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-> Task :fudi-nfc:bundleReleaseAar UP-TO-DATE
-> Task :fudi-nfc:compileReleaseSources UP-TO-DATE
-> Task :fudi-nfc:mergeReleaseResources UP-TO-DATE
-> Task :app:mergeExtDexRelease
-> Task :fudi-nfc:verifyReleaseResources
-> Task :fudi-nfc:assembleRelease
-> Task :fudi-nfc:assemble
-> Task :fudi-nfc:build
-> Task :app:mergeDexRelease
-> Task :app:packageRelease
-> Task :app:assembleRelease
-> Task :app:assemble
-> Task :app:build
-
-BUILD SUCCESSFUL in 20s
-102 actionable tasks: 7 executed, 95 up-to-date
-
-2020-10-06 22:15:24,092 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1601997032488-0/src/app/build/outputs/apk/debug/app-debug.apk
+2021-03-11 00:48:43,036 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615398406147-0/src/FudiNFC-master/app/build/outputs/apk/debug/app-debug.apk

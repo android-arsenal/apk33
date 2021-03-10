@@ -1,40 +1,38 @@
-2021-01-13 02:14:31,746 INFO  DownloadService - Downloading "https://github.com/malikdawar/drawroute/archive/master.zip", attempt 3
-2021-01-13 02:15:11,235 INFO  VirusProcessorServiceImpl - Queued project 8159 to scan viruses
-2021-01-13 02:15:32,266 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2021-01-13 02:15:33,170 INFO  GithubDownloadService - Default branch of this repository: master
-2021-01-13 02:15:33,170 INFO  DownloadService - Downloading "https://github.com/malikdawar/drawroute/archive/master.zip", attempt 3
-2021-01-13 02:16:34,647 DEBUG FullProcessService - Repository https://github.com/malikdawar/drawroute available: true
-2021-01-13 02:16:34,648 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2021-01-13 02:16:34,648 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/malikdawar/drawroute, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src]
-2021-01-13 02:16:36,816 INFO  SysUtils - 
-2021-01-13 02:16:36,824 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/.git": true
-2021-01-13 02:16:36,827 INFO  FullProcessService - Size of directory with sources: 344 KB
-2021-01-13 02:16:36,827 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src]
-2021-01-13 02:16:36,845 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/.git/
+2021-03-11 00:37:15,317 INFO  DownloadService - Downloading "https://github.com/malikdawar/drawroute/archive/master.zip", attempt 3
+2021-03-11 00:37:16,423 INFO  DownloadService - Downloaded https://github.com/malikdawar/drawroute/archive/master.zip, attempt 3
+2021-03-11 00:37:16,423 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/master.zip": 303 KB
+2021-03-11 00:37:16,423 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-03-11 00:37:16,424 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/master.zip: true
+2021-03-11 00:37:16,424 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src'.
+2021-03-11 00:37:16,451 INFO  FullProcessService - Size of directory with sources: 347 KB
+2021-03-11 00:37:16,451 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src]
+2021-03-11 00:37:16,471 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/.git/
 
-2021-01-13 02:16:36,848 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/gradlew
-2021-01-13 02:16:36,852 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/build.gradle
-2021-01-13 02:16:36,856 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/settings.gradle
-2021-01-13 02:16:36,856 INFO  ProjectBuildService - Remote scripts: none
-2021-01-13 02:16:36,856 INFO  ProjectFixService - Fixing project...
-2021-01-13 02:16:36,865 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/local.properties
-2021-01-13 02:16:36,865 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2021-01-13 02:16:36,866 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2021-01-13 02:16:36,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
-2021-01-13 02:16:36,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/app/local.properties
-2021-01-13 02:16:36,867 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
-2021-01-13 02:16:36,867 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/local.properties
-2021-01-13 02:16:36,868 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
-2021-01-13 02:16:36,868 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
-2021-01-13 02:16:36,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
-2021-01-13 02:16:36,869 INFO  ProjectFixService - Project was maybe fixed
-2021-01-13 02:16:36,869 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-13 02:16:36,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-13 02:17:23,394 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2021-01-13 02:17:23,394 INFO  ProjectTaskService - Detected possible tasks: 0
-2021-01-13 02:17:23,394 INFO  ProjectTaskService - Excluded tasks (0): none
-2021-01-13 02:17:23,395 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2021-01-13 02:17:26,590 ERROR SysUtils - Could not process external command
+2021-03-11 00:37:16,475 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/gradlew
+2021-03-11 00:37:16,479 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/build.gradle
+2021-03-11 00:37:16,483 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/settings.gradle
+2021-03-11 00:37:16,484 INFO  ProjectBuildService - Remote scripts: none
+2021-03-11 00:37:16,484 INFO  ProjectFixService - Fixing project...
+2021-03-11 00:37:16,494 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/local.properties
+2021-03-11 00:37:16,495 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2021-03-11 00:37:16,495 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2021-03-11 00:37:16,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/build.gradle": [buildToolsVersion=30.0.3,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-03-11 00:37:16,496 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-03-11 00:37:16,497 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/app/local.properties
+2021-03-11 00:37:16,498 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/app/build.gradle": [buildToolsVersion=30.0.3,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-03-11 00:37:16,498 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-03-11 00:37:16,499 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/local.properties
+2021-03-11 00:37:16,500 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2021-03-11 00:37:16,500 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2021-03-11 00:37:16,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=23,targetSdkVersion=30]
+2021-03-11 00:37:16,502 INFO  ProjectFixService - Project was maybe fixed
+2021-03-11 00:37:16,502 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-11 00:37:16,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-11 00:37:31,984 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2021-03-11 00:37:31,985 INFO  ProjectTaskService - Detected possible tasks: 0
+2021-03-11 00:37:31,985 INFO  ProjectTaskService - Excluded tasks (0): none
+2021-03-11 00:37:31,985 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2021-03-11 00:37:35,351 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -62,17 +60,17 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-13 02:17:26,590 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-11 00:37:35,351 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating project ':drawroute'.
 > Failed to apply plugin [id 'com.android.internal.version-check']
-   > Minimum supported Gradle version is 6.5. Current version is 5.6.4. If using the gradle wrapper, try editing the distributionUrl in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/gradle/wrapper/gradle-wrapper.properties to gradle-6.5-all.zip
+   > Minimum supported Gradle version is 6.5. Current version is 5.6.4. If using the gradle wrapper, try editing the distributionUrl in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/gradle/wrapper/gradle-wrapper.properties to gradle-6.5-all.zip
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -249,10 +247,10 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:49)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:41)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_c4dcmwixfhn686oq6geyn0kjs.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/build.gradle:1)
+	at build_aqnd5qnlxv9jjmysenj4xayse.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 134 more
-Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 6.5. Current version is 5.6.4. If using the gradle wrapper, try editing the distributionUrl in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/gradle/wrapper/gradle-wrapper.properties to gradle-6.5-all.zip
+Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 6.5. Current version is 5.6.4. If using the gradle wrapper, try editing the distributionUrl in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/gradle/wrapper/gradle-wrapper.properties to gradle-6.5-all.zip
 	at com.android.build.gradle.internal.plugins.VersionCheckPlugin.apply(VersionCheckPlugin.kt:58)
 	at com.android.build.gradle.internal.plugins.VersionCheckPlugin.apply(VersionCheckPlugin.kt:34)
 	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:43)
@@ -276,14 +274,18 @@ Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 6.5. 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 3s
 
-2021-01-13 02:17:26,595 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-13 02:17:26,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-13 02:17:33,411 INFO  ProjectTaskService - Detected possible tasks: 67
-2021-01-13 02:17:33,411 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-13 02:17:33,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-13 02:18:47,057 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-11 00:37:35,357 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-11 00:37:35,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-11 00:37:43,787 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-11 00:37:43,787 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-11 00:37:43,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-11 00:37:54,261 INFO  VirusProcessorServiceImpl - Queued project 8159 to scan viruses
+2021-03-11 00:38:58,858 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.1.0.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :drawroute:preBuild UP-TO-DATE
@@ -291,8 +293,8 @@ BUILD FAILED in 2s
 > Task :drawroute:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :drawroute:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :drawroute:writeDebugAarMetadata
 > Task :app:checkDebugAarMetadata
 > Task :app:generateDebugResValues
@@ -311,37 +313,44 @@ BUILD FAILED in 2s
 > Task :app:processDebugMainManifest
 > Task :app:processDebugManifest
 > Task :drawroute:generateDebugBuildConfig
+> Task :app:processDebugManifestForPackage
 > Task :drawroute:javaPreCompileDebug
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :app:javaPreCompileDebug
-> Task :app:processDebugManifestForPackage
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
 > Task :app:generateDebugAssets UP-TO-DATE
 > Task :drawroute:mergeDebugShaders
 > Task :drawroute:compileDebugShaders NO-SOURCE
 > Task :drawroute:generateDebugAssets UP-TO-DATE
-> Task :drawroute:packageDebugAssets
 > Task :drawroute:generateDebugRFile
+> Task :drawroute:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :app:compressDebugAssets
 > Task :app:processDebugResources
 
 > Task :drawroute:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/src/main/java/com/maps/route/parser/RouteJsonParser.kt: (25, 47): Unchecked cast: Any! to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (11, 33): 'EstimationsCallBack' is deprecated. Use lambda function instead of interface
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (99, 26): 'EstimationsCallBack' is deprecated. Use lambda function instead of interface
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (131, 46): 'routeEstimations(Legs?): Unit' is deprecated. Use lambda function instead of routeEstimations to get the ETA
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (139, 42): 'routeEstimations(Legs?): Unit' is deprecated. Use lambda function instead of routeEstimations to get the ETA
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (163, 26): 'EstimationsCallBack' is deprecated. Use lambda function instead of interface
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (178, 46): 'routeEstimations(Legs?): Unit' is deprecated. Use lambda function instead of routeEstimations to get the ETA
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (182, 42): 'routeEstimations(Legs?): Unit' is deprecated. Use lambda function instead of routeEstimations to get the ETA
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/parser/RouteJsonParser.kt: (25, 47): Unchecked cast: Any! to T
 
 > Task :drawroute:compileDebugJavaWithJavac
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :drawroute:processDebugJavaRes NO-SOURCE
-> Task :drawroute:bundleLibResDebug
 > Task :drawroute:bundleLibCompileToJarDebug
+> Task :drawroute:bundleLibResDebug
 > Task :app:compileDebugKotlin
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
-> Task :drawroute:bundleLibRuntimeToJarDebug
 > Task :app:desugarDebugFileDependencies
+> Task :drawroute:bundleLibRuntimeToJarDebug
 > Task :app:dexBuilderDebug
 > Task :app:mergeLibDexDebug
 > Task :app:mergeDebugJniLibFolders
@@ -371,18 +380,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :drawroute:extractDeepLinksRelease
-> Task :drawroute:processReleaseManifest
 > Task :drawroute:compileReleaseLibraryResources
+> Task :drawroute:processReleaseManifest
 > Task :drawroute:parseReleaseLocalResources
 > Task :app:processReleaseMainManifest
 > Task :app:processReleaseManifest
-> Task :drawroute:generateReleaseBuildConfig
 > Task :app:mergeReleaseResources
+> Task :drawroute:generateReleaseBuildConfig
 > Task :drawroute:javaPreCompileRelease
-> Task :app:processReleaseManifestForPackage
 > Task :app:javaPreCompileRelease
-> Task :drawroute:prepareLintJarForPublish
+> Task :app:processReleaseManifestForPackage
 > Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :drawroute:prepareLintJarForPublish
 > Task :drawroute:generateReleaseRFile
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
@@ -397,7 +406,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/
 > Task :app:processReleaseResources
 
 > Task :drawroute:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/drawroute/src/main/java/com/maps/route/parser/RouteJsonParser.kt: (25, 47): Unchecked cast: Any! to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (11, 33): 'EstimationsCallBack' is deprecated. Use lambda function instead of interface
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (99, 26): 'EstimationsCallBack' is deprecated. Use lambda function instead of interface
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (131, 46): 'routeEstimations(Legs?): Unit' is deprecated. Use lambda function instead of routeEstimations to get the ETA
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (139, 42): 'routeEstimations(Legs?): Unit' is deprecated. Use lambda function instead of routeEstimations to get the ETA
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (163, 26): 'EstimationsCallBack' is deprecated. Use lambda function instead of interface
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (178, 46): 'routeEstimations(Legs?): Unit' is deprecated. Use lambda function instead of routeEstimations to get the ETA
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/extensions/MapExtension.kt: (182, 42): 'routeEstimations(Legs?): Unit' is deprecated. Use lambda function instead of routeEstimations to get the ETA
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/drawroute/src/main/java/com/maps/route/parser/RouteJsonParser.kt: (25, 47): Unchecked cast: Any! to T
 
 > Task :drawroute:compileReleaseJavaWithJavac
 > Task :drawroute:bundleLibCompileToJarRelease
@@ -412,16 +428,16 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :drawroute:processReleaseJavaRes NO-SOURCE
 > Task :drawroute:bundleLibResRelease
-> Task :app:collectReleaseDependencies
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeReleaseJavaResource
+> Task :app:collectReleaseDependencies
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :drawroute:mergeReleaseJniLibFolders
 > Task :drawroute:mergeReleaseNativeLibs NO-SOURCE
 > Task :drawroute:stripReleaseDebugSymbols NO-SOURCE
 > Task :drawroute:copyReleaseJniLibsProjectOnly
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:mergeExtDexRelease
@@ -431,7 +447,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 12s
+BUILD SUCCESSFUL in 1m 14s
 94 actionable tasks: 94 executed
 
-2021-01-13 02:18:47,117 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478871731-0/src/app/build/outputs/apk/debug/app-debug.apk
+2021-03-11 00:38:58,917 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397835314-0/src/drawroute-master/app/build/outputs/apk/debug/app-debug.apk
