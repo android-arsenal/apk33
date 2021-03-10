@@ -1,37 +1,37 @@
-2021-01-13 02:00:04,085 INFO  DownloadService - Downloading "https://github.com/ImnIrdst/iiVisu/archive/master.zip", attempt 3
-2021-01-13 02:00:30,595 INFO  VirusProcessorServiceImpl - Queued project 8205 to scan viruses
-2021-01-13 02:01:04,749 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2021-01-13 02:01:06,869 INFO  GithubDownloadService - Default branch of this repository: main
-2021-01-13 02:01:06,869 INFO  DownloadService - Downloading "https://github.com/ImnIrdst/iiVisu/archive/main.zip", attempt 3
-2021-01-13 02:02:09,516 DEBUG FullProcessService - Repository https://github.com/ImnIrdst/iiVisu available: true
-2021-01-13 02:02:09,516 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2021-01-13 02:02:09,516 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ImnIrdst/iiVisu, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src]
-2021-01-13 02:02:12,360 INFO  SysUtils - 
-2021-01-13 02:02:12,369 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/.git": true
-2021-01-13 02:02:12,372 INFO  FullProcessService - Size of directory with sources: 2 MB
-2021-01-13 02:02:12,372 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src]
-2021-01-13 02:02:12,392 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/.git/
+2021-03-10 20:46:31,204 INFO  DownloadService - Downloading "https://github.com/ImnIrdst/iiVisu/archive/master.zip", attempt 3
+2021-03-10 20:46:40,892 INFO  VirusProcessorServiceImpl - Queued project 8194 to scan viruses
+2021-03-10 20:47:31,831 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-10 20:47:32,687 INFO  GithubDownloadService - Default branch of this repository: main
+2021-03-10 20:47:32,687 INFO  DownloadService - Downloading "https://github.com/ImnIrdst/iiVisu/archive/main.zip", attempt 3
+2021-03-10 20:48:33,834 DEBUG FullProcessService - Repository https://github.com/ImnIrdst/iiVisu available: true
+2021-03-10 20:48:33,834 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-10 20:48:33,834 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ImnIrdst/iiVisu, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src]
+2021-03-10 20:48:35,960 INFO  SysUtils - 
+2021-03-10 20:48:35,967 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/.git": true
+2021-03-10 20:48:35,970 INFO  FullProcessService - Size of directory with sources: 2 MB
+2021-03-10 20:48:35,971 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src]
+2021-03-10 20:48:35,988 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/.git/
 
-2021-01-13 02:02:12,395 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/gradlew
-2021-01-13 02:02:12,400 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/iivisu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/build.gradle
-2021-01-13 02:02:12,403 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/iivisu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/settings.gradle
-2021-01-13 02:02:12,403 INFO  ProjectBuildService - Remote scripts: none
-2021-01-13 02:02:12,403 INFO  ProjectFixService - Fixing project...
-2021-01-13 02:02:12,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/app/local.properties
-2021-01-13 02:02:12,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
-2021-01-13 02:02:12,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/iivisu/local.properties
-2021-01-13 02:02:12,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/iivisu/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
-2021-01-13 02:02:12,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/local.properties
-2021-01-13 02:02:12,414 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
-2021-01-13 02:02:12,414 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
-2021-01-13 02:02:12,415 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
-2021-01-13 02:02:12,415 INFO  ProjectFixService - Project was maybe fixed
-2021-01-13 02:02:12,415 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-13 02:02:12,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-13 02:02:20,928 INFO  ProjectTaskService - Detected possible tasks: 67
-2021-01-13 02:02:20,928 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-13 02:02:20,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-13 02:04:33,098 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-10 20:48:35,992 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/gradlew
+2021-03-10 20:48:35,995 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/iivisu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/build.gradle
+2021-03-10 20:48:35,998 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/iivisu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/settings.gradle
+2021-03-10 20:48:35,998 INFO  ProjectBuildService - Remote scripts: none
+2021-03-10 20:48:35,998 INFO  ProjectFixService - Fixing project...
+2021-03-10 20:48:36,006 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/app/local.properties
+2021-03-10 20:48:36,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-03-10 20:48:36,007 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/iivisu/local.properties
+2021-03-10 20:48:36,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/iivisu/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-03-10 20:48:36,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/local.properties
+2021-03-10 20:48:36,009 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2021-03-10 20:48:36,009 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2021-03-10 20:48:36,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-03-10 20:48:36,010 INFO  ProjectFixService - Project was maybe fixed
+2021-03-10 20:48:36,010 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-10 20:48:36,010 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-10 20:48:45,500 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-10 20:48:45,501 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-10 20:48:45,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-10 20:50:29,032 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :iivisu:preBuild UP-TO-DATE
@@ -75,12 +75,12 @@
 > Task :iivisu:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :iivisu:processDebugJavaRes NO-SOURCE
 > Task :iivisu:generateDebugRFile
 > Task :app:processDebugResources
 > Task :iivisu:compileDebugKotlin
 > Task :iivisu:compileDebugJavaWithJavac
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :iivisu:processDebugJavaRes NO-SOURCE
 > Task :iivisu:bundleLibResDebug
 > Task :iivisu:bundleLibCompileToJarDebug
 > Task :app:compileDebugKotlin
@@ -119,25 +119,20 @@
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :iivisu:extractDeepLinksRelease
+> Task :iivisu:compileReleaseLibraryResources
 > Task :iivisu:processReleaseManifest
+> Task :iivisu:generateReleaseBuildConfig
+> Task :iivisu:parseReleaseLocalResources
 > Task :app:processReleaseMainManifest
 > Task :app:processReleaseManifest
-> Task :iivisu:compileReleaseLibraryResources
-> Task :app:processReleaseManifestForPackage
-> Task :iivisu:parseReleaseLocalResources
-> Task :iivisu:generateReleaseBuildConfig
 > Task :iivisu:javaPreCompileRelease
 > Task :app:javaPreCompileRelease
-> Task :iivisu:generateReleaseRFile
+> Task :app:processReleaseManifestForPackage
 > Task :app:mergeReleaseResources
-> Task :app:multiDexListDebug
-> Task :iivisu:compileReleaseKotlin
-> Task :app:dataBindingGenBaseClassesRelease
-> Task :app:processReleaseResources
-> Task :iivisu:compileReleaseJavaWithJavac
-> Task :iivisu:bundleLibCompileToJarRelease
-> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :iivisu:prepareLintJarForPublish
+> Task :iivisu:generateReleaseRFile
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -147,15 +142,25 @@
 > Task :iivisu:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:compressReleaseAssets
-> Task :iivisu:bundleLibRuntimeToJarRelease
+> Task :app:multiDexListDebug
+> Task :app:processReleaseResources
+> Task :iivisu:compileReleaseKotlin
+> Task :iivisu:compileReleaseJavaWithJavac
+> Task :iivisu:bundleLibCompileToJarRelease
 > Task :app:compileReleaseKotlin
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :iivisu:bundleLibRuntimeToJarRelease
 > Task :app:desugarReleaseFileDependencies
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:dexBuilderRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :iivisu:processReleaseJavaRes NO-SOURCE
 > Task :iivisu:bundleLibResRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:collectReleaseDependencies
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
@@ -163,22 +168,17 @@
 > Task :iivisu:mergeReleaseNativeLibs NO-SOURCE
 > Task :iivisu:stripReleaseDebugSymbols NO-SOURCE
 > Task :iivisu:copyReleaseJniLibsProjectOnly
-> Task :app:lintVitalRelease
-> Task :app:dexBuilderRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:mergeReleaseJavaResource
 > Task :app:multiDexListRelease
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 2m 11s
+BUILD SUCCESSFUL in 1m 42s
 99 actionable tasks: 99 executed
 
-2021-01-13 02:04:33,171 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478004082-0/src/app/build/outputs/apk/debug/app-debug.apk
+2021-03-10 20:50:29,100 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383991200-0/src/app/build/outputs/apk/debug/app-debug.apk

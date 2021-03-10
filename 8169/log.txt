@@ -1,33 +1,36 @@
-2020-11-15 01:17:48,321 INFO  DownloadService - Downloading "https://github.com/TalbotGooday/ToothyProgress/archive/master.zip", attempt 3
-2020-11-15 01:17:51,016 INFO  DownloadService - Downloaded https://github.com/TalbotGooday/ToothyProgress/archive/master.zip, attempt 3
-2020-11-15 01:17:51,016 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/master.zip": 6 MB
-2020-11-15 01:17:51,017 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-11-15 01:17:51,017 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/master.zip: true
-2020-11-15 01:17:51,017 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src'.
-2020-11-15 01:17:51,076 INFO  FullProcessService - Size of directory with sources: 7 MB
-2020-11-15 01:17:51,077 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src]
-2020-11-15 01:17:51,105 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/.git/
+2021-03-10 21:01:07,512 INFO  DownloadService - Downloading "https://github.com/TalbotGooday/ToothyProgress/archive/master.zip", attempt 3
+2021-03-10 21:01:30,549 INFO  VirusProcessorServiceImpl - Queued project 8172 to scan viruses
+2021-03-10 21:02:08,130 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-10 21:02:09,071 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-10 21:02:09,072 INFO  DownloadService - Downloading "https://github.com/TalbotGooday/ToothyProgress/archive/master.zip", attempt 3
+2021-03-10 21:03:10,082 DEBUG FullProcessService - Repository https://github.com/TalbotGooday/ToothyProgress available: true
+2021-03-10 21:03:10,082 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-10 21:03:10,082 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/TalbotGooday/ToothyProgress, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src]
+2021-03-10 21:03:14,662 INFO  SysUtils - 
+2021-03-10 21:03:14,671 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/.git": true
+2021-03-10 21:03:14,675 INFO  FullProcessService - Size of directory with sources: 9 MB
+2021-03-10 21:03:14,675 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src]
+2021-03-10 21:03:14,693 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/.git/
 
-2020-11-15 01:17:51,108 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/gradlew
-2020-11-15 01:17:51,112 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/build.gradle
-2020-11-15 01:17:51,116 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/settings.gradle
-2020-11-15 01:17:51,116 INFO  ProjectBuildService - Remote scripts: none
-2020-11-15 01:17:51,116 INFO  ProjectFixService - Fixing project...
-2020-11-15 01:17:51,125 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/local.properties
-2020-11-15 01:17:51,126 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-11-15 01:17:51,126 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/widget/local.properties
-2020-11-15 01:17:51,127 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/widget/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-11-15 01:17:51,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/local.properties
-2020-11-15 01:17:51,128 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-bin.zip
-2020-11-15 01:17:51,129 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2020-11-15 01:17:51,129 INFO  ProjectFixService - Project was maybe fixed
-2020-11-15 01:17:51,129 INFO  ProjectTaskService - Detecting possible tasks...
-2020-11-15 01:17:51,129 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-11-15 01:18:00,878 INFO  VirusProcessorServiceImpl - Queued project 8190 to scan viruses
-2020-11-15 01:18:08,440 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-11-15 01:18:08,441 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-11-15 01:18:08,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-11-15 01:19:09,962 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.1.1/userguide/gradle_daemon.html.
+2021-03-10 21:03:14,696 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/gradlew
+2021-03-10 21:03:14,700 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/build.gradle
+2021-03-10 21:03:14,703 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/widget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/settings.gradle
+2021-03-10 21:03:14,703 INFO  ProjectBuildService - Remote scripts: none
+2021-03-10 21:03:14,703 INFO  ProjectFixService - Fixing project...
+2021-03-10 21:03:14,710 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/local.properties
+2021-03-10 21:03:14,711 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-10 21:03:14,711 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/widget/local.properties
+2021-03-10 21:03:14,711 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/widget/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-10 21:03:14,712 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/local.properties
+2021-03-10 21:03:14,712 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-bin.zip
+2021-03-10 21:03:14,713 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-10 21:03:14,713 INFO  ProjectFixService - Project was maybe fixed
+2021-03-10 21:03:14,713 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-10 21:03:14,713 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-10 21:03:25,509 INFO  ProjectTaskService - Detected possible tasks: 68
+2021-03-10 21:03:25,509 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-10 21:03:25,509 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-10 21:04:24,987 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
@@ -37,8 +40,8 @@ Configuration on demand is an incubating feature.
 > Task :widget:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :widget:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :widget:generateDebugResValues
@@ -49,9 +52,9 @@ Configuration on demand is an incubating feature.
 > Task :app:extractDeepLinksDebug
 > Task :widget:extractDeepLinksDebug
 > Task :app:mergeDebugResources
-> Task :widget:compileDebugLibraryResources
 > Task :widget:processDebugManifest
 > Task :app:processDebugManifest
+> Task :widget:compileDebugLibraryResources
 > Task :widget:generateDebugBuildConfig
 > Task :widget:javaPreCompileDebug
 > Task :app:javaPreCompileDebug
@@ -76,13 +79,13 @@ Configuration on demand is an incubating feature.
 > Task :widget:bundleLibCompileToJarDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/DemoPlayer.kt: (61, 7): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (17, 42): 'FLAG_TRANSLUCENT_STATUS: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (21, 14): 'setter for systemUiVisibility: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (21, 40): 'SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (26, 15): 'setter for systemUiVisibility: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (26, 41): 'SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (26, 82): 'SYSTEM_UI_FLAG_LIGHT_STATUS_BAR: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/DemoPlayer.kt: (61, 7): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (22, 51): 'FLAG_TRANSLUCENT_STATUS: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (26, 23): 'setter for systemUiVisibility: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (26, 49): 'SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (31, 27): 'setter for systemUiVisibility: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (31, 53): 'SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (31, 94): 'SYSTEM_UI_FLAG_LIGHT_STATUS_BAR: Int' is deprecated. Deprecated in Java
 
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -103,20 +106,20 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/
 > Task :widget:generateReleaseResValues
 > Task :widget:generateReleaseResources
 > Task :widget:packageReleaseResources
-> Task :widget:mergeDebugNativeLibs
-> Task :widget:stripDebugDebugSymbols NO-SOURCE
-> Task :widget:copyDebugJniLibsProjectOnly
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :widget:extractDeepLinksRelease
-> Task :app:mergeDebugJavaResource
+> Task :widget:mergeDebugNativeLibs
+> Task :widget:stripDebugDebugSymbols NO-SOURCE
+> Task :widget:copyDebugJniLibsProjectOnly
 > Task :widget:generateReleaseBuildConfig
 > Task :widget:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :widget:javaPreCompileRelease
-> Task :widget:compileReleaseLibraryResources
 > Task :widget:parseReleaseLocalResources
+> Task :app:mergeDebugJavaResource
 > Task :app:javaPreCompileRelease
+> Task :widget:compileReleaseLibraryResources
 > Task :app:mergeReleaseResources
 > Task :widget:generateReleaseRFile
 > Task :app:processReleaseResources
@@ -127,13 +130,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/
 > Task :widget:bundleLibCompileToJarRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/DemoPlayer.kt: (61, 7): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (17, 42): 'FLAG_TRANSLUCENT_STATUS: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (21, 14): 'setter for systemUiVisibility: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (21, 40): 'SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (26, 15): 'setter for systemUiVisibility: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (26, 41): 'SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (26, 82): 'SYSTEM_UI_FLAG_LIGHT_STATUS_BAR: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/DemoPlayer.kt: (61, 7): 'setAudioStreamType(Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (22, 51): 'FLAG_TRANSLUCENT_STATUS: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (26, 23): 'setter for systemUiVisibility: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (26, 49): 'SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (31, 27): 'setter for systemUiVisibility: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (31, 53): 'SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/src/main/java/com/goodayapps/toothyprogress/MainActivity.kt: (31, 94): 'SYSTEM_UI_FLAG_LIGHT_STATUS_BAR: Int' is deprecated. Deprecated in Java
 
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -165,9 +168,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/
 > Task :widget:mergeReleaseNativeLibs
 > Task :widget:stripReleaseDebugSymbols NO-SOURCE
 > Task :widget:copyReleaseJniLibsProjectOnly
-> Task :app:mergeReleaseJavaResource
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -175,7 +178,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 0s
+BUILD SUCCESSFUL in 58s
 84 actionable tasks: 84 executed
 
-2020-11-15 01:19:10,055 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605377868318-0/src/ToothyProgress-master/app/build/outputs/apk/debug/app-debug.apk
+2021-03-10 21:04:25,056 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384867510-0/src/app/build/outputs/apk/debug/app-debug.apk

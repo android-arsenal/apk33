@@ -1,109 +1,127 @@
-2020-11-09 03:22:45,802 INFO  DownloadService - Downloading "https://github.com/rommansabbir/NetworkX/archive/master.zip", attempt 3
-2020-11-09 03:23:02,682 INFO  VirusProcessorServiceImpl - Queued project 8162 to scan viruses
-2020-11-09 03:23:46,366 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-11-09 03:23:47,219 INFO  GithubDownloadService - Default branch of this repository: master
-2020-11-09 03:23:47,219 INFO  DownloadService - Downloading "https://github.com/rommansabbir/NetworkX/archive/master.zip", attempt 3
-2020-11-09 03:24:48,662 DEBUG FullProcessService - Repository https://github.com/rommansabbir/NetworkX available: true
-2020-11-09 03:24:48,662 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-11-09 03:24:48,662 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/rommansabbir/NetworkX, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src]
-2020-11-09 03:24:50,528 INFO  SysUtils - 
-2020-11-09 03:24:50,557 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/.git": true
-2020-11-09 03:24:50,560 INFO  FullProcessService - Size of directory with sources: 169 KB
-2020-11-09 03:24:50,560 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src]
-2020-11-09 03:24:50,578 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/.git/
+2021-03-10 21:10:56,869 INFO  DownloadService - Downloading "https://github.com/rommansabbir/NetworkX/archive/master.zip", attempt 3
+2021-03-10 21:11:57,413 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-10 21:11:58,189 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-10 21:11:58,189 INFO  DownloadService - Downloading "https://github.com/rommansabbir/NetworkX/archive/master.zip", attempt 3
+2021-03-10 21:12:59,105 DEBUG FullProcessService - Repository https://github.com/rommansabbir/NetworkX available: true
+2021-03-10 21:12:59,105 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-10 21:12:59,106 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/rommansabbir/NetworkX, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src]
+2021-03-10 21:13:00,444 INFO  SysUtils - 
+2021-03-10 21:13:00,475 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/.git": true
+2021-03-10 21:13:00,478 INFO  FullProcessService - Size of directory with sources: 182 KB
+2021-03-10 21:13:00,478 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src]
+2021-03-10 21:13:00,496 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/.git/
 
-2020-11-09 03:24:50,581 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/gradlew
-2020-11-09 03:24:50,585 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/build.gradle
-2020-11-09 03:24:50,588 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/settings.gradle
-2020-11-09 03:24:50,588 INFO  ProjectBuildService - Remote scripts: none
-2020-11-09 03:24:50,589 INFO  ProjectFixService - Fixing project...
-2020-11-09 03:24:50,596 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/local.properties
-2020-11-09 03:24:50,596 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
-2020-11-09 03:24:50,597 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/local.properties
-2020-11-09 03:24:50,598 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
-2020-11-09 03:24:50,598 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/local.properties
-2020-11-09 03:24:50,599 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-11-09 03:24:50,599 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-11-09 03:24:50,601 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
-2020-11-09 03:24:50,601 INFO  ProjectFixService - Project was maybe fixed
-2020-11-09 03:24:50,601 INFO  ProjectTaskService - Detecting possible tasks...
-2020-11-09 03:24:50,601 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-11-09 03:24:58,424 INFO  ProjectTaskService - Detected possible tasks: 64
-2020-11-09 03:24:58,424 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-11-09 03:24:58,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-11-09 03:25:20,226 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-10 21:13:00,499 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/gradlew
+2021-03-10 21:13:00,502 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/build.gradle
+2021-03-10 21:13:00,504 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/settings.gradle
+2021-03-10 21:13:00,505 INFO  ProjectBuildService - Remote scripts: none
+2021-03-10 21:13:00,505 INFO  ProjectFixService - Fixing project...
+2021-03-10 21:13:00,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/local.properties
+2021-03-10 21:13:00,512 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-03-10 21:13:00,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/local.properties
+2021-03-10 21:13:00,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-03-10 21:13:00,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/local.properties
+2021-03-10 21:13:00,513 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-03-10 21:13:00,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-03-10 21:13:00,514 INFO  ProjectFixService - Project was maybe fixed
+2021-03-10 21:13:00,514 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-10 21:13:00,514 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-10 21:13:10,797 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-10 21:13:10,797 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2021-03-10 21:13:10,797 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2021-03-10 21:13:41,736 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app:NetworkX
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
 > Task :app:NetworkX:preBuild UP-TO-DATE
 > Task :app:NetworkX:preDebugBuild UP-TO-DATE
+> Task :app:NetworkX:compileDebugAidl NO-SOURCE
 > Task :app:NetworkX:mergeDebugJniLibFolders
-> Task :app:NetworkX:mergeDebugNativeLibs
+> Task :app:NetworkX:mergeDebugNativeLibs NO-SOURCE
 > Task :app:NetworkX:stripDebugDebugSymbols NO-SOURCE
 > Task :app:NetworkX:copyDebugJniLibsProjectAndLocalJars
-> Task :app:NetworkX:generateDebugBuildConfig
+> Task :app:NetworkX:dataBindingMergeDependencyArtifactsDebug
+> Task :app:NetworkX:compileDebugRenderscript NO-SOURCE
+> Task :app:NetworkX:dataBindingMergeGenClassesDebug
 > Task :app:NetworkX:generateDebugResValues
+> Task :app:NetworkX:generateDebugResources
+> Task :app:NetworkX:packageDebugResources
+> Task :app:NetworkX:dataBindingGenBaseClassesDebug
+> Task :app:NetworkX:dataBindingTriggerDebug
+> Task :app:NetworkX:generateDebugBuildConfig
+> Task :app:NetworkX:parseDebugLocalResources
+> Task :app:NetworkX:processDebugManifest
+> Task :app:NetworkX:javaPreCompileDebug
 > Task :app:NetworkX:mergeDebugShaders
 > Task :app:NetworkX:compileDebugShaders NO-SOURCE
 > Task :app:NetworkX:generateDebugAssets UP-TO-DATE
 > Task :app:NetworkX:packageDebugAssets
 > Task :app:NetworkX:packageDebugRenderscript NO-SOURCE
-> Task :app:NetworkX:javaPreCompileDebug
+> Task :app:NetworkX:prepareLintJarForPublish
 > Task :app:NetworkX:processDebugJavaRes NO-SOURCE
 > Task :app:NetworkX:preReleaseBuild UP-TO-DATE
+> Task :app:NetworkX:compileReleaseAidl NO-SOURCE
+> Task :app:NetworkX:writeDebugAarMetadata
 > Task :app:NetworkX:mergeReleaseJniLibFolders
-> Task :app:NetworkX:generateReleaseBuildConfig
-> Task :app:NetworkX:generateReleaseResValues
-> Task :app:NetworkX:prepareLintJarForPublish
-> Task :app:NetworkX:mergeReleaseNativeLibs
+> Task :app:NetworkX:mergeReleaseNativeLibs NO-SOURCE
 > Task :app:NetworkX:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:NetworkX:copyReleaseJniLibsProjectAndLocalJars
+> Task :app:NetworkX:generateDebugRFile
+> Task :app:NetworkX:dataBindingMergeDependencyArtifactsRelease
+> Task :app:NetworkX:kaptGenerateStubsDebugKotlin
+> Task :app:NetworkX:compileReleaseRenderscript NO-SOURCE
+> Task :app:NetworkX:dataBindingMergeGenClassesRelease
+> Task :app:NetworkX:generateReleaseResValues
+> Task :app:NetworkX:generateReleaseResources
+> Task :app:NetworkX:packageReleaseResources
+> Task :app:NetworkX:dataBindingGenBaseClassesRelease
+> Task :app:NetworkX:dataBindingTriggerRelease
+> Task :app:NetworkX:generateReleaseBuildConfig
+> Task :app:NetworkX:parseReleaseLocalResources
+> Task :app:NetworkX:processReleaseManifest
+> Task :app:NetworkX:javaPreCompileRelease
 > Task :app:NetworkX:mergeReleaseShaders
 > Task :app:NetworkX:compileReleaseShaders NO-SOURCE
 > Task :app:NetworkX:generateReleaseAssets UP-TO-DATE
 > Task :app:NetworkX:packageReleaseAssets
 > Task :app:NetworkX:packageReleaseRenderscript NO-SOURCE
 > Task :app:NetworkX:processReleaseJavaRes NO-SOURCE
-> Task :app:NetworkX:javaPreCompileRelease
-> Task :app:NetworkX:processDebugManifest
-> Task :app:NetworkX:processReleaseManifest
-> Task :app:NetworkX:compileDebugRenderscript NO-SOURCE
-> Task :app:NetworkX:compileDebugAidl NO-SOURCE
-> Task :app:NetworkX:generateDebugResources
-> Task :app:NetworkX:packageDebugResources
-> Task :app:NetworkX:compileReleaseAidl NO-SOURCE
-> Task :app:NetworkX:compileReleaseRenderscript NO-SOURCE
-> Task :app:NetworkX:generateReleaseResources
-> Task :app:NetworkX:packageReleaseResources
-> Task :app:NetworkX:parseReleaseLocalResources
-> Task :app:NetworkX:parseDebugLocalResources
-> Task :app:NetworkX:mergeReleaseResources
+> Task :app:NetworkX:writeReleaseAarMetadata
 > Task :app:NetworkX:generateReleaseRFile
-> Task :app:NetworkX:generateDebugRFile
+> Task :app:NetworkX:mergeReleaseResources
+> Task :app:NetworkX:kaptDebugKotlin
+> Task :app:NetworkX:kaptGenerateStubsReleaseKotlin
 
 > Task :app:NetworkX:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (200, 40): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (200, 89): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (200, 109): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/core/NetworkXImpl.kt: (146, 40): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/core/NetworkXImpl.kt: (147, 41): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/core/NetworkXImpl.kt: (147, 61): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
 
 > Task :app:NetworkX:compileDebugJavaWithJavac
 > Task :app:NetworkX:extractDebugAnnotations
 > Task :app:NetworkX:mergeDebugGeneratedProguardFiles
 > Task :app:NetworkX:mergeDebugConsumerProguardFiles
 > Task :app:NetworkX:compileDebugSources
+> Task :app:NetworkX:mergeDebugJavaResource
+> Task :app:NetworkX:syncDebugLibJars
+> Task :app:NetworkX:bundleDebugAar
+> Task :app:NetworkX:assembleDebug
+> Task :app:NetworkX:kaptReleaseKotlin
+> Task :app:NetworkX:verifyReleaseResources
 
 > Task :app:NetworkX:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (200, 40): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (200, 89): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/NetworkX.kt: (200, 109): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/core/NetworkXImpl.kt: (146, 40): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/core/NetworkXImpl.kt: (147, 41): 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/NetworkX/src/main/java/com/rommansabbir/networkx/core/NetworkXImpl.kt: (147, 61): 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
 
 > Task :app:NetworkX:compileReleaseJavaWithJavac
 > Task :app:NetworkX:extractReleaseAnnotations
 > Task :app:NetworkX:mergeReleaseGeneratedProguardFiles
 > Task :app:NetworkX:mergeReleaseConsumerProguardFiles
 > Task :app:NetworkX:compileReleaseSources
-> Task :app:NetworkX:mergeDebugJavaResource
-> Task :app:NetworkX:syncDebugLibJars
-> Task :app:NetworkX:bundleDebugAar
-> Task :app:NetworkX:assembleDebug
-> Task :app:NetworkX:verifyReleaseResources
 > Task :app:NetworkX:mergeReleaseJavaResource
 > Task :app:NetworkX:syncReleaseLibJars
 > Task :app:NetworkX:bundleReleaseAar
@@ -111,15 +129,30 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/
 > Task :app:NetworkX:assemble
 > Task :app:NetworkX:build
 
-BUILD SUCCESSFUL in 21s
-43 actionable tasks: 43 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.5/userguide/command_line_interface.html#sec:command_line_warnings
 
-2020-11-09 03:25:20,283 INFO  ProjectTaskService - Detecting possible tasks...
-2020-11-09 03:25:20,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-11-09 03:25:28,095 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-11-09 03:25:28,095 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-11-09 03:25:28,096 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-11-09 03:26:23,960 INFO  SysUtils - Configuration on demand is an incubating feature.
+BUILD SUCCESSFUL in 30s
+55 actionable tasks: 55 executed
+
+2021-03-10 21:13:41,798 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-10 21:13:41,798 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-10 21:13:49,590 INFO  ProjectTaskService - Detected possible tasks: 72
+2021-03-10 21:13:49,590 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-10 21:13:49,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-10 21:14:48,089 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
+> Configure project :app:NetworkX
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:NetworkX:preBuild UP-TO-DATE
@@ -127,33 +160,46 @@ BUILD SUCCESSFUL in 21s
 > Task :app:NetworkX:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:NetworkX:packageDebugRenderscript NO-SOURCE
+> Task :app:NetworkX:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
 > Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:NetworkX:generateDebugResValues UP-TO-DATE
+> Task :app:NetworkX:dataBindingMergeGenClassesDebug UP-TO-DATE
 > Task :app:NetworkX:compileDebugRenderscript NO-SOURCE
+> Task :app:NetworkX:generateDebugResValues UP-TO-DATE
 > Task :app:NetworkX:generateDebugResources UP-TO-DATE
 > Task :app:NetworkX:packageDebugResources UP-TO-DATE
+> Task :app:NetworkX:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :app:NetworkX:parseDebugLocalResources UP-TO-DATE
+> Task :app:NetworkX:processDebugManifest UP-TO-DATE
+> Task :app:NetworkX:generateDebugRFile UP-TO-DATE
+> Task :app:NetworkX:dataBindingTriggerDebug UP-TO-DATE
+> Task :app:NetworkX:generateDebugBuildConfig UP-TO-DATE
+> Task :app:NetworkX:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :app:NetworkX:kaptDebugKotlin UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:dataBindingTriggerDebug
+> Task :app:generateDebugBuildConfig
+> Task :app:NetworkX:writeDebugAarMetadata UP-TO-DATE
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:checkDebugAarMetadata
 > Task :app:extractDeepLinksDebug
 > Task :app:NetworkX:extractDeepLinksDebug
-> Task :app:NetworkX:processDebugManifest UP-TO-DATE
-> Task :app:processDebugManifest
 > Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:processDebugManifest
 > Task :app:NetworkX:compileDebugLibraryResources
-> Task :app:NetworkX:parseDebugLocalResources UP-TO-DATE
-> Task :app:NetworkX:generateDebugRFile UP-TO-DATE
-> Task :app:processDebugResources
-> Task :app:NetworkX:generateDebugBuildConfig UP-TO-DATE
-> Task :app:NetworkX:javaPreCompileDebug UP-TO-DATE
 > Task :app:NetworkX:compileDebugKotlin UP-TO-DATE
+> Task :app:NetworkX:javaPreCompileDebug UP-TO-DATE
 > Task :app:NetworkX:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:processDebugManifestForPackage
 > Task :app:javaPreCompileDebug
 > Task :app:NetworkX:bundleLibCompileToJarDebug
-> Task :app:compileDebugKotlin
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
+> Task :app:processDebugResources
+> Task :app:kaptGenerateStubsDebugKotlin
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
 > Task :app:generateDebugAssets UP-TO-DATE
@@ -162,17 +208,22 @@ BUILD SUCCESSFUL in 21s
 > Task :app:NetworkX:generateDebugAssets UP-TO-DATE
 > Task :app:NetworkX:packageDebugAssets UP-TO-DATE
 > Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:NetworkX:processDebugJavaRes NO-SOURCE
 > Task :app:NetworkX:bundleLibResDebug
 > Task :app:NetworkX:bundleLibRuntimeToJarDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :app:kaptDebugKotlin
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:dexBuilderDebug
 > Task :app:mergeDebugJavaResource
 > Task :app:desugarDebugFileDependencies
 > Task :app:mergeDebugJniLibFolders
 > Task :app:NetworkX:mergeDebugJniLibFolders UP-TO-DATE
-> Task :app:NetworkX:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:NetworkX:mergeDebugNativeLibs NO-SOURCE
 > Task :app:NetworkX:stripDebugDebugSymbols NO-SOURCE
 > Task :app:NetworkX:copyDebugJniLibsProjectOnly
 > Task :app:validateSigningDebug
@@ -182,42 +233,48 @@ BUILD SUCCESSFUL in 21s
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :app:NetworkX:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
+> Task :app:NetworkX:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
+> Task :app:NetworkX:dataBindingMergeGenClassesRelease UP-TO-DATE
 > Task :app:NetworkX:compileReleaseRenderscript NO-SOURCE
 > Task :app:NetworkX:generateReleaseResValues UP-TO-DATE
 > Task :app:NetworkX:generateReleaseResources UP-TO-DATE
 > Task :app:NetworkX:packageReleaseResources UP-TO-DATE
+> Task :app:NetworkX:dataBindingGenBaseClassesRelease UP-TO-DATE
+> Task :app:NetworkX:parseReleaseLocalResources UP-TO-DATE
+> Task :app:NetworkX:processReleaseManifest UP-TO-DATE
+> Task :app:NetworkX:generateReleaseRFile UP-TO-DATE
+> Task :app:NetworkX:dataBindingTriggerRelease UP-TO-DATE
+> Task :app:NetworkX:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:NetworkX:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+> Task :app:NetworkX:kaptReleaseKotlin UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:dataBindingTriggerRelease
+> Task :app:generateReleaseBuildConfig
+> Task :app:NetworkX:writeReleaseAarMetadata UP-TO-DATE
+> Task :app:checkReleaseAarMetadata
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :app:NetworkX:extractDeepLinksRelease
-> Task :app:NetworkX:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseMainManifest
 > Task :app:processReleaseManifest
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
-> Task :app:NetworkX:parseReleaseLocalResources UP-TO-DATE
-> Task :app:NetworkX:generateReleaseRFile UP-TO-DATE
-> Task :app:NetworkX:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:NetworkX:compileReleaseLibraryResources
 > Task :app:NetworkX:compileReleaseKotlin UP-TO-DATE
 > Task :app:NetworkX:javaPreCompileRelease UP-TO-DATE
 > Task :app:NetworkX:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :app:mergeReleaseResources
 > Task :app:NetworkX:bundleLibCompileToJarRelease
-> Task :app:NetworkX:compileReleaseLibraryResources
-> Task :app:processReleaseResources
-> Task :app:compileReleaseKotlin
+> Task :app:processReleaseManifestForPackage
 > Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:prepareLintJar
+> Task :app:mergeReleaseResources
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :app:processReleaseResources
+> Task :app:kaptGenerateStubsReleaseKotlin
 > Task :app:NetworkX:prepareLintJarForPublish UP-TO-DATE
-> Task :app:lintVitalRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:NetworkX:bundleLibRuntimeToJarRelease
-> Task :app:dexBuilderRelease
-> Task :app:mergeExtDexDebug
-> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -226,6 +283,20 @@ BUILD SUCCESSFUL in 21s
 > Task :app:NetworkX:generateReleaseAssets UP-TO-DATE
 > Task :app:NetworkX:packageReleaseAssets UP-TO-DATE
 > Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:NetworkX:bundleLibRuntimeToJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:kaptReleaseKotlin
+> Task :app:mergeExtDexDebug
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:mergeDexDebug
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:desugarReleaseFileDependencies
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:NetworkX:processReleaseJavaRes NO-SOURCE
 > Task :app:NetworkX:bundleLibResRelease
@@ -233,7 +304,7 @@ BUILD SUCCESSFUL in 21s
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :app:NetworkX:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :app:NetworkX:mergeReleaseNativeLibs UP-TO-DATE
+> Task :app:NetworkX:mergeReleaseNativeLibs NO-SOURCE
 > Task :app:NetworkX:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:NetworkX:copyReleaseJniLibsProjectOnly
 > Task :app:mergeReleaseJavaResource
@@ -256,13 +327,10 @@ BUILD SUCCESSFUL in 21s
 > Task :app:NetworkX:compileReleaseSources UP-TO-DATE
 > Task :app:NetworkX:mergeReleaseResources UP-TO-DATE
 > Task :app:mergeReleaseNativeLibs
+> Task :app:NetworkX:verifyReleaseResources UP-TO-DATE
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:NetworkX:verifyReleaseResources
-> Task :app:NetworkX:assembleRelease
-> Task :app:NetworkX:assemble
+> Task :app:NetworkX:assembleRelease UP-TO-DATE
+> Task :app:NetworkX:assemble UP-TO-DATE
 > Task :app:NetworkX:build
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
@@ -271,7 +339,11 @@ BUILD SUCCESSFUL in 21s
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 55s
-102 actionable tasks: 60 executed, 42 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.5/userguide/command_line_interface.html#sec:command_line_warnings
 
-2020-11-09 03:26:24,047 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604866965799-0/src/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 57s
+133 actionable tasks: 78 executed, 55 up-to-date
+
+2021-03-10 21:14:48,200 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615385456866-0/src/app/build/outputs/apk/debug/app-debug.apk

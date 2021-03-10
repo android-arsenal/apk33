@@ -1,0 +1,297 @@
+2021-03-10 20:20:37,636 INFO  DownloadService - Downloading "https://github.com/makstron/TCharts/archive/master.zip", attempt 3
+2021-03-10 20:20:43,923 INFO  DownloadService - Downloading "https://github.com/makstron/TCharts/archive/master.zip", attempt 2
+2021-03-10 20:20:49,510 INFO  DownloadService - Downloading "https://github.com/makstron/TCharts/archive/master.zip", attempt 1
+2021-03-10 20:21:49,611 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-10 20:21:51,003 INFO  GithubDownloadService - Default branch of this repository: main
+2021-03-10 20:21:51,003 INFO  DownloadService - Downloading "https://github.com/makstron/TCharts/archive/main.zip", attempt 3
+2021-03-10 20:22:52,078 DEBUG FullProcessService - Repository https://github.com/makstron/TCharts available: true
+2021-03-10 20:22:52,078 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-10 20:22:52,081 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/makstron/TCharts, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src]
+2021-03-10 20:22:54,120 INFO  SysUtils - 
+2021-03-10 20:22:54,143 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/.git": true
+2021-03-10 20:22:54,152 INFO  FullProcessService - Size of directory with sources: 1 MB
+2021-03-10 20:22:54,152 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src]
+2021-03-10 20:22:54,170 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/.git/
+
+2021-03-10 20:22:54,182 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/gradlew
+2021-03-10 20:22:54,195 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/TCharts/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/build.gradle
+2021-03-10 20:22:54,201 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/TCharts/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/settings.gradle
+2021-03-10 20:22:54,204 INFO  ProjectBuildService - Remote scripts: none
+2021-03-10 20:22:54,205 INFO  ProjectFixService - Fixing project...
+2021-03-10 20:22:54,261 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2021-03-10 20:22:54,261 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2021-03-10 20:22:54,268 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 30.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2021-03-10 20:22:54,271 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 30.0.2 28.0.0-rc1 28.0.0-rc2
+2021-03-10 20:22:54,274 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 30 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2021-03-10 20:22:54,275 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+2021-03-10 20:22:54,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/TCharts/local.properties
+2021-03-10 20:22:54,280 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/TCharts/build.gradle": [buildToolsVersion=30.0.3,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-10 20:22:54,284 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/TCharts/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-10 20:22:54,286 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/local.properties
+2021-03-10 20:22:54,287 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/build.gradle": [buildToolsVersion=30.0.3,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-10 20:22:54,287 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-10 20:22:54,290 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/local.properties
+2021-03-10 20:22:54,295 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-03-10 20:22:54,296 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
+2021-03-10 20:22:54,297 INFO  ProjectFixService - Project was maybe fixed
+2021-03-10 20:22:54,299 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-10 20:22:54,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/TCharts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-10 20:23:20,434 INFO  ProjectTaskService - Detected possible tasks: 64
+2021-03-10 20:23:20,436 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2021-03-10 20:23:20,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/TCharts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2021-03-10 20:23:37,211 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.1.2.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :TCharts:preBuild UP-TO-DATE
+> Task :TCharts:preDebugBuild UP-TO-DATE
+> Task :TCharts:compileDebugAidl NO-SOURCE
+> Task :TCharts:mergeDebugJniLibFolders
+> Task :TCharts:mergeDebugNativeLibs NO-SOURCE
+> Task :TCharts:stripDebugDebugSymbols NO-SOURCE
+> Task :TCharts:copyDebugJniLibsProjectAndLocalJars
+> Task :TCharts:compileDebugRenderscript NO-SOURCE
+> Task :TCharts:generateDebugBuildConfig
+> Task :TCharts:generateDebugResValues
+> Task :TCharts:generateDebugResources
+> Task :TCharts:packageDebugResources
+> Task :TCharts:javaPreCompileDebug
+> Task :TCharts:mergeDebugShaders
+> Task :TCharts:compileDebugShaders NO-SOURCE
+> Task :TCharts:generateDebugAssets UP-TO-DATE
+> Task :TCharts:packageDebugAssets
+> Task :TCharts:packageDebugRenderscript NO-SOURCE
+> Task :TCharts:prepareLintJarForPublish
+> Task :TCharts:processDebugJavaRes NO-SOURCE
+> Task :TCharts:preReleaseBuild UP-TO-DATE
+> Task :TCharts:compileReleaseAidl NO-SOURCE
+> Task :TCharts:writeDebugAarMetadata
+> Task :TCharts:mergeReleaseJniLibFolders
+> Task :TCharts:mergeReleaseNativeLibs NO-SOURCE
+> Task :TCharts:stripReleaseDebugSymbols NO-SOURCE
+> Task :TCharts:copyReleaseJniLibsProjectAndLocalJars
+> Task :TCharts:compileReleaseRenderscript NO-SOURCE
+> Task :TCharts:parseDebugLocalResources
+> Task :TCharts:generateReleaseBuildConfig
+> Task :TCharts:generateReleaseResValues
+> Task :TCharts:generateReleaseResources
+> Task :TCharts:packageReleaseResources
+> Task :TCharts:processDebugManifest
+> Task :TCharts:parseReleaseLocalResources
+> Task :TCharts:javaPreCompileRelease
+> Task :TCharts:mergeReleaseShaders
+> Task :TCharts:compileReleaseShaders NO-SOURCE
+> Task :TCharts:generateReleaseAssets UP-TO-DATE
+> Task :TCharts:processReleaseManifest
+> Task :TCharts:packageReleaseAssets
+> Task :TCharts:generateDebugRFile
+> Task :TCharts:generateReleaseRFile
+> Task :TCharts:compileDebugKotlin
+
+> Task :TCharts:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :TCharts:extractDebugAnnotations
+> Task :TCharts:mergeDebugGeneratedProguardFiles
+> Task :TCharts:mergeDebugConsumerProguardFiles
+> Task :TCharts:compileDebugSources
+> Task :TCharts:compileReleaseKotlin
+> Task :TCharts:mergeDebugJavaResource
+
+> Task :TCharts:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :TCharts:syncDebugLibJars
+> Task :TCharts:bundleDebugAar
+> Task :TCharts:assembleDebug
+> Task :TCharts:extractReleaseAnnotations
+> Task :TCharts:mergeReleaseGeneratedProguardFiles
+> Task :TCharts:mergeReleaseConsumerProguardFiles
+> Task :TCharts:packageReleaseRenderscript NO-SOURCE
+> Task :TCharts:processReleaseJavaRes NO-SOURCE
+> Task :TCharts:compileReleaseSources
+> Task :TCharts:writeReleaseAarMetadata
+> Task :TCharts:mergeReleaseJavaResource
+> Task :TCharts:mergeReleaseResources
+> Task :TCharts:syncReleaseLibJars
+> Task :TCharts:bundleReleaseAar
+> Task :TCharts:verifyReleaseResources
+> Task :TCharts:assembleRelease
+> Task :TCharts:assemble
+> Task :TCharts:build
+
+BUILD SUCCESSFUL in 16s
+43 actionable tasks: 43 executed
+
+2021-03-10 20:23:37,257 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-10 20:23:37,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-10 20:23:45,820 INFO  ProjectTaskService - Detected possible tasks: 68
+2021-03-10 20:23:45,821 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-10 20:23:45,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-10 20:24:41,383 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.1.2.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :TCharts:preBuild UP-TO-DATE
+> Task :TCharts:preDebugBuild UP-TO-DATE
+> Task :TCharts:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :TCharts:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :TCharts:writeDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :TCharts:compileDebugRenderscript NO-SOURCE
+> Task :TCharts:generateDebugResValues UP-TO-DATE
+> Task :TCharts:generateDebugResources UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :TCharts:packageDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :TCharts:extractDeepLinksDebug
+> Task :TCharts:processDebugManifest UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :TCharts:compileDebugLibraryResources
+> Task :TCharts:parseDebugLocalResources UP-TO-DATE
+> Task :TCharts:generateDebugRFile UP-TO-DATE
+> Task :TCharts:generateDebugBuildConfig UP-TO-DATE
+> Task :TCharts:compileDebugKotlin UP-TO-DATE
+> Task :TCharts:javaPreCompileDebug UP-TO-DATE
+> Task :TCharts:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :TCharts:mergeDebugShaders UP-TO-DATE
+> Task :TCharts:compileDebugShaders NO-SOURCE
+> Task :TCharts:generateDebugAssets UP-TO-DATE
+> Task :TCharts:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :TCharts:bundleLibCompileToJarDebug
+> Task :app:compressDebugAssets
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/src/main/java/com/klim/tcharts/example/MainActivity.kt: (113, 18): Name shadowed: i
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/src/main/java/com/klim/tcharts/example/MainActivity.kt: (118, 67): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/src/main/java/com/klim/tcharts/example/MainActivity.kt: (132, 21): Name shadowed: layoutParams
+
+> Task :app:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/src/main/java/com/klim/tcharts/example/NightMode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :TCharts:processDebugJavaRes NO-SOURCE
+> Task :TCharts:bundleLibResDebug NO-SOURCE
+> Task :TCharts:bundleLibRuntimeToJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:dexBuilderDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :TCharts:mergeDebugJniLibFolders UP-TO-DATE
+> Task :TCharts:mergeDebugNativeLibs NO-SOURCE
+> Task :TCharts:stripDebugDebugSymbols NO-SOURCE
+> Task :TCharts:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:extractProguardFiles
+> Task :app:preReleaseBuild
+> Task :TCharts:preReleaseBuild UP-TO-DATE
+> Task :TCharts:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :TCharts:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :TCharts:writeReleaseAarMetadata UP-TO-DATE
+> Task :app:checkReleaseAarMetadata
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :TCharts:compileReleaseRenderscript NO-SOURCE
+> Task :TCharts:generateReleaseResValues UP-TO-DATE
+> Task :TCharts:generateReleaseResources UP-TO-DATE
+> Task :TCharts:packageReleaseResources UP-TO-DATE
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :TCharts:extractDeepLinksRelease
+> Task :TCharts:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :TCharts:compileReleaseLibraryResources
+> Task :TCharts:parseReleaseLocalResources UP-TO-DATE
+> Task :TCharts:generateReleaseRFile UP-TO-DATE
+> Task :TCharts:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:mergeReleaseResources
+> Task :TCharts:compileReleaseKotlin UP-TO-DATE
+> Task :TCharts:javaPreCompileRelease UP-TO-DATE
+> Task :TCharts:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:javaPreCompileRelease
+> Task :app:processReleaseManifestForPackage
+> Task :TCharts:bundleLibCompileToJarRelease
+> Task :app:processReleaseResources
+> Task :TCharts:prepareLintJarForPublish UP-TO-DATE
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :TCharts:mergeReleaseShaders UP-TO-DATE
+> Task :TCharts:compileReleaseShaders NO-SOURCE
+> Task :TCharts:generateReleaseAssets UP-TO-DATE
+> Task :TCharts:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/src/main/java/com/klim/tcharts/example/MainActivity.kt: (113, 18): Name shadowed: i
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/src/main/java/com/klim/tcharts/example/MainActivity.kt: (118, 67): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/src/main/java/com/klim/tcharts/example/MainActivity.kt: (132, 21): Name shadowed: layoutParams
+
+> Task :app:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/src/main/java/com/klim/tcharts/example/NightMode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :TCharts:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :TCharts:exportReleaseConsumerProguardFiles
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :TCharts:processReleaseJavaRes NO-SOURCE
+> Task :TCharts:bundleLibResRelease NO-SOURCE
+> Task :TCharts:bundleLibRuntimeToJarRelease
+> Task :app:collectReleaseDependencies
+> Task :app:mergeReleaseJavaResource
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :TCharts:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :TCharts:mergeReleaseNativeLibs NO-SOURCE
+> Task :TCharts:stripReleaseDebugSymbols NO-SOURCE
+> Task :TCharts:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:mergeExtDexDebug
+> Task :app:minifyReleaseWithR8
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 54s
+92 actionable tasks: 64 executed, 28 up-to-date
+
+2021-03-10 20:24:41,469 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615382437554-0/src/app/build/outputs/apk/debug/app-debug.apk

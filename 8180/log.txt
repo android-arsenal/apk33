@@ -1,34 +1,37 @@
-2020-10-29 21:00:22,350 INFO  DownloadService - Downloading "https://github.com/evilthreads669966/pickpocket/archive/master.zip", attempt 3
-2020-10-29 21:00:24,306 INFO  DownloadService - Downloaded https://github.com/evilthreads669966/pickpocket/archive/master.zip, attempt 3
-2020-10-29 21:00:24,306 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/master.zip": 207 KB
-2020-10-29 21:00:24,306 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-10-29 21:00:24,307 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/master.zip: true
-2020-10-29 21:00:24,307 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src'.
-2020-10-29 21:00:24,342 INFO  FullProcessService - Size of directory with sources: 393 KB
-2020-10-29 21:00:24,342 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src]
-2020-10-29 21:00:24,378 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/.git/
+2021-03-10 20:53:25,912 INFO  DownloadService - Downloading "https://github.com/evilthreads669966/pickpocket/archive/master.zip", attempt 3
+2021-03-10 20:53:35,003 INFO  VirusProcessorServiceImpl - Queued project 8182 to scan viruses
+2021-03-10 20:54:26,173 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-10 20:54:27,030 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-10 20:54:27,031 INFO  DownloadService - Downloading "https://github.com/evilthreads669966/pickpocket/archive/master.zip", attempt 3
+2021-03-10 20:55:27,922 DEBUG FullProcessService - Repository https://github.com/evilthreads669966/pickpocket available: true
+2021-03-10 20:55:27,923 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-10 20:55:27,923 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/evilthreads669966/pickpocket, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src]
+2021-03-10 20:55:29,151 INFO  SysUtils - 
+2021-03-10 20:55:29,159 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/.git": true
+2021-03-10 20:55:29,163 INFO  FullProcessService - Size of directory with sources: 400 KB
+2021-03-10 20:55:29,163 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src]
+2021-03-10 20:55:29,186 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/.git/
 
-2020-10-29 21:00:24,384 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/gradlew
-2020-10-29 21:00:24,389 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/build.gradle
-2020-10-29 21:00:24,393 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/settings.gradle
-2020-10-29 21:00:24,394 INFO  ProjectBuildService - Remote scripts: none
-2020-10-29 21:00:24,394 INFO  ProjectFixService - Fixing project...
-2020-10-29 21:00:24,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/local.properties
-2020-10-29 21:00:24,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=24,targetSdkVersion=30]
-2020-10-29 21:00:24,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/local.properties
-2020-10-29 21:00:24,409 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
-2020-10-29 21:00:24,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/local.properties
-2020-10-29 21:00:24,411 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-10-29 21:00:24,412 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-10-29 21:00:24,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=24,targetSdkVersion=30]
-2020-10-29 21:00:24,414 INFO  ProjectFixService - Project was maybe fixed
-2020-10-29 21:00:24,414 INFO  ProjectTaskService - Detecting possible tasks...
-2020-10-29 21:00:24,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-10-29 21:00:32,897 INFO  VirusProcessorServiceImpl - Queued project 8182 to scan viruses
-2020-10-29 21:00:36,035 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-10-29 21:00:36,035 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-10-29 21:00:36,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-10-29 21:02:53,036 ERROR SysUtils - Could not process external command
+2021-03-10 20:55:29,191 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/gradlew
+2021-03-10 20:55:29,197 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/build.gradle
+2021-03-10 20:55:29,200 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/settings.gradle
+2021-03-10 20:55:29,201 INFO  ProjectBuildService - Remote scripts: none
+2021-03-10 20:55:29,201 INFO  ProjectFixService - Fixing project...
+2021-03-10 20:55:29,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/local.properties
+2021-03-10 20:55:29,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=24,targetSdkVersion=30]
+2021-03-10 20:55:29,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/local.properties
+2021-03-10 20:55:29,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-03-10 20:55:29,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/local.properties
+2021-03-10 20:55:29,216 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2021-03-10 20:55:29,216 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2021-03-10 20:55:29,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=24,targetSdkVersion=30]
+2021-03-10 20:55:29,217 INFO  ProjectFixService - Project was maybe fixed
+2021-03-10 20:55:29,218 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-10 20:55:29,218 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-10 20:55:41,636 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-10 20:55:41,637 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-10 20:55:41,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-10 20:57:27,964 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-10-29 21:02:53,036 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-10 20:57:27,966 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :pickpocket:preBuild UP-TO-DATE
@@ -64,26 +67,117 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :pickpocket:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :pickpocket:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :pickpocket:generateDebugResValues
-> Task :pickpocket:compileDebugRenderscript NO-SOURCE
-> Task :pickpocket:generateDebugResources
-> Task :pickpocket:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :pickpocket:extractDeepLinksDebug
+> Task :pickpocket:compileDebugRenderscript NO-SOURCE
+> Task :pickpocket:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :pickpocket:generateDebugResources
+> Task :pickpocket:packageDebugResources
 > Task :app:mergeDebugResources
-> Task :pickpocket:compileDebugLibraryResources
 > Task :pickpocket:processDebugManifest
 > Task :app:processDebugManifest
-> Task :pickpocket:generateDebugBuildConfig
 > Task :pickpocket:parseDebugLocalResources
+> Task :pickpocket:compileDebugLibraryResources
+> Task :pickpocket:generateDebugBuildConfig
+> Task :pickpocket:generateDebugRFile
+> Task :app:processDebugResources
 > Task :pickpocket:javaPreCompileDebug
 > Task :app:javaPreCompileDebug
 > Task :app:mergeDebugShaders
+
+> Task :pickpocket:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (84, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (122, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (145, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (177, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (240, 33): Variable 'postalTypeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (241, 33): Variable 'postalLabelIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (242, 33): Variable 'streetIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (243, 33): Variable 'poboxIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (244, 33): Variable 'neighborhoodIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (245, 33): Variable 'cityIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (246, 33): Variable 'region' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (247, 33): Variable 'postcodeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (248, 33): Variable 'country' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (259, 37): Variable 'contactId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (274, 66): Variable 'protoName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (363, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (446, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (519, 38): Parameter 'driveVolume' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (662, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (685, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (707, 37): 'SERIAL: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (85, 21): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (120, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (143, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (172, 21): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (233, 29): Variable 'postalTypeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (234, 29): Variable 'postalLabelIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (235, 29): Variable 'streetIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (236, 29): Variable 'poboxIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (237, 29): Variable 'neighborhoodIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (238, 29): Variable 'cityIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (239, 29): Variable 'region' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (240, 29): Variable 'postcodeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (241, 29): Variable 'country' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (252, 33): Variable 'contactId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (267, 62): Variable 'protoName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (378, 25): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (461, 25): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (554, 105): 'appendln(String?): kotlin.text.StringBuilder /* = java.lang.StringBuilder */' is deprecated. Use appendLine instead. Note that the new method always appends the line feed character '\n' regardless of the system line separator.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (561, 31): Parameter 'driveVolume' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (700, 21): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (718, 21): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (741, 33): 'SERIAL: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (70, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (108, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (131, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (163, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (226, 33): Variable 'postalTypeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (227, 33): Variable 'postalLabelIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (228, 33): Variable 'streetIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (229, 33): Variable 'poboxIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (230, 33): Variable 'neighborhoodIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (231, 33): Variable 'cityIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (232, 33): Variable 'region' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (233, 33): Variable 'postcodeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (234, 33): Variable 'country' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (245, 37): Variable 'contactId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (260, 66): Variable 'protoName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (349, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (431, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (504, 54): Parameter 'driveVolume' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (647, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (668, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (688, 37): 'SERIAL: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (87, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (124, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (146, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (177, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (239, 33): Variable 'postalTypeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (240, 33): Variable 'postalLabelIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (241, 33): Variable 'streetIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (242, 33): Variable 'poboxIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (243, 33): Variable 'neighborhoodIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (244, 33): Variable 'cityIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (245, 33): Variable 'region' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (246, 33): Variable 'postcodeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (247, 33): Variable 'country' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (258, 37): Variable 'contactId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (273, 66): Variable 'protoName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (361, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (443, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (516, 41): Parameter 'driveVolume' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (659, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (680, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (702, 37): 'SERIAL: String!' is deprecated. Deprecated in Java
+
+> Task :pickpocket:compileDebugJavaWithJavac
 > Task :app:compileDebugShaders NO-SOURCE
 > Task :app:generateDebugAssets UP-TO-DATE
 > Task :pickpocket:mergeDebugShaders
@@ -91,104 +185,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :pickpocket:generateDebugAssets UP-TO-DATE
 > Task :pickpocket:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :pickpocket:generateDebugRFile
-> Task :app:processDebugResources
-
-> Task :pickpocket:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (83, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (119, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (142, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (172, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (233, 29): Variable 'postalTypeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (234, 29): Variable 'postalLabelIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (235, 29): Variable 'streetIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (236, 29): Variable 'poboxIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (237, 29): Variable 'neighborhoodIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (238, 29): Variable 'cityIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (239, 29): Variable 'region' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (240, 29): Variable 'postcodeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (241, 29): Variable 'country' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (252, 33): Variable 'contactId' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (267, 62): Variable 'protoName' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (354, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (437, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (509, 45): Parameter 'driveVolume' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (647, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (668, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (686, 33): 'SERIAL: String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (85, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (120, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (143, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (172, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (233, 29): Variable 'postalTypeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (234, 29): Variable 'postalLabelIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (235, 29): Variable 'streetIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (236, 29): Variable 'poboxIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (237, 29): Variable 'neighborhoodIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (238, 29): Variable 'cityIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (239, 29): Variable 'region' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (240, 29): Variable 'postcodeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (241, 29): Variable 'country' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (252, 33): Variable 'contactId' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (267, 62): Variable 'protoName' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (378, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (461, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (554, 105): 'appendln(String?): kotlin.text.StringBuilder /* = java.lang.StringBuilder */' is deprecated. Use appendLine instead. Note that the new method always appends the line feed character '\n' regardless of the system line separator.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (561, 31): Parameter 'driveVolume' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (700, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (718, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (741, 33): 'SERIAL: String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (70, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (108, 29): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (131, 29): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (163, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (226, 33): Variable 'postalTypeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (227, 33): Variable 'postalLabelIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (228, 33): Variable 'streetIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (229, 33): Variable 'poboxIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (230, 33): Variable 'neighborhoodIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (231, 33): Variable 'cityIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (232, 33): Variable 'region' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (233, 33): Variable 'postcodeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (234, 33): Variable 'country' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (245, 37): Variable 'contactId' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (260, 66): Variable 'protoName' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (349, 29): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (431, 29): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (504, 54): Parameter 'driveVolume' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (647, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (668, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (688, 37): 'SERIAL: String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (85, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (120, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (142, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (171, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (231, 29): Variable 'postalTypeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (232, 29): Variable 'postalLabelIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (233, 29): Variable 'streetIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (234, 29): Variable 'poboxIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (235, 29): Variable 'neighborhoodIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (236, 29): Variable 'cityIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (237, 29): Variable 'region' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (238, 29): Variable 'postcodeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (239, 29): Variable 'country' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (250, 33): Variable 'contactId' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (265, 62): Variable 'protoName' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (351, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (433, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (505, 48): Parameter 'driveVolume' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (643, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (662, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (680, 33): 'SERIAL: String!' is deprecated. Deprecated in Java
-
-> Task :pickpocket:compileDebugJavaWithJavac
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :pickpocket:processDebugJavaRes NO-SOURCE
-> Task :pickpocket:bundleLibResDebug
 > Task :pickpocket:bundleLibCompileToJarDebug
 > Task :app:compileDebugKotlin
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :pickpocket:processDebugJavaRes NO-SOURCE
+> Task :pickpocket:bundleLibResDebug
 > Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
 > Task :app:dexBuilderDebug
@@ -202,6 +205,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :pickpocket:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :pickpocket:mergeDebugNativeLibs
+> Task :pickpocket:stripDebugDebugSymbols NO-SOURCE
+> Task :pickpocket:copyDebugJniLibsProjectOnly
 > Task :app:generateReleaseBuildConfig
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
@@ -209,127 +215,124 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/
 > Task :pickpocket:generateReleaseResValues
 > Task :pickpocket:generateReleaseResources
 > Task :pickpocket:packageReleaseResources
-> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :pickpocket:extractDeepLinksRelease
-> Task :pickpocket:mergeDebugNativeLibs
-> Task :pickpocket:stripDebugDebugSymbols NO-SOURCE
-> Task :pickpocket:copyDebugJniLibsProjectOnly
-> Task :app:mergeReleaseResources
+> Task :app:mergeProjectDexDebug
 > Task :pickpocket:compileReleaseLibraryResources
 > Task :pickpocket:generateReleaseBuildConfig
+> Task :pickpocket:javaPreCompileRelease
 > Task :pickpocket:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :pickpocket:parseReleaseLocalResources
-> Task :pickpocket:javaPreCompileRelease
 > Task :app:javaPreCompileRelease
+> Task :pickpocket:parseReleaseLocalResources
+> Task :app:mergeReleaseResources
 > Task :pickpocket:generateReleaseRFile
 > Task :app:processReleaseResources
 
 > Task :pickpocket:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (83, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (119, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (142, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (172, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (233, 29): Variable 'postalTypeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (234, 29): Variable 'postalLabelIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (235, 29): Variable 'streetIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (236, 29): Variable 'poboxIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (237, 29): Variable 'neighborhoodIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (238, 29): Variable 'cityIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (239, 29): Variable 'region' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (240, 29): Variable 'postcodeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (241, 29): Variable 'country' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (252, 33): Variable 'contactId' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (267, 62): Variable 'protoName' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (354, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (437, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (509, 45): Parameter 'driveVolume' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (647, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (668, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (686, 33): 'SERIAL: String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (85, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (120, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (143, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (172, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (233, 29): Variable 'postalTypeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (234, 29): Variable 'postalLabelIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (235, 29): Variable 'streetIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (236, 29): Variable 'poboxIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (237, 29): Variable 'neighborhoodIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (238, 29): Variable 'cityIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (239, 29): Variable 'region' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (240, 29): Variable 'postcodeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (241, 29): Variable 'country' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (252, 33): Variable 'contactId' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (267, 62): Variable 'protoName' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (378, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (461, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (554, 105): 'appendln(String?): kotlin.text.StringBuilder /* = java.lang.StringBuilder */' is deprecated. Use appendLine instead. Note that the new method always appends the line feed character '\n' regardless of the system line separator.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (561, 31): Parameter 'driveVolume' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (700, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (718, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (741, 33): 'SERIAL: String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (70, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (108, 29): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (131, 29): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (163, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (226, 33): Variable 'postalTypeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (227, 33): Variable 'postalLabelIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (228, 33): Variable 'streetIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (229, 33): Variable 'poboxIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (230, 33): Variable 'neighborhoodIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (231, 33): Variable 'cityIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (232, 33): Variable 'region' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (233, 33): Variable 'postcodeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (234, 33): Variable 'country' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (245, 37): Variable 'contactId' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (260, 66): Variable 'protoName' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (349, 29): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (431, 29): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (504, 54): Parameter 'driveVolume' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (647, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (668, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (688, 37): 'SERIAL: String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (85, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (120, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (142, 25): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (171, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (231, 29): Variable 'postalTypeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (232, 29): Variable 'postalLabelIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (233, 29): Variable 'streetIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (234, 29): Variable 'poboxIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (235, 29): Variable 'neighborhoodIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (236, 29): Variable 'cityIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (237, 29): Variable 'region' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (238, 29): Variable 'postcodeIdx' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (239, 29): Variable 'country' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (250, 33): Variable 'contactId' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (265, 62): Variable 'protoName' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (351, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (433, 25): Variable 'partProjection' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (505, 48): Parameter 'driveVolume' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (643, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (662, 21): Variable 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (680, 33): 'SERIAL: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (84, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (122, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (145, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (177, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (240, 33): Variable 'postalTypeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (241, 33): Variable 'postalLabelIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (242, 33): Variable 'streetIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (243, 33): Variable 'poboxIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (244, 33): Variable 'neighborhoodIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (245, 33): Variable 'cityIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (246, 33): Variable 'region' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (247, 33): Variable 'postcodeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (248, 33): Variable 'country' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (259, 37): Variable 'contactId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (274, 66): Variable 'protoName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (363, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (446, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (519, 38): Parameter 'driveVolume' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (662, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (685, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/AsyncPickpocket.kt: (707, 37): 'SERIAL: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (85, 21): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (120, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (143, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (172, 21): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (233, 29): Variable 'postalTypeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (234, 29): Variable 'postalLabelIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (235, 29): Variable 'streetIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (236, 29): Variable 'poboxIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (237, 29): Variable 'neighborhoodIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (238, 29): Variable 'cityIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (239, 29): Variable 'region' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (240, 29): Variable 'postcodeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (241, 29): Variable 'country' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (252, 33): Variable 'contactId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (267, 62): Variable 'protoName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (378, 25): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (461, 25): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (554, 105): 'appendln(String?): kotlin.text.StringBuilder /* = java.lang.StringBuilder */' is deprecated. Use appendLine instead. Note that the new method always appends the line feed character '\n' regardless of the system line separator.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (561, 31): Parameter 'driveVolume' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (700, 21): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (718, 21): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/FlowPickpocket.kt: (741, 33): 'SERIAL: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (70, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (108, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (131, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (163, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (226, 33): Variable 'postalTypeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (227, 33): Variable 'postalLabelIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (228, 33): Variable 'streetIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (229, 33): Variable 'poboxIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (230, 33): Variable 'neighborhoodIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (231, 33): Variable 'cityIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (232, 33): Variable 'region' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (233, 33): Variable 'postcodeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (234, 33): Variable 'country' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (245, 37): Variable 'contactId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (260, 66): Variable 'protoName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (349, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (431, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (504, 54): Parameter 'driveVolume' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (647, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (668, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/LaunchPickpocket.kt: (688, 37): 'SERIAL: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (87, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (124, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (146, 29): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (177, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (239, 33): Variable 'postalTypeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (240, 33): Variable 'postalLabelIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (241, 33): Variable 'streetIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (242, 33): Variable 'poboxIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (243, 33): Variable 'neighborhoodIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (244, 33): Variable 'cityIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (245, 33): Variable 'region' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (246, 33): Variable 'postcodeIdx' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (247, 33): Variable 'country' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (258, 37): Variable 'contactId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (273, 66): Variable 'protoName' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (361, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (443, 29): Variable 'partProjection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (516, 41): Parameter 'driveVolume' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (659, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (680, 25): Variable 'id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/src/main/java/com/evilthreads/pickpocket/ProducerPickpocket.kt: (702, 37): 'SERIAL: String!' is deprecated. Deprecated in Java
 
 > Task :pickpocket:compileReleaseJavaWithJavac
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeLibDexDebug
 > Task :pickpocket:bundleLibCompileToJarRelease
 > Task :app:compileReleaseKotlin
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:mergeLibDexDebug
 > Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:dexBuilderRelease
+> Task :pickpocket:prepareLintJarForPublish
+> Task :app:lintVitalRelease
 > Task :app:mergeExtDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:checkReleaseDuplicateClasses
-> Task :pickpocket:prepareLintJarForPublish
-> Task :app:lintVitalRelease
-> Task :app:dexBuilderRelease
 > Task :pickpocket:bundleLibRuntimeToJarRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
@@ -355,10 +358,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/
 > Task :app:mergeExtDexRelease
 
 > Task :app:mergeDexRelease FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex: D8: Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/build/.transforms/037448f0d6004fdee4cf6552ccd00035/classes/classes.dex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex: D8: Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/build/.transforms/151a06f64d3ae43ab201c88aa5d49473/classes/classes.dex
 com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/build/.transforms/037448f0d6004fdee4cf6552ccd00035/classes/classes.dex
+Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/build/.transforms/151a06f64d3ae43ab201c88aa5d49473/classes/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -399,7 +402,7 @@ Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed t
 	at com.android.tools.r8.D8.run(:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 33 more
-Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/build/.transforms/037448f0d6004fdee4cf6552ccd00035/classes/classes.dex
+Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/build/.transforms/151a06f64d3ae43ab201c88aa5d49473/classes/classes.dex
 	at Version.fakeStackEntry(Version_2.0.88.java:0)
 	at com.android.tools.r8.utils.O0.a(:21)
 	at com.android.tools.r8.utils.N0.b(:7)
@@ -423,7 +426,7 @@ Execution failed for task ':app:mergeDexRelease'.
 > A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
    > com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
      Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-     Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/build/.transforms/037448f0d6004fdee4cf6552ccd00035/classes/classes.dex
+     Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/build/.transforms/151a06f64d3ae43ab201c88aa5d49473/classes/classes.dex
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -535,7 +538,7 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	... 30 more
 Caused by: com.android.build.api.transform.TransformException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/build/.transforms/037448f0d6004fdee4cf6552ccd00035/classes/classes.dex
+Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/build/.transforms/151a06f64d3ae43ab201c88aa5d49473/classes/classes.dex
 	at com.android.build.gradle.internal.tasks.DexMergingTaskRunnable.run(DexMergingTask.kt:468)
 	at com.android.build.gradle.internal.tasks.Workers$ActionFacade.run(Workers.kt:242)
 	at org.gradle.workers.internal.AdapterWorkAction.execute(AdapterWorkAction.java:50)
@@ -562,7 +565,7 @@ Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/
 	... 3 more
 Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
-Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/build/.transforms/037448f0d6004fdee4cf6552ccd00035/classes/classes.dex
+Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/build/.transforms/151a06f64d3ae43ab201c88aa5d49473/classes/classes.dex
 	at com.android.builder.dexing.D8DexArchiveMerger.getExceptionToRethrow(D8DexArchiveMerger.java:132)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:119)
 	at com.android.build.gradle.internal.transforms.DexMergerTransformCallable.call(DexMergerTransformCallable.java:102)
@@ -573,7 +576,7 @@ Caused by: com.android.tools.r8.CompilationFailedException: Compilation failed t
 	at com.android.tools.r8.D8.run(:11)
 	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:117)
 	... 27 more
-Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/pickpocket/build/.transforms/037448f0d6004fdee4cf6552ccd00035/classes/classes.dex
+Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, Type com.evilthreads.pickpocket.BuildConfig is defined multiple times: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/intermediates/project_dex_archive/release/out/com/evilthreads/pickpocket/BuildConfig.dex, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/pickpocket/build/.transforms/151a06f64d3ae43ab201c88aa5d49473/classes/classes.dex
 	at Version.fakeStackEntry(Version_2.0.88.java:0)
 	at com.android.tools.r8.utils.O0.a(:21)
 	at com.android.tools.r8.utils.N0.b(:7)
@@ -591,7 +594,7 @@ Caused by: com.android.tools.r8.utils.b: Error: /private/var/folders/bq/vtzpc5ns
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2m 16s
+BUILD FAILED in 1m 45s
 84 actionable tasks: 84 executed
 
-2020-10-29 21:02:53,098 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603980022346-0/src/Pickpocket-master/app/build/outputs/apk/debug/app-debug.apk
+2021-03-10 20:57:28,031 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384405909-0/src/app/build/outputs/apk/debug/app-debug.apk

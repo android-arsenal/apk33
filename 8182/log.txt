@@ -1,40 +1,40 @@
-2021-01-13 02:04:33,739 INFO  DownloadService - Downloading "https://github.com/tejpratap46/PDFCreatorAndroid/archive/master.zip", attempt 3
-2021-01-13 02:05:04,922 INFO  VirusProcessorServiceImpl - Queued project 8186 to scan viruses
-2021-01-13 02:05:34,307 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2021-01-13 02:05:35,126 INFO  GithubDownloadService - Default branch of this repository: master
-2021-01-13 02:05:35,127 INFO  DownloadService - Downloading "https://github.com/tejpratap46/PDFCreatorAndroid/archive/master.zip", attempt 3
-2021-01-13 02:06:36,481 DEBUG FullProcessService - Repository https://github.com/tejpratap46/PDFCreatorAndroid available: true
-2021-01-13 02:06:36,481 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2021-01-13 02:06:36,482 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/tejpratap46/PDFCreatorAndroid, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src]
-2021-01-13 02:06:40,863 INFO  SysUtils - 
-2021-01-13 02:06:40,873 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/.git": true
-2021-01-13 02:06:40,882 INFO  FullProcessService - Size of directory with sources: 1 MB
-2021-01-13 02:06:40,882 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src]
-2021-01-13 02:06:40,901 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/.git/
+2021-03-10 20:50:29,724 INFO  DownloadService - Downloading "https://github.com/tejpratap46/PDFCreatorAndroid/archive/master.zip", attempt 3
+2021-03-10 20:51:02,629 INFO  VirusProcessorServiceImpl - Queued project 8186 to scan viruses
+2021-03-10 20:51:30,324 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-10 20:51:31,186 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-10 20:51:31,186 INFO  DownloadService - Downloading "https://github.com/tejpratap46/PDFCreatorAndroid/archive/master.zip", attempt 3
+2021-03-10 20:52:32,120 DEBUG FullProcessService - Repository https://github.com/tejpratap46/PDFCreatorAndroid available: true
+2021-03-10 20:52:32,120 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-10 20:52:32,120 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/tejpratap46/PDFCreatorAndroid, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src]
+2021-03-10 20:52:34,100 INFO  SysUtils - 
+2021-03-10 20:52:34,110 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/.git": true
+2021-03-10 20:52:34,117 INFO  FullProcessService - Size of directory with sources: 2 MB
+2021-03-10 20:52:34,117 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src]
+2021-03-10 20:52:34,135 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/.git/
 
-2021-01-13 02:06:40,907 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/gradlew
-2021-01-13 02:06:40,914 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/pdfcreator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/build.gradle
-2021-01-13 02:06:40,920 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/pdfcreator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/settings.gradle
-2021-01-13 02:06:40,920 INFO  ProjectBuildService - Remote scripts: none
-2021-01-13 02:06:40,920 INFO  ProjectFixService - Fixing project...
-2021-01-13 02:06:40,933 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/app/local.properties
-2021-01-13 02:06:40,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2021-01-13 02:06:40,935 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2021-01-13 02:06:40,935 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/pdfcreator/local.properties
-2021-01-13 02:06:40,936 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/pdfcreator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2021-01-13 02:06:40,936 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/pdfcreator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2021-01-13 02:06:40,937 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/local.properties
-2021-01-13 02:06:40,938 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
-2021-01-13 02:06:40,938 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
-2021-01-13 02:06:40,939 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2021-01-13 02:06:40,939 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2021-01-13 02:06:40,940 INFO  ProjectFixService - Project was maybe fixed
-2021-01-13 02:06:40,940 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-13 02:06:40,940 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-13 02:06:49,158 INFO  ProjectTaskService - Detected possible tasks: 67
-2021-01-13 02:06:49,158 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-13 02:06:49,158 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-13 02:07:42,022 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-10 20:52:34,141 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/gradlew
+2021-03-10 20:52:34,147 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/pdfcreator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/build.gradle
+2021-03-10 20:52:34,152 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/pdfcreator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/settings.gradle
+2021-03-10 20:52:34,153 INFO  ProjectBuildService - Remote scripts: none
+2021-03-10 20:52:34,153 INFO  ProjectFixService - Fixing project...
+2021-03-10 20:52:34,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/app/local.properties
+2021-03-10 20:52:34,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-10 20:52:34,167 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-10 20:52:34,168 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/pdfcreator/local.properties
+2021-03-10 20:52:34,168 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/pdfcreator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-10 20:52:34,169 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/pdfcreator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-10 20:52:34,169 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/local.properties
+2021-03-10 20:52:34,170 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2021-03-10 20:52:34,170 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2021-03-10 20:52:34,171 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-10 20:52:34,171 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-10 20:52:34,172 INFO  ProjectFixService - Project was maybe fixed
+2021-03-10 20:52:34,172 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-10 20:52:34,172 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-10 20:52:41,565 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-10 20:52:41,565 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-10 20:52:41,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-10 20:53:25,552 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :pdfcreator:preBuild UP-TO-DATE
@@ -63,8 +63,8 @@
 > Task :app:processDebugMainManifest
 > Task :app:processDebugManifest
 > Task :pdfcreator:generateDebugBuildConfig
-> Task :pdfcreator:javaPreCompileDebug
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :pdfcreator:javaPreCompileDebug
 > Task :app:processDebugManifestForPackage
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
@@ -74,25 +74,25 @@
 > Task :pdfcreator:generateDebugAssets UP-TO-DATE
 > Task :pdfcreator:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:compressDebugAssets
 > Task :pdfcreator:generateDebugRFile
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :pdfcreator:processDebugJavaRes NO-SOURCE
-> Task :pdfcreator:bundleLibResDebug NO-SOURCE
+> Task :app:compressDebugAssets
 > Task :app:processDebugResources
 
 > Task :pdfcreator:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/pdfcreator/src/main/java/com/tejpratapsingh/pdfcreator/utils/FileManager.java uses or overrides a deprecated API.
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :pdfcreator:processDebugJavaRes NO-SOURCE
+> Task :pdfcreator:bundleLibResDebug NO-SOURCE
 > Task :pdfcreator:bundleLibCompileToJarDebug
+> Task :app:mergeDebugJavaResource
 
 > Task :app:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
-> Task :app:mergeDebugJavaResource
 > Task :pdfcreator:bundleLibRuntimeToJarDebug
 > Task :app:checkDebugDuplicateClasses
 > Task :app:dexBuilderDebug
@@ -113,47 +113,47 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:generateReleaseBuildConfig
 > Task :app:javaPreCompileRelease
 > Task :pdfcreator:writeReleaseAarMetadata
-> Task :app:checkReleaseAarMetadata
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :pdfcreator:compileReleaseRenderscript NO-SOURCE
 > Task :pdfcreator:generateReleaseResValues
 > Task :pdfcreator:generateReleaseResources
-> Task :pdfcreator:packageReleaseResources
 > Task :app:mergeDebugNativeLibs
-> Task :app:mergeProjectDexDebug
+> Task :pdfcreator:packageReleaseResources
 > Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeProjectDexDebug
+> Task :app:checkReleaseAarMetadata
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :pdfcreator:extractDeepLinksRelease
+> Task :pdfcreator:compileReleaseLibraryResources
 > Task :pdfcreator:processReleaseManifest
+> Task :pdfcreator:parseReleaseLocalResources
 > Task :app:processReleaseMainManifest
 > Task :app:processReleaseManifest
-> Task :app:processReleaseManifestForPackage
-> Task :pdfcreator:compileReleaseLibraryResources
+> Task :app:mergeReleaseResources
 > Task :pdfcreator:generateReleaseBuildConfig
 > Task :pdfcreator:javaPreCompileRelease
-> Task :pdfcreator:parseReleaseLocalResources
-> Task :pdfcreator:generateReleaseRFile
-> Task :app:mergeReleaseResources
-
-> Task :pdfcreator:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/pdfcreator/src/main/java/com/tejpratapsingh/pdfcreator/utils/FileManager.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:processReleaseResources
+> Task :app:processReleaseManifestForPackage
 > Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :pdfcreator:prepareLintJarForPublish
-> Task :pdfcreator:bundleLibCompileToJarRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
 > Task :pdfcreator:mergeReleaseShaders
 > Task :pdfcreator:compileReleaseShaders NO-SOURCE
 > Task :pdfcreator:generateReleaseAssets UP-TO-DATE
+> Task :pdfcreator:generateReleaseRFile
 > Task :pdfcreator:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:compressReleaseAssets
+> Task :app:processReleaseResources
+
+> Task :pdfcreator:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :pdfcreator:bundleLibCompileToJarRelease
 
 > Task :app:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
@@ -188,7 +188,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 52s
+BUILD SUCCESSFUL in 43s
 88 actionable tasks: 88 executed
 
-2021-01-13 02:07:42,086 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610478273735-0/src/app/build/outputs/apk/debug/app-debug.apk
+2021-03-10 20:53:25,604 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615384229719-0/src/app/build/outputs/apk/debug/app-debug.apk

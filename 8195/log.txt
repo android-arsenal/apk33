@@ -1,37 +1,37 @@
-2020-12-11 06:26:11,020 INFO  DownloadService - Downloading "https://github.com/alokverma/circle-menu/archive/master.zip", attempt 3
-2020-12-11 06:26:23,738 INFO  VirusProcessorServiceImpl - Queued project 8197 to scan viruses
-2020-12-11 06:27:11,691 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-12-11 06:27:12,554 INFO  GithubDownloadService - Default branch of this repository: main
-2020-12-11 06:27:12,555 INFO  DownloadService - Downloading "https://github.com/alokverma/circle-menu/archive/main.zip", attempt 3
-2020-12-11 06:28:15,136 DEBUG FullProcessService - Repository https://github.com/alokverma/circle-menu available: true
-2020-12-11 06:28:15,136 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-12-11 06:28:15,136 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/alokverma/circle-menu, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src]
-2020-12-11 06:28:18,999 INFO  SysUtils - 
-2020-12-11 06:28:19,021 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/.git": true
-2020-12-11 06:28:19,031 INFO  FullProcessService - Size of directory with sources: 3 MB
-2020-12-11 06:28:19,031 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src]
-2020-12-11 06:28:19,071 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/.git/
+2021-03-10 20:39:02,120 INFO  DownloadService - Downloading "https://github.com/alokverma/circle-menu/archive/master.zip", attempt 3
+2021-03-10 20:39:15,028 INFO  VirusProcessorServiceImpl - Queued project 8197 to scan viruses
+2021-03-10 20:40:02,723 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-10 20:40:03,581 INFO  GithubDownloadService - Default branch of this repository: main
+2021-03-10 20:40:03,581 INFO  DownloadService - Downloading "https://github.com/alokverma/circle-menu/archive/main.zip", attempt 3
+2021-03-10 20:41:04,659 DEBUG FullProcessService - Repository https://github.com/alokverma/circle-menu available: true
+2021-03-10 20:41:04,659 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-10 20:41:04,659 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/alokverma/circle-menu, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src]
+2021-03-10 20:41:07,153 INFO  SysUtils - 
+2021-03-10 20:41:07,161 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/.git": true
+2021-03-10 20:41:07,166 INFO  FullProcessService - Size of directory with sources: 3 MB
+2021-03-10 20:41:07,166 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src]
+2021-03-10 20:41:07,185 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/.git/
 
-2020-12-11 06:28:19,078 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/gradlew
-2020-12-11 06:28:19,085 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/circleMenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/build.gradle
-2020-12-11 06:28:19,093 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/circleMenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/settings.gradle
-2020-12-11 06:28:19,093 INFO  ProjectBuildService - Remote scripts: none
-2020-12-11 06:28:19,093 INFO  ProjectFixService - Fixing project...
-2020-12-11 06:28:19,112 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/app/local.properties
-2020-12-11 06:28:19,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-12-11 06:28:19,114 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/circleMenu/local.properties
-2020-12-11 06:28:19,115 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/circleMenu/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-12-11 06:28:19,116 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/local.properties
-2020-12-11 06:28:19,117 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
-2020-12-11 06:28:19,118 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
-2020-12-11 06:28:19,119 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-12-11 06:28:19,120 INFO  ProjectFixService - Project was maybe fixed
-2020-12-11 06:28:19,120 INFO  ProjectTaskService - Detecting possible tasks...
-2020-12-11 06:28:19,120 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-12-11 06:28:33,658 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-12-11 06:28:33,659 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-12-11 06:28:33,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-12-11 06:30:10,002 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-10 20:41:07,188 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/gradlew
+2021-03-10 20:41:07,192 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/circleMenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/build.gradle
+2021-03-10 20:41:07,196 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/circleMenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/settings.gradle
+2021-03-10 20:41:07,196 INFO  ProjectBuildService - Remote scripts: none
+2021-03-10 20:41:07,196 INFO  ProjectFixService - Fixing project...
+2021-03-10 20:41:07,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/app/local.properties
+2021-03-10 20:41:07,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-10 20:41:07,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/circleMenu/local.properties
+2021-03-10 20:41:07,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/circleMenu/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-10 20:41:07,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/local.properties
+2021-03-10 20:41:07,208 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2021-03-10 20:41:07,209 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2021-03-10 20:41:07,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2021-03-10 20:41:07,210 INFO  ProjectFixService - Project was maybe fixed
+2021-03-10 20:41:07,210 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-10 20:41:07,210 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-10 20:41:15,258 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-10 20:41:15,259 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-10 20:41:15,259 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-10 20:42:19,730 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :circleMenu:preBuild UP-TO-DATE
@@ -42,9 +42,9 @@
 > Task :app:generateDebugBuildConfig
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :circleMenu:writeDebugAarMetadata
+> Task :app:checkDebugAarMetadata
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:checkDebugAarMetadata
 > Task :circleMenu:compileDebugRenderscript NO-SOURCE
 > Task :circleMenu:generateDebugResValues
 > Task :circleMenu:generateDebugResources
@@ -55,8 +55,8 @@
 > Task :circleMenu:compileDebugLibraryResources
 > Task :circleMenu:processDebugManifest
 > Task :circleMenu:parseDebugLocalResources
-> Task :app:processDebugMainManifest
 > Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
 > Task :app:processDebugManifest
 > Task :circleMenu:generateDebugBuildConfig
 > Task :circleMenu:javaPreCompileDebug
@@ -78,18 +78,18 @@
 > Task :app:processDebugResources
 
 > Task :circleMenu:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/circleMenu/src/main/java/com/akki/circlemenu/CircleMenu.kt: (141, 13): Variable 'buttonSize' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/circleMenu/src/main/java/com/akki/circlemenu/CircleMenu.kt: (141, 13): Variable 'buttonSize' is never used
 
 > Task :circleMenu:compileDebugJavaWithJavac
 > Task :circleMenu:bundleLibResDebug
 > Task :circleMenu:bundleLibRuntimeToJarDebug
 > Task :circleMenu:bundleLibCompileToJarDebug
-> Task :app:checkDebugDuplicateClasses
 > Task :app:compileDebugKotlin
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:dexBuilderDebug
 > Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
 > Task :app:desugarDebugFileDependencies
 > Task :app:mergeDebugJniLibFolders
 > Task :circleMenu:mergeDebugJniLibFolders
@@ -111,8 +111,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/
 > Task :circleMenu:compileReleaseRenderscript NO-SOURCE
 > Task :circleMenu:generateReleaseResValues
 > Task :circleMenu:generateReleaseResources
-> Task :circleMenu:packageReleaseResources
 > Task :app:mergeDebugNativeLibs
+> Task :circleMenu:packageReleaseResources
 > Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
@@ -123,31 +123,31 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/
 > Task :app:processReleaseManifest
 > Task :circleMenu:generateReleaseBuildConfig
 > Task :circleMenu:javaPreCompileRelease
+> Task :app:processReleaseManifestForPackage
 > Task :circleMenu:parseReleaseLocalResources
 > Task :app:javaPreCompileRelease
-> Task :app:processReleaseManifestForPackage
-> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :circleMenu:prepareLintJarForPublish
-> Task :circleMenu:generateReleaseRFile
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :app:mergeReleaseShaders
-> Task :app:mergeReleaseResources
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
 > Task :circleMenu:mergeReleaseShaders
 > Task :circleMenu:compileReleaseShaders NO-SOURCE
 > Task :circleMenu:generateReleaseAssets UP-TO-DATE
+> Task :circleMenu:generateReleaseRFile
 > Task :circleMenu:packageReleaseAssets
+> Task :app:mergeReleaseResources
 > Task :app:mergeReleaseAssets
 > Task :app:compressReleaseAssets
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:processReleaseResources
 
 > Task :circleMenu:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/circleMenu/src/main/java/com/akki/circlemenu/CircleMenu.kt: (141, 13): Variable 'buttonSize' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/circleMenu/src/main/java/com/akki/circlemenu/CircleMenu.kt: (141, 13): Variable 'buttonSize' is never used
 
 > Task :circleMenu:compileReleaseJavaWithJavac
-> Task :circleMenu:bundleLibRuntimeToJarRelease
 > Task :circleMenu:bundleLibCompileToJarRelease
+> Task :circleMenu:bundleLibRuntimeToJarRelease
 > Task :app:compileReleaseKotlin
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -159,16 +159,16 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/
 > Task :circleMenu:processReleaseJavaRes NO-SOURCE
 > Task :circleMenu:bundleLibResRelease
 > Task :app:collectReleaseDependencies
-> Task :app:mergeReleaseJavaResource
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :circleMenu:mergeReleaseJniLibFolders
 > Task :circleMenu:mergeReleaseNativeLibs NO-SOURCE
+> Task :app:mergeReleaseJavaResource
 > Task :circleMenu:stripReleaseDebugSymbols NO-SOURCE
 > Task :circleMenu:copyReleaseJniLibsProjectOnly
+> Task :app:mergeDexDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
-> Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
@@ -178,7 +178,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 35s
+BUILD SUCCESSFUL in 1m 3s
 93 actionable tasks: 93 executed
 
-2020-12-11 06:30:10,093 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1607642771011-0/src/app/apk/app-debug.apk
+2021-03-10 20:42:19,795 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383542116-0/src/app/apk/app-debug.apk
