@@ -1,40 +1,41 @@
-2021-01-14 12:55:24,698 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXGraphView/archive/master.zip", attempt 3
-2021-01-14 12:56:25,460 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2021-01-14 12:56:26,592 INFO  GithubDownloadService - Default branch of this repository: main
-2021-01-14 12:56:26,592 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXGraphView/archive/main.zip", attempt 3
-2021-01-14 12:57:29,960 DEBUG FullProcessService - Repository https://github.com/Aghajari/AXGraphView available: true
-2021-01-14 12:57:29,960 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2021-01-14 12:57:29,960 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Aghajari/AXGraphView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src]
-2021-01-14 12:57:36,081 INFO  SysUtils - 
-2021-01-14 12:57:36,094 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/.git": true
-2021-01-14 12:57:36,101 INFO  FullProcessService - Size of directory with sources: 15 MB
-2021-01-14 12:57:36,101 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src]
-2021-01-14 12:57:36,124 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/.git/
+2021-03-21 01:29:46,587 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXGraphView/archive/master.zip", attempt 3
+2021-03-21 01:29:59,961 INFO  VirusProcessorServiceImpl - Queued project 8214 to scan viruses
+2021-03-21 01:30:47,195 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-21 01:30:48,109 INFO  GithubDownloadService - Default branch of this repository: main
+2021-03-21 01:30:48,110 INFO  DownloadService - Downloading "https://github.com/Aghajari/AXGraphView/archive/main.zip", attempt 3
+2021-03-21 01:31:49,645 DEBUG FullProcessService - Repository https://github.com/Aghajari/AXGraphView available: true
+2021-03-21 01:31:49,645 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-21 01:31:49,646 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Aghajari/AXGraphView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src]
+2021-03-21 01:31:57,907 INFO  SysUtils - 
+2021-03-21 01:31:57,920 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/.git": true
+2021-03-21 01:31:57,926 INFO  FullProcessService - Size of directory with sources: 15 MB
+2021-03-21 01:31:57,926 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src]
+2021-03-21 01:31:57,948 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/.git/
 
-2021-01-14 12:57:36,130 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/gradlew
-2021-01-14 12:57:36,136 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/build.gradle
-2021-01-14 12:57:36,142 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/settings.gradle
-2021-01-14 12:57:36,143 INFO  ProjectBuildService - Remote scripts: none
-2021-01-14 12:57:36,143 INFO  ProjectFixService - Fixing project...
-2021-01-14 12:57:36,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/local.properties
-2021-01-14 12:57:36,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-14 12:57:36,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-14 12:57:36,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/app/local.properties
-2021-01-14 12:57:36,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-14 12:57:36,162 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-14 12:57:36,163 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/local.properties
-2021-01-14 12:57:36,163 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2021-01-14 12:57:36,164 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2021-01-14 12:57:36,166 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-14 12:57:36,166 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2021-01-14 12:57:36,166 INFO  ProjectFixService - Project was maybe fixed
-2021-01-14 12:57:36,166 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-14 12:57:36,167 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-14 12:57:47,390 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2021-01-14 12:57:47,393 INFO  ProjectTaskService - Detected possible tasks: 0
-2021-01-14 12:57:47,393 INFO  ProjectTaskService - Excluded tasks (0): none
-2021-01-14 12:57:47,393 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2021-01-14 12:57:53,852 ERROR SysUtils - Could not process external command
+2021-03-21 01:31:57,953 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/gradlew
+2021-03-21 01:31:57,958 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/build.gradle
+2021-03-21 01:31:57,963 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/settings.gradle
+2021-03-21 01:31:57,963 INFO  ProjectBuildService - Remote scripts: none
+2021-03-21 01:31:57,963 INFO  ProjectFixService - Fixing project...
+2021-03-21 01:31:57,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/local.properties
+2021-03-21 01:31:57,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-21 01:31:57,976 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-21 01:31:57,977 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/app/local.properties
+2021-03-21 01:31:57,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-21 01:31:57,978 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-21 01:31:57,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/local.properties
+2021-03-21 01:31:57,979 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2021-03-21 01:31:57,980 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2021-03-21 01:31:57,981 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-21 01:31:57,981 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2021-03-21 01:31:57,981 INFO  ProjectFixService - Project was maybe fixed
+2021-03-21 01:31:57,981 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-21 01:31:57,982 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-21 01:32:06,057 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2021-03-21 01:32:06,057 INFO  ProjectTaskService - Detected possible tasks: 0
+2021-03-21 01:32:06,058 INFO  ProjectTaskService - Excluded tasks (0): none
+2021-03-21 01:32:06,058 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2021-03-21 01:32:11,573 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -62,12 +63,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-14 12:57:53,854 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-21 01:32:11,574 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle' line: 39
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle' line: 39
 
 * What went wrong:
 A problem occurred evaluating project ':AXGraphView'.
@@ -214,21 +215,21 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':AX
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: java.io.FileNotFoundException: deploy.settings (No such file or directory)
-	at build_65jz43fdimc8190kcuown5hh.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle:39)
+	at build_37rsswksfd3bhx8oi296c990j.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle:39)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 134 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2021-01-14 12:57:53,862 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-14 12:57:53,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-14 12:58:03,491 INFO  ProjectTaskService - Detected possible tasks: 67
-2021-01-14 12:58:03,492 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-14 12:58:03,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-14 12:58:11,252 ERROR SysUtils - Could not process external command
+2021-03-21 01:32:11,581 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-21 01:32:11,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-21 01:32:19,064 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-21 01:32:19,064 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-21 01:32:19,064 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-21 01:32:25,681 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -256,12 +257,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-14 12:58:11,252 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-21 01:32:25,681 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle' line: 39
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle' line: 39
 
 * What went wrong:
 A problem occurred evaluating project ':AXGraphView'.
@@ -495,22 +496,22 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':AX
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: java.io.FileNotFoundException: deploy.settings (No such file or directory)
-	at build_65jz43fdimc8190kcuown5hh.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle:39)
+	at build_37rsswksfd3bhx8oi296c990j.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle:39)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 221 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 6s
 
-2021-01-14 12:58:11,259 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-14 12:58:11,259 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-14 12:58:18,212 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2021-01-14 12:58:18,212 INFO  ProjectTaskService - Detected possible tasks: 0
-2021-01-14 12:58:18,212 INFO  ProjectTaskService - Excluded tasks (0): none
-2021-01-14 12:58:18,213 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2021-01-14 12:58:25,753 ERROR SysUtils - Could not process external command
+2021-03-21 01:32:25,688 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-21 01:32:25,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-21 01:32:31,962 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2021-03-21 01:32:31,962 INFO  ProjectTaskService - Detected possible tasks: 0
+2021-03-21 01:32:31,963 INFO  ProjectTaskService - Excluded tasks (0): none
+2021-03-21 01:32:31,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2021-03-21 01:32:38,064 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -538,12 +539,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-14 12:58:25,754 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-21 01:32:38,065 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle' line: 39
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle' line: 39
 
 * What went wrong:
 A problem occurred evaluating project ':AXGraphView'.
@@ -690,14 +691,14 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':AX
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: java.io.FileNotFoundException: deploy.settings (No such file or directory)
-	at build_65jz43fdimc8190kcuown5hh.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603724696-0/src/AXGraphView/build.gradle:39)
+	at build_37rsswksfd3bhx8oi296c990j.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264986584-0/src/AXGraphView/build.gradle:39)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 134 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 5s
 
-2021-01-14 12:58:25,760 ERROR FullProcessService - Project build has not produced APK file
-2021-01-14 12:58:25,767 ERROR FullProcessService - Could not find generated or existed APK file
+2021-03-21 01:32:38,072 ERROR FullProcessService - Project build has not produced APK file
+2021-03-21 01:32:38,078 ERROR FullProcessService - Could not find generated or existed APK file

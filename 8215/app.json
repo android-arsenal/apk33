@@ -41,8 +41,8 @@
   "dexClasses" : 2747,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"30\" android:compileSdkVersionCodename=\"11\" package=\"dev.abhishekti7.filepickerexample\" platformBuildVersionCode=\"30\" platformBuildVersionName=\"11\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"30\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f10019d\" android:label=\"FilePickerExample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\" android:requestLegacyExternalStorage=\"true\">\n\t\t<activity android:name=\"dev.abhishekti7.filepickerexample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"abhishekti7.unicorn.filepicker.ui.FilePickerActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2978754,
-  "crc32" : 1827191687,
-  "sha256" : "cd3195587edbed39702712fa9ed2ca4425ed5f1f66766f3da5a53f9abf1a6c83",
-  "buildTime" : 1610603474000
+  "fileSize" : 2978752,
+  "crc32" : 297933834,
+  "sha256" : "41a588b3d7bbc748bbc8ed60e3f3c8d4e4777af7933e636f46fffee92a4fc7c7",
+  "buildTime" : 1616264732000
 }

@@ -1,33 +1,33 @@
-2021-01-14 12:49:50,359 INFO  DownloadService - Downloading "https://github.com/abhishekti7/UnicornFilePicker/archive/master.zip", attempt 3
-2021-01-14 12:49:51,043 INFO  DownloadService - Downloaded https://github.com/abhishekti7/UnicornFilePicker/archive/master.zip, attempt 3
-2021-01-14 12:49:51,044 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/master.zip": 286 KB
-2021-01-14 12:49:51,044 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2021-01-14 12:49:51,049 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/master.zip: true
-2021-01-14 12:49:51,050 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src'.
-2021-01-14 12:49:51,087 INFO  FullProcessService - Size of directory with sources: 357 KB
-2021-01-14 12:49:51,087 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src]
-2021-01-14 12:49:51,123 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/.git/
+2021-03-21 01:24:03,647 INFO  DownloadService - Downloading "https://github.com/abhishekti7/UnicornFilePicker/archive/master.zip", attempt 3
+2021-03-21 01:24:07,039 INFO  DownloadService - Downloaded https://github.com/abhishekti7/UnicornFilePicker/archive/master.zip, attempt 3
+2021-03-21 01:24:07,039 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/master.zip": 286 KB
+2021-03-21 01:24:07,039 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-03-21 01:24:07,044 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/master.zip: true
+2021-03-21 01:24:07,045 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src'.
+2021-03-21 01:24:07,082 INFO  FullProcessService - Size of directory with sources: 357 KB
+2021-03-21 01:24:07,082 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src]
+2021-03-21 01:24:07,121 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/.git/
 
-2021-01-14 12:49:51,129 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/gradlew
-2021-01-14 12:49:51,134 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/UnicornFilePicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/build.gradle
-2021-01-14 12:49:51,141 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/UnicornFilePicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/settings.gradle
-2021-01-14 12:49:51,142 INFO  ProjectBuildService - Remote scripts: none
-2021-01-14 12:49:51,142 INFO  ProjectFixService - Fixing project...
-2021-01-14 12:49:51,156 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/UnicornFilePicker/local.properties
-2021-01-14 12:49:51,157 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/UnicornFilePicker/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-14 12:49:51,158 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/app/local.properties
-2021-01-14 12:49:51,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-14 12:49:51,159 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/local.properties
-2021-01-14 12:49:51,160 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
-2021-01-14 12:49:51,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2021-01-14 12:49:51,161 INFO  ProjectFixService - Project was maybe fixed
-2021-01-14 12:49:51,162 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-14 12:49:51,162 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/UnicornFilePicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-14 12:49:57,915 INFO  VirusProcessorServiceImpl - Queued project 8217 to scan viruses
-2021-01-14 12:50:00,670 INFO  ProjectTaskService - Detected possible tasks: 66
-2021-01-14 12:50:00,670 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2021-01-14 12:50:00,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/UnicornFilePicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2021-01-14 12:50:17,737 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-21 01:24:07,125 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/gradlew
+2021-03-21 01:24:07,131 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/UnicornFilePicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/build.gradle
+2021-03-21 01:24:07,135 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/UnicornFilePicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/settings.gradle
+2021-03-21 01:24:07,136 INFO  ProjectBuildService - Remote scripts: none
+2021-03-21 01:24:07,136 INFO  ProjectFixService - Fixing project...
+2021-03-21 01:24:07,147 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/UnicornFilePicker/local.properties
+2021-03-21 01:24:07,148 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/UnicornFilePicker/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-21 01:24:07,149 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/app/local.properties
+2021-03-21 01:24:07,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/app/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-21 01:24:07,150 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/local.properties
+2021-03-21 01:24:07,151 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-03-21 01:24:07,152 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-21 01:24:07,153 INFO  ProjectFixService - Project was maybe fixed
+2021-03-21 01:24:07,153 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-21 01:24:07,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/UnicornFilePicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-21 01:24:14,629 INFO  ProjectTaskService - Detected possible tasks: 66
+2021-03-21 01:24:14,629 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2021-03-21 01:24:14,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/UnicornFilePicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2021-03-21 01:24:17,895 INFO  VirusProcessorServiceImpl - Queued project 8233 to scan viruses
+2021-03-21 01:24:30,093 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :UnicornFilePicker
 WARNING: DSL element 'android.viewBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.viewBinding'.
@@ -57,9 +57,9 @@ It will be removed in version 5.0 of the Android Gradle plugin.
 > Task :UnicornFilePicker:prepareLintJarForPublish
 > Task :UnicornFilePicker:processDebugJavaRes NO-SOURCE
 > Task :UnicornFilePicker:preReleaseBuild UP-TO-DATE
-> Task :UnicornFilePicker:parseDebugLocalResources
 > Task :UnicornFilePicker:compileReleaseAidl NO-SOURCE
 > Task :UnicornFilePicker:writeDebugAarMetadata
+> Task :UnicornFilePicker:parseDebugLocalResources
 > Task :UnicornFilePicker:mergeReleaseJniLibFolders
 > Task :UnicornFilePicker:mergeReleaseNativeLibs NO-SOURCE
 > Task :UnicornFilePicker:stripReleaseDebugSymbols NO-SOURCE
@@ -74,16 +74,19 @@ It will be removed in version 5.0 of the Android Gradle plugin.
 > Task :UnicornFilePicker:packageReleaseResources
 > Task :UnicornFilePicker:dataBindingGenBaseClassesRelease
 > Task :UnicornFilePicker:generateReleaseBuildConfig
-> Task :UnicornFilePicker:javaPreCompileRelease
-> Task :UnicornFilePicker:generateDebugRFile
 > Task :UnicornFilePicker:parseReleaseLocalResources
+> Task :UnicornFilePicker:javaPreCompileRelease
 > Task :UnicornFilePicker:mergeReleaseShaders
+> Task :UnicornFilePicker:compileReleaseShaders NO-SOURCE
+> Task :UnicornFilePicker:generateReleaseAssets UP-TO-DATE
 > Task :UnicornFilePicker:processReleaseManifest
+> Task :UnicornFilePicker:generateDebugRFile
+> Task :UnicornFilePicker:packageReleaseAssets
 
 > Task :UnicornFilePicker:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/UnicornFilePicker/src/main/java/abhishekti7/unicorn/filepicker/ui/FilePickerActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/UnicornFilePicker/src/main/java/abhishekti7/unicorn/filepicker/ui/FilePickerActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/UnicornFilePicker/src/main/java/abhishekti7/unicorn/filepicker/adapters/DirectoryAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/UnicornFilePicker/src/main/java/abhishekti7/unicorn/filepicker/adapters/DirectoryAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :UnicornFilePicker:extractDebugAnnotations
@@ -93,9 +96,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :UnicornFilePicker:bundleDebugAar
 > Task :UnicornFilePicker:compileDebugSources
 > Task :UnicornFilePicker:assembleDebug
-> Task :UnicornFilePicker:compileReleaseShaders NO-SOURCE
-> Task :UnicornFilePicker:generateReleaseAssets UP-TO-DATE
-> Task :UnicornFilePicker:packageReleaseAssets
 > Task :UnicornFilePicker:packageReleaseRenderscript NO-SOURCE
 > Task :UnicornFilePicker:processReleaseJavaRes NO-SOURCE
 > Task :UnicornFilePicker:writeReleaseAarMetadata
@@ -104,9 +104,9 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :UnicornFilePicker:mergeReleaseResources
 
 > Task :UnicornFilePicker:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/UnicornFilePicker/src/main/java/abhishekti7/unicorn/filepicker/ui/FilePickerActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/UnicornFilePicker/src/main/java/abhishekti7/unicorn/filepicker/ui/FilePickerActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/UnicornFilePicker/src/main/java/abhishekti7/unicorn/filepicker/adapters/DirectoryAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/UnicornFilePicker/src/main/java/abhishekti7/unicorn/filepicker/adapters/DirectoryAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :UnicornFilePicker:extractReleaseAnnotations
@@ -120,15 +120,15 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :UnicornFilePicker:assemble
 > Task :UnicornFilePicker:build
 
-BUILD SUCCESSFUL in 16s
+BUILD SUCCESSFUL in 15s
 47 actionable tasks: 47 executed
 
-2021-01-14 12:50:17,799 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-14 12:50:17,799 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-14 12:50:26,825 INFO  ProjectTaskService - Detected possible tasks: 69
-2021-01-14 12:50:26,825 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-14 12:50:26,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-14 12:51:17,340 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-21 01:24:30,165 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-21 01:24:30,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-21 01:24:39,063 INFO  ProjectTaskService - Detected possible tasks: 69
+2021-03-21 01:24:39,063 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-21 01:24:39,063 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-21 01:25:42,715 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 WARNING: DSL element 'android.viewBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.viewBinding'.
@@ -175,21 +175,21 @@ It will be removed in version 5.0 of the Android Gradle plugin.
 > Task :UnicornFilePicker:generateDebugBuildConfig UP-TO-DATE
 > Task :UnicornFilePicker:javaPreCompileDebug UP-TO-DATE
 > Task :UnicornFilePicker:compileDebugJavaWithJavac UP-TO-DATE
-> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :UnicornFilePicker:bundleLibCompileToJarDebug
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/app/src/main/java/dev/abhishekti7/filepickerexample/MainActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders NO-SOURCE
 > Task :app:generateDebugAssets UP-TO-DATE
 > Task :UnicornFilePicker:mergeDebugShaders UP-TO-DATE
-> Task :UnicornFilePicker:compileDebugShaders NO-SOURCE
+> Task :UnicornFilePicker:compileDebugShadersNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/app/src/main/java/dev/abhishekti7/filepickerexample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+ NO-SOURCE
 > Task :UnicornFilePicker:generateDebugAssets UP-TO-DATE
 > Task :UnicornFilePicker:packageDebugAssets UP-TO-DATE
 > Task :app:mergeDebugAssets
@@ -226,8 +226,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :UnicornFilePicker:generateReleaseResources UP-TO-DATE
 > Task :UnicornFilePicker:packageReleaseResources UP-TO-DATE
 > Task :UnicornFilePicker:dataBindingGenBaseClassesRelease UP-TO-DATE
-> Task :app:dataBindingMergeGenClassesRelease
 > Task :app:generateReleaseResValues
+> Task :app:dataBindingMergeGenClassesRelease
 > Task :app:generateReleaseResources
 > Task :app:generateReleaseBuildConfig
 > Task :app:javaPreCompileRelease
@@ -240,10 +240,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:processReleaseMainManifest
 > Task :app:processReleaseManifest
 > Task :UnicornFilePicker:parseReleaseLocalResources UP-TO-DATE
-> Task :UnicornFilePicker:compileReleaseLibraryResources
 > Task :UnicornFilePicker:generateReleaseRFile UP-TO-DATE
 > Task :UnicornFilePicker:generateReleaseBuildConfig UP-TO-DATE
 > Task :UnicornFilePicker:javaPreCompileRelease UP-TO-DATE
+> Task :UnicornFilePicker:compileReleaseLibraryResources
 > Task :UnicornFilePicker:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :app:processReleaseManifestForPackage
 > Task :UnicornFilePicker:bundleLibCompileToJarRelease
@@ -255,47 +255,47 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :UnicornFilePicker:mergeReleaseShaders UP-TO-DATE
 > Task :UnicornFilePicker:compileReleaseShaders NO-SOURCE
 > Task :UnicornFilePicker:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseResources
 > Task :UnicornFilePicker:packageReleaseAssets UP-TO-DATE
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/app/src/main/java/dev/abhishekti7/filepickerexample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
+> Task :app:lintVitalRelease
 > Task :app:mergeReleaseAssets
 > Task :app:compressReleaseAssets
 > Task :UnicornFilePicker:bundleLibRuntimeToJarRelease
 > Task :app:desugarReleaseFileDependencies
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:mergeReleaseResources
-> Task :app:dataBindingGenBaseClassesRelease
-> Task :app:processReleaseResources
-
-> Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/app/src/main/java/dev/abhishekti7/filepickerexample/MainActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:compileReleaseSources
-> Task :app:mergeExtDexRelease
-> Task :app:mergeExtDexDebug
-> Task :app:lintVitalRelease
 > Task :UnicornFilePicker:processReleaseJavaRes NO-SOURCE
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:dexBuilderRelease
 > Task :UnicornFilePicker:bundleLibResRelease NO-SOURCE
 > Task :app:collectReleaseDependencies
 > Task :app:mergeReleaseJavaResource
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
-> Task :app:dexBuilderRelease
 > Task :UnicornFilePicker:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :UnicornFilePicker:mergeReleaseNativeLibs NO-SOURCE
 > Task :UnicornFilePicker:stripReleaseDebugSymbols NO-SOURCE
 > Task :UnicornFilePicker:copyReleaseJniLibsProjectOnly
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 49s
+BUILD SUCCESSFUL in 1m 3s
 100 actionable tasks: 69 executed, 31 up-to-date
 
-2021-01-14 12:51:17,448 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603390354-0/src/UnicornFilePicker-master/app/build/outputs/apk/debug/app-debug.apk
+2021-03-21 01:25:42,809 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264643643-0/src/UnicornFilePicker-master/app/build/outputs/apk/debug/app-debug.apk

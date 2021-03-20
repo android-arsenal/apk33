@@ -1,0 +1,720 @@
+2021-03-21 01:15:56,111 INFO  DownloadService - Downloading "https://github.com/MFlisar/MaterialDialogFragments/archive/master.zip", attempt 3
+2021-03-21 01:16:00,154 INFO  DownloadService - Downloaded https://github.com/MFlisar/MaterialDialogFragments/archive/master.zip, attempt 3
+2021-03-21 01:16:00,155 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/master.zip": 4 MB
+2021-03-21 01:16:00,156 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-03-21 01:16:00,178 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/master.zip: true
+2021-03-21 01:16:00,179 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src'.
+2021-03-21 01:16:00,357 INFO  FullProcessService - Size of directory with sources: 5 MB
+2021-03-21 01:16:00,365 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src]
+2021-03-21 01:16:00,439 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/.git/
+
+2021-03-21 01:16:00,472 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/gradlew
+2021-03-21 01:16:00,493 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-datetime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-fastadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-frequency/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-input/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/build.gradle
+2021-03-21 01:16:00,518 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-frequency/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-fastadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-input/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-datetime/build.gradle
+2021-03-21 01:16:00,531 INFO  ProjectBuildService - Remote scripts: none
+2021-03-21 01:16:00,532 INFO  ProjectFixService - Fixing project...
+2021-03-21 01:16:00,615 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2021-03-21 01:16:00,615 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2021-03-21 01:16:00,647 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 30.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2021-03-21 01:16:00,650 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 30.0.2 28.0.0-rc1 28.0.0-rc2
+2021-03-21 01:16:00,671 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 30 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2021-03-21 01:16:00,673 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+2021-03-21 01:16:00,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/local.properties
+2021-03-21 01:16:00,693 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-03-21 01:16:00,695 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-03-21 01:16:00,698 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/local.properties
+2021-03-21 01:16:00,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-03-21 01:16:00,707 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-03-21 01:16:00,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/local.properties
+2021-03-21 01:16:00,716 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-03-21 01:16:00,717 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-03-21 01:16:00,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-datetime/local.properties
+2021-03-21 01:16:00,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-datetime/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-03-21 01:16:00,726 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-datetime/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-03-21 01:16:00,728 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-fastadapter/local.properties
+2021-03-21 01:16:00,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-fastadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-03-21 01:16:00,736 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-fastadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-03-21 01:16:00,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-frequency/local.properties
+2021-03-21 01:16:00,745 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-frequency/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-03-21 01:16:00,745 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-frequency/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-03-21 01:16:00,747 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-input/local.properties
+2021-03-21 01:16:00,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-input/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-03-21 01:16:00,754 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-input/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-03-21 01:16:00,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/local.properties
+2021-03-21 01:16:00,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-03-21 01:16:00,763 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-03-21 01:16:00,764 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/local.properties
+2021-03-21 01:16:00,772 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.7.1-all.zip
+2021-03-21 01:16:00,773 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.7.1-bin.zip)
+2021-03-21 01:16:00,782 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-03-21 01:16:00,783 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-03-21 01:16:00,783 INFO  ProjectFixService - Project was maybe fixed
+2021-03-21 01:16:00,786 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-21 01:16:00,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-21 01:17:09,980 INFO  ProjectTaskService - Detected possible tasks: 70
+2021-03-21 01:17:09,983 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-21 01:17:09,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-21 01:21:54,026 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :dialogs:preBuild UP-TO-DATE
+> Task :dialogs:preDebugBuild UP-TO-DATE
+> Task :dialogs:compileDebugAidl NO-SOURCE
+> Task :dialogs-ads:preBuild UP-TO-DATE
+> Task :dialogs-ads:preDebugBuild UP-TO-DATE
+> Task :dialogs-ads:compileDebugAidl NO-SOURCE
+> Task :dialogs-color:preBuild UP-TO-DATE
+> Task :dialogs-color:preDebugBuild UP-TO-DATE
+> Task :dialogs-color:compileDebugAidl NO-SOURCE
+> Task :dialogs-datetime:preBuild UP-TO-DATE
+> Task :dialogs-datetime:preDebugBuild UP-TO-DATE
+> Task :dialogs-datetime:compileDebugAidl NO-SOURCE
+> Task :dialogs-fastadapter:preBuild UP-TO-DATE
+> Task :dialogs-fastadapter:preDebugBuild UP-TO-DATE
+> Task :dialogs-fastadapter:compileDebugAidl NO-SOURCE
+> Task :dialogs-frequency:preBuild UP-TO-DATE
+> Task :dialogs-frequency:preDebugBuild UP-TO-DATE
+> Task :dialogs-input:preBuild UP-TO-DATE
+> Task :dialogs-input:preDebugBuild UP-TO-DATE
+> Task :dialogs-input:compileDebugAidl NO-SOURCE
+> Task :dialogs-frequency:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :dialogs:packageDebugRenderscript NO-SOURCE
+> Task :dialogs-ads:packageDebugRenderscript NO-SOURCE
+> Task :dialogs-color:packageDebugRenderscript NO-SOURCE
+> Task :dialogs-datetime:packageDebugRenderscript NO-SOURCE
+> Task :dialogs-fastadapter:packageDebugRenderscript NO-SOURCE
+> Task :dialogs-frequency:packageDebugRenderscript NO-SOURCE
+> Task :dialogs-input:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :dialogs:dataBindingMergeGenClassesDebug
+> Task :dialogs:compileDebugRenderscript NO-SOURCE
+> Task :dialogs:generateDebugResValues
+> Task :dialogs:generateDebugResources
+> Task :dialogs:packageDebugResources
+> Task :dialogs-ads:compileDebugRenderscript NO-SOURCE
+> Task :dialogs-ads:generateDebugResValues
+> Task :dialogs-ads:generateDebugResources
+> Task :dialogs-ads:packageDebugResources
+> Task :dialogs-color:compileDebugRenderscript NO-SOURCE
+> Task :dialogs-color:generateDebugResValues
+> Task :dialogs-color:generateDebugResources
+> Task :dialogs-color:packageDebugResources
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :dialogs-datetime:compileDebugRenderscript NO-SOURCE
+> Task :dialogs-datetime:generateDebugResValues
+> Task :dialogs-datetime:generateDebugResources
+> Task :dialogs-datetime:packageDebugResources
+> Task :dialogs-fastadapter:compileDebugRenderscript NO-SOURCE
+> Task :dialogs-fastadapter:generateDebugResValues
+> Task :dialogs-fastadapter:generateDebugResources
+> Task :dialogs-fastadapter:packageDebugResources
+> Task :dialogs-fastadapter:dataBindingMergeDependencyArtifactsDebug
+> Task :dialogs-input:compileDebugRenderscript NO-SOURCE
+> Task :dialogs-input:generateDebugResValues
+> Task :dialogs-input:generateDebugResources
+> Task :dialogs-input:packageDebugResources
+> Task :dialogs-frequency:compileDebugRenderscript NO-SOURCE
+> Task :dialogs-frequency:generateDebugResValues
+> Task :dialogs-frequency:generateDebugResources
+> Task :dialogs-frequency:packageDebugResources
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :dialogs-frequency:dataBindingMergeDependencyArtifactsDebug
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :dialogs:extractDeepLinksDebug
+> Task :dialogs:dataBindingMergeDependencyArtifactsDebug
+> Task :dialogs:dataBindingGenBaseClassesDebug
+> Task :app:mergeDebugResources
+> Task :dialogs-ads:dataBindingMergeDependencyArtifactsDebug
+> Task :dialogs-input:dataBindingMergeDependencyArtifactsDebug
+> Task :dialogs-datetime:dataBindingMergeDependencyArtifactsDebug
+> Task :dialogs-color:dataBindingMergeGenClassesDebug
+> Task :dialogs-ads:extractDeepLinksDebug
+> Task :dialogs-fastadapter:dataBindingMergeGenClassesDebug
+> Task :dialogs-fastadapter:dataBindingGenBaseClassesDebug
+> Task :dialogs-color:extractDeepLinksDebug
+> Task :dialogs-input:dataBindingMergeGenClassesDebug
+> Task :dialogs-input:dataBindingGenBaseClassesDebug
+> Task :dialogs-color:dataBindingMergeDependencyArtifactsDebug
+> Task :dialogs-color:dataBindingGenBaseClassesDebug
+> Task :dialogs-datetime:extractDeepLinksDebug
+> Task :dialogs-ads:dataBindingMergeGenClassesDebug
+> Task :dialogs-ads:dataBindingGenBaseClassesDebug
+> Task :dialogs-fastadapter:extractDeepLinksDebug
+> Task :dialogs-datetime:dataBindingMergeGenClassesDebug
+> Task :dialogs-datetime:dataBindingGenBaseClassesDebug
+> Task :dialogs-color:processDebugManifest
+> Task :dialogs-frequency:extractDeepLinksDebug
+> Task :dialogs-ads:processDebugManifest
+> Task :dialogs-input:extractDeepLinksDebug
+> Task :dialogs-datetime:processDebugManifest
+> Task :dialogs:compileDebugLibraryResources
+> Task :dialogs:processDebugManifest
+> Task :dialogs-frequency:dataBindingMergeGenClassesDebug
+> Task :dialogs-frequency:dataBindingGenBaseClassesDebug
+> Task :dialogs-input:processDebugManifest
+> Task :dialogs-ads:compileDebugLibraryResources
+> Task :dialogs-ads:parseDebugLocalResources
+> Task :dialogs-frequency:processDebugManifest
+> Task :dialogs-color:compileDebugLibraryResources
+> Task :dialogs-datetime:parseDebugLocalResources
+> Task :dialogs-fastadapter:compileDebugLibraryResources
+> Task :dialogs:parseDebugLocalResources
+> Task :dialogs-fastadapter:parseDebugLocalResources
+> Task :dialogs-fastadapter:processDebugManifest
+> Task :app:processDebugManifest
+> Task :dialogs-input:parseDebugLocalResources
+> Task :dialogs:generateDebugBuildConfig
+> Task :dialogs-ads:generateDebugBuildConfig
+> Task :dialogs-color:generateDebugBuildConfig
+> Task :dialogs-datetime:generateDebugBuildConfig
+> Task :dialogs-fastadapter:generateDebugBuildConfig
+> Task :dialogs-frequency:generateDebugBuildConfig
+> Task :dialogs-input:generateDebugBuildConfig
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :dialogs:mergeDebugShaders
+> Task :dialogs:compileDebugShaders
+> Task :dialogs:generateDebugAssets
+> Task :dialogs:packageDebugAssets
+> Task :dialogs-ads:mergeDebugShaders
+> Task :dialogs-ads:compileDebugShaders
+> Task :dialogs-ads:generateDebugAssets
+> Task :dialogs-ads:packageDebugAssets
+> Task :dialogs-color:mergeDebugShaders
+> Task :dialogs-color:compileDebugShaders
+> Task :dialogs-color:generateDebugAssets
+> Task :dialogs-color:packageDebugAssets
+> Task :dialogs-datetime:mergeDebugShaders
+> Task :dialogs-datetime:compileDebugShaders
+> Task :dialogs-datetime:generateDebugAssets
+> Task :dialogs-datetime:packageDebugAssets
+> Task :dialogs-fastadapter:mergeDebugShaders
+> Task :dialogs-fastadapter:compileDebugShaders
+> Task :dialogs-fastadapter:generateDebugAssets
+> Task :dialogs-fastadapter:packageDebugAssets
+> Task :dialogs-frequency:mergeDebugShaders
+> Task :dialogs-frequency:compileDebugShaders
+> Task :dialogs-frequency:generateDebugAssets
+> Task :dialogs-frequency:packageDebugAssets
+> Task :dialogs-input:mergeDebugShaders
+> Task :dialogs-input:compileDebugShaders
+> Task :dialogs-input:generateDebugAssets
+> Task :dialogs-input:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :dialogs-datetime:compileDebugLibraryResources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :dialogs:processDebugJavaRes NO-SOURCE
+> Task :dialogs-ads:processDebugJavaRes NO-SOURCE
+> Task :dialogs-color:processDebugJavaRes NO-SOURCE
+> Task :dialogs-datetime:processDebugJavaRes NO-SOURCE
+> Task :dialogs-fastadapter:processDebugJavaRes NO-SOURCE
+> Task :dialogs-frequency:processDebugJavaRes NO-SOURCE
+> Task :dialogs-input:processDebugJavaRes NO-SOURCE
+> Task :dialogs-frequency:parseDebugLocalResources
+> Task :dialogs-frequency:compileDebugLibraryResources
+> Task :dialogs:generateDebugRFile
+
+> Task :dialogs:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/Extensions.kt: (59, 27): 'neutralButton(Int? = ..., CharSequence? = ..., DialogCallback? /* = ((MaterialDialog) -> Unit)? */ = ...): MaterialDialog' is deprecated. Use of neutral buttons is discouraged, see https://material.io/design/components/dialogs.html#actions.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/Extensions.kt: (60, 29): 'neutralButton(Int? = ..., CharSequence? = ..., DialogCallback? /* = ((MaterialDialog) -> Unit)? */ = ...): MaterialDialog' is deprecated. Use of neutral buttons is discouraged, see https://material.io/design/components/dialogs.html#actions.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/adapters/TextImageAdapter.kt: (138, 38): Unchecked cast: Any! to TextImageAdapter<T>.ViewHolder
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/adapters/TextImageAdapter.kt: (146, 70): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/adapters/TextImageAdapter.kt: (214, 43): Unchecked cast: Any! to ArrayList<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/adapters/TextImageRVAdapter.kt: (120, 39): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/debug/DebugAdapter.kt: (129, 56): Unnecessary non-null assertion (!!) on a non-null receiver of type RowAdapterDebugBinding
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/fragments/DialogInfoFragment.kt: (76, 28): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/fragments/DialogListFragment.kt: (207, 54): Unchecked cast: List<Any> to List<String>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/fragments/DialogListFragment.kt: (217, 91): Name shadowed: item
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/helper/EventQueue.kt: (34, 33): Type mismatch: inferred type is Any? but Any was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/helper/RepeatListener.kt: (22, 27): 'constructor Handler()' is deprecated. Deprecated in Java
+
+> Task :dialogs-ads:generateDebugRFile
+> Task :dialogs-input:compileDebugLibraryResources
+> Task :dialogs-color:parseDebugLocalResources
+> Task :dialogs-input:generateDebugRFile
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :dialogs:mergeDebugJniLibFolders
+> Task :dialogs:bundleLibResDebug
+> Task :dialogs-ads:mergeDebugJniLibFolders
+> Task :dialogs-color:mergeDebugJniLibFolders
+> Task :dialogs-datetime:mergeDebugJniLibFolders
+> Task :dialogs-fastadapter:generateDebugRFile
+> Task :dialogs-fastadapter:mergeDebugJniLibFolders
+> Task :dialogs-color:generateDebugRFile
+> Task :dialogs-frequency:mergeDebugJniLibFolders
+> Task :dialogs:javaPreCompileDebug
+> Task :dialogs:mergeDebugNativeLibs
+> Task :dialogs:compileDebugJavaWithJavac
+> Task :dialogs-ads:mergeDebugNativeLibs
+> Task :dialogs-datetime:generateDebugRFile
+> Task :dialogs-frequency:mergeDebugNativeLibs
+> Task :dialogs:stripDebugDebugSymbols
+> Task :dialogs:copyDebugJniLibsProjectOnly
+> Task :dialogs-ads:stripDebugDebugSymbols
+> Task :dialogs-ads:copyDebugJniLibsProjectOnly
+> Task :dialogs-frequency:stripDebugDebugSymbols
+> Task :dialogs-frequency:copyDebugJniLibsProjectOnly
+> Task :dialogs-input:mergeDebugJniLibFolders
+> Task :dialogs-color:mergeDebugNativeLibs
+> Task :dialogs-color:stripDebugDebugSymbols
+> Task :dialogs-color:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :dialogs:preReleaseBuild UP-TO-DATE
+> Task :dialogs:compileReleaseAidl NO-SOURCE
+> Task :dialogs-ads:preReleaseBuild UP-TO-DATE
+> Task :dialogs-ads:compileReleaseAidl NO-SOURCE
+> Task :dialogs-color:preReleaseBuild UP-TO-DATE
+> Task :dialogs-color:compileReleaseAidl NO-SOURCE
+> Task :dialogs-datetime:preReleaseBuild UP-TO-DATE
+> Task :dialogs-datetime:compileReleaseAidl NO-SOURCE
+> Task :dialogs-fastadapter:preReleaseBuild UP-TO-DATE
+> Task :dialogs-fastadapter:compileReleaseAidl NO-SOURCE
+> Task :dialogs-frequency:preReleaseBuild UP-TO-DATE
+> Task :dialogs-input:preReleaseBuild UP-TO-DATE
+> Task :dialogs-input:compileReleaseAidl NO-SOURCE
+> Task :dialogs-frequency:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :dialogs:packageReleaseRenderscript NO-SOURCE
+> Task :dialogs-ads:packageReleaseRenderscript NO-SOURCE
+> Task :dialogs-color:packageReleaseRenderscript NO-SOURCE
+> Task :dialogs-datetime:packageReleaseRenderscript NO-SOURCE
+> Task :dialogs-fastadapter:packageReleaseRenderscript NO-SOURCE
+> Task :dialogs-frequency:packageReleaseRenderscript NO-SOURCE
+> Task :dialogs-input:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :dialogs-input:mergeDebugNativeLibs
+> Task :dialogs:bundleLibRuntimeDebug
+> Task :dialogs-input:stripDebugDebugSymbols
+> Task :dialogs-input:copyDebugJniLibsProjectOnly
+> Task :dialogs-datetime:mergeDebugNativeLibs
+> Task :dialogs-datetime:stripDebugDebugSymbols
+> Task :dialogs-datetime:copyDebugJniLibsProjectOnly
+> Task :dialogs:dataBindingMergeGenClassesRelease
+> Task :dialogs:compileReleaseRenderscript NO-SOURCE
+> Task :dialogs:generateReleaseResValues
+> Task :dialogs:generateReleaseResources
+> Task :dialogs:packageReleaseResources
+> Task :dialogs-frequency:generateDebugRFile
+> Task :app:processDebugResources
+> Task :dialogs-ads:compileReleaseRenderscript NO-SOURCE
+> Task :dialogs-ads:generateReleaseResValues
+> Task :dialogs:dataBindingMergeDependencyArtifactsRelease
+> Task :dialogs:dataBindingGenBaseClassesRelease
+> Task :dialogs-ads:dataBindingMergeDependencyArtifactsRelease
+> Task :dialogs-ads:generateReleaseResources
+> Task :dialogs-ads:packageReleaseResources
+> Task :dialogs-color:compileReleaseRenderscript NO-SOURCE
+> Task :dialogs-color:generateReleaseResValues
+> Task :dialogs-color:generateReleaseResources
+> Task :dialogs-color:packageReleaseResources
+> Task :dialogs-color:dataBindingMergeGenClassesRelease
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :dialogs-datetime:compileReleaseRenderscript NO-SOURCE
+> Task :dialogs-datetime:generateReleaseResValues
+> Task :dialogs-datetime:generateReleaseResources
+> Task :dialogs-datetime:packageReleaseResources
+> Task :dialogs-ads:dataBindingMergeGenClassesRelease
+> Task :dialogs-ads:dataBindingGenBaseClassesRelease
+> Task :dialogs-datetime:dataBindingMergeDependencyArtifactsRelease
+> Task :dialogs-fastadapter:compileReleaseRenderscript NO-SOURCE
+> Task :dialogs-fastadapter:generateReleaseResValues
+> Task :dialogs-color:dataBindingMergeDependencyArtifactsRelease
+> Task :dialogs-color:dataBindingGenBaseClassesRelease
+> Task :dialogs-fastadapter:generateReleaseResources
+> Task :dialogs-fastadapter:packageReleaseResources
+> Task :dialogs-datetime:dataBindingMergeGenClassesRelease
+> Task :dialogs-datetime:dataBindingGenBaseClassesRelease
+> Task :dialogs-fastadapter:dataBindingMergeDependencyArtifactsRelease
+> Task :dialogs-input:compileReleaseRenderscript NO-SOURCE
+> Task :dialogs-input:generateReleaseResValues
+> Task :dialogs-input:generateReleaseResources
+> Task :dialogs-input:packageReleaseResources
+> Task :dialogs-input:dataBindingMergeDependencyArtifactsRelease
+> Task :dialogs-frequency:compileReleaseRenderscript NO-SOURCE
+> Task :dialogs-frequency:generateReleaseResValues
+> Task :dialogs-frequency:generateReleaseResources
+> Task :dialogs-frequency:packageReleaseResources
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :dialogs-fastadapter:mergeDebugNativeLibs
+> Task :dialogs-fastadapter:stripDebugDebugSymbols
+> Task :dialogs-fastadapter:copyDebugJniLibsProjectOnly
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :dialogs:bundleLibCompileDebug
+> Task :dialogs-ads:kaptGenerateStubsDebugKotlin
+> Task :dialogs-ads:kaptDebugKotlin
+
+> Task :dialogs-ads:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (16, 42): 'RewardItem' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (17, 42): 'RewardedVideoAd' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (18, 42): 'RewardedVideoAdListener' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (47, 34): 'RewardedVideoAd' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (57, 19): 'initialize(Context!, String!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (97, 64): Unnecessary non-null assertion (!!) on a non-null receiver of type DialogAdsBinding
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (152, 49): 'getRewardedVideoAdInstance(Context!): RewardedVideoAd!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (167, 31): 'addTestDevice(String!): AdRequest.Builder!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (171, 27): 'addTestDevice(String!): AdRequest.Builder!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (203, 72): 'RewardedVideoAdListener' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (204, 25): 'RewardedVideoAdListener' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (222, 45): 'RewardItem' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (328, 28): 'constructor Handler()' is deprecated. Deprecated in Java
+
+> Task :dialogs-input:dataBindingMergeGenClassesRelease
+> Task :dialogs-color:kaptGenerateStubsDebugKotlin
+> Task :dialogs-color:kaptDebugKotlin
+
+> Task :dialogs-color:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/ColorExtensions.kt: (15, 39): Variable 'drawable' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/adapter/ColorAdapter.kt: (84, 46): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/adapter/MainColorAdapter.kt: (49, 46): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/classes/GroupedColor.kt: (51, 33): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/classes/GroupedColor.kt: (91, 104): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (115, 23): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (215, 226): Parameter 'adapter' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (215, 235): Parameter 'item' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (227, 119): Parameter 'adapter' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (227, 128): Parameter 'item' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (256, 54): Parameter 'slider' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/utils/ColorUtil.kt: (20, 13): Variable 'firstUnderlineIndex' is never used
+
+> Task :dialogs-datetime:compileDebugKotlin
+> Task :dialogs-frequency:dataBindingMergeDependencyArtifactsRelease
+
+> Task :dialogs-fastadapter:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-fastadapter/src/main/java/com/michaelflisar/dialogs/fragments/DialogFastAdapterFragment.kt: (218, 29): Parameter 'item' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-fastadapter/src/main/java/com/michaelflisar/dialogs/fragments/DialogFastAdapterFragment.kt: (218, 41): Parameter 'pos' is never used
+
+> Task :dialogs-fastadapter:dataBindingMergeGenClassesRelease
+> Task :dialogs-input:compileDebugKotlin
+> Task :dialogs-color:javaPreCompileDebug
+> Task :dialogs-color:compileDebugJavaWithJavac
+> Task :dialogs-input:javaPreCompileDebug
+> Task :dialogs-input:compileDebugJavaWithJavac
+> Task :dialogs-ads:javaPreCompileDebug
+> Task :dialogs-ads:compileDebugJavaWithJavac
+> Task :dialogs-datetime:javaPreCompileDebug
+> Task :dialogs-datetime:compileDebugJavaWithJavac
+> Task :app:mergeReleaseResources
+> Task :dialogs-datetime:bundleLibCompileDebug
+> Task :dialogs-ads:bundleLibResDebug
+> Task :dialogs-color:bundleLibResDebug
+> Task :dialogs-fastadapter:javaPreCompileDebug
+> Task :dialogs-input:bundleLibResDebug
+> Task :dialogs-fastadapter:compileDebugJavaWithJavac
+> Task :dialogs-ads:bundleLibCompileDebug
+> Task :dialogs-datetime:bundleLibResDebug
+> Task :dialogs-input:bundleLibCompileDebug
+> Task :dialogs-frequency:kaptGenerateStubsDebugKotlin
+> Task :dialogs-frequency:kaptDebugKotlin
+
+> Task :dialogs-frequency:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-frequency/src/main/java/com/michaelflisar/dialogs/classes/Frequency.kt: (149, 54): Name shadowed: minDate
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-frequency/src/main/java/com/michaelflisar/dialogs/classes/Frequency.kt: (331, 54): Name shadowed: minDate
+
+> Task :dialogs-color:bundleLibRuntimeDebug
+> Task :dialogs-color:bundleLibCompileDebug
+> Task :dialogs-frequency:javaPreCompileDebug
+> Task :dialogs-frequency:compileDebugJavaWithJavac
+> Task :dialogs-datetime:bundleLibRuntimeDebug
+> Task :dialogs-fastadapter:bundleLibCompileDebug
+> Task :dialogs-fastadapter:bundleLibResDebug
+> Task :dialogs-input:bundleLibRuntimeDebug
+> Task :dialogs-frequency:bundleLibResDebug
+> Task :dialogs-frequency:bundleLibRuntimeDebug
+> Task :dialogs-frequency:bundleLibCompileDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/src/main/java/com/michaelflisar/dialogs/MainActivity.kt: (99, 101): Unchecked cast: DialogFastAdapterEvent.Data<*>? to DialogFastAdapterEvent.Data<SimpleAppItem>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/src/main/java/com/michaelflisar/dialogs/MainActivity.kt: (99, 206): Unchecked cast: DialogFastAdapterEvent.Data<*>? to DialogFastAdapterEvent.Data<SimpleAppItem>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/src/main/java/com/michaelflisar/dialogs/MainActivity.kt: (377, 35): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/src/main/java/com/michaelflisar/dialogs/fastAdapter/AllAppsFastAdapterHelper.kt: (20, 22): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+
+> Task :app:mergeDebugNativeLibs
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:stripDebugDebugSymbols
+> Task :dialogs-fastadapter:dataBindingGenBaseClassesRelease
+> Task :dialogs-input:dataBindingGenBaseClassesRelease
+> Task :app:extractDeepLinksRelease
+> Task :dialogs:extractDeepLinksRelease
+> Task :dialogs-ads:bundleLibRuntimeDebug
+> Task :dialogs-frequency:dataBindingMergeGenClassesRelease
+> Task :dialogs-frequency:dataBindingGenBaseClassesRelease
+> Task :dialogs:processReleaseManifest
+> Task :dialogs-ads:extractDeepLinksRelease
+> Task :dialogs-fastadapter:bundleLibRuntimeDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
+> Task :dialogs-color:extractDeepLinksRelease
+> Task :dialogs-datetime:extractDeepLinksRelease
+> Task :dialogs-ads:processReleaseManifest
+> Task :dialogs-fastadapter:extractDeepLinksRelease
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :dialogs-frequency:extractDeepLinksRelease
+> Task :dialogs-input:extractDeepLinksRelease
+> Task :dialogs-frequency:processReleaseManifest
+> Task :dialogs-color:processReleaseManifest
+> Task :dialogs-datetime:processReleaseManifest
+> Task :dialogs-fastadapter:processReleaseManifest
+> Task :dialogs-ads:parseReleaseLocalResources
+> Task :dialogs-input:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :dialogs-ads:compileReleaseLibraryResources
+> Task :dialogs-color:parseReleaseLocalResources
+> Task :dialogs:compileReleaseLibraryResources
+> Task :dialogs-fastadapter:compileReleaseLibraryResources
+> Task :dialogs-frequency:compileReleaseLibraryResources
+> Task :dialogs-color:compileReleaseLibraryResources
+> Task :dialogs-datetime:compileReleaseLibraryResources
+> Task :dialogs:generateReleaseBuildConfig
+> Task :dialogs-ads:generateReleaseBuildConfig
+> Task :dialogs-color:generateReleaseBuildConfig
+> Task :dialogs-datetime:generateReleaseBuildConfig
+> Task :dialogs-fastadapter:generateReleaseBuildConfig
+> Task :dialogs-frequency:generateReleaseBuildConfig
+> Task :dialogs-input:generateReleaseBuildConfig
+> Task :app:prepareLintJar
+> Task :dialogs-frequency:parseReleaseLocalResources
+> Task :dialogs-fastadapter:parseReleaseLocalResources
+> Task :dialogs-ads:prepareLintJarForPublish
+> Task :dialogs:prepareLintJarForPublish
+> Task :dialogs-color:prepareLintJarForPublish
+> Task :dialogs-fastadapter:prepareLintJarForPublish
+> Task :dialogs-frequency:prepareLintJarForPublish
+> Task :dialogs-input:parseReleaseLocalResources
+> Task :dialogs:parseReleaseLocalResources
+> Task :dialogs-input:prepareLintJarForPublish
+> Task :dialogs-input:compileReleaseLibraryResources
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :dialogs:mergeReleaseShaders
+> Task :dialogs:compileReleaseShaders
+> Task :dialogs:generateReleaseAssets
+> Task :dialogs:packageReleaseAssets
+> Task :dialogs-ads:mergeReleaseShaders
+> Task :dialogs-ads:compileReleaseShaders
+> Task :dialogs-ads:generateReleaseAssets
+> Task :dialogs-ads:packageReleaseAssets
+> Task :dialogs-color:mergeReleaseShaders
+> Task :dialogs-color:compileReleaseShaders
+> Task :dialogs-color:generateReleaseAssets
+> Task :dialogs-color:packageReleaseAssets
+> Task :dialogs-datetime:mergeReleaseShaders
+> Task :dialogs-datetime:compileReleaseShaders
+> Task :dialogs-datetime:generateReleaseAssets
+> Task :dialogs-datetime:packageReleaseAssets
+> Task :dialogs-fastadapter:mergeReleaseShaders
+> Task :dialogs-fastadapter:compileReleaseShaders
+> Task :dialogs-fastadapter:generateReleaseAssets
+> Task :dialogs-fastadapter:packageReleaseAssets
+> Task :dialogs-frequency:mergeReleaseShaders
+> Task :dialogs-frequency:compileReleaseShaders
+> Task :dialogs-frequency:generateReleaseAssets
+> Task :dialogs-frequency:packageReleaseAssets
+> Task :dialogs-input:mergeReleaseShaders
+> Task :dialogs-input:compileReleaseShaders
+> Task :dialogs-input:generateReleaseAssets
+> Task :dialogs-input:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :dialogs:processReleaseJavaRes NO-SOURCE
+> Task :dialogs-ads:processReleaseJavaRes NO-SOURCE
+> Task :dialogs-color:processReleaseJavaRes NO-SOURCE
+> Task :dialogs-datetime:processReleaseJavaRes NO-SOURCE
+> Task :dialogs-fastadapter:processReleaseJavaRes NO-SOURCE
+> Task :dialogs-frequency:processReleaseJavaRes NO-SOURCE
+> Task :dialogs-input:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeReleaseJniLibFolders
+> Task :dialogs:mergeReleaseJniLibFolders
+> Task :dialogs-ads:mergeReleaseJniLibFolders
+> Task :dialogs:generateReleaseRFile
+> Task :dialogs-ads:mergeReleaseNativeLibs
+> Task :dialogs:mergeReleaseNativeLibs
+> Task :dialogs-datetime:prepareLintJarForPublish
+> Task :dialogs-datetime:parseReleaseLocalResources
+
+> Task :dialogs:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/Extensions.kt: (59, 27): 'neutralButton(Int? = ..., CharSequence? = ..., DialogCallback? /* = ((MaterialDialog) -> Unit)? */ = ...): MaterialDialog' is deprecated. Use of neutral buttons is discouraged, see https://material.io/design/components/dialogs.html#actions.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/Extensions.kt: (60, 29): 'neutralButton(Int? = ..., CharSequence? = ..., DialogCallback? /* = ((MaterialDialog) -> Unit)? */ = ...): MaterialDialog' is deprecated. Use of neutral buttons is discouraged, see https://material.io/design/components/dialogs.html#actions.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/adapters/TextImageAdapter.kt: (138, 38): Unchecked cast: Any! to TextImageAdapter<T>.ViewHolder
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/adapters/TextImageAdapter.kt: (146, 70): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/adapters/TextImageAdapter.kt: (214, 43): Unchecked cast: Any! to ArrayList<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/adapters/TextImageRVAdapter.kt: (120, 39): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/debug/DebugAdapter.kt: (129, 56): Unnecessary non-null assertion (!!) on a non-null receiver of type RowAdapterDebugBinding
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/fragments/DialogInfoFragment.kt: (76, 28): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/fragments/DialogListFragment.kt: (207, 54): Unchecked cast: List<Any> to List<String>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/fragments/DialogListFragment.kt: (217, 91): Name shadowed: item
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/helper/EventQueue.kt: (34, 33): Type mismatch: inferred type is Any? but Any was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs/src/main/java/com/michaelflisar/dialogs/helper/RepeatListener.kt: (22, 27): 'constructor Handler()' is deprecated. Deprecated in Java
+
+> Task :app:multiDexListDebug
+> Task :dialogs-ads:generateReleaseRFile
+> Task :dialogs-color:generateReleaseRFile
+> Task :dialogs-fastadapter:generateReleaseRFile
+> Task :dialogs-input:generateReleaseRFile
+> Task :dialogs-datetime:generateReleaseRFile
+> Task :dialogs:javaPreCompileRelease
+> Task :dialogs:compileReleaseJavaWithJavac
+> Task :dialogs:stripReleaseDebugSymbols
+> Task :dialogs:copyReleaseJniLibsProjectOnly
+> Task :dialogs-ads:stripReleaseDebugSymbols
+> Task :dialogs-ads:copyReleaseJniLibsProjectOnly
+> Task :dialogs-color:mergeReleaseJniLibFolders
+> Task :dialogs:bundleLibCompileRelease
+> Task :dialogs-color:kaptGenerateStubsReleaseKotlin
+> Task :dialogs-color:kaptReleaseKotlin
+> Task :app:mergeDexDebug
+
+> Task :dialogs-color:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/ColorExtensions.kt: (15, 39): Variable 'drawable' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/adapter/ColorAdapter.kt: (84, 46): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/adapter/MainColorAdapter.kt: (49, 46): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/classes/GroupedColor.kt: (51, 33): Parameter 'context' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/classes/GroupedColor.kt: (91, 104): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (115, 23): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (215, 226): Parameter 'adapter' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (215, 235): Parameter 'item' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (227, 119): Parameter 'adapter' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (227, 128): Parameter 'item' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/fragments/DialogColorFragment.kt: (256, 54): Parameter 'slider' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-color/src/main/java/com/michaelflisar/dialogs/utils/ColorUtil.kt: (20, 13): Variable 'firstUnderlineIndex' is never used
+
+> Task :app:packageDebug
+> Task :app:assembleDebug
+
+> Task :dialogs-fastadapter:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-fastadapter/src/main/java/com/michaelflisar/dialogs/fragments/DialogFastAdapterFragment.kt: (218, 29): Parameter 'item' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-fastadapter/src/main/java/com/michaelflisar/dialogs/fragments/DialogFastAdapterFragment.kt: (218, 41): Parameter 'pos' is never used
+
+> Task :dialogs-color:javaPreCompileRelease
+> Task :dialogs-color:compileReleaseJavaWithJavac
+> Task :dialogs:bundleLibRuntimeRelease
+> Task :dialogs-color:bundleLibCompileRelease
+> Task :dialogs-ads:kaptGenerateStubsReleaseKotlin
+> Task :dialogs-ads:kaptReleaseKotlin
+
+> Task :dialogs-ads:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (16, 42): 'RewardItem' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (17, 42): 'RewardedVideoAd' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (18, 42): 'RewardedVideoAdListener' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (47, 34): 'RewardedVideoAd' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (57, 19): 'initialize(Context!, String!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (97, 64): Unnecessary non-null assertion (!!) on a non-null receiver of type DialogAdsBinding
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (152, 49): 'getRewardedVideoAdInstance(Context!): RewardedVideoAd!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (167, 31): 'addTestDevice(String!): AdRequest.Builder!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (171, 27): 'addTestDevice(String!): AdRequest.Builder!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (203, 72): 'RewardedVideoAdListener' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (204, 25): 'RewardedVideoAdListener' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (222, 45): 'RewardItem' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-ads/src/main/java/com/michaelflisar/dialogs/fragments/DialogAdsFragment.kt: (328, 28): 'constructor Handler()' is deprecated. Deprecated in Java
+
+> Task :dialogs-color:bundleLibRuntimeRelease
+> Task :dialogs-input:compileReleaseKotlin
+> Task :dialogs-color:mergeReleaseNativeLibs
+> Task :dialogs-fastadapter:bundleLibResRelease
+> Task :dialogs-datetime:compileReleaseKotlin
+> Task :dialogs:bundleLibResRelease
+> Task :dialogs-frequency:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :dialogs-color:bundleLibResRelease
+> Task :dialogs-color:stripReleaseDebugSymbols
+> Task :dialogs-color:copyReleaseJniLibsProjectOnly
+> Task :dialogs-datetime:mergeReleaseJniLibFolders
+> Task :dialogs-input:bundleLibResRelease
+> Task :dialogs-fastadapter:mergeReleaseJniLibFolders
+> Task :dialogs-datetime:mergeReleaseNativeLibs
+> Task :dialogs-datetime:stripReleaseDebugSymbols
+> Task :dialogs-datetime:copyReleaseJniLibsProjectOnly
+> Task :dialogs-frequency:mergeReleaseJniLibFolders
+> Task :dialogs-fastadapter:mergeReleaseNativeLibs
+> Task :dialogs-fastadapter:stripReleaseDebugSymbols
+> Task :dialogs-fastadapter:copyReleaseJniLibsProjectOnly
+> Task :dialogs-input:mergeReleaseJniLibFolders
+> Task :dialogs-frequency:mergeReleaseNativeLibs
+> Task :dialogs-frequency:stripReleaseDebugSymbols
+> Task :dialogs-frequency:copyReleaseJniLibsProjectOnly
+> Task :dialogs-input:mergeReleaseNativeLibs
+> Task :dialogs-input:stripReleaseDebugSymbols
+> Task :dialogs-input:copyReleaseJniLibsProjectOnly
+> Task :dialogs-ads:bundleLibResRelease
+> Task :dialogs-datetime:bundleLibResRelease
+> Task :dialogs-ads:javaPreCompileRelease
+> Task :dialogs-ads:compileReleaseJavaWithJavac
+> Task :dialogs-fastadapter:javaPreCompileRelease
+> Task :dialogs-fastadapter:compileReleaseJavaWithJavac
+> Task :dialogs-datetime:javaPreCompileRelease
+> Task :dialogs-datetime:compileReleaseJavaWithJavac
+> Task :dialogs-input:javaPreCompileRelease
+> Task :dialogs-input:compileReleaseJavaWithJavac
+> Task :dialogs-ads:bundleLibCompileRelease
+> Task :dialogs-datetime:bundleLibCompileRelease
+> Task :dialogs-input:bundleLibCompileRelease
+> Task :dialogs-frequency:kaptGenerateStubsReleaseKotlin
+> Task :dialogs-frequency:kaptReleaseKotlin
+
+> Task :dialogs-frequency:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-frequency/src/main/java/com/michaelflisar/dialogs/classes/Frequency.kt: (149, 54): Name shadowed: minDate
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/dialogs-frequency/src/main/java/com/michaelflisar/dialogs/classes/Frequency.kt: (331, 54): Name shadowed: minDate
+
+> Task :dialogs-fastadapter:bundleLibRuntimeRelease
+> Task :dialogs-ads:bundleLibRuntimeRelease
+> Task :dialogs-datetime:bundleLibRuntimeRelease
+> Task :dialogs-fastadapter:bundleLibCompileRelease
+> Task :dialogs-input:bundleLibRuntimeRelease
+> Task :dialogs-frequency:javaPreCompileRelease
+> Task :dialogs-frequency:compileReleaseJavaWithJavac
+> Task :dialogs-frequency:bundleLibResRelease
+> Task :dialogs-frequency:bundleLibCompileRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptReleaseKotlin
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/src/main/java/com/michaelflisar/dialogs/MainActivity.kt: (99, 101): Unchecked cast: DialogFastAdapterEvent.Data<*>? to DialogFastAdapterEvent.Data<SimpleAppItem>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/src/main/java/com/michaelflisar/dialogs/MainActivity.kt: (99, 206): Unchecked cast: DialogFastAdapterEvent.Data<*>? to DialogFastAdapterEvent.Data<SimpleAppItem>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/src/main/java/com/michaelflisar/dialogs/MainActivity.kt: (377, 35): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/src/main/java/com/michaelflisar/dialogs/fastAdapter/AllAppsFastAdapterHelper.kt: (20, 22): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+
+> Task :app:mergeReleaseNativeLibs
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :dialogs-frequency:bundleLibRuntimeRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:lintVitalRelease
+> Task :app:stripReleaseDebugSymbols
+> Task :app:dexBuilderRelease
+> Task :app:multiDexListRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.7.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 4m 43s
+416 actionable tasks: 416 executed
+
+2021-03-21 01:21:54,323 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264156025-0/src/MaterialDialogFragments-master/app/build/outputs/apk/debug/app-debug.apk

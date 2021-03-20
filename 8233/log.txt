@@ -1,0 +1,210 @@
+2021-03-21 01:21:56,147 INFO  DownloadService - Downloading "https://github.com/CRED-CLUB/synth-android/archive/master.zip", attempt 3
+2021-03-21 01:22:04,924 INFO  DownloadService - Downloaded https://github.com/CRED-CLUB/synth-android/archive/master.zip, attempt 3
+2021-03-21 01:22:04,925 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/master.zip": 324 KB
+2021-03-21 01:22:04,925 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-03-21 01:22:04,930 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/master.zip: true
+2021-03-21 01:22:04,931 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src'.
+2021-03-21 01:22:04,974 INFO  FullProcessService - Size of directory with sources: 418 KB
+2021-03-21 01:22:04,974 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src]
+2021-03-21 01:22:05,031 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/.git/
+
+2021-03-21 01:22:05,035 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/gradlew
+2021-03-21 01:22:05,043 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/build.gradle
+2021-03-21 01:22:05,047 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/settings.gradle
+2021-03-21 01:22:05,047 INFO  ProjectBuildService - Remote scripts: none
+2021-03-21 01:22:05,047 INFO  ProjectFixService - Fixing project...
+2021-03-21 01:22:05,059 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/sample/local.properties
+2021-03-21 01:22:05,060 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/sample/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-21 01:22:05,063 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/local.properties
+2021-03-21 01:22:05,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-21 01:22:05,065 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/local.properties
+2021-03-21 01:22:05,067 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-all.zip
+2021-03-21 01:22:05,069 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.5-bin.zip)
+2021-03-21 01:22:05,071 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/build.gradle": [buildToolsVersion=30.0.2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-21 01:22:05,072 INFO  ProjectFixService - Project was maybe fixed
+2021-03-21 01:22:05,072 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-21 01:22:05,072 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-21 01:22:15,202 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-21 01:22:15,202 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-21 01:22:15,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-21 01:22:27,300 INFO  VirusProcessorServiceImpl - Queued project 8236 to scan viruses
+2021-03-21 01:24:03,128 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :synth:preBuild UP-TO-DATE
+> Task :synth:preDebugBuild UP-TO-DATE
+> Task :synth:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :synth:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:dataBindingMergeDependencyArtifactsDebug
+> Task :sample:dataBindingMergeGenClassesDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :synth:compileDebugRenderscript NO-SOURCE
+> Task :synth:generateDebugResValues
+> Task :synth:generateDebugResources
+> Task :synth:packageDebugResources
+> Task :sample:generateDebugBuildConfig
+> Task :synth:writeDebugAarMetadata
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:checkDebugAarMetadata
+> Task :sample:extractDeepLinksDebug
+> Task :synth:extractDeepLinksDebug
+> Task :synth:compileDebugLibraryResources
+> Task :sample:mergeDebugResources
+> Task :synth:processDebugManifest
+> Task :synth:parseDebugLocalResources
+> Task :sample:dataBindingGenBaseClassesDebug
+> Task :sample:processDebugMainManifest
+> Task :sample:processDebugManifest
+> Task :synth:generateDebugBuildConfig
+> Task :synth:javaPreCompileDebug
+> Task :sample:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :sample:javaPreCompileDebug
+> Task :sample:processDebugManifestForPackage
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :synth:mergeDebugShaders
+> Task :synth:compileDebugShaders NO-SOURCE
+> Task :synth:generateDebugAssets UP-TO-DATE
+> Task :synth:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:compressDebugAssets
+> Task :synth:generateDebugRFile
+> Task :sample:processDebugResources
+
+> Task :synth:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (67, 20): 'quickReject(Float, Float, Float, Float, Canvas.EdgeType): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (67, 82): 'EdgeType' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (67, 91): 'AA' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (69, 20): 'quickReject(Float, Float, Float, Float, Canvas.EdgeType): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (69, 82): 'EdgeType' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (69, 91): 'AA' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuFlatButtonHelper.kt: (98, 34): 'quickReject(Float, Float, Float, Float, Canvas.EdgeType): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuFlatButtonHelper.kt: (98, 88): 'EdgeType' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuFlatButtonHelper.kt: (98, 97): 'AA' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuPlatformHelper.kt: (117, 34): 'quickReject(Float, Float, Float, Float, Canvas.EdgeType): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuPlatformHelper.kt: (117, 106): 'EdgeType' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuPlatformHelper.kt: (117, 115): 'AA' is deprecated. Deprecated in Java
+
+> Task :synth:compileDebugJavaWithJavac
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :synth:processDebugJavaRes NO-SOURCE
+> Task :synth:bundleLibResDebug
+> Task :synth:bundleLibCompileToJarDebug
+> Task :sample:compileDebugKotlin
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugJavaResource
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:desugarDebugFileDependencies
+> Task :synth:bundleLibRuntimeToJarDebug
+> Task :sample:dexBuilderDebug
+> Task :sample:mergeLibDexDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :synth:mergeDebugJniLibFolders
+> Task :synth:mergeDebugNativeLibs NO-SOURCE
+> Task :synth:stripDebugDebugSymbols NO-SOURCE
+> Task :synth:copyDebugJniLibsProjectOnly
+> Task :sample:mergeProjectDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:preReleaseBuild UP-TO-DATE
+> Task :synth:preReleaseBuild UP-TO-DATE
+> Task :synth:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :synth:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:dataBindingMergeDependencyArtifactsRelease
+> Task :sample:dataBindingMergeGenClassesRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :synth:compileReleaseRenderscript NO-SOURCE
+> Task :synth:generateReleaseResValues
+> Task :synth:generateReleaseResources
+> Task :synth:packageReleaseResources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
+> Task :sample:generateReleaseBuildConfig
+> Task :synth:writeReleaseAarMetadata
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
+> Task :synth:extractDeepLinksRelease
+> Task :synth:compileReleaseLibraryResources
+> Task :sample:checkReleaseAarMetadata
+> Task :synth:processReleaseManifest
+> Task :synth:generateReleaseBuildConfig
+> Task :synth:parseReleaseLocalResources
+> Task :sample:processReleaseMainManifest
+> Task :sample:processReleaseManifest
+> Task :synth:javaPreCompileRelease
+> Task :sample:javaPreCompileRelease
+> Task :sample:processReleaseManifestForPackage
+> Task :sample:mergeReleaseResources
+> Task :synth:prepareLintJarForPublish
+> Task :synth:generateReleaseRFile
+> Task :sample:dataBindingGenBaseClassesRelease
+> Task :sample:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
+> Task :synth:mergeReleaseShaders
+> Task :synth:compileReleaseShaders NO-SOURCE
+> Task :synth:generateReleaseAssets UP-TO-DATE
+> Task :synth:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:compressReleaseAssets
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:processReleaseResources
+
+> Task :synth:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (67, 20): 'quickReject(Float, Float, Float, Float, Canvas.EdgeType): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (67, 82): 'EdgeType' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (67, 91): 'AA' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (69, 20): 'quickReject(Float, Float, Float, Float, Canvas.EdgeType): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (69, 82): 'EdgeType' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/BlurHelper.kt: (69, 91): 'AA' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuFlatButtonHelper.kt: (98, 34): 'quickReject(Float, Float, Float, Float, Canvas.EdgeType): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuFlatButtonHelper.kt: (98, 88): 'EdgeType' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuFlatButtonHelper.kt: (98, 97): 'AA' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuPlatformHelper.kt: (117, 34): 'quickReject(Float, Float, Float, Float, Canvas.EdgeType): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuPlatformHelper.kt: (117, 106): 'EdgeType' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/synth/src/main/java/club/cred/synth/internals/NeuPlatformHelper.kt: (117, 115): 'AA' is deprecated. Deprecated in Java
+
+> Task :synth:compileReleaseJavaWithJavac
+> Task :synth:bundleLibCompileToJarRelease
+> Task :synth:bundleLibRuntimeToJarRelease
+> Task :sample:compileReleaseKotlin
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :sample:mergeExtDexDebug
+> Task :sample:lintVitalRelease
+> Task :sample:dexBuilderRelease
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:desugarReleaseFileDependencies
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :synth:processReleaseJavaRes NO-SOURCE
+> Task :synth:bundleLibResRelease
+> Task :sample:collectReleaseDependencies
+> Task :sample:sdkReleaseDependencyData
+> Task :sample:mergeReleaseJniLibFolders
+> Task :synth:mergeReleaseJniLibFolders
+> Task :synth:mergeReleaseNativeLibs NO-SOURCE
+> Task :synth:stripReleaseDebugSymbols NO-SOURCE
+> Task :synth:copyReleaseJniLibsProjectOnly
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 1m 47s
+100 actionable tasks: 100 executed
+
+2021-03-21 01:24:03,206 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616264516142-0/src/synth-android-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
