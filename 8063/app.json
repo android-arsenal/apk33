@@ -38,11 +38,11 @@
     "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACiUlEQVR42u1aS0wTURTFGFcu2LvTbk0XfARaBFrLV8AiiXFnwoolO7ZGNm03ClECUisQQvhVScGJAgMBQnTrZwcLP4SdsavGpEmvc4aMtKbzWt5k5s3Eec1JJvPum3tOc+57d9JWVLjDHaaPCwNDcuf9wc2H9wa3HlkB5EJO5DZM/u6DdyOBfoma+95YCuREbkMiqkPDlcF+6bfV5DUgNzhwC6gNPb4mirwGcOAWcN0X8/Akvdn7mnxd81TfMasC17jH8yxwsEyA//YC1dwap6qWJ0WBOcTYTkBTeI1utE7pEv8XiMUaWwgAkdrQRNnkNWBNOSJMF1DXljg3eQ1YK1RAY8+KLjkUL/wO4FovDs8QJoDl+8ae5Tyhy8x6ECIA/q1qGTUsAM9g1YJpAvTsUxN8quCZMp/Mi02q9zB3XhuZJgDeLu79GV0ymCu2hnU2mChgkVHAM2WTPxWwaB8L5e9CZ+RnmbFCLFSqiDURpcgLK+LTbTTOfYidbaNxkQdZsoBMdWBM6TpfMYGYQvskBbcS7S8L7FDX9oKJfNthrfhuNLyuNGaTHM3cpLrWPu20+u2W6Xsl1jbtdMHZ0L3EbK0xhxjbvpH9faW8s0o+5XRt6JxTgWvcs/0rpRlwBThcwIgHB41IgAO3gFhswfN2+4hEAhy4Bciy7CHBAxxcAf+9gJzyeX/ywZkCQP75pzjtHe87R8DhryPK5XIq+fjnBO1833WWhfaPD2ji4xQlvkyT/G3bmTWw+2OPNr5uubuQIQGpVOqqaAHgwC3A6/VezmQyJ6LIIzc4GPmZ9aIkSeF0Ov0zm82SlUBO5AYHo78VX/L7/VcikUhTNBoNWAHkQk7kdv9n4A6Txx8pbJe14dURkQAAAABJRU5ErkJggg==",
     "file" : true
   },
-  "dexClasses" : 4103,
+  "dexClasses" : 4274,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"2.0.20\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.github.tutorialsandroid.appxupdater.demo\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"29\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f100008\" android:label=\"AppXUpdater\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f10000a\" android:name=\"com.github.tutorialsandroid.appxupdater.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Settings\" android:name=\"com.github.tutorialsandroid.appxupdater.demo.SettingsActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3193149,
-  "crc32" : 2693127391,
-  "sha256" : "1dedb3c7e60e896395782ea2ce8c07075138786add39def84b9e05871c7a8fcf",
-  "buildTime" : 1600543798000
+  "fileSize" : 3254672,
+  "crc32" : 1274537866,
+  "sha256" : "436d4c9f0f152c22dafc7090baf5b3f2b9efc8bca7f69771e60a33c27f3f178d",
+  "buildTime" : 1616613996000
 }

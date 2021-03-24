@@ -1,35 +1,38 @@
-2021-01-18 02:25:36,224 INFO  DownloadService - Downloading "https://github.com/iamvivekkaushik/OTPTextField/archive/master.zip", attempt 3
-2021-01-18 02:25:38,338 INFO  DownloadService - Downloaded https://github.com/iamvivekkaushik/OTPTextField/archive/master.zip, attempt 3
-2021-01-18 02:25:38,339 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/master.zip": 1 MB
-2021-01-18 02:25:38,339 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2021-01-18 02:25:38,339 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/master.zip: true
-2021-01-18 02:25:38,339 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src'.
-2021-01-18 02:25:38,376 INFO  FullProcessService - Size of directory with sources: 1 MB
-2021-01-18 02:25:38,376 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src]
-2021-01-18 02:25:38,420 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/.git/
+2021-03-25 02:20:00,621 INFO  DownloadService - Downloading "https://github.com/iamvivekkaushik/OTPTextField/archive/master.zip", attempt 3
+2021-03-25 02:21:00,891 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-25 02:21:01,755 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-25 02:21:01,756 INFO  DownloadService - Downloading "https://github.com/iamvivekkaushik/OTPTextField/archive/master.zip", attempt 3
+2021-03-25 02:22:02,816 DEBUG FullProcessService - Repository https://github.com/iamvivekkaushik/OTPTextField available: true
+2021-03-25 02:22:02,816 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-25 02:22:02,816 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/iamvivekkaushik/OTPTextField, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src]
+2021-03-25 02:22:04,916 INFO  SysUtils - 
+2021-03-25 02:22:04,923 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/.git": true
+2021-03-25 02:22:04,927 INFO  FullProcessService - Size of directory with sources: 1 MB
+2021-03-25 02:22:04,927 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src]
+2021-03-25 02:22:04,948 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/.git/
 
-2021-01-18 02:25:38,424 INFO  ProjectBuildService - Gradle wrapper(s): none
-2021-01-18 02:25:38,424 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2021-01-18 02:25:38,428 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/build.gradle
-2021-01-18 02:25:38,432 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/settings.gradle
-2021-01-18 02:25:38,432 INFO  ProjectBuildService - Remote scripts: none
-2021-01-18 02:25:38,432 INFO  ProjectFixService - Fixing project...
-2021-01-18 02:25:38,440 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/local.properties
-2021-01-18 02:25:38,441 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2021-01-18 02:25:38,442 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2021-01-18 02:25:38,443 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/local.properties
-2021-01-18 02:25:38,444 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
-2021-01-18 02:25:38,444 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
-2021-01-18 02:25:38,445 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2021-01-18 02:25:38,446 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2021-01-18 02:25:38,446 INFO  ProjectFixService - Project was maybe fixed
-2021-01-18 02:25:38,446 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-18 02:25:38,446 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-18 02:26:16,671 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2021-01-18 02:26:16,671 INFO  ProjectTaskService - Detected possible tasks: 0
-2021-01-18 02:26:16,671 INFO  ProjectTaskService - Excluded tasks (0): none
-2021-01-18 02:26:16,671 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2021-01-18 02:26:22,827 ERROR SysUtils - Could not process external command
+2021-03-25 02:22:04,952 INFO  ProjectBuildService - Gradle wrapper(s): none
+2021-03-25 02:22:04,952 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2021-03-25 02:22:04,955 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/build.gradle
+2021-03-25 02:22:04,958 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/settings.gradle
+2021-03-25 02:22:04,959 INFO  ProjectBuildService - Remote scripts: none
+2021-03-25 02:22:04,959 INFO  ProjectFixService - Fixing project...
+2021-03-25 02:22:04,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/local.properties
+2021-03-25 02:22:04,968 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2021-03-25 02:22:04,968 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2021-03-25 02:22:04,970 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/local.properties
+2021-03-25 02:22:04,970 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
+2021-03-25 02:22:04,971 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
+2021-03-25 02:22:04,972 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2021-03-25 02:22:04,972 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2021-03-25 02:22:04,972 INFO  ProjectFixService - Project was maybe fixed
+2021-03-25 02:22:04,972 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-25 02:22:04,973 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-25 02:22:46,216 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2021-03-25 02:22:46,267 INFO  ProjectTaskService - Detected possible tasks: 0
+2021-03-25 02:22:46,268 INFO  ProjectTaskService - Excluded tasks (0): none
+2021-03-25 02:22:46,268 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2021-03-25 02:22:51,439 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -57,14 +60,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-18 02:26:22,828 INFO  SysUtils - To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.8/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+2021-03-25 02:22:51,439 INFO  SysUtils - To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.8.3/userguide/gradle_daemon.html#sec:disabling_the_daemon.
 Daemon will be stopped at the end of the build 
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/build.gradle' line: 11
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/build.gradle' line: 11
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -119,7 +122,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:801)
 	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:793)
 	at org.gradle.api.Project$evaluationDependsOn.call(Unknown Source)
-	at build_almdbv4xpghdo1k2rz0hwnr4m$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/build.gradle:26)
+	at build_1rqjzdizd41h2zgohr0abzi1$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/build.gradle:26)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -165,7 +168,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:135)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:84)
-	at build_almdbv4xpghdo1k2rz0hwnr4m.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/build.gradle:25)
+	at build_1rqjzdizd41h2zgohr0abzi1.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/build.gradle:25)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.lambda$apply$0(DefaultScriptPluginFactory.java:133)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -306,22 +309,22 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: org.gradle.api.GradleException: Flutter SDK not found. Define location with flutter.sdk in the local.properties file.
-	at build_d59h28tq6ctn4j4e76ajb8ra7.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/build.gradle:11)
+	at build_dfp8ylsrd6y6u0l3moly452x1.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/build.gradle:11)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 229 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2021-01-18 02:26:22,833 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-18 02:26:22,833 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-18 02:26:33,191 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2021-01-18 02:26:33,192 INFO  ProjectTaskService - Detected possible tasks: 0
-2021-01-18 02:26:33,192 INFO  ProjectTaskService - Excluded tasks (0): none
-2021-01-18 02:26:33,193 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2021-01-18 02:26:41,021 ERROR SysUtils - Could not process external command
+2021-03-25 02:22:51,446 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-25 02:22:51,447 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-25 02:22:56,754 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2021-03-25 02:22:56,755 INFO  ProjectTaskService - Detected possible tasks: 0
+2021-03-25 02:22:56,755 INFO  ProjectTaskService - Excluded tasks (0): none
+2021-03-25 02:22:56,755 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2021-03-25 02:23:01,965 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -349,14 +352,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-01-18 02:26:41,021 INFO  SysUtils - To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.8/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+2021-03-25 02:23:01,965 INFO  SysUtils - To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.8.3/userguide/gradle_daemon.html#sec:disabling_the_daemon.
 Daemon will be stopped at the end of the build 
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/build.gradle' line: 11
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/build.gradle' line: 11
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -411,7 +414,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:801)
 	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:793)
 	at org.gradle.api.Project$evaluationDependsOn.call(Unknown Source)
-	at build_almdbv4xpghdo1k2rz0hwnr4m$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/build.gradle:26)
+	at build_1rqjzdizd41h2zgohr0abzi1$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/build.gradle:26)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -457,7 +460,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:135)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:84)
-	at build_almdbv4xpghdo1k2rz0hwnr4m.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/build.gradle:25)
+	at build_1rqjzdizd41h2zgohr0abzi1.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/build.gradle:25)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.lambda$apply$0(DefaultScriptPluginFactory.java:133)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -598,14 +601,14 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: org.gradle.api.GradleException: Flutter SDK not found. Define location with flutter.sdk in the local.properties file.
-	at build_d59h28tq6ctn4j4e76ajb8ra7.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610911536221-0/src/OTPTextField-master/example/android/app/build.gradle:11)
+	at build_dfp8ylsrd6y6u0l3moly452x1.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613600618-0/src/example/android/app/build.gradle:11)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 229 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 4s
 
-2021-01-18 02:26:41,030 ERROR FullProcessService - Project build has not produced APK file
-2021-01-18 02:26:41,038 ERROR FullProcessService - Could not find generated or existed APK file
+2021-03-25 02:23:01,972 ERROR FullProcessService - Project build has not produced APK file
+2021-03-25 02:23:01,979 ERROR FullProcessService - Could not find generated or existed APK file

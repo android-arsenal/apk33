@@ -1,36 +1,39 @@
-2020-09-20 02:28:25,480 INFO  DownloadService - Downloading "https://github.com/TutorialsAndroid/AppXUpdater/archive/master.zip", attempt 3
-2020-09-20 02:28:27,273 INFO  DownloadService - Downloaded https://github.com/TutorialsAndroid/AppXUpdater/archive/master.zip, attempt 3
-2020-09-20 02:28:27,273 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/master.zip": 725 KB
-2020-09-20 02:28:27,273 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-20 02:28:27,274 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/master.zip: true
-2020-09-20 02:28:27,275 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src'.
-2020-09-20 02:28:27,353 INFO  FullProcessService - Size of directory with sources: 3 MB
-2020-09-20 02:28:27,353 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src]
-2020-09-20 02:28:27,377 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/.git/
+2021-03-25 02:23:02,023 INFO  DownloadService - Downloading "https://github.com/TutorialsAndroid/AppXUpdater/archive/master.zip", attempt 3
+2021-03-25 02:24:02,623 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-25 02:24:03,563 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-25 02:24:03,564 INFO  DownloadService - Downloading "https://github.com/TutorialsAndroid/AppXUpdater/archive/master.zip", attempt 3
+2021-03-25 02:25:04,732 DEBUG FullProcessService - Repository https://github.com/TutorialsAndroid/AppXUpdater available: true
+2021-03-25 02:25:04,732 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-25 02:25:04,732 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/TutorialsAndroid/AppXUpdater, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src]
+2021-03-25 02:25:06,494 INFO  SysUtils - 
+2021-03-25 02:25:06,506 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/.git": true
+2021-03-25 02:25:06,513 INFO  FullProcessService - Size of directory with sources: 3 MB
+2021-03-25 02:25:06,513 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src]
+2021-03-25 02:25:06,536 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/.git/
 
-2020-09-20 02:28:27,385 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/gradlew
-2020-09-20 02:28:27,394 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/build.gradle
-2020-09-20 02:28:27,402 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/settings.gradle
-2020-09-20 02:28:27,402 INFO  ProjectBuildService - Remote scripts: none
-2020-09-20 02:28:27,402 INFO  ProjectFixService - Fixing project...
-2020-09-20 02:28:27,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/library/local.properties
-2020-09-20 02:28:27,420 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-09-20 02:28:27,421 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-09-20 02:28:27,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/sample/local.properties
-2020-09-20 02:28:27,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-09-20 02:28:27,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-09-20 02:28:27,425 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/local.properties
-2020-09-20 02:28:27,426 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-09-20 02:28:27,426 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-09-20 02:28:27,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-09-20 02:28:27,428 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-09-20 02:28:27,428 INFO  ProjectFixService - Project was maybe fixed
-2020-09-20 02:28:27,428 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-20 02:28:27,429 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-20 02:28:35,781 INFO  ProjectTaskService - Detected possible tasks: 64
-2020-09-20 02:28:35,781 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-09-20 02:28:35,782 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-09-20 02:28:53,044 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-25 02:25:06,542 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/gradlew
+2021-03-25 02:25:06,548 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/build.gradle
+2021-03-25 02:25:06,554 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/settings.gradle
+2021-03-25 02:25:06,554 INFO  ProjectBuildService - Remote scripts: none
+2021-03-25 02:25:06,554 INFO  ProjectFixService - Fixing project...
+2021-03-25 02:25:06,568 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/library/local.properties
+2021-03-25 02:25:06,569 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2021-03-25 02:25:06,569 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2021-03-25 02:25:06,570 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/sample/local.properties
+2021-03-25 02:25:06,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2021-03-25 02:25:06,571 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2021-03-25 02:25:06,572 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/local.properties
+2021-03-25 02:25:06,572 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2021-03-25 02:25:06,573 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2021-03-25 02:25:06,574 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2021-03-25 02:25:06,574 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2021-03-25 02:25:06,575 INFO  ProjectFixService - Project was maybe fixed
+2021-03-25 02:25:06,575 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-25 02:25:06,575 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-25 02:25:15,805 INFO  ProjectTaskService - Detected possible tasks: 64
+2021-03-25 02:25:15,805 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2021-03-25 02:25:15,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2021-03-25 02:25:33,287 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:mergeDebugJniLibFolders
@@ -48,8 +51,8 @@
 > Task :library:generateDebugAssets UP-TO-DATE
 > Task :library:packageDebugAssets
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :library:javaPreCompileDebug
 > Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:prepareLintJarForPublish
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders
@@ -59,22 +62,22 @@
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :library:processDebugManifest
-> Task :library:parseReleaseLocalResources
 > Task :library:mergeDebugJavaResource
 > Task :library:mergeReleaseNativeLibs
 > Task :library:stripReleaseDebugSymbols NO-SOURCE
 > Task :library:copyReleaseJniLibsProjectAndLocalJars
+> Task :library:processDebugManifest
 > Task :library:mergeReleaseShaders
 > Task :library:compileReleaseShaders NO-SOURCE
 > Task :library:generateReleaseAssets UP-TO-DATE
 > Task :library:packageReleaseAssets
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:prepareLintJarForPublish
-> Task :library:processReleaseManifest
-> Task :library:mergeReleaseJavaResource
 > Task :library:javaPreCompileRelease
+> Task :library:processReleaseManifest
+> Task :library:javaPreCompileDebug
+> Task :library:parseReleaseLocalResources
+> Task :library:mergeReleaseJavaResource
 > Task :library:generateDebugRFile
 
 > Task :library:compileDebugJavaWithJavac
@@ -109,12 +112,12 @@ Note: Recompile with -Xlint:deprecation for details.
 BUILD SUCCESSFUL in 17s
 41 actionable tasks: 41 executed
 
-2020-09-20 02:28:53,102 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-20 02:28:53,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-20 02:29:00,889 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-09-20 02:29:00,889 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-20 02:29:00,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-20 02:29:58,538 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-25 02:25:33,348 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-25 02:25:33,349 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-25 02:25:40,450 INFO  ProjectTaskService - Detected possible tasks: 69
+2021-03-25 02:25:40,450 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-25 02:25:40,450 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-25 02:26:37,250 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :sample
 WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
@@ -150,17 +153,17 @@ It will be removed in version 5.0 of the Android Gradle plugin.
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
 > Task :sample:javaPreCompileDebug
+> Task :sample:mergeDebugResources
+> Task :sample:dataBindingGenBaseClassesDebug
 > Task :library:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
 > Task :library:compileDebugLibraryResources
-> Task :sample:mergeDebugResources
-> Task :sample:dataBindingGenBaseClassesDebug
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/sample/src/main/java/com/github/tutorialsandroid/appxupdater/demo/SettingsActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/sample/src/main/java/com/github/tutorialsandroid/appxupdater/demo/SettingsActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sample:compileDebugSources
@@ -198,7 +201,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :library:generateReleaseRFile UP-TO-DATE
 > Task :library:javaPreCompileRelease UP-TO-DATE
 > Task :library:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :library:bundleLibCompileToJarRelease
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
@@ -217,23 +219,27 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
-> Task :sample:javaPreCompileRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:dataBindingGenBaseClassesRelease
 > Task :library:compileReleaseLibraryResources
 > Task :sample:processReleaseResources
+> Task :library:bundleLibCompileToJarRelease
+> Task :sample:javaPreCompileRelease
 
 > Task :sample:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/sample/src/main/java/com/github/tutorialsandroid/appxupdater/demo/SettingsActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/sample/src/main/java/com/github/tutorialsandroid/appxupdater/demo/SettingsActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sample:compileReleaseSources
 > Task :library:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:lintVitalRelease
 > Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeExtDexDebug
 > Task :library:bundleLibRuntimeToJarRelease
 > Task :sample:dexBuilderRelease
-> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:desugarReleaseFileDependencies
 > Task :library:mergeReleaseShaders UP-TO-DATE
 > Task :library:compileReleaseShaders NO-SOURCE
@@ -256,9 +262,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols NO-SOURCE
-> Task :sample:mergeDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -266,7 +269,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 57s
+BUILD SUCCESSFUL in 56s
 91 actionable tasks: 66 executed, 25 up-to-date
 
-2020-09-20 02:29:58,643 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543705477-0/src/AppXUpdater-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2021-03-25 02:26:37,355 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613782019-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

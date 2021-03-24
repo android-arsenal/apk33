@@ -1,10 +1,21 @@
-2021-01-14 12:49:46,643 INFO  DownloadService - Downloading "https://github.com/mazenrashed/MoshiKotlinExtensions/archive/master.zip", attempt 3
-2021-01-14 12:49:50,337 INFO  DownloadService - Downloaded https://github.com/mazenrashed/MoshiKotlinExtensions/archive/master.zip, attempt 3
-2021-01-14 12:49:50,338 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603386639-0/master.zip": 97 KB
-2021-01-14 12:49:50,338 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2021-01-14 12:49:50,343 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610603386639-0/master.zip: false
-2021-01-14 12:49:50,343 INFO  FullProcessService - Archive with sources does not contain any build script
-2021-01-14 12:49:50,343 ERROR FullProcessService - Could not find directory with sources
-2021-01-14 12:49:50,343 ERROR FullProcessService - Project will not be processed
-2021-01-14 12:49:50,343 ERROR FullProcessService - Project build has not produced APK file
-2021-01-14 12:49:50,344 ERROR FullProcessService - Could not find generated or existed APK file
+2021-03-25 01:35:39,248 INFO  DownloadService - Downloading "https://github.com/mazenrashed/MoshiKotlinExtensions/archive/master.zip", attempt 3
+2021-03-25 01:36:03,273 INFO  VirusProcessorServiceImpl - Queued project 8237 to scan viruses
+2021-03-25 01:36:40,456 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-25 01:36:41,243 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-25 01:36:41,243 INFO  DownloadService - Downloading "https://github.com/mazenrashed/MoshiKotlinExtensions/archive/master.zip", attempt 3
+2021-03-25 01:37:42,327 DEBUG FullProcessService - Repository https://github.com/mazenrashed/MoshiKotlinExtensions available: true
+2021-03-25 01:37:42,327 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-25 01:37:42,328 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mazenrashed/MoshiKotlinExtensions, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616610939241-0/src]
+2021-03-25 01:37:44,072 INFO  SysUtils - 
+2021-03-25 01:37:44,105 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616610939241-0/src/.git": true
+2021-03-25 01:37:44,108 INFO  FullProcessService - Size of directory with sources: 295 KB
+2021-03-25 01:37:44,108 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616610939241-0/src]
+2021-03-25 01:37:44,139 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616610939241-0/src/.git/
+
+2021-03-25 01:37:44,144 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616610939241-0/src/gradlew
+2021-03-25 01:37:44,146 INFO  ProjectBuildService - Build script(s): none
+2021-03-25 01:37:44,149 INFO  ProjectBuildService - All script(s): none
+2021-03-25 01:37:44,149 INFO  ProjectBuildService - Remote scripts: none
+2021-03-25 01:37:44,149 ERROR FullProcessService - Project is not correct Gradle project
+2021-03-25 01:37:44,149 ERROR FullProcessService - Project build has not produced APK file
+2021-03-25 01:37:44,153 ERROR FullProcessService - Could not find generated or existed APK file

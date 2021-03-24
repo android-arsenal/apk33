@@ -1,11 +1,14 @@
-2020-10-29 23:47:11,417 INFO  DownloadService - Downloading "https://github.com/mayuce/AndroidDocumentScanner/archive/master.zip", attempt 3
-2020-10-29 23:47:30,295 INFO  DownloadService - Downloaded https://github.com/mayuce/AndroidDocumentScanner/archive/master.zip, attempt 3
-2020-10-29 23:47:30,296 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603990031413-0/master.zip": 74 MB
-2020-10-29 23:47:30,296 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-10-29 23:47:30,297 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603990031413-0/master.zip: true
-2020-10-29 23:47:30,297 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603990031413-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603990031413-0/src'.
-2020-10-29 23:47:32,165 INFO  FullProcessService - Size of directory with sources: 177 MB
-2020-10-29 23:47:32,165 ERROR FullProcessService - Source directory should be less than 50 MB
-2020-10-29 23:47:32,165 ERROR FullProcessService - Project will not be processed
-2020-10-29 23:47:32,165 ERROR FullProcessService - Project build has not produced APK file
-2020-10-29 23:47:32,174 ERROR FullProcessService - Could not find generated or existed APK file
+2021-03-25 02:17:20,420 INFO  DownloadService - Downloading "https://github.com/mayuce/AndroidDocumentScanner/archive/master.zip", attempt 3
+2021-03-25 02:18:21,135 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-25 02:18:22,245 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-25 02:18:22,245 INFO  DownloadService - Downloading "https://github.com/mayuce/AndroidDocumentScanner/archive/master.zip", attempt 3
+2021-03-25 02:19:23,158 DEBUG FullProcessService - Repository https://github.com/mayuce/AndroidDocumentScanner available: true
+2021-03-25 02:19:23,158 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-25 02:19:23,158 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mayuce/AndroidDocumentScanner, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613440417-0/src]
+2021-03-25 02:19:59,732 INFO  SysUtils - 
+2021-03-25 02:20:00,030 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616613440417-0/src/.git": true
+2021-03-25 02:20:00,046 INFO  FullProcessService - Size of directory with sources: 177 MB
+2021-03-25 02:20:00,046 ERROR FullProcessService - Source directory should be less than 50 MB
+2021-03-25 02:20:00,046 ERROR FullProcessService - Project will not be processed
+2021-03-25 02:20:00,046 ERROR FullProcessService - Project build has not produced APK file
+2021-03-25 02:20:00,058 ERROR FullProcessService - Could not find generated or existed APK file

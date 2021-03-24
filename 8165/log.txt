@@ -1,181 +1,177 @@
-2021-01-14 13:16:05,775 INFO  DownloadService - Downloading "https://github.com/Gkemon/Android-XML-to-PDF-Generator/archive/master.zip", attempt 3
-2021-01-14 13:16:24,568 INFO  VirusProcessorServiceImpl - Queued project 8187 to scan viruses
-2021-01-14 13:17:06,830 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2021-01-14 13:17:07,703 INFO  GithubDownloadService - Default branch of this repository: master
-2021-01-14 13:17:07,703 INFO  DownloadService - Downloading "https://github.com/Gkemon/Android-XML-to-PDF-Generator/archive/master.zip", attempt 3
-2021-01-14 13:18:09,042 DEBUG FullProcessService - Repository https://github.com/Gkemon/Android-XML-to-PDF-Generator available: true
-2021-01-14 13:18:09,042 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2021-01-14 13:18:09,043 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Gkemon/Android-XML-to-PDF-Generator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src]
-2021-01-14 13:18:11,921 INFO  SysUtils - 
-2021-01-14 13:18:11,931 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/.git": true
-2021-01-14 13:18:11,935 INFO  FullProcessService - Size of directory with sources: 193 KB
-2021-01-14 13:18:11,936 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src]
-2021-01-14 13:18:11,956 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/.git/
+2021-03-25 01:42:42,253 INFO  DownloadService - Downloading "https://github.com/Gkemon/Android-XML-to-PDF-Generator/archive/master.zip", attempt 3
+2021-03-25 01:43:01,876 INFO  VirusProcessorServiceImpl - Queued project 8187 to scan viruses
+2021-03-25 01:43:43,242 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-25 01:43:44,178 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-25 01:43:44,178 INFO  DownloadService - Downloading "https://github.com/Gkemon/Android-XML-to-PDF-Generator/archive/master.zip", attempt 3
+2021-03-25 01:44:45,209 DEBUG FullProcessService - Repository https://github.com/Gkemon/Android-XML-to-PDF-Generator available: true
+2021-03-25 01:44:45,210 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-25 01:44:45,210 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Gkemon/Android-XML-to-PDF-Generator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src]
+2021-03-25 01:44:46,712 INFO  SysUtils - 
+2021-03-25 01:44:46,723 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/.git": true
+2021-03-25 01:44:46,729 INFO  FullProcessService - Size of directory with sources: 285 KB
+2021-03-25 01:44:46,730 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src]
+2021-03-25 01:44:46,759 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/.git/
 
-2021-01-14 13:18:11,960 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/gradlew
-2021-01-14 13:18:11,963 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/build.gradle
-2021-01-14 13:18:11,967 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/settings.gradle
-2021-01-14 13:18:11,967 INFO  ProjectBuildService - Remote scripts: none
-2021-01-14 13:18:11,967 INFO  ProjectFixService - Fixing project...
-2021-01-14 13:18:11,977 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/local.properties
-2021-01-14 13:18:11,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-14 13:18:11,978 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-14 13:18:11,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/local.properties
-2021-01-14 13:18:11,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-14 13:18:11,980 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-14 13:18:11,981 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/local.properties
-2021-01-14 13:18:11,982 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2021-01-14 13:18:11,982 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2021-01-14 13:18:11,983 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-14 13:18:11,983 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=19,targetSdkVersion=30]
-2021-01-14 13:18:11,984 INFO  ProjectFixService - Project was maybe fixed
-2021-01-14 13:18:11,984 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-14 13:18:11,984 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-14 13:18:46,731 INFO  ProjectTaskService - Detected possible tasks: 70
-2021-01-14 13:18:46,732 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-14 13:18:46,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-14 13:19:53,653 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-25 01:44:46,765 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/gradlew
+2021-03-25 01:44:46,771 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/xml-to-pdf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/build.gradle
+2021-03-25 01:44:46,775 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/xml-to-pdf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/settings.gradle
+2021-03-25 01:44:46,776 INFO  ProjectBuildService - Remote scripts: none
+2021-03-25 01:44:46,776 INFO  ProjectFixService - Fixing project...
+2021-03-25 01:44:46,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/sample/local.properties
+2021-03-25 01:44:46,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-25 01:44:46,791 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-25 01:44:46,792 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/xml-to-pdf/local.properties
+2021-03-25 01:44:46,793 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/xml-to-pdf/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2021-03-25 01:44:46,794 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/xml-to-pdf/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2021-03-25 01:44:46,795 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/local.properties
+2021-03-25 01:44:46,796 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-03-25 01:44:46,798 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-25 01:44:46,798 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-03-25 01:44:46,799 INFO  ProjectFixService - Project was maybe fixed
+2021-03-25 01:44:46,799 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-25 01:44:46,799 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-25 01:44:59,040 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-25 01:44:59,041 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-25 01:44:59,041 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-25 01:46:23,186 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :xml-to-pdf:preBuild UP-TO-DATE
 > Task :xml-to-pdf:preDebugBuild UP-TO-DATE
-> Task :xml-to-pdf:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
-> Task :sample:checkDebugManifest
-> Task :sample:generateDebugBuildConfig
-> Task :xml-to-pdf:checkDebugManifest
-> Task :xml-to-pdf:generateDebugBuildConfig
-> Task :xml-to-pdf:generateDebugResValues
-> Task :sample:mainApkListPersistenceDebug
 > Task :xml-to-pdf:compileDebugAidl NO-SOURCE
 > Task :sample:compileDebugAidl NO-SOURCE
-> Task :xml-to-pdf:compileDebugRenderscript NO-SOURCE
-> Task :xml-to-pdf:generateDebugResources
-> Task :xml-to-pdf:packageDebugResources
-> Task :xml-to-pdf:processDebugManifest
-> Task :xml-to-pdf:parseDebugLibraryResources
-> Task :xml-to-pdf:javaPreCompileDebug
+> Task :xml-to-pdf:packageDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugBuildConfig
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:javaPreCompileDebug
+> Task :xml-to-pdf:writeDebugAarMetadata
+> Task :sample:checkDebugAarMetadata
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :xml-to-pdf:generateDebugRFile
-
-> Task :xml-to-pdf:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/src/main/java/com/gkemon/XMLtoPDF/PdfGenerator.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :sample:mergeDebugResources
-> Task :xml-to-pdf:bundleLibCompileDebug
-> Task :sample:javaPreCompileDebug
+> Task :xml-to-pdf:compileDebugRenderscript NO-SOURCE
+> Task :xml-to-pdf:generateDebugResValues
+> Task :xml-to-pdf:generateDebugResources
+> Task :xml-to-pdf:packageDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
+> Task :xml-to-pdf:extractDeepLinksDebug
+> Task :xml-to-pdf:compileDebugLibraryResources
+> Task :xml-to-pdf:processDebugManifest
+> Task :xml-to-pdf:generateDebugBuildConfig
+> Task :sample:mergeDebugResources
+> Task :xml-to-pdf:parseDebugLocalResources
+> Task :sample:processDebugMainManifest
 > Task :sample:processDebugManifest
-> Task :sample:processDebugResources
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
+> Task :sample:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :xml-to-pdf:javaPreCompileDebug
+> Task :sample:processDebugManifestForPackage
 > Task :sample:mergeDebugShaders
-> Task :sample:compileDebugShaders
-> Task :sample:generateDebugAssets
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
 > Task :xml-to-pdf:mergeDebugShaders
-> Task :xml-to-pdf:compileDebugShaders
-> Task :xml-to-pdf:generateDebugAssets
+> Task :xml-to-pdf:compileDebugShaders NO-SOURCE
+> Task :xml-to-pdf:generateDebugAssets UP-TO-DATE
 > Task :xml-to-pdf:packageDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :sample:compressDebugAssets
+> Task :xml-to-pdf:generateDebugRFile
+> Task :sample:processDebugResources
+> Task :xml-to-pdf:compileDebugJavaWithJavac
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :xml-to-pdf:processDebugJavaRes NO-SOURCE
-> Task :xml-to-pdf:bundleLibResDebug
-> Task :xml-to-pdf:bundleLibRuntimeDebug
-> Task :xml-to-pdf:createFullJarDebug
-> Task :sample:checkDebugDuplicateClasses
+> Task :xml-to-pdf:bundleLibCompileToJarDebug
+> Task :xml-to-pdf:bundleLibResDebug NO-SOURCE
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :sample:mergeDebugJavaResource
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:validateSigningDebug
-> Task :sample:signingConfigWriterDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :xml-to-pdf:bundleLibRuntimeToJarDebug
+> Task :sample:desugarDebugFileDependencies
+> Task :sample:dexBuilderDebug
+> Task :sample:mergeLibDexDebug
 > Task :sample:mergeDebugJniLibFolders
 > Task :xml-to-pdf:mergeDebugJniLibFolders
+> Task :xml-to-pdf:mergeDebugNativeLibs NO-SOURCE
+> Task :xml-to-pdf:stripDebugDebugSymbols NO-SOURCE
+> Task :xml-to-pdf:copyDebugJniLibsProjectOnly
+> Task :sample:validateSigningDebug
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :xml-to-pdf:preReleaseBuild UP-TO-DATE
 > Task :xml-to-pdf:compileReleaseAidl NO-SOURCE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :xml-to-pdf:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
+> Task :sample:javaPreCompileRelease
+> Task :xml-to-pdf:writeReleaseAarMetadata
+> Task :sample:checkReleaseAarMetadata
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
 > Task :xml-to-pdf:compileReleaseRenderscript NO-SOURCE
-> Task :xml-to-pdf:checkReleaseManifest
-> Task :xml-to-pdf:generateReleaseBuildConfig
 > Task :xml-to-pdf:generateReleaseResValues
 > Task :xml-to-pdf:generateReleaseResources
 > Task :xml-to-pdf:packageReleaseResources
-> Task :xml-to-pdf:mergeDebugNativeLibs
-> Task :xml-to-pdf:stripDebugDebugSymbols
-> Task :xml-to-pdf:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :xml-to-pdf:parseReleaseLibraryResources
-> Task :xml-to-pdf:processReleaseManifest
-> Task :xml-to-pdf:javaPreCompileRelease
-> Task :sample:mainApkListPersistenceRelease
-> Task :sample:generateReleaseResValues
-> Task :sample:generateReleaseResources
+> Task :sample:mergeProjectDexDebug
 > Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
 > Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
+> Task :xml-to-pdf:extractDeepLinksRelease
+> Task :xml-to-pdf:compileReleaseLibraryResources
+> Task :xml-to-pdf:generateReleaseBuildConfig
+> Task :xml-to-pdf:processReleaseManifest
+> Task :xml-to-pdf:parseReleaseLocalResources
+> Task :xml-to-pdf:javaPreCompileRelease
+> Task :sample:processReleaseMainManifest
 > Task :sample:processReleaseManifest
-> Task :xml-to-pdf:generateReleaseRFile
-
-> Task :xml-to-pdf:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/xml-to-pdf/src/main/java/com/gkemon/XMLtoPDF/PdfGenerator.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :sample:mergeReleaseResources
-> Task :sample:processReleaseResources
-> Task :xml-to-pdf:bundleLibCompileRelease
-> Task :sample:javaPreCompileRelease
-> Task :sample:compileReleaseJavaWithJavac
-> Task :sample:compileReleaseSources
-> Task :sample:prepareLintJar
-> Task :xml-to-pdf:processReleaseJavaRes NO-SOURCE
-> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:processReleaseManifestForPackage
+> Task :sample:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :xml-to-pdf:prepareLintJarForPublish
-
-> Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7c166950cf9cad8e3bde3c29cb5d3096/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-30/android.jar
-
-> Task :xml-to-pdf:bundleLibRuntimeRelease
-> Task :xml-to-pdf:bundleLibResRelease
-> Task :xml-to-pdf:createFullJarRelease
-> Task :sample:mergeExtDexDebug
-> Task :sample:transformClassesWithDexBuilderForRelease
 > Task :sample:mergeReleaseShaders
-> Task :sample:compileReleaseShaders
-> Task :sample:generateReleaseAssets
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
 > Task :xml-to-pdf:mergeReleaseShaders
-> Task :xml-to-pdf:compileReleaseShaders
-> Task :xml-to-pdf:generateReleaseAssets
+> Task :xml-to-pdf:compileReleaseShaders NO-SOURCE
+> Task :xml-to-pdf:generateReleaseAssets UP-TO-DATE
 > Task :xml-to-pdf:packageReleaseAssets
 > Task :sample:mergeReleaseAssets
+> Task :sample:compressReleaseAssets
+> Task :xml-to-pdf:generateReleaseRFile
+> Task :sample:desugarReleaseFileDependencies
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:mergeDexDebug
+> Task :xml-to-pdf:processReleaseJavaRes NO-SOURCE
+> Task :sample:checkReleaseDuplicateClasses
+> Task :xml-to-pdf:bundleLibResRelease NO-SOURCE
+> Task :sample:mergeReleaseResources
+> Task :sample:collectReleaseDependencies
+> Task :sample:sdkReleaseDependencyData
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:processReleaseResources
+> Task :sample:mergeExtDexRelease
+> Task :xml-to-pdf:compileReleaseJavaWithJavac
+> Task :sample:mergeExtDexDebug
+> Task :xml-to-pdf:bundleLibCompileToJarRelease
+> Task :xml-to-pdf:bundleLibRuntimeToJarRelease
+> Task :xml-to-pdf:mergeReleaseJniLibFolders
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :sample:lintVitalRelease
+> Task :sample:dexBuilderRelease
+> Task :xml-to-pdf:mergeReleaseNativeLibs NO-SOURCE
+> Task :xml-to-pdf:stripReleaseDebugSymbols NO-SOURCE
+> Task :xml-to-pdf:copyReleaseJniLibsProjectOnly
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
-> Task :sample:signingConfigWriterRelease
-> Task :sample:mergeReleaseJniLibFolders
-> Task :xml-to-pdf:mergeReleaseJniLibFolders
-> Task :sample:mergeReleaseJavaResource
-> Task :xml-to-pdf:mergeReleaseNativeLibs
-> Task :xml-to-pdf:stripReleaseDebugSymbols
-> Task :xml-to-pdf:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseNativeLibs
-> Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeExtDexRelease
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 23s
+88 actionable tasks: 88 executed
 
-BUILD SUCCESSFUL in 1m 5s
-90 actionable tasks: 90 executed
-
-2021-01-14 13:19:53,798 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610604965772-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2021-03-25 01:46:23,299 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611362247-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

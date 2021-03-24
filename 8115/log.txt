@@ -1,34 +1,36 @@
-2021-01-18 02:04:13,169 INFO  DownloadService - Downloading "https://github.com/EusebiuCandrea/ToolTipPopupWordTV/archive/master.zip", attempt 3
-2021-01-18 02:04:14,910 INFO  DownloadService - Downloaded https://github.com/EusebiuCandrea/ToolTipPopupWordTV/archive/master.zip, attempt 3
-2021-01-18 02:04:14,910 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/master.zip": 302 KB
-2021-01-18 02:04:14,910 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2021-01-18 02:04:14,911 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/master.zip: true
-2021-01-18 02:04:14,911 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src'.
-2021-01-18 02:04:14,947 INFO  FullProcessService - Size of directory with sources: 351 KB
-2021-01-18 02:04:14,947 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src]
-2021-01-18 02:04:14,977 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/.git/
+2021-03-25 01:50:29,506 INFO  DownloadService - Downloading "https://github.com/EusebiuCandrea/ToolTipPopupWordTV/archive/master.zip", attempt 3
+2021-03-25 01:50:50,181 INFO  VirusProcessorServiceImpl - Queued project 8163 to scan viruses
+2021-03-25 01:51:30,110 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-03-25 01:51:30,956 INFO  GithubDownloadService - Default branch of this repository: master
+2021-03-25 01:51:30,956 INFO  DownloadService - Downloading "https://github.com/EusebiuCandrea/ToolTipPopupWordTV/archive/master.zip", attempt 3
+2021-03-25 01:52:31,914 DEBUG FullProcessService - Repository https://github.com/EusebiuCandrea/ToolTipPopupWordTV available: true
+2021-03-25 01:52:31,914 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-03-25 01:52:31,914 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/EusebiuCandrea/ToolTipPopupWordTV, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src]
+2021-03-25 01:52:33,571 INFO  SysUtils - 
+2021-03-25 01:52:33,584 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/.git": true
+2021-03-25 01:52:33,595 INFO  FullProcessService - Size of directory with sources: 351 KB
+2021-03-25 01:52:33,595 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src]
+2021-03-25 01:52:33,633 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/.git/
 
-2021-01-18 02:04:14,982 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/gradlew
-2021-01-18 02:04:14,987 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/tooltipopupwordtv/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/build.gradle
-2021-01-18 02:04:14,992 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/tooltipopupwordtv/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/settings.gradle
-2021-01-18 02:04:14,993 INFO  ProjectBuildService - Remote scripts: none
-2021-01-18 02:04:14,993 INFO  ProjectFixService - Fixing project...
-2021-01-18 02:04:15,004 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/app/local.properties
-2021-01-18 02:04:15,004 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
-2021-01-18 02:04:15,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/tooltipopupwordtv/local.properties
-2021-01-18 02:04:15,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/tooltipopupwordtv/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
-2021-01-18 02:04:15,007 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/local.properties
-2021-01-18 02:04:15,007 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2021-01-18 02:04:15,008 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2021-01-18 02:04:15,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
-2021-01-18 02:04:15,009 INFO  ProjectFixService - Project was maybe fixed
-2021-01-18 02:04:15,009 INFO  ProjectTaskService - Detecting possible tasks...
-2021-01-18 02:04:15,010 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-01-18 02:04:28,985 INFO  ProjectTaskService - Detected possible tasks: 66
-2021-01-18 02:04:28,986 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-01-18 02:04:28,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-01-18 02:04:29,639 INFO  VirusProcessorServiceImpl - Queued project 8192 to scan viruses
-2021-01-18 02:05:47,850 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-25 01:52:33,640 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/gradlew
+2021-03-25 01:52:33,646 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/tooltipopupwordtv/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/build.gradle
+2021-03-25 01:52:33,651 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/tooltipopupwordtv/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/settings.gradle
+2021-03-25 01:52:33,652 INFO  ProjectBuildService - Remote scripts: none
+2021-03-25 01:52:33,652 INFO  ProjectFixService - Fixing project...
+2021-03-25 01:52:33,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/app/local.properties
+2021-03-25 01:52:33,675 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=26,targetSdkVersion=29]
+2021-03-25 01:52:33,676 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/tooltipopupwordtv/local.properties
+2021-03-25 01:52:33,677 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/tooltipopupwordtv/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=26,targetSdkVersion=29]
+2021-03-25 01:52:33,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/local.properties
+2021-03-25 01:52:33,679 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2021-03-25 01:52:33,681 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=26,targetSdkVersion=29]
+2021-03-25 01:52:33,681 INFO  ProjectFixService - Project was maybe fixed
+2021-03-25 01:52:33,681 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-25 01:52:33,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-25 01:52:45,411 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-03-25 01:52:45,411 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-25 01:52:45,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-25 01:54:16,330 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :tooltipopupwordtv:preBuild UP-TO-DATE
@@ -36,132 +38,138 @@
 > Task :tooltipopupwordtv:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :tooltipopupwordtv:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :tooltipopupwordtv:writeDebugAarMetadata
+> Task :app:checkDebugAarMetadata
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :tooltipopupwordtv:generateDebugResValues
 > Task :tooltipopupwordtv:compileDebugRenderscript NO-SOURCE
+> Task :tooltipopupwordtv:generateDebugResValues
 > Task :tooltipopupwordtv:generateDebugResources
 > Task :tooltipopupwordtv:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :tooltipopupwordtv:checkDebugManifest
+> Task :app:extractDeepLinksDebug
+> Task :tooltipopupwordtv:extractDeepLinksDebug
+> Task :tooltipopupwordtv:compileDebugLibraryResources
 > Task :tooltipopupwordtv:processDebugManifest
-> Task :app:processDebugManifest
+> Task :tooltipopupwordtv:parseDebugLocalResources
 > Task :app:mergeDebugResources
-> Task :tooltipopupwordtv:parseDebugLibraryResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
 > Task :tooltipopupwordtv:generateDebugBuildConfig
+> Task :tooltipopupwordtv:javaPreCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:processDebugManifestForPackage
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :tooltipopupwordtv:mergeDebugShaders
-> Task :tooltipopupwordtv:compileDebugShaders
-> Task :tooltipopupwordtv:generateDebugAssets
+> Task :tooltipopupwordtv:compileDebugShaders NO-SOURCE
+> Task :tooltipopupwordtv:generateDebugAssets UP-TO-DATE
 > Task :tooltipopupwordtv:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :tooltipopupwordtv:processDebugJavaRes NO-SOURCE
+> Task :app:compressDebugAssets
 > Task :tooltipopupwordtv:generateDebugRFile
 > Task :app:processDebugResources
 
 > Task :tooltipopupwordtv:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/tooltipopupwordtv/src/main/java/com/ecandrea/library/tooltipopwordtv/tooltipopupWindows/ToolPopupWindows.kt: (77, 35): 'constructor BitmapDrawable()' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/tooltipopupwordtv/src/main/java/com/ecandrea/library/tooltipopwordtv/wordTextView/SelectableWordTextView.kt: (95, 36): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/tooltipopupwordtv/src/main/java/com/boyzdroizy/library/tooltipopwordtv/tooltipopupWindows/ToolPopupWindows.kt: (83, 35): 'constructor BitmapDrawable()' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/tooltipopupwordtv/src/main/java/com/boyzdroizy/library/tooltipopwordtv/wordTextView/SelectableWordTextView.kt: (109, 36): Type mismatch: inferred type is String? but String was expected
 
-> Task :tooltipopupwordtv:javaPreCompileDebug
 > Task :tooltipopupwordtv:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :tooltipopupwordtv:processDebugJavaRes NO-SOURCE
 > Task :tooltipopupwordtv:bundleLibResDebug
-> Task :tooltipopupwordtv:bundleLibCompileDebug
+> Task :tooltipopupwordtv:bundleLibCompileToJarDebug
 > Task :app:compileDebugKotlin
-> Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :tooltipopupwordtv:bundleLibRuntimeDebug
-> Task :tooltipopupwordtv:createFullJarDebug
+> Task :tooltipopupwordtv:bundleLibRuntimeToJarDebug
+> Task :app:mergeLibDexDebug
+> Task :app:dexBuilderDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :tooltipopupwordtv:mergeDebugJniLibFolders
-> Task :tooltipopupwordtv:mergeDebugNativeLibs
-> Task :tooltipopupwordtv:stripDebugDebugSymbols
-> Task :tooltipopupwordtv:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:mergeLibDexDebug
+> Task :tooltipopupwordtv:mergeDebugNativeLibs NO-SOURCE
+> Task :tooltipopupwordtv:stripDebugDebugSymbols NO-SOURCE
+> Task :tooltipopupwordtv:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :tooltipopupwordtv:preReleaseBuild UP-TO-DATE
 > Task :tooltipopupwordtv:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :tooltipopupwordtv:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
+> Task :tooltipopupwordtv:writeReleaseAarMetadata
+> Task :app:checkReleaseAarMetadata
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :tooltipopupwordtv:compileReleaseRenderscript NO-SOURCE
 > Task :tooltipopupwordtv:generateReleaseResValues
 > Task :tooltipopupwordtv:generateReleaseResources
-> Task :tooltipopupwordtv:packageReleaseResources
 > Task :app:mergeProjectDexDebug
+> Task :tooltipopupwordtv:packageReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:createReleaseCompatibleScreenManifests
-> Task :tooltipopupwordtv:checkReleaseManifest
+> Task :app:extractDeepLinksRelease
+> Task :tooltipopupwordtv:extractDeepLinksRelease
 > Task :tooltipopupwordtv:processReleaseManifest
+> Task :app:processReleaseMainManifest
 > Task :app:processReleaseManifest
 > Task :tooltipopupwordtv:generateReleaseBuildConfig
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :tooltipopupwordtv:parseReleaseLibraryResources
-> Task :app:prepareLintJar
-> Task :tooltipopupwordtv:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
-> Task :tooltipopupwordtv:prepareLintJarForPublish
-> Task :tooltipopupwordtv:generateReleaseRFile
-
-> Task :tooltipopupwordtv:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/tooltipopupwordtv/src/main/java/com/ecandrea/library/tooltipopwordtv/tooltipopupWindows/ToolPopupWindows.kt: (77, 35): 'constructor BitmapDrawable()' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/tooltipopupwordtv/src/main/java/com/ecandrea/library/tooltipopwordtv/wordTextView/SelectableWordTextView.kt: (95, 36): Type mismatch: inferred type is String? but String was expected
-
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
 > Task :tooltipopupwordtv:javaPreCompileRelease
-> Task :tooltipopupwordtv:compileReleaseJavaWithJavac
-> Task :tooltipopupwordtv:bundleLibCompileRelease
-> Task :app:compileReleaseKotlin
-> Task :tooltipopupwordtv:bundleLibRuntimeRelease
-> Task :tooltipopupwordtv:bundleLibResRelease
-> Task :tooltipopupwordtv:createFullJarRelease
+> Task :tooltipopupwordtv:parseReleaseLocalResources
+> Task :app:processReleaseManifestForPackage
 > Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9e546e492f5a65a73770d8c7a19257ad/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:transformClassesWithDexBuilderForRelease
+> Task :tooltipopupwordtv:compileReleaseLibraryResources
+> Task :tooltipopupwordtv:generateReleaseRFile
+> Task :app:mergeReleaseResources
+> Task :tooltipopupwordtv:prepareLintJarForPublish
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
 > Task :tooltipopupwordtv:mergeReleaseShaders
-> Task :tooltipopupwordtv:compileReleaseShaders
-> Task :tooltipopupwordtv:generateReleaseAssets
+> Task :tooltipopupwordtv:compileReleaseShaders NO-SOURCE
+> Task :tooltipopupwordtv:generateReleaseAssets UP-TO-DATE
 > Task :tooltipopupwordtv:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:processReleaseResources
+
+> Task :tooltipopupwordtv:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/tooltipopupwordtv/src/main/java/com/boyzdroizy/library/tooltipopwordtv/tooltipopupWindows/ToolPopupWindows.kt: (83, 35): 'constructor BitmapDrawable()' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/tooltipopupwordtv/src/main/java/com/boyzdroizy/library/tooltipopwordtv/wordTextView/SelectableWordTextView.kt: (109, 36): Type mismatch: inferred type is String? but String was expected
+
+> Task :tooltipopupwordtv:compileReleaseJavaWithJavac
+> Task :tooltipopupwordtv:bundleLibCompileToJarRelease
+> Task :tooltipopupwordtv:bundleLibRuntimeToJarRelease
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
+> Task :tooltipopupwordtv:processReleaseJavaRes NO-SOURCE
+> Task :tooltipopupwordtv:bundleLibResRelease
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :tooltipopupwordtv:mergeReleaseJniLibFolders
-> Task :tooltipopupwordtv:mergeReleaseNativeLibs
-> Task :tooltipopupwordtv:stripReleaseDebugSymbols
-> Task :tooltipopupwordtv:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :tooltipopupwordtv:mergeReleaseNativeLibs NO-SOURCE
+> Task :tooltipopupwordtv:stripReleaseDebugSymbols NO-SOURCE
+> Task :tooltipopupwordtv:copyReleaseJniLibsProjectOnly
 > Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
@@ -170,11 +178,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 30s
+92 actionable tasks: 92 executed
 
-BUILD SUCCESSFUL in 1m 18s
-95 actionable tasks: 95 executed
-
-2021-01-18 02:05:47,958 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1610910253166-0/src/ToolTipPopupWordTV-master/app/build/outputs/apk/debug/app-debug.apk
+2021-03-25 01:54:16,411 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616611829498-0/src/app/build/outputs/apk/debug/app-debug.apk
