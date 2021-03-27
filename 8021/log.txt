@@ -1,38 +1,38 @@
-2020-05-15 14:24:23,405 INFO  DownloadService - Downloading "https://github.com/OpenSooq/Gligar/archive/master.zip", attempt 3
-2020-05-15 14:24:47,982 INFO  VirusProcessorServiceImpl - Queued project 8067 to scan viruses
-2020-05-15 14:25:06,917 INFO  DownloadService - Downloaded https://github.com/OpenSooq/Gligar/archive/master.zip, attempt 3
-2020-05-15 14:25:06,917 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/master.zip": 1 MB
-2020-05-15 14:25:06,917 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-05-15 14:25:06,918 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/master.zip: true
-2020-05-15 14:25:06,918 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src'.
-2020-05-15 14:25:06,978 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-05-15 14:25:06,978 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src]
-2020-05-15 14:25:07,028 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/.git/
+2021-03-27 18:50:56,288 INFO  DownloadService - Downloading "https://github.com/OpenSooq/Gligar/archive/master.zip", attempt 3
+2021-03-27 18:50:58,437 INFO  DownloadService - Downloaded https://github.com/OpenSooq/Gligar/archive/master.zip, attempt 3
+2021-03-27 18:50:58,437 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/master.zip": 1 MB
+2021-03-27 18:50:58,437 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2021-03-27 18:50:58,443 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/master.zip: true
+2021-03-27 18:50:58,443 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src'.
+2021-03-27 18:50:58,480 INFO  FullProcessService - Size of directory with sources: 1 MB
+2021-03-27 18:50:58,480 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src]
+2021-03-27 18:50:58,507 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/.git/
 
-2020-05-15 14:25:07,035 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/gradlew
-2020-05-15 14:25:07,042 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/gligar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/build.gradle
-2020-05-15 14:25:07,049 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/gligar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/settings.gradle
-2020-05-15 14:25:07,060 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/tamtom/f54a538637178e4818bbc72f24a73e2d/raw/af6f8b6782475230cfff852ae11669c936e739a2/bintrayv1.gradle", attempt 3
-2020-05-15 14:25:09,118 INFO  DownloadService - Downloaded https://gist.githubusercontent.com/tamtom/f54a538637178e4818bbc72f24a73e2d/raw/af6f8b6782475230cfff852ae11669c936e739a2/bintrayv1.gradle, attempt 3
-2020-05-15 14:25:09,118 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle", attempt 3
-2020-05-15 14:25:09,944 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle, attempt 3
-2020-05-15 14:25:09,945 INFO  ProjectBuildService - Remote scripts: https://gist.githubusercontent.com/tamtom/f54a538637178e4818bbc72f24a73e2d/raw/af6f8b6782475230cfff852ae11669c936e739a2/bintrayv1.gradle https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle
-2020-05-15 14:25:09,945 INFO  ProjectFixService - Fixing project...
-2020-05-15 14:25:09,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/local.properties
-2020-05-15 14:25:09,961 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-05-15 14:25:09,962 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/gligar/local.properties
-2020-05-15 14:25:09,963 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/gligar/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-05-15 14:25:09,964 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/local.properties
-2020-05-15 14:25:09,964 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-05-15 14:25:09,965 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-05-15 14:25:09,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-05-15 14:25:09,966 INFO  ProjectFixService - Project was maybe fixed
-2020-05-15 14:25:09,966 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-15 14:25:09,966 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-15 14:25:23,201 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-05-15 14:25:23,201 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-05-15 14:25:23,201 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-05-15 14:25:28,100 ERROR SysUtils - Could not process external command
+2021-03-27 18:50:58,512 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gradlew
+2021-03-27 18:50:58,519 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gligar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/build.gradle
+2021-03-27 18:50:58,524 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gligar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/settings.gradle
+2021-03-27 18:50:58,525 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/tamtom/f54a538637178e4818bbc72f24a73e2d/raw/af6f8b6782475230cfff852ae11669c936e739a2/bintrayv1.gradle", attempt 3
+2021-03-27 18:50:59,151 INFO  DownloadService - Downloaded https://gist.githubusercontent.com/tamtom/f54a538637178e4818bbc72f24a73e2d/raw/af6f8b6782475230cfff852ae11669c936e739a2/bintrayv1.gradle, attempt 3
+2021-03-27 18:50:59,151 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle", attempt 3
+2021-03-27 18:50:59,419 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle, attempt 3
+2021-03-27 18:50:59,419 INFO  ProjectBuildService - Remote scripts: https://gist.githubusercontent.com/tamtom/f54a538637178e4818bbc72f24a73e2d/raw/af6f8b6782475230cfff852ae11669c936e739a2/bintrayv1.gradle https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle
+2021-03-27 18:50:59,419 INFO  ProjectFixService - Fixing project...
+2021-03-27 18:50:59,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/local.properties
+2021-03-27 18:50:59,435 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2021-03-27 18:50:59,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gligar/local.properties
+2021-03-27 18:50:59,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gligar/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2021-03-27 18:50:59,437 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/local.properties
+2021-03-27 18:50:59,437 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2021-03-27 18:50:59,438 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2021-03-27 18:50:59,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2021-03-27 18:50:59,439 INFO  ProjectFixService - Project was maybe fixed
+2021-03-27 18:50:59,439 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-27 18:50:59,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-27 18:51:12,279 INFO  VirusProcessorServiceImpl - Queued project 8024 to scan viruses
+2021-03-27 18:51:14,153 INFO  ProjectTaskService - Detected possible tasks: 69
+2021-03-27 18:51:14,153 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-27 18:51:14,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-27 18:51:19,870 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-05-15 14:25:28,100 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-27 18:51:19,870 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -159,11 +159,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2020-05-15 14:25:28,100 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2020-05-15 14:25:28,101 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-05-15 14:26:44,167 ERROR SysUtils - Could not process external command
+2021-03-27 18:51:19,871 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2021-03-27 18:51:19,871 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2021-03-27 18:52:39,948 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -191,14 +191,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-05-15 14:26:44,167 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-03-27 18:52:39,948 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :gligar:preBuild UP-TO-DATE
 > Task :gligar:preDebugBuild UP-TO-DATE
-> Task :gligar:packageDebugRenderscript NO-SOURCE
 > Task :gligar:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :gligar:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
@@ -230,7 +230,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:processDebugResources
 
 > Task :gligar:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/gligar/src/main/java/com/opensooq/supernova/gligar/utils/Consts.kt: (14, 58): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gligar/src/main/java/com/opensooq/supernova/gligar/utils/Consts.kt: (14, 58): 'DATA: String' is deprecated. Deprecated in Java
 
 > Task :app:checkDebugDuplicateClasses
 > Task :gligar:javaPreCompileDebug
@@ -264,35 +264,35 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/
 > Task :gligar:generateReleaseResValues
 > Task :gligar:generateReleaseResources
 > Task :gligar:packageReleaseResources
-> Task :gligar:mergeDebugNativeLibs
-> Task :gligar:stripDebugDebugSymbols
-> Task :gligar:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :gligar:checkReleaseManifest
 > Task :gligar:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :gligar:generateReleaseBuildConfig
-> Task :app:mergeReleaseResources
+> Task :gligar:mergeDebugNativeLibs
+> Task :gligar:stripDebugDebugSymbols
+> Task :gligar:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :gligar:parseReleaseLibraryResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:prepareLintJar
-> Task :gligar:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
-> Task :gligar:prepareLintJarForPublish
+> Task :app:mergeReleaseResources
+> Task :gligar:generateReleaseBuildConfig
 > Task :gligar:generateReleaseRFile
 > Task :app:processReleaseResources
 
 > Task :gligar:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/gligar/src/main/java/com/opensooq/supernova/gligar/utils/Consts.kt: (14, 58): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gligar/src/main/java/com/opensooq/supernova/gligar/utils/Consts.kt: (14, 58): 'DATA: String' is deprecated. Deprecated in Java
 
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :gligar:javaPreCompileRelease
 > Task :gligar:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
+> Task :gligar:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
 > Task :gligar:bundleLibResRelease
 > Task :gligar:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :gligar:bundleLibRuntimeRelease
 > Task :gligar:createFullJarRelease
+> Task :gligar:prepareLintJarForPublish
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -314,26 +314,20 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/
 
 > Task :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8e6106c05ea0a596493efb97f6dbccf9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-Ran lint on variant debug: 5 issues found
-Ran lint on variant release: 5 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/build/reports/lint-results.xml
-
-> Task :app:mergeDexDebug
-> Task :gligar:mergeReleaseNativeLibs
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :gligar:stripReleaseDebugSymbols
-> Task :gligar:transformNativeLibsWithIntermediateJniLibsForRelease
+Ran lint on variant release: 8 issues found
+Ran lint on variant debug: 8 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/build/reports/lint-results.xml
 
 > Task :app:compileDebugUnitTestKotlin FAILED
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/src/test/java/com/opensooq/supernova/gligarexample/ExampleUnitTest.kt: (3, 12): Unresolved reference: junit
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/src/test/java/com/opensooq/supernova/gligarexample/ExampleUnitTest.kt: (5, 12): Unresolved reference: junit
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/src/test/java/com/opensooq/supernova/gligarexample/ExampleUnitTest.kt: (13, 6): Unresolved reference: Test
-e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/src/test/java/com/opensooq/supernova/gligarexample/ExampleUnitTest.kt: (15, 9): Unresolved reference: assertEquals
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/src/test/java/com/opensooq/supernova/gligarexample/ExampleUnitTest.kt: (3, 12): Unresolved reference: junit
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/src/test/java/com/opensooq/supernova/gligarexample/ExampleUnitTest.kt: (5, 12): Unresolved reference: junit
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/src/test/java/com/opensooq/supernova/gligarexample/ExampleUnitTest.kt: (13, 6): Unresolved reference: Test
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/src/test/java/com/opensooq/supernova/gligarexample/ExampleUnitTest.kt: (15, 9): Unresolved reference: assertEquals
 
+> Task :gligar:mergeReleaseNativeLibs
+> Task :app:mergeDexDebug
 > Task :app:mergeReleaseJavaResource
-> Task :app:mergeReleaseNativeLibs
 > Task :app:mergeExtDexRelease
 
 FAILURE: Build failed with an exception.
@@ -456,7 +450,247 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1m 15s
-92 actionable tasks: 92 executed
+BUILD FAILED in 1m 19s
+88 actionable tasks: 88 executed
 
-2020-05-15 14:26:44,296 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589527463400-0/src/Gligar-master/app/build/outputs/apk/debug/app-debug.apk
+2021-03-27 18:52:40,068 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-27 18:52:40,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gligar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-27 18:52:48,178 INFO  ProjectTaskService - Detected possible tasks: 69
+2021-03-27 18:52:48,179 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2021-03-27 18:52:48,179 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gligar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2021-03-27 18:53:01,859 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :gligar:preBuild UP-TO-DATE
+> Task :gligar:preDebugBuild UP-TO-DATE
+> Task :gligar:compileDebugAidl NO-SOURCE
+> Task :gligar:checkDebugManifest UP-TO-DATE
+> Task :gligar:compileDebugRenderscript NO-SOURCE
+> Task :gligar:generateDebugBuildConfig UP-TO-DATE
+> Task :gligar:generateDebugResValues UP-TO-DATE
+> Task :gligar:generateDebugResources UP-TO-DATE
+> Task :gligar:packageDebugResources UP-TO-DATE
+> Task :gligar:parseDebugLibraryResources UP-TO-DATE
+> Task :gligar:processDebugManifest UP-TO-DATE
+> Task :gligar:generateDebugRFile UP-TO-DATE
+> Task :gligar:compileDebugKotlin UP-TO-DATE
+> Task :gligar:javaPreCompileDebug UP-TO-DATE
+> Task :gligar:compileDebugJavaWithJavac UP-TO-DATE
+> Task :gligar:extractDebugAnnotations
+> Task :gligar:mergeDebugGeneratedProguardFiles
+> Task :gligar:mergeDebugConsumerProguardFiles
+> Task :gligar:mergeDebugShaders UP-TO-DATE
+> Task :gligar:compileDebugShaders UP-TO-DATE
+> Task :gligar:generateDebugAssets UP-TO-DATE
+> Task :gligar:packageDebugAssets UP-TO-DATE
+> Task :gligar:packageDebugRenderscript NO-SOURCE
+> Task :gligar:prepareLintJarForPublish UP-TO-DATE
+> Task :gligar:processDebugJavaRes NO-SOURCE
+> Task :gligar:mergeDebugJniLibFolders UP-TO-DATE
+> Task :gligar:mergeDebugNativeLibs UP-TO-DATE
+> Task :gligar:stripDebugDebugSymbols UP-TO-DATE
+> Task :gligar:transformNativeLibsWithSyncJniLibsForDebug
+> Task :gligar:compileDebugSources UP-TO-DATE
+> Task :gligar:preReleaseBuild UP-TO-DATE
+> Task :gligar:compileReleaseAidl NO-SOURCE
+> Task :gligar:compileReleaseRenderscript NO-SOURCE
+> Task :gligar:checkReleaseManifest UP-TO-DATE
+> Task :gligar:generateReleaseBuildConfig UP-TO-DATE
+> Task :gligar:generateReleaseResValues UP-TO-DATE
+> Task :gligar:generateReleaseResources UP-TO-DATE
+> Task :gligar:packageReleaseResources UP-TO-DATE
+> Task :gligar:parseReleaseLibraryResources UP-TO-DATE
+> Task :gligar:processReleaseManifest UP-TO-DATE
+> Task :gligar:generateReleaseRFile UP-TO-DATE
+> Task :gligar:compileReleaseKotlin UP-TO-DATE
+> Task :gligar:javaPreCompileRelease UP-TO-DATE
+> Task :gligar:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :gligar:extractReleaseAnnotations
+> Task :gligar:mergeReleaseGeneratedProguardFiles
+> Task :gligar:mergeReleaseConsumerProguardFiles
+> Task :gligar:mergeReleaseShaders UP-TO-DATE
+> Task :gligar:compileReleaseShaders UP-TO-DATE
+> Task :gligar:generateReleaseAssets UP-TO-DATE
+> Task :gligar:packageReleaseAssets UP-TO-DATE
+> Task :gligar:packageReleaseRenderscript NO-SOURCE
+> Task :gligar:processReleaseJavaRes NO-SOURCE
+> Task :gligar:mergeDebugJavaResource
+> Task :gligar:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :gligar:bundleDebugAar
+> Task :gligar:mergeReleaseJavaResource
+> Task :gligar:assembleDebug
+> Task :gligar:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :gligar:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :gligar:mergeReleaseNativeLibs UP-TO-DATE
+> Task :gligar:stripReleaseDebugSymbols
+> Task :gligar:transformNativeLibsWithSyncJniLibsForRelease
+> Task :gligar:bundleReleaseAar
+> Task :gligar:compileReleaseSources UP-TO-DATE
+> Task :gligar:mergeReleaseResources
+> Task :gligar:verifyReleaseResources
+> Task :gligar:assembleRelease
+> Task :gligar:assemble
+> Task :gligar:build
+
+BUILD SUCCESSFUL in 13s
+49 actionable tasks: 17 executed, 32 up-to-date
+
+2021-03-27 18:53:02,013 INFO  ProjectTaskService - Detecting possible tasks...
+2021-03-27 18:53:02,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-03-27 18:53:11,497 INFO  ProjectTaskService - Detected possible tasks: 74
+2021-03-27 18:53:11,497 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-03-27 18:53:11,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-03-27 18:53:37,340 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :gligar:preBuild UP-TO-DATE
+> Task :gligar:preDebugBuild UP-TO-DATE
+> Task :gligar:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :gligar:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :gligar:generateDebugResValues UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :gligar:compileDebugRenderscript NO-SOURCE
+> Task :gligar:generateDebugResources UP-TO-DATE
+> Task :gligar:packageDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :gligar:checkDebugManifest UP-TO-DATE
+> Task :gligar:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :gligar:parseDebugLibraryResources UP-TO-DATE
+> Task :gligar:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :gligar:generateDebugBuildConfig UP-TO-DATE
+> Task :gligar:compileDebugKotlin UP-TO-DATE
+> Task :gligar:javaPreCompileDebug UP-TO-DATE
+> Task :gligar:compileDebugJavaWithJavac UP-TO-DATE
+> Task :gligar:bundleLibCompileDebug UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:compileDebugSources UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :gligar:mergeDebugShaders UP-TO-DATE
+> Task :gligar:compileDebugShaders UP-TO-DATE
+> Task :gligar:generateDebugAssets UP-TO-DATE
+> Task :gligar:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :gligar:processDebugJavaRes NO-SOURCE
+> Task :gligar:bundleLibResDebug UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :gligar:bundleLibRuntimeDebug UP-TO-DATE
+> Task :gligar:createFullJarDebug UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDexDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :gligar:mergeDebugJniLibFolders UP-TO-DATE
+> Task :gligar:mergeDebugNativeLibs UP-TO-DATE
+> Task :gligar:stripDebugDebugSymbols UP-TO-DATE
+> Task :gligar:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :gligar:preReleaseBuild UP-TO-DATE
+> Task :gligar:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :gligar:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest UP-TO-DATE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:mainApkListPersistenceRelease UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :gligar:compileReleaseRenderscript NO-SOURCE
+> Task :gligar:generateReleaseResValues UP-TO-DATE
+> Task :gligar:generateReleaseResources UP-TO-DATE
+> Task :gligar:packageReleaseResources UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :gligar:checkReleaseManifest UP-TO-DATE
+> Task :gligar:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :gligar:parseReleaseLibraryResources UP-TO-DATE
+> Task :gligar:generateReleaseRFile UP-TO-DATE
+> Task :app:processReleaseResources UP-TO-DATE
+> Task :gligar:generateReleaseBuildConfig UP-TO-DATE
+> Task :gligar:compileReleaseKotlin UP-TO-DATE
+> Task :gligar:javaPreCompileRelease UP-TO-DATE
+> Task :gligar:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :gligar:bundleLibCompileRelease UP-TO-DATE
+> Task :app:compileReleaseKotlin UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:compileReleaseSources UP-TO-DATE
+> Task :app:prepareLintJar UP-TO-DATE
+> Task :gligar:prepareLintJarForPublish UP-TO-DATE
+> Task :app:lintVitalRelease
+> Task :gligar:processReleaseJavaRes NO-SOURCE
+> Task :gligar:bundleLibResRelease UP-TO-DATE
+> Task :gligar:bundleLibRuntimeRelease UP-TO-DATE
+> Task :gligar:createFullJarRelease UP-TO-DATE
+> Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForRelease UP-TO-DATE
+> Task :app:mergeExtDexRelease UP-TO-DATE
+> Task :app:mergeReleaseShaders UP-TO-DATE
+> Task :app:compileReleaseShaders UP-TO-DATE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :gligar:mergeReleaseShaders UP-TO-DATE
+> Task :gligar:compileReleaseShaders UP-TO-DATE
+> Task :gligar:generateReleaseAssets UP-TO-DATE
+> Task :gligar:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets UP-TO-DATE
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeReleaseJavaResource UP-TO-DATE
+> Task :app:signingConfigWriterRelease UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :gligar:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :gligar:mergeReleaseNativeLibs UP-TO-DATE
+> Task :gligar:stripReleaseDebugSymbols UP-TO-DATE
+> Task :gligar:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :gligar:extractDebugAnnotations UP-TO-DATE
+> Task :gligar:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :gligar:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :gligar:mergeDebugJavaResource UP-TO-DATE
+> Task :gligar:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :gligar:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :gligar:bundleDebugAar UP-TO-DATE
+> Task :gligar:compileDebugSources UP-TO-DATE
+> Task :gligar:assembleDebug UP-TO-DATE
+> Task :gligar:extractReleaseAnnotations UP-TO-DATE
+> Task :gligar:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :gligar:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :gligar:mergeReleaseJavaResource UP-TO-DATE
+> Task :gligar:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :gligar:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :gligar:bundleReleaseAar UP-TO-DATE
+> Task :gligar:compileReleaseSources UP-TO-DATE
+> Task :gligar:mergeReleaseResources UP-TO-DATE
+> Task :gligar:verifyReleaseResources UP-TO-DATE
+> Task :gligar:assembleRelease UP-TO-DATE
+> Task :gligar:assemble
+> Task :gligar:build
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 25s
+110 actionable tasks: 7 executed, 103 up-to-date
+
+2021-03-27 18:53:37,524 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1616845856285-0/src/Gligar-master/app/build/outputs/apk/debug/app-debug.apk
