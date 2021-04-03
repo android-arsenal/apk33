@@ -1,55 +1,55 @@
-2021-03-10 20:42:20,260 INFO  DownloadService - Downloading "https://github.com/cioccarellia/kite/archive/master.zip", attempt 3
-2021-03-10 20:42:36,151 INFO  VirusProcessorServiceImpl - Queued project 8195 to scan viruses
-2021-03-10 20:43:20,854 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2021-03-10 20:43:21,631 INFO  GithubDownloadService - Default branch of this repository: main
-2021-03-10 20:43:21,631 INFO  DownloadService - Downloading "https://github.com/cioccarellia/kite/archive/main.zip", attempt 3
-2021-03-10 20:44:22,777 DEBUG FullProcessService - Repository https://github.com/cioccarellia/kite available: true
-2021-03-10 20:44:22,777 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2021-03-10 20:44:22,778 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/cioccarellia/kite, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src]
-2021-03-10 20:44:24,199 INFO  SysUtils - 
-2021-03-10 20:44:24,208 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/.git": true
-2021-03-10 20:44:24,212 INFO  FullProcessService - Size of directory with sources: 399 KB
-2021-03-10 20:44:24,212 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src]
-2021-03-10 20:44:24,230 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/.git/
+2021-04-03 19:36:45,847 INFO  DownloadService - Downloading "https://github.com/cioccarellia/kite/archive/master.zip", attempt 3
+2021-04-03 19:36:51,529 INFO  DownloadService - Downloading "https://github.com/cioccarellia/kite/archive/master.zip", attempt 2
+2021-04-03 19:36:57,250 INFO  DownloadService - Downloading "https://github.com/cioccarellia/kite/archive/master.zip", attempt 1
+2021-04-03 19:37:01,407 INFO  VirusProcessorServiceImpl - Queued project 8220 to scan viruses
+2021-04-03 19:37:57,346 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-04-03 19:37:58,368 INFO  GithubDownloadService - Default branch of this repository: main
+2021-04-03 19:37:58,368 INFO  DownloadService - Downloading "https://github.com/cioccarellia/kite/archive/main.zip", attempt 3
+2021-04-03 19:38:59,656 DEBUG FullProcessService - Repository https://github.com/cioccarellia/kite available: true
+2021-04-03 19:38:59,656 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-04-03 19:38:59,656 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/cioccarellia/kite, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src]
+2021-04-03 19:39:01,114 INFO  SysUtils - 
+2021-04-03 19:39:01,131 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/.git": true
+2021-04-03 19:39:01,140 INFO  FullProcessService - Size of directory with sources: 399 KB
+2021-04-03 19:39:01,140 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src]
+2021-04-03 19:39:01,180 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/.git/
 
-2021-03-10 20:44:24,234 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/gradlew
-2021-03-10 20:44:24,238 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/kite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/sample/build.gradle
-2021-03-10 20:44:24,242 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/library_info.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/publish-mavencentral.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/gradle/android_application_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/gradle/android_common_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/gradle/android_library_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/gradle/versions_plugin_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/kite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/settings.gradle
-2021-03-10 20:44:24,243 INFO  ProjectBuildService - Remote scripts: none
-2021-03-10 20:44:24,243 INFO  ProjectFixService - Fixing project...
-2021-03-10 20:44:24,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/local.properties
-2021-03-10 20:44:24,256 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2021-03-10 20:44:24,256 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2021-03-10 20:44:24,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2021-03-10 20:44:24,263 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2021-03-10 20:44:24,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/kite/local.properties
-2021-03-10 20:44:24,272 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/kite/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2021-03-10 20:44:24,272 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/kite/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2021-03-10 20:44:24,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/sample/local.properties
-2021-03-10 20:44:24,281 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2021-03-10 20:44:24,281 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2021-03-10 20:44:24,282 INFO  ProjectFixService - Project was maybe fixed
-2021-03-10 20:44:24,282 INFO  ProjectTaskService - Detecting possible tasks...
-2021-03-10 20:44:24,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-03-10 20:44:52,413 INFO  ProjectTaskService - Detected possible tasks: 86
-2021-03-10 20:44:52,413 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-03-10 20:44:52,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-03-10 20:46:30,705 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-04-03 19:39:01,191 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/gradlew
+2021-04-03 19:39:01,200 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/kite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/sample/build.gradle
+2021-04-03 19:39:01,207 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/library_info.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/publish-mavencentral.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/gradle/android_application_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/gradle/android_common_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/gradle/android_library_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/gradle/versions_plugin_config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/kite/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/settings.gradle
+2021-04-03 19:39:01,210 INFO  ProjectBuildService - Remote scripts: none
+2021-04-03 19:39:01,210 INFO  ProjectFixService - Fixing project...
+2021-04-03 19:39:01,242 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/local.properties
+2021-04-03 19:39:01,243 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2021-04-03 19:39:01,244 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2021-04-03 19:39:01,272 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-04-03 19:39:01,273 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-04-03 19:39:01,278 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/kite/local.properties
+2021-04-03 19:39:01,295 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/kite/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-04-03 19:39:01,295 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/kite/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-04-03 19:39:01,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/sample/local.properties
+2021-04-03 19:39:01,330 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2021-04-03 19:39:01,330 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2021-04-03 19:39:01,332 INFO  ProjectFixService - Project was maybe fixed
+2021-04-03 19:39:01,332 INFO  ProjectTaskService - Detecting possible tasks...
+2021-04-03 19:39:01,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-04-03 19:39:15,507 INFO  ProjectTaskService - Detected possible tasks: 86
+2021-04-03 19:39:15,508 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-04-03 19:39:15,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-04-03 19:40:32,389 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :kite:androidSourcesJar
 > Task :kite:preBuild UP-TO-DATE
 > Task :kite:preDebugBuild UP-TO-DATE
 > Task :kite:mergeDebugJniLibFolders
 > Task :kite:compileDebugAidl NO-SOURCE
-> Task :kite:mergeDebugNativeLibs
-> Task :kite:stripDebugDebugSymbols
-> Task :kite:copyDebugJniLibsProjectAndLocalJars
-> Task :kite:generateDebugBuildConfig
 > Task :kite:compileDebugRenderscript NO-SOURCE
+> Task :kite:generateDebugBuildConfig
 > Task :kite:generateDebugResValues
 > Task :kite:generateDebugResources
 > Task :kite:packageDebugResources
 > Task :kite:mergeDebugShaders
 > Task :kite:compileDebugShaders
+> Task :kite:parseDebugLocalResources
 > Task :kite:generateDebugAssets
 > Task :kite:packageDebugAssets
 > Task :kite:packageDebugRenderscript NO-SOURCE
@@ -62,19 +62,21 @@
 > Task :kite:generateReleaseResValues
 > Task :kite:generateReleaseResources
 > Task :kite:packageReleaseResources
-> Task :kite:parseDebugLocalResources
+> Task :kite:mergeReleaseNativeLibs
+> Task :kite:stripReleaseDebugSymbols
+> Task :kite:copyReleaseJniLibsProjectAndLocalJars
 > Task :kite:mergeReleaseShaders
 > Task :kite:compileReleaseShaders
 > Task :kite:generateReleaseAssets
 > Task :kite:packageReleaseAssets
 > Task :kite:packageReleaseRenderscript NO-SOURCE
 > Task :kite:processReleaseJavaRes NO-SOURCE
-> Task :kite:processDebugManifest
-> Task :kite:mergeReleaseNativeLibs
-> Task :kite:stripReleaseDebugSymbols
-> Task :kite:copyReleaseJniLibsProjectAndLocalJars
 > Task :kite:prepareLintJarForPublish
+> Task :kite:processDebugManifest
 > Task :kite:processReleaseManifest
+> Task :kite:mergeDebugNativeLibs
+> Task :kite:stripDebugDebugSymbols
+> Task :kite:copyDebugJniLibsProjectAndLocalJars
 > Task :kite:parseReleaseLocalResources
 > Task :kite:mergeReleaseResources
 > Task :kite:generateReleaseRFile
@@ -82,31 +84,31 @@
 > Task :kite:compileReleaseKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: kite
 
+> Task :kite:verifyReleaseResources
+> Task :kite:javaPreCompileRelease
+> Task :kite:compileReleaseJavaWithJavac
+> Task :kite:extractReleaseAnnotations
+> Task :kite:mergeReleaseGeneratedProguardFiles
+> Task :kite:mergeReleaseConsumerProguardFiles
+> Task :kite:compileReleaseSources
 > Task :kite:generateDebugRFile
 
 > Task :kite:compileDebugKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: kite
 
 > Task :kite:mergeReleaseJavaResource
+> Task :kite:syncReleaseLibJars
+> Task :kite:bundleReleaseAar
+> Task :kite:assembleRelease
 > Task :kite:javaPreCompileDebug
 > Task :kite:compileDebugJavaWithJavac
 > Task :kite:extractDebugAnnotations
 > Task :kite:mergeDebugGeneratedProguardFiles
 > Task :kite:mergeDebugConsumerProguardFiles
-> Task :kite:compileDebugSources
-> Task :kite:javaPreCompileRelease
-> Task :kite:compileReleaseJavaWithJavac
-> Task :kite:extractReleaseAnnotations
-> Task :kite:mergeReleaseGeneratedProguardFiles
-> Task :kite:mergeReleaseConsumerProguardFiles
-> Task :kite:syncReleaseLibJars
-> Task :kite:bundleReleaseAar
-> Task :kite:compileReleaseSources
-> Task :kite:verifyReleaseResources
-> Task :kite:assembleRelease
 > Task :kite:mergeDebugJavaResource
 > Task :kite:syncDebugLibJars
 > Task :kite:bundleDebugAar
+> Task :kite:compileDebugSources
 > Task :kite:assembleDebug
 > Task :kite:assemble
 > Task :kite:build
@@ -129,7 +131,7 @@ w: Argument -module-name is passed multiple times. Only the last value will be u
 
 > Task :sample:compileDebugKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: sample
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/sample/src/main/kotlin/com/cioccarellia/sample/MainActivity.kt: (42, 13): Variable 'x' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/sample/src/main/kotlin/com/cioccarellia/sample/MainActivity.kt: (42, 13): Variable 'x' is never used
 
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
@@ -151,23 +153,23 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:generateReleaseBuildConfig
-> Task :kite:bundleLibCompileRelease
+> Task :kite:compileReleaseLibraryResources
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :kite:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
-> Task :kite:compileReleaseLibraryResources
 > Task :sample:extractDeepLinksRelease
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :sample:processReleaseManifest
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
+> Task :kite:bundleLibCompileRelease
 
 > Task :sample:compileReleaseKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: sample
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/sample/src/main/kotlin/com/cioccarellia/sample/MainActivity.kt: (42, 13): Variable 'x' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/sample/src/main/kotlin/com/cioccarellia/sample/MainActivity.kt: (42, 13): Variable 'x' is never used
 
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
@@ -199,7 +201,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 1m 37s
+BUILD SUCCESSFUL in 1m 15s
 109 actionable tasks: 109 executed
 
-2021-03-10 20:46:30,780 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615383740254-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2021-04-03 19:40:32,520 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453405843-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

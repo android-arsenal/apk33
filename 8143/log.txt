@@ -1,33 +1,37 @@
-2021-03-11 00:39:27,853 INFO  DownloadService - Downloading "https://github.com/Pfuster12/LiveChart/archive/master.zip", attempt 3
-2021-03-11 00:39:29,327 INFO  DownloadService - Downloaded https://github.com/Pfuster12/LiveChart/archive/master.zip, attempt 3
-2021-03-11 00:39:29,328 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/master.zip": 3 MB
-2021-03-11 00:39:29,328 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2021-03-11 00:39:29,329 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/master.zip: true
-2021-03-11 00:39:29,329 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src'.
-2021-03-11 00:39:29,462 INFO  FullProcessService - Size of directory with sources: 15 MB
-2021-03-11 00:39:29,462 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src]
-2021-03-11 00:39:29,481 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/.git/
+2021-04-03 19:40:32,982 INFO  DownloadService - Downloading "https://github.com/Pfuster12/LiveChart/archive/master.zip", attempt 3
+2021-04-03 19:40:42,561 INFO  VirusProcessorServiceImpl - Queued project 8194 to scan viruses
+2021-04-03 19:41:33,573 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-04-03 19:41:34,465 INFO  GithubDownloadService - Default branch of this repository: master
+2021-04-03 19:41:34,465 INFO  DownloadService - Downloading "https://github.com/Pfuster12/LiveChart/archive/master.zip", attempt 3
+2021-04-03 19:42:35,469 DEBUG FullProcessService - Repository https://github.com/Pfuster12/LiveChart available: true
+2021-04-03 19:42:35,469 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-04-03 19:42:35,470 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Pfuster12/LiveChart, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src]
+2021-04-03 19:42:39,347 INFO  SysUtils - 
+2021-04-03 19:42:39,357 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/.git": true
+2021-04-03 19:42:39,365 INFO  FullProcessService - Size of directory with sources: 15 MB
+2021-04-03 19:42:39,365 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src]
+2021-04-03 19:42:39,387 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/.git/
 
-2021-03-11 00:39:29,487 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/gradlew
-2021-03-11 00:39:29,493 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/livechart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/build.gradle
-2021-03-11 00:39:29,498 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/livechart/build.gradle
-2021-03-11 00:39:29,498 INFO  ProjectBuildService - Remote scripts: none
-2021-03-11 00:39:29,498 INFO  ProjectFixService - Fixing project...
-2021-03-11 00:39:29,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/app/local.properties
-2021-03-11 00:39:29,512 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2021-03-11 00:39:29,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/livechart/local.properties
-2021-03-11 00:39:29,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/livechart/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2021-03-11 00:39:29,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/local.properties
-2021-03-11 00:39:29,514 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2021-03-11 00:39:29,515 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2021-03-11 00:39:29,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2021-03-11 00:39:29,516 INFO  ProjectFixService - Project was maybe fixed
-2021-03-11 00:39:29,516 INFO  ProjectTaskService - Detecting possible tasks...
-2021-03-11 00:39:29,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2021-03-11 00:39:40,101 INFO  ProjectTaskService - Detected possible tasks: 67
-2021-03-11 00:39:40,101 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2021-03-11 00:39:40,101 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2021-03-11 00:40:47,210 INFO  SysUtils - Configuration on demand is an incubating feature.
+2021-04-03 19:42:39,395 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/gradlew
+2021-04-03 19:42:39,403 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/livechart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/build.gradle
+2021-04-03 19:42:39,410 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/livechart/build.gradle
+2021-04-03 19:42:39,411 INFO  ProjectBuildService - Remote scripts: none
+2021-04-03 19:42:39,411 INFO  ProjectFixService - Fixing project...
+2021-04-03 19:42:39,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/app/local.properties
+2021-04-03 19:42:39,430 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2021-04-03 19:42:39,431 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/livechart/local.properties
+2021-04-03 19:42:39,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/livechart/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2021-04-03 19:42:39,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/local.properties
+2021-04-03 19:42:39,434 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2021-04-03 19:42:39,435 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2021-04-03 19:42:39,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2021-04-03 19:42:39,437 INFO  ProjectFixService - Project was maybe fixed
+2021-04-03 19:42:39,437 INFO  ProjectTaskService - Detecting possible tasks...
+2021-04-03 19:42:39,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-04-03 19:42:50,651 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-04-03 19:42:50,651 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-04-03 19:42:50,651 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-04-03 19:44:16,486 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :livechart:preBuild UP-TO-DATE
@@ -35,8 +39,8 @@
 > Task :livechart:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :livechart:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :livechart:generateDebugResValues
@@ -47,9 +51,10 @@
 > Task :app:extractDeepLinksDebug
 > Task :livechart:extractDeepLinksDebug
 > Task :app:mergeDebugResources
+> Task :livechart:compileDebugLibraryResources
 > Task :livechart:processDebugManifest
 > Task :app:processDebugManifest
-> Task :livechart:compileDebugLibraryResources
+> Task :livechart:parseDebugLocalResources
 > Task :livechart:generateDebugBuildConfig
 > Task :livechart:javaPreCompileDebug
 > Task :app:javaPreCompileDebug
@@ -61,7 +66,6 @@
 > Task :livechart:generateDebugAssets UP-TO-DATE
 > Task :livechart:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :livechart:parseDebugLocalResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :livechart:processDebugJavaRes NO-SOURCE
 > Task :livechart:generateDebugRFile
@@ -85,9 +89,6 @@
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :livechart:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :livechart:mergeDebugNativeLibs
-> Task :livechart:stripDebugDebugSymbols NO-SOURCE
-> Task :livechart:copyDebugJniLibsProjectOnly
 > Task :app:generateReleaseBuildConfig
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
@@ -95,39 +96,42 @@
 > Task :livechart:generateReleaseResValues
 > Task :livechart:generateReleaseResources
 > Task :livechart:packageReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeProjectDexDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :livechart:extractDeepLinksRelease
-> Task :app:mergeDebugJavaResource
+> Task :livechart:mergeDebugNativeLibs
+> Task :livechart:stripDebugDebugSymbols NO-SOURCE
+> Task :livechart:copyDebugJniLibsProjectOnly
 > Task :app:mergeLibDexDebug
-> Task :app:mergeProjectDexDebug
 > Task :livechart:generateReleaseBuildConfig
-> Task :livechart:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :livechart:compileReleaseLibraryResources
 > Task :app:mergeReleaseResources
-> Task :livechart:javaPreCompileRelease
-> Task :livechart:parseReleaseLocalResources
+> Task :livechart:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :app:javaPreCompileRelease
-> Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
-> Task :livechart:prepareLintJarForPublish
+> Task :livechart:parseReleaseLocalResources
+> Task :app:mergeDebugJavaResource
+> Task :livechart:javaPreCompileRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :livechart:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :livechart:compileReleaseKotlin
 > Task :livechart:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
 > Task :livechart:bundleLibCompileToJarRelease
 > Task :app:compileReleaseKotlin
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
 > Task :app:dexBuilderRelease
+> Task :livechart:prepareLintJarForPublish
+> Task :app:lintVitalRelease
+> Task :livechart:bundleLibRuntimeToJarRelease
 > Task :app:mergeExtDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :livechart:bundleLibRuntimeToJarRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders NO-SOURCE
 > Task :app:generateReleaseAssets UP-TO-DATE
@@ -156,7 +160,7 @@
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 6s
+BUILD SUCCESSFUL in 1m 25s
 85 actionable tasks: 85 executed
 
-2021-03-11 00:40:47,274 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1615397967849-0/src/LiveChart-master/app/build/outputs/apk/debug/app-debug.apk
+2021-04-03 19:44:16,567 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1617453632976-0/src/app/build/outputs/apk/debug/app-debug.apk
