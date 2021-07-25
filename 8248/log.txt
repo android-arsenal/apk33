@@ -1,0 +1,218 @@
+2021-07-26 04:41:47,320 INFO  DownloadService - Downloading "https://github.com/chnouman/DecadeOfMovies/archive/master.zip", attempt 3
+2021-07-26 04:42:18,671 INFO  VirusProcessorServiceImpl - Queued project 8249 to scan viruses
+2021-07-26 04:42:47,916 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-07-26 04:42:48,772 INFO  GithubDownloadService - Default branch of this repository: master
+2021-07-26 04:42:48,773 INFO  DownloadService - Downloading "https://github.com/chnouman/DecadeOfMovies/archive/master.zip", attempt 3
+2021-07-26 04:43:49,643 DEBUG FullProcessService - Repository https://github.com/chnouman/DecadeOfMovies available: true
+2021-07-26 04:43:49,645 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-07-26 04:43:49,646 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/chnouman/DecadeOfMovies, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src]
+2021-07-26 04:43:51,853 INFO  SysUtils - 
+2021-07-26 04:43:51,864 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/.git": true
+2021-07-26 04:43:51,870 INFO  FullProcessService - Size of directory with sources: 3 MB
+2021-07-26 04:43:51,871 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src]
+2021-07-26 04:43:51,898 INFO  SysUtils - hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/.git/
+
+2021-07-26 04:43:51,904 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/gradlew
+2021-07-26 04:43:51,911 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/build.gradle
+2021-07-26 04:43:51,916 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/settings.gradle
+2021-07-26 04:43:51,917 INFO  ProjectBuildService - Remote scripts: none
+2021-07-26 04:43:51,917 INFO  ProjectFixService - Fixing project...
+2021-07-26 04:43:51,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/local.properties
+2021-07-26 04:43:51,932 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/build.gradle": [buildToolsVersion=30.0.3,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-07-26 04:43:51,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-07-26 04:43:51,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/local.properties
+2021-07-26 04:43:51,934 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.7.1-bin.zip
+2021-07-26 04:43:51,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2021-07-26 04:43:51,936 INFO  ProjectFixService - Project was maybe fixed
+2021-07-26 04:43:51,936 INFO  ProjectTaskService - Detecting possible tasks...
+2021-07-26 04:43:51,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-07-26 04:44:45,084 INFO  ProjectTaskService - Detected possible tasks: 72
+2021-07-26 04:44:45,087 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-07-26 04:44:45,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-07-26 04:47:53,681 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+app: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.github.bumptech.glide:compiler:4.12.0'.
+WARNING:: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (30.0.2) for Android Gradle Plugin 4.2.1.
+Android SDK Build Tools 30.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+This repository is deprecated and it will be shut down in the future.
+See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+Currently detected usages in: root project 'DecadeOfMovies', project ':app'
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:generateDebugBuildConfig
+> Task :app:writeDebugApplicationId
+> Task :app:generateSafeArgsDebug
+> Task :app:mergeDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:processDebugManifestForPackage
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:processDebugResources
+
+> Task :app:kaptGenerateStubsDebugKotlin
+w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e00dacc495bcf6087f9c6e9eea2ccd78/jetified-kotlin-stdlib-jdk8-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c6befa14273c4d21b13ac74730c073c5/jetified-kotlin-stdlib-jdk7-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/dbd21f680f47eeef9ae06a7683bd7a4a/jetified-kotlin-stdlib-1.5.0.jar (version 1.5)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e7794d73dcc7b3db51ded7050dbc07ec/jetified-kotlin-stdlib-common-1.5.0.jar (version 1.5)
+w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
+
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies
+
+> Task :app:kaptDebugKotlin
+warning: Current JDK version 1.8.0_172-b11 has a bug (https://bugs.openjdk.java.net/browse/JDK-8007720) that prevents Room from being incremental. Consider using JDK 11+ or the embedded JDK shipped with Android Studio 3.5+./private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/build/tmp/kapt3/stubs/debug/com/noumanch/decadeofmovies/repositories/local/db/Db.java:8: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class Db extends androidx.room.RoomDatabase {
+                ^[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
+
+> Task :app:mergeExtDexDebug
+
+> Task :app:compileDebugKotlin
+w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e00dacc495bcf6087f9c6e9eea2ccd78/jetified-kotlin-stdlib-jdk8-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c6befa14273c4d21b13ac74730c073c5/jetified-kotlin-stdlib-jdk7-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/dbd21f680f47eeef9ae06a7683bd7a4a/jetified-kotlin-stdlib-1.5.0.jar (version 1.5)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e7794d73dcc7b3db51ded7050dbc07ec/jetified-kotlin-stdlib-common-1.5.0.jar (version 1.5)
+w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/models/Movie.kt: (10, 1): Parcelize annotations from package 'kotlinx.android.parcel' are deprecated. Change package to 'kotlinx.parcelize'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/repositories/MovieRepositoryImpl.kt: (69, 9): The corresponding parameter in the supertype 'IMovieRepository' is named 'perPage'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/repositories/MovieRepositoryImpl.kt: (81, 9): The corresponding parameter in the supertype 'IMovieRepository' is named 'originalData'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/repositories/local/prefs/PreferencesManager.kt: (56, 47): Unchecked cast: Any? to T?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/ui/fragments/detail/MovieDetailsFragment.kt: (61, 83): Parameter 'selectedImage' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/ui/fragments/detail/MovieDetailsFragment.kt: (109, 25): 'setter for chipCornerRadius: Float' is deprecated. Deprecated in Java
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeLibDexDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:writeReleaseApplicationId
+> Task :app:generateSafeArgsRelease
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:checkReleaseAarMetadata
+> Task :app:extractDeepLinksRelease
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseMainManifest
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :app:processReleaseManifest
+> Task :app:analyticsRecordingRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:desugarReleaseFileDependencies
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:collectReleaseDependencies
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:extractReleaseNativeSymbolTables NO-SOURCE
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:sdkReleaseDependencyData
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:processReleaseManifestForPackage
+> Task :app:processReleaseResources
+> Task :app:mergeExtDexRelease
+
+> Task :app:kaptGenerateStubsReleaseKotlin
+w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e00dacc495bcf6087f9c6e9eea2ccd78/jetified-kotlin-stdlib-jdk8-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c6befa14273c4d21b13ac74730c073c5/jetified-kotlin-stdlib-jdk7-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/dbd21f680f47eeef9ae06a7683bd7a4a/jetified-kotlin-stdlib-1.5.0.jar (version 1.5)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e7794d73dcc7b3db51ded7050dbc07ec/jetified-kotlin-stdlib-common-1.5.0.jar (version 1.5)
+w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
+
+> Task :app:optimizeReleaseResources
+
+> Task :app:kaptReleaseKotlin
+warning: Current JDK version 1.8.0_172-b11 has a bug (https://bugs.openjdk.java.net/browse/JDK-8007720) that prevents Room from being incremental. Consider using JDK 11+ or the embedded JDK shipped with Android Studio 3.5+./private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/build/tmp/kapt3/stubs/release/com/noumanch/decadeofmovies/repositories/local/db/Db.java:8: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class Db extends androidx.room.RoomDatabase {
+                ^[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
+
+> Task :app:compileReleaseKotlin
+w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e00dacc495bcf6087f9c6e9eea2ccd78/jetified-kotlin-stdlib-jdk8-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c6befa14273c4d21b13ac74730c073c5/jetified-kotlin-stdlib-jdk7-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/dbd21f680f47eeef9ae06a7683bd7a4a/jetified-kotlin-stdlib-1.5.0.jar (version 1.5)
+    /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e7794d73dcc7b3db51ded7050dbc07ec/jetified-kotlin-stdlib-common-1.5.0.jar (version 1.5)
+w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/models/Movie.kt: (10, 1): Parcelize annotations from package 'kotlinx.android.parcel' are deprecated. Change package to 'kotlinx.parcelize'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/repositories/MovieRepositoryImpl.kt: (69, 9): The corresponding parameter in the supertype 'IMovieRepository' is named 'perPage'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/repositories/MovieRepositoryImpl.kt: (81, 9): The corresponding parameter in the supertype 'IMovieRepository' is named 'originalData'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/repositories/local/prefs/PreferencesManager.kt: (56, 47): Unchecked cast: Any? to T?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/ui/fragments/detail/MovieDetailsFragment.kt: (61, 83): Parameter 'selectedImage' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/src/main/java/com/noumanch/decadeofmovies/ui/fragments/detail/MovieDetailsFragment.kt: (109, 25): 'setter for chipCornerRadius: Float' is deprecated. Deprecated in Java
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.0/4080d69efca5e39e9b4972f125e40f1607bd6460/kotlin-stdlib-common-1.5.0.jar (version 1.5)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.0/29dae2501ca094416d15af0e21470cb634780444/kotlin-stdlib-1.5.0.jar (version 1.5)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.4.10/30e46450b0bb3dbf43898d2f461be4a942784780/kotlin-stdlib-jdk7-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.4.10/998caa30623f73223194a8b657abd2baec4880ea/kotlin-stdlib-jdk8-1.4.10.jar (version 1.4)
+w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
+
+> Task :app:dexBuilderRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 3m 7s
+73 actionable tasks: 73 executed
+
+2021-07-26 04:47:53,867 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249307317-0/src/app/build/outputs/apk/debug/app-debug.apk

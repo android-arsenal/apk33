@@ -1,0 +1,14 @@
+2021-07-26 04:55:14,677 INFO  DownloadService - Downloading "https://github.com/myJarvis/EasyAnalytics/archive/master.zip", attempt 3
+2021-07-26 04:56:14,905 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-07-26 04:56:15,694 INFO  GithubDownloadService - Default branch of this repository: master
+2021-07-26 04:56:15,694 INFO  DownloadService - Downloading "https://github.com/myJarvis/EasyAnalytics/archive/master.zip", attempt 3
+2021-07-26 04:57:16,598 DEBUG FullProcessService - Repository https://github.com/myJarvis/EasyAnalytics available: true
+2021-07-26 04:57:16,598 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-07-26 04:57:16,598 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/myJarvis/EasyAnalytics, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250114674-0/src]
+2021-07-26 04:57:40,626 INFO  SysUtils - 
+2021-07-26 04:57:40,644 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250114674-0/src/.git": true
+2021-07-26 04:57:40,653 INFO  FullProcessService - Size of directory with sources: 75 MB
+2021-07-26 04:57:40,653 ERROR FullProcessService - Source directory should be less than 50 MB
+2021-07-26 04:57:40,653 ERROR FullProcessService - Project will not be processed
+2021-07-26 04:57:40,653 ERROR FullProcessService - Project build has not produced APK file
+2021-07-26 04:57:40,659 ERROR FullProcessService - Could not find generated or existed APK file

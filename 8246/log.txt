@@ -1,0 +1,15 @@
+2021-07-26 04:52:35,972 INFO  DownloadService - Downloading "https://github.com/GIGAMOLE/QuatroGrade/archive/master.zip", attempt 3
+2021-07-26 04:53:04,544 INFO  VirusProcessorServiceImpl - Queued project 8247 to scan viruses
+2021-07-26 04:53:38,610 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-07-26 04:53:39,470 INFO  GithubDownloadService - Default branch of this repository: master
+2021-07-26 04:53:39,470 INFO  DownloadService - Downloading "https://github.com/GIGAMOLE/QuatroGrade/archive/master.zip", attempt 3
+2021-07-26 04:54:40,405 DEBUG FullProcessService - Repository https://github.com/GIGAMOLE/QuatroGrade available: true
+2021-07-26 04:54:40,406 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-07-26 04:54:40,406 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/GIGAMOLE/QuatroGrade, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249955967-0/src]
+2021-07-26 04:55:14,629 INFO  SysUtils - 
+2021-07-26 04:55:14,644 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627249955967-0/src/.git": true
+2021-07-26 04:55:14,647 INFO  FullProcessService - Size of directory with sources: 81 MB
+2021-07-26 04:55:14,648 ERROR FullProcessService - Source directory should be less than 50 MB
+2021-07-26 04:55:14,648 ERROR FullProcessService - Project will not be processed
+2021-07-26 04:55:14,648 ERROR FullProcessService - Project build has not produced APK file
+2021-07-26 04:55:14,650 ERROR FullProcessService - Could not find generated or existed APK file

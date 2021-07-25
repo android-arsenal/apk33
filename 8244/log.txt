@@ -1,0 +1,280 @@
+2021-07-26 04:57:40,698 INFO  DownloadService - Downloading "https://github.com/BirjuVachhani/locus-android/archive/master.zip", attempt 3
+2021-07-26 04:58:40,931 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-07-26 04:58:42,047 INFO  GithubDownloadService - Default branch of this repository: master
+2021-07-26 04:58:42,047 INFO  DownloadService - Downloading "https://github.com/BirjuVachhani/locus-android/archive/master.zip", attempt 3
+2021-07-26 04:59:42,904 DEBUG FullProcessService - Repository https://github.com/BirjuVachhani/locus-android available: true
+2021-07-26 04:59:42,904 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-07-26 04:59:42,904 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/BirjuVachhani/locus-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src]
+2021-07-26 04:59:44,487 INFO  SysUtils - 
+2021-07-26 04:59:44,497 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/.git": true
+2021-07-26 04:59:44,500 INFO  FullProcessService - Size of directory with sources: 466 KB
+2021-07-26 04:59:44,500 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src]
+2021-07-26 04:59:44,525 INFO  SysUtils - hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/.git/
+
+2021-07-26 04:59:44,530 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/gradlew
+2021-07-26 04:59:44,533 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/build.gradle
+2021-07-26 04:59:44,537 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/settings.gradle
+2021-07-26 04:59:44,537 INFO  ProjectBuildService - Remote scripts: none
+2021-07-26 04:59:44,537 INFO  ProjectFixService - Fixing project...
+2021-07-26 04:59:44,547 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/local.properties
+2021-07-26 04:59:44,548 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-07-26 04:59:44,548 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-07-26 04:59:44,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/local.properties
+2021-07-26 04:59:44,550 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-07-26 04:59:44,551 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-07-26 04:59:44,551 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/local.properties
+2021-07-26 04:59:44,552 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.7.1-all.zip
+2021-07-26 04:59:44,552 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.7.1-bin.zip)
+2021-07-26 04:59:44,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-07-26 04:59:44,554 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2021-07-26 04:59:44,555 INFO  ProjectFixService - Project was maybe fixed
+2021-07-26 04:59:44,555 INFO  ProjectTaskService - Detecting possible tasks...
+2021-07-26 04:59:44,555 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2021-07-26 04:59:54,853 INFO  ProjectTaskService - Detected possible tasks: 67
+2021-07-26 04:59:54,854 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2021-07-26 04:59:54,854 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2021-07-26 05:01:28,772 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :locus
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :locus:preBuild UP-TO-DATE
+> Task :locus:preDebugBuild UP-TO-DATE
+> Task :locus:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :locus:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :locus:compileDebugRenderscript NO-SOURCE
+> Task :locus:generateDebugResValues
+> Task :locus:generateDebugResources
+> Task :locus:packageDebugResources
+> Task :app:generateDebugBuildConfig
+> Task :locus:writeDebugAarMetadata
+> Task :app:checkDebugAarMetadata
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :locus:extractDeepLinksDebug
+> Task :locus:processDebugManifest
+> Task :locus:compileDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:processDebugManifest
+> Task :locus:generateDebugBuildConfig
+> Task :locus:javaPreCompileDebug
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :locus:mergeDebugShaders
+> Task :locus:compileDebugShaders NO-SOURCE
+> Task :locus:generateDebugAssets UP-TO-DATE
+> Task :locus:packageDebugAssets
+> Task :locus:parseDebugLocalResources
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :locus:processDebugJavaRes NO-SOURCE
+> Task :locus:generateDebugRFile
+> Task :app:checkDebugDuplicateClasses
+
+> Task :locus:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocationBroadcastReceiver.kt: (49, 49): Unnecessary safe call on a non-null receiver of type LocationResult!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocationProvider.kt: (57, 13): Unnecessary safe call on a non-null receiver of type Task<Void!>!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocationProvider.kt: (60, 58): Unnecessary safe call on a non-null receiver of type Task<Location!>!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocationProvider.kt: (98, 50): Unnecessary safe call on a non-null receiver of type Task<Location!>!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (133, 32): 'rationaleTitle: String' is deprecated. Override R.string.locus_rationale_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (133, 64): 'rationaleTitle: String' is deprecated. Override R.string.locus_rationale_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (134, 20): 'rationaleTitle: String' is deprecated. Override R.string.locus_rationale_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (136, 34): 'rationaleText: String' is deprecated. Override R.string.locus_rationale_message in strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (136, 65): 'rationaleText: String' is deprecated. Override R.string.locus_rationale_message in strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (137, 20): 'rationaleText: String' is deprecated. Override R.string.locus_rationale_message in strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (207, 32): 'blockedTitle: String' is deprecated. Override R.string.locus_permission_blocked_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (207, 62): 'blockedTitle: String' is deprecated. Override R.string.locus_permission_blocked_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (208, 20): 'blockedTitle: String' is deprecated. Override R.string.locus_permission_blocked_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (210, 34): 'blockedText: String' is deprecated. Override R.string.locus_permission_blocked_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (210, 63): 'blockedText: String' is deprecated. Override R.string.locus_permission_blocked_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (211, 20): 'blockedText: String' is deprecated. Override R.string.locus_permission_blocked_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (244, 9): 'startActivityForResult(Intent!, Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (316, 32): 'resolutionTitle: String' is deprecated. Override R.string.locus_location_resolution_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (316, 65): 'resolutionTitle: String' is deprecated. Override R.string.locus_location_resolution_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (317, 20): 'resolutionTitle: String' is deprecated. Override R.string.locus_location_resolution_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (319, 34): 'resolutionText: String' is deprecated. Override R.string.locus_location_resolution_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (319, 66): 'resolutionText: String' is deprecated. Override R.string.locus_location_resolution_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (320, 20): 'resolutionText: String' is deprecated. Override R.string.locus_location_resolution_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (359, 15): 'onActivityResult(Int, Int, Intent?): Unit' is deprecated. Overrides deprecated member in 'androidx.activity.ComponentActivity'. Deprecated in Java
+
+> Task :locus:compileDebugJavaWithJavac
+> Task :app:processDebugManifestForPackage
+> Task :locus:bundleLibResDebug
+> Task :locus:bundleLibCompileToJarDebug
+> Task :locus:bundleLibRuntimeToJarDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:processDebugResources
+> Task :app:mergeExtDexDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/LocationService.kt: (60, 9): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/LocationService.kt: (71, 42): Candidate resolution will be changed soon, please use fully qualified name to invoke the following closer candidate explicitly '
+public open fun observe(p0: LifecycleOwner, p1: Observer<in LocusResult!>): Unit defined in androidx.lifecycle.LiveData'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/LocationService.kt: (71, 42): 'observe(LifecycleOwner, crossinline (T) -> Unit): Observer<T>' is deprecated. This extension method is not required when using Kotlin 1.4. You should remove "import androidx.lifecycle.observe"
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/MainActivity.kt: (53, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/MainActivity.kt: (101, 22): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/MainActivity.kt: (113, 21): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/MainActivity.kt: (122, 30): Parameter 'v' is never used
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :locus:mergeDebugJniLibFolders
+> Task :locus:mergeDebugNativeLibs NO-SOURCE
+> Task :locus:stripDebugDebugSymbols NO-SOURCE
+> Task :locus:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :locus:preReleaseBuild UP-TO-DATE
+> Task :locus:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :locus:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :locus:compileReleaseRenderscript NO-SOURCE
+> Task :locus:generateReleaseResValues
+> Task :locus:generateReleaseResources
+> Task :locus:packageReleaseResources
+> Task :app:generateReleaseBuildConfig
+> Task :locus:writeReleaseAarMetadata
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :locus:extractDeepLinksRelease
+> Task :app:checkReleaseAarMetadata
+> Task :locus:processReleaseManifest
+> Task :locus:generateReleaseBuildConfig
+> Task :locus:parseReleaseLocalResources
+> Task :locus:compileReleaseLibraryResources
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseMainManifest
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :app:processReleaseManifest
+> Task :locus:javaPreCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:writeReleaseApplicationId
+> Task :app:analyticsRecordingRelease
+> Task :locus:prepareLintJarForPublish
+> Task :app:mergeReleaseJniLibFolders
+> Task :locus:generateReleaseRFile
+> Task :locus:processReleaseJavaRes NO-SOURCE
+> Task :locus:mergeReleaseJniLibFolders
+> Task :locus:mergeReleaseNativeLibs NO-SOURCE
+> Task :locus:stripReleaseDebugSymbols NO-SOURCE
+> Task :locus:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :locus:mergeReleaseShaders
+> Task :locus:compileReleaseShaders NO-SOURCE
+> Task :locus:generateReleaseAssets UP-TO-DATE
+> Task :locus:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:mergeDexDebug
+> Task :app:processReleaseManifestForPackage
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeDebugJavaResource
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:processReleaseResources
+> Task :app:mergeExtDexRelease
+
+> Task :locus:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocationBroadcastReceiver.kt: (49, 49): Unnecessary safe call on a non-null receiver of type LocationResult!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocationProvider.kt: (57, 13): Unnecessary safe call on a non-null receiver of type Task<Void!>!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocationProvider.kt: (60, 58): Unnecessary safe call on a non-null receiver of type Task<Location!>!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocationProvider.kt: (98, 50): Unnecessary safe call on a non-null receiver of type Task<Location!>!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (133, 32): 'rationaleTitle: String' is deprecated. Override R.string.locus_rationale_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (133, 64): 'rationaleTitle: String' is deprecated. Override R.string.locus_rationale_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (134, 20): 'rationaleTitle: String' is deprecated. Override R.string.locus_rationale_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (136, 34): 'rationaleText: String' is deprecated. Override R.string.locus_rationale_message in strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (136, 65): 'rationaleText: String' is deprecated. Override R.string.locus_rationale_message in strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (137, 20): 'rationaleText: String' is deprecated. Override R.string.locus_rationale_message in strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (207, 32): 'blockedTitle: String' is deprecated. Override R.string.locus_permission_blocked_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (207, 62): 'blockedTitle: String' is deprecated. Override R.string.locus_permission_blocked_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (208, 20): 'blockedTitle: String' is deprecated. Override R.string.locus_permission_blocked_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (210, 34): 'blockedText: String' is deprecated. Override R.string.locus_permission_blocked_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (210, 63): 'blockedText: String' is deprecated. Override R.string.locus_permission_blocked_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (211, 20): 'blockedText: String' is deprecated. Override R.string.locus_permission_blocked_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (244, 9): 'startActivityForResult(Intent!, Int): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (316, 32): 'resolutionTitle: String' is deprecated. Override R.string.locus_location_resolution_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (316, 65): 'resolutionTitle: String' is deprecated. Override R.string.locus_location_resolution_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (317, 20): 'resolutionTitle: String' is deprecated. Override R.string.locus_location_resolution_title strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (319, 34): 'resolutionText: String' is deprecated. Override R.string.locus_location_resolution_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (319, 66): 'resolutionText: String' is deprecated. Override R.string.locus_location_resolution_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (320, 20): 'resolutionText: String' is deprecated. Override R.string.locus_location_resolution_message strings.xml instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/locus/src/main/java/com/birjuvachhani/locus/LocusActivity.kt: (359, 15): 'onActivityResult(Int, Int, Intent?): Unit' is deprecated. Overrides deprecated member in 'androidx.activity.ComponentActivity'. Deprecated in Java
+
+> Task :locus:compileReleaseJavaWithJavac
+> Task :locus:bundleLibCompileToJarRelease
+> Task :app:packageDebug
+> Task :app:assembleDebug
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/LocationService.kt: (60, 9): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/LocationService.kt: (71, 42): Candidate resolution will be changed soon, please use fully qualified name to invoke the following closer candidate explicitly '
+public open fun observe(p0: LifecycleOwner, p1: Observer<in LocusResult!>): Unit defined in androidx.lifecycle.LiveData'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/LocationService.kt: (71, 42): 'observe(LifecycleOwner, crossinline (T) -> Unit): Observer<T>' is deprecated. This extension method is not required when using Kotlin 1.4. You should remove "import androidx.lifecycle.observe"
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/MainActivity.kt: (53, 25): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/MainActivity.kt: (101, 22): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/MainActivity.kt: (113, 21): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/src/main/java/com/birjuvachhani/locationextensionsample/MainActivity.kt: (122, 30): Parameter 'v' is never used
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :locus:bundleLibResRelease
+> Task :locus:bundleLibRuntimeToJarRelease
+> Task :app:collectReleaseDependencies
+> Task :app:dexBuilderRelease
+> Task :app:sdkReleaseDependencyData
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:optimizeReleaseResources
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:extractReleaseNativeSymbolTables NO-SOURCE
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 33s
+106 actionable tasks: 106 executed
+
+2021-07-26 05:01:28,864 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250260695-0/src/app/build/outputs/apk/debug/app-debug.apk

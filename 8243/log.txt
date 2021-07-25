@@ -1,0 +1,15 @@
+2021-07-26 05:01:29,484 INFO  DownloadService - Downloading "https://github.com/SimformSolutionsPvtLtd/SSImagePicker/archive/master.zip", attempt 3
+2021-07-26 05:01:46,476 INFO  VirusProcessorServiceImpl - Queued project 8244 to scan viruses
+2021-07-26 05:02:30,125 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2021-07-26 05:02:30,934 INFO  GithubDownloadService - Default branch of this repository: main
+2021-07-26 05:02:30,934 INFO  DownloadService - Downloading "https://github.com/SimformSolutionsPvtLtd/SSImagePicker/archive/main.zip", attempt 3
+2021-07-26 05:03:31,895 DEBUG FullProcessService - Repository https://github.com/SimformSolutionsPvtLtd/SSImagePicker available: true
+2021-07-26 05:03:31,895 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2021-07-26 05:03:31,896 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SimformSolutionsPvtLtd/SSImagePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250489480-0/src]
+2021-07-26 05:04:18,822 INFO  SysUtils - 
+2021-07-26 05:04:18,844 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1627250489480-0/src/.git": true
+2021-07-26 05:04:18,851 INFO  FullProcessService - Size of directory with sources: 116 MB
+2021-07-26 05:04:18,851 ERROR FullProcessService - Source directory should be less than 50 MB
+2021-07-26 05:04:18,851 ERROR FullProcessService - Project will not be processed
+2021-07-26 05:04:18,851 ERROR FullProcessService - Project build has not produced APK file
+2021-07-26 05:04:18,858 ERROR FullProcessService - Could not find generated or existed APK file
